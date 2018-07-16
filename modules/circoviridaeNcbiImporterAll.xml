@@ -1,0 +1,15 @@
+<!-- Various sequences from NCBI Parvovirus -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-nuccore</sourceName>
+
+  <eSearchTerm>"Circoviridae"[Organism] OR "Cyclovirus"[Organism]</eSearchTerm>
+
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  <eSearchRetMax>100000</eSearchRetMax>
+
+  <eFetchBatchSize>500</eFetchBatchSize>
+  
+   
+</ncbiImporter>

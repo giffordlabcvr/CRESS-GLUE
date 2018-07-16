@@ -1,0 +1,106 @@
+  # Constrained alignment tree
+
+  create alignment AL_Circoviridae_MASTER -r REF_MASTER_PCV-1
+
+  
+  alignment AL_Circoviridae_MASTER 
+    add member --allSequences
+	extract child AL_Circovirus_genome --refName REF_MASTER_PCV-1
+	demote member AL_Circovirus_genome --whereClause "sequence.genus = 'Circovirus' and sequence.source.name = 'ncbi-refseqs' or sequence.genus = 'Circovirus' and sequence.source.name = 'reference-fasta'" 
+
+    extract child AL_Circoviridae_rep --refName REF_MASTER_PCV-1
+	demote member AL_Circoviridae_rep -a
+
+    exit
+
+
+  alignment AL_Circovirus_genome
+
+	#extract child AL_CVe_Eptatretus --refName REF_CVe_Eptatretus
+	#demote member AL_CVe_Eptatretus --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Hagfish'" 
+
+	extract child AL_CVe_Actinopterygii --refName REF_BarbCV
+	demote member AL_CVe_Actinopterygii --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Actinopterygii'" 
+
+	extract child AL_CVe_carnivora --refName REF_CVe_Carnivora
+	demote member AL_CVe_carnivora --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Carnivore'" 
+
+	extract child AL_CVe_serpentes --refName REF_CVe_Serpentes
+	demote member AL_CVe_serpentes --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Serpentes'" 
+
+	extract child AL_CVe_psittaciformes --refName REF_CVe_Psittaciformes
+	demote member AL_CVe_psittaciformes --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Psittaciforme'" 
+
+	extract child AL_CVe_passeriformes --refName REF_CVe_Passeriformes
+	demote member AL_CVe_passeriformes --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Passeriforme'" 
+
+    exit
+
+
+  alignment AL_Circoviridae_rep
+
+	extract child AL_CVl_loxosceles --refName REF_CVl_Loxosceles
+	demote member AL_CVl_loxosceles --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Loxosceles'" 
+
+	extract child AL_CVl_modiolus --refName REF_CVl_Modiolus
+	demote member AL_CVl_modiolus --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Modiolus'" 
+
+	extract child AL_CVl_mytilus --refName REF_CVl_Mytilus
+	demote member AL_CVl_mytilus --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Mytilus'"
+	
+	extract child AL_CVl_parhyale --refName REF_CVl_Parhyale
+	demote member AL_CVl_parhyale --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Parhyale'"
+	
+	extract child AL_CVe_varroa --refName REF_CVe_Varroa
+	demote member AL_CVe_varroa --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Varroa'"
+	
+	extract child AL_CVe_tropileilaps --refName REF_CVe_Tropileilaps
+	demote member AL_CVe_tropileilaps --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Tropileilaps'" 
+
+
+    exit
+
+
+
+  # Derive constrained alignment segments from unconstrained alignments
+  
+  alignment AL_CVl_parhyale
+    derive segments AL_UNCONSTRAINED_CVl_Parhyale -a --mergeStrategy OVERWRITE
+    exit
+  
+  alignment AL_CVl_mytilus
+    derive segments AL_UNCONSTRAINED_CVl_Mytilus -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_CVl_modiolus
+    derive segments AL_UNCONSTRAINED_CVl_Modolius -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_CVl_loxosceles
+    derive segments AL_UNCONSTRAINED_CVl_Loxosceles -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_CVe_passeriformes
+    derive segments AL_UNCONSTRAINED_CVe_Passeriformes -a --mergeStrategy OVERWRITE
+    exit
+ 
+  alignment AL_CVe_carnivora
+    derive segments AL_UNCONSTRAINED_CVe_Carnivora -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_CVe_passeriformes
+    derive segments AL_UNCONSTRAINED_CVe_Passeriformes -a --mergeStrategy OVERWRITE
+    exit
+
+  #alignment AL_CVe_psittaciformes
+  #  derive segments AL_UNCONSTRAINED_CVe_Psittaciformes -a --mergeStrategy OVERWRITE
+  #  exit
+
+  #alignment AL_CVe_serpentes
+  #  derive segments AL_UNCONSTRAINED_CVe_Serpentes -a --mergeStrategy OVERWRITE
+  #  exit
+
+  alignment AL_Circovirus_genome
+    derive segments AL_UNCONSTRAINED_Circovirus_genome -a --mergeStrategy OVERWRITE
+    exit
+

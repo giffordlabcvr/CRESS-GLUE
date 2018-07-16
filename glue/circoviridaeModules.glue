@@ -1,0 +1,8 @@
+  create module -f modules/DNA-ss/circoviridae/circoviridaeGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/DNA-ss/circoviridae/circoviridaeSideDataImporter.xml
+  create module -f modules/DNA-ss/circoviridae/eCVsideDataImporter.xml
+  create module -f modules/DNA-ss/circoviridae/unconstrainedAlignmentImporter.xml
+  create module -f modules/DNA-ss/circoviridae/featureLocationTextToGlue.xml 
+  create module -f modules/DNA-ss/circoviridae/fastaAlignmentExporter.xml 
+  create module -f modules/DNA-ss/circoviridae/circoviridaeTabularUtility.xml circoviridaeTabularUtility
+
