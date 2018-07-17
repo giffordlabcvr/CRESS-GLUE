@@ -1,55 +1,43 @@
-delete project dfe_circoviridae
+delete project circoviridae
 
-create project dfe_circoviridae "EVE-oriented GLUE project for the Circoviridae" --minVersion 0.1.50
+create project circoviridae "GLUE project for the Circoviridae" --minVersion 0.1.50
 
-schema-project dfe_circoviridae
+schema-project circoviridae
 
-  run file glue/DNA-ss/circoviridae/circoviridaeSchemaExtensions.glue
+  run file glue/circoviridaeSchemaExtensions.glue
   exit
 
-project dfe_circoviridae
+project circoviridae
 
   # load project settings
-  run file glue/DNA-ss/circoviridae/projectSettings.glue
+  run file glue/projectSettings.glue
 
   # create modules
-  run file glue/DNA-ss/circoviridae/circoviridaeModules.glue
+  run file glue/circoviridaeModules.glue
 
   # Import exogenous sources and side data 
-  import source sources/DNA-ss/circoviridae/ncbi-refseqs
-  run script glue/DNA-ss/circoviridae/loadExogenousData.js
+  import source sources/ncbi-refseqs
+  run script glue/loadExogenousData.js
 
   # Import metadata for exogenous reference sequences from tabular
   module circoviridaeSideDataImporter 
-    populate -f tabular/DNA-ss/circoviridae/circo-ncbi-refseqs-side-data.tsv
-    exit
-
-  # Import CVe sequences and side data 
-  import source sources/DNA-ss/circoviridae/circovirus-fasta/
-  import source sources/DNA-ss/circoviridae/cyclovirus-fasta/
-  import source sources/DNA-ss/circoviridae/reference-fasta/
-  run script glue/DNA-ss/circoviridae/loadEndogenousData1.js
-  run script glue/DNA-ss/circoviridae/loadEndogenousData2.js
-
-  # Import metadata for CVe from tabular
-  module eCVsideDataImporter 
-    populate -f tabular/DNA-ss/circoviridae/CVe-side-data-all.tsv
+    populate -f tabular/circo-ncbi-refseqs-side-data.tsv
     exit
 
   # Define genome features
-  run file glue/DNA-ss/circoviridae/circoviridaeFeatures.glue
+  run file glue/circoviridaeFeatures.glue
 
   # Create reference sequences
-  run file glue/DNA-ss/circoviridae/circoviridaeReferences.glue
+  run file glue/circoviridaeReferences.glue
   
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/DNA-ss/circoviridae/reference_feature_locations.tsv -r
+  module featureLocationTextToGlue transform tabular/reference_feature_locations.tsv -r
   
   # Import alignments
-  run file glue/DNA-ss/circoviridae/circoviridaeAlignments.glue
+  run file glue/circoviridaeAlignments.glue
 
   # Import alignment tree
-  run file glue/DNA-ss/circoviridae/circoviridaeAlignmentTree.glue
+  #run file glue/circoviridaeAlignmentTree.glue
 
   # Validate
   validate
