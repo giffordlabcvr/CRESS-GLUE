@@ -1,0 +1,17 @@
+ 
+  # Genus-level alignments 
+
+  # Import internal node alignments
+  module unconstrainedAlignmentImporter
+
+    #~# Genus-level alignments
+    
+    import AL_UNCONSTRAINED_Circovirus_genome -f alignments/internal/circovirus-genome.fna
+    exit
+
+    #~# Multiple genera alignments
+
+
+    #~# Subfamily-level alignments
+    
+

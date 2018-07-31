@@ -1,0 +1,46 @@
+delete project circoviridae
+
+create project circoviridae "GLUE project for the Circoviridae" --minVersion 0.1.50
+
+schema-project circoviridae
+
+  run file glue/circoviridaeSchemaExtensions.glue
+  exit
+
+project circoviridae
+
+  # load project settings
+  run file glue/projectSettings.glue
+
+  # create modules
+  run file glue/circoviridaeModules.glue
+
+  # Import exogenous sources and side data 
+  import source sources/ncbi-refseqs
+  run script glue/loadExogenousData.js
+
+  # Import metadata for exogenous reference sequences from tabular
+  module circoviridaeSideDataImporter 
+    populate -f tabular/circo-ncbi-refseqs-side-data.tsv
+    exit
+
+  # Define genome features
+  run file glue/circoviridaeFeatures.glue
+
+  # Create reference sequences
+  run file glue/circoviridaeReferences.glue
+  
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/reference_feature_locations.tsv -r
+  
+  # Import alignments
+  run file glue/circoviridaeAlignments.glue
+
+  # Import alignment tree
+  #run file glue/circoviridaeAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit
+
