@@ -2,6 +2,7 @@
     
     feature whole_genome set metatag INFORMATIONAL true
     create feature 5UTR -p whole_genome "5' UTR"
+    create feature nonanuc -p whole_genome "nonanucleotide motif"
     create feature Rep -p whole_genome "Replicase protein"
     create feature gp2 -p whole_genome "Hypothetical protein"
     create feature ORF3 -p whole_genome "Hypothetical protein"
