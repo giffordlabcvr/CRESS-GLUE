@@ -6,7 +6,7 @@
 
     #~# Genus-level alignments
     
-    import AL_UNCONSTRAINED_Circovirus_genome -f alignments/internal/circovirus-genome.fna
+    import AL_UNCONSTRAINED_Circovirus_genome -f alignments/internal/circovirus/circovirus-genome.fna
     exit
 
     #~# Multiple genera alignments
