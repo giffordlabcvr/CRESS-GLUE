@@ -43,8 +43,11 @@ GLUE> run file circoviridae.glue
 ## Contributors
 
 Robert J. Gifford (robert.gifford@glasgow.ac.uk)
+
 Josh Singer (josh.singer@glasgow.ac.uk)
+
 Tristan Dennis (t.dennis.1@research.gla.ac.uk)
+
 William de Souza (wmarciel2@gmail.com)
 
 
