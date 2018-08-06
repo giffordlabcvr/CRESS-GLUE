@@ -11,9 +11,9 @@ Circoviruses are small, non-enveloped viruses with circular, single stranded DNA
 
 This GLUE project contains reference information for the circovirus family, including:
 
-    A set of circovirus reference sequences linked to auxiliary data.
-    A comprehensive list of circovirus genome features and their specific locations on full genome reference sequences.
-    Alignments of circovirus reference sequences arranged hierarchically by clade.
+* A set of circovirus reference sequences linked to auxiliary data.
+* A comprehensive list of circovirus genome features and their specific locations on full genome reference sequences.
+* Alignments of circovirus reference sequences arranged hierarchically by clade.
 
 Who can use this resource, and for what?
 
@@ -21,7 +21,7 @@ Circoviridae-GLUE can be used a straightforward data repository, with no require
 
 In addition, however, the Circoviridae-GLUE project can be developed within the GLUE framework by extending the core dataset with new data and functionality. So far we have used Circoviridae-GLUE to develop the following GLUE extension projects.
 
-    [Circoviridae-EVE](https://giffordlabcvr.github.io/Circoviridae-EVE/) - a GLUE project for endogenous circoviral elements.
+[Circoviridae-EVE](https://giffordlabcvr.github.io/Circoviridae-EVE/) - a GLUE project for endogenous circoviral elements.
 
 
 ## Installation
