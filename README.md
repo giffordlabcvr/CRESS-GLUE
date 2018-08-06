@@ -2,7 +2,7 @@
 
 ## Description
 
-This is Circoviridae-GLUE: a GLUE project for the circoviruses (family Circoviridae ).
+This is Circoviridae-GLUE: a GLUE project for the [circoviruses](https://viralzone.expasy.org/11?outline=all_by_species) (family Circoviridae ).
 
 GLUE is an open source, data-centric bioinformatics environment specialised for developing virus genome data resources (VGDR).
 
