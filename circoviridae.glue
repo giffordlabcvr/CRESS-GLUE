@@ -34,10 +34,10 @@ project circoviridae
   module featureLocationTextToGlue transform tabular/reference_feature_locations.tsv -r
   
   # Import alignments
-  #run file glue/circoviridaeAlignments.glue
+  run file glue/circoviridaeAlignments.glue
 
   # Import alignment tree
-  #run file glue/circoviridaeAlignmentTree.glue
+  run file glue/circoviridaeAlignmentTree.glue
 
   # Validate
   validate
