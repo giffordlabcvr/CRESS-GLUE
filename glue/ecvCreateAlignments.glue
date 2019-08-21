@@ -1,0 +1,6 @@
+delete alignment AL_ECV_Carnivore
+
+create alignment AL_ECV_Carnivore -r REF_ECV_Carnivora
+alignment AL_ECV_Carnivore add member --whereClause "name = 'ECV.Carnivore'"
+compute alignment AL_ECV_Carnivore -a circoviridaeCompoundAligner 
+
