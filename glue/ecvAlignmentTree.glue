@@ -1,0 +1,93 @@
+  # Constrained alignment tree
+
+
+  alignment AL_Circovirus_genome
+
+	#extract child AL_ECV_Eptatretus --refName REF_ECV_Eptatretus
+	#demote member AL_ECV_Eptatretus --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Hagfish'" 
+
+	extract child AL_ECV_Actinopterygii --refName REF_BarbCV
+	demote member AL_ECV_Actinopterygii --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Actinopterygii'" 
+
+	extract child AL_ECV_carnivora --refName REF_ECV_Carnivora
+	demote member AL_ECV_carnivora --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Carnivore'" 
+
+	extract child AL_ECV_serpentes --refName REF_ECV_Serpentes
+	demote member AL_ECV_serpentes --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Serpentes'" 
+
+	extract child AL_ECV_psittaciformes --refName REF_ECV_Psittaciformes
+	demote member AL_ECV_psittaciformes --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Psittaciforme'" 
+
+	extract child AL_ECV_passeriformes --refName REF_ECV_Passeriformes
+	demote member AL_ECV_passeriformes --whereClause "sequence.genus = 'Circovirus' and sequence.clade = 'Passeriforme'" 
+
+    exit
+
+
+  alignment AL_Circoviridae_rep
+
+	extract child AL_ECV_loxosceles --refName REF_ECV_Loxosceles
+	demote member AL_ECV_loxosceles --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Loxosceles'" 
+
+	extract child AL_ECV_modiolus --refName REF_ECV_Modiolus
+	demote member AL_ECV_modiolus --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Modiolus'" 
+
+	extract child AL_ECV_mytilus --refName REF_ECV_Mytilus
+	demote member AL_ECV_mytilus --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Mytilus'"
+	
+	extract child AL_ECV_parhyale --refName REF_ECV_Parhyale
+	demote member AL_ECV_parhyale --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Parhyale'"
+	
+	extract child AL_ECV_varroa --refName REF_ECV_Varroa
+	demote member AL_ECV_varroa --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Varroa'"
+	
+	extract child AL_ECV_tropileilaps --refName REF_ECV_Tropileilaps
+	demote member AL_ECV_tropileilaps --whereClause "sequence.genus = 'CRESS' and sequence.clade = 'Tropileilaps'" 
+
+
+    exit
+
+
+
+  # Derive constrained alignment segments from unconstrained alignments
+  
+  alignment AL_ECV_parhyale
+    derive segments AL_UNCONSTRAINED_ECV_Parhyale -a --mergeStrategy OVERWRITE
+    exit
+  
+  alignment AL_ECV_mytilus
+    derive segments AL_UNCONSTRAINED_ECV_Mytilus -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_ECV_modiolus
+    derive segments AL_UNCONSTRAINED_ECV_Modolius -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_ECV_loxosceles
+    derive segments AL_UNCONSTRAINED_ECV_Loxosceles -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_ECV_passeriformes
+    derive segments AL_UNCONSTRAINED_ECV_Passeriformes -a --mergeStrategy OVERWRITE
+    exit
+ 
+  alignment AL_ECV_carnivora
+    derive segments AL_UNCONSTRAINED_ECV_Carnivora -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_ECV_passeriformes
+    derive segments AL_UNCONSTRAINED_ECV_Passeriformes -a --mergeStrategy OVERWRITE
+    exit
+
+  #alignment AL_ECV_psittaciformes
+  #  derive segments AL_UNCONSTRAINED_ECV_Psittaciformes -a --mergeStrategy OVERWRITE
+  #  exit
+
+  #alignment AL_ECV_serpentes
+  #  derive segments AL_UNCONSTRAINED_ECV_Serpentes -a --mergeStrategy OVERWRITE
+  #  exit
+
+  alignment AL_Circovirus_genome
+    derive segments AL_UNCONSTRAINED_Circovirus_genome -a --mergeStrategy OVERWRITE
+    exit
+
