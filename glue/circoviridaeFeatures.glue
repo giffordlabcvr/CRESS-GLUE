@@ -1,19 +1,9 @@
-create feature whole_genome "Whole genome"
-<<<<<<< HEAD
-
-  feature whole_genome set metatag INFORMATIONAL true
-    create feature 5UTR -p whole_genome "5' UTR"
-    create feature nonanuc -p whole_genome "nonanucleotide motif"
-    create feature Rep -p whole_genome "Replicase protein"
-    create feature gp2 -p whole_genome "Hypothetical protein"
-    create feature ORF3 -p whole_genome "Hypothetical protein"
-    create feature Cap -p whole_genome "Capsid protein"
-    create feature 3UTR "3' UTR"
-		
-=======
+  create feature whole_genome "Whole genome"
   
-  feature whole_genome set metatag INFORMATIONAL true
-  
+  feature whole_genome
+    set metatag INFORMATIONAL true
+	exit
+    
   create feature 5UTR -p whole_genome "5' UTR"
   
   create feature nonanuc -p whole_genome "nonanucleotide motif"
@@ -55,4 +45,4 @@ create feature whole_genome "Whole genome"
 	exit
 
   create feature 3UTR -p whole_genome "5' 3TR"
->>>>>>> rg_4
+
