@@ -1,11 +1,45 @@
-  create feature whole_genome "Whole genome"
-    
-    feature whole_genome set metatag INFORMATIONAL true
-    create feature 5UTR -p whole_genome "5' UTR"
-    create feature nonanuc -p whole_genome "nonanucleotide motif"
-    create feature Rep -p whole_genome "Replicase protein"
-    create feature gp2 -p whole_genome "Hypothetical protein"
-    create feature ORF3 -p whole_genome "Hypothetical protein"
-	create feature Cap -p whole_genome "Capsid protein"
-	create feature 3UTR "3' UTR"
-		
+create feature whole_genome "Whole genome"
+  
+  feature whole_genome set metatag INFORMATIONAL true
+  
+  create feature 5UTR -p whole_genome "5' UTR"
+  
+  create feature nonanuc -p whole_genome "nonanucleotide motif"
+  
+  create feature Rep -p whole_genome "Replicase protein"
+  feature Rep
+	set field displayName Rep
+	set metatag OWN_CODON_NUMBERING true
+	set metatag CODES_AMINO_ACIDS true
+	exit
+
+  create feature Cap-rev -p whole_genome "Capsid protein"
+  feature Cap-rev
+	set field displayName Cap-rev
+	set metatag OWN_CODON_NUMBERING true
+	set metatag CODES_AMINO_ACIDS true
+	set metatag REVERSE_COMPLEMENT_TRANSLATION true
+	exit
+
+  create feature Cap -p whole_genome "Capsid protein"
+  feature Cap
+	set field displayName Cap
+	set metatag OWN_CODON_NUMBERING true
+	set metatag CODES_AMINO_ACIDS true
+	exit
+
+  create feature gp2 -p whole_genome "gp2 protein"
+  feature gp2
+	set field displayName gp2
+	set metatag OWN_CODON_NUMBERING true
+	set metatag CODES_AMINO_ACIDS true
+	exit
+
+  create feature ORF3 -p whole_genome "Hypothetical protein"
+  feature ORF3
+	set field displayName ORF3
+	set metatag OWN_CODON_NUMBERING true
+	set metatag CODES_AMINO_ACIDS true
+	exit
+
+  create feature 3UTR -p whole_genome "5' 3TR"
