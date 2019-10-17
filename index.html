@@ -3,15 +3,15 @@
 
   <head>
   
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125113080-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127420264-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-127420264-1');
+	</script>
 
-  gtag('config', 'UA-125113080-1');
-</script>
 
     <meta charset="UTF-8">
     <title>Circoviridae-GLUE by giffordlabcvr</title>
@@ -21,177 +21,146 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
 
-
   </head>
+
   <body>
     <section class="page-header">
       <h1 class="project-name">Circoviridae-GLUE</h1>
-      <h2 class="project-tagline">A GLUE project for the Circoviridae.</h2>
+      <h2 class="project-tagline">A sequence data resource for circoviruses.</h2>
       <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tarball/master" class="btn">Download .tar.gz</a>
-      <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE" class="btn">View on GitHub</a>
+      <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
     <section class="main-content">
 
+	   <h3>
+		 <a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
+	   </h3>
+
+	   <p>
+		 This is <b>Circoviridae-GLUE</b>, a <a href="http://tools.glue.cvr.ac.uk/"><b>GLUE</b></a> project
+		 designed to support comparative genomic and evolutionary analysis of <a target="_blank" href="https://viralzone.expasy.org/11">circoviruses</a>.
+		 <b>Circoviridae-GLUE</b> contains aligned, annotated genome sequence data for:
+		 <ol>
+		   <li><a target="_blank" href="https://viralzone.expasy.org/11">Circoviruses</a> (family <i>Circoviridae</i>)</li> 
+		   <li>Endogenous viral elements (EVEs) derived from circoviruses</li>
+		 </ol>
+	   </p>
+
+	   <h3>
+		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence data</strong>
+	   </h3>
+	   
+	   <p>
+		 The sequence data in this project have been organised into the following
+		 <b>sources</b>:<br>
+	   </p>
+	   
+	   	   
+	   <p>	      
+		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/sources/ncbi-refseqs">representative circovirus species</a>.		 
+		 These
+		 <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
+		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a> using a GLUE module
+		 (see <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/blob/master/modules/ncbiImporters/circoviridaeNcbiImporterReferences.xml">here</a>)
+		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
+	   </p>
+	   
+	   <p>
+		 <b>fasta-curated</b>: A non-redundant set of 
+		 <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/blob/master/tabular/ecv-side-data.tsv">circovirus-derived EVE loci</a>.
+		 These
+		 <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/sources/fasta-epv-digs">FASTA sequences</a>
+		 have been curated via systematic screening of whole genome sequence (WGS) assemblies using the 
+		 <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/">DIGS tool</a>.
+		 Sequences in this source have unique IDs based on arbitrary numbering. 
+	   </p>
+	      	   
+	   <p>
+		 <b>fasta-refseqs</b>: EVE reference sequences - i.e. best-guess estimates of the ancestral circovirus sequences that gave rise to EVEs.
+		 Where possible these are consensus/ancestral sequences derived from alignments
+		 <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/alignments/tips/eve">included in this project</a>.
+		 Sequence IDs used in this source correspond to the names of the unique EVE loci they represent
+		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
+	   </p>
+ 
+	   <h3>
+	   <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
+	   </h3>
+	   
+	   <p>
+         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
+		 
+		 <ol>
+		   <li><a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/blob/master/tabular/references/circo-ncbi-refseqs-side-data.tsv">Basic taxonomic data</a> for genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
+		   <li><a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/blob/master/tabular/ecv-side-data.tsv">Locus data</a> for the EVE sequences in <b>fasta-curated</b>.</li> 
+		   <!-- <li><a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/blob/master/tabular/locus-side-data.tsv">Evolutionary history</a> of the EVE loci represented in <b>fasta-refseqs</b>.</li> -->
+		 </ol>
+		 
+	   </p>
+		 
+	   <h3>
+		 <a id="alignments" class="anchor" href="#alignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments (MSAs)</strong>
+	   </h3>
+	   
+	   <p>
+		 Several distinct categories of MSA are included in this project, each representing a distinct taxonomic level.
+		
+		 <ol>
+		   <li><b>Tip (i)</b>: <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/alignments/tip/virus">Virus species</a> (genome-length)</li> 
+		   <li><b>Tip (ii)</b>: <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/alignments/tips/virus">EVE lineages</a> (single gene).
+		   These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)</li> 
+		   <li><b>Internal</b>: <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/alignments/internal">Virus genera</a> (genome-length)</li> 
+		   <li><b>Root</b>: <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/alignments/root">Viruses and EVE reference sequences</a> (single gene)</li> 
+		 </ol>
+	   </p>
+
+
+	   <h3>
+	   <a id="glueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>GLUE project</strong>
+	   </h3>
+
+      	   
+	   <p>
+	
+         On computers with <a href="http://tools.glue.cvr.ac.uk/#/installation">GLUE installed</a>,
+         the <b>Circoviridae-GLUE</b> project can be instantiated by navigating to the project folder,
+         initiating GLUE, and issuing the following command in the GLUE shell:
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file circoviridaeProject.glue</code></pre>
+		 
+	   </p>
 
 
 
+	   <h3>
+		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
+	   </h3>
+	   
+	   <p>
 
-<h3>
-<a id="circoviridae-glue" class="anchor" href="#circoviridae-glue" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
-</h3>
+		 Access to this GitHub repository is currently restricted. To request access please contact:
 
-<p>
-This is Circoviridae-GLUE: a GLUE project for the circoviruses 
-(family
-<i>
-<a href="https://viralzone.expasy.org/11?outline=all_by_species">Circoviridae</a>)
-</i>.
-</p>
+		 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
+		 <p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
 
-
-<p>
-<a href="https://viralzone.expasy.org/11?outline=all_by_species">Circoviruses</a>
-are small, non-enveloped viruses with circular,
-single stranded DNA (ssDNA) genomes ~1.8 to ~2.1 kilobases (kb) in length.
-</p>
-
-
-<p>
-GLUE is an
-<a href="http://tools.glue.cvr.ac.uk">open source, data-centric bioinformatics environment</a>
-specialised for developing virus genome data resources (VGDR). 
-</p>
-
-
-<p>
-This GLUE project contains reference information for the circovirus family, including:
-
-<ol>
-<li>A set of <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/sources/ncbi-refseqs">circovirus reference sequences</a> linked to <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/blob/master/tabular/circo-ncbi-refseqs-side-data.tsv">auxiliary data</a>.</li>
-<li>A list of <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/blob/master/glue/circoviridaeFeatures.glue">circovirus genome features</a> and their <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/blob/master/tabular/reference_feature_locations.tsv">specific locations</a> on full genome reference sequences.</li>
-<li><a href="https://github.com/giffordlabcvr/Circoviridae-GLUE/tree/master/alignments">Alignments</a> of circovirus reference sequences arranged hierarchically by clade.</li>
-</ol>
-
-
-</p>
-
-
-<h3>
-<a id="whos-it-for" class="anchor" href="#whos-it-for" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use Circoviridae GLUE</strong>
-</h3>
-
-
-<p>
-Circoviridae-GLUE can be used a straightforward data repository, with no 
-requirement for use of the GLUE software framework.
-</p>
-
-<p>
-
-In addition, however, the Circoviridae-GLUE project can be developed within the GLUE
-framework by extending the core dataset with new data and functionality. 
-So far we have used Circoviridae-GLUE to develop the following GLUE extension projects.
-
-<ul>
-<li><a href="https://giffordlabcvr.github.io/Circoviridae-EVE/">Circoviridae-EVE</a>
-- a GLUE project for endogenous circoviral elements (ECV).
-</li>
-</ul>
-
-</p>
+		 
+	   </p>
 
 
 
-<h3>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Installation</strong>
-</h3>
+	 <footer class="site-footer">
+	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/DIGS-tool">Circoviridae-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
 
-
-<p>
-
-Circoviridae-GLUE can be installed on computers running Windows, MacOSX or Linux, as follows:
-
-<ol>
-<li>Install GLUE, based on the <a href="http://tools.glue.cvr.ac.uk/#/installation">GLUE installation instructions</a>.</li> 
-<li>Clone the <a href="https://github.com/giffordlabcvr/Circoviridae-GLUE">Circoviridae-GLUE</a> repository into your `gluetools/projects` directory.</li> 
-<li>Navigate to the `gluetools/projects/Circoviridae-GLUE` directory on the command line, initiate GLUE, and build the project by issuing the following command in the GLUE shell:</li>
-</ol>
-
-
-
-<pre>
-<code>Mode path: /
-GLUE> run file circoviridae.glue
-</code></pre>
-
-
-</p>
-
-
-
-
-
-<h3>
-<a id="background" class="anchor" href="#circoviridae-glue" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Details</strong>
-</h3>
-
-
-<p>
-Circovirus genomes encode two major proteins:
-replication-associated protein (<a href="https://www.uniprot.org/uniprot/Q8BB16">Rep</a>) and capsid (<a href="https://www.rcsb.org/structure/1k3v">Cap</a>), responsible for genome replication and particle formation respectively.
-</p>
-
-<p>
-Two genera are currently recognised within this family:
-<i>
-<a href="https://viralzone.expasy.org/118">Circovirus</a>
-</i>
-and
-<i>
-<a href="https://viralzone.expasy.org/7296">Cyclovirus</a>
-</i>.
-</p>
-
-<p>
-In genus <i>Circovirus</i> transcription is bidirectional with the <i>rep</i> gene
-being encoded in the forward sense, and the <i>cap</i> gene being encoded in the
-complementary sense.
-</p>
-
-
-
-
-<h3>
-	<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
-</h3>
-
-<p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
-
-<p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
-
-
-
-
-<h3>
-	<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
-</h3>
-
-<p>
-This project is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v. 3.0</a>.
-</p>
-
-
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/Circoviridae-GLUE">Circoviridae-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+	   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+	 </footer>
 
     </section>
 
 
   </body>
+  
 </html>
