@@ -1,55 +1,53 @@
-# Circoviridae-GLUE
+# Filoviridae-EVE
 
 ## Description
 
-This is Circoviridae-GLUE: a GLUE project for the [circoviruses](https://viralzone.expasy.org/11?outline=all_by_species) (family Circoviridae).
+This is Filoviridae-EVE, a GLUE project designed to support comparative genomic and evolutionary analysis of filoviruses.
 
-[GLUE](http://tools.glue.cvr.ac.uk) is an open source, data-centric bioinformatics environment specialised for developing virus genome data resources (VGDR).
+Filoviridae-EVE contains aligned, annotated genome sequence data for:
 
-Circoviruses are small, non-enveloped viruses with circular, single stranded DNA (ssDNA) genomes ~1.8 to ~2.1 kilobases (kb) in length. Circovirus genomes encode two major proteins: replication-associated protein (Rep) and capsid (Cap), responsible for genome replication and particle formation respectively. Transcription is bidirectional with the rep gene being encoded in the forward sense, and the cap gene being encoded in the complementary sense.
+1. Filoviruses (family Filoviridae)
+2. Endogenous viral elements (EVEs) derived from filoviruses
 
-This [GLUE](http://tools.glue.cvr.ac.uk) project contains reference information for the circovirus family, including:
+## Sequence data
 
-* A set of circovirus reference sequences linked to auxiliary data.
-* A comprehensive list of circovirus genome features and their specific locations on full genome reference sequences.
-* Alignments of circovirus reference sequences arranged hierarchically by clade.
+The sequence data in this project have been organised into the following sources:
 
-Who can use this resource, and for what?
+*ncbi-refseqs*: Genome-length reference sequences of representative filovirus species. These XML-formatted files are downloaded directly from NCBI using a GLUE module (see here) and are uniquely identified within this project by their GenBank accession numbers.
 
-Circoviridae-GLUE can be used a straightforward data repository, with no requirement for use of the GLUE software framework.
+*fasta-curated*: A non-redundant set of filovirus-derived EVE loci. These FASTA sequences have been curated via systematic screening of whole genome sequence (WGS) assemblies using the DIGS tool. Sequences in this source have unique IDs based on arbitrary numbering.
 
-In addition, however, the Circoviridae-GLUE project can be developed within the GLUE framework by extending the core dataset with new data and functionality. So far we have used Circoviridae-GLUE to develop the following GLUE extension projects.
+*fasta-refseqs*: EVE reference sequences - i.e. best-guess estimates of the ancestral filovirus sequences that gave rise to EVEs. Where possible these are consensus/ancestral sequences derived from alignments included in this project. Sequence IDs used in this source correspond to the names of the unique EVE loci they represent (see here for details). 
 
-[Circoviridae-EVE](https://giffordlabcvr.github.io/Circoviridae-EVE/) - a GLUE project for endogenous circoviral elements.
+## Sequence-associated data
 
+Sequences included in this project are linked to auxiliary data in tabular format, this includes:
 
-## Installation
+1. Basic taxonomic data for genome-length virus reference sequence in ncbi-refseqs.
+2. Locus data for the EVE sequences in fasta-curated.
+3. Evolutionary history of the EVE loci represented in fasta-refseqs.
 
-You can install Circoviridae-GLUE on computers running Windows, MacOSX or Linux.
+## Multiple sequence alignments (MSAs)
 
-1. Install [GLUE](http://tools.glue.cvr.ac.uk), based on the [GLUE installation instructions](http://tools.glue.cvr.ac.uk/#/installation). 
-2. Once GLUE is installed and working, you should download Offline Circoviridae-GLUE and load it in to GLUE.
-3. Clone the Circoviridae-GLUE repository into your `gluetools/projects` directory.
-4. Within the `gluetools/projects/Circoviridae-GLUE` directory, start GLUE and build the project by issuing the command shown below::
+Several distinct categories of MSA are included in this project, each representing a distinct taxonomic level.
 
-```
-Mode path: /
-GLUE> run file circoviridae.glue
-```
-5. This should run to completion and produce the `OK` result.
+1. Tip (i): Virus species (genome-length)
+2. Tip (ii): EVE lineages (single gene). These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)
+3. Internal: Virus genera (genome-length)
+4. Root: Viruses and EVE reference sequences (single gene)
+
+## GLUE project
+
+On computers with
+[GLUE](http://tools.glue.cvr.ac.uk) installed, the Filoviridae-EVE project can be instantiated by
+navigating to the project folder, initiating GLUE, and issuing the following command in the GLUE shell:
+
+	Mode path: /
+	GLUE> run file filoviridaeProject.glue
 
 
 ## Contributors
 
 Robert J. Gifford (robert.gifford@glasgow.ac.uk)
 
-Josh Singer (josh.singer@glasgow.ac.uk)
-
-Tristan Dennis (t.dennis.1@research.gla.ac.uk)
-
-William de Souza (wmarciel2@gmail.com)
-
-
-## License
-
-The project is licensed under the [GNU Affero General Public License v. 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
+Josh Singer (josh.singer@glasgow.ac.uk) 
