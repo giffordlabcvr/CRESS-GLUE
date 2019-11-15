@@ -11,6 +11,7 @@
   create reference REF_PCV-1 ncbi-refseqs NC_001792	
   create reference REF_PCV-2 ncbi-refseqs NC_005148
   create reference REF_PCV-3 ncbi-refseqs NC_031753
+  create reference REF_Po-41 ncbi-refseqs NC_025683
 
   # Canine circovirus
   create reference REF_CfCV  ncbi-refseqs NC_020904
@@ -25,7 +26,7 @@
   create reference REF_BFDV  ncbi-refseqs NC_001944
   create reference REF_ZfCV  ncbi-refseqs NC_026945
   create reference REF_FiCV  ncbi-refseqs NC_008522
-  create reference REF_RaCV ncbi-refseqs NC_008375
+  create reference REF_RaCV  ncbi-refseqs NC_008375
   create reference REF_CaCV  ncbi-refseqs NC_003410
   create reference REF_GuCV  ncbi-refseqs NC_008521
   create reference REF_SvCV  ncbi-refseqs NC_008033

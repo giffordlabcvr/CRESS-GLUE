@@ -1,0 +1,13 @@
+reference REF_MASTER_PCV-1
+
+  feature-location 5UTR
+  
+    create variation nonanucleotide_motif -t nucleotideSimplePolymorphism --labeledCodon 48 60
+    variation core_motif_I
+      set metatag REGEX_AA_PATTERN LP\wD[FY]FP\w{5}[VL] 
+    exit                          
+   
+  exit
+
+exit
+ 
