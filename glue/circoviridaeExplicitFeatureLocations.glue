@@ -1,0 +1,21 @@
+multi-delete feature_location -w "referenceSequence.name = 'REF_PCV-1'"
+
+reference REF_PCV-1
+
+  add feature-location L_whole_genome
+  feature-location L_whole_genome
+    add segment 1 7279
+    exit
+    
+  add feature-location Z
+  feature-location Z
+    add segment 66 365
+    exit
+    
+  add feature-location L
+  feature-location L
+    add segment 466 7122
+    exit
+  
+  exit
+  
