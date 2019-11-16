@@ -1,4 +1,3 @@
-    
   ## Circovirus ECV  
   create reference REF_ECV_Eptatretus fasta-refseqs ECV.Eptatretus-consensus
   create reference REF_ECV_Carnivora fasta-refseqs ECV.Carnivore-consensus
@@ -6,8 +5,7 @@
   create reference REF_ECV_Passeriformes fasta-refseqs ECV.Passeriformes.1-consensus
   create reference REF_ECV_Psittaciformes fasta-refseqs ECV.Psittaciformes.1-consensus
   create reference REF_ECV_Actinopterygii fasta-refseqs ECV.Actinopterygii-consensus
- 
- 
+  
   ## Cyclovirus/CRESS ECV  
   create reference REF_ECV_Loxosceles   fasta-refseqs ECV.Loxosceles-consensus
   create reference REF_ECV_Modiolus     fasta-refseqs ECV.Modiolus-consensus

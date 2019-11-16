@@ -3,9 +3,8 @@ project circoviridae
   run file glue/ecvDeleteModules.glue
 
   delete source fasta-refseqs
-
   delete source fasta-refseqs
-  delete source fasta-digs  
+  delete source fasta-curated  
   exit
 
 schema-project circoviridae
@@ -22,7 +21,7 @@ project circoviridae
 
   # Import ECV sequences and side data 
   import source sources/fasta-refseqs/
-  import source sources/fasta-digs/
+  import source sources/fasta-curated/
   
   run script glue/loadEndogenousData1.js
   run script glue/loadEndogenousData2.js
@@ -36,7 +35,7 @@ project circoviridae
   run file glue/ecvReferences.glue
 
   # Import alignments
-  #run file glue/ecvAlignments.glue
+  run file glue/ecvAlignments.glue
 
   # Import alignment tree
   #run file glue/ecvAlignmentTree.glue

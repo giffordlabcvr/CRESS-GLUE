@@ -4,7 +4,7 @@
   module unconstrainedAlignmentImporter
 
     # Circovirus tip alignments
-    import AL_UNCONSTRAINED_ECV_Amphibia -f alignments/tips/circovirus/ECV-amphibia-master.fna
+    #import AL_UNCONSTRAINED_ECV_Amphibia -f alignments/tips/circovirus/ECV-amphibia-master.fna
     import AL_UNCONSTRAINED_ECV_Carnivora -f alignments/tips/circovirus/ECV-carnivore-master-1.fna
     import AL_UNCONSTRAINED_ECV_Passeriformes -f alignments/tips/circovirus/ECV-passeriforme-master-1.fna
     #import AL_UNCONSTRAINED_ECV_Serpentes -f alignments/tips/circovirus/ECV-serpentes-master-1.fna

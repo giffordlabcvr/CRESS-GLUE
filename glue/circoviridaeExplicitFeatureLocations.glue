@@ -22,9 +22,9 @@ reference REF_PCV-1
     add segment 994 1037
     exit
     
-  add feature-location Cap
-  feature-location Cap
-    add segment 1730 1038
+  add feature-location Cap-rev
+  feature-location Cap-rev
+    add segment 1038 1730
     exit
 
   add feature-location 3UTR
