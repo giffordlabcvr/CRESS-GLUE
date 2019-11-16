@@ -43,12 +43,9 @@
   create reference REF_SgCV   ncbi-refseqs NC_025246
      
   ### CRESS
-  
   create reference AHEaCV-14 ncbi-refseqs NC_026641
     
-    
-  ### Cyclovirus 
-      
+  ### Cyclovirus     
   create reference REF_HuACyV-1 ncbi-refseqs KJ831064
   create reference REF_BatACyV-10 ncbi-refseqs KM382270
 
