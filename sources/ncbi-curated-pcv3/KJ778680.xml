@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KJ778680</GBSeq_locus>
+    <GBSeq_length>1767</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-MAR-2015</GBSeq_update-date>
+    <GBSeq_create-date>10-AUG-2014</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus-2 isolate PCV2-2, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KJ778680</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ778680.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ778680.1|</GBSeqid>
+      <GBSeqid>gi|671183115</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1767</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Stephenson,R.J.</GBAuthor>
+          <GBAuthor>Trible,B.R.</GBAuthor>
+          <GBAuthor>Wang,Y.</GBAuthor>
+          <GBAuthor>Kerrigan,M.A.</GBAuthor>
+          <GBAuthor>Goldstein,S.M.</GBAuthor>
+          <GBAuthor>Rowland,R.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Multiplex serology for common viral infections in feral pigs (Sus scrofa) in Hawaii between 2007 and 2010</GBReference_title>
+        <GBReference_journal>J. Wildl. Dis. 51 (1), 239-243 (2015)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.7589/2013-09-242</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>25380357</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1767</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Trible,B.R.</GBAuthor>
+          <GBAuthor>Rowland,R.R.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-MAY-2014) Diagnostic Medicine and Pathobiology, Kansas State University, 1800 Denison Ave, Manhattan, KS 66506, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1767</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1767</GBInterval_to>
+            <GBInterval_accession>KJ778680.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PCV2-2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>51..995</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>51</GBInterval_from>
+            <GBInterval_to>995</GBInterval_to>
+            <GBInterval_accession>KJ778680.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replicase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AII71781.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSKKNGRSGPQPHKRWVFTLNNPSEDERKKIRDLPISLFDYFIVGEEGNEEGRTPHLQGFANFVKKQTFNKVKWYLGARCHIEKAKGTDQQNKEYCSKEGNLLIECGAPRSQGQRSDLSTAVSTLLESGSLVTVAEQYPVTFVRNFRGLAELLKVSGKMQKRDWKTNVHVIVGPPGCGKSKWAANFADPETTYWKPPRNKWWDGYHGEEVVVIDDFYGWLPWDDLLRLCDRYPLTVETKGGTVPFLARSILITSNQTPLEWYSSTAVPAVEALYRRITSLVFWKNATEQSTGEGGQFVTLSPPCPEFPYEINY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1033..1734)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1734</GBInterval_from>
+            <GBInterval_to>1033</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KJ778680.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AII71782.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTYPRRRYRRRRHRPRSHLGQILRRRPWLVHPRHRYRWRRKNGIFNTRLSRTFGYTIKRTTVRTPSWAVDMMRFNINDFLPPGGGSNPRSVPFEYYRIRKVKVEFWPCSPITQGDRGVGSSAVILDDNFVTKATALTYDPYVNYSSRHTITQPFSYHSRYFTPKPVLDSTIDYFQPNNKRNQLWLRLQTAGNVDHVGLGTAFENSIYDQEYNIRVTMYVQFREFNLKDPPLNP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accagcgcacttcggcagcggcagcacctcggcagcacctcagcagcaacatgcccagcaagaagaatggaagaagcggaccccaaccccataaaaggtgggtgttcactctgaataatccttccgaagacgagcgcaagaaaatacgggatcttccaatatccctatttgattattttattgttggcgaggagggtaatgaggaaggacgaacacctcacctccaggggttcgctaattttgtgaagaagcagacttttaataaagtgaagtggtatttgggtgcccgctgccacatcgagaaagccaaaggaacagatcagcagaataaagaatactgcagtaaagaaggcaacttactgattgagtgtggagctcctagatctcagggacaacggagtgacctgtctactgctgtgagtaccttgttggagagcgggagtctggtgaccgttgcagagcagtaccctgtaacgtttgtcagaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcagaagcgtgattggaagactaatgtacacgtcattgtggggccacctgggtgtggtaaaagcaaatgggctgctaattttgcagacccggaaaccacatactggaaaccacctagaaacaagtggtgggatggttaccatggtgaagaagtggttgttattgatgacttttatggctggctgccctgggatgatctactgagactgtgtgatcgatatccattgactgtagagactaaaggtggaactgtaccttttttggcccgcagtattctgattaccagcaatcagaccccgttggaatggtactcctcaactgctgtcccagctgtagaagctctttatcggaggattacttccttggtattttggaagaatgctacagaacaatccacgggggaagggggccagttcgtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtcttttttatcacttcgtaatggtttttattattcattaagggttaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattgtattcctggtcgtatatactgttttcgaatgcagtgccgaggcctacgtggtctacatttccagcagtttgtagtctcagccacagctggtttcttttgttgtttggttggaagtaatcaatagtggaatctaggacaggtttgggggtaaagtagcgggagtggtaggagaagggctgggttatggtatggcgggaggagtagtttacataggggtcataggtgagggctgtggcctttgttacaaagttatcatctagaataacagcactggagcccactcccctgtcaccctgggtgatcggggagcagggccagaattcaaccttaacctttcttattctgtagtattcaaagggcacagagcgggggtttgagccccctcctgggggaagaaagtcattaatattgaatctcatcatgtccaccgcccaggagggcgttctgactgtggttcgcttgatagtatatccgaaggtgcgggataggcgggtgttgaagatgccatttttccttctccagcggtaacggtggcgggggtggacgagccaggggcggcggcggaggatctggccaagatggctgcgggggcggtgtcttcttctccggtaacgcctccttggatacgtcatatctgaaaacgaaagaagtgcgctgtaagtatt</GBSeq_sequence>
+  </GBSeq>

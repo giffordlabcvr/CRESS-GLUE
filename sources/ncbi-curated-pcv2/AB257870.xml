@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB257870</GBSeq_locus>
+    <GBSeq_length>579</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>28-APR-2006</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 2 gene for putative capsid protein, partial cds, isolate: PCV2-Henan</GBSeq_definition>
+    <GBSeq_primary-accession>AB257870</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB257870.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB257870.1|</GBSeqid>
+      <GBSeqid>gi|94384868</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..579</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yan,R.Q.</GBAuthor>
+          <GBAuthor>Zhao,M.J.</GBAuthor>
+          <GBAuthor>Wu,Z.M.</GBAuthor>
+          <GBAuthor>Zhang,Z.L.</GBAuthor>
+          <GBAuthor>Zhang,J.</GBAuthor>
+          <GBAuthor>Zhao,X.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Development of a ELISA diagnose Method based on capsid protein of porcine circovirus type II without nuclear localization</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..579</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yan,R.Q.</GBAuthor>
+          <GBAuthor>Zhao,M.J.</GBAuthor>
+          <GBAuthor>Wu,Z.M.</GBAuthor>
+          <GBAuthor>Zhang,Z.L.</GBAuthor>
+          <GBAuthor>Zhang,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-APR-2006) Ruo Qian Yan, Henan animal diseases control &amp; prevention centre, Animal Husbandry Bureau of Henan Province; No.91Jingsan Road,JinShui District, Zhengzhou, Henan Province 450011, P.R. China (E-mail:yrq1688@126.com, Tel:86-0371-65778930, Fax:86-371-65778930)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..579</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>579</GBInterval_to>
+            <GBInterval_accession>AB257870.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PCV2-Henan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..579</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>579</GBInterval_to>
+            <GBInterval_accession>AB257870.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAE93606.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>NGIFNTRLSRTFGYTIKRTTVKTPSWAVDMMRFNINDFLPPGGGSNPRSVPFEYYRIRKVKVEFWPCSPITQGDRGVGSSAVILDDNFVTKATALTYDPYVNYSSRHTITQPFSYHSRYFTPKPVLDSTIDHFQPNNKRNQLWLRLQTAGNVDHVGLGTAFENSIYDQEYNIRVTMYVQFREFNLKDPPLNP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aatggcatcttcaacacccgcctctcccgcaccttcggatatactatcaagcgaaccacagtcaaaacgccctcctgggcggtagacatgatgagattcaatattaatgactttcttcccccaggagggggctcaaacccccgctctgtgccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctccccgatcacccagggtgacaggggagtgggctccagtgctgttattctagatgataactttgtaacaaaggccacagccctcacctatgacccctatgtaaactactcctcccgccataccataacccagcccttctcctaccactcccgctactttacccccaaacctgtcctagattccactattgatcacttccaaccaaacaacaaaagaaatcagctgtggctgagactccaaactgctggaaatgtagaccacgtaggcctcggcactgcgttcgaaaacagtatatacgaccaggaatacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaatccctaa</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HZ417917</GBSeq_locus>
+    <GBSeq_length>1768</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>09-FEB-2016</GBSeq_update-date>
+    <GBSeq_create-date>09-FEB-2016</GBSeq_create-date>
+    <GBSeq_definition>JP 2014094016-A/1: POSTWEANING MULTISYSTEM WASTING SYNDROME VIRUS FROM PIGS</GBSeq_definition>
+    <GBSeq_primary-accession>HZ417917</GBSeq_primary-accession>
+    <GBSeq_accession-version>HZ417917.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HZ417917.1|</GBSeqid>
+      <GBSeqid>pat|JP|2014094016|1</GBSeqid>
+      <GBSeqid>gi|987981125</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2014094016-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Potter,A.A.</GBAuthor>
+          <GBAuthor>Chappuis,G.</GBAuthor>
+          <GBAuthor>Babiuk,L.A.</GBAuthor>
+          <GBAuthor>Mcneilly,F.</GBAuthor>
+          <GBAuthor>Wang,L.</GBAuthor>
+          <GBAuthor>Charreyre,C.</GBAuthor>
+          <GBAuthor>Clark,E.</GBAuthor>
+          <GBAuthor>Harding,J.</GBAuthor>
+          <GBAuthor>Hassard,L.</GBAuthor>
+          <GBAuthor>Meehan,B.</GBAuthor>
+          <GBAuthor>Ellis,J.</GBAuthor>
+          <GBAuthor>Allan,G.</GBAuthor>
+          <GBAuthor>Haines,D.</GBAuthor>
+          <GBAuthor>Willson,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>POSTWEANING MULTISYSTEM WASTING SYNDROME VIRUS FROM PIGS</GBReference_title>
+        <GBReference_journal>JP2014094016-A 1 22-MAY-2014 UNIVERSITY OF SASKATCHEWAN,THE QUEEN'S UNIVERSITY OF BELFAST,MERIAL SAS</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Porcine Circovirus Type II~PN JP 2014094016-A/1~PD 22-MAY-2014~PF 03-FEB-2014 JP 2014018298~PR 11-DEC-1997 US 60/069233 ,16-DEC-1997 US 60/069750~PA UNIVERSITY OF SASKATCHEWAN,THE QUEEN'S UNIVERSITY OF~PA BELFAST,MERIAL SAS~PI andrew a potter,gilles chappuis,lorne a babiuk,francis~PI mcneilly,li wang,~PI catherine charreyre,edward clark,john harding,lori~PI hassard,brian meehan,~PI john ellis,gordon allan,deborah haines,philip willson~PT 'POSTWEANING MULTISYSTEM WASTING SYNDROME VIRUS FROM PIGS'~PS N1~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1768</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1768</GBInterval_to>
+            <GBInterval_accession>HZ417917.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accagcgcacttcggcagcggcagcacctcggcagcacctcagcagcaacatgcccagcaagaagaatggaagaagcggaccccaaccacataaaaggtgggtgttcacgctgaataatccttccgaagacgagcgcaagaaaatacgggagctcccaatctccctatttgattattttattgttggcgaggagggtaatgaggaaggacgaacacctcacctccaggggttcgctaattttgtgaagaagcaaacttttaataaagtgaagtggtatttgggtgcccgctgccacatcgagaaagccaaaggaactgatcagcagaataaagaatattgtagtaaagaaggcaacttacttattgaatgtggagctcctcgatctcaaggacaacggagtgacctgtctactgctgtgagtaccttgttggagagcgggagtctggtgaccgttgcagagcagcaccctgtaacgtttgtcagaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcagaagcgtgattggaagaccaatgtacacgtcattgtggggccacctgggtgtggtaaaagcaaatgggctgctaattttgcagacccggaaaccacatactggaaaccacctagaaacaagtggtgggatggttaccatggtgaagaagtggttgttattgatgacttttatggctggctgccgtgggatgatctactgagactgtgtgatcgatatccattgactgtagagactaaaggtggaactgtaccttttttggcccgcagtattctgattaccagcaatcagaccccgttggaatggtactcctcaactgctgtcccagctgtagaagctctctatcggaggattacttccttggtattttggaagaatgctacaaaacaatccacggaggaagggggccagttcgtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtcttttttatcacttcgtaatggtttttattattcatttagggttcaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattgtagtcctggtcgtatttactgttttcgaacgcagtgccgaggcctacgtggtccacatttccagaggtttgtagcctcagccaaagctgattccttttgttatttggttggaagtaatcaatagtggagtcaagaacaggtttgggtgtgaagtaacgggagtggtaggagaagggttgggggattgtatggcgggaggagtagtttacatatgggtcataggttagggctgtggcctttgttacaaagttatcatctaaaataacagcagtggagcccactcccctatcaccctgggtgatgggggagcaaggccagaattcaaccttaacctttcttattctgtagtattcaaagggtatagagattttgttggtcccccctcccgggggaacaaagtcgtcaattttaaatctcatcatgtccaccgcccaggagggcgttgtgactgtggtacgcttgacagtatatccgaaggtgcgggagaggcgggtgttgaagatgccatttttccttctccaacggtagcggtggcgggggtggacgagccaggggcggcggcggaggatctggccaagatggctgcgggggcggtgtcttcttctgcggtaacgcctccttggatacgtcatagctgaaaacgaaagaagtgcgctgtaagtatt</GBSeq_sequence>
+  </GBSeq>

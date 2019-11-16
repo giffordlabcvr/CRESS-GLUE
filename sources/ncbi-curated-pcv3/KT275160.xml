@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT275160</GBSeq_locus>
+    <GBSeq_length>749</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-JAN-2016</GBSeq_update-date>
+    <GBSeq_create-date>11-JAN-2016</GBSeq_create-date>
+    <GBSeq_definition>UNVERIFIED: Porcine circovirus-2 isolate PAC-EdoMex-Coatlan-PCV2-13-1 replication-associated protein-like and capsid protein-like genes, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KT275160</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT275160.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT275160.1|</GBSeqid>
+      <GBSeqid>gi|971830758</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UNVERIFIED</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..749</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bedolla,F.</GBAuthor>
+          <GBAuthor>Trujillo,M.E.</GBAuthor>
+          <GBAuthor>Mendoza,S.</GBAuthor>
+          <GBAuthor>Ramirez-Mendoza,H.</GBAuthor>
+          <GBAuthor>Ojeda-Flores,R.</GBAuthor>
+          <GBAuthor>Sanchez-Betancourt,J.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>First report of porcine circovirus (PCV2) type II genotypes in Mexico, through OFR2 sequencing</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..749</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bedolla,F.</GBAuthor>
+          <GBAuthor>Trujillo,M.E.</GBAuthor>
+          <GBAuthor>Mendoza,S.</GBAuthor>
+          <GBAuthor>Ramirez-Mendoza,H.</GBAuthor>
+          <GBAuthor>Ojeda-Flores,R.</GBAuthor>
+          <GBAuthor>Sanchez-Betancourt,J.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-JUL-2015) Department of Medicine and Husbandry: Pigs, School of Veterinary Medicine and Husbandry, UNAM, Av. Universidad No. 3000, Mexico City, DF 04510, Mexico</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank staff is unable to verify sequence and/or annotation provided by the submitter.; ; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..749</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>749</GBInterval_to>
+            <GBInterval_accession>KT275160.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PAC-EdoMex-Coatlan-PCV2-13-1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>pig</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mexico</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>13-Mar-2013</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>F. Bedolla</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..153</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>153</GBInterval_to>
+            <GBInterval_accession>KT275160.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(191..&gt;749)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>749</GBInterval_from>
+            <GBInterval_to>191</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KT275160.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to capsid protein; 27.8 kDa protein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcaactgctgtccagctgtaagaagctctttatcggaggattacttccttggtattttggaagaatgctacagaacaatccacggaggaagggggccagttcgtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtcttttttatcacttcgtaatggtttttattattcattaagggttaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattgtattcctggtcgtatatactgttttcgaacgcagtgccgaggcctacgtggtctacatttccagtagtttgtagtctcagccacagctgatttcttttgttgtttggttggaagtaatcaatagtggaatctaggacaggtttgggggtaaagtagcgggagtggtaggagaagggctgggttatggtatggcgggaggagtagtttacataggggtcataggtgagggctgtggcctttgttacaaagttatcatctagaatcacagcactggagcccactcccctgtctccctgggtgatcggggagcagggccagaattcaaccttaacctttcttattctgtagtattcaaagggcacagagcgggggtttgagccccctcctgggggaagaaagtcattaatattgaatctcatcatgtccaccgcccaggagggcgttctgactgtggttttcttgatagtatatccgaaggtgcggagaggc</GBSeq_sequence>
+  </GBSeq>

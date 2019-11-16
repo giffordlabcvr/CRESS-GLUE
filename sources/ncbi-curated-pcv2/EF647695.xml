@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF647695</GBSeq_locus>
+    <GBSeq_length>693</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>01-MAR-2008</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 2 isolate sp-9-6-50-12 capsid protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>EF647695</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF647695.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF647695.1|</GBSeqid>
+      <GBSeqid>gi|157411283</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..693</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Grau-Roma,L.</GBAuthor>
+          <GBAuthor>Crisci,E.</GBAuthor>
+          <GBAuthor>Sibila,M.</GBAuthor>
+          <GBAuthor>Lopez-Soria,S.</GBAuthor>
+          <GBAuthor>Nofrarias,M.</GBAuthor>
+          <GBAuthor>Cortey,M.</GBAuthor>
+          <GBAuthor>Fraile,L.</GBAuthor>
+          <GBAuthor>Olvera,A.</GBAuthor>
+          <GBAuthor>Segales,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A proposal on porcine circovirus type 2 (PCV2) genotype definition and their relation with postweaning multisystemic wasting syndrome (PMWS) occurrence</GBReference_title>
+        <GBReference_journal>Vet. Microbiol. 128 (1-2), 23-35 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.vetmic.2007.09.007</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17976930</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..693</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Grau-Roma,L.</GBAuthor>
+          <GBAuthor>Elisa,C.</GBAuthor>
+          <GBAuthor>Olvera,A.</GBAuthor>
+          <GBAuthor>Sibila,M.</GBAuthor>
+          <GBAuthor>Lopez-Soria,S.</GBAuthor>
+          <GBAuthor>Nofrarias,M.</GBAuthor>
+          <GBAuthor>Fraile,L.</GBAuthor>
+          <GBAuthor>Segales,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-JUN-2007) Departament de Sanitat i Anatomia Animals, Centre de Recerca en Sanitat Animal (CReSA) - Universitat Autonoma de Barcelona (UAB), Campus Bellaterra, Edifici CReSA, Bellaterra, Barcelona 08193, Spain</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..693</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>693</GBInterval_to>
+            <GBInterval_accession>EF647695.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>sp-9-6-50-12</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..671</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>671</GBInterval_to>
+            <GBInterval_accession>EF647695.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Orf2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABV54298.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>RHRPRSHLGQILRRRPWLVHPRHRYRWRRKNGIFNTRLSRTFGYTIKRTTVRTPSWAVDMMRFNINDFLPPGGGSNPRSVPFEYYRIRKVKVEFWPCSPITQGDRGVGSSAVILDDNFVTKATALTYDPYVNYSSRHTITQPFSYHSRYFTPKPVLDSTIDYFQPNNKRNQLWLRLQTAGNVDHVGLGTAFENSIYDQEYNIRVTMYVQFREFNLKDPPLNP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgttaccgctggagaagaaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactatcaagcgaaccacagtcagaacaccctcctgggcggtagacatgatgagattcaatattaatgactttcttcccccaggagggggctcaaacccccgctcggtgccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctccccgatcacccagggtgacaggggagtgggctccagtgctgttattctagatgataactttgtaacaaaggccacagccctcacctatgacccctatgtaaactactcctcccgccataccataacccagcccttctcctaccactcccgctactttacccccaaacctgtcctagactccactattgattacttccaaccaaacaacaaaagaaaccagctgtggcttagactacaaactgctggaaatgtagaccacgtaggcctcggcactgcgttcgaaaacagtatatacgaccaggaatacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaacccttaatgaataataaaaaccattacga</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HW154685</GBSeq_locus>
+    <GBSeq_length>1768</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>30-JUL-2013</GBSeq_update-date>
+    <GBSeq_create-date>30-JUL-2013</GBSeq_create-date>
+    <GBSeq_definition>JP 2013507944-A/4: DETECTION OF A CIRCOVIRUS IN CALVES SUFFERING FROM BOVINE NEONATAL PANCYTOPENIA</GBSeq_definition>
+    <GBSeq_primary-accession>HW154685</GBSeq_primary-accession>
+    <GBSeq_accession-version>HW154685.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HW154685.1|</GBSeqid>
+      <GBSeqid>pat|JP|2013507944|4</GBSeqid>
+      <GBSeqid>gi|527493187</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2013507944-A/4</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kappe,E.</GBAuthor>
+          <GBAuthor>Schade,B.</GBAuthor>
+          <GBAuthor>Boettcher,J.</GBAuthor>
+          <GBAuthor>Halami,M.Y.</GBAuthor>
+          <GBAuthor>Mueller,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>DETECTION OF A CIRCOVIRUS IN CALVES SUFFERING FROM BOVINE NEONATAL PANCYTOPENIA</GBReference_title>
+        <GBReference_journal>JP2013507944-A 4 07-MAR-2013 UNIVERSITAT LEIPZIG,TIERGESUNDHEITSDIENST BAYERN E V</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Porcine circovirus 2~PN JP 2013507944-A/4~PD 07-MAR-2013~PF 22-OCT-2010 JP 2012534712~PR 22-OCT-2009 EP 09173810.4~PA UNIVERSITAT LEIPZIG,TIERGESUNDHEITSDIENST BAYERN E V PI eva kappe,benjamin schade,jens boettcher,mohammad yahya halami, PI hermann mueller~PT 'DETECTION OF A CIRCOVIRUS IN CALVES SUFFERING FROM BOVINE PT NEONATAL~PT PANCYTOPENIA'~PS N7~CC~FH Key Location/Qualifiers~FT misc_feature (1)..(1768)~FT /note='Porcine circovirus 2 isolate PCV2-Ha09, FT complete~FT genome'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1768</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1768</GBInterval_to>
+            <GBInterval_accession>HW154685.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accagcgcacttcggcagcggcagcacctcggcagcacctcagcagcaacatgcccagcaagaagaatggaagaagcggaccccaaccccataaaaggtgggtgttcactctgaataatccttccgaagacgagcgcaagaaaatacgggatcttccaatatccctatttgattattttattgttggcgaggagggtaatgaggaaggacgaacacctcaccttcaggggttcgctaattttgtgaagaagcagacttttaataaagtgaagtggtatttgggtgcccgctgccacatcgagaaagcgaaaggaacagatcagcagaataaagaatactgcagtaaagaaggcaacttactgatggagtgtggagctcctagatctcagggacaacggagtgacctgtctactgctgtgagtaccttgttggagagcgggagtctggtgaccgttgcagagcagcaccctgtaacgtttgtcagaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcagaagcgtgattggaagactaatgtacacgtcattgtggggccacctgggtgtggtaaaagcaaatgggctgctaattttgcagacccggaaaccacatactggaaaccacctagaaacaagtggtgggatggttaccatggtgaagaagtggttgttattgatgacttttatggctggctgccatgggatgatctactgagactgtgtgatcgatatccattgactgtagagactaaaggtggaactgtaccttttttggcccgcagtattctgattaccagcaatcagaccccgttggaatggtactcctcaactgctgtcccagctgtagaagctctttatcggaggattacttccttggtattttggaagaatgctacagaacaatccacggaggaagggggccagttcgtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtcttttttatcacttcgtaattgtttttattattcatttagggtttaagtggggggtctttaagattaaattctctgaattgtacatacattgttacacggatattgtagtcctggtcgtatttactgttttcgaacgcagtgccgaggcctacgtggtccacatttctactggtttggagtctcatccacagctgattccttttgttatttggttggaagtaatcaatagtggaatcaagaacaggtttgggggtaaagtagcgggagtggtaggagaagggctgggttatggtatggcgggaggagtagttaacataggggtcataggtgagggctgtggcttttgttacaaagttatcatctagaataacagcactggagcccactcccctgtcaccctgggtgatcggggagcagggccagaattcaaccttaacctttcttattctgtagtattcaaagggcacagagcgggggtttgagccccctcctgggggaagaaagtcattaatattgaatctcatcatgtccaccgcccaggagggcgttttgactgtggttcgcttgatagtatatccgaaggtgcgggagaggcgggtgttgaagatgccatttttccttctccagcggtaacggtggcgggggtggacgagccaggggcggcggcggaggatctggccaagatggctgcgggggcggtgtcttcttctccggtaacgcctccttggatacgtcatatctgaaaacgaaagaagtgcgctgtaagtatt</GBSeq_sequence>
+  </GBSeq>

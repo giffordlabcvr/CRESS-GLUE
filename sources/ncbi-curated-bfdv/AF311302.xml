@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF311302</GBSeq_locus>
+    <GBSeq_length>1993</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>09-FEB-2001</GBSeq_update-date>
+    <GBSeq_create-date>07-NOV-2000</GBSeq_create-date>
+    <GBSeq_definition>Beak and feather disease virus natural-host Cacatua galerita, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>AF311302</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF311302.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF311302.1|</GBSeqid>
+      <GBSeqid>gi|11119224</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Beak and feather disease virus</GBSeq_source>
+    <GBSeq_organism>Beak and feather disease virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1993</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bassami,M.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic studies of beak and feather disease virus</GBReference_title>
+        <GBReference_journal>Thesis (2000) Murdoch University, Perth, Western Australia, Australia</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1993</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bassami,M.R.</GBAuthor>
+          <GBAuthor>Ypelaar,I.</GBAuthor>
+          <GBAuthor>Berryman,D.</GBAuthor>
+          <GBAuthor>Wilcox,G.E.</GBAuthor>
+          <GBAuthor>Raidal,S.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic diversity of beak and feather disease virus detected in psittacine species in Australia</GBReference_title>
+        <GBReference_journal>Virology 279 (2), 392-400 (2001)</GBReference_journal>
+        <GBReference_pubmed>11162795</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1993</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bassami,M.R.</GBAuthor>
+          <GBAuthor>Ypelaar,I.B.</GBAuthor>
+          <GBAuthor>Wilcox,G.E.</GBAuthor>
+          <GBAuthor>Raidal,S.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-OCT-2000) Division of Veterinary and Biomedical Sciences, Murdoch University, South Street, Perth, Western Australia 6150, Australia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1993</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1993</GBInterval_to>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Beak and feather disease virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Cacatua galerita</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:77856</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>peripheral blood mononuclear cells; PBMC</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Australia: Western Australia</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>stem_loop</GBFeature_key>
+        <GBFeature_location>join(1976..1993,1..12)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1976</GBInterval_from>
+            <GBInterval_to>1993</GBInterval_to>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>12</GBInterval_to>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to the stem-loop involved in replication of porcine circoviruses, plant circoviruses and geminiviruses</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>rep_origin</GBFeature_key>
+        <GBFeature_location>join(1987..1993,1..2)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1987</GBInterval_from>
+            <GBInterval_to>1993</GBInterval_to>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2</GBInterval_to>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonanucleotide motif; similar to rep-origin of porcine circoviruses, plant circoviruses and geminiviruses</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>131..1000</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>131</GBInterval_from>
+            <GBInterval_to>1000</GBInterval_to>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Rep</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>131..1000</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>131</GBInterval_from>
+            <GBInterval_to>1000</GBInterval_to>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>non-experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>REP; ORF1; similar to REP protein encoded by porcine circoviruses, plant circoviruses (such as banana bunchy top virus, subterranean clover stunt virus, faba bean necrotic yellow virus and coconut foliar decay virus) and geminiviruses; 33.57 kDa predicted protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative replicase-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAG30567.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSKEGSGCRRWCFTLNNPTDGEIEFVRTLGPDEFYYAIVGREKGEQGTPHLRGYFHFKNKKRLSALKKMLPRAHFERAKGSDADNEKYCSKEGDVILTLGIVARDGHRAFDGAVAAVMSGRKMKEVAREFPDIYVRHGRGLHNLSLLVGSRPRDFKTEVDVIYGPPGCGKSKWANEQPGTKYYKMRGEWWDGYDGEDIVILDDFYGWLPYCEMLRLCDRYPHKVPVKGAFVEFTSKRIIITSNKAPETWYKEDCDPKPLFRRFTRVWWYNVDRLEQVRPDFLAHPINY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>543..1019</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>543</GBInterval_from>
+            <GBInterval_to>1019</GBInterval_to>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>non-experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to beak and feather disease virus ORF5 encoded by GenBank Accession Number AF080560; 16.76 kDa predicted protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>unknown</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAG30568.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGVACITSRYWLVPAHVISRRRLTSSTGPRGVARVNGPMSSRGLNIIKCAVNGGMDMMGKISSSWTTSMGGYLIARCSASATVTHIKCQLRAHLWSLPARGSLLRAIRPPRPGTRRTVTLSHCSGGSHVFGGTTWTGWNKSGLTSSPTPSITDSLGDV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1235..1978)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1978</GBInterval_from>
+            <GBInterval_to>1235</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>non-experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to capsid protein of porcine circoviruses; 28.9 kDa predicted protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAG30569.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MWGTSNCACAKFQIRRRYARPYRRRHIRRYRRRRRHFRRRRFTTNRVYTLRLTRQFQFKIQKQTTSVGNLIFNADYITFALDDFLQAVPNPHALNFEDYRIKLAKMEMRPTGGRYTVQSDGFGHTAVIQDSRITKFKTTADQTQDPLAPFDGAKKWFVSRGFKRLLRPKPQITIEDLTTANQSAALWLNSARTGWIPLQGGPNSAGTKVRHYGIAFSFPQPQQTITYVTKLTLYVQFRQFAPNNPST</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(1964..1966)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1966</GBInterval_from>
+            <GBInterval_to>1964</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>AF311302.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>potential alternative start codon</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acccgccgcctggggcaccggggcaccgcagctattggctgctctgccgaggtgcccgcccctagggaggagtaaatggcggcgttatacgccgccgtaatctccggaggatcacacccgcccgggaaccatgccgtccaaggagggctccggctgtcgccgttggtgtttcacccttaacaaccctacagacggcgagatcgaattcgtccgtactctcgggcctgacgaattctactatgccatcgttggacgggaaaagggcgagcaaggtaccccccatttgcgaggctactttcattttaaaaataagaagcgactgagcgctcttaagaaaatgctgccgcgagctcattttgagcgcgctaaaggtagcgatgcggataatgagaagtattgcagtaaagagggggatgttatacttaccctgggcattgtggcgagagacggtcaccgcgctttcgacggagctgttgctgccgtgatgtccggacgcaaaatgaaggaagtcgcgcgagagttcccagatatctacgtcaggcatgggcgtggcttgcataacctctcgctattggttggttcccgcccacgtgatttcaagacggaggttgacgtcatctacgggcccccggggtgtggcaagagtaaatgggccaatgagcagccggggactaaatattataaaatgcgcggtgaatggtgggatggatatgatggggaagatatcgtcatcctggacgacttctatgggtggctaccttattgcgagatgctccgcctctgcgaccgttacccacataaagtgccagttaagggcgcatttgtggagtttaccagcaagaggatcattattacgagcaataaggcccccgagacctggtacaaggaggactgtgaccctaagccactgttccggaggttcacacgtgtttggtggtacaacgtggacaggttggaacaagtccggcctgacttcctcgcccaccccatcaattactgatagtctcggtgatgtttaattaaaggtaggcgtcgggccgaaggcccgatgccgcagggggggaccccctgccggagggcttgcagggccgtcaggcccgagagaccgaccagcccggagggcgtagtttgtgtcggggggggggccccggggggtccccccgacacgacgaacacggtcagcgccgaaggcgccaataaacactcgaaaaggtatttgctgtctgagtttttattaagtactgggattgttaggggcaaactgacggaattgaacatacaaagtgagcttggtcacataagtgatcgtttgttgtggctgggggaagctgaatgcaatgccgtagtgccggactttcgttcccgctgagttgggtcctccttgtagtgggatccagccggttctggcgctgtttagccacaatgccgcagactggttcgctgtggtcaggtcctctatcgttatttgtggtttgggtctgaggaggcgtttgaatcccctgctaacaaaccatttcttggcaccgtcgaaaggtgccagagggtcttgtgtttggtctgcagtagttttaaatttagttattctggagtcttggattacggccgtgtggccgaatccgtccgattgtacggtgtaacgtccccctgtgggcctcatttccattttagctaacttaatacggtagtcttcgaaattcagtgcgtgtgggtttgggacggcttgtaggaagtcgtccaacgcaaatgttatgtagtcagcattaaaaattaggttgccgacactggtggtttgtttttgaattttgaattggaattggcgtgtgagtcggagagtgtagaccctattggttgtgaaacggcgcctgcggaagtgcctacgtcgcctacggtatcgcctgatgtgacgtctgcggtatgggcgggcatatcttcgtctaatctgaaatttagcgcatgcgcagttagaggtgccccacaggcggcggttagtatt</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LQ310902</GBSeq_locus>
+    <GBSeq_length>702</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>05-OCT-2016</GBSeq_update-date>
+    <GBSeq_create-date>05-OCT-2016</GBSeq_create-date>
+    <GBSeq_definition>Sequence 1 from Patent EP2994162</GBSeq_definition>
+    <GBSeq_primary-accession>LQ310902</GBSeq_primary-accession>
+    <GBSeq_accession-version>LQ310902.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|LQ310902.1|</GBSeqid>
+      <GBSeqid>pat|EP|2994162|1</GBSeqid>
+      <GBSeqid>gi|1073795441</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus type 2-B</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus type 2-B</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..702</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>MA,S.J.</GBAuthor>
+          <GBAuthor>SUI,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>VACCINE FOR PCV2 AND MYCOPLASMA</GBReference_title>
+        <GBReference_journal>EP2994162-A1 1 16-MAR-2016 PROTATEK INTERNAT INC [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>LQ310902.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus type 2-B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85709</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>LQ310902.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF2 gene</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgacgtatccaaggaggcgttaccggagaagaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgttaccgctggagaaggaaaaatggcatcttcaacacccgcctatcccgcaccttcggatatactatcaagcgaaccacagtcagaacgccctcctgggcggtggacatgatgagattcaatattaatgactttcttcccccaggagggggctcaaacccccgctctgtgccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctccccgatcacccagggtgacaggggagtgggctccagtgctgttattctagatgataactttgtaacaaaggccacagccctcacctatgacccctatgtaaactactcctcccgccataccataacccagcccttctcctaccactcccgctactttacccccaaacctgtcctagattccactattgattacttccaaccaaacaacaaaagaaaccagctgtggctgagactacaaactgctggaaatgtagaccacgtaggcctcggcattgcgttcgaaaacagtataaacgaccaggaatacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaacccttaa</GBSeq_sequence>
+  </GBSeq>

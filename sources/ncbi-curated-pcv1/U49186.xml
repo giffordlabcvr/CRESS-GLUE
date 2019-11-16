@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PCU49186</GBSeq_locus>
+    <GBSeq_length>1759</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-MAR-2009</GBSeq_update-date>
+    <GBSeq_create-date>14-FEB-1997</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 1, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>U49186</GBSeq_primary-accession>
+    <GBSeq_accession-version>U49186.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U49186.1|PCU49186</GBSeqid>
+      <GBSeqid>gi|1841514</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 1</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1759</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Meehan,B.M.</GBAuthor>
+          <GBAuthor>Creelan,J.L.</GBAuthor>
+          <GBAuthor>McNulty,M.S.</GBAuthor>
+          <GBAuthor>Todd,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Sequence of porcine circovirus DNA: affinities with plant circoviruses</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 78 (Pt 1), 221-227 (1997)</GBReference_journal>
+        <GBReference_pubmed>9010307</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1759</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Meehan,B.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-FEB-1996) Department of Veterinary Science, The Queen's University of Belfast, Stoney Road, Stormont, Belfast, Northern Ireland BT4 3SD, UK</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1759</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1759</GBInterval_to>
+            <GBInterval_accession>U49186.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>PK-15 kidney cells</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Sus scrofa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:133704</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>pPCV-PSTI</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>PCV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>stem_loop</GBFeature_key>
+        <GBFeature_location>join(1739..1759,1..13)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1739</GBInterval_from>
+            <GBInterval_to>1759</GBInterval_to>
+            <GBInterval_accession>U49186.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>13</GBInterval_to>
+            <GBInterval_accession>U49186.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>rep_origin</GBFeature_key>
+        <GBFeature_location>join(1753..1759,1..2)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1753</GBInterval_from>
+            <GBInterval_to>1759</GBInterval_to>
+            <GBInterval_accession>U49186.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2</GBInterval_to>
+            <GBInterval_accession>U49186.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>homologous to plant circovirus and geminivirus nonanucleotide motif</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>47..985</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>47</GBInterval_from>
+            <GBInterval_to>985</GBInterval_to>
+            <GBInterval_accession>U49186.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to plant circovirus BBTV, GenBank Accession Numbers L32166, L32167 and U12586; similar to Subterranean clover stunt virus SCSV, GenBank Accession Number U16731; similar to CFDV, PIR Accession Number A46353</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative PCV replication-associated protein (REP)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAC56593.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSKKSGPQPHKRWVFTLNNPSEEEKNKIRELPISLFDYFVCGEEGLEEGRTPHLQGFANFAKKQTFNKVKWYFGARCHIEKAKGTDQQNKEYCSKEGHILIECGAPRNQGKRSDLSTAVSTLLETGSLVTVAEQFPVTYVRNFRGLAELLKVSGKMQQRDWKTAVHVIVGPPGCGKSQWARNFAEPRDTYWKPSRNKWWDGYHGEEVVVLDDFYGWLPWDDLLRLCDRYPLTVETKGGTVPFLARSILITSNQAPQEWYSSTAVPAVEALYRRITTLQFWKTAGEQSTEVPEGRFEAVDPPCALFPYKINY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>314..319</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>314</GBInterval_from>
+            <GBInterval_to>319</GBInterval_to>
+            <GBInterval_accession>U49186.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>polyA_signal_sequence</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>end of putative PCV replication-associated protein occurs 6 nucleotides downstream of potential polyadenylation signal</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accagcgcacttcggcagcggcagcacctcggcagcgtcagtgaaaatgccaagcaagaaaagcggcccgcaaccccataagaggtgggtgttcacccttaataatccttccgaggaggagaaaaacaaaatacgggagcttccaatctccctttttgattattttgtttgcggagaggaaggtttggaagagggtagaactcctcacctccaggggtttgcgaattttgctaagaagcagacttttaacaaggtgaagtggtattttggtgcccgctgccacatcgagaaagcgaaaggaaccgaccagcagaataaagaatactgcagtaaagaaggccacatacttatcgagtgtggagctccgcggaaccaggggaagcgcagcgacctgtctactgctgtgagtacccttttggagacggggtctttggtgactgtagccgagcagttccctgtaacgtatgtgagaaatttccgcgggctggctgaacttttgaaagtgagcgggaagatgcagcagcgtgattggaagacagctgtacacgtcatagtgggcccgcccggttgtgggaagagccagtgggcccgtaattttgctgagcctagggacacctactggaagcctagtagaaataagtggtgggatggatatcatggagaagaagttgttgttttggatgatttttatggctggttaccttgggatgatctactgagactgtgtgaccggtatccattgactgtagagactaaagggggtactgttccttttttggcccgcagtattttgattaccagcaatcaggccccccaggaatggtactcctcaactgctgtcccagctgtagaagctctctatcggaggattactactttgcaattttggaagactgctggagaacaatccacggaggtacccgaaggccgatttgaagcagtggacccaccctgtgcccttttcccatataaaataaattactgagtcttttttgttatcacatcgtaatggtttttatttttatttatttagagggtcttttaggataaattctctgaattgtacataaatagtcagccttaccacataattttgggctgtggctgcattttggagcgcatagccgaggcctgtgtgctcgacattggtgtgggtatttaaatggagccacagctggtttcttttattatttgggtggaaccaatcaattgtttggtccagctcaggtttgggggtgaagtacctggagtggtaggtaaagggctgccttatggtgtggcgggaggagtagttaatataggggtcataggccaagttggtggagggggttacaaagttggcatccaagataacaacagtggacccaacacctctttgattagaggtgatggggtctctggggtaaaattcatatttagcctttctaatacggtagtattggaaaggtaggggtagggggttggtgccgcctgagggggggaggaactggccgatgttgaatttgaggtagttaacattccaagatggctgcgagtatcctccttttatggtgagtacaaattctgtagaaaggcgggaattgaagatacccgtctttcggcgccatctgtaacggtttctgaaggcggggtgtgccaaatatggtcttctccggaggatgtttccaagatggctgcgggggcgggtccttcttctgcggtaacgcctccttggccacgtcatcctataaaagtgaaagaagtgcgctgctgtagtatt</GBSeq_sequence>
+  </GBSeq>

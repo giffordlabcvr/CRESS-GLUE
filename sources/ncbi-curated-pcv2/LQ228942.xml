@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LQ228942</GBSeq_locus>
+    <GBSeq_length>702</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>23-SEP-2016</GBSeq_update-date>
+    <GBSeq_create-date>23-SEP-2016</GBSeq_create-date>
+    <GBSeq_definition>Sequence 3 from Patent EP2949341</GBSeq_definition>
+    <GBSeq_primary-accession>LQ228942</GBSeq_primary-accession>
+    <GBSeq_accession-version>LQ228942.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|LQ228942.1|</GBSeqid>
+      <GBSeqid>pat|EP|2949341|3</GBSeqid>
+      <GBSeqid>gi|1070742060</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..702</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>DE,A.M.R.</GBAuthor>
+          <GBAuthor>JUNIOR,A.S.</GBAuthor>
+          <GBAuthor>FIETTO,J.L.R.</GBAuthor>
+          <GBAuthor>BRESSAN,G.C.</GBAuthor>
+          <GBAuthor>SALGADO,R.L.</GBAuthor>
+          <GBAuthor>ONOFRE,T.S.</GBAuthor>
+          <GBAuthor>FAUSTO,M.C.</GBAuthor>
+          <GBAuthor>VIDIGAL,P.M.P.</GBAuthor>
+          <GBAuthor>KALKS,S.P.</GBAuthor>
+          <GBAuthor>CRISPIM,J.S.</GBAuthor>
+          <GBAuthor>ANDRADE,T.J.D.</GBAuthor>
+          <GBAuthor>AMAZILES,S.L.R.J.</GBAuthor>
+          <GBAuthor>JAQUEL,Z.T.</GBAuthor>
+          <GBAuthor>LINO,D.S.L.F.</GBAuthor>
+          <GBAuthor>DE,M.M.A.N.</GBAuthor>
+          <GBAuthor>FIALHO,G.N.</GBAuthor>
+          <GBAuthor>DA,C.S.A.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>RECOMBINANT ANTIGENS OF PORCINE CIRCOVIRUS 2 (PCV-2) FOR VACCINE FORMULATIONS, DIAGNOSTIC KIT AND USE THEREOF</GBReference_title>
+        <GBReference_journal>EP2949341-A1 3 02-DEC-2015 FUNDACAO FAPEMIG [BR], UNIV FED DE VICOSA [BR]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>LQ228942.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>LQ228942.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Sequence in description</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgacgtatccaaggaggcgttaccggagaagaagacaccgcccacgcagccatcttggccagatcctccgccgccgcccctggctcatccacccccgccaccgttaccgctggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactatcaaacgaaccacagtcaaaacgccctcctgggcggtggacatgatgagattcaatattaatgactttcttcccccaggagggggctcaaacccccgctctgtgccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctccccgatcacccagggtgacaggggagtgggctccagtgctgttattctagatgataactttgtaacaaaggccacagccctcacctatgacccctatgtaaactactcctcccgccataccataacccagcccttctcctaccactcccgctactttacccccaaacctgtcctagattccactattgattacttccaaccaaacaacaaaagaaatcagctgtggctgagactacaaactgctggaaatgtagaccacgtaggcctcggcactgcgttcgaaaacagtatatacgaccaggaatacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaacacttaa</GBSeq_sequence>
+  </GBSeq>

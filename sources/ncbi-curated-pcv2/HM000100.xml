@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HM000100</GBSeq_locus>
+    <GBSeq_length>1768</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-APR-2011</GBSeq_update-date>
+    <GBSeq_create-date>25-APR-2010</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 2 culture-collection KCCM:10575, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>HM000100</GBSeq_primary-accession>
+    <GBSeq_accession-version>HM000100.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|HM000100.2|</GBSeqid>
+      <GBSeqid>gi|328751368</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hur,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Cell adapted porcine circovirus type 2 KCCM-10575 (DS25) ORF-2</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hur,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-MAR-2010) Research &amp; Development, Daesung Microbiological Laboratory, 293 Samdong, Euiwang, Gyeongido 437040, South Korea</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hur,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-APR-2011) Research &amp; Development, Daesung Microbiological Laboratory, 293 Samdong, Euiwang, Gyeongido 437040, South Korea</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Apr 11, 2011 this sequence version replaced HM000100.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1768</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1768</GBInterval_to>
+            <GBInterval_accession>HM000100.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>DS25</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>derived from cell line PK-15</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>culture_collection</GBQualifier_name>
+            <GBQualifier_value>KCCM:10575</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>South Korea</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>04-Feb-2010</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(join(1381..1768,1..314))</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>314</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>HM000100.2</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1768</GBInterval_from>
+            <GBInterval_to>1381</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>HM000100.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>ORF2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ADF47085.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTYPRRRYRRRRHRPRSHLGQILRRRPWLVHPRHRYRWRRKNGIFNTRLSRTFGYTVKGTTVTTPSWAVDMMRFKIDDFVPPGGGTNKISIPFEYYRIRKVKVEFWPCSPITQGDRGVGSTAVILDDNFVPKATALTYDPYVNYSSRHTIPQPFSYHSRYFTPKPVLDSTIDYFQPNNKRNQLWLRLQTSRNVDHVGLGTAFENSKYDQDYNIRVTMYVQFREFNLKDPPLNP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aattcaaccttgacctttcttattctgtagtattcaaagggtatagagattttgttggtcccccctcccgggggaacaaagtcgtcaattttaaatctcatcatgtccaccgcccaggagggcgttgtgactgtggtacccttgacagtatatccgaaggtgcgggagaggcgggtgttgaagatgccatttttccttctccaacggtagcggtggcgggggtggacgagccaggggcggcggcggaggatctggccaagatggctgcgggggcggtgtcttcttctgcggtaacgcctccttggatacgtcatagctgaaaacgaaagaagtgcgctgtaagtattaccagcgcacttcggcagcggcagcacctcggcagcacctcagcagcaacatgcccagcaagaagaatggaagaagcggaccccaaccacataaaaggtgggtgttcacgctgaataatccttccgaagacgagcgcaagaaaatacgggagctcccaatctccctatttgattattttattgttggcgaggagggtaatgaggaaggacgaacacctcaccttcaggggttcgctaattttgtgaagaagcaaacttttaataaagtcaagtggtatttgggtgcccgctgccacatcgagaaagccaaaggaactgatcagcagaataaagaatattgcagtaaagaaggtaacttacttattgaatgtggagctcctcgatctcaaggacaacggagtgacctgtctactgctgtgagtaccttgttggagagcgggagtctggtgaccgttgcagagcagcaccctgtaacgtttgtcagaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcagaagcgtgattggaagaccaatgtacacgtcattgtggggccacctgggtgtggtaaaagcaaatgggctgctaattttgcagacccggaaaccacatactggaaaccacccagaaacaagtggtgggatggttaccatggtgaagaagtggttgttattgatgacttttatggctggctgccgtgggatgatctactgagactgtgtgatcgatatccattgactgtagagactaaaggtggaactgtaccttttttggcccgcagtattctgattaccagcaatcagaccccgttggaatggtactcctcaactgctgtcccagctgtagaagctctctatcggaggattacttccttggtattttggaagaatgctacagaacaatccacggaggaagggggccagttcgtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtcttttttatcacttcgtaatggtttttattattcatttaggggttaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattgtagtcctggtcgtatttactgttttcgaacgcagtgccaaggcctacgtggtccacatttctagaggtttgtagcctcagccaaagctgattccttttgttatttggttggaagtaatcaatagtggagtcaagaacaggtttgggtgtgaagtaacgggagtggtaggagaagggttgggggattgtatggcgggaggagtagtttacatatgggtcataggttagggctgtggcctttggtacaaagttatcatctagaataacagcagtggagcccactcccctatcaccctgggtgatgggggagcagggccag</GBSeq_sequence>
+  </GBSeq>

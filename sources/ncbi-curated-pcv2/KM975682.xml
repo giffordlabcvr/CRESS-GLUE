@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KM975682</GBSeq_locus>
+    <GBSeq_length>1768</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JUL-2015</GBSeq_update-date>
+    <GBSeq_create-date>01-JUL-2015</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus-2 strain 37_Bhu, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KM975682</GBSeq_primary-accession>
+    <GBSeq_accession-version>KM975682.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KM975682.1|</GBSeqid>
+      <GBSeqid>gi|852427334</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Monger,V.R.</GBAuthor>
+          <GBAuthor>Loeffen,W.L.</GBAuthor>
+          <GBAuthor>Kus,K.</GBAuthor>
+          <GBAuthor>Stegeman,J.A.</GBAuthor>
+          <GBAuthor>Dukpa,K.</GBAuthor>
+          <GBAuthor>Szymanek,K.</GBAuthor>
+          <GBAuthor>Podgorska,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic Characterization of Porcine Circovirus Type 2 (PCV2) in Pigs of Bhutan</GBReference_title>
+        <GBReference_journal>Transbound Emerg Dis (2015) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1111/tbed.12383</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26032877</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Podgorska,K.</GBAuthor>
+          <GBAuthor>Monger,V.R.</GBAuthor>
+          <GBAuthor>Kus,K.</GBAuthor>
+          <GBAuthor>Loeffen,W.L.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-OCT-2014) Swine Diseases Department, National Veterinary Research Institute, Partyzantow 57, Pulawy 24-100, Poland</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1768</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1768</GBInterval_to>
+            <GBInterval_accession>KM975682.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>37_Bhu</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>domestic pig</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Bhutan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2012</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>51..995</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>51</GBInterval_from>
+            <GBInterval_to>995</GBInterval_to>
+            <GBInterval_accession>KM975682.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>putative viral replication protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>rep protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKN63490.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSKKSGRSGPQPHKRWVFTLNNPSEDERKKIRELPISLFDYFIVGEEGNEEGRTPHLQGFANFVKKQTFNKVKWYFGARCHIEKAKGTDQQNKEYCSKEGNLLIECGAPRSQGQRSDLSTAVSTLLESGSLVTVAEQHPVTFVRNFRGLAELLKVSGKMQKRDWKTNVHVIVGPPGCGKSKWAANFADPETTYWKPPRNKWWDGYHGEEVVVIDDFYGWLPWDDLLRLCDRYPLTVETKGGTVPFLARSILITSNQTPLEWYSSTAVPAVEALYRRITSLVFWKNATEQSTEEGGQFVTLSPPCPEFPYEINY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1031..1735)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1735</GBInterval_from>
+            <GBInterval_to>1031</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KM975682.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKN63491.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTYPRRRYRRRRHRPRSHLGQILRRRPWLVHPRHRYRWRRKNGIFNTRLSRTIGYTVKATTVRTPSWNVDMMRFNINDFLPPGGGSNPLTVPFEYYRIRKVKVEFWPCSPITQGDRGVGSTAVILDDNFVTKANALTYDPYVNYSSRHTIPQPFSYHSRYFTPKPVLDRTIDYFQPNNKRNQLWLRLQTTGNVDHVGLGTAFENSIHDQDYNIRITMYVQFREFNLKDPPLNPK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accagcgcacttcggcagcggcagcacctcggcagcacctcagcagcaacatgcccagcaagaagagtggaagaagcggaccccaaccacataaaaggtgggtgttcacgctgaataatccttccgaagacgagcgcaagaaaatacgggagctcccaatctccctatttgattattttattgttggcgaggaaggtaatgaggagggccgaacaccccacctacaggggttcgctaattttgtgaagaagcaaacttttaataaagtgaagtggtattttggtgcccgctgccacatcgagaaagcgaaaggaacagatcagcagaataaagaatattgcagtaaagaaggcaacttactgatagaatgtggagctcctagatctcaaggacaacggagtgacctctctactgctgtgagtaccttgttggagagcgggagtctggtgaccgttgcagagcagcaccctgtaacgtttgtcagaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcagaagcgtgattggaagacgaatgtacacgtcattgtggggccacctgggtgtggaaaaagcaaatgggctgctaattttgcagacccggaaaccacatactggaaaccacctagaaacaagtggtgggatggttaccatggtgaagaagtggttgttattgatgacttttatggctggctgccgtgggatgatctactgagactctgtgatcgatatcctttgactgttgagactaaaggtggaactgtaccttttttggcccgcagtattctgattaccagcaatcagaccccgttggaatggtactcctcaactgctgtcccagctgtagaagctctctatcggaggattacttccttggtattttggaagaatgctacagaacaatccacggaggaagggggccagttcgtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtctttttttatcacttcgtaatggtttttattattcacttagggttaagtggggggtctttaagattaaattctctgaattgtacatacatggttatacggatattgtagtcctggtcgtgtatactgttttcgaacgcagtgccgaggcctacatggtctacatttccagtagtttgtagtctcagccagagttgatttcttttgttattgggttggaagtaatcgattgtcctatcaaggacaggtttgggggtgaaatagcgggagtggtaggagaagggctggggtatggtatggcgggaggagtagtttacataggggtcataggttagggcattggcctttgttacaaagttatcatctagaataacagcagtggagcccactcccctgtcaccctgggtgattggggagcagggccagaattcaaccttaaccttccttattctgtagtattcaaagggcacagtgagggggtttgagccccctcctgggggaagaaaatcattaatattaaatctcatcatgtccacattccaggagggcgttcttactgtggtagctttgacagtataaccgatggtgcgggagaggcgggtgttgaagatgccatttttccttctccagcggtaacggtggcgggggtggacgagccaggggcggcggcggaggatctggccaagatggctgcgggggcggtgtcttcgtcttcggtaacgcctccttggatacgtcatagctgaaaacgaaagaagtgcgctgtaagtatt</GBSeq_sequence>
+  </GBSeq>

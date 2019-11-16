@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB182571</GBSeq_locus>
+    <GBSeq_length>447</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>10-MAR-2005</GBSeq_create-date>
+    <GBSeq_definition>Beak and feather disease virus C1 gene for capsid protein, partial cds, isolate:RRP-JP12P</GBSeq_definition>
+    <GBSeq_primary-accession>AB182571</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB182571.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB182571.1|</GBSeqid>
+      <GBSeqid>gi|60677649</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Beak and feather disease virus</GBSeq_source>
+    <GBSeq_organism>Beak and feather disease virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..447</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ogawa,H.</GBAuthor>
+          <GBAuthor>Yamaguchi,T.</GBAuthor>
+          <GBAuthor>Fukushi,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Duplex shuttle PCR for differential diagnosis of budgerigar fledgling disease and psittacine beak and feather disease</GBReference_title>
+        <GBReference_journal>Microbiol. Immunol. 49 (3), 227-237 (2005)</GBReference_journal>
+        <GBReference_pubmed>15781996</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..447</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fukushi,H.</GBAuthor>
+          <GBAuthor>Ogawa,H.</GBAuthor>
+          <GBAuthor>Yamaguchi,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (23-JUN-2004) Hideto Fukushi, Gifu University, Faculty of Applied Biological Sciences; Yanagido 1-1, Gifu, Gifu 501-1193, Japan (E-mail:hfukushi@cc.gifu-u.ac.jp, Tel:81-58-293-2946, Fax:81-58-293-2946)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..447</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>447</GBInterval_to>
+            <GBInterval_accession>AB182571.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Beak and feather disease virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>RRP-JP12P</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:77856</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>complement(&lt;1..&gt;447)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>447</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>AB182571.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>C1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(&lt;1..&gt;447)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>447</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>AB182571.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>C1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAD90988.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IYTIRFKRQFKFEILKQTTSPGQVIWNSDYITFALSDFLATNPNPHALNFEDYRIKLAKMELRPTWGHYTISADGFGHTAIIQDSRITKFKTTADQNQDPVAPFDGAKKWYVSRGFKRLLRPKPQITIDDLTTANQSAALWLNSARTG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagccggttctggcgctgttcagccacaatgctgcagactggttcgctgtggtcaggtcatctattgttatttgtggtttcggtctgagtaggcgtttgaagcccctgctaacataccactttttcgcaccgtcgaacggtgccactgggtcttgattctggtctgcagtagttttaaatttagttattctggaatcttggattatggccgtgtggccgaatccgtctgcactgatggtgtagtggccccatgtgggcctcaattccattttagctaacttaatcctgtagtcttcaaaattcagtgcatgtgggtttggattagttgctaggaagtctgacaatgcaaatgttatgtagtcagaattccaaattacttggccaggactggtggtttgtttcagaatttcgaatttgaattggcgtttgaatctgatagtgtaaatt</GBSeq_sequence>
+  </GBSeq>

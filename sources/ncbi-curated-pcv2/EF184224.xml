@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF184224</GBSeq_locus>
+    <GBSeq_length>702</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-MAY-2008</GBSeq_update-date>
+    <GBSeq_create-date>13-JAN-2007</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 2 isolate 20 capsid protein gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>EF184224</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF184224.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF184224.1|</GBSeqid>
+      <GBSeqid>gi|121483719</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..702</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Timmusk,S.</GBAuthor>
+          <GBAuthor>Wallgren,P.</GBAuthor>
+          <GBAuthor>Brunborg,I.M.</GBAuthor>
+          <GBAuthor>Wikstrom,F.H.</GBAuthor>
+          <GBAuthor>Allan,G.</GBAuthor>
+          <GBAuthor>Meehan,B.</GBAuthor>
+          <GBAuthor>McMenamy,M.</GBAuthor>
+          <GBAuthor>McNeilly,F.</GBAuthor>
+          <GBAuthor>Fuxler,L.</GBAuthor>
+          <GBAuthor>Belak,K.</GBAuthor>
+          <GBAuthor>Podersoo,D.</GBAuthor>
+          <GBAuthor>Saar,T.</GBAuthor>
+          <GBAuthor>Berg,M.</GBAuthor>
+          <GBAuthor>Fossum,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylogenetic analysis of porcine circovirus type 2 (PCV2) pre- and post-epizootic postweaning multisystemic wasting syndrome (PMWS)</GBReference_title>
+        <GBReference_journal>Virus Genes 36 (3), 509-520 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s11262-008-0217-1</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18343985</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..702</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Timmusk,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Distribution of PCV2 in Sweden suggests emergence of a specific genogroup</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..702</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Timmusk,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-DEC-2006) Department of Molecular Biosciences, Section of Immunology, Swedish University of Agricultural Sciences (SLU), Biomedical Centre, P.O. Box 588, Uppsala SE-75123, Sweden</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>EF184224.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>20</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>EF184224.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABM54438.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTYPRRRFRRRRHRPRSHLGQILRRRPWLVHPRHRYRWRRKNGIFNARLSRTFGYTVKATTVSTPSWAVDMLRFNLDDFVPPGGGTNKISIPFEYYRIRKVKVEFWPCSPITQGDRGVGSSAIILDDNFVIKATAQTYDPYVNYSSRHTIPQPFSYHSRYFTPKPVLDSTIDYFQPNNKRNQLWMRLQTSRNVDHVGLGTAFENSKYDQDYNIRVTMYVQFREFNLKDPPLKT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgacgtatccaaggaggcgtttccgcagaagaagacaccgcccccgcagccatcttggccaaatcctccgccgccgcccctggctcgtccacccccgccaccgttaccgctggagaaggaaaaatggcatcttcaacgcccgcctctcccgcaccttcggatatactgtcaaggctaccacagtcagcacgccctcctgggcggtggacatgctgagatttaatcttgacgactttgttcccccgggaggggggaccaacaaaatctctataccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctccccgatcacccagggtgacaggggagttggatccagtgctattattctagatgacaactttgtaataaaggccacagcccaaacctatgacccctatgtaaactactcctcccgccatacaatcccccaacccttctcctaccactcccgttacttcacacccaaacctgttcttgattccactattgattacttccaaccaaataacaaaagaaatcagctgtggatgagactccaaaccagtagaaatgtggaccacgtaggcctcggcactgcgttcgaaaacagtaaatacgaccaggactacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaaaacctaa</GBSeq_sequence>
+  </GBSeq>

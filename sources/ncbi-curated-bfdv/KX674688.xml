@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KX674688</GBSeq_locus>
+    <GBSeq_length>209</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-NOV-2016</GBSeq_update-date>
+    <GBSeq_create-date>19-NOV-2016</GBSeq_create-date>
+    <GBSeq_definition>Beak and feather disease virus isolate SC06-10 nonfunctional capsid protein C1 gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KX674688</GBSeq_primary-accession>
+    <GBSeq_accession-version>KX674688.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KX674688.1|</GBSeqid>
+      <GBSeqid>gi|1102318252</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Beak and feather disease virus</GBSeq_source>
+    <GBSeq_organism>Beak and feather disease virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..209</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mora Chavarria,E.</GBAuthor>
+          <GBAuthor>Umana Castro,R.</GBAuthor>
+          <GBAuthor>Abou Madi,N.</GBAuthor>
+          <GBAuthor>Solano Gonzalez,S.</GBAuthor>
+          <GBAuthor>Retamosa Izaguirre,M.</GBAuthor>
+          <GBAuthor>Jimenez Soto,M.</GBAuthor>
+          <GBAuthor>Blanco Pena,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Health assessment of captive psittacine species in pre-release programs in Costa Rican rescue centers</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..209</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Umana Castro,R.</GBAuthor>
+          <GBAuthor>Blanco Pena,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (09-AUG-2016) Biological Sciences, Universidad Nacional, Costa Rica, Campus Omar Dengo, Heredia 86-3000, Costa Rica</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..209</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>209</GBInterval_to>
+            <GBInterval_accession>KX674688.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Beak and feather disease virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>SC06-10</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Amazona autumnalis (red-lored parrot)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:77856</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Costa Rica</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Apr-2013</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Kinndle Blanco</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>identified_by</GBQualifier_name>
+            <GBQualifier_value>Rodolfo Umana</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;209</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>209</GBInterval_to>
+            <GBInterval_accession>KX674688.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional capsid protein C1 due to mutation</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>taagccaagatgccgtaatgacggactttaacgctcctgcagtgtccaatcacaagatccggtggccacctttcgatcggtgccagaaaatggtatgttagcagggggttcaaacgcctcctcagacctaagccgcaaataacattaaccgacctgaccacagcgaaccagtctgcagcattgtggctaaacagcgccaggaccggatg</GBSeq_sequence>
+  </GBSeq>
