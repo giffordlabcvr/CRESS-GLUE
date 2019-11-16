@@ -32,12 +32,12 @@ project circoviridae
   
   # Add feature locations to reference sequences
   module featureLocationTextToGlue transform tabular/reference_feature_locations.tsv -r
-  
-  # Import alignments
-  run file glue/circoviridaeAlignments.glue
 
-  # Import alignment tree
-  run file glue/circoviridaeAlignmentTree.glue
+  # Add variations
+  #run file glue/circoviridaeVariations.glue
+  
+  # Import alignments and alignment tree
+  run file glue/circoviridaeAlignments.glue
 
   # Validate
   validate

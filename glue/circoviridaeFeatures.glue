@@ -15,7 +15,7 @@
 	set metatag CODES_AMINO_ACIDS true
 	exit
 
-  create feature Cap-rev -p whole_genome "Capsid protein"
+  create feature Cap-rev -p whole_genome "Capsid protein reverse"
   feature Cap-rev
 	set field displayName Cap-rev
 	set metatag OWN_CODON_NUMBERING true
@@ -42,6 +42,13 @@
 	set field displayName ORF3
 	set metatag OWN_CODON_NUMBERING true
 	set metatag CODES_AMINO_ACIDS true
+	exit
+
+  create feature intergenic -p whole_genome "intergenic region"
+  feature intergenic
+	set field displayName intergenic-region
+	set metatag OWN_CODON_NUMBERING false
+	set metatag CODES_AMINO_ACIDS false
 	exit
 
   create feature 3UTR -p whole_genome "5' 3TR"
