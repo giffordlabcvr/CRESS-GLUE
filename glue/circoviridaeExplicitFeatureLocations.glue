@@ -34,3 +34,37 @@ reference REF_PCV-1
   
   exit
   
+reference REF_BFDV
+
+  add feature-location 5UTR
+  feature-location 5UTR
+    add segment 1 54
+    exit
+
+  add feature-location nonanuc
+  feature-location nonanuc
+    add segment 2 10
+    exit
+
+  add feature-location Rep
+  feature-location Rep
+    add segment 55 993
+    exit
+    
+  add feature-location intergenic
+  feature-location intergenic
+    add segment 994 1037
+    exit
+    
+  add feature-location Cap-rev
+  feature-location Cap-rev
+    add segment 1038 1730
+    exit
+
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 1731 1758
+    exit
+  
+  exit
+  
