@@ -11,10 +11,14 @@
 				<matchPattern>^.*:(.*)$</matchPattern>
 				<outputTemplate>${g1?trim}</outputTemplate>
 			</propertyPopulator>
+
+			<isoCountryPropertyPopulator property="m49_country" codeStyle="ALPHA_3">
+			</isoCountryPropertyPopulator>
 		</gbQualifier>
 
+
 		<gbQualifier name="host">
-			<propertyPopulator property="host_sci_name">
+			<propertyPopulator property="isolate_data.host_sci_name">
 
 				<!-- #### Human -->																																									
 				<valueConverter>

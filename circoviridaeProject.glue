@@ -3,7 +3,6 @@ delete project circoviridae
 create project circoviridae "GLUE project for the Circoviridae" --minVersion 0.1.50
 
 schema-project circoviridae
-
   run file glue/circoviridaeSchemaExtensions.glue
   exit
 
@@ -15,6 +14,9 @@ project circoviridae
   # create modules
   run file glue/circoviridaeModules.glue
 
+  # set up m49 countries
+  run file glue/m49_countries/populateM49All.glue
+
   # Import exogenous sources and side data 
   import source sources/ncbi-refseqs
   run script glue/loadExogenousData.js
@@ -23,6 +25,9 @@ project circoviridae
   module circoviridaeSideDataImporter 
     populate -f tabular/circo-ncbi-refseqs-side-data.tsv
     exit
+
+  # Populate fields from GenBank data
+  module circoviridaeGenbankXmlPopulator populate 
 
   # Define genome features
   run file glue/circoviridaeFeatures.glue

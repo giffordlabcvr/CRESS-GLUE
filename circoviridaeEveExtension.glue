@@ -4,7 +4,7 @@ project circoviridae
 
   delete source fasta-refseqs
   delete source fasta-refseqs
-  delete source fasta-curated  
+  delete source fasta-curated
   exit
 
 schema-project circoviridae

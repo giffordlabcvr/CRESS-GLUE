@@ -5,4 +5,6 @@
   create module -f modules/featureLocationTextToGlue.xml 
   create module -f modules/fastaAlignmentExporter.xml 
   create module -f modules/circoviridaeTabularUtility.xml circoviridaeTabularUtility
-
+  create module -f modules/circoviridaeGenbankXmlPopulator.xml
+  create module --fileName modules/tabularUtilityCsv.xml
+  create module --fileName modules/tabularUtilityTab.xml
