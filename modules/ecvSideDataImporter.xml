@@ -19,11 +19,6 @@
     </textFileColumn>
     
     <textFileColumn>
-        <header>organism</header>
-        <property>host_sci_name</property>
-    </textFileColumn>
-    
-    <textFileColumn>
         <header>virus_genus</header>
         <property>genus</property>
     </textFileColumn>
