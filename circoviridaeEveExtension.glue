@@ -3,6 +3,8 @@ project circoviridae
   run file glue/ecvDeleteModules.glue
 
   delete source fasta-refseqs
+
+  delete source fasta-refseqs
   delete source fasta-refseqs
   delete source fasta-curated
   exit

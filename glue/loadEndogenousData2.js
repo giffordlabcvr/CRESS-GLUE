@@ -15,6 +15,6 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "start_position", eveObj.extract_start]);
 		glue.command(["set", "field", "end_position", eveObj.extract_end]);
 		glue.command(["set", "field", "orientation", eveObj.orientation]);
-
+		glue.command(["set", "field", "host_sci_name", eveObj.orientation]);
 	});
 });
