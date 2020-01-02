@@ -1,6 +1,6 @@
 delete project circoviridae
 
-create project circoviridae "GLUE project for the Circoviridae" --minVersion 0.1.50
+create project circoviridae "GLUE project for the Circoviridae" --minVersion 0.1.66
 
 schema-project circoviridae
   run file glue/circoviridaeSchemaExtensions.glue
@@ -19,7 +19,7 @@ project circoviridae
 
   # Import exogenous sources and side data 
   import source sources/ncbi-refseqs
-  run script glue/loadExogenousData.js
+  run script glue/loadIsolateData.js
 
   # Import metadata for exogenous reference sequences from tabular
   module circoviridaeSideDataImporter 
@@ -37,6 +37,7 @@ project circoviridae
   
   # Add feature locations to reference sequences
   module featureLocationTextToGlue transform tabular/reference_feature_locations.tsv -r
+  run file glue/circoviridaeExplicitFeatureLocations.glue
 
   # Add variations
   #run file glue/circoviridaeVariations.glue
