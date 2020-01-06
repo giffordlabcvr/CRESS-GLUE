@@ -1,0 +1,41 @@
+project circoviridae
+
+  run file glue/eve/ecvDeleteModules.glue
+  delete source fasta-refseqs
+  delete source fasta-curated
+  exit
+
+schema-project circoviridae
+  run file glue/eve/ecvSchemaExtensions.glue
+  exit
+  
+project circoviridae
+
+  run file glue/eve/ecvModules.glue
+
+  # Import ECV sequences and side data 
+  import source sources/fasta-refseqs/
+  import source sources/fasta-curated/
+  
+  run script glue/eve/loadLocusData1.js
+  run script glue/eve/loadLocusData2.js
+  
+  # Import metadata for ECV from tabular
+  module ecvSideDataImporter 
+    populate -f tabular/eve/ecv-side-data.tsv
+    exit
+
+  # Declare references 
+  run file glue/eve/ecvReferences.glue
+
+  # Import alignments
+  #run file glue/eve/ecvAlignments.glue
+
+  # Import alignment tree
+  #run file glue/eve/ecvAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit
+

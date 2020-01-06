@@ -1,52 +1,14 @@
 delete project circoviridae
 
-create project circoviridae "GLUE project for the Circoviridae" --minVersion 0.1.66
+create project circoviridae "A GLUE project for the Circoviridae" --minVersion 0.1.66
 
 schema-project circoviridae
-  run file glue/circoviridaeSchemaExtensions.glue
+
+  run file glue/core/circoviridaeSchemaExtensions.glue
   exit
 
-project circoviridae
-
-  # load project settings
-  run file glue/projectSettings.glue
-
-  # create modules
-  run file glue/circoviridaeModules.glue
-
-  # set up m49 countries
-  run file glue/m49_countries/populateM49All.glue
-
-  # Import exogenous sources and side data 
-  import source sources/ncbi-refseqs
-  run script glue/loadIsolateData.js
-
-  # Import metadata for exogenous reference sequences from tabular
-  module circoviridaeSideDataImporter 
-    populate -f tabular/circo-ncbi-refseqs-side-data.tsv
-    exit
-
-  # Populate fields from GenBank data
-  module circoviridaeGenbankXmlPopulator populate 
-
-  # Define genome features
-  run file glue/circoviridaeFeatures.glue
-
-  # Create reference sequences
-  run file glue/circoviridaeReferences.glue
+# Build core project
+run file glue/build/buildCoreProject.glue
   
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/reference_feature_locations.tsv -r
-  run file glue/circoviridaeExplicitFeatureLocations.glue
-
-  # Add variations
-  #run file glue/circoviridaeVariations.glue
-  
-  # Import alignments and alignment tree
-  run file glue/circoviridaeAlignments.glue
-
-  # Validate
-  validate
-
-  exit
-
+# Build endogenous circovirus component
+run file glue/build/buildEveExtension.glue

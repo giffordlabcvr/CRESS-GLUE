@@ -1,8 +1,0 @@
-create module -f modules/fastaExporter.xml
-module fastaExporter export -a -f precompiled/circovirus-refs.fna
-
-create module -t fastaProteinExporter
-module fastaExporter export -a -f precompiled/circovirus-refs.fna
-
-module fastaProteinExporter export member AL_UNCONSTRAINED_Circovirus_genome -r REF_PCV-3 -f Rep -a -o precompiled/circovirus-rev.faa
-module fastaProteinExporter export member AL_UNCONSTRAINED_Circovirus_genome -r REF_PCV-3 -f Cap-rev -a -o precompiled/circovirus-cap.faa

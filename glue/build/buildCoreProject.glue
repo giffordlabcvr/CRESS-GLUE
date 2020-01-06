@@ -1,0 +1,45 @@
+project circoviridae
+
+  # load project settings
+  run file glue/core/projectSettings.glue
+
+  # create modules
+  run file glue/core/circoviridaeModules.glue
+
+  # Import exogenous sources and side data 
+  import source sources/ncbi-refseqs
+  run script glue/core/loadIsolateData.js
+
+  # Import metadata for exogenous reference sequences from tabular
+  module circoviridaeSideDataImporter 
+    populate -f tabular/core/circo-ncbi-refseqs-side-data.tsv
+    exit
+
+  # Populate fields from GenBank data
+  module circoviridaeGenbankXmlPopulator populate 
+
+  # Define genome features
+  run file glue/core/circoviridaeFeatures.glue
+
+  # Create reference sequences
+  run file glue/core/circoviridaeReferences.glue
+  
+  # Add feature locations from tabular to reference sequences
+  module featureLocationTextToGlue
+    transform tabular/core/reference_feature_locations.tsv -r
+    exit
+
+  # Add explicit feature locations to reference sequences
+  run file glue/core/circoviridaeExplicitFeatureLocations.glue
+
+  # Add variations
+  #run file glue/core/circoviridaeVariations.glue
+  
+  # Import alignments and alignment tree
+  run file glue/core/circoviridaeAlignments.glue
+
+  # Validate
+  validate
+
+  exit
+
