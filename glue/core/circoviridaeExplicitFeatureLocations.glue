@@ -74,35 +74,20 @@ reference REF_PCV-2
 
 reference REF_PCV-3
 
-  add feature-location 5UTR
-  feature-location 5UTR
-    add segment 1 50
-    exit
-
   add feature-location Rep
   feature-location Rep
-    add segment 51 995
+    add segment 62 595
     exit
 
   add feature-location ORF3
   feature-location ORF3
-    add segment 357 671
+    add segment 69 1106
     exit
     
-  add feature-location intergenic
-  feature-location intergenic
-    add segment 996 1033
-    exit
-
   add feature-location Cap-rev
   feature-location Cap-rev
-    add segment 1034 1735
+    add segment 1034 1980
     exit
-
-  add feature-location 3UTR
-  feature-location 3UTR
-    add segment 1736 1768
-    exit
-  
+ 
   exit
   

@@ -56,7 +56,7 @@ function process_feature(featureSummary, refseqID, featureID) {
 	
 	glue.logInfo("  Processing feature: "+featureID+" in reference "+refseqID);
 
-	if (featureID == "Gag" || featureID == "Pol" || featureID == "Env" ) {
+	if (featureID == "Rep" || featureID == "Cap" || featureID == "Cap-rev" ) {
 		var featureCodons = get_coding_feature_amino_acids(refseqID, featureID);
 		create_feature_fasta(refseqID, featureID, featureCodons, featureSummary);
 	}	
@@ -100,7 +100,7 @@ function create_feature_fasta(refseqID, featureID, featureCodons, featureSummary
 	
 	}	
 	
-	if (featureID == "Cap-Rev") {
+	if (featureID == "Cap-rev") {
 	  cap_fasta_aa.push(fasta_aa); 
 	  cap_fasta_nt.push(fasta_codons);
 	}	

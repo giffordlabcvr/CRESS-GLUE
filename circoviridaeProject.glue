@@ -12,3 +12,7 @@ run file glue/build/buildCoreProject.glue
   
 # Build endogenous circovirus component
 run file glue/build/buildEveExtension.glue
+
+# Inherit features from HIV-1 master reference to other reference sequences
+run script glue/core/circoviridaeInheritFeatureLocations.js
+
