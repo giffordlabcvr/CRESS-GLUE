@@ -1,10 +1,10 @@
-delete project circoviridae
+delete project cress
 
-create project circoviridae "A GLUE project for the Circoviridae" --minVersion 0.1.66
+create project cress "A GLUE project for the circular Rep-encoding single-stranded DNA viruses" --minVersion 0.1.66
 
-schema-project circoviridae
+schema-project cress
 
-  run file glue/core/circoviridaeSchemaExtensions.glue
+  run file glue/core/cressSchemaExtensions.glue
   exit
 
 # Build core project
@@ -14,5 +14,5 @@ run file glue/build/buildCoreProject.glue
 run file glue/build/buildEveExtension.glue
 
 # Inherit features from HIV-1 master reference to other reference sequences
-run script glue/core/circoviridaeInheritFeatureLocations.js
+run script glue/core/cressInheritFeatureLocations.js
 
