@@ -1,26 +1,26 @@
-project circoviridae
+project cress
 
   run file glue/eve/ecvDeleteModules.glue
   delete source fasta-refseqs
   delete source fasta-curated
   exit
 
-schema-project circoviridae
+schema-project cress
   run file glue/eve/ecvSchemaExtensions.glue
   exit
   
-project circoviridae
+project cress
 
   run file glue/eve/ecvModules.glue
 
-  # Import ECV sequences and side data 
+  # Import eve sequences and side data 
   import source sources/fasta-refseqs/
   import source sources/fasta-curated/
   
   run script glue/eve/loadLocusData1.js
   run script glue/eve/loadLocusData2.js
   
-  # Import metadata for ECV from tabular
+  # Import metadata for eve from tabular
   module ecvSideDataImporter 
     populate -f tabular/eve/ecv-side-data.tsv
     exit

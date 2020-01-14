@@ -1,6 +1,6 @@
 // Load EVE data from tab file 
 var loadResult;
-glue.inMode("module/circoviridaeTabularUtility", function() {
+glue.inMode("module/cressTabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ecv-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
