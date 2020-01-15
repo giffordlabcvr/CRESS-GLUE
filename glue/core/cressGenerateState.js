@@ -40,14 +40,14 @@ for(var i = 0; i < source_names.length; i++) {
 var myAlignments = get_alignments()
 
 var rep_fasta_aa_str = rep_fasta_aa.join("\n");
-glue.command(["file-util", "save-string", rep_fasta_aa_str, "export/rep_fasta.faa"]);
+glue.command(["file-util", "save-string", rep_fasta_aa_str, "export/reference-viruses/rep_fasta.faa"]);
 var rep_fasta_nt_str = rep_fasta_nt.join("\n");
-glue.command(["file-util", "save-string", rep_fasta_nt_str, "export/rep_fasta.fna"]);
+glue.command(["file-util", "save-string", rep_fasta_nt_str, "export/reference-viruses/rep_fasta.fna"]);
 
 var cap_fasta_aa_str = cap_fasta_aa.join("\n");
-glue.command(["file-util", "save-string", cap_fasta_aa_str, "export/cap_fasta.faa"]);
+glue.command(["file-util", "save-string", cap_fasta_aa_str, "export/reference-viruses/cap_fasta.faa"]);
 var cap_fasta_nt_str = cap_fasta_nt.join("\n");
-glue.command(["file-util", "save-string", cap_fasta_nt_str, "export/cap_fasta.fna"]);
+glue.command(["file-util", "save-string", cap_fasta_nt_str, "export/reference-viruses/cap_fasta.fna"]);
 
 
 // SUBROUTINES
@@ -56,7 +56,7 @@ function process_feature(featureSummary, refseqID, featureID) {
 	
 	glue.logInfo("  Processing feature: "+featureID+" in reference "+refseqID);
 
-	if (featureID == "Rep" || featureID == "Cap" || featureID == "Cap-rev" ) {
+	if (featureID == "Rep" || featureID == "Cap" || featureID == "Cap" ) {
 		var featureCodons = get_coding_feature_amino_acids(refseqID, featureID);
 		create_feature_fasta(refseqID, featureID, featureCodons, featureSummary);
 	}	
@@ -100,7 +100,7 @@ function create_feature_fasta(refseqID, featureID, featureCodons, featureSummary
 	
 	}	
 	
-	if (featureID == "Cap-rev") {
+	if (featureID == "Cap") {
 	  cap_fasta_aa.push(fasta_aa); 
 	  cap_fasta_nt.push(fasta_codons);
 	}	

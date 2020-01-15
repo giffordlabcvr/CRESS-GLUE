@@ -29,7 +29,7 @@ project cress
   run file glue/eve/ecvReferences.glue
 
   # Import alignments
-  #run file glue/eve/ecvAlignments.glue
+  run file glue/eve/ecvAlignments.glue
 
   # Import alignment tree
   #run file glue/eve/ecvAlignmentTree.glue

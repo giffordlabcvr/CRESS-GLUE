@@ -22,7 +22,7 @@ project cress
   run file glue/core/cressAlignments.glue
 
   # Add variations
-  #run file glue/core/cressVariations.glue
+  run file glue/core/cressVariations.glue
   
   # Validate
   validate
