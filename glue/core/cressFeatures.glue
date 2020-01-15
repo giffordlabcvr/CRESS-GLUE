@@ -36,6 +36,27 @@
 	set metatag CODES_AMINO_ACIDS true
 	exit
 
+  create feature gp3 -p whole_genome "gp3 protein"
+  feature gp3
+	set field displayName gp3
+	set metatag OWN_CODON_NUMBERING true
+	set metatag CODES_AMINO_ACIDS true
+	exit
+
+  create feature ORFV2 -p whole_genome "Hypothetical protein ORFV2"
+  feature ORFV2
+	set field displayName ORFV2
+	set metatag OWN_CODON_NUMBERING true
+	set metatag CODES_AMINO_ACIDS true
+	exit
+
+  create feature ORFC2 -p whole_genome "Hypothetical protein ORFC2"
+  feature ORFC2
+	set field displayName ORFC2
+	set metatag OWN_CODON_NUMBERING true
+	set metatag CODES_AMINO_ACIDS true
+	exit
+
   create feature ORF3 -p whole_genome "Hypothetical protein ORF3"
   feature ORF3
 	set field displayName ORF3

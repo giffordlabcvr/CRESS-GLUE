@@ -2,12 +2,12 @@ reference REF_MASTER_PCV-1
 
   feature-location 5UTR
   
-    create variation nonanucleotide_motif -t nucleotideSimplePolymorphism --labeledCodon 48 60
-    variation core_motif_I
-      set metatag REGEX_AA_PATTERN LP\wD[FY]FP\w{5}[VL] 
+    create variation nonanucleotide_motif -t nucleotideSimplePolymorphism --nucleotide 2 10
+
+    variation nonanucleotide_motif
+      set metatag SIMPLE_NT_PATTERN [TCAG]A[GT]TATTAC
     exit                          
    
   exit
 
 exit
- 
