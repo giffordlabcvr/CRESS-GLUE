@@ -22,7 +22,7 @@ project cress
   
   # Import metadata for eve from tabular
   module ecvSideDataImporter 
-    populate -f tabular/eve/ecv-side-data.tsv
+    populate -f tabular/locus/ecv-side-data.tsv
     exit
 
   # Declare references 

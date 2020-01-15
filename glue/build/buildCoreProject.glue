@@ -20,6 +20,7 @@ project cress
 
   # Import alignments and alignment tree
   run file glue/core/cressAlignments.glue
+  run file glue/core/cressAlignmentTree.glue
 
   # Add variations
   run file glue/core/cressVariations.glue
