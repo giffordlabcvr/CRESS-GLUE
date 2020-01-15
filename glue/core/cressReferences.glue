@@ -8,7 +8,6 @@
   ## Mammal
   
   # Porcine circoviruses
-  create reference REF_PCV-1 ncbi-refseqs NC_001792	
   create reference REF_PCV-2 ncbi-refseqs NC_005148
   create reference REF_PCV-3 ncbi-refseqs NC_031753
   create reference REF_Po-41 ncbi-refseqs NC_025683
@@ -44,9 +43,12 @@
   create reference REF_SgCV   ncbi-refseqs NC_025246
      
   ### CRESS
-  create reference AHEaCV-14 ncbi-refseqs NC_026641
+  create reference REF_AHEaCV-13 ncbi-refseqs NC_026639
+  create reference REF_AHEaCV-14 ncbi-refseqs NC_026641
+
     
   ### Cyclovirus     
-  create reference REF_HuACyV-1 ncbi-refseqs KJ831064
+  create reference REF_HuACyV-1   fasta-refseqs KJ831064
   create reference REF_BatACyV-10 ncbi-refseqs KM382270
+
 
