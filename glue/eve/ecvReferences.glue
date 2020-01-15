@@ -1,16 +1,16 @@
   ## Circovirus ECV  
-  create reference REF_ECV_Eptatretus fasta-refseqs ECV.Eptatretus-consensus
-  create reference REF_ECV_Carnivora fasta-refseqs ECV.Carnivore-consensus
-  create reference REF_ECV_Serpentes fasta-refseqs ECV.Serpentes-consensus
-  create reference REF_ECV_Passeriformes fasta-refseqs ECV.Passeriformes.1-consensus
-  create reference REF_ECV_Psittaciformes fasta-refseqs ECV.Psittaciformes.1-consensus
-  create reference REF_ECV_Actinopterygii fasta-refseqs ECV.Actinopterygii-consensus
+  create reference REF_ECV_Eptatretus fasta-refseqs-ecv ECV.Eptatretus-consensus
+  create reference REF_ECV_Carnivora fasta-refseqs-ecv ECV.Carnivore-consensus
+  create reference REF_ECV_Serpentes fasta-refseqs-ecv ECV.Serpentes-consensus
+  create reference REF_ECV_Passeriformes fasta-refseqs-ecv ECV.Passeriformes.1-consensus
+  create reference REF_ECV_Psittaciformes fasta-refseqs-ecv ECV.Psittaciformes.1-consensus
+  create reference REF_ECV_Actinopterygii fasta-refseqs-ecv ECV.Actinopterygii-consensus
   
   ## Cyclovirus/CRESS ECV  
-  create reference REF_ECV_Loxosceles   fasta-refseqs ECV.Loxosceles-consensus
-  create reference REF_ECV_Modiolus     fasta-refseqs ECV.Modiolus-consensus
-  create reference REF_ECV_Mytilus      fasta-refseqs ECV.Mytilus-consensus
-  create reference REF_ECV_Parhyale     fasta-refseqs ECV.Parhyale-consensus
-  create reference REF_ECV_Varroa       fasta-refseqs ECV.Varroa-consensus
-  create reference REF_ECV_Tropileilaps fasta-refseqs ECV.Tropileilaps-consensus
+  create reference REF_ECV_Loxosceles   fasta-refseqs-ecv ECV.Loxosceles-consensus
+  create reference REF_ECV_Modiolus     fasta-refseqs-ecv ECV.Modiolus-consensus
+  create reference REF_ECV_Mytilus      fasta-refseqs-ecv ECV.Mytilus-consensus
+  create reference REF_ECV_Parhyale     fasta-refseqs-ecv ECV.Parhyale-consensus
+  create reference REF_ECV_Varroa       fasta-refseqs-ecv ECV.Varroa-consensus
+  create reference REF_ECV_Tropileilaps fasta-refseqs-ecv ECV.Tropileilaps-consensus
     

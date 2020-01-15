@@ -21,19 +21,12 @@
 	set metatag CODES_AMINO_ACIDS true
 	exit
 
-  create feature Cap-rev -p whole_genome "Capsid protein reverse"
-  feature Cap-rev
-	set field displayName Cap-rev
-	set metatag OWN_CODON_NUMBERING true
-	set metatag CODES_AMINO_ACIDS true
-	set metatag REVERSE_COMPLEMENT_TRANSLATION true
-	exit
-
   create feature Cap -p whole_genome "Capsid protein"
   feature Cap
 	set field displayName Cap
 	set metatag OWN_CODON_NUMBERING true
 	set metatag CODES_AMINO_ACIDS true
+	set metatag REVERSE_COMPLEMENT_TRANSLATION true
 	exit
 
   create feature gp2 -p whole_genome "gp2 protein"
