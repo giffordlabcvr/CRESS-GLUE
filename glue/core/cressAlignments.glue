@@ -1,11 +1,11 @@
   
   #~# Root alignment
   module unconstrainedAlignmentImporter    
-    import AL_UNCONSTRAINED_CRESS_rep_root -f alignments/root/circoviridae-rep.fna
+    import AL_UNCONSTRAINED_CRESS_rep_root -f alignments/root/cress-rep.fna
     exit
 
 
-  # Import internal node alignments
+  # Internal node alignments
   module unconstrainedAlignmentImporter
 
     #~# Genus-level alignments

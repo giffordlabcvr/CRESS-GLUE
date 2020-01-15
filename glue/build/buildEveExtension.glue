@@ -17,6 +17,11 @@ project cress
   import source sources/fasta-refseqs-ecv/
   import source sources/fasta-curated-ecv/
   
+
+  # Import alignments
+  run file glue/eve/ecvAlignments.glue
+
+
   run script glue/eve/loadLocusData1.js
   run script glue/eve/loadLocusData2.js
   
@@ -29,10 +34,10 @@ project cress
   run file glue/eve/ecvReferences.glue
 
   # Import alignments
-  #run file glue/eve/ecvAlignments.glue
+  run file glue/eve/ecvAlignments.glue
 
   # Import alignment tree
-  #run file glue/eve/ecvAlignmentTree.glue
+  run file glue/eve/ecvConstrainedAlignmentTree.glue
 
   # Validate
   validate

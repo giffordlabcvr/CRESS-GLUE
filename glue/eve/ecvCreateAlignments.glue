@@ -1,6 +1,27 @@
-delete alignment AL_ECV_Carnivore
+  delete alignment AL_ECV_Carnivore
+  delete alignment AL_ECV_Actinopterygii
+  delete alignment AL_ECV_Serpentes
+  delete alignment AL_ECV_Passeriformes
+  delete alignment AL_ECV_Psittacidae
+   
+   
+  create alignment AL_ECV_Carnivore -r REF_ECV_Carnivora
+  alignment AL_ECV_Carnivore add member --whereClause "name = 'ECV.Carnivore'"
+  compute alignment AL_ECV_Carnivore -a circoviridaeCompoundAligner 
 
-create alignment AL_ECV_Carnivore -r REF_ECV_Carnivora
-alignment AL_ECV_Carnivore add member --whereClause "name = 'ECV.Carnivore'"
-compute alignment AL_ECV_Carnivore -a circoviridaeCompoundAligner 
+  create alignment AL_ECV_Actinopterygii -r REF_BarbCV
+  alignment AL_ECV_Actinopterygii add member --whereClause "name = 'ECV.Cypriniphysae'"
+  #compute alignment AL_ECV_Actinopterygii -a circoviridaeCompoundAligner 
+
+  create alignment AL_ECV_Serpentes -r REF_MiCV
+  alignment AL_ECV_Serpentes add member --whereClause "name = 'ECV.Serpentes'"
+  #compute alignment AL_ECV_Serpentes -a circoviridaeCompoundAligner 
+
+  create alignment AL_ECV_Passeriformes -r REF_BFDV
+  alignment AL_ECV_Passeriformes add member --whereClause "name = 'ECV.Passeriformes'"
+  #compute alignment AL_ECV_Passeriformes -a circoviridaeCompoundAligner 
+
+  create alignment AL_ECV_Psittacidae -r REF_TbCV
+  alignment AL_ECV_Psittacidae add member --whereClause "name = 'ECV.Psittacidae'"
+  #compute alignment AL_ECV_Psittacidae -a circoviridaeCompoundAligner 
 

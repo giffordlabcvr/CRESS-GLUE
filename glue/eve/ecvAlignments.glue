@@ -1,36 +1,31 @@
 
-  # TIP alignments
-  
-  module unconstrainedAlignmentImporter
+  module UnconstrainedAlignmentImporter
 
-    # Circovirus tip alignments
-    #import AL_UNCONSTRAINED_ecv_Amphibia -f alignments/tips/eve/circovirus/ecv-amphibia-master.fna
-    import AL_UNCONSTRAINED_ecv_Carnivora -f alignments/tips/eve/circovirus/ecv-carnivore-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Passeriformes -f alignments/tips/eve/circovirus/ecv-passeriforme-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Serpentes -f alignments/tips/eve/circovirus/ecv-serpentes-master-1.fna
-    #import AL_UNCONSTRAINED_ecv_Psittaciformes -f alignments/tips/eve/circovirus/ecv-psittaciforme-master-1.fna
+    #~#  INTERNAL alignments (Circovirus genus) 
+      
+    import AL_UNCONSTRAINED_Circovirus_ecv -f alignments/internal/circovirus/circovirus-genome+eves.fna
+
+
+    #~#  TIP alignments  
+    
+    # Circovirus
+    #import AL_UNCONSTRAINED_ecv_Amphibia -f alignments/tip/eve/circovirus/ecv-amphibia-master.fna
+    #import AL_UNCONSTRAINED_ecv_Carnivora -f alignments/tip/eve/circovirus/ecv-carnivore-master-1.fna
+    import AL_UNCONSTRAINED_ecv_Passeriformes -f alignments/tip/eve/circovirus/ecv-passeriforme-master-1.fna
+    #import AL_UNCONSTRAINED_ecv_Psittaciformes -f alignments/tip/eve/circovirus/ecv-psittaciforme-master-1.fna
+    import AL_UNCONSTRAINED_ecv_Serpentes -f alignments/tip/eve/circovirus/ecv-serpentes-master-1.fna
 
     # Cyclovirus tip alignments
-    import AL_UNCONSTRAINED_ecv_Varroa -f alignments/tips/eve/cyclovirus/ecv-varroa-master-1.fna
-
+    import AL_UNCONSTRAINED_ecv_Varroa -f alignments/tip/eve/cyclovirus/ecv-varroa-master-1.fna
 
     # CRESS tip alignments
-    import AL_UNCONSTRAINED_ecv_Loxosceles -f alignments/tips/eve/cress/ecv-loxosceles-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Modolius -f alignments/tips/eve/cress/ecv-modiolus-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Mytilus -f alignments/tips/eve/cress/ecv-mytilus-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Conus -f alignments/tips/eve/cress/ecv-conus-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Parhyale -f alignments/tips/eve/cress/ecv-parhyale-master-1.fna
-    #import AL_UNCONSTRAINED_ecv_Tropileilaps -f alignments/tips/eve/cyclovirus/ecv-tropileilaps-master-1.fna
-    
-    
-    # Unassigned
-    import AL_UNCONSTRAINED_ecv_Eptatretus -f alignments/tips/eve/circovirus/ecv-eptatretus-master-1.fna
+    #import AL_UNCONSTRAINED_ecv_Eptatretus -f alignments/tip/eve/circovirus/ecv-eptatretus-master-1.fna
+    import AL_UNCONSTRAINED_ecv_Loxosceles -f alignments/tip/eve/cress/ecv-loxosceles-master-1.fna
+    import AL_UNCONSTRAINED_ecv_Modolius -f alignments/tip/eve/cress/ecv-modiolus-master-1.fna
+    import AL_UNCONSTRAINED_ecv_Mytilus -f alignments/tip/eve/cress/ecv-mytilus-master-1.fna
+    import AL_UNCONSTRAINED_ecv_Conus -f alignments/tip/eve/cress/ecv-conus-master-1.fna
+    import AL_UNCONSTRAINED_ecv_Parhyale -f alignments/tip/eve/cress/ecv-parhyale-master-1.fna
+    #import AL_UNCONSTRAINED_ecv_Tropileilaps -f alignments/tip/eve/cyclovirus/ecv-tropileilaps-master-1.fna
 
    exit
-
-
-  # INTERNAL alignments (Circovirus genus)   
-  module unconstrainedAlignmentImporter
-    import AL_UNCONSTRAINED_Circovirus_genome -f alignments/internal/circovirus-genome.fna
-    exit
 

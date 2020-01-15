@@ -11,5 +11,5 @@ schema-project cress
 run file glue/build/buildCoreProject.glue
   
 # Build endogenous circovirus component
-#run file glue/build/buildEveExtension.glue
+run file glue/build/buildEveExtension.glue
 
