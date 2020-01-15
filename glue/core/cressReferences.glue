@@ -5,30 +5,24 @@
 
   ### Circovirus
   
-  ## Mammal
-  
-  # Porcine circoviruses
+  # Mammalian
   create reference REF_PCV-2 ncbi-refseqs NC_005148
   create reference REF_PCV-3 ncbi-refseqs NC_031753
   create reference REF_Po-41 ncbi-refseqs NC_025683
-
-  # Canine circovirus
   create reference REF_CfCV  ncbi-refseqs NC_020904
-
-  # Mink circovirus
   create reference REF_MiCV  ncbi-refseqs NC_023885
-
-  # Mexican free-tailed bat (Tadarida brasiliensis) circovirus
   create reference REF_TbCV  ncbi-refseqs NC_028045
 
   ## Avian 1
   create reference REF_BFDV  ncbi-refseqs NC_001944
+  create reference REF_StCV  ncbi-refseqs NC_008033
+  create reference REF_CaCV  ncbi-refseqs NC_003410
   create reference REF_ZfCV  ncbi-refseqs NC_026945
   create reference REF_FiCV  ncbi-refseqs NC_008522
   create reference REF_RaCV  ncbi-refseqs NC_008375
-  create reference REF_CaCV  ncbi-refseqs NC_003410
   create reference REF_GuCV  ncbi-refseqs NC_008521
   create reference REF_SvCV  ncbi-refseqs NC_008033
+  create reference REF_CoCV  ncbi-refseqs NC_002361
 
   ## Avian 2
   create reference REF_SwCV  ncbi-refseqs NC_025247
@@ -41,14 +35,14 @@
   ## Fish 2
   # Silurus glanis circovirus
   create reference REF_SgCV   ncbi-refseqs NC_025246
-     
-  ### CRESS
-  create reference REF_AHEaCV-13 ncbi-refseqs NC_026639
-  create reference REF_AHEaCV-14 ncbi-refseqs NC_026641
-
+  
     
   ### Cyclovirus     
   create reference REF_HuACyV-1   fasta-refseqs KJ831064
   create reference REF_BatACyV-10 ncbi-refseqs KM382270
 
+
+  ### CRESS
+  create reference REF_AHEaCV-13 ncbi-refseqs NC_026639
+  create reference REF_AHEaCV-14 ncbi-refseqs NC_026641
 

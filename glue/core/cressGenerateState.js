@@ -81,7 +81,7 @@ function create_feature_fasta(refseqID, featureID, featureCodons, featureSummary
 	  var ref_nuc  = resultObj1.refNt;	
 	  var codon    = resultObj1.codonNts;	
 
-	  glue.logInfo("  amino acid "+amino1+", "+ref_nuc+", "+codon);
+	  //glue.logInfo("  amino acid "+amino1+", "+ref_nuc+", "+codon);
 
 	  fasta_aa     = fasta_aa+amino1;
 	  fasta_codons = fasta_codons+codon;
@@ -110,7 +110,7 @@ function create_feature_fasta(refseqID, featureID, featureCodons, featureSummary
 // Return a map object containing amino-acid summary for a coding feature 
 function get_coding_feature_amino_acids(refseqID, featureID) {
 	
-	glue.logInfo("  Getting amino acids for feature: "+featureID);
+	//glue.logInfo("  Getting amino acids for feature: "+featureID);
 	
 	var resultMap = {};
 	glue.inMode("reference/"+refseqID+"/feature-location/"+featureID, function(){		
