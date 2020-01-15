@@ -17,26 +17,30 @@ reference REF_MASTER_PCV-1
       set metatag REGEX_AA_PATTERN [CRV][FW]T[LWIV]]N[ND]
     exit                            
  
-    create variation motif_II -t aminoAcidRegexPolymorphism --labeledCodon 154 168
+    create variation motif_II -t aminoAcidRegexPolymorphism --labeledCodon 53 57
     variation motif_II
       set metatag REGEX_AA_PATTERN [A-Z]HLQG
     exit
  
-    create variation motif_III -t aminoAcidRegexPolymorphism --labeledCodon 154 168
+    create variation motif_III -t aminoAcidRegexPolymorphism --labeledCodon 93 96
     variation motif_III
       set metatag REGEX_AA_PATTERN Y[CL][A-Z][KH]
     exit
 
-    create variation walker_a -t aminoAcidRegexPolymorphism --labeledCodon 154 168
+    create variation walker_a -t aminoAcidRegexPolymorphism --labeledCodon 171 178
     variation walker_a
       set metatag REGEX_AA_PATTERN G[A-Z][PTS][GR][A-Z]GK[ST]
     exit
  
-    create variation walker_b -t aminoAcidRegexPolymorphism --labeledCodon 154 168
+    create variation walker_b -t aminoAcidRegexPolymorphism --labeledCodon 210 214
     variation walker_b
-      set metatag REGEX_AA_PATTERN G[A-Z][PTS][GR][A-Z]GK[ST]
+      set metatag REGEX_AA_PATTERN [IV][ILFMV]DD[FY]
     exit
 
+    create variation motif_c -t aminoAcidRegexPolymorphism --labeledCodon 250 253
+    variation motif_c
+      set metatag REGEX_AA_PATTERN [IFVL]T[ST][NE]
+    exit
 
 
   exit
