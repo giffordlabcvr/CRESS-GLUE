@@ -7,9 +7,9 @@ CRESS-GLUE is a
 
 It contains:
 
-* A set of circovirus reference sequences linked to auxiliary data.
-* A comprehensive list of circovirus genome features and their specific locations on full genome reference sequences.
-* Alignments of circovirus reference sequences arranged hierarchically by clade.
+* A set of CRESS DNA virus reference sequences linked to auxiliary data.
+* A comprehensive list of CRESS DNA virus genome features and their specific locations on full genome reference sequences.
+* Alignments of CRESS DNA virus reference sequences arranged hierarchically by clade.
 
 ## Installation
 

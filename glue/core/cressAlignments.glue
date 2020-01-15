@@ -1,7 +1,7 @@
   
   # Root alignment
   module unconstrainedAlignmentImporter    
-    import AL_UNCONSTRAINED_Circoviridae_rep_root -f alignments/root/circoviridae-rep.fna
+    import AL_UNCONSTRAINED_CRESS_rep_root -f alignments/root/circoviridae-rep.fna
     exit
 
 

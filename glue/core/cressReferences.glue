@@ -8,7 +8,6 @@
   # Mammalian
   create reference REF_PCV-2 ncbi-refseqs NC_005148
   create reference REF_PCV-3 ncbi-refseqs NC_031753
-  create reference REF_Po-41 ncbi-refseqs NC_025683
   create reference REF_CfCV  ncbi-refseqs NC_020904
   create reference REF_MiCV  ncbi-refseqs NC_023885
   create reference REF_TbCV  ncbi-refseqs NC_028045
@@ -41,6 +40,10 @@
   create reference REF_HuACyV-1   fasta-refseqs KJ831064
   create reference REF_BatACyV-10 ncbi-refseqs  KM382270
   create reference REF_FlCyV      ncbi-refseqs  NC_024700
+
+
+   ### Unclassified
+ create reference REF_Po-41 ncbi-refseqs NC_025683
 
 
   ### CRESS
