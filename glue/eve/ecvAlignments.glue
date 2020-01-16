@@ -19,12 +19,12 @@
     import AL_UNCONSTRAINED_ecv_Varroa -f alignments/tip/eve/cyclovirus/ecv-varroa-master-1.fna
 
     # CRESS tip alignments
-    #import AL_UNCONSTRAINED_ecv_Eptatretus -f alignments/tip/eve/circovirus/ecv-eptatretus-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Loxosceles -f alignments/tip/eve/cress/ecv-loxosceles-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Modolius -f alignments/tip/eve/cress/ecv-modiolus-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Mytilus -f alignments/tip/eve/cress/ecv-mytilus-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Conus -f alignments/tip/eve/cress/ecv-conus-master-1.fna
-    import AL_UNCONSTRAINED_ecv_Parhyale -f alignments/tip/eve/cress/ecv-parhyale-master-1.fna
+    import AL_UNCONSTRAINED_ecv_Eptatretus -f alignments/tip/eve/circovirus/ecv-eptatretus-master-1.fna
+    #import AL_UNCONSTRAINED_ecv_Loxosceles -f alignments/tip/eve/cress/ecv-loxosceles-master-1.fna
+    #import AL_UNCONSTRAINED_ecv_Modolius -f alignments/tip/eve/cress/ecv-modiolus-master-1.fna
+    #import AL_UNCONSTRAINED_ecv_Mytilus -f alignments/tip/eve/cress/ecv-mytilus-master-1.fna
+    #import AL_UNCONSTRAINED_ecv_Conus -f alignments/tip/eve/cress/ecv-conus-master-1.fna
+    #import AL_UNCONSTRAINED_ecv_Parhyale -f alignments/tip/eve/cress/ecv-parhyale-master-1.fna
     #import AL_UNCONSTRAINED_ecv_Tropileilaps -f alignments/tip/eve/cyclovirus/ecv-tropileilaps-master-1.fna
 
    exit

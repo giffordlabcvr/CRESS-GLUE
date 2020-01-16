@@ -1,5 +1,5 @@
 //list of parent features which should be transferred - the parent of the list elements is 'whole_genome'
-var nonCodingFeaturesToInherit = ["Cap", "Cap-Rev"];
+var nonCodingFeaturesToInherit = ["Rep", "Cap"];
 
 
 //initially remove all feature location annotations from the reference sequences with the exception of the master

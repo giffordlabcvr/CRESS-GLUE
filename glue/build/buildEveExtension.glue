@@ -1,6 +1,5 @@
 project cress
 
-  run file glue/eve/ecvDeleteModules.glue
   delete source fasta-refseqs-ecv
   delete source fasta-curated-ecv
   exit
@@ -11,25 +10,15 @@ schema-project cress
   
 project cress
 
-  run file glue/eve/ecvModules.glue
-
-  # Import eve sequences and side data 
+  # Import eve sequences
   import source sources/fasta-refseqs-ecv/
   import source sources/fasta-curated-ecv/
-  
 
-  # Import alignments
-  run file glue/eve/ecvAlignments.glue
-
-
-  run script glue/eve/loadLocusData1.js
-  run script glue/eve/loadLocusData2.js
-  
-  # Import metadata for eve from tabular
-  module ecvSideDataImporter 
-    populate -f tabular/locus/ecv-side-data.tsv
+  # Import eve reference sequence data
+  module cressSideDataImporter 
+    populate -f tabular/eve/ecv-ncbi-refseqs-side-data.tsv
     exit
-
+  
   # Declare references 
   run file glue/eve/ecvReferences.glue
 
@@ -38,6 +27,13 @@ project cress
 
   # Import alignment tree
   run file glue/eve/ecvConstrainedAlignmentTree.glue
+
+  # Inherit features from master reference to other reference sequences
+  #run script glue/core/cressInheritFeatureLocations.js
+
+  # Import locus information for individual eve loci
+  run script glue/eve/loadLocusData1.js
+  run script glue/eve/loadLocusData2.js
 
   # Validate
   validate

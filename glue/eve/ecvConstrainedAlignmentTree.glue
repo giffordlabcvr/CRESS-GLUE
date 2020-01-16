@@ -15,100 +15,98 @@
 
   alignment AL_Circovirus 
   
-    add member --whereClause "sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-curated-ecv'" 	
+    add member --whereClause "genus = 'Circovirus' and source.name = 'fasta-curated-ecv' or genus = 'Circovirus' and source.name = 'fasta-refseqs-ecv'" 	
  
-	extract child AL_ECV_Carnivora  --refName REF_ECV_Carnivora-1
-	demote member AL_ECV_Carnivora  --whereClause "name = 'ECV.Carnivore'"	
+	extract child AL_ECV_Carnivora  --refName REF_ECV_Carnivora
+	demote member AL_ECV_Carnivora  --whereClause "sequence.name = 'ECV.Carnivore'"	
 
 	extract child AL_ECV_Actinopterygii  --refName REF_BarbCV
-	demote member AL_ECV_Actinopterygii  --whereClause "name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Actinopterygii  --whereClause "sequence.name = 'ECV.Carnivore'"	
 
 	extract child AL_ECV_Serpentes  --refName REF_MiCV
-	demote member AL_ECV_Serpentes  --whereClause "name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Serpentes  --whereClause "sequence.name = 'ECV.Carnivore'"	
 
 	extract child AL_ECV_Passeriformes  --refName REF_BFDV
-	demote member AL_ECV_Passeriformes  --whereClause "name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Passeriformes  --whereClause "sequence.name = 'ECV.Carnivore'"	
 
 	extract child AL_ECV_Psittacidae  --refName REF_TbCV
-	demote member AL_ECV_Psittacidae  --whereClause "name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Psittacidae  --whereClause "sequence.name = 'ECV.Carnivore'"	
 
     exit
 
   alignment AL_Cyclovirus 
   
-    add member --whereClause "sequence.genus = 'Cyclovirus' and sequence.source.name = 'fasta-curated-ecv'" 
+    add member --whereClause "genus = 'Cyclovirus' and source.name = 'fasta-curated-ecv' or genus = 'Cyclovirus' and source.name = 'fasta-refseqs-ecv'" 
 
 	#extract child AL_ECV_Varroa  --refName REF_HuACyV-1
-	#demote member AL_ECV_Varroa  --whereClause "name = 'ECV.Varroa'"	
+	#demote member AL_ECV_Varroa  --whereClause "sequence.name = 'ECV.Varroa'"	
 
     exit
 
   alignment AL_CRESS_1 
   
-    add member --whereClause "sequence.genus = 'CRESS' and sequence.source.name = 'fasta-curated-ecv'" 
+    add member --whereClause "genus = 'CRESS' and source.name = 'fasta-curated-ecv' or genus = 'CRESS' and source.name = 'fasta-refseqs-ecv'" 
  
  	extract child AL_ECV_Eptatretus    --refName REF_ECV_Eptatretus
-	demote member AL_ECV_Eptatretus    --whereClause "name = 'ECV.Eptatretus'"	
+	demote member AL_ECV_Eptatretus    --whereClause "sequence.name = 'ECV.Eptatretus'"	
 
   	extract child AL_ECV_Loxosceles    --refName REF_ECV_Loxosceles
-	demote member AL_ECV_Loxosceles    --whereClause "name = 'ECV.Loxosceles '"	
+	demote member AL_ECV_Loxosceles    --whereClause "sequence.name = 'ECV.Loxosceles '"	
 
-  	extract child AL_ECV_Modolius      --refName REF_ECV_Modolius
-	demote member AL_ECV_Modolius      --whereClause "name = 'ECV.Modolius '"	
+  	#extract child AL_ECV_Modolius      --refName REF_ECV_Modolius
+	#demote member AL_ECV_Modolius      --whereClause "sequence.name = 'ECV.Modolius '"	
 
-  	extract child AL_ECV_Mytilus       --refName REF_ECV_Mytilus
-	demote member AL_ECV_Mytilus       --whereClause "name = 'ECV.Mytilus '"	
+  	#extract child AL_ECV_Mytilus       --refName REF_ECV_Mytilus
+	#demote member AL_ECV_Mytilus       --whereClause "sequence.name = 'ECV.Mytilus '"	
 
-  	extract child AL_ECV_Conus         --refName REF_ECV_Conus
-	demote member AL_ECV_Conus         --whereClause "name = 'ECV.Conus '"	
+  	#extract child AL_ECV_Conus         --refName REF_ECV_Conus
+	#demote member AL_ECV_Conus         --whereClause "sequence.name = 'ECV.Conus '"	
 
-   	extract child AL_ECV_Parhyale      --refName REF_ECV_Parhyale
-	demote member AL_ECV_Parhyale      --whereClause "name = 'ECV.Parhyale '"	
+   	#extract child AL_ECV_Parhyale      --refName REF_ECV_Parhyale
+	#demote member AL_ECV_Parhyale      --whereClause "sequence.name = 'ECV.Parhyale '"	
 
-   	extract child AL_ECV_Tropileilaps  --refName REF_ECV_Tropileilaps
-	demote member AL_ECV_Tropileilaps  --whereClause "name = 'ECV.Tropileilaps '"	
+   	#extract child AL_ECV_Tropileilaps  --refName REF_ECV_Tropileilaps
+	#demote member AL_ECV_Tropileilaps  --whereClause "sequence.name = 'ECV.Tropileilaps '"	
 
    exit
 
 
-
-
   # Derive constrained alignment segments from unconstrained alignments
   
-  alignment AL_ECV_Carnivora
-    derive segments AL_UNCONSTRAINED_ECV_Carnivora -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_ECV_Carnivora
+  #  derive segments AL_UNCONSTRAINED_ECV_Carnivora -a --mergeStrategy OVERWRITE
+  #  exit
  
-  alignment AL_ECV_Varroa
-    derive segments AL_UNCONSTRAINED_ecv_Varroa -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_ECV_Varroa
+  #  derive segments AL_UNCONSTRAINED_ecv_Varroa -a --mergeStrategy OVERWRITE
+  #  exit
 
   alignment AL_ECV_Eptatretus
     derive segments AL_UNCONSTRAINED_ecv_Eptatretus -a --mergeStrategy OVERWRITE
     exit
  
-  alignment AL_ECV_Loxosceles
-    derive segments AL_UNCONSTRAINED_ecv_Loxosceles -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_ECV_Loxosceles
+  #  derive segments AL_UNCONSTRAINED_ecv_Loxosceles -a --mergeStrategy OVERWRITE
+  #  exit
 
-  alignment AL_ECV_Modolius
-    derive segments AL_UNCONSTRAINED_ecv_Modolius -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_ECV_Modolius
+  #  derive segments AL_UNCONSTRAINED_ecv_Modolius -a --mergeStrategy OVERWRITE
+  #  exit
 
-  alignment AL_ECV_Mytilus
-    derive segments AL_UNCONSTRAINED_ecv_Mytilus -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_ECV_Mytilus
+  #  derive segments AL_UNCONSTRAINED_ecv_Mytilus -a --mergeStrategy OVERWRITE
+  #  exit
 
-  alignment AL_ECV_Conus
-    derive segments AL_UNCONSTRAINED_ecv_Conus -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_ECV_Conus
+  #  derive segments AL_UNCONSTRAINED_ecv_Conus -a --mergeStrategy OVERWRITE
+  #  exit
   
-  alignment AL_ECV_Parhyale 
-    derive segments AL_UNCONSTRAINED_ecv_Parhyale -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_ECV_Parhyale 
+  #  derive segments AL_UNCONSTRAINED_ecv_Parhyale -a --mergeStrategy OVERWRITE
+  #  exit
    
-  alignment AL_ECV_Tropileilaps
-    derive segments AL_UNCONSTRAINED_ecv_Tropileilaps -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_ECV_Tropileilaps
+  # derive segments AL_UNCONSTRAINED_ecv_Tropileilaps -a --mergeStrategy OVERWRITE
+  # exit
 
 

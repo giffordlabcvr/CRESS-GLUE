@@ -1,2 +1,0 @@
-   create module -f modules/ecvSideDataImporter.xml
-   create module -f modules/ecvUnconstrainedAlignmentImporter.xml

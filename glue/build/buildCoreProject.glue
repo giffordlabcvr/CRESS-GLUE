@@ -16,7 +16,9 @@ project cress
   run file glue/core/cressReferences.glue
   
   # Add feature locations from tabular to reference sequences
-  run file glue/core/cressAddRefseqFeatureLocations.glue
+  module featureLocationTextToGlue
+    transform tabular/core/reference_feature_locations.tsv -r
+    exit
 
   # Import alignments and alignment tree
   run file glue/core/cressAlignments.glue
