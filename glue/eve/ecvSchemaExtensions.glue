@@ -29,7 +29,7 @@
     create field start_position INTEGER
     create field end_position INTEGER
     create field orientation VARCHAR 10
-    create field host_sci_name VARCHAR 10
+    create field host_sci_name VARCHAR 50
   exit
 
   create link sequence locus_data

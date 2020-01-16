@@ -21,16 +21,16 @@
 	demote member AL_ECV_Carnivora  --whereClause "sequence.name = 'ECV.Carnivore'"	
 
 	extract child AL_ECV_Actinopterygii  --refName REF_BarbCV
-	demote member AL_ECV_Actinopterygii  --whereClause "sequence.name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Actinopterygii  --whereClause "sequence.name = 'ECV.Actinopterygii'"	
 
 	extract child AL_ECV_Serpentes  --refName REF_MiCV
-	demote member AL_ECV_Serpentes  --whereClause "sequence.name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Serpentes  --whereClause "sequence.name = 'ECV.Serpentes'"	
 
 	extract child AL_ECV_Passeriformes  --refName REF_BFDV
-	demote member AL_ECV_Passeriformes  --whereClause "sequence.name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Passeriformes  --whereClause "sequence.name = 'ECV.Passeriformes'"	
 
 	extract child AL_ECV_Psittacidae  --refName REF_TbCV
-	demote member AL_ECV_Psittacidae  --whereClause "sequence.name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Psittacidae  --whereClause "sequence.name = 'ECV.Psittacidae'"	
 
     exit
 
