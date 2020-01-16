@@ -19,7 +19,9 @@
   create reference REF_ECV_Eptatretus       fasta-refseqs-ecv ecv-cress.1-eptatretus-con
   create reference REF_ECV_Loxosceles       fasta-refseqs-ecv ecv-cress.2-loxosceles-con
   create reference REF_ECV_Modiolus         fasta-refseqs-ecv ecv-cress.3-modiolus-con
+  create reference REF_ECV_Mytilus          fasta-refseqs-ecv ecv-cress.4-mytilus-con
   create reference REF_ECV_Neolamprologus   fasta-refseqs-ecv ecv-cress.5-neolamprologus-con
   create reference REF_ECV_Parhyale         fasta-refseqs-ecv ecv-cress.6-parhyale-con
   create reference REF_ECV_Salmo            fasta-refseqs-ecv ecv-cress.7-salmo-con
   create reference REF_ECV_Tropileilaps     fasta-refseqs-ecv ecv-cress.8-tropileilaps-con
+  create reference REF_ECV_Conus            fasta-refseqs-ecv ecv-cress.9-conus-con

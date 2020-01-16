@@ -38,8 +38,8 @@
   
     add member --whereClause "genus = 'Cyclovirus' and source.name = 'fasta-curated-ecv' or genus = 'Cyclovirus' and source.name = 'fasta-refseqs-ecv'" 
 
-	#extract child AL_ECV_Varroa  --refName REF_HuACyV-1
-	#demote member AL_ECV_Varroa  --whereClause "sequence.name = 'ECV.Varroa'"	
+	extract child AL_ECV_Varroa  --refName REF_HuACyV-1
+	demote member AL_ECV_Varroa  --whereClause "sequence.name = 'ECV.Varroa'"	
 
     exit
 
@@ -51,22 +51,22 @@
 	demote member AL_ECV_Eptatretus    --whereClause "sequence.name = 'ECV.Eptatretus'"	
 
   	extract child AL_ECV_Loxosceles    --refName REF_ECV_Loxosceles
-	demote member AL_ECV_Loxosceles    --whereClause "sequence.name = 'ECV.Loxosceles '"	
+	demote member AL_ECV_Loxosceles    --whereClause "sequence.name = 'ECV.Loxosceles'"	
 
-  	#extract child AL_ECV_Modolius      --refName REF_ECV_Modolius
-	#demote member AL_ECV_Modolius      --whereClause "sequence.name = 'ECV.Modolius '"	
+  	extract child AL_ECV_Modiolus      --refName REF_ECV_Modiolus
+	demote member AL_ECV_Modiolus      --whereClause "sequence.name = 'ECV.Modiolus'"	
 
-  	#extract child AL_ECV_Mytilus       --refName REF_ECV_Mytilus
-	#demote member AL_ECV_Mytilus       --whereClause "sequence.name = 'ECV.Mytilus '"	
+  	extract child AL_ECV_Mytilus       --refName REF_ECV_Mytilus
+	demote member AL_ECV_Mytilus       --whereClause "sequence.name = 'ECV.Mytilus'"	
 
-  	#extract child AL_ECV_Conus         --refName REF_ECV_Conus
-	#demote member AL_ECV_Conus         --whereClause "sequence.name = 'ECV.Conus '"	
+  	extract child AL_ECV_Conus         --refName REF_ECV_Conus
+	demote member AL_ECV_Conus         --whereClause "sequence.name = 'ECV.Conus'"	
 
-   	#extract child AL_ECV_Parhyale      --refName REF_ECV_Parhyale
-	#demote member AL_ECV_Parhyale      --whereClause "sequence.name = 'ECV.Parhyale '"	
+   	extract child AL_ECV_Parhyale      --refName REF_ECV_Parhyale
+	demote member AL_ECV_Parhyale      --whereClause "sequence.name = 'ECV.Parhyale'"
 
-   	#extract child AL_ECV_Tropileilaps  --refName REF_ECV_Tropileilaps
-	#demote member AL_ECV_Tropileilaps  --whereClause "sequence.name = 'ECV.Tropileilaps '"	
+   	extract child AL_ECV_Tropileilaps  --refName REF_ECV_Tropileilaps
+	demote member AL_ECV_Tropileilaps  --whereClause "sequence.name = 'ECV.Tropileilaps'"	
 
    exit
 
@@ -81,9 +81,9 @@
   #  derive segments AL_UNCONSTRAINED_ECV_Carnivora -a --mergeStrategy OVERWRITE
   #  exit
  
-  #alignment AL_ECV_Varroa
-  #  derive segments AL_UNCONSTRAINED_ecv_Varroa -a --mergeStrategy OVERWRITE
-  #  exit
+  alignment AL_ECV_Varroa
+    derive segments AL_UNCONSTRAINED_ecv_Varroa -a --mergeStrategy OVERWRITE
+    exit
 
   alignment AL_ECV_Eptatretus
     derive segments AL_UNCONSTRAINED_ecv_Eptatretus -a --mergeStrategy OVERWRITE
@@ -93,24 +93,24 @@
     derive segments AL_UNCONSTRAINED_ecv_Loxosceles -a --mergeStrategy OVERWRITE
     exit
 
-  #alignment AL_ECV_Modolius
-  #  derive segments AL_UNCONSTRAINED_ecv_Modolius -a --mergeStrategy OVERWRITE
-  #  exit
+  alignment AL_ECV_Modiolus
+    derive segments AL_UNCONSTRAINED_ecv_Modiolus -a --mergeStrategy OVERWRITE
+    exit
 
-  #alignment AL_ECV_Mytilus
-  #  derive segments AL_UNCONSTRAINED_ecv_Mytilus -a --mergeStrategy OVERWRITE
-  #  exit
+  alignment AL_ECV_Mytilus
+    derive segments AL_UNCONSTRAINED_ecv_Mytilus -a --mergeStrategy OVERWRITE
+    exit
 
-  #alignment AL_ECV_Conus
-  #  derive segments AL_UNCONSTRAINED_ecv_Conus -a --mergeStrategy OVERWRITE
-  #  exit
+  alignment AL_ECV_Conus
+    derive segments AL_UNCONSTRAINED_ecv_Conus -a --mergeStrategy OVERWRITE
+    exit
   
-  #alignment AL_ECV_Parhyale 
-  #  derive segments AL_UNCONSTRAINED_ecv_Parhyale -a --mergeStrategy OVERWRITE
-  #  exit
+  alignment AL_ECV_Parhyale 
+    derive segments AL_UNCONSTRAINED_ecv_Parhyale -a --mergeStrategy OVERWRITE
+    exit
    
-  #alignment AL_ECV_Tropileilaps
-  # derive segments AL_UNCONSTRAINED_ecv_Tropileilaps -a --mergeStrategy OVERWRITE
-  # exit
+  alignment AL_ECV_Tropileilaps
+   derive segments AL_UNCONSTRAINED_ecv_Tropileilaps -a --mergeStrategy OVERWRITE
+   exit
 
 

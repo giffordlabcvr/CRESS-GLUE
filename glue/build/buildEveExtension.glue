@@ -13,12 +13,16 @@ project cress
   # Import eve sequences
   import source sources/fasta-refseqs-ecv/
   import source sources/fasta-curated-ecv/
+ 
+  # Import locus information for individual eve loci
+  run script glue/eve/loadLocusData1.js
+  run script glue/eve/loadLocusData2.js
 
   # Import eve reference sequence data
   module cressSideDataImporter 
     populate -f tabular/eve/ecv-ncbi-refseqs-side-data.tsv
     exit
-  
+ 
   # Declare references 
   run file glue/eve/ecvReferences.glue
 
@@ -31,9 +35,6 @@ project cress
   # Inherit features from master reference to other reference sequences
   #run script glue/core/cressInheritFeatureLocations.js
 
-  # Import locus information for individual eve loci
-  run script glue/eve/loadLocusData1.js
-  run script glue/eve/loadLocusData2.js
 
   # Validate
   validate

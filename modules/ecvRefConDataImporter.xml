@@ -13,32 +13,7 @@
         <header>reftype</header>
         <property>refcon_data.reftype</property>
     </textFileColumn>
-
-    <textFileColumn>
-        <header>name</header>
-        <property>name</property>
-    </textFileColumn>
-    
-    <textFileColumn>
-        <header>full_name</header>
-        <property>full_name</property>
-    </textFileColumn>
-
-    <textFileColumn>
-        <header>family</header>
-        <property>family</property>
-    </textFileColumn>
-    
-    <textFileColumn>
-        <header>genus</header>
-        <property>genus</property>
-    </textFileColumn>
-    
-    <textFileColumn>
-        <header>clade</header>
-        <property>clade</property>
-    </textFileColumn>
-   
+  
     <textFileColumn>
         <header>host_group_taxlevel</header>
         <property>refcon_data.host_group_taxlevel</property>
