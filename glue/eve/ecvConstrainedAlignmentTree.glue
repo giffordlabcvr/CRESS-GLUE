@@ -76,6 +76,22 @@
   alignment AL_Circovirus
     derive segments AL_UNCONSTRAINED_Circovirus_ecv -a --mergeStrategy OVERWRITE
     exit
+
+  alignment AL_ECV_Passeriformes
+    derive segments AL_UNCONSTRAINED_ecv_Passeriformes -a --mergeStrategy OVERWRITE
+    exit
+ 
+  alignment AL_ECV_Psittacidae
+    derive segments AL_UNCONSTRAINED_ecv_Psittaciformes -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_ECV_Serpentes
+    derive segments AL_UNCONSTRAINED_ecv_Serpentes -a --mergeStrategy OVERWRITE
+    exit
+ 
+  alignment AL_ECV_Eptatretus
+    derive segments AL_UNCONSTRAINED_ecv_Serpentes -a --mergeStrategy OVERWRITE
+    exit
  
   #alignment AL_ECV_Carnivora
   #  derive segments AL_UNCONSTRAINED_ECV_Carnivora -a --mergeStrategy OVERWRITE
