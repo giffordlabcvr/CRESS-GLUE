@@ -9,8 +9,8 @@
   create reference REF_ECV_Kryptolebias     fasta-refseqs-ecv ecv-circo.8-kryptolebias-con
   create reference REF_ECV_Acanthochromis   fasta-refseqs-ecv ecv-circo.10-acanthochromis-con
   create reference REF_ECV_Carnivora        fasta-refseqs-ecv ecv-circo.11-carnivore-con
-  #create reference REF_ECV_Chrysochloris    fasta-refseqs-ecv ecv-circo.11-chrysochloris-con
-  #create reference REF_ECV_Galeopterus      fasta-refseqs-ecv ecv-circo.13-galeopterus-con
+  create reference REF_ECV_Chrysochloris    fasta-refseqs-ecv ecv-circo.12-chrysochloris-con
+  create reference REF_ECV_Galeopterus      fasta-refseqs-ecv ecv-circo.13-galeopterus-con
  
   ## Cyclovirus ECV  
   create reference REF_ECV_Varroa           fasta-refseqs-ecv ecv-cyclo.1-varroa-con
