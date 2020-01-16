@@ -88,21 +88,19 @@
   alignment AL_ECV_Serpentes
     derive segments AL_UNCONSTRAINED_ecv_Serpentes -a --mergeStrategy OVERWRITE
     exit
- 
-  alignment AL_ECV_Eptatretus
-    derive segments AL_UNCONSTRAINED_ecv_Serpentes -a --mergeStrategy OVERWRITE
-    exit
- 
+
   #alignment AL_ECV_Carnivora
   #  derive segments AL_UNCONSTRAINED_ECV_Carnivora -a --mergeStrategy OVERWRITE
   #  exit
  
-  alignment AL_ECV_Varroa
-    derive segments AL_UNCONSTRAINED_ecv_Varroa -a --mergeStrategy OVERWRITE
-    exit
-
   alignment AL_ECV_Eptatretus
     derive segments AL_UNCONSTRAINED_ecv_Eptatretus -a --mergeStrategy OVERWRITE
+    exit
+ 
+
+ 
+  alignment AL_ECV_Varroa
+    derive segments AL_UNCONSTRAINED_ecv_Varroa -a --mergeStrategy OVERWRITE
     exit
  
   alignment AL_ECV_Loxosceles
