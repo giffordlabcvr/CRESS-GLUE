@@ -72,7 +72,11 @@
 
 
   # Derive constrained alignment segments from unconstrained alignments
-  
+ 
+  alignment AL_Circovirus
+    derive segments AL_UNCONSTRAINED_Circovirus_ecv -a --mergeStrategy OVERWRITE
+    exit
+ 
   #alignment AL_ECV_Carnivora
   #  derive segments AL_UNCONSTRAINED_ECV_Carnivora -a --mergeStrategy OVERWRITE
   #  exit
@@ -85,9 +89,9 @@
     derive segments AL_UNCONSTRAINED_ecv_Eptatretus -a --mergeStrategy OVERWRITE
     exit
  
-  #alignment AL_ECV_Loxosceles
-  #  derive segments AL_UNCONSTRAINED_ecv_Loxosceles -a --mergeStrategy OVERWRITE
-  #  exit
+  alignment AL_ECV_Loxosceles
+    derive segments AL_UNCONSTRAINED_ecv_Loxosceles -a --mergeStrategy OVERWRITE
+    exit
 
   #alignment AL_ECV_Modolius
   #  derive segments AL_UNCONSTRAINED_ecv_Modolius -a --mergeStrategy OVERWRITE

@@ -19,8 +19,6 @@
 
   alignment AL_Circoviridae 
   
-    add member --allSequences
-
 	extract child AL_Circovirus   --refName REF_MASTER_PCV-1
 	demote member AL_Circovirus   --whereClause "sequence.genus = 'Circovirus' and sequence.source.name = 'ncbi-refseqs' or sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-refseqs'" 	
  
