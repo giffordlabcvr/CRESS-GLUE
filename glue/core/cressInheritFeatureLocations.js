@@ -5,7 +5,7 @@ var nonCodingFeaturesToInherit = ["Rep", "Cap"];
 //initially remove all feature location annotations from the reference sequences with the exception of the master
 //glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.name != 'REF_MASTER_PCV-1'"]);
 
-//list all HIV-1 reference sequences
+//list all reference sequences
 var refSeqObjs = glue.tableToObjects(glue.command(["list", "reference", "name", "-w", "sequence.species_group='M' "]));
 
 
