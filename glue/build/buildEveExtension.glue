@@ -20,7 +20,7 @@ project cress
 
   # Import eve reference sequence data
   module cressSideDataImporter 
-    populate -f tabular/eve/ecv-ncbi-refseqs-side-data.tsv
+    populate -f tabular/eve/ecv-refseqs-side-data.tsv
     exit
  
   # Declare references 
