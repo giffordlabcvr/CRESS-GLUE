@@ -32,6 +32,9 @@
 	extract child AL_ECV_Psittacidae  --refName REF_TbCV
 	demote member AL_ECV_Psittacidae  --whereClause "sequence.name = 'ECV.Psittacidae'"	
 
+	extract child AL_ECV_Tinamou  --refName REF_TbCV
+	demote member AL_ECV_Tinamou  --whereClause "sequence.name = 'ECV.Tinamou'"	
+
     exit
 
   alignment AL_Cyclovirus 
@@ -68,6 +71,9 @@
    	extract child AL_ECV_Tropileilaps  --refName REF_ECV_Tropileilaps
 	demote member AL_ECV_Tropileilaps  --whereClause "sequence.name = 'ECV.Tropileilaps'"	
 
+   	extract child AL_ECV_Taenia        --refName REF_ECV_Taenia
+	demote member AL_ECV_Taenia        --whereClause "sequence.name = 'ECV.Taenia'"	
+
    exit
 
 
@@ -78,53 +84,59 @@
     exit
 
   alignment AL_ECV_Passeriformes
-    derive segments AL_UNCONSTRAINED_ecv_Passeriformes -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_ECV_Passeriformes -a --mergeStrategy OVERWRITE
     exit
  
   alignment AL_ECV_Psittacidae
-    derive segments AL_UNCONSTRAINED_ecv_Psittaciformes -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_ECV_Psittaciformes -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_ECV_Serpentes
-    derive segments AL_UNCONSTRAINED_ecv_Serpentes -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_ECV_Serpentes -a --mergeStrategy OVERWRITE
     exit
 
+  alignment AL_ECV_Eptatretus
+    derive segments AL_UNCONSTRAINED_ECV_Eptatretus -a --mergeStrategy OVERWRITE
+    exit
+ 
+  alignment AL_ECV_Tinamou
+    derive segments AL_UNCONSTRAINED_ECV_Tinamou -a --mergeStrategy OVERWRITE
+    exit
+ 
   #alignment AL_ECV_Carnivora
   #  derive segments AL_UNCONSTRAINED_ECV_Carnivora -a --mergeStrategy OVERWRITE
   #  exit
  
-  alignment AL_ECV_Eptatretus
-    derive segments AL_UNCONSTRAINED_ecv_Eptatretus -a --mergeStrategy OVERWRITE
-    exit
- 
-
- 
   alignment AL_ECV_Varroa
-    derive segments AL_UNCONSTRAINED_ecv_Varroa -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_ECV_Varroa -a --mergeStrategy OVERWRITE
     exit
  
   alignment AL_ECV_Loxosceles
-    derive segments AL_UNCONSTRAINED_ecv_Loxosceles -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_ECV_Loxosceles -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_ECV_Modiolus
-    derive segments AL_UNCONSTRAINED_ecv_Modiolus -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_ECV_Modiolus -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_ECV_Mytilus
-    derive segments AL_UNCONSTRAINED_ecv_Mytilus -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_ECV_Mytilus -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_ECV_Conus
-    derive segments AL_UNCONSTRAINED_ecv_Conus -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_ECV_Conus -a --mergeStrategy OVERWRITE
     exit
   
   alignment AL_ECV_Parhyale 
-    derive segments AL_UNCONSTRAINED_ecv_Parhyale -a --mergeStrategy OVERWRITE
+    derive segments AL_UNCONSTRAINED_ECV_Parhyale -a --mergeStrategy OVERWRITE
     exit
    
   alignment AL_ECV_Tropileilaps
-   derive segments AL_UNCONSTRAINED_ecv_Tropileilaps -a --mergeStrategy OVERWRITE
+   derive segments AL_UNCONSTRAINED_ECV_Tropileilaps -a --mergeStrategy OVERWRITE
+   exit
+
+  alignment AL_ECV_Taenia
+   derive segments AL_UNCONSTRAINED_ECV_Taenia -a --mergeStrategy OVERWRITE
    exit
 
 
