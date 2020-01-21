@@ -1,0 +1,8 @@
+  delete alignment AL_ECV_Actinopterygii
+  delete alignment AL_ECV_Serpentes
+  delete alignment AL_ECV_Passeriformes
+  delete alignment AL_ECV_Psittacidae
+   
+   
+  create alignment AL_ECV_Carnivore -r REF_ECV_Carnivora
+  alignment AL_ECV_Carnivore add member --whereClause "name = 'ECV.Carnivore'"

@@ -1,6 +1,8 @@
+  delete module cressCompoundAligner
+  create module -f modules/cressCompoundAligner.xml
 
-  # Constrained alignment tree
   
+  # Constrained alignment tree
   create alignment AL_CRESS_MASTER -r REF_MASTER_PCV-1 
   
   
@@ -38,3 +40,4 @@
     derive segments AL_UNCONSTRAINED_Circovirus_genome -a --mergeStrategy OVERWRITE
     exit
 
+  compute alignment AL_Cyclovirus -a cressCompoundAligner 
