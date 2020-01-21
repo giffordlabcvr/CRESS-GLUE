@@ -1,62 +1,138 @@
-var rep_fasta_aa = [ ];
-var rep_fasta_nt = [ ];
-var cap_fasta_aa = [ ];
-var cap_fasta_nt = [ ];
+// *
+// Globals (temporary solution)
+var NS3_fasta_aa = [ ];
+var NS3_fasta_nt = [ ];
+var NS5_fasta_aa = [ ];
+var NS5_fasta_nt = [ ];
 
-// Get a list of all the distinct sources for reference sequences
-var source_names = get_refseq_sources();
 
-// Process reference sequences in each source
-var featureSummary = {};
-for(var i = 0; i < source_names.length; i++) {
+// Summarise the reference sequences in this project
+//process_refseqs();
 
-	var sourceName = source_names[i];
-	glue.logInfo("Processing source: "+sourceName);
+// Summarise the alignments in this project
+process_alignment_tree("AL_CRESS_MASTER");
 
-    // Get the names (IDs) of all references in this source	
-	var refseq_ids = get_refseq_ids(sourceName);	
+// Summarise the virus isolates in this project
+//process_virus_isolates();
 
-	// Iterate through the list of references
-	for(var j = 0; j < refseq_ids.length; j++) {
+// Summarise the EVEs in this project
+//process_eves();
 
-		var refseqID = refseq_ids[j];
-		glue.logInfo("Processing source "+sourceName+", Reference: "+refseqID);		
 
-		// Get a list of the features in this reference sequence
-		var myFeatures = get_features(refseqID);				
+// *
+// TOP-LEVEL SUBROUTINES
 
-		// Iterate through the list of features
-		for(var k = 0; k < myFeatures.length; k++) {
+// Process reference sequences 
+function process_refseqs() {
+
+
+	// Get a list of all the distinct sources for reference sequences
+	var source_names = get_refseq_sources();
+
+	// Process reference sequences in each source
+	var featureSummary = {};
+	for(var i = 0; i < source_names.length; i++) {
+
+		var sourceName = source_names[i];
+		glue.logInfo("Processing source: "+sourceName);
+
+		// Get the names (IDs) of all references in this source	
+		var refseq_ids = get_refseq_ids(sourceName);	
+
+		// Iterate through the list of references
+		for(var j = 0; j < refseq_ids.length; j++) {
+
+			var refseqID = refseq_ids[j];
+			glue.logInfo("Processing source "+sourceName+", Reference: "+refseqID);		
+
+			// Get a list of the features in this reference sequence
+			var myFeatures = get_features(refseqID);				
+
+			// Iterate through the list of features
+			for(var k = 0; k < myFeatures.length; k++) {
 		
-			var featureID = myFeatures[k];		
-			process_feature(featureSummary, refseqID, featureID);
+				var featureID = myFeatures[k];		
+				process_feature(featureSummary, refseqID, featureID);
 			
+			}
 		}
 	}
+	
+	// Write ORFs as NT and AA fasta
+	write_feature_fasta(NS3_fasta_aa, NS5_fasta_aa)
 }
 
 
-// Get alignments
-var myAlignments = get_alignments()
+// Process alignments non-recursively
+function process_alignments() {
+ 
+	// Get alignments
+	var myAlignments = get_alignments()
+	
+	// Iterate through the list of references
+	for(var j = 0; j < myAlignments.length; j++) {
 
-var rep_fasta_aa_str = rep_fasta_aa.join("\n");
-glue.command(["file-util", "save-string", rep_fasta_aa_str, "export/reference-viruses/rep_fasta.faa"]);
-var rep_fasta_nt_str = rep_fasta_nt.join("\n");
-glue.command(["file-util", "save-string", rep_fasta_nt_str, "export/reference-viruses/rep_fasta.fna"]);
+		var alignName = myAlignments[j];
+		
+		glue.logInfo("Processing alignnment "+alignName);
+		
+		// How many members	
+		glue.inMode("alignment/"+alignName, function(){
+		
+		    var members = glue.tableToObjects(glue.command(["list", "member"]));		
 
-var cap_fasta_aa_str = cap_fasta_aa.join("\n");
-glue.command(["file-util", "save-string", cap_fasta_aa_str, "export/reference-viruses/cap_fasta.faa"]);
-var cap_fasta_nt_str = cap_fasta_nt.join("\n");
-glue.command(["file-util", "save-string", cap_fasta_nt_str, "export/reference-viruses/cap_fasta.fna"]);
+			_.each(members,function(resultObj){		
+				glue.logInfo("   Processing member "+resultObj);
+			});
+		});
+
+	}
+
+	var rootAlignName = "AL_FlaviPesti"
+	//process_alignment_tree(rootAlignName);
+		
+}
+
+// Recursively process alignment tree from a given node to tips
+function process_alignment_tree(parentAlignName) {
+    glue.logInfo("Processing alignment "+parentAlignName);
+ 
+    var childAlignments;
+	glue.inMode("alignment/"+parentAlignName+"/", function(){
+
+	    childAlignments = glue.getTableColumn(glue.command(["list", "children"]), "name");	
+	});
+
+	_.each(childAlignments,function(childAlignmentName){		
+		process_alignment_tree(childAlignmentName);
+	});
+		
+
+}
+
+// Process virus isolates sequences 
+function process_virus_isolates() {
+
+	// Clade categories		
+	// Numbers in each clade category
+}
+
+// Process virus isolates sequences 
+function process_eves() {
 
 
-// SUBROUTINES
+}
+
+
+// *
+// BASE-LEVEL SUBROUTINES
+
 // Process feature 
 function process_feature(featureSummary, refseqID, featureID) {
 	
 	glue.logInfo("  Processing feature: "+featureID+" in reference "+refseqID);
 
-	if (featureID == "Rep" || featureID == "Cap" || featureID == "Cap" ) {
+	if (featureID == "NS3" || featureID == "NS5" ) {
 		var featureCodons = get_coding_feature_amino_acids(refseqID, featureID);
 		create_feature_fasta(refseqID, featureID, featureCodons, featureSummary);
 	}	
@@ -81,7 +157,7 @@ function create_feature_fasta(refseqID, featureID, featureCodons, featureSummary
 	  var ref_nuc  = resultObj1.refNt;	
 	  var codon    = resultObj1.codonNts;	
 
-	  //glue.logInfo("  amino acid "+amino1+", "+ref_nuc+", "+codon);
+	  // glue.logInfo("  amino acid "+amino1+", "+ref_nuc+", "+codon);
 
 	  fasta_aa     = fasta_aa+amino1;
 	  fasta_codons = fasta_codons+codon;
@@ -94,23 +170,40 @@ function create_feature_fasta(refseqID, featureID, featureCodons, featureSummary
 	fasta_aa     = fasta_aa+"\n";
 	fasta_codons = fasta_codons+"\n";
 
-	if (featureID == "Rep") {
-	  rep_fasta_aa.push(fasta_aa); 
-	  rep_fasta_nt.push(fasta_codons);
+	if (featureID == "NS3") {
+	  NS3_fasta_aa.push(fasta_aa); 
+	  NS3_fasta_nt.push(fasta_codons);
 	
 	}	
 	
-	if (featureID == "Cap") {
-	  cap_fasta_aa.push(fasta_aa); 
-	  cap_fasta_nt.push(fasta_codons);
+	if (featureID == "NS5") {
+	  NS5_fasta_aa.push(fasta_aa); 
+	  NS5_fasta_nt.push(fasta_codons);
 	}	
 	
+}
+
+// write feature fasta 
+function write_feature_fasta(NS3_fasta_aa, NS5_fasta_aa) {
+
+	
+	var NS3_fasta_aa_str = NS3_fasta_aa.join("\n");
+	glue.command(["file-util", "save-string", NS3_fasta_aa_str, "export/NS3_fasta.faa"]);
+	var NS3_fasta_nt_str = NS3_fasta_nt.join("\n");
+	glue.command(["file-util", "save-string", NS3_fasta_nt_str, "export/NS3_fasta.fna"]);
+
+	var NS5_fasta_aa_str = NS5_fasta_aa.join("\n");
+	glue.command(["file-util", "save-string", NS5_fasta_aa_str, "export/NS5_fasta.faa"]);
+	var NS5_fasta_nt_str = NS5_fasta_nt.join("\n");
+	glue.command(["file-util", "save-string", NS5_fasta_nt_str, "export/NS5_fasta.fna"]);
+
+
 }
 
 // Return a map object containing amino-acid summary for a coding feature 
 function get_coding_feature_amino_acids(refseqID, featureID) {
 	
-	//glue.logInfo("  Getting amino acids for feature: "+featureID);
+	glue.logInfo("  Getting amino acids for feature: "+featureID);
 	
 	var resultMap = {};
 	glue.inMode("reference/"+refseqID+"/feature-location/"+featureID, function(){		
@@ -169,10 +262,10 @@ function get_refseq_ids(source) {
 function get_alignments() {
 
 	glue.logInfo("Getting alignments");
-	var myAlignments = glue.getTableColumn(glue.command(["list", "alignment"]), "name");
+	var myAlignments = glue.getTableColumn(glue.command(["list", "alignment", "-w", "name not like '%UNCONSTRAINED%'"]), "name");
 	for(var i = 0; i < myAlignments.length; i++) {
 		var alignName = myAlignments[i];
-		glue.logInfo("  Alignment: "+alignName);
+		//glue.logInfo("  Alignment: "+alignName);
 
 	}
 	return myAlignments;
