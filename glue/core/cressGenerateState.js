@@ -1,22 +1,26 @@
 // *
 // Globals (temporary solution)
-var NS3_fasta_aa = [ ];
-var NS3_fasta_nt = [ ];
-var NS5_fasta_aa = [ ];
-var NS5_fasta_nt = [ ];
+var Rep_fasta_aa = [ ];
+var Rep_fasta_nt = [ ];
+var Cap_fasta_aa = [ ];
+var Cap_fasta_nt = [ ];
 
 
 // Summarise the reference sequences in this project
-//process_refseqs();
+glue.logInfo("Processing reference sequences ");
+process_refseqs();
 
 // Summarise the alignments in this project
+glue.logInfo("Processing constrained alignment tree ");
 process_alignment_tree("AL_CRESS_MASTER");
 
 // Summarise the virus isolates in this project
-//process_virus_isolates();
+glue.logInfo("Processing virus isolates ");
+process_virus_isolates();
 
 // Summarise the EVEs in this project
-//process_eves();
+glue.logInfo("Processing virus EVEs ");
+process_eves();
 
 
 // *
@@ -59,43 +63,13 @@ function process_refseqs() {
 	}
 	
 	// Write ORFs as NT and AA fasta
-	write_feature_fasta(NS3_fasta_aa, NS5_fasta_aa)
-}
-
-
-// Process alignments non-recursively
-function process_alignments() {
- 
-	// Get alignments
-	var myAlignments = get_alignments()
-	
-	// Iterate through the list of references
-	for(var j = 0; j < myAlignments.length; j++) {
-
-		var alignName = myAlignments[j];
-		
-		glue.logInfo("Processing alignnment "+alignName);
-		
-		// How many members	
-		glue.inMode("alignment/"+alignName, function(){
-		
-		    var members = glue.tableToObjects(glue.command(["list", "member"]));		
-
-			_.each(members,function(resultObj){		
-				glue.logInfo("   Processing member "+resultObj);
-			});
-		});
-
-	}
-
-	var rootAlignName = "AL_FlaviPesti"
-	//process_alignment_tree(rootAlignName);
-		
+	write_feature_fasta(Rep_fasta_aa, Cap_fasta_aa)
 }
 
 // Recursively process alignment tree from a given node to tips
 function process_alignment_tree(parentAlignName) {
-    glue.logInfo("Processing alignment "+parentAlignName);
+
+    glue.logInfo("  Processing alignment "+parentAlignName);
  
     var childAlignments;
 	glue.inMode("alignment/"+parentAlignName+"/", function(){
@@ -113,8 +87,8 @@ function process_alignment_tree(parentAlignName) {
 // Process virus isolates sequences 
 function process_virus_isolates() {
 
-	// Clade categories		
-	// Numbers in each clade category
+	// List clade categories		
+	// Show numbers in each clade category
 }
 
 // Process virus isolates sequences 
@@ -132,7 +106,7 @@ function process_feature(featureSummary, refseqID, featureID) {
 	
 	glue.logInfo("  Processing feature: "+featureID+" in reference "+refseqID);
 
-	if (featureID == "NS3" || featureID == "NS5" ) {
+	if (featureID == "Rep" || featureID == "Cap" ) {
 		var featureCodons = get_coding_feature_amino_acids(refseqID, featureID);
 		create_feature_fasta(refseqID, featureID, featureCodons, featureSummary);
 	}	
@@ -170,32 +144,32 @@ function create_feature_fasta(refseqID, featureID, featureCodons, featureSummary
 	fasta_aa     = fasta_aa+"\n";
 	fasta_codons = fasta_codons+"\n";
 
-	if (featureID == "NS3") {
-	  NS3_fasta_aa.push(fasta_aa); 
-	  NS3_fasta_nt.push(fasta_codons);
+	if (featureID == "Rep") {
+	  Rep_fasta_aa.push(fasta_aa); 
+	  Rep_fasta_nt.push(fasta_codons);
 	
 	}	
 	
-	if (featureID == "NS5") {
-	  NS5_fasta_aa.push(fasta_aa); 
-	  NS5_fasta_nt.push(fasta_codons);
+	if (featureID == "Cap") {
+	  Cap_fasta_aa.push(fasta_aa); 
+	  Cap_fasta_nt.push(fasta_codons);
 	}	
 	
 }
 
 // write feature fasta 
-function write_feature_fasta(NS3_fasta_aa, NS5_fasta_aa) {
+function write_feature_fasta(Rep_fasta_aa, Cap_fasta_aa) {
 
 	
-	var NS3_fasta_aa_str = NS3_fasta_aa.join("\n");
-	glue.command(["file-util", "save-string", NS3_fasta_aa_str, "export/NS3_fasta.faa"]);
-	var NS3_fasta_nt_str = NS3_fasta_nt.join("\n");
-	glue.command(["file-util", "save-string", NS3_fasta_nt_str, "export/NS3_fasta.fna"]);
+	var Rep_fasta_aa_str = Rep_fasta_aa.join("\n");
+	glue.command(["file-util", "save-string", Rep_fasta_aa_str, "export/Rep_fasta.faa"]);
+	var Rep_fasta_nt_str = Rep_fasta_nt.join("\n");
+	glue.command(["file-util", "save-string", Rep_fasta_nt_str, "export/Rep_fasta.fna"]);
 
-	var NS5_fasta_aa_str = NS5_fasta_aa.join("\n");
-	glue.command(["file-util", "save-string", NS5_fasta_aa_str, "export/NS5_fasta.faa"]);
-	var NS5_fasta_nt_str = NS5_fasta_nt.join("\n");
-	glue.command(["file-util", "save-string", NS5_fasta_nt_str, "export/NS5_fasta.fna"]);
+	var Cap_fasta_aa_str = Cap_fasta_aa.join("\n");
+	glue.command(["file-util", "save-string", Cap_fasta_aa_str, "export/Cap_fasta.faa"]);
+	var Cap_fasta_nt_str = Cap_fasta_nt.join("\n");
+	glue.command(["file-util", "save-string", Cap_fasta_nt_str, "export/Cap_fasta.fna"]);
 
 
 }
