@@ -35,127 +35,71 @@
     <section class="main-content">
 
 	   <h3>
-		 <a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
+		 <a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Overview</strong>
 	   </h3>
 
 	   <p>
-		 This is <b>CRESS-GLUE</b>, a <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a>
+		 This is <b>CRESS-GLUE</b>, a GLUE
 		 project designed to support comparative genomic and evolutionary analysis of
 		 circular Rep-encoding single-stranded DNA
 		 (<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0065352718300575">CRESS DNA</a>)
 		 viruses.
 	   </p>
 
-		
-	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence data</strong>
-	   </h3>
-	   
-	   <p>		
-		 <b>CRESS-GLUE</b> contains aligned, annotated genome sequence data for (i)
-         <b>CRESS DNA viruses</b> and (ii) <b>endogenous viral elements (EVEs)</b>
-         derived from these viruses.
-	   </p>
 
 	   <p>
-		 The sequence data in this project derive from multiple distinct sources:<br>
+		 <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> is a flexible software
+		 environment for working with molecular sequence data derived from viruses.
+		 GLUE projects are effectively mini-databases that capture information about
+		 specific viruses or virus groups. <b>CRESS-GLUE</b> focusses on
+		 <a href="https://www.sciencedirect.com/science/article/pii/S0065352718300575">CRESS DNA viruses</a>,
+		 and aims to facilitate analysis of this poorly understood virus group. 
 	   </p>
-	   	  	   <p>	      
-		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/core/cress-refseqs-side-data.tsv">representative CRESS DNA virus species</a>.		 
-		 These
-		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a>
-		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
-	   </p>
-	   
-	   <p>
-		 <b>fasta-curated</b>: A non-redundant set of 
-		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/locus/ecv-locus-data.tsv">CRESS DNA virus-derived EVE loci</a>.
-		 These
-		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/sources/fasta-curated-ecv">FASTA sequences</a>
-		 have been curated via systematic screening of whole genome sequence (WGS) assemblies using the 
-		 <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/">DIGS tool</a>.
-		 Sequences in this source have unique IDs based on arbitrary numbering. 
-	   </p>
-	      	   
-	   <p>
-		 <b>fasta-refseqs</b>:
-		 
-		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-refseqs-side-data.tsv">EVE reference sequences</a>
-		 - i.e. best-guess estimates of the ancestral sequences of
-		 the CRESS DNA viruses that gave rise to EVEs.
-		 Where possible these are consensus/ancestral sequences derived from alignments
-		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/alignments/tip/eve/">included in this project</a>.
-		 Sequence IDs used in this source correspond to the names of the unique EVE loci they represent
-		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
-	   </p>
- 
+
 	   <h3>
-	   <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
+		 <a id="usage_examples" class="anchor" href="#usage_examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How can it be used?</strong>
 	   </h3>
-	   
+
+
 	   <p>
-         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
-		 
-		 <ol>
-		   <li><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-refseqs-side-data.tsv">Basic taxonomic data</a> for genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
-		   <li><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/locus/ecv-locus-data.tsv">Locus data</a> for the EVE sequences in <b>fasta-curated</b>.</li> 
-		 </ol>
-		 
-	   </p>
-		 
+         Like any GLUE resource, <b>CRESS-GLUE</b> is data-oriented, and can readily be
+         developed in any direction. Some examples:     
+ 	   </p>
+
+
 	   <h3>
-		 <a id="alignments" class="anchor" href="#alignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments (MSAs)</strong>
+		 <a id="project_contents" class="anchor" href="#project_contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What does it contain?</strong>
+	   </h3>
+
+
+	   <p>
+         The <b>CRESS-GLUE</b> project contains data derived from representative CRESS-DNA virus species.
+         For full details see <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master"">here</a>.
+ 	   </p>
+
+
+
+	   <h3>
+		 <a id="data_quick_links" class="anchor" href="#data_quick_links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Data quick links</strong>
+	   </h3>
+
+
+	   <p>
+         The <b>CRESS-GLUE</b> contains data derived from representative CRESS-DNA virus species.
+         For full details see <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master"">here</a>.
+ 	   </p>
+
+
+	   <h3>
+	  	 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
 	   </h3>
 	   
 	   <p>
-		 Several distinct categories of MSA are included in this project, each representing a distinct taxonomic level.
-		
-		 <ol>
-		   <li><b>Tip (i)</b>: Virus species</a> (genome-length)</li> 
-		   <li><b>Tip (ii)</b>: <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/alignments/tip/eve">EVE lineages</a>.
-		   These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)</li> 
-		   <li><b>Internal</b>: <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/alignments/internal">Virus genera</a></li> 
-		   <li><b>Root</b>: <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/alignments/root">Viruses and EVE reference sequences</a></li> 
-		 </ol>
-	   </p>
-
-
-	   <h3>
-	   <a id="glueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>GLUE project</strong>
-	   </h3>
-
-      	   
-	   <p>
-	
-         On computers with <a href="http://glue-tools.cvr.gla.ac.uk/#/installation">GLUE installed</a>,
-         the <b>CRESS-GLUE</b> project can be instantiated by navigating to the project folder,
-         initiating GLUE, and issuing the following command in the GLUE shell:
-         
-  <pre>
-  <code>Mode path: /
-  GLUE> run file cressProject.glue</code></pre>
-		 
-	   </p>
-
-
-
-	   <h3>
-		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
-	   </h3>
-	   
-	   <p>
-
-		 Access to this GitHub repository is currently restricted. To request access please contact:
-
-		 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
-		 <p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
-
-		 
+		 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>		 
 	   </p>
 
 	   <h3>
-		   <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
+		 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
 	   </h3>
 
 	   <p>
@@ -163,7 +107,7 @@
 	   </p>
 
 	 <footer class="site-footer">
-	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/DIGS-tool">CRESS-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
+	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/CRESS-GLUE">CRESS-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
 
 	   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
 	 </footer>
