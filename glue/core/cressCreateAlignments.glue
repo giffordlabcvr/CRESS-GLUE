@@ -1,8 +1,9 @@
-  delete alignment AL_ECV_Actinopterygii
-  delete alignment AL_ECV_Serpentes
-  delete alignment AL_ECV_Passeriformes
-  delete alignment AL_ECV_Psittacidae
-   
-   
-  create alignment AL_ECV_Carnivore -r REF_ECV_Carnivora
-  alignment AL_ECV_Carnivore add member --whereClause "name = 'ECV.Carnivore'"
+delete module fastaExporter
+delete module cressCompoundAligner
+
+
+create module -f modules/cressCompoundAligner.xml
+compute alignment AL_Cyclovirus cressCompoundAligner
+
+create module -t fastaAlignmentExporter
+module fastaAlignmentExporter export AL_Cyclovirus -a -o alignments/cyclovirus-genome.fna

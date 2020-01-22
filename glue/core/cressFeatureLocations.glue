@@ -1,0 +1,21 @@
+
+  reference REF_Cyc-VN
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 1855
+      exit
+
+    add feature-location Rep
+    feature-location Rep
+      add segment 55 218 --spliceIndex 1
+      add segment 385 1099 --spliceIndex 2
+      exit
+
+    add feature-location Cap
+    feature-location Cap
+      add segment 1070 1738
+      exit
+      
+  exit 
+

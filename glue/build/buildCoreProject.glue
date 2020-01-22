@@ -19,6 +19,7 @@ project cress
   module featureLocationTextToGlue
     transform tabular/core/reference_feature_locations.tsv -r
     exit
+  run file glue/core/cressFeatureLocations.glue
 
   # Import alignments and alignment tree
   run file glue/core/cressAlignments.glue
