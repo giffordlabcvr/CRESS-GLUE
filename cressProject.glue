@@ -1,10 +1,14 @@
 delete project cress
-
 create project cress "A GLUE project for the circular Rep-encoding single-stranded DNA viruses" --minVersion 0.1.66
 
+# define DB schema extensions
 schema-project cress
-
   run file glue/core/cressSchemaExtensions.glue
+  exit
+
+# load project settings
+project cress
+  run file glue/core/cressProjectSettings.glue
   exit
 
 # Build core project

@@ -1,8 +1,5 @@
 project cress
 
-  # load project settings
-  run file glue/core/projectSettings.glue
-
   # create modules
   run file glue/core/cressModules.glue
 
