@@ -18,6 +18,9 @@ project cress
   run script glue/eve/loadLocusData1.js
   run script glue/eve/loadLocusData2.js
 
+  # Link EVE references to EVE reference/consensus table
+  run script glue/eve/loadRefConData1.js
+
   # Import eve reference sequence data
   module cressSideDataImporter 
     populate -f tabular/eve/ecv-refseqs-side-data.tsv
@@ -35,9 +38,7 @@ project cress
   # Inherit features from master reference to other reference sequences
   #run script glue/core/cressInheritFeatureLocations.js
 
-
   # Validate
   validate
 
   exit
-
