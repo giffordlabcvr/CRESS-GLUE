@@ -3,8 +3,8 @@
   delete custom-table locus_data
   delete link sequence locus_data
 
+  # Create schema extensions
 
-  # Create schema extension
 
   # Table for EVE consensus and reference sequence data
   create custom-table eve_refcon_data
@@ -19,7 +19,7 @@
   exit
   
   create link sequence eve_refcon_data
-
+  
 
   # Table for EVE locus data
   create custom-table locus_data
