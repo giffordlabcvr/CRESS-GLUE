@@ -13,27 +13,54 @@
   delete alignment AL_ECV_Tropileilaps
 
 
+
+  
+  alignment AL_CRESS_MASTER 
+  
+   add member --whereClause "genus = 'Circovirus' and source.name = 'fasta-refseqs-ecv' or genus = 'Circovirus' and source.name = 'fasta-curated-ecv'" 	
+ 
+    extract child AL_Circoviridae --refName REF_MASTER_PCV-1
+	demote member AL_Circoviridae --whereClause "sequence.genus = 'Circoviridae' and sequence.source.name = 'fasta-refseqs-ecv' or sequence.family = 'Circoviridae' and sequence.source.name = 'fasta-curated-ecv'" 	
+
+    extract child AL_CRESS_1 --refName REF_AHEaCV-13
+	demote member AL_CRESS_1 --whereClause "sequence.family = 'CRESS' and sequence.source.name = 'fasta-refseqs-ecv' or sequence.family = 'CRESS' and sequence.source.name = 'fasta-curated-ecv'"	
+  
+    exit
+
+
+  alignment AL_Circoviridae 
+  
+	extract child AL_Circovirus   --refName REF_MASTER_PCV-1
+	demote member AL_Circovirus   --whereClause "sequence.genus = 'Circovirus' and sequence.source.name = 'ncbi-refseqs-ecv' or sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-curated-ecv'" 	
+ 
+	extract child AL_Cyclovirus   --refName REF_HuACyV-1
+	demote member AL_Cyclovirus   --whereClause "sequence.genus = 'Cyclovirus' and sequence.source.name = 'ncbi-refseqs-ecv' or sequence.genus = 'Cyclovirus' and sequence.source.name = 'fasta-curated-ecv'" 	
+ 
+    exit
+
+
+
+
   alignment AL_Circovirus 
   
-    add member --whereClause "genus = 'Circovirus' and source.name = 'fasta-curated-ecv' or genus = 'Circovirus' and source.name = 'fasta-refseqs-ecv'" 	
  
 	extract child AL_ECV_Carnivora  --refName REF_ECV_Carnivora
-	demote member AL_ECV_Carnivora  --whereClause "sequence.name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Carnivora  --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Carnivore'"	
 
 	extract child AL_ECV_Actinopterygii  --refName REF_BarbCV
-	demote member AL_ECV_Actinopterygii  --whereClause "sequence.name = 'ECV.Actinopterygii'"	
+	demote member AL_ECV_Actinopterygii  --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Actinopterygii'"	
 
 	extract child AL_ECV_Serpentes  --refName REF_MiCV
-	demote member AL_ECV_Serpentes  --whereClause "sequence.name = 'ECV.Serpentes'"	
+	demote member AL_ECV_Serpentes  --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Serpentes'"	
 
 	extract child AL_ECV_Passeriformes  --refName REF_BFDV
-	demote member AL_ECV_Passeriformes  --whereClause "sequence.name = 'ECV.Passeriformes'"	
+	demote member AL_ECV_Passeriformes  --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Passeriformes'"	
 
 	extract child AL_ECV_Psittacidae  --refName REF_TbCV
-	demote member AL_ECV_Psittacidae  --whereClause "sequence.name = 'ECV.Psittacidae'"	
+	demote member AL_ECV_Psittacidae  --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Psittacidae'"	
 
 	extract child AL_ECV_Tinamou  --refName REF_TbCV
-	demote member AL_ECV_Tinamou  --whereClause "sequence.name = 'ECV.Tinamou'"	
+	demote member AL_ECV_Tinamou  --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Tinamou'"	
 
     exit
 
@@ -42,7 +69,7 @@
     add member --whereClause "genus = 'Cyclovirus' and source.name = 'fasta-curated-ecv' or genus = 'Cyclovirus' and source.name = 'fasta-refseqs-ecv'" 
 
 	extract child AL_ECV_Varroa  --refName REF_HuACyV-1
-	demote member AL_ECV_Varroa  --whereClause "sequence.name = 'ECV.Varroa'"	
+	demote member AL_ECV_Varroa  --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Varroa'"	
 
     exit
 
@@ -51,28 +78,28 @@
     add member --whereClause "genus = 'CRESS' and source.name = 'fasta-curated-ecv' or genus = 'CRESS' and source.name = 'fasta-refseqs-ecv'" 
  
  	extract child AL_ECV_Eptatretus    --refName REF_ECV_Eptatretus
-	demote member AL_ECV_Eptatretus    --whereClause "sequence.name = 'ECV.Eptatretus'"	
+	demote member AL_ECV_Eptatretus    --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Eptatretus'"	
 
   	extract child AL_ECV_Loxosceles    --refName REF_ECV_Loxosceles
-	demote member AL_ECV_Loxosceles    --whereClause "sequence.name = 'ECV.Loxosceles'"	
+	demote member AL_ECV_Loxosceles    --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Loxosceles'"	
 
   	extract child AL_ECV_Modiolus      --refName REF_ECV_Modiolus
-	demote member AL_ECV_Modiolus      --whereClause "sequence.name = 'ECV.Modiolus'"	
+	demote member AL_ECV_Modiolus      --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Modiolus'"	
 
   	extract child AL_ECV_Mytilus       --refName REF_ECV_Mytilus
-	demote member AL_ECV_Mytilus       --whereClause "sequence.name = 'ECV.Mytilus'"	
+	demote member AL_ECV_Mytilus       --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Mytilus'"	
 
   	extract child AL_ECV_Conus         --refName REF_ECV_Conus
-	demote member AL_ECV_Conus         --whereClause "sequence.name = 'ECV.Conus'"	
+	demote member AL_ECV_Conus         --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Conus'"	
 
    	extract child AL_ECV_Parhyale      --refName REF_ECV_Parhyale
-	demote member AL_ECV_Parhyale      --whereClause "sequence.name = 'ECV.Parhyale'"
+	demote member AL_ECV_Parhyale      --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Parhyale'"
 
    	extract child AL_ECV_Tropileilaps  --refName REF_ECV_Tropileilaps
-	demote member AL_ECV_Tropileilaps  --whereClause "sequence.name = 'ECV.Tropileilaps'"	
+	demote member AL_ECV_Tropileilaps  --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Tropileilaps'"	
 
    	extract child AL_ECV_Taenia        --refName REF_ECV_Taenia
-	demote member AL_ECV_Taenia        --whereClause "sequence.name = 'ECV.Taenia'"	
+	demote member AL_ECV_Taenia        --whereClause "sequence.source.name = 'ncbi-refseqs-ecv' and sequence.name = 'ECV.Taenia'"	
 
    exit
 
