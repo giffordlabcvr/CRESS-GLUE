@@ -3,6 +3,9 @@ project cress
   # create modules
   run file glue/core/cressModules.glue
 
+  # Import sources
+  run file glue/core/cressImportSources.glue
+
   # Import data
   run file glue/core/cressImportData.glue
 
@@ -23,6 +26,8 @@ project cress
 
   # Import alignments and alignment tree
   run file glue/core/cressAlignments.glue
+
+  # Define constrained alignment tree
   run file glue/core/cressAlignmentTree.glue
 
   # Add variations
