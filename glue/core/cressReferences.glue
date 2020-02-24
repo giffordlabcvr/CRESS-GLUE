@@ -37,10 +37,10 @@
   
     
   ### Cyclovirus     
-  create reference REF_HuACyV-1   fasta-refseqs KJ831064
-  create reference REF_BatACyV-10 fasta-refseqs KM382270
-  create reference REF_FlCyV      fasta-refseqs NC_024700
-  create reference REF_Cyc-VN     fasta-refseqs NC_021707
+  create reference REF_HuACyV-1   ncbi-refseqs KJ831064
+  create reference REF_BatACyV-10 ncbi-refseqs KM382270
+  create reference REF_FlCyV      ncbi-refseqs NC_024700
+  create reference REF_Cyc-VN     ncbi-refseqs NC_021707
 
    ### Unclassified
  create reference REF_Po-41 ncbi-refseqs NC_025683

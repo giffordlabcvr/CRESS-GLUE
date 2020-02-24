@@ -11,7 +11,10 @@ project cress
 
   # Create reference sequences
   run file glue/core/cressReferences.glue
-  
+ 
+  # Apply rotations
+  run script glue/core/cressRefseqsApplyRotations.js
+
   # Add feature locations from tabular to reference sequences
   module featureLocationTextToGlue
     transform tabular/core/reference_feature_locations.tsv -r
