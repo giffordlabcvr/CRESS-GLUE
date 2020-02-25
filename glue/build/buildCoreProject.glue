@@ -3,7 +3,7 @@ project cress
   # create modules
   run file glue/core/cressModules.glue
 
-  # Import sources
+  # Import core project sources (reference sequence only)
   run file glue/core/cressImportSources.glue
 
   # Import data
@@ -12,20 +12,21 @@ project cress
   # Define genome features
   run file glue/core/cressFeatures.glue
 
+  # Apply reverse complement & rotations to reference seqs
+  sequence ncbi-refseqs NC_026639 set field reverse_complement true
+  run script glue/core/cressRefseqsApplyRotations.js
+
+  # Import alignments and alignment tree
+  run file glue/core/cressAlignments.glue
+
   # Create reference sequences
   run file glue/core/cressReferences.glue
- 
-  # Apply rotations
-  run script glue/core/cressRefseqsApplyRotations.js
 
   # Add feature locations from tabular to reference sequences
   module featureLocationTextToGlue
     transform tabular/core/reference_feature_locations.tsv -r
     exit
   run file glue/core/cressFeatureLocations.glue
-
-  # Import alignments and alignment tree
-  run file glue/core/cressAlignments.glue
 
   # Define constrained alignment tree
   run file glue/core/cressAlignmentTree.glue
@@ -37,4 +38,3 @@ project cress
   validate
 
   exit
-
