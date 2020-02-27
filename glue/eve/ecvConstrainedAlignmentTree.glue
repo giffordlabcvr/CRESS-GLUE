@@ -41,19 +41,19 @@
 	extract child AL_ECV_Carnivora -r REF_ECV_Carnivora
 	demote member AL_ECV_Carnivora -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Carnivore'"	
 
-	extract child AL_ECV_Actinopterygii -r REF_BarbCV
+	extract child AL_ECV_Actinopterygii -r REF_ECV_Actinopterygii
 	demote member AL_ECV_Actinopterygii -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Actinopterygii'"	
 
-	extract child AL_ECV_Serpentes -r REF_MiCV
+	extract child AL_ECV_Serpentes -r REF_ECV_Serpentes
 	demote member AL_ECV_Serpentes -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Serpentes'"	
 
-	extract child AL_ECV_Passeriformes -r REF_BFDV
+	extract child AL_ECV_Passeriformes -r REF_ECV_Passeriformes
 	demote member AL_ECV_Passeriformes -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Passeriformes'"	
 
-	extract child AL_ECV_Psittacidae -r REF_TbCV
+	extract child AL_ECV_Psittacidae -r REF_ECV_Psittaciformes
 	demote member AL_ECV_Psittacidae -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Psittacidae'"	
 
-	extract child AL_ECV_Tinamou -r REF_TbCV
+	extract child AL_ECV_Tinamou -r REF_ECV_Tinamou
 	demote member AL_ECV_Tinamou -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Tinamou'"	
 
     exit
