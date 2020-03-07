@@ -21,8 +21,7 @@ _.each(refSeqObjs, function(refSeqObj) {
 			glue.inMode("reference/"+refSeqObj.name, function() {
 				glue.command(["inherit", "feature-location", 			
 					"AL_UNCONSTRAINED_Circovirus_genome", "-l", "REF_MASTER_PCV-1", featureID]);
-			});
-			
+			});		
 		}
 	}
 
