@@ -1,5 +1,5 @@
   delete module cressCompoundAligner
-  create module -f modules/cressCompoundAligner.xml
+  create module -f modules/core/cressCompoundAligner.xml
 
   
   # Constrained alignment tree

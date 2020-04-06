@@ -1,5 +1,5 @@
-  create module -f modules/cressGenbankXmlPopulator.xml cressGenbankXmlPopulator
-  create module -f modules/cressSideDataImporter.xml
-  create module -f modules/cressTabularUtility.xml cressTabularUtility
-  create module -f modules/featureLocationTextToGlue.xml 
-  create module -f modules/unconstrainedAlignmentImporter.xml
+  create module -f modules/core/cressGenbankXmlPopulator.xml cressGenbankXmlPopulator
+  create module -f modules/core/cressSideDataImporter.xml
+  create module -f modules/core/cressTabularUtility.xml cressTabularUtility
+  create module -f modules/core/featureLocationTextToGlue.xml 
+  create module -f modules/core/unconstrainedAlignmentImporter.xml
