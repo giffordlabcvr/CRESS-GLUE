@@ -44,8 +44,7 @@
       <primaryAccession>NC_023885</primaryAccession> <!-- Mink circovirus -->	  
       <primaryAccession>NC_028045</primaryAccession> <!-- Mexican free-tailed bat circovirus -->
       <primaryAccession>NC_001944</primaryAccession> <!-- Beak and feather disease virus --> <!-- Canary circovirus -->
-      <primaryAccession>NC_003410</primaryAccession> <!-- Starling circovirus -->
-	  
+      <primaryAccession>NC_003410</primaryAccession> <!-- Starling circovirus -->	  
       <primaryAccession>NC_008033</primaryAccession> <!-- Raven circovirus -->
       <primaryAccession>NC_008375</primaryAccession> <!-- Gull circovirus -->
       <primaryAccession>NC_008521</primaryAccession> <!-- Finch circovirus -->
@@ -54,7 +53,7 @@
       <primaryAccession>NC_002361</primaryAccession> <!-- Starling circovirus -->
       <primaryAccession>NC_008033</primaryAccession> <!-- Duck circovirus -->
       <primaryAccession>NC_007220</primaryAccession> <!-- Swan circovirus -->
-      <primaryAccession>NC_025247</primaryAccession> 
+      <primaryAccession>NC_025247</primaryAccession> <!-- Cygnus olor circovirus -->
       <primaryAccession>NC_015399</primaryAccession> <!-- Barbel circovirus -->	  
       <primaryAccession>NC_025246</primaryAccession> <!-- Wels catfish circovirus -->    
 
@@ -76,7 +75,9 @@
 	  <primaryAccession>NC_023886</primaryAccession>
 	  <primaryAccession>KJ641714</primaryAccession>
 	  <primaryAccession>KJ831064</primaryAccession>
-	  <primaryAccession>KM382270</primaryAccession> <!--><primaryAccession>NC_023867</primaryAccession>--> <!--><primaryAccession>NC_021707</primaryAccession>-->
+	  <primaryAccession>KM382270</primaryAccession>
+	  <!--><primaryAccession>NC_023867</primaryAccession>-->
+	  <!--><primaryAccession>NC_021707</primaryAccession>-->
 
  
 

@@ -1,20 +1,5 @@
-  delete alignment AL_ECV_Carnivora
-  delete alignment AL_ECV_Actinopterygii
-  delete alignment AL_ECV_Serpentes
-  delete alignment AL_ECV_Passeriformes
-  delete alignment AL_ECV_Psittacidae
-  delete alignment AL_ECV_Varroa
-  delete alignment AL_ECV_Eptatretus
-  delete alignment AL_ECV_Loxosceles
-  delete alignment AL_ECV_Modolius
-  delete alignment AL_ECV_Mytilus
-  delete alignment AL_ECV_Conus
-  delete alignment AL_ECV_Parhyale
-  delete alignment AL_ECV_Tropileilaps
-
-
-
-  
+  multi-delete alignment -w "name like 'AL_ECV%'"
+ 
   alignment AL_CRESS_MASTER 
   
     add member -w "source.name = 'fasta-refseqs-ecv'"
@@ -39,22 +24,34 @@
   alignment AL_Circovirus 
    
 	extract child AL_ECV_Carnivora -r REF_ECV_Carnivora
-	demote member AL_ECV_Carnivora -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Carnivore'"	
+	demote member AL_ECV_Carnivora -w "sequence.name = 'ECV.Carnivore'"	
 
 	extract child AL_ECV_Actinopterygii -r REF_ECV_Actinopterygii
-	demote member AL_ECV_Actinopterygii -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Actinopterygii'"	
+	demote member AL_ECV_Actinopterygii -w "sequence.name = 'ECV.Actinopterygii'"	
 
 	extract child AL_ECV_Serpentes -r REF_ECV_Serpentes
-	demote member AL_ECV_Serpentes -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Serpentes'"	
+	demote member AL_ECV_Serpentes -w "sequence.name = 'ECV.Serpentes'"	
 
 	extract child AL_ECV_Passeriformes -r REF_ECV_Passeriformes
-	demote member AL_ECV_Passeriformes -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Passeriformes'"	
+	demote member AL_ECV_Passeriformes -w "sequence.name = 'ECV.Passeriformes'"	
 
 	extract child AL_ECV_Psittacidae -r REF_ECV_Psittaciformes
-	demote member AL_ECV_Psittacidae -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Psittacidae'"	
+	demote member AL_ECV_Psittacidae -w "sequence.name = 'ECV.Psittacidae'"	
 
-	extract child AL_ECV_Tinamou -r REF_ECV_Tinamou
-	demote member AL_ECV_Tinamou -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Tinamou'"	
+	extract child AL_ECV_Tinamus -r REF_ECV_Tinamou
+	demote member AL_ECV_Tinamus -w "sequence.name = 'ECV.Tinamus'"	
+
+	extract child AL_ECV_Galeopterus -r REF_ECV_Galeopterus
+	demote member AL_ECV_Galeopterus -w "sequence.name = 'ECV.Galeopterus'"	
+
+	extract child AL_ECV_Kryptolebias -r REF_ECV_Kryptolebias
+	demote member AL_ECV_Kryptolebias -w "sequence.name = 'ECV.Kryptolebias'"	
+
+	#extract child AL_ECV_Cypriniphysae -r REF_ECV_Cypriniphysae
+	#demote member AL_ECV_Cypriniphysae -w "sequence.name = 'ECV.Cypriniphysae'"	
+
+	#extract child AL_ECV_Paramormyrops -r REF_ECV_Paramormyrops
+	#demote member AL_ECV_Paramormyrops -w "sequence.name = 'ECV.Paramormyrops'"	
 
     exit
 
@@ -91,6 +88,9 @@
    	extract child AL_ECV_Taenia        -r REF_ECV_Taenia
 	demote member AL_ECV_Taenia        -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Taenia'"	
 
+	extract child AL_ECV_Salmo         -r REF_ECV_Salmo
+	demote member AL_ECV_Salmo         -w "sequence.name = 'ECV.Salmo'"	
+
    exit
 
 
@@ -116,7 +116,7 @@
     derive segments AL_UNCONSTRAINED_ECV_Eptatretus -a --mergeStrategy OVERWRITE
     exit
  
-  alignment AL_ECV_Tinamou
+  alignment AL_ECV_Tinamus
     derive segments AL_UNCONSTRAINED_ECV_Tinamou -a --mergeStrategy OVERWRITE
     exit
  

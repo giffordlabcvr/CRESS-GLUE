@@ -12,20 +12,24 @@
 
     # Circoviridae
     extract child AL_Circoviridae --refName REF_MASTER_PCV-1
-	demote member AL_Circoviridae --whereClause "sequence.genus = 'Circovirus' and sequence.source.name = 'ncbi-refseqs'"
-	demote member AL_Circoviridae --whereClause "sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-refseqs'"
-	demote member AL_Circoviridae --whereClause "sequence.genus = 'Cyclovirus' and sequence.source.name = 'ncbi-refseqs'"
-	demote member AL_Circoviridae --whereClause "sequence.genus = 'Cyclovirus' and sequence.source.name = 'fasta-refseqs'"	
+	demote member AL_Circoviridae --whereClause "sequence.family = 'Circoviridae ' and sequence.source.name = 'ncbi-refseqs'"
+	demote member AL_Circoviridae --whereClause "sequence.family = 'Circoviridae ' and sequence.source.name = 'fasta-refseqs'"
+
+    # Smacoviridae
+    extract child AL_Redondoviridae --refName REF_CBSV
+	demote member AL_Redondoviridae --whereClause "sequence.family = 'Smacoviridae' and sequence.source.name = 'ncbi-refseqs'"
+
+    # Redondoviridae
+    extract child AL_Redondoviridae --refName REF_HLVV
+	demote member AL_Redondoviridae --whereClause "sequence.family = 'Redondoviridae' and sequence.source.name = 'ncbi-refseqs'"
+
+    # CRESS
+    extract child AL_CRESS_1 --refName REF_AHEaCV-13
+	demote member AL_CRESS_1 --whereClause "sequence.genus = 'CRESS-1' and sequence.source.name = 'ncbi-refseqs' or sequence.family = 'CRESS' and sequence.source.name = 'fasta-refseqs'"	
 
     # Naryaviridae
     # Nenyaviridae
-    # Vilyaviridae
-    # Smacoviridae
-    # Redondoviridae
-
-    extract child AL_CRESS_1 --refName REF_AHEaCV-13
-	demote member AL_CRESS_1 --whereClause "sequence.genus = 'CRESS-1' and sequence.source.name = 'ncbi-refseqs' or sequence.family = 'CRESS' and sequence.source.name = 'fasta-refseqs'"	
-  
+ 
     exit
 
 

@@ -1,5 +1,5 @@
   #### Circoviridae    
-  
+
   ### Circovirus
 
   # Mammalian
@@ -37,16 +37,10 @@
   create reference REF_Cyc-VN          fasta-refseqs NC_021707
 
   #### Redondoviridae    
-  
-  ### Vientovirus
   create reference REF_HLVV           ncbi-refseqs MK059763   # Vientovirus
-
-  ### Brisavirus
   create reference REF_L-BrV-RC       ncbi-refseqs MK059757   # Brisavirus
 
   #### Smacoviridae
-
-  ### Porprismacovirus
   create reference REF_CBSV           ncbi-refseqs MF669476   # Smacovirus
 
   #### CRESS
