@@ -58,35 +58,35 @@
   alignment AL_Cyclovirus 
   
 	extract child AL_ECV_Varroa  -r REF_HuACyV-1
-	demote member AL_ECV_Varroa  -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Varroa'"	
+	demote member AL_ECV_Varroa  -w "sequence.name = 'ECV.Varroa'"	
 
     exit
 
   alignment AL_CRESS_1 
    
  	extract child AL_ECV_Eptatretus    -r REF_ECV_Eptatretus
-	demote member AL_ECV_Eptatretus    -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Eptatretus'"	
+	demote member AL_ECV_Eptatretus    -w "sequence.name = 'ECV.Eptatretus'"	
 
   	extract child AL_ECV_Loxosceles    -r REF_ECV_Loxosceles
-	demote member AL_ECV_Loxosceles    -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Loxosceles'"	
+	demote member AL_ECV_Loxosceles    -w "sequence.name = 'ECV.Loxosceles'"	
 
   	extract child AL_ECV_Modiolus      -r REF_ECV_Modiolus
-	demote member AL_ECV_Modiolus      -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Modiolus'"	
+	demote member AL_ECV_Modiolus      -w "sequence.name = 'ECV.Modiolus'"	
 
   	extract child AL_ECV_Mytilus       -r REF_ECV_Mytilus
-	demote member AL_ECV_Mytilus       -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Mytilus'"	
+	demote member AL_ECV_Mytilus       -w "sequence.name = 'ECV.Mytilus'"	
 
   	extract child AL_ECV_Conus         -r REF_ECV_Conus
-	demote member AL_ECV_Conus         -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Conus'"	
+	demote member AL_ECV_Conus         -w "sequence.name = 'ECV.Conus'"	
 
    	extract child AL_ECV_Parhyale      -r REF_ECV_Parhyale
-	demote member AL_ECV_Parhyale      -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Parhyale'"
+	demote member AL_ECV_Parhyale      -w "sequence.name = 'ECV.Parhyale'"
 
    	extract child AL_ECV_Tropileilaps  -r REF_ECV_Tropileilaps
-	demote member AL_ECV_Tropileilaps  -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Tropileilaps'"	
+	demote member AL_ECV_Tropileilaps  -w "sequence.name = 'ECV.Tropileilaps'"	
 
    	extract child AL_ECV_Taenia        -r REF_ECV_Taenia
-	demote member AL_ECV_Taenia        -w "sequence.source.name = 'fasta-refseqs-ecv' and sequence.name = 'ECV.Taenia'"	
+	demote member AL_ECV_Taenia        -w "sequence.name = 'ECV.Taenia'"	
 
 	extract child AL_ECV_Salmo         -r REF_ECV_Salmo
 	demote member AL_ECV_Salmo         -w "sequence.name = 'ECV.Salmo'"	
