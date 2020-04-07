@@ -1,21 +1,7 @@
+ 
 project cress
 
-  delete module circovirusCompoundAligner
-
-  delete source ncbi-curated-pcv1
-  delete alignment AL_pcv1
-
-  delete source ncbi-curated-pcv2
-  delete alignment AL_pcv2
-
-  delete source ncbi-curated-pcv3
-  delete alignment AL_pcv3
-
-  exit
-  
-project cress
-
-  run file glue/cressExplicitFeatureLocations.glue
+  run file glue/example/deleteExample.glue
 
   # Import PCV-1 sequences and side data 
   import source sources/ncbi-curated-pcv1/
