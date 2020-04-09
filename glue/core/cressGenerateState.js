@@ -16,11 +16,11 @@ process_alignment_tree("AL_CRESS_MASTER");
 
 // Summarise the virus isolates in this project
 glue.logInfo("Processing virus isolates ");
-process_virus_isolates();
+//process_virus_isolates();
 
 // Summarise the EVEs in this project
 glue.logInfo("Processing virus EVEs ");
-process_eves();
+//process_eves();
 
 
 
