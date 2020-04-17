@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB971658</GBSeq_locus>
+    <GBSeq_length>5770</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-FEB-2015</GBSeq_update-date>
+    <GBSeq_create-date>10-DEC-2014</GBSeq_create-date>
+    <GBSeq_definition>Chaetoceros tenuissimus DNA virus type-II DNA, complete genome, isolate: SS10-8V</GBSeq_definition>
+    <GBSeq_primary-accession>AB971658</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB971658.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB971658.1|</GBSeqid>
+      <GBSeqid>gi|731180346</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Chaetoceros tenuissimus DNA virus type-II</GBSeq_source>
+    <GBSeq_organism>Chaetoceros tenuissimus DNA virus type-II</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; unclassified viruses; unclassified DNA viruses; unclassified ssDNA viruses</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..5770</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kimura,K.</GBAuthor>
+          <GBAuthor>Tomaru,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Discovery of two novel viruses expands the diversity of single-stranded DNA and single-stranded RNA viruses infecting a cosmopolitan marine diatom</GBReference_title>
+        <GBReference_journal>Appl. Environ. Microbiol. 81 (3), 1120-1131 (2015)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/AEM.02380-14</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>25452289</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..5770</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kimura,K.</GBAuthor>
+          <GBAuthor>Tomaru,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-JUN-2014) Contact:Kei Kimura National Research Institute, Fisheries and Environment of Inland Sea, Harmful Algal Bloom Devision; Maruishi 2-17-5, Hatsukaichi, Hiroshima 739-0452, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..5770</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>5770</GBInterval_to>
+            <GBInterval_accession>AB971658.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Chaetoceros tenuissimus DNA virus type-II</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>SS10-8V</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>sediment</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Chaetoceros tenuissimus strain 2-10</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1516127</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan: Hiroshima, Hiroshima Bay</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lat_lon</GBQualifier_name>
+            <GBQualifier_value>34.27 N 132.26 E</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2010-07-01</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Tomaru, Y.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>identified_by</GBQualifier_name>
+            <GBQualifier_value>Kimura, K.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>closed circular single-stranded DNA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>394..1062</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>394</GBInterval_from>
+            <GBInterval_to>1062</GBInterval_to>
+            <GBInterval_accession>AB971658.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>double-stranded region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1575..2735)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2735</GBInterval_from>
+            <GBInterval_to>1575</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>AB971658.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>virus protein 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAP99809.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDDIYGDPNGIHYESINEQNPFHFTEGIGVSLNHDGSVNLHHAEADSRYDSKSWQDLNEHIELAMSGFPDEKYFKSYMKESELSDLWAAAYASPAGMAKRVNPLTGKKELFIAGTRNDVNWAQNFAEMGHTKVTQFGDAIEEHVPMADKGKAKLLKGFMQTVFFPGGISKQLSAAEGVEINQMILDEDIDVVYGHSRGASYFSFIDDSVTKIGLDGAEVLTSDDTDYVNLQSEDWFTKGIGKKGGHHVRIKGTSQHFVVGTKADKKRMRDDRPIIKGKLLKIDKKAERAKFSKKGISIAKGRKFKDRAKLTGKTGLRVGIGTIASKVDQAVNMTDVGEAVKKTVGVKDSSAELLAKGKKRDRLKARQFQRRPPKKRAKKSDDSVSL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(2815..3987)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>3987</GBInterval_from>
+            <GBInterval_to>2815</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>AB971658.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>virus protein 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAP99810.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MVRRRGGKTAGSKRPKMSSKNFGANRKRDFRRPARKSKAKKARSMAPAKTVRKSTTAGAHSKHFSVIGNPFSKATQQPQIPDGRMLESLPRRCQLVTEIRNNVTVGSNPTYILVAPSLGLAFQAYQDTNVPGGLDSSVYGLQNRGCTVRANLSATSIENYNDIAKWRIVSQGINLKLNNVEDENDGWYEACRFQHDWTPDELCLRSTENDASTISQDEDLVMGVISSSFMNGALNTIGNNMVEQRGYESGLLKNIHKRMFQLHNNTSAIRPKTLQGQFNYGSEITFSGTESEARFTDVPSNRQLVDSLWHNDYDCILIKLYPRENTGAAGQTGSALIVNAIQNLELQYSPTSDLSTYHIANKRARMVEAKLDKKNNTDAAGEPFVPGSSR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>4411..5763</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4411</GBInterval_from>
+            <GBInterval_to>5763</GBInterval_to>
+            <GBInterval_accession>AB971658.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>virus protein 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>predicted replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAP99811.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MVFRTMSDNSFDIQQIICDEASIDCSITIDTQPVDDLSASTEYREVSNNTRIGRAILTYFPPTSESKYLEPEFILGRANVHRVSNWFSQYELCPETERKHIHAYVEFKHSVRPFFLTLDTLFKSHDLGWDCRTARKTSKDQRQGAINYVHKLESRMDGFDPYTWPGNEDKDLKFDPSFVRGNRKKDKRKARDDAIEEQRQYIESKPRIWTWDQIVHESEESKKLLVTCSWGKKYHEGRHAEDKRRDVTDVIIYYGAGGTGKTTMCMEHDSTSSLEPRVERYYRRNPDDGNFWGGGRTAYKGQRVIHFEEFGGQEPFSRLKEVCDIGKPGPSVNIKGAGVDLNHHTVIFSSNIHPAGWYRHLWKDDPKQFHPFWRRVTQVKFFPSHRPDGTLNIPDEDTPPYIIDQTDEWKEFAGDYSKCMDHADIHWPVREVAVEGFSASFGHSHQTQRS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>taaactaaaaattatttccttaattaccctgcggggccctttagattgtatcagtagggacgctgcgcggcgaggccccagcggtgcttacctcctagtccaagccgcgctatttcttttcttttaatcttctttttttctttttcggtcacgtaccggtctcttcgagaagccgttactccccgtgggagaagcgataaattaagcgaatcgccgggctaccgccctaatgctcttcttctccttaacgagtcgctaggccgtaggccttcgcgggactagcccattcccggcgggattgacccattttagcccgggattagatcattttagatgggaattctccgaaacggggctgaattactccgtttttccgaataattactccgtttttccgatggggtgagaaatttggcgcgaaagtgatgacgctaccctgtggtgtcaagaaaaacgcgcgaaatacagtacgcgcaattttttaacgggacattttgcgcgaatgaccctatgacccgttgaattttacgatgaaaccagaagcctctgctcattttcattcacagatgagctcataaaatccaaatgtgcaaaattacaacactcattgaagtcgtccaacattttgaacctgtccaaatcatgcttgtaccagctgttaccgtccatatctacgctcaacacgaacttgtgcacccacttactcattgtaaggttactgatcactgtttttctttcaagactgaggtggagcatgaggaggggaaggttgttattatcatggataatggtaatgtgtatggattcaaacttaacgatgtgttcattctccttgatgtttggtatacctgtaaccacatcactcatgaagaacatgctgacctctgtagttactttgagacttggtttaatggagaatatcctgtttctgctcttgatcagatcacttctgtcgaacgccgttggtctttcaacccaattaattggctcatgcattacgtccatcgcgttgatcttcgtggtttgattcctcagagttggtttattgcccgtgaacaggagcaaatggagaagtttaaccgtgaagtgcgccagaatattaaccctgtcttccttccaccatccccaatcaatgtaaatgttgatttgcagaacgttttcgatgatattaccgtttctaccactgattttgacattgatggtgaagaacttgaggttcatttcaacggagaagtacttacacagattgaaacccacgataattagactaatttagttaattcccgtattatttttattttatattaatttaccttgttttttatcaattaagacacccgccccaggcttcttccccttcttaataaaacaaggagaccctgactaacccagaaggccgaaatatctggtcagccacccgttgtgagcattggttcttcttgggggactatactcaccctgtgggatatttcggggttacatactcccatcccccgcttccatctccaaaatggatgtaaacacctggaacattttctcgatccttacaccctatacggatgggttacccttactcagaggctgaccgagtcatcactcttcttagctctcttcttgggaggtctacgttggaattgtcttgccttcaaacgatccctcttcttcccctttgcaaggagttcagcagaggagtctttcacgccaaccgtcttcttaacggcttctccgacatcagtcatgttaacagcctgatctaccttactagcaatagttcctatccctacacggagaccagtttttcctgttaacttggctcgatctttaaattttcttcctttggctatcgagatacccttctttgaaaatttggctcgttcggcctttttatcgattttcagcaacttgcccttgatgatagggcgatcatctctcatgcgtttcttatcagcctttgtgccaaccacaaaatgctgactagttcctttaattctcacatgatgaccccctttctttccaatacccttggtaaaccaatcttctgattgtaaattaacgtaatccgtatcatcactagtcaatacttcagctccatctaagccaatcttggtgacggagtcgtcaatgaagctaaagtagcttgcgcctcggctatgcccgtaaaccacatcaatgtcttcgtctaaaatcatttgattgatttcaacgccttcggctgccgacaattgtttactaataccacctggaaaaaagactgtctgcataaatcctttcaggagttttgccttgcctttgtctgccataggtacatgttcttcgattgcatctccaaactgtgttaccttggtatgtcccatttctgcgaaattttgtgcccaattgacgtcatttctcgttcctgcaataaagagttcctttttgccagtaagagggtttacacgcttagccatgcctgctggagaggcatacgctgcagcccatagatcagaaagttcggattctttcatgtagctcttgaaatatttttcatcaggaaaacctgacatcgctaactctatgtgctcgtttaaatcttgccatgatttcgaatcatatcgagagtccgcttcggcatgatggagatttacactaccatcatgattgagactgactcctattccttctgtaaaatgaaacggattctgttcattgatactctcgtaatgaatcccgttaggatccccatatatatcgtccatgacgctatcaggatcactatctgaaatttaacctgttaagatcaccataatttttatctaccaaaatcccacaatcaacttacctgctggagccaggaacaaaaggttcaccagctgcatcggtgttgttctttttgtccaactttgcttccaccattctcgcgcgtttattcgcaatgtgatatgtagaaagatcactagttggagaatattgcagctccaaattttgaatagcgtttacaatgagggcgcttccagtttgtccagcagccccagtgttctcacgaggatacaacttaatcaaaatacagtcatagtcattgtgccaaagactatccactagttgcctattggatggtacgtcggtgaatctagcttcactctctgttccagaaaaggtaatttcagaaccgtaattaaactgtccttgtagtgtttttggacgaatggcactagtattgttgtgcaactggaacatacgtttatgaatgttctttaatagaccactctcataacctctttgttccaccatattattgccaattgtgttgagcgctccattcataaatgacgacgaaatcacacccattacaagatcttcatcctgagagattgttgatgcgtcgttctcagttgatcttagacacaactcgtctggagtccagtcgtgttggaatctacaagcttcataccaaccgtcgttttcgtcttcgacgttattcagctttaaattgattccttgggaaacgattctccatttagcaatgtcgttgtaattctcgatcgaagttgcagataaattcgctcgaactgtacatcctctattttgtaacccatatacagaagaatccagaccacctggaacatttgtatcttggtatgcttggaacgctaacccgagtgacggggctaccaatatgtaagttggatttgatccaactgtaacattgttacgtatctccgttactagctgacaccttcgaggtaaactctcaagcatccgtccatcggggatttgtggttgctgtgtagccttcgaaaatggattaccaattaccgagaaatgcttactatgagcaccagcggtagtagacttcctaacagtcttagcaggagccatactcctagccttcttcgccttgctctttcttgctggtctacggaagtcccgctttcggttcgctccaaagttcttgcttgacatctttggccttttcgaaccggcggtttttcctcctctgcgtctaaccatttattggtaatctttcttgttacttgtttactatatgtgtgcttatttgctcacaatttttttatgagcagatcccgatgcttcaggatcacataagcctcttcttagctcttagaccagtagcccaggggctactttgtctatttagctgggctaaatactccgatcgtaggctgccgtacttgcacatactacagctcggagtatttagcccaagaccgcaaagaataatactaatcatctttgcggtcttggtcttcagctaaattggccaacgggactaaagcccgcctccttacgtccgttcatttccattcgtgcctacgaaaaattggcgggcaattgtttcaacggaaagaacagacattttccagtggtctggtggtgtatctcagcttccgattcctctcataaattataaaaatggtttttcgcaccatgtctgataattccttcgatattcaacaaataatctgtgatgaagcttctatcgattgttcgatcaccatcgatactcaaccagttgacgatctcagtgcctctactgagtatagggaagtctcgaacaacaccagaattggcagagctatcctcacatactttccacctacttctgagtccaagtacttggaacccgagttcatcctcggaagggcgaatgttcatagggtatccaactggttctctcagtatgaactttgccctgaaaccgagaggaagcacattcatgcatacgtcgagttcaaacatagtgttagacctttctttctcactctcgatacactctttaagtctcatgatcttggttgggattgccgtactgcacgtaaaacatcaaaagaccaacgccagggcgccatcaattatgttcataagcttgaaagtcgcatggacggttttgacccttatacatggccgggaaatgaagacaaagatttaaaatttgatccttcatttgtacgtggcaaccgcaaaaaggacaagagaaaagctcgggacgatgctatcgaggaacaacgtcaatacattgagtctaaacctcgtatctggacatgggaccaaattgttcatgaatctgaagaatccaagaagcttttggttacttgctcctgggggaagaagtaccacgaagggcgccatgctgaggacaagagaagagacgtcaccgatgtgatcatctactacggagctggaggtactggtaaaaccactatgtgtatggaacacgactccactagtagcctggaacccagagttgaacggtactaccgccgtaatcctgatgacggcaacttctggggcggtggacgtacagcgtacaaagggcaacgtgtcattcattttgaagaatttggtggccaggaacctttttcacgcctcaaagaagtttgtgacatcgggaagcctggaccttcagttaatatcaaaggagctggtgttgatcttaatcaccacacagtcatcttcagttccaatattcatcctgcaggttggtatcgtcatttgtggaaagacgatcctaagcagtttcatcccttctggcgacgtgtgactcaagtcaaattctttccttcacatagacccgacggcacacttaacattcctgatgaggatactcctccttacattattgatcagacagacgaatggaaggaattcgctggtgattattctaagtgtatggatcatgccgatatccattggcctgtacgtgaagttgctgtcgaaggtttctctgcatcatttggtcactctcatcaaactcaacgttcttagagtatag</GBSeq_sequence>
+  </GBSeq>

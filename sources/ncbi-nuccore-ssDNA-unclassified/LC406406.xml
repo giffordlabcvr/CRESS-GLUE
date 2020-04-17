@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC406406</GBSeq_locus>
+    <GBSeq_length>2046</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>08-OCT-2019</GBSeq_update-date>
+    <GBSeq_create-date>12-JUL-2018</GBSeq_create-date>
+    <GBSeq_definition>Feline stool-associated circular virus KU8 DNA, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>LC406406</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC406406.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC406406.1|</GBSeqid>
+      <GBSeqid>gi|1423990785</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline stool-associated circular virus KU8</GBSeq_source>
+    <GBSeq_organism>Feline stool-associated circular virus KU8</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; unclassified viruses; unclassified DNA viruses; unclassified ssDNA viruses</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2046</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Takano,T.</GBAuthor>
+          <GBAuthor>Yanai,Y.</GBAuthor>
+          <GBAuthor>Hiramatsu,K.</GBAuthor>
+          <GBAuthor>Doki,T.</GBAuthor>
+          <GBAuthor>Hohdatsu,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Novel single-stranded, circular DNA virus identified in cats in Japan</GBReference_title>
+        <GBReference_journal>Arch. Virol. 163 (12), 3389-3393 (2018)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-018-4020-6</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>30218220</GBReference_pubmed>
+        <GBReference_remark>DOI:10.1007/s00705-018-4020-6</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2046</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Takano,T.</GBAuthor>
+          <GBAuthor>Hohdatsu,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-JUL-2018) Contact:Tomomi Takano Kitasato university, Veterinary Medicine; 35-1 Higashi23, Towada, Aomori 034-8628, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2046</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2046</GBInterval_to>
+            <GBInterval_accession>LC406406.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline stool-associated circular virus KU8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>KU8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Felis catus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2267518</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>complement(56..1015)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1015</GBInterval_from>
+            <GBInterval_to>56</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>LC406406.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>putative Rep</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(56..1015)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1015</GBInterval_from>
+            <GBInterval_to>56</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>LC406406.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>putative Rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative replication associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BBF24949.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAATNWCGTLHLGDEEFYGESWLNQLLGAGKITYGIGQIESCPETGRRHFQFYVQVGRTQKLAWMRRHISDKAHFEQARGNVQQNIDYCSKQDSRLDGPWEVGIARRQGQTTGLTAATEMIASGAAVCEVAKLYPVVWVRHGKGLVHLRQTLALDADRREFGPDGPELWVLYGPSGSGKSRFAKEHWPDAFWKAPYSQWWDGYGKHETVILDDFKDDSMRLADLQRLIDWYPLWVEVKGGSLPMLATRYVITSNTHPETWYTRADVHKTIWRRVQDFVEKHGRLLRFPPGEAAAEEAAAEPGSADYLGFPDVFNSWNPL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1138..1878</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1138</GBInterval_from>
+            <GBInterval_to>1878</GBInterval_to>
+            <GBInterval_accession>LC406406.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>putative Cap</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1138..1878</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1138</GBInterval_from>
+            <GBInterval_to>1878</GBInterval_to>
+            <GBInterval_accession>LC406406.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>putative Cap</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BBF24950.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGMGRRRYYRRRYVSRPPRRRMTYRRYSRRYCRTKRAPKGTYSSVVTLTQDAEWRFSNQNASNRWVAFTFSPVSVPGFLDYKGTYSHFRILKGKLYLSRALGNDAGTTFNYLVVGSRPFAATQNARTTTGQDALMPAQTEEALRQAKWQRVRYPSTNTNVVPVGFHPYAIVQTFGPTPYTTGSDMMWQRIWEGRRWMPFSWAAATGSALSFFGPYLVVDKSNGELSQGSWSVQCTLKISVQFKGQR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtattacccggaacttccgctctcgcgcaaaatataatatgggccaaattcacttagagcgggttccacgagttgaaaacatcagggaacccgaggtagtccgccgatcccggttctgcagctgcttcttctgctgctgcttcccccggcggaaaacgcaataaacgcccgtgcttctcgacgaagtcctggaccctgcgccagatggtcttatggacgtcggcgcgagtgtaccaggtctcggggtgcgtattcgaagtaataacgtacctcgtagcgagcatgggcagtgagccgcccttgacctccacccagagcggataccagtcgatcaggcgctggaggtcagctagacgcatgctatcgtccttgaagtcgtccaggatcaccgtctcgtgctttccatagccgtcccaccactggctgtagggcgccttccagaaggcgtcgggccagtgctccttcgcgaaacggctcttgccgctgccggatgggccgtataggacccatagctccgggccatcagggccgaattcgcggcggtccgcgtccagggctaaggtctgcctcaggtggactagccccttcccgtggcggacccagacaacgggatacagcttggccacttcgcagacagctgcgccggacgctatcatctctgtcgccgctgttaagcccgtagtctggccttggcgcctggctatacccacttcccagggcccgtctagcctggagtcctgtttcgaacagtagtcgatgttctgctgaacgttccccctggcttgctcgaaatgggccttatcgcttatatgcctgcgcatccatgctagcttctgggttctcccgacctggacatagaactggaagtgcctgcgcccagtctctggacaactctcgatctggccgattccatacgttatcttgcccgctcccagtagttggttcagccagctctcgccgtagaactcctcgtcgcctaaatgcagcgtaccgcaccagttagtagcagccattttatacttccgctcagagcgcaaaacgcactttttcccaggtgcacaggggtgcagatttaggcacggattacccccccccgttgctcgttggaaacttccgctctcgcgcaaactataatatgggcatgggacgtcgccgttactatcgtcgtcgctatgtctctcgtcccccccggagacgtatgacttatcgtcgttactcccgcaggtactgccgtactaagcgtgctcctaagggcacctactcctctgtggtcacgctgacccaggatgcagagtggagattcagcaaccagaacgcctctaacagatgggtcgctttcaccttctcgccggtctctgtgcctggcttcctggactataagggcacttatagtcacttcaggatactgaagggcaagctctatctgtccagagccctggggaacgatgctgggactaccttcaactatcttgtagttggtagtaggcccttcgctgctacccaaaacgcaagaacgactaccgggcaggatgccttaatgcccgcgcagactgaagaggccctcagacaggcgaaatggcagcgtgttcgctatcccagcacgaatacgaacgtcgtgccagtgggcttccacccgtatgctatagtccagacctttggtcctacgccttataccacaggctctgacatgatgtggcagcgcatctgggaaggcaggagatggatgcccttctcatgggcagctgccactgggtcagcgctgagcttcttcggaccctacctggtcgtggacaagtctaatggcgaactcagccagggctcttggtccgtccagtgcactcttaagatcagcgtccaattcaagggccagaggtaaaccgttacccgagggtagggcgtaaatatcatgagagggtagggcgtaaatatcatgagagggtaggtcaccccatccacttgagagccggagggagggtggccgtatagccgagcgaagcgaggaggcccccgaccgtgagaaaacgcataacggaagttccggcta</GBSeq_sequence>
+  </GBSeq>

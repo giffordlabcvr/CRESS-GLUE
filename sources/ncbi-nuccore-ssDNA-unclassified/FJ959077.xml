@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FJ959077</GBSeq_locus>
+    <GBSeq_length>2162</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-SEP-2009</GBSeq_update-date>
+    <GBSeq_create-date>09-JUL-2009</GBSeq_create-date>
+    <GBSeq_definition>Circovirus-like genome RW-A, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>FJ959077</GBSeq_primary-accession>
+    <GBSeq_accession-version>FJ959077.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|FJ959077.1|</GBSeqid>
+      <GBSeqid>gi|229562088</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Circovirus-like genome RW-A</GBSeq_source>
+    <GBSeq_organism>Circovirus-like genome RW-A</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; unclassified viruses; unclassified DNA viruses; unclassified ssDNA viruses</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2162</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rosario,K.</GBAuthor>
+          <GBAuthor>Duffy,S.</GBAuthor>
+          <GBAuthor>Breitbart,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Diverse circovirus-like genome architectures revealed by environmental metagenomics</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 90 (PT 10), 2418-2424 (2009)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/vir.0.012955-0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19570956</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2162</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rosario,K.</GBAuthor>
+          <GBAuthor>Duffy,S.</GBAuthor>
+          <GBAuthor>Breitbart,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (23-APR-2009) College of Marine Science, University of South Florida, 140 7th Ave S, St. Petersburg, FL 33701, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2162</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2162</GBInterval_to>
+            <GBInterval_accession>FJ959077.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Circovirus-like genome RW-A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>RW-A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>reclaimed water</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:642251</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: Southwest Florida</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>assembled from metagenome data</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>stem_loop</GBFeature_key>
+        <GBFeature_location>join(2137..2162,1..20)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2137</GBInterval_from>
+            <GBInterval_to>2162</GBInterval_to>
+            <GBInterval_accession>FJ959077.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>20</GBInterval_to>
+            <GBInterval_accession>FJ959077.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains nonanucleotide sequence (cagtattac)</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>39..1079</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>39</GBInterval_from>
+            <GBInterval_to>1079</GBInterval_to>
+            <GBInterval_accession>FJ959077.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>viral replication protein-like protein (PF02407); similar to circovirus replication proteins; ORF1_Rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative Rep protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACQ78155.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTSPQGKYWCFTHNNPLVDGDTFLSSLKAYFPKLTYIVFQLERITTPHFQGYMEFSTLVRLSALKRFHPGIHWERRRGSQQDAIDYCSRETYKGEDKGRVDGPWEWGTRAETHQGQRSDLASAIEALRDGGIRRVAEENPEALVRYSRGIQFLASLTPPPKDPPEVYLLFGPTGVGKTKRFFDSEPDGWASPVTDGLWFDGYMGQDAALFDDFCGKYTKLGMAQFLRVIDRYRVQLATKGGFTWFNPKRIYVTSNFHPLDWWDWSGRQQQYPALERRFTHVYWWKRPGLLVSLRRPDPEASQDVLDGIDNDDQWRHFWDGVGRAQLALDIATGRLVSNAPEDYFNF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>complement(1201..1206)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1206</GBInterval_from>
+            <GBInterval_to>1201</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>FJ959077.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>polyA_signal_sequence</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1215..2000)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2000</GBInterval_from>
+            <GBInterval_to>1215</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>FJ959077.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>weak similarity to circovirus structural proteins; ORF2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACQ78156.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGKYTKRRSYGRKSRLKRRRSVKQRRIRRIKRRSGIYTKRTRFPAKNPFGDKAYVKLRFNRASYISGDGASSQTTTTYRTINNLADTWLSFESVSKGFLTYPKLFRRYKVNGVMVKFTVYQLKNSTGSGEFPSLAWILPYSTLDGTPTVFAQNAIALKSQRHTAWANVANWGNGGRSTTVKKFFKMKSLVGANYPSTDIDYSGTTDVLANPYNAPAIEWRFLAGISSVAEVALPTTQSYHYNLEMTYYVEFWEQTWEAQGL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1460..2005)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2005</GBInterval_from>
+            <GBInterval_to>1460</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>FJ959077.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACQ78157.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEWESTQSEDLTDVSLDSSEEGLSNSDAYEGSSDEAESTQSEQDFPQRIPSETRLMSSSGSIELATSQEMERPLKRQRLTEPSTTSLTHGYPLSQSQKDFSPILSSSEGIKSTESWSNSQSTNSRTPPEAGSFQALHGSCHIRRSTEHLPSSRKTLSRLSLNAIRRGLMSQIGGMGGGQRQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acccaccacttcgttcactttgttaacgaggttcactgatgacatcccctcaagggaaatattggtgttttacgcataataaccctttggtcgatggagataccttcttgtcgtcgctcaaggcctacttcccgaagcttacgtacattgtcttccaactcgagcgcatcactacccctcacttccagggatacatggagttttctacgctcgtcagattgtctgccctcaagaggtttcaccctggcattcactgggagcgacgacgtggcagtcagcaagatgctatcgactactgctcccgtgagacttacaaaggcgaggacaaaggccgtgtggacggtccttgggagtggggcacgcgtgctgagacccaccaaggacagcgctccgatctcgccagtgcgattgaagccttgcgcgatggaggcatccgccgcgttgccgaggagaatcccgaggcattggtgcgctactcccgtggtattcagttcctcgcttcccttacgccgccccctaaagacccccccgaagtctacctcctctttggtccgaccggcgttggtaagacaaaacgcttttttgattccgagcccgatggctgggcctcccccgttacagatggcctctggttcgatggctatatgggacaagacgctgccctcttcgacgacttctgtggcaagtacaccaagcttggaatggcccagtttctccgagtcattgatcgataccgcgttcaattggccactaagggaggatttacctggtttaaccccaaacgaatctatgtcacctccaatttccatccccttgactggtgggactggtctggccgccaacaacagtaccccgcccttgagagaagattcacccacgtttactggtggaaacgacctggacttctggtctcccttcgccgacccgatcctgaggcctctcaggacgtcctcgatggaattgataacgacgaccaatggagacacttttgggatggagtgggacgagcccaactggcgttggacattgccaccggaagactggtaagtaatgcccccgaagactatttcaacttttaagggtacatccatctacagcaacccgccccccgtttggccgcgacgagcgccagcgaggcgctggccggtgaatatggaagcgtagcggtgtagtagcgaaagtccttaatagtgtaaatcatttattaacatcaatcataaaccctgtgcttcccaagtctgctcccagaactctacatagtaagtcatttcaagattgtaatgatagctttgggttgtcggtaaagccacttcagctactgatgatattccggccaggaacctccattcgatcgcgggtgcgttgtacggatttgcgagaacgtcagttgttcctgagtagtcaatatctgtgcttgggtagttcgctccaaccaacgacttcatcttgaagaacttctttactgtcgttgacctccccccattcccccaatttgcgacattagcccacgccgtatggcgttgagacttaagcgcgatagcgttttgcgcgaagacggtaggtgttccgtcgagcgtcgaatatggcaagatccatgcaaggcttggaaactccccgcttccggtggagttcttgagttggtagactgtgaatttgaccatgactccgttgactttataccttcggaagagcttaggataggtgagaaatccttttgagactgactcaaaggatagccatgtgtcagcgaggttgttgatggttcggtaagtcgttgtcgtttgagaggacgctccatctcctgagatgtagctagctcgattgaacctgagcttgacataagccttgtctccgaagggattctttgcgggaaatcttgttcgctttgtgtagattccgcttcgtcgcttgatccttcgtatgcgtcgctgtttgacagaccttcttcgcttgagtcgagacttacgtccgtaagatcttcgctttgtgtactttcccattccatatgcaaaagaagaaaagaatgattaacctcattcacttcgatcacattgttcacacaggcggcccccctttccgactgtcggacttttttttcctgtggggaaaccgaacggttttttctggactgttcggaagtgaacgaggtggtggtcagtatt</GBSeq_sequence>
+  </GBSeq>

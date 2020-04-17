@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>NC_040377</GBSeq_locus>
+    <GBSeq_length>2156</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>12-SEP-2019</GBSeq_update-date>
+    <GBSeq_create-date>12-FEB-2019</GBSeq_create-date>
+    <GBSeq_definition>Termite associated circular virus 1 isolate I1581-124, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>NC_040377</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_040377.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NC_040377.1|</GBSeqid>
+      <GBSeqid>gi|1571806544</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Termite associated circular virus 1</GBSeq_source>
+    <GBSeq_organism>Termite associated circular virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; unclassified viruses; unclassified DNA viruses; unclassified ssDNA viruses</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2156</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Baker,C.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete genome sequences of four single-stranded DNA viruses discovered in fungus-farming termites</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2156</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-FEB-2019) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..2156</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kerr,M.</GBAuthor>
+          <GBAuthor>Rosario,K.</GBAuthor>
+          <GBAuthor>Breitbart,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-JUN-2018) College of Marine Science, University of South Florida, 140 7th Ave S, St Petersburg, FL 33701, USA</GBReference_journal>
+        <GBReference_remark>Nucleotide and amino acid sequences updated by submitter</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>4</GBReference_reference>
+        <GBReference_position>1..2156</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kerr,M.</GBAuthor>
+          <GBAuthor>Rosario,K.</GBAuthor>
+          <GBAuthor>Breitbart,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-FEB-2018) College of Marine Science, University of South Florida, 140 7th Ave S, St Petersburg, FL 33701, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to MG917674.; ; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2156</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2156</GBInterval_to>
+            <GBInterval_accession>NC_040377.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Termite associated circular virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>I1581-124</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>mound at the Mpala Research Centre</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>worker termites of order Odontotermes</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2108549</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Kenya</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lat_lon</GBQualifier_name>
+            <GBQualifier_value>0.36 N 36.84 E</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Oct-2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>C. Baker</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>stem_loop</GBFeature_key>
+        <GBFeature_location>join(2145..2156,1..19)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2145</GBInterval_from>
+            <GBInterval_to>2156</GBInterval_to>
+            <GBInterval_accession>NC_040377.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>19</GBInterval_to>
+            <GBInterval_accession>NC_040377.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains nonanucleotide</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>127..957</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>127</GBInterval_from>
+            <GBInterval_to>957</GBInterval_to>
+            <GBInterval_accession>NC_040377.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>EXI24_gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:41701946</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>127..957</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>127</GBInterval_from>
+            <GBInterval_to>957</GBInterval_to>
+            <GBInterval_accession>NC_040377.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>EXI24_gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>YP_009551488.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:41701946</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPYSKRRYTRKPYRRSTRKTTTRRTNRRRSGLTKTVARISRSVQLRQVETKRNITINLVAAPTPSTNANWQYYYRNVFVDLANGVDSDDIIGNEFVDPYVTFKWNVQFDINNLRSLNTSNTGVQTVKWWMMLVACNDYLPATVSGFNSIVPGTSTDPGGWWVQPDPTKMTFNGNNVKILKKMTRQWHLTSIPSVVGTATVSGTEQFSGKMKYRWRRGKKTFEDRNTIEEDKTRVSQLRGMNYYIVTGWWVPTALSGTPLAAPIFYSVDQYLYFKDP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>complement(1111..2062)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2062</GBInterval_from>
+            <GBInterval_to>1111</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_040377.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>EXI24_gp2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:41701945</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(join(1111..1387,1506..2062))</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2062</GBInterval_from>
+            <GBInterval_to>1506</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_040377.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1387</GBInterval_from>
+            <GBInterval_to>1111</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_040377.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>EXI24_gp2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>YP_009551489.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:41701945</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSFRWQGRYLFLTYAQAGNDFTPNELITFIRESGRKQPGYILIGKERHQDGGLHYHCFVDWVKRFSFTNAARFDFGGHHPNISPVNSPKACLDYCSKDGDTTSWGTPPDLDSNHRESRNELWSRLLDTATNPPEFLQLVREHAPYDFATRYTQLDTMARAVYRPRTNFTSEFEHEDFTLPEGIEGWISSLFTKTRTAPYDPSHSSSSATLVPERPVGRGRLGTTYTSRDLSTSTNSMPRQTTSFSTTAKSSSYQTTSPGWGAGASSKQQTSTEEKEH</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>taatattaccgcgctttttgagttgtgaacaacaactgcgccctttttctcctttcatgaagcccacatcccaacgccaaatccgtcctggtgtccataagacacgcaacgccgtcataagggactatgccgtactcgaagaggaggtataccagaaagccttacaggcgctcaacacgcaaaacaacaacacggcggaccaatcggaggcggtcgggcttgacgaagaccgtcgcacgaatcagccgctcggtccaactgcgacaggtggaaactaaacggaacatcacaattaatttagttgccgcgcccactccttcaacgaatgccaactggcagtattactaccggaacgtgttcgtcgatctcgctaatggtgtcgattccgatgatattattggcaatgagtttgttgacccttacgttacattcaaatggaatgttcaattcgacatcaacaacctgcgatccctcaacaccagcaacaccggagtgcaaaccgtaaagtggtggatgatgcttgtagcatgcaatgattatttgcccgccactgtctctgggttcaactctattgtcccgggcacttccaccgatccgggaggatggtgggttcaaccggacccaacgaagatgaccttcaacgggaataatgtgaagattttgaagaagatgactcgtcaatggcatttgacgtccattcctagtgtagtaggtactgcaactgtatccggtacggaacagtttagcggaaagatgaagtataggtggaggcggggaaagaagactttcgaagaccgcaacaccatagaagaggataagacccgtgtttctcaactacggggaatgaattactatatagtgacggggtggtgggtaccaacagctcttagcggaaccccgttagctgcgcctatcttttatagcgtagatcaatacttgtactttaaggacccttaatatactctggtatcctccaaagaggagtgttcaaatctattacagttacatttgctgcgaaccattcttggtcgtcacgccattcgtcgctggctctccagtcccatgctaaacccctattacataatacaatacaacatttacgggtccatactaatgttctttttcctctgtacttgtctgttgcttcgaactcgcccccgcaccccagccaggacttgtagtttggtatgaacttgattttgcagtcgtcgaaaacgacgtagtctgcctcggcatcgaatttgtcgatgttgacaagtccctggaagtatatgtggtgcccaagcgaccgcgcccaactggtctttccggaacgagagtcgccgacgatgaggagtgacttgggtcgtaaggggcggttctagttttggtaaaaagagatgatatccttaataaataacatgacttaatactcaattgaaaagcggaccggcgggtagccggttcaagatgtcctaaaaggtaaaccgaaagactatacctcttggtcaaagttttcttccaaccacccctcgatgccctcagggagggtgaagtcctcgtgttcaaactcggaggtaaagttggttctcggacgatagaccgcccttgccattgtgtccagttgtgtgtaccttgttgcgaagtcgtacggagcatgctcccgcacgagctgcagaaattctgggggattggttgctgtgtccagaagtctggaccagagttcgttcctagactcgcggtggttcgagtcaaggtcgggtggggtcccccaagaggtggtgtcgccatccttgctgcagtagtccaaacaggccttggggctgttgaccggagagatgttagggtggtggccgccgaaatcaaatctggcggcgttggtgaagctgaatcgtttgacccagtcaacgaagcagtggtaatggagtcctccgtcctggtgtcgctcttttccgataaggatgtacccaggctgctttcttccagactcccggataaaggtgatgagctcatttggcgtaaagtcgttccctgcttgggcgtatgtgagaaaaagatatcttccctgccaacgaaaactcatcgtggtgagggagtgacgagtgagtcgctcaatttatggtccaagatatataggggtgagtgagtgagtgagttgggattataaaaagcgcgta</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA485481</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>NC_023435</GBSeq_locus>
+    <GBSeq_length>1722</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>06-FEB-2014</GBSeq_create-date>
+    <GBSeq_definition>Dragonfly larvae associated circular virus-9 isolate DflaCV-9_NZ-PG10-LD, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>NC_023435</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_023435.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NC_023435.1|</GBSeqid>
+      <GBSeqid>gnl|NCBI_GENOMES|35521</GBSeqid>
+      <GBSeqid>gi|582973388</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Dragonfly larvae associated circular virus-9</GBSeq_source>
+    <GBSeq_organism>Dragonfly larvae associated circular virus-9</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; unclassified viruses; unclassified DNA viruses; unclassified ssDNA viruses</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1722</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Dayaram,A.</GBAuthor>
+          <GBAuthor>Galatowitsch,M.</GBAuthor>
+          <GBAuthor>Harding,J.S.</GBAuthor>
+          <GBAuthor>Arguello-Astorga,G.R.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Novel circular DNA viruses identified in Procordulia grayi and Xanthocnemis zealandica larvae using metagenomic approaches</GBReference_title>
+        <GBReference_journal>Infect. Genet. Evol. 22, 134-141 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.meegid.2014.01.013</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24462907</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1722</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (06-FEB-2014) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1722</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Dayaram,A.</GBAuthor>
+          <GBAuthor>Galatowitsch,M.</GBAuthor>
+          <GBAuthor>Argueello-Astorga,G.R.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-OCT-2013) School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch 8140, New Zealand</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to KF738883.; ; ##Assembly-Data-START## ; Assembly Method :: DNA baser v. v3 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1722</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1722</GBInterval_to>
+            <GBInterval_accession>NC_023435.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Dragonfly larvae associated circular virus-9</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>DflaCV-9_NZ-PG10-LD</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Procordulia grayi</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1454030</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>New Zealand</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2012</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>complement(join(1682..1722,1..936))</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>936</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_023435.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1722</GBInterval_from>
+            <GBInterval_to>1682</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_023435.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>BA80_gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:18263720</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(join(1682..1722,1..353,392..936))</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>936</GBInterval_from>
+            <GBInterval_to>392</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_023435.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>353</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_023435.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1722</GBInterval_from>
+            <GBInterval_to>1682</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_023435.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>BA80_gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>YP_009001753.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:18263720</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSARVSFKFSLIKTSATCCSSSIPKMGHQVKRWCFTLNNYTEEEYKEIVEKIEWTYIIIGREVGEEGTPHLQGYIELKKKSSLNQIKKVNQKIHWEQLRGKPFQAADYCKKENNFQEWGHISMSGGGTTEKIGAIIEKAKSGGMREVLKDPPKLATVRLIEKYLSYCEEERKEKPYVHWNLGNITTYTGRMTPNGGDGYDKNETIVIDDFRASIMRFTYLLRILDRYPMRVEVKGGYRQLNSKNIVITSIIHPESCYHMENEPIRQLMRRIDKITETNNKNILNDVMLQATSEESVGNTNLHFLICDEELGE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>853..1659</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>853</GBInterval_from>
+            <GBInterval_to>1659</GBInterval_to>
+            <GBInterval_accession>NC_023435.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>BA80_gp2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:18263719</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>853..1659</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>853</GBInterval_from>
+            <GBInterval_to>1659</GBInterval_to>
+            <GBInterval_accession>NC_023435.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>BA80_gp2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>YP_009001754.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:18263719</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSHFRYRRRATRRRRFYKRKFKRYTRRHARRPLSRPYRRAFFKCRASYEVKGSNGPAFVAYTDNPVNIGDFNSIQNLYAQYRVAGMQLRWIPSFNKNDMIPVEQGEQLGEWLLIKQDDALTDKAFPNTVQNYLNRDNGLRRRPLVRSWSIYFKMSKMVPLNVASVNVVNLRGGYISTVQPTATQTVRAMLSSIPVNAGEVLLGTFHVTWYVSAMQRRXIKYIIYLKKKIIFIVYYINFYIRTLIRGERERAAVPGVSRHFLQILRNFF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtattacctacactttcttcgctcgtcgcctgcaacattacgtcattcaatatatttttgttgtttgtttctgttatcttatctattctccgcatgagttgtcttatcggttcgttttccatgtgataacaactttctgggtgtattatgcttgtgattacgatattttttgaatttagttgacgatagcctccttttacctcaacacgcattgggtagcggtctaatattctcaacaagtaagtaaacctcataatcgatgctctaaagtcatctatgacaattgtttcgtttttatcataaccgtccccaccatttggtgtcatccttccagtatatgtcgttatattcctggtcagccaattttgattttccagtgccgctggcaccccaaattccagtgtacatatggtttttcttttctttcttcttcacaataacttaaatatttttcaataagtctcactgtcgctagcttcggcgggtcttttaagacctctcgcattcctccagattttgccttttctataattgcaccaattttttccgtagttcctccaccagacattgaaatatgcccccattcttgaaagttgttttctttcttgcaataatcggctgcctgaaatggtttcccccttagttgctcccaatggattttctgattgactttttttatttgatttaaactgctcttttttttcagctctatatagccctgcaggtgaggagtgccttcttctcctacttctctcccaataattatgtaagtccattcgattttttcaactatttctttatattcttcctctgtgtaattatttaatgtaaaacaccaccttttcacttgatgtcccattttaggtatagacgaagagcaacacgtcgccgacgtttttataagagaaaatttaaaagatacacgcgccgacatgcacgtagacccttatctcgtccttatcgcagagcttttttcaaatgtcgtgcgtcatatgaagttaaggggagtaatggccccgcatttgttgcttacactgataatcctgttaatattggtgattttaattctattcaaaatttatatgcgcaatatcgagttgctggtatgcaattacgttggattccttctttcaataagaatgatatgatacctgttgaacagggggagcagcttggtgaatggcttcttattaaacaagacgatgctttgactgataaagcttttccaaatactgtacaaaattatttaaatcgtgataatggattgcgtagacgtccccttgtccgatcatggtctatatattttaagatgtcaaaaatggtccctttaaatgttgcctctgttaatgttgttaatttaagaggtggatatatttctactgttcagcctacagctacacaaactgttagagctatgttatcatctattcctgtaaatgctggggaagtattattgggtacatttcatgttacttggtatgttagtgctatgcaaagacgttanataaaatacattatatatttgaaaaaaaaaattatttttattgtttattatataaatttctacataaggacactgatccgaggcgagcgggagcgagccgcagtacccggcgtaagccggcactttttacagatacttcggaattttttttaaattttgcccgcgcgcagcgcggctactcgcccaactcttcatcgcagataagaaagtgtagat</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA485481</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH617104</GBSeq_locus>
+    <GBSeq_length>1852</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>ENV</GBSeq_division>
+    <GBSeq_update-date>05-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>05-AUG-2018</GBSeq_create-date>
+    <GBSeq_definition>CRESS virus sp. isolate ctjg364, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MH617104</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH617104.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH617104.1|</GBSeqid>
+      <GBSeqid>gi|1436206887</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA393166</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>ENV</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>CRESS virus sp. (animal metagenome)</GBSeq_source>
+    <GBSeq_organism>CRESS virus sp.</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; unclassified viruses; unclassified DNA viruses; unclassified ssDNA viruses</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1852</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tisza,M.</GBAuthor>
+          <GBAuthor>Buck,C.</GBAuthor>
+          <GBAuthor>Pastrana,D.</GBAuthor>
+          <GBAuthor>Welch,N.</GBAuthor>
+          <GBAuthor>Peretti,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Uncovering a Universe of Circular DNA Viruses in Animal Metagenomes</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1852</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tisza,M.</GBAuthor>
+          <GBAuthor>Buck,C.</GBAuthor>
+          <GBAuthor>Pastrana,D.</GBAuthor>
+          <GBAuthor>Welch,N.</GBAuthor>
+          <GBAuthor>Peretti,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-JUL-2018) Lab of Cellular Oncology, National Cancer Institute, 37 Convent Dr., Room 4118, Bethesda, MD 20814, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Genome-Assembly-Data-START## ; Assembly Method :: SPAdes v. 3.11.0 ; Genome Coverage :: 118.024298x ; Sequencing Technology :: Illumina ; ##Genome-Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1852</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1852</GBInterval_to>
+            <GBInterval_accession>MH617104.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>CRESS virus sp.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>ctjg364</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>minnow tissue</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2202563</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>environmental_sample</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Jun-2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>metagenome_source</GBQualifier_name>
+            <GBQualifier_value>animal metagenome</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genome binned from sequencing reads available in SRX4043871;
+metagenomic</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..885</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>885</GBInterval_to>
+            <GBInterval_accession>MH617104.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>protein motif:CDD:279280</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>helicase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXH75148.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPATMPATNQTTFRGAVLTIYQMDSIDALPEKLSYIAYAVETCPTTGRKHLQGFAYALSAMRLTGWKKVFPTAHIEPMKGTFSQNEKYCTKEGTLIEFGTRPMENGHRRGDLIVKELIDQDPNKTIMQIYEDTEEKCALLYSKSFEQYREHKRSKTIKGDHSAPEVYYLYGAPGTGKTRFVRDKEPDIYDVPDGYQWFNGYTGQDAVLFDNFEGPEKSRATFLKLIDRYPIQVPVKGGFTWWKPKRIYITSVIHPANMAKNFTDVREFYRRVTVFKRLPEFEEHSDGVQSEAQV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>791..1684</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>791</GBInterval_from>
+            <GBInterval_to>1684</GBInterval_to>
+            <GBInterval_accession>MH617104.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>similar to AA sequence:INSD:AIF71518.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXH75147.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MLENFTDVLQYLNDFRNLKNIRMVYSRKRKYSSMSRGSRGGRMASKYKSTGYRKYGKKIRTLSGYKGGAIGARLARIERTIETKEGLRTFGSTNIALAHNNVVAIMNSMLFTTTGAADPMAGNGQRIGDRISLKGVAIRLFLQNQAQRPRVFYRVMVLKCAKGDVPTRATLFKGLTGNKMIDQINTERFTILAQKILTVTAQGSMAWTTASVPAGVPQTDNGATAIGGVGTRIVNMWIPGVKFARNGVIQYENESDQPKFFDYRLFIMAYDWFGTPQDTNNVGALSDGFVKMYYKDA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgcctgcgacaatgcctgcgacaaatcaaaccacttttcgcggagccgtacttacaatatatcagatggatagcattgatgcattacctgaaaaactatcttacatcgcatatgcggttgagacctgtcctacaacagggcgtaaacacctacagggttttgcatatgcgttaagtgctatgcgcttaacaggatggaagaaggtttttcctactgctcatatagagcctatgaaaggtaccttttctcaaaatgagaaatattgtactaaggaaggtacattaattgaatttggtactcgtcctatggagaatggacacagaagaggagatcttatagtaaaggaacttatagatcaagatcctaataagactattatgcaaatttatgaagatacagaagagaagtgtgctttattatattcaaagtcatttgaacagtacagagaacataagcgttctaagactattaaaggagatcattctgccccagaagtatattatttatatggagcccccggtactggaaagactagattcgtcagagacaaagagccagacatatacgatgtcccagacggatatcaatggtttaacggatataccggtcaagacgctgttttatttgataactttgaaggtcctgaaaagagccgtgcaacttttctcaaactcattgacagataccctatccaagtgcctgtcaagggtggattcacctggtggaagccaaagcggatctatataactagtgttatacatccagcaaatatggctaagaattttacagatgttagagaattttacagacgtgttacagtatttaaacgacttccggaatttgaagaacattcggatggtgtacagtcggaagcgcaagtatagttctatgtcacgtggttcacgtggtggtcgtatggctagtaagtataagagtactggttataggaagtatggtaagaagatacgaacgttgtcaggatataaaggtggtgctattggtgcacgtcttgcacgtattgaacgtacaattgaaactaaagaaggtcttagaacttttggttctacaaatattgcattggcacataataatgttgtagctattatgaattctatgttgtttactacaactggtgctgctgatcctatggctggtaatggtcagcgtattggtgatcgtatcagtttaaaaggtgttgctattcgattgtttttgcagaatcaagcacaacgtccacgagtattttatcgagttatggtattgaagtgtgcaaagggagatgtccctactagagctacattgtttaagggattaactggaaataagatgattgatcaaattaatacggaacgttttactattctggcacagaagattcttaccgttacagctcaaggatcaatggcgtggactaccgcatccgttcctgcaggtgttcctcaaacggataacggtgcaacggctattggtggagttggaacaaggattgttaatatgtggattcctggagttaagtttgctcgtaatggagtcatccaatatgaaaatgagagcgatcagcctaagttttttgattatcgcctgtttataatggcgtacgattggtttgggactcctcaagacactaataacgtcggagctttatctgatggatttgtcaaaatgtattataaagatgcttaataaaaaaaaacacattgtgtgcctgtggtgtaccccgatcgattacgtccccccccgttggcgggaaggggggggggacgtgatcgctaaagataggatagcttaaaaaaaaatatttatttggtatataagaagctgtagcaggcatcgaggctagtattacccgag</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA393166</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>BioSample</GBXref_dbname>
+        <GBXref_id>SAMN09074552</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>Sequence Read Archive</GBXref_dbname>
+        <GBXref_id>SRR7122375</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

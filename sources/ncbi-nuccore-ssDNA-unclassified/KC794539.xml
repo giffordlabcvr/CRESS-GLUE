@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KC794539</GBSeq_locus>
+    <GBSeq_length>2516</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>18-JUN-2013</GBSeq_update-date>
+    <GBSeq_create-date>16-APR-2013</GBSeq_create-date>
+    <GBSeq_definition>Acheta domesticus volvovirus isolate AdVVV-GA, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KC794539</GBSeq_primary-accession>
+    <GBSeq_accession-version>KC794539.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KC794539.1|</GBSeqid>
+      <GBSeqid>gi|478445352</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Acheta domesticus volvovirus</GBSeq_source>
+    <GBSeq_organism>Acheta domesticus volvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; unclassified viruses; unclassified DNA viruses; unclassified ssDNA viruses; Volvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2516</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Pham,H.T.</GBAuthor>
+          <GBAuthor>Iwao,H.</GBAuthor>
+          <GBAuthor>Bergoin,M.</GBAuthor>
+          <GBAuthor>Tijssen,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>New Volvovirus Isolates from Acheta domesticus (Japan) and Gryllus assimilis (United States)</GBReference_title>
+        <GBReference_journal>Genome Announc 1 (3) (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/genomeA.00328-13</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>23792751</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2516</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Pham,H.T.</GBAuthor>
+          <GBAuthor>Iwao,H.</GBAuthor>
+          <GBAuthor>Bergoin,M.</GBAuthor>
+          <GBAuthor>Tijssen,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-MAR-2013) L'institut National de la Recherche Scientifique-Institut Armand-Frappier, Universite du Quebec, 531 Boul. des Prairies, Laval, Quebec H9S4X6, Canada</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2516</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2516</GBInterval_to>
+            <GBInterval_accession>KC794539.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Acheta domesticus volvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>AdVVV-GA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Gryllus assimilis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1291515</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>21-Jan-2013</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>70..462</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>70</GBInterval_from>
+            <GBInterval_to>462</GBInterval_to>
+            <GBInterval_accession>KC794539.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGJ03165.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSLIWTVGKAGAPFLGESIVGPIGWGATAFEVARQGYNLYQRYHQHSSTDGVPSTADVFNPVKRSSPDTGGSITNRGGPEDPFFPKRPIVKRDRTFDPFPPITQVKTERKKRRNRWTAPSRRYRRQWRGW</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>447..1532</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>447</GBInterval_from>
+            <GBInterval_to>1532</GBInterval_to>
+            <GBInterval_accession>KC794539.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGJ03166.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MARLVKSSRRLMHRRRRRGFAIRRRRYSGRRRYSTRRRYSIRRRVSRSLAIPRRGAREFSWVLNLHNYQHSFNDGGALSAIQGNQWYLMSPPTLIIPYQAFRFLFKEWRLTRLLVAIRRRYPEPVVYQPNQQEQTVAASRLASNNIWWCPWGKYDRPEQAPRQTKSAILLTSQWAVRSVSQRCQRLSLVSTKRSASFVSGSTPIIDGNEGRPGGGYGQAALLSNVGFVAYWGRWPTYSFSDTYNATSNSDRNDLLPVANLGFIAVENLSEITPDAVEIKVKAFFSFKGRKNLGSVNDSTGAFTSAFPLSSTDWYLDNNKTVPPVGVLEQNLLDQVDKDEPVEMPDIGPASVVAASPDGPMV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1632..2444)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2444</GBInterval_from>
+            <GBInterval_to>1632</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KC794539.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGJ03167.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MRFRHWIGTSFNLESIPDDESTIKQIAYQRERCPETNRLHLQFCISFTNPRTMDGVKRYIGDQSAHLEPCRNLRKGLEYCNKSESFVDNRFSRFNTDAQDAPDDFREFTELQLWQKYPNWMLKHGTQVRRYYQICQEVPQTREKPVCYIFWGPAGTGKSYSARHWLGDQLYIKPPGNFWIGYNGEKAVLFDDYYSSEKYDDLLRWISENPIHVSIKGSSTPLKAIKFAFTSNMNPRSWHSKIEDHSALFRRITKCFFCTDKCFSLDNLHE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1769..2392)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2392</GBInterval_from>
+            <GBInterval_to>1769</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KC794539.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGJ03168.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTNQQSNKLPTNENDAPKQTDFTSNSAFPLLTQELWTELNDTSEINQHIWSPAETSERDSNTATSQSLSSITDSQDSTPMPRMRQTISANSLNYSYGKNTPTGCSNTEHKCEDITKYVKKCPKREKNRYVTYSGDQRGQENHTLPATGSVTNYTSNRQETSGSGTTGRKRYFSMITTPRKSTTTYSDGYPKTPSTSQSKAPRRRSKL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtattaccagtgctgtgcgtcttttgtgccgctgtcccaaattttccggtgtgtgtttaattgcaccatgagtttaatttggactgttggtaaagctggagctccatttcttggtgaatctattgttggacctattggttggggtgctacagcttttgaggttgctagacaaggttataatttatatcaaaggtatcatcagcattcttctacggacggtgttccttcgactgctgacgtttttaatcctgttaaacgttcgtctcctgatactggtggtagtatcacgaatcgtggaggtccggaggatcctttttttcctaaacgtcctattgttaagcgtgatcgtacttttgatccgtttcctccgataactcaagtaaaaacagagcggaagaagcgtaggaatcgttggactgctccttcaagaaggtatcgtagacaatggcgcggttggtaaaatcttctcgtcgtttgatgcatcgtcggcgtcgtcgtgggtttgcgattagacgtcgtcgttattctggacgtcgtcgttattctactcgtcgtcgttattctattcgtcgtcgtgttagtcgttcgctggctattcctaggcgtggggctagagagtttagttgggtattgaatttgcataattatcagcatagctttaacgatggtggagctctttctgcgattcagggtaatcagtggtatcttatgtccccccctaccctgattattccatatcaggcttttagatttttgtttaaagaatggcgtttgacaagattattggttgctattcgtcgacgttatcctgagcctgttgtttatcagcctaatcaacaggagcagactgtggctgcttctcgtttggcttctaataatatatggtggtgtccatggggtaaatatgatcgtcccgagcaggctccccggcagactaagtctgcaattttgttgactagtcagtgggctgttcgttctgtttcacagcgatgtcagagactttctttggtttctactaaaaggagtgcttcttttgtttcgggttcgactcccattattgatggtaatgaggggaggcctggtggtggttatggtcaggctgctttgttgtcgaatgttggatttgttgcttattggggtcgttggccgacttatagtttttctgatacatataatgctacttccaactcggaccgtaacgatttattgcctgttgccaatttgggttttattgcagttgagaatctttctgagattactcccgatgctgttgagataaaggttaaggcatttttttcgtttaagggacgtaaaaatcttggttctgttaatgattctactggggcttttacgtctgcttttcctttgagttcaactgattggtatttggataataataaaactgttcctcctgttggggttttagagcaaaatcttttggatcaggttgacaaggatgagccggttgagatgccggatattggtcctgcttctgttgttgcagcttccccagacgggcctatggtatagggtttactcggatgcgagtaggcaggcgtgagcctgcgggagtaaccccgaaggggttacgcggacaacctataacttgacttaatgttttttttcgtgttattcgtgcaaattgtctaaactgaaacatttatctgtacagaaaaaacattttgtgattcttctgaatagggctgagtgatcttctatttttgagtgccatgaccgtgggttcatgttgctagtaaaggcaaattttatagctttgagcggcgtcgaggagcctttgattgagacgtggatggggttttcggatatccatctgagtaagtcgtcgtacttttccgaggagtagtaatcatcgaaaagtaccgctttctccccgttgtacccgatccagaagtttcctggcggtttgatgtataattggtcaccgagccagtggcgggcagagtatgattttcctgtccccgctggtccccagaatatgtaacataccggtttttctctcgtttggggcacttcttgacatatttggtaatatcttcgcacttgtgttccgtgtttgagcatccagttggggtatttttgccatagctgtagttcagtgaattcgcggaaatcgtctggcgcatcctgggcatcggtgttgaatcttgagaatctgttatcgacgaaagactctgacttgttgcagtattcgagtccctttctgaggtttcggcagggctccagatgtgctgattgatctccgatgtatcgtttaactccgtccatagttcttgggttagtaaaggaaatgcagaattggaggtgaagtctgtttgtttcggggcatcgttctcgttggtaggcaatttgtttgattgttgattcgtcatctggaattgattctaaattgaaactggttccaatccaatgtctaaaacgcatgcgtgtttgtatgtgtgccgtctctgtgcacccggagacaccgggtatacaaacatgatcacagcactgtat</GBSeq_sequence>
+  </GBSeq>
