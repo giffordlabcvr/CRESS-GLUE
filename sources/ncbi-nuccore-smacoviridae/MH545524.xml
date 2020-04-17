@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH545524</GBSeq_locus>
+    <GBSeq_length>2537</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-NOV-2018</GBSeq_update-date>
+    <GBSeq_create-date>17-AUG-2018</GBSeq_create-date>
+    <GBSeq_definition>Fly associated circular virus 3 isolate Nevis_I1022-I77_E7, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MH545524</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH545524.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH545524.1|</GBSeqid>
+      <GBSeqid>gi|1445122544</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Fly associated circular virus 3</GBSeq_source>
+    <GBSeq_organism>Fly associated circular virus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Smacoviridae; Porprismacovirus; unclassified Porprismacovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2537</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rosario,K.</GBAuthor>
+          <GBAuthor>Mettel,K.A.</GBAuthor>
+          <GBAuthor>Benner,B.E.</GBAuthor>
+          <GBAuthor>Johnson,R.</GBAuthor>
+          <GBAuthor>Scott,C.</GBAuthor>
+          <GBAuthor>Yusseff-Vanegas,S.Z.</GBAuthor>
+          <GBAuthor>Baker,C.C.</GBAuthor>
+          <GBAuthor>Cassill,D.L.</GBAuthor>
+          <GBAuthor>Storer,C.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+          <GBAuthor>Breitbart,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Virus discovery in all three major lineages of terrestrial arthropods highlights the diversity of single-stranded DNA viruses associated with invertebrates</GBReference_title>
+        <GBReference_journal>PeerJ 6, e5761 (2018)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.7717/peerj.5761</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>30324030</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2537</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rosario,K.</GBAuthor>
+          <GBAuthor>Breitbart,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-JUN-2018) College of Marine Science, University of South Florida, 140 7th Ave S, St Petersburg, FL 33701, United States</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2537</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2537</GBInterval_to>
+            <GBInterval_accession>MH545524.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Fly associated circular virus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Nevis_I1022-I77_E7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>Blow flies (Lucilia sp)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2293283</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Saint Kitts and Nevis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2013</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>S. Z. Yusseff-Vanegas</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>stem_loop</GBFeature_key>
+        <GBFeature_location>join(2525..2537,1..25)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2525</GBInterval_from>
+            <GBInterval_to>2537</GBInterval_to>
+            <GBInterval_accession>MH545524.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>25</GBInterval_to>
+            <GBInterval_accession>MH545524.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains nonanucleotide motif TAGTGTTAC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(32..808)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>808</GBInterval_from>
+            <GBInterval_to>32</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MH545524.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXL65909.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDAQRRYKFRHTLASTMTQTWMLTVPRRKTAKEWMGIYKWLRDNDVHKWTVAMETGSNGYDHWQIRFQVGKTFKQLKKEWGDKAHIEEASDTWDYERKSGMFFSSTDTPEVRKCRFGRLNWRQEAVVQAVQATNDREVVVWYDPDGNKGKSWLLGHLYETGQAWVVQAQDTVKGIIQDVASEYINHGWRPIVVIDIPRTWKWTSDLYVAIERIKDGLIKDPRYSSKTVHIRGVKVLVTCSTMPKLDKLSADRWVIIDL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1253..2239</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1253</GBInterval_from>
+            <GBInterval_to>2239</GBInterval_to>
+            <GBInterval_accession>MH545524.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXL65910.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAYRKRRGSKVLHQKFQWFFDLQTKADEMQIIEVSAGGYGVYKRLFPFFSAFKYYKLGGVKMKMIPASTLPVDPTGLSYEAGENTVDPRDQLTPGLTRITNGEDVYTKLDGLTGDQQRELYESMMIDQRWFKWQLQSGLSRYARPMYWQIGQLHQDYLPGSVRNLADTNLTEDCDSISAVYDGANPSGPSAGPITVAADASDPRGLFQVGHRGKLGWMPTDGVLLKGTSGGDGTVHAQAVEAAIPAVNVFTIVTPPMHKTNYYYRVFVTEDVYFKSPVVVGYQNFRSLDRFVQPQFPVAKLPTVNSATTDSNKPFPTNDGGELPGVIQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtgttacgaagagaagtgctcgcgctttttcacaggtcgatgattacccatctatcggccgacaacttatcgagtttgggcatggtgctacacgtcaccagaaccttaacaccgcggatgtgtactgtcttgctgctgtacctcgggtccttgatgaggccgtcctttatgcgctcgatggctacgtagaggtcggatgtccacttccatgtgcgcggaatgtcgatgactacgataggcctccatccgtggttgatgtactcggatgcgacgtcctgtatgatccctttgacggtgtcttgagcctgaacaacccacgcttgcccggtctcgtagaggtgccctaggagccacgatttgcccttatttccgtccgggtcataccacaccactacctcgcggtcgttcgtggcttgtacggcctgtacgacggcttcctgacgccaatttagccttccgaacctgcactttctaacctcgggtgtgtcggtgctgctgaagaacatgccggatttgcgttcgtagtcccatgtgtcggaggcctcctcgatgtgtgccttgtccccccattccttcttgagttgcttgaaggtcttgccgacttggaaccttatctgccagtggtcgtatccgttgctgcccgtttccatggccactgtccatttgtgtacatcgttgtcacggagccacttgtagatgcccatccactctttggcggtcttccttctcggcacggttaacatccatgtttgtgtcatggttgatgcgagggtgtgtcgaaatttatatctacgttgagcatccatgtacataattgtgcaatgttgcacggtgatgaacaatgaggtacggaaaagggtactacaggagaggctaccgcagccgcggaaggccccgcaggtatggatacaggcgttctggatatggtaggaggtactactgatgttgcccctgctggctttgtccactcttgccggtgccggtatgggcctcggtgcgaatttgtacagccagcacaaacagaggcagctgtacgattaccagaaagcaggttatcagaggtggttgaatgactatgcaaagaatgttggacgtcctatccgttatcctgaaatggggccggaaggcaagatgcgcgctcttgatactggaatcagtcagagcctcgccagcagtctagcatcagttggaggctttattgggtctcccggagtctacaacgcaactcgcacaatgagcaggtggttatgatggcatacagaaagagacgtggaagcaaagtgctgcatcagaaattccagtggtttttcgacttgcagacgaaagcggatgagatgcagataatcgaggtcagcgctggtggatatggtgtctacaaacgtctgttcccgttcttctccgcgttcaaatactacaagcttggcggagtcaaaatgaaaatgatcccggcatctactctgcctgtggaccctactggcctttcctatgaggctggagagaacacggtagaccctagggaccagctgactcccggactgacgaggatcaccaacggagaggatgtgtacaccaaactggatggtcttaccggagaccagcagagggaattgtacgagtccatgatgatagaccagaggtggttcaagtggcagctacagtctggactgtccagatatgcccgtcccatgtactggcagattggccagttgcatcaggactatctccccggttcagtgcgtaatctcgcggataccaacctcacggaggactgcgactctatcagcgctgtctatgatggtgctaaccctagcggacctagtgctggccctattacagttgctgcagatgcttctgatcctcgcggactgtttcaggttggccatcgtggcaagcttggttggatgcctactgatggtgttcttctgaaaggaacgtctggcggagatggaaccgtgcatgctcaggcagtcgaggctgcaatccctgccgtgaatgtcttcacgatagttacacctcctatgcacaagaccaactactactacagggtcttcgtcaccgaggatgtgtacttcaagagtcccgtggttgtcggatatcagaacttccgctctctcgataggttcgtccagccccagttccctgtggcaaaactgcctactgtcaacagcgccacgactgatagtaacaagccgttcccgactaatgatggcggagagttgcccggggtgatacagtgagcatcgtgatcatccacagttccaagggatcccacagggtcgaagagttcgagacaaccggatacgaaggagttcttcccgagaaaaccgtcctcgaattcgacgatgagccggaagagtaagtccctgtcttcctctgggggcgtgggggccgacgaagcccccactatccccgagattcccaaccaaaaccataacgcaaattgctttttccccgtaaaagacaaggaccacaaacagcccctgtcaacggtgctctaccttctcccccctaaaggggggagagcggcacttcgac</GBSeq_sequence>
+  </GBSeq>

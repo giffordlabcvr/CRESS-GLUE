@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC133374</GBSeq_locus>
+    <GBSeq_length>900</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-DEC-2016</GBSeq_update-date>
+    <GBSeq_create-date>01-DEC-2016</GBSeq_create-date>
+    <GBSeq_definition>Porcine stool-associated circular virus 3 Cap gene for putative capsid protein, complete cds, isolate: JPN1</GBSeq_definition>
+    <GBSeq_primary-accession>LC133374</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC133374.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC133374.1|</GBSeqid>
+      <GBSeqid>gi|1109515207</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine stool-associated circular virus 3</GBSeq_source>
+    <GBSeq_organism>Porcine stool-associated circular virus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; unclassified ssDNA viruses</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..900</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Oba,M.</GBAuthor>
+          <GBAuthor>Omatsu,T.</GBAuthor>
+          <GBAuthor>Naoi,Y.</GBAuthor>
+          <GBAuthor>Katayama,Y.</GBAuthor>
+          <GBAuthor>Nagai,M.</GBAuthor>
+          <GBAuthor>Mizutani,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Development of Rapid Detection Method of genome of single strand DNA viruses</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..900</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mizutani,T.</GBAuthor>
+          <GBAuthor>Oba,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-MAR-2016) Contact:Tetsuya Mizutani Tokyo University of Agriculture and Technology, Research and Education Center for Prevention of Global Infectious Diseases of Animals; 3-5-8 Saiwai-cho, Fuchu, Tokyo 183-8509, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..900</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>900</GBInterval_to>
+            <GBInterval_accession>LC133374.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine stool-associated circular virus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>JPN1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Sus scrofa domesticus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1328032</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2014</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Porcine stool-associated circular virus 3 JPN1, complete cds</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..900</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>900</GBInterval_to>
+            <GBInterval_accession>LC133374.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Cap</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..900</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>900</GBInterval_to>
+            <GBInterval_accession>LC133374.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Cap</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAW15372.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MKVKFTQFFDISSDSTKFTTFKVVAGGDYVKQRCMPQFLCYKHYKLGPVSVKLVPASTLPVDPTGLSYATGENTVDPRDMFNPGLVRITNGEFVEPVSSMDTYYATLLDPRWFKFQLQQGFSRYAKPLVYNIGEIHQDPIGLSGQSIPDDAGINSGFNYYDVSNGQYKLDSYSTNNSGNAIAYSPIQTGRIKLGWLPTDTPAFTRGTQSGGFLSFVPEVDVITFVLPKAYKTKFYYRVFVESTVYFKDPVAVNPIVAENGNVAYPMDRFVGLQAVNGGSLSQKWTNAQLGYHYKEENEP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgaaagttaaatttacacagttttttgatatttctagtgattctactaagtttactactttcaaggtagttgctggtggagattatgtcaagcagaggtgcatgccgcagttcctttgttacaaacattacaagcttggtcctgtttctgtcaagttggttcctgctagtactcttcccgtcgatccgacaggtctcagttatgcgactggtgagaacacggtcgatccaagagatatgttcaaccctggattggtcaggataactaacggtgaatttgtcgaacctgtttcaagcatggatacatattatgctaccctcctcgatccccgttggttcaagttccaacttcagcaaggattttccagatatgcgaagcctttggtttacaacatcggtgaaatccaccaggatccgatcggtctttctggtcagtccattcctgatgacgctggtatcaattctggattcaattattatgatgtctctaatggtcaatacaagcttgatagttattctacaaataacagtggcaatgctattgcttattctccgattcagactggtcgtatcaaacttggttggttgcctactgatactcctgcgttcacccgtggtacacagtcaggtggatttttgtcctttgttcctgaagttgatgtgatcaccttcgttttgcccaaggcatacaagacaaaattctactatcgtgtctttgttgagagtactgtttacttcaaggaccctgtagctgtcaatccgatcgtagctgaaaatggtaatgtagcttacccgatggataggttcgttggattgcaggctgtgaatggtggttctttgtctcaaaaatggactaatgcacagcttggctatcattacaaggaggagaatgaaccatga</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KJ577819</GBSeq_locus>
+    <GBSeq_length>2603</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-JUL-2018</GBSeq_update-date>
+    <GBSeq_create-date>30-AUG-2014</GBSeq_create-date>
+    <GBSeq_definition>Porcine associated porprismacovirus 6 isolate XP1, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KJ577819</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ577819.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ577819.1|</GBSeqid>
+      <GBSeqid>gi|673539353</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine associated porprismacovirus 6</GBSeq_source>
+    <GBSeq_organism>Porcine associated porprismacovirus 6</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Smacoviridae; Porprismacovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2603</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cheung,A.K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-MAR-2014) Virus and Prion Diseases of Livestock Research Group, National Animal Disease Center, 1920 Dayton Avenue, Ames, IA 50010, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 6.1.7 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2603</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2603</GBInterval_to>
+            <GBInterval_accession>KJ577819.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine associated porprismacovirus 6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>XP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>fecal sample</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>pig</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2170122</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2011</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>81..1193</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>81</GBInterval_from>
+            <GBInterval_to>1193</GBInterval_to>
+            <GBInterval_accession>KJ577819.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Cap protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIK28883.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPTGIKLALEEGRPTGTGDTGGNPMVTVRVSETYDLSTKVGKMGLVGIHTPTGDLIPRLWSGFVQQYKKFRFVKCDVAMACASMLPADPLQIGVESGSIAPQDMFNPILYKAVSNQSMNNFLGWLQLVGETEDMVGAFNKGSVVDVNNPVFKSAAQDGVDIDQFQMYYSLLADSDGWRKAMPQSGLTMRGLIPLVFQVLSNYGAGPQNESDSADLRISVPALSLGPQGGPPTSAADSSSFVLPRTMRGPAARMPAIDTAFFSSLAAKDRNVFSAFVQAQETLGNVPPAYVGIIVLPPAKLDQLYYRLKVTWTIEFTGVRSNNDLSSWSALANAGNVAYGSDYDVQSKSMASALGMADTAGADITKIMEGS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1742..2581)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2581</GBInterval_from>
+            <GBInterval_to>1742</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KJ577819.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Rep protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIK28884.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MKTYMLTIPRERADRIGTEPIIRLMRYIRENDVKKWIVAMETGRRGYEHWQVRLQAREGFSEWKDTEVPVLGPNWTIVTEKQKVGVGWIQRNIPQAHVEECSDNWEYEAKEGRYWASWDTVEVHRMRWGRPRWYQQALLNKLRTTTDREVMVWYDPEGNNGKSWLVGHLFETGRAYYLPPTLTSVQSMLQTMASLAHQDREKGYPPKPYVIIDIPRTWKWSKELYCAIESIKDGLIMDPRYSARPINIRGVKVLVLTNEMPKLDALSEDRWIIENTPMH</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atattaacccgtattatacatcagtgcacaatattgtgcaggagtatgcaaaatggcttattataggtctagaaggcgctatgcctacaggtataaaactcgctctggaagaaggccgtcctacaggtacaggagatacaggaggtaatcccatggtaaccgttcgtgtttctgagacctacgacctctccactaaggtcggcaagatgggtctcgttggaattcatactcctactggggaccttatacctcggctctggtctgggtttgtccagcagtataagaagttccgcttcgtgaagtgcgacgtcgcaatggcgtgtgcttcgatgctccctgccgaccctctgcagattggtgtagaatctggtagcatcgctccccaggatatgtttaatcctatcctgtataaggctgtcagtaatcagtccatgaacaacttccttggatggctgcagcttgtcggagaaaccgaggatatggtcggtgctttcaataagggcagtgtcgttgatgtcaacaaccctgtcttcaagtctgccgcccaggatggtgtggatatcgaccagttccagatgtactactccctcctcgccgacagtgatggatggcgtaaggctatgccgcagtctgggcttaccatgcgtggtcttatccctctcgtcttccaggtcctttccaactatggtgccggaccccagaacgagtccgattctgcggaccttcgtatcagtgttcctgccctttcgcttggcccacagggtggaccccctacctctgctgctgattctagctcctttgttctccctcgtaccatgaggggacctgctgctaggatgcctgctattgacactgcgtttttcagctctctggctgctaaggaccgtaatgtcttcagtgcatttgtacaggcccaggaaacccttggtaatgtcccccctgcctatgtcggcattatcgtgcttcctcctgccaagctggaccagctctactaccgtctcaaagtaacctggaccattgagtttaccggtgtacgctctaataacgacctttccagctggtcggctctcgccaatgccggaaatgttgcctacgggtctgactatgatgttcagtccaagtctatggcttccgctctgggtatggcggatactgctggtgcggatatcactaagattatggagggtagctgatggtgttcgaggaccgcggttataacactcttggggccatgcgtgccatttacggtacctctgaccccgaggtatccgagtactggcgtaactgggctggttacatcggttccagtctgcctttcatcggcgaccttgttagatcgcgcgacaactgggcctacatcaacgactacatgcggaaccgtggtctaagctggtctgacatcaagtacccgtctcgtgtggtcggagcatctactactggatacgctctgaacttcgtatcctcgaacattgaggatttgtataaggacgagaaaaagatgagcatgctcaacgacgactataacgtgtttagacttcggaggtatatgtggtgaagctcttggacctcgtaatcaaagttaaggactggttccttggaaaactccacatcgagtggtaaactacttcctacccccctaaaggggggtagtccctcagtgttacgataagggactacccctctggtgtgtcccgccgttaggcgccctgcggagcaagttgtggccgtgcggtagcaccgttcagtgcattggtgtattctcgataatccacctgtcctcactcagtgcgtccagtttaggcatttcgttagtaagaactaatacctttacccctctgatgttgataggtctcgcgctgtacctcgggtccatgatgagtccgtcctttatgctctctatcgcgcagtatagttccttggaccacttccacgttctcggtatgtctatgattacatacggttttggtggatatcccttctcacggtcctgatgcgccaagctcgccatggtctgcaacatgctttgtacgctcgtcaacgtcggcggtagatagtacgctctgcctgtctcgaataggtgccctacaagccagctcttgccattgtttccctccgggtcgtaccaaaccattacctcgcggtcggtcgtcgttctgagcttgtttaagagggcctgctggtaccatctcgggcgcccccatctcatgcggtgtacctctaccgtgtcccatgatgcccaatatctgccttccttggcttcatactcccaattgtcactgcattcctccacgtgagcctgtggaatgttgcgctgtatccatccaactcccactttctgcttctccgtcacgatcgtccagttgggtccaagcactggaacctccgtgtctttccactcgctgaatccctcgcgcgcctgaaggcgtacttgccaatgctcgtatcctcttctgcccgtctccatggctactatccacttctttacgtcgttctctctgatgtacctcatcagcctgatgatgggctcggtccctatgcggtctgctctctctctcggaattgtcagcatgtatgttttcatgcttggtcatcggtaggctttt</GBSeq_sequence>
+  </GBSeq>

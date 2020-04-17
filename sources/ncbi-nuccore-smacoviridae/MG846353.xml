@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG846353</GBSeq_locus>
+    <GBSeq_length>2447</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>14-AUG-2018</GBSeq_create-date>
+    <GBSeq_definition>Chicken associated smacovirus strain RS/BR/2015/1R-4, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MG846353</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG846353.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG846353.1|</GBSeqid>
+      <GBSeqid>gi|1444963100</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Chicken associated smacovirus</GBSeq_source>
+    <GBSeq_organism>Chicken associated smacovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Smacoviridae; Huchismacovirus; unclassified Huchismacovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2447</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lima,D.A.</GBAuthor>
+          <GBAuthor>Roehe,P.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A case-control study in search for viruses in malabsorption syndrome affected and healthy chickens</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2447</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lima,D.A.</GBAuthor>
+          <GBAuthor>Roehe,P.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (23-JAN-2018) Departamento de Microbiologia, Imunologia e Parasitologia, Universidade Federal do Rio Grande do Sul, Sarmento Leite, 500, Porto Alegre, Rio Grande do Sul 90050-170, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: MetaSPAdes v. 3.10.1; Geneious v. 9.1.8 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2447</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2447</GBInterval_to>
+            <GBInterval_accession>MG846353.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Chicken associated smacovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>RS/BR/2015/1R-4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>feces</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Gallus gallus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1932006</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Diane Lima</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..747</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>747</GBInterval_to>
+            <GBInterval_accession>MG846353.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXL64548.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSPKWYDITASMDKIPEETLRAWLDKHCERYAYGRETGENGYKHYQIRLVLKTGADISEMRKIWSAVGHVSCSHTRNFDYVLKEGDFVCSWIKIPEEMKNPVFRPWQKALLELEQNDREIDVIIDLKGNTGKSWITKYLCLKNRATNIPCGLEAKDIMRMCLKRQNTGWYILDMPRASTKQAKSTWSAIESIKNGYLWDDRYTWEEKWIDPPKVTVFTNEYPKYDLVSEDRLRFWAPVETGLVSLAK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1101..2078)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2078</GBInterval_from>
+            <GBInterval_to>1101</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MG846353.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXL64549.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTNRISQTFQWYADFSTSPEQMQVIKITCGGERTRRRLLPFFGAFKYYKLGSVDVKFVPASTLPVDPTGLSLEAGENTVDPRDQFNPGLVRITNGEDFWEDFPAGDTNKADALYYQMMLDQRWYKFNLQSGFRRSATPRYWTVGQFHQDVFPGFITNVPSYTKQTDPVSVHDFETDHLKYQVENNDRLYNVSQGSSPYSLFQTGNKGTLGWLTTDNFLNVDSNYDRMCIADVPEVELMRVILPKAYKTKFYYRIYVSETVYFKEPVTMNAASYAIGTVPETYGYLTNSLDRFLYTHTQGVGTPALDSMATIQSKWSNDAHPGGAN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgcctagccctaaatggtacgatataacggcttctatggacaaaattccagaggagacactaagagcttggttagataaacattgtgagaggtatgcatatggaagagaaacaggagaaaacggatacaaacactaccagatacgacttgtacttaaaactggtgccgatattagcgaaatgcggaagatatggtccgctgttggccatgtgtcttgtagtcatactagaaatttcgactatgttctaaaagaaggtgattttgtatgttcatggataaagataccagaagaaatgaaaaatccagtgttcaggccttggcagaaagcattgctagagctagaacaaaacgacagagaaatagatgtcatcatagatctaaaagggaacactgggaaatcatggataacgaagtacttgtgtttgaaaaatcgggcgacgaatataccctgtggattagaggcgaaagatatcatgcgtatgtgtctgaagcgtcaaaatactggttggtatatcttagatatgccgagagcgagcaccaagcaggcaaaaagtacatggagcgctatcgaaagcataaagaacgggtacctatgggacgaccgctacacgtgggaggagaagtggatagatccgccgaaggtaacggtgttcacaaatgagtatccaaagtacgacctcgtgtcggaggatcgactaaggttttgggcaccggtggaaacggggcttgttagcctcgcgaaataaacgccgggcttttagcgctgccgcgtaatactgcgcccggctaatatctttcttacttatatttctttaacttttgggaaccgtgtctgaaatccgacaaagtatataaatggttatcagcgcgtagaatggttgacgtgtgcaggcgagctagggcgcttcgcgcaatgataggtatcagaccgttgggatcagaccacagaccgttagaaaaagaaaagaaagggtttaggaaaaggtttagggaaggtgattttctgggtttgaatagtctgcttcatcgacatcatcccactcaaactccatataccgaccttcaatgagtttcctaccattgatgtagatattagccattagttagcacctccaggatgtgcgtcattactccatttagactgtatagtagccatagaatcaagggcaggagtaccaacaccttgagtatgtgtatacaagaacctatcgagactattagtaagatatccatatgtttcaggaacggttccaatagcataggaagcagcattcatagtaactggctctttaaagtacactgtttcagatacgtatattctataataaaacttagttttgtaagccttaggaagaataacacgcataagctcaacctctggaacatcagcaatacacatacgatcatagttactgtcgacatttaagaagttgtcagttgttaaccagcctaaagtacctttgtttccagtttggaataaactgtatggactagaaccttgggatacattgtaaagccgatcattgttctctacctgatacttaagatgatctgtttcgaaatcatgaacagaaactgggtctgtctgcttggtataagatggaacattggtaataaaaccagggaagacatcctgatggaattgacctacagtccagtaccttggagtagcagaccttctgaaaccagactgaagattaaacttataccaacgctgatcaagcatcatctgataatagagagcgtcagctttgttagtatcacctgcagggaaatcttcccagaaatcttcaccatttgttatacggactagaccagggttaaattgatctctaggatcgactgtattttctccagcctctaagctaagaccagttggatcaaccggtaaagtactagcaggaacgaacttaacatcgacagaaccaagcttatagtacttaaaggcaccaaagaatggaaggagtctcctacgtgttctttctccaccacacgtaatcttaatgacctgcatttgttcaggtgaagtagaaaagtctgcgtaccattggaatgtttgagatattcgattagtcataattcatcacactcctggaagatttatataaacttgtaccagcacgaacagcagactcaacgagataattggcaggaccactaaatgcctgggcttcatacgcgttagtagcataagcataggatcgacctgtatttttcctccaatctctgtccatctggcgtaagtccttatagcggtcgtactggtgaatagccttgcctatacccatagggagtgcatacatccagtattcagccatattaataccttctcctgcggtaatatcttctgcgaccatagccaccgtagtaacgtctacgggaatagcgtctataacgtctgtaatacgccataaagagtaaataggtgtccgggtattaaaggttt</GBSeq_sequence>
+  </GBSeq>

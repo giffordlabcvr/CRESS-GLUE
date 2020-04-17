@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG522852</GBSeq_locus>
+    <GBSeq_length>2478</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>29-AUG-2018</GBSeq_create-date>
+    <GBSeq_definition>Human feces smacovirus 2 isolate SmaCV_ETH_P7_2016 replication associated protein and putative capsid protein genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MG522852</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG522852.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG522852.1|</GBSeqid>
+      <GBSeqid>gi|1464250006</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human feces smacovirus 2</GBSeq_source>
+    <GBSeq_organism>Human feces smacovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Smacoviridae; Porprismacovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2478</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Altan,E.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Fecal viromes of Ethiopian children in villages undergoing a clean water trial</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2478</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Altan,E.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-NOV-2017) Molecular Virology, Blood Systems Research Institute, 270 Masonic Ave, San Francisco, CA 94118, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. R10 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2478</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2478</GBInterval_to>
+            <GBInterval_accession>MG522852.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human feces smacovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>SmaCV_ETH_P7_2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>feces</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1820158</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Ethiopia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Apr-2016</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(182..1018)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1018</GBInterval_from>
+            <GBInterval_to>182</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MG522852.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXQ03913.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDIMATIGRDGYSGFAEIMAIIRELDIHKWIIGAEVGAGGYQHWQCRFKTRLSSEERIEGIEWDIKTATVKQKKRTVGPAEQMTEKLRARIGDGPSIYTAECSDNWEYEAKEGAYLASWDTMEARSTRFGRPSWQQEVALQALRDTNDRQVVVWYDPEGNIGKSWLTNHLYEQGLAYCIPATMNNVEGIIKTVASLAVKDRDMGYPPRPYVIIDIPRSWKWSEQLYTAIESIKDGLIMDPRYSAQPINIRGVKVMVMTNTMPKVDKLSHDRWVIHTNP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1195..2241</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1195</GBInterval_from>
+            <GBInterval_to>2241</GBInterval_to>
+            <GBInterval_accession>MG522852.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXQ03914.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEVTVSETYDLSTVVDHMGFVGVHTPQGSLIAKMWPGLIQNYKYMNFKSCDIEIACASMLPADPLQVGVSAGSIAPQDMFNPILYKAVSNDSMSTLVSQIYMAGASGAGLSFADSENSGFIGNSSTDSLDQFKIYYSQLASDGWRKAMPQQGLSMKGLVPIVHTVVSNYGMPMTAGYQDNVKVDNRPGVESPFTVASNIEGKYSAITPGFMRGPAQRMPRFPTTVFGGSTGNSNQPDVSNFSDNVSVTAAYPAIPKTFVAAIVMPPAKLNVLYYRMRVTWHIEFYEPRPATDIYNWSTLNHIGGDLAYFSDYADNTKAVKASGISASDTDSEMVYASNAELNKVMESA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtctctctctcaaattctctatgaagaagaaggattgagtaaaccacccgtcctgtcctcgtaaggtcaggttggggtcttagggggggtgaccccccctgatttctattaccattcctacccccctaaaggggggtagcattcccaataattacggaagggaatgcggtcccctctcccgtcagggattggtatgtattacccatctgtcgtgtgacagtttgtccacctttggcatggtgtttgtcatcaccattaccttgaccccgcggatgttaatcggttgtgcggaatacctcgggtccatgattagtccgtccttgatgctctctatcgctgtgtacagctgttctgaccatttccatgatctcggaatgtcgattatgacgtatggtctcggcggataccccatgtcgcggtctttcactgctaggctcgctacggtttttatgatgccctcgacgttgttcattgtcgctggaatgcagtaggctaacccctgttcgtatagatggttcgttagccacgatttgccgatgtttccctccgggtcgtaccaaactaccacttgacggtcgttcgtgtctctgagggcctgcaaggctacctcttgttgccatgacggtctaccgaagcgtgtgcttctcgcttccattgtatcccatgatgctaggtaggctccttctttcgcttcgtattcccaattgtcggaacattctgcggtgtatatgctcgggccgtctcctatacgtgcgcggagtttttcggtcatctgttctgcaggtcctactgtgcgtttcttttgttttacagtggctgtttttatgtcccattctattccctctatgcgctcctctgaggataggcgtgttttgaacctgcattgccaatgttggtatcctcctgctcctacctctgctccgattatccatttgtgtatgtcgagttcccgtattatcgccatgatttctgcgaatcccgagtacccgtccctgcctatggttgccatgatgtccatgatatgttatcttccatctgtttcttatattcggagtgttattcattatgtacataacgtaattttgttatgtaggtgaaaaaatggcatatggaagaaggtatagaaggtatgctcctaggcgtcgctacggatacaggtcttacaggcgcaggtattgataacaggtgattgttatggaagttactgtctccgaaacttacgacctctcgaccgttgttgaccacatgggttttgtcggtgttcacactccccagggttccctgattgcgaagatgtggcctggtctcattcagaattacaaatacatgaatttcaagtcgtgcgatattgagattgcgtgcgcgtccatgcttcctgctgaccctctccaggtcggtgttagtgctggatccatcgcgcctcaggatatgtttaatcctatcctttataaggctgtctccaacgactctatgtctactcttgtctctcagatatacatggctggtgcttctggtgctggtctctcgttcgctgattctgagaactctggattcatcggtaattcttctactgattctcttgatcagttcaagatatattactcccagcttgcaagtgacggttggcgtaaggcgatgccccaacagggtctttccatgaagggtcttgttcctatcgttcacactgttgtttcgaattatggtatgcccatgactgctggatatcaggacaatgttaaggttgataaccgccctggtgttgagtctccttttactgttgcgtctaatatcgaagggaagtactccgctatcactcctggatttatgcgcggtcctgctcagaggatgcccaggttccccactactgtcttcggtggttcaactggcaattctaatcagcctgatgtatcgaatttctcggacaatgtctctgttactgcggcttaccctgctattcccaagacctttgtcgcggctattgttatgcctcctgcgaagctcaacgttctttattacaggatgcgtgttacttggcatattgaattttatgagcctcgtcctgctaccgatatctataattggagtactcttaaccacattggtggagatcttgcgtatttctcggattatgcagacaatactaaggctgtcaaagcttctggtatctcggcttcggatactgattcagagatggtctatgcttcgaatgctgaactcaataaagtaatggaaagtgcgtaagatggatgctcgtacggcatattacctggaagcggccatgtctaatggtctctacggctctctccgtaagtttaaggatgctcaaaggtacatggatgattatttgtccaatcgcaacatggactactcggacattcggtacccttctatgactgtcggatatcaagcaactgcgaatatgtcgaacgatgtactcaatttcgtatcgtccaacattctaaggttgtacaaatgata</GBSeq_sequence>
+  </GBSeq>
