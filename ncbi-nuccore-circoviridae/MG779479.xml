@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG779479</GBSeq_locus>
+    <GBSeq_length>1713</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-JUN-2018</GBSeq_update-date>
+    <GBSeq_create-date>11-JUN-2018</GBSeq_create-date>
+    <GBSeq_definition>Dragonfly associated cyclovirus isolate DfCyV-FZ3, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MG779479</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG779479.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG779479.1|</GBSeqid>
+      <GBSeqid>gi|1395955172</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Dragonfly associated cyclovirus</GBSeq_source>
+    <GBSeq_organism>Dragonfly associated cyclovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; unclassified Circoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1713</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Islam,S.U.</GBAuthor>
+          <GBAuthor>Lin,W.</GBAuthor>
+          <GBAuthor>Wu,R.</GBAuthor>
+          <GBAuthor>Lin,C.</GBAuthor>
+          <GBAuthor>Islam,W.</GBAuthor>
+          <GBAuthor>Arif,M.</GBAuthor>
+          <GBAuthor>Du,Z.</GBAuthor>
+          <GBAuthor>Wu,Z.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete genome sequences of three novel cycloviruses identified in a dragonfly (Odonata: Anisoptera) from China</GBReference_title>
+        <GBReference_journal>Arch. Virol. (2018) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-018-3876-9</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29774431</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1713</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lin,W.</GBAuthor>
+          <GBAuthor>Ui Islam,S.</GBAuthor>
+          <GBAuthor>Du,Z.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-JAN-2018) Plant Protection College, Plant Virus Institute, Fujian Agriculture and Forestry University, Fuzhou, Fujian 350002, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1713</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1713</GBInterval_to>
+            <GBInterval_accession>MG779479.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Dragonfly associated cyclovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>DfCyV-FZ3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>abdomen</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>dragonfly (Odonata: Epiprocta)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2152567</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China: Fuzhou</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>10-Sep-2016</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>93..743</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>93</GBInterval_from>
+            <GBInterval_to>743</GBInterval_to>
+            <GBInterval_accession>MG779479.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>CP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>coat protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AWR89309.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAKTYKRKRVVRRRFSRFAHRRKTRRSRYRKRNGNLYCKLTLVETKVHKSNNNEVQELHIIPSLFREYNNLGPSFESCTFFKARMTIIPVANVSNNSTSRLPTYTMFPWKKAVPIRTLYQDYLSIDRAKQFRGTQVGTMSFIPCVNLTASTAGDGILPVRQWRPTLQWNSSSEKQPNLYCGGACFQGLGEGDTSSCEYIIRTDVWVRFNRQSLMGS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(740..1582)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1582</GBInterval_from>
+            <GBInterval_to>740</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MG779479.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Rep; involved in initiating rolling circle replication</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AWR89310.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MQRNSTVRRFCFTWNNYTELDWVLCTEFIKKYAKYGIIGKEIAPNTGTNHIQGFINLQKPMRFSTIKQRLDSRIHLEKANGSDEQNQEYCKKAGDFFEEGTPQYAGKRNDLDAAISAISTGQVTTMQDIAERHAAVFVKYHRGISALLQTLQPIPSRNFKTEVYYLWGPPGTGKSRRALEEATEKCGTSIYYKPRGLWWDGYHQHTGVIIDDFYGWIKYDEILKICDRYPYKVQIKGGFEEFTSKFIWITSNVSIDEVYKFVGYNSAAFIRRCEINEYMD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtattacccgccacctcgtagccgtaacctcgtagcgccccccaccatggtccctccgttgccgggcagaacttgtttttggcgtcagttatggcgaagacgtataagcgtaagcgtgtcgtgcgacggcgcttcagccgttttgcgcaccgtaggaaaactcgtcggtcgcgttaccgtaaacgtaacggtaatttgtattgtaaacttactttggtagagactaaagtacataagagtaacaataatgaagtgcaggagcttcatataatcccctcgttgtttagggaatacaacaatcttggaccgtcttttgaaagctgtacattctttaaagctagaatgacaataattcctgtcgctaatgtatccaacaattctacatcaagactacctacatatacgatgttcccatggaagaaggctgtacctattcggacgttatatcaggattatctttctattgaccgagcgaagcagtttcgaggaactcaggttggaaccatgagttttattccatgtgtgaatttgactgcatcaaccgccggagatggaattttacctgtacgtcagtggagacccaccttgcaatggaattcgtccagtgagaagcagcctaacctgtattgcggcggagcctgttttcagggattgggggagggggatacttcgtcttgtgaatatattattaggactgatgtatgggttagatttaatagacagagccttatgggttcttaatccatgtattcatttatttcgcatcgtcgaataaaagcggctgaattgtagcctacaaatttgtatacttcgtctatgcttacattacttgtaatccaaataaatttacttgtgaattcttcaaaacctccttttatttgtaccttgtatggatatctgtcacatattttaagtatttcgtcgtattttatccaaccatagaagtcgtcaattattacgccagtatgctgatggtatccgtcccaccatagacctctcggtttgtagtagattgatgttccgcacttttcagtagcttcctcaagtgccctgcgggattttcctgttcctggtgggccccatagatagtacacttcagtcttgaagtttcttgatggtattggttgcaatgtttgcagcagagcggatattcctctatggtatttgacaaacacggcggcatgacgttcagcgatgtcttgcatagtggtgacttgcccagtcgatatggcagaaattgcggcgtccaaatcgttacgcttccctgcgtattgcggagtgccctcttcaaaaaagtcgcctgcctttttacagtactcttggttttgttcgtcggatccatttgccttctcaagatggattctactatcgagacgctgtttgatggtactgaagcgcatgggtttctgtagattgataaacccttgtatatgattggtgccggtgttgggagcgatttcttttccaatgatgccatatttcgcgtatttctttataaattctgtacacaacacccaatctaactcagtatagttgttccacgtaaagcagaatcgacgaacagtactgttgcgctgcattgcaatttctgcgactgacgccgccggcccgaagggccggctttgctctccccaccacacacaaccagtgcccgcgccggtaggcgcggcagcagatcccgttacgctcgcccggcaacaaggtggcggta</GBSeq_sequence>
+  </GBSeq>

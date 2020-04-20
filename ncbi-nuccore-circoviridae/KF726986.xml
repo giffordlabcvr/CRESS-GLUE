@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KF726986</GBSeq_locus>
+    <GBSeq_length>1790</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-OCT-2017</GBSeq_update-date>
+    <GBSeq_create-date>10-FEB-2014</GBSeq_create-date>
+    <GBSeq_definition>Human associated cyclovirus 10 strain 5841A, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KF726986</GBSeq_primary-accession>
+    <GBSeq_accession-version>KF726986.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KF726986.2|</GBSeqid>
+      <GBSeqid>gi|584595299</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human associated cyclovirus 10</GBSeq_source>
+    <GBSeq_organism>Human associated cyclovirus 10</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1790</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Phan,T.G.</GBAuthor>
+          <GBAuthor>Luchsinger,V.</GBAuthor>
+          <GBAuthor>Avendano,L.F.</GBAuthor>
+          <GBAuthor>Deng,X.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Cyclovirus in nasopharyngeal aspirates of Chilean children with respiratory infections</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 95 (PT 4), 922-927 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/vir.0.061143-0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24421114</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1790</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Phan,T.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-SEP-2013) Virology, Blood Systems Research Institute, 270 Masonic Avenue, San Francisco, CA 94118, USA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1790</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Phan,T.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-FEB-2014) Virology, Blood Systems Research Institute, 270 Masonic Avenue, San Francisco, CA 94118, USA</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Feb 13, 2014 this sequence version replaced KF726986.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1790</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1790</GBInterval_to>
+            <GBInterval_accession>KF726986.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human associated cyclovirus 10</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>5841A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>respiratory secretion</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2038728</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Chile</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2000</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>82..795</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>82</GBInterval_from>
+            <GBInterval_to>795</GBInterval_to>
+            <GBInterval_accession>KF726986.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AHI42035.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MALRRRFKARRPVRRYKRRFMRYRRRRKYQQRVKPGDMIIQLKRIRTVKVNSQVNEYIGLNFTAKDFPELQPFLTQFEAFQFQRYAVKVIPSMNVSNNSTSRIGTYCLVPWHKKTTKPTNYSSMLSIDKSRVYRGTQTAYRSFVPAVHVQAETTGTGDAAAVIKWKPRIDIVNLYNDVEFYCGMIGIQGIPDATENVNYYHVVEYVTCKLINQNYLNDKAVQARALEESFSEAFEAI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(788..1624)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1624</GBInterval_from>
+            <GBInterval_to>788</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KF726986.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AHI42036.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNSVVRRFCFTWHDYDCEDVAKTESFINTHCKYGIFGKEVCPDTRRIHLQGFCSLAKPKRFKWIKEQLSNRIHIEKAMGSDKENQQYCSKSGEFFEKGSPSEGSGQRTDIQSLLETIQGGEHDIRRIAEKHPACYIRYYRGIRSYLNLVAPVSPRNFKTEVRYYWGPPGSGKSRRSLEESSGLLDGTVYYKPRGEWWDGYMQQTSVIIDDFYGWIKYDELLKICDRYPHKVPIKGGFEEFTSKYIFITSNVDVCDLYKFNGYTTAAIDRRITIKENII</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acccgtccaccttgtaacacgtaacggccgcgcgcttagcaacagcggcgctcggcctttcacttcagtagactcgctaccatggccttgaggagacgttttaaggctcgccggccagtaaggagatataagcgacgctttatgagatatagacgccgtcgaaagtatcaacagagagttaagcctggtgacatgataattcagttgaagcgcatacgtacagttaaagttaattcgcaagtgaacgaatatattggattgaattttaccgctaaagacttccctgagctgcagccatttttgacacagtttgaggcattccagtttcagcgttatgctgttaaggttataccgtctatgaacgtttctaataattcaacgtctcgtattggaacatattgtttggtaccctggcataagaagacgactaagcctacgaattactcatcgatgttatcgatcgataagagtagggtgtatcgtggaactcaaactgcctaccgttcatttgtaccagctgttcatgttcaagcggaaacgactggcactggagacgctgcagctgtcattaaatggaagccgagaattgatatcgtgaatttatataacgatgttgaattttattgtggaatgattggaatacaaggaatacctgatgctaccgagaatgttaactattatcatgtcgtcgaatacgttacttgcaaacttattaaccaaaactatcttaacgataaagcggtacaggctagggctttggaagaatcgttctcagaagcctttgaagctatataatgttttcttttattgtaatacgtctgtcaatagcagccgtagtataaccattgaatttgtacaagtcacatacatcaacatttgaagtaataaaaatatatttgcttgtaaactcttcgaatcctccttttattggaaccttgtgtgggtatctgtcacatattttcagcagttcatcgtattttatccagccatagaagtcatctataataacagacgtttgctgcatgtagccgtcccaccattctcctctgggtttataatagaccgtgccgtcaagtagtccagatgattcttccagacttctacgtgatttcccggatcccggaggtccccaataataccgcacttctgttttaaagttcctgggactaacaggtgctacaagatttaggtagcttcgtatacctctatagtatcggatatagcatgcgggatgtttttctgcaatccgtctaatgtcatgctcacctccttgtatagtttccaaaagggactgaatgtccgtccgttgtccggatccttcagaaggactccccttctcaaagaactcgcctgatttactacagtattgttggttttccttgtcggatcccattgccttctcaatatggatacggttagacagttgttccttaatccatttgaatcttttcggtttagccaacgagcagaaaccttggagatgtattcgtcttgtatctggacaaacttctttaccgaatattccgtatttacaatgggtgttgatgaaactttccgtttttgcgacatcttcacaatcgtaatcgtgccacgtaaagcaaaatctacgaactacactgttcatgggcactctgtactatgccactgaagtgagttatatgaatgcggccgaaggccgcggcgaaagcaatacgcgacgcgctggcgcggcgcgcatacgctcccagtactagcctgacccagccaacgcatgcgcgcaagcgccgtaacaaggtggacggtatagtatt</GBSeq_sequence>
+  </GBSeq>

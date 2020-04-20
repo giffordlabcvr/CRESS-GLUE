@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF036483</GBSeq_locus>
+    <GBSeq_length>951</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>01-MAR-2007</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 1 from India replicase gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>EF036483</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF036483.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF036483.1|</GBSeqid>
+      <GBSeqid>gi|122891977</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 1</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..951</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Pateriya,A.K.</GBAuthor>
+          <GBAuthor>Vanamayya,P.R.</GBAuthor>
+          <GBAuthor>Vijayalakshmi,A.B.</GBAuthor>
+          <GBAuthor>Khandia,R.</GBAuthor>
+          <GBAuthor>Pandey,L.</GBAuthor>
+          <GBAuthor>Pattnaik,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Detection of Porcine circovirus (PCV) in Indian pigs and development of recombinant replicase protein for detection of Porcine circovirus</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..951</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Pateriya,A.K.</GBAuthor>
+          <GBAuthor>Vanamayya,P.R.</GBAuthor>
+          <GBAuthor>Vijayalakshmi,A.B.</GBAuthor>
+          <GBAuthor>Khandia,R.</GBAuthor>
+          <GBAuthor>Pandey,L.</GBAuthor>
+          <GBAuthor>Pattnaik,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (29-SEP-2006) High Security Animal Disease Laboratory, Indian Veterinary Research Institute, Anand Nagar, Bhopal, MP 462021, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..951</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>951</GBInterval_to>
+            <GBInterval_accession>EF036483.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>tonsil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>pig</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:133704</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>26..&gt;951</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>26</GBInterval_from>
+            <GBInterval_to>951</GBInterval_to>
+            <GBInterval_accession>EF036483.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replicase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABM67071.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSKKSGPQPHKRWVFTLNNPSEEEKNKIRELPISLFDYFVCGEEGLEEGRTPHLQGFANFAKKQTFNKVKWYFGARCHVEKAKGTDQQNKEYCSKEGHILIECGAPRNQGKRSDLSTAVSTLLETGSLVTVAEQFPVTYVRNFRGLAELLKVSGKMQQRDWKTAVHVIVGPPGCGKSQWARNFAEPSDTYWKPSRNKWWDGYHGEEVVVLDDFYGWLPWDDLLRLCDRYPLTVETKGGTVPFLARSILITSNQAPQEWYSSTAVPAVEALYRRITTLQFWKTAGEQSTEVPEGRFEAVDPPCALFPY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagcacctcggcagcgtcagtgaaaatgccaagcaagaaaagcggcccgcaaccccataagaggtgggtgttcacccttaataatccttccgaggaggagaaaaacaaaatacgggagcttccaatctcccttttcgattattttgtttgtggagaggaaggtttggaagagggtagaactcctcacctccaggggtttgcgaattttgctaagaagcagacttttaacaaggtgaagtggtattttggtgcccgctgccatgtcgagaaagcgaaaggaaccgaccagcagaataaagaatactgcagtaaagaaggccacatacttatcgagtgtggagctccgcggaaccaggggaagcgcagcgacctgtctactgctgtgagtacccttttggagacggggtctttggtgactgtagccgagcagtttcctgtaacgtatgtgagaaatttccgcgggctggctgaacttttgaaagtgagcgggaagatgcagcagcgtgattggaagacagctgtacacgtcatagtgggcccgcccggttgtgggaagagccagtgggcccgtaattttgctgagcctagcgacacctactggaagcctagtagaaataagtggtgggatggatatcatggagaagaagttgttgttttggatgatttttatggctggttaccttgggatgatctactgagactgtgtgaccggtatccattgactgtagagactaaagggggtactgttccttttttggcccgcagtattttgattaccagcaatcaggccccccaggaatggtactcctcaactgctgtcccagctgtagaagctctctatcggaggattactactttgcaattttggaagactgctggagaacaatccacggaggtacccgaaggccgatttgaagcagtggatccaccctgtgcccttttcccatataa</GBSeq_sequence>
+  </GBSeq>

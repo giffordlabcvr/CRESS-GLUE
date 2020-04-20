@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DD122165</GBSeq_locus>
+    <GBSeq_length>1768</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>04-NOV-2005</GBSeq_update-date>
+    <GBSeq_create-date>04-NOV-2005</GBSeq_create-date>
+    <GBSeq_definition>METHODS TO CULTURE CIRCOVIRUS</GBSeq_definition>
+    <GBSeq_primary-accession>DD122165</GBSeq_primary-accession>
+    <GBSeq_accession-version>DD122165.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DD122165.1|</GBSeqid>
+      <GBSeqid>pat|JP|2005500822|1</GBSeqid>
+      <GBSeqid>gi|92860851</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2005500822-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Liu,Q.</GBAuthor>
+          <GBAuthor>Tikoo,S.K.</GBAuthor>
+          <GBAuthor>Willson,P.</GBAuthor>
+          <GBAuthor>Babiuk,L.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>METHODS TO CULTURE CIRCOVIRUS</GBReference_title>
+        <GBReference_journal>JP2005500822-A 1 13-JAN-2005 UNIVERSITY OF SASKATCHEWAN</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Porcine circovirus~PN JP 2005500822-A/1~PD 13-JAN-2005~PF 27-MAR-2002 JP 2002576653~PR 27-MAR-2001 US 60/279173~PI qiang liu,suresh k tikoo,philip willson,lorne a babiuk CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1768</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1768</GBInterval_to>
+            <GBInterval_accession>DD122165.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accagcgcacttcggcagcggcagcacctcggcaacacctcagcagcaacatgcccagcaagaagaatggaagaagcggaccccaaccacataaaaggtgggtgttcacgctgaataatccttccgaagacgagcgcaagaaaatacgggagctcccaatctccctatttgattattttattgttggcgaggagggtaatgaggaaggacgaacacctcacctccaggggttcgctaattttgtgaagaagcaaacttttaataaagtgaagtggtatttgggtgcccgctgccacatcgagaaagccaaaggaactgatcagcagaataaagaatattgtagtaaagaaggcaacttacttattgaatgtggagctcctcgatctcaaggacaacggagtgacctgtctactgctgtgagtaccttgttggagagcgggattctggtgaccgttgcaaagcagcaccctgtaacgtttgtcaaaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcaaaagcgtgattggaaaaccaatgtacacttcattgtggggccacctgggtgtggtaaaagcaaatgggctgctaattttgcaaacccggaaaccacatactggaaaccacctaaaaacaagtggtgggatggttaccatggtgaaaaagtggttgttattgatgacttttatggctggctgccgtgggatgatctactgagactgtgtgatcgatatccattgactgtaaaaactaaaggtggaactgtaccttttttggcccgcagtattctgattaccagcaatcaaaccccgttggaatggtactcctcaactgctgtcccagctgtagaagctctctatcggaggattacttccttggtattttggaagaatgttacagaacaatccacggaggaagggggccagtttgtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtcttttttatcacttcgtaatggtttttattattcatttagggtttaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattgtagtcctggtcgtatttactgttttcgaacgcagtgccgaggcctacgtggtccacatttctagaggtttgtagcctcagccaaagctgattccttttgttatttggttggaagtaatcaatagtggagtcaagaacaggtttgggtgtgaagtaacgggagtggtaggagaagggttgggggattgtatggcgggaggagtagtttacatatgggtcataggttagggctgtggcctttgttacaaagttatcatctagaataacagcagtggagcccactcccctatcaccctgggtgatgggggagcagggccagaattcaaccttaacctttcttattctgtagtattcaaagggtatagagattttgttggtcccccctcccgggggaacaaagtcgtcaatattaaatctcatcatgtccaccgcccaggagggcgttgtgactgtggtagccttgacagtatatccgaaggtgcgggagaggcgggtgttgaagatgccatttttccttctccaacggtagcggtggcgggggtggacgagccaggggcggcggcggaggatctggccaagatggctgcgggggcggtgtcttcttctgcggtaacgcctccttggatacgtcatagctgaaaacgaaagaagtgcgctgtaagtatt</GBSeq_sequence>
+  </GBSeq>

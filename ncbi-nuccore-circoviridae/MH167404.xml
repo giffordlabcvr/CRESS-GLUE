@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH167404</GBSeq_locus>
+    <GBSeq_length>648</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-JAN-2019</GBSeq_update-date>
+    <GBSeq_create-date>28-JAN-2019</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus-like virus P1 strain ZhJ01 CAP gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH167404</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH167404.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH167404.1|</GBSeqid>
+      <GBSeqid>gi|1561324550</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus-like virus P1</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus-like virus P1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..648</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wen,L.</GBAuthor>
+          <GBAuthor>He,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-APR-2018) Institute of Veterinary Medicine, Jiangsu Academy of Agricultural Sciences, Zhongling Street 50, Xiaolingwei, Nanjing, Jiangsu 210014, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..648</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>648</GBInterval_to>
+            <GBInterval_accession>MH167404.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus-like virus P1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>ZhJ01</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>pig</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1506546</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>20-Sep-2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(77..421)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>421</GBInterval_from>
+            <GBInterval_to>77</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MH167404.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>CAP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QAT77613.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MMIFNIDDFVPPGGGTNKISIPFEYYRIRKVKVEFWPCSPITQGDRGLGTTAVILDDNFVPKATAQTYDPYVTTPPAIQSPNPSPTTPVTSHPNLFLTPLLITSNQITKGISFG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtcctggtcgtatatactgttttcgaacgcagtgccgaggcctacgtggtttacatttttagaggtttgtatcctcagccaaagctgattccttttgttatttggttggaagtaatcagtagtggagtcaagaacaggtttgggtgtgaagtaacgggagtggtaggagaagggttgggggattgtatggcgggaggagtagttacatatgggtcataggtttgggccgtggcctttggtacaaagttatcatctagaataacagcagtggtgcccaatcccctatcaccctgggtgatgggggagcagggccagaattcaaccttaacctttcttattctgtagtattcaaagggtatagagattttgttggtcccccctcccgggggaacaaagtcgtcaatattaaatatcatcatgtccacagcccaggagggcgttctgactgtggtagcgtggatattatatccgaaggtacgggagaggcgggtgttgaagatgccatttttccttctccaaccgtagcggtggcgggggtggacgagccaggggcggccgttactagtggatcctcatttagggtttaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattg</GBSeq_sequence>
+  </GBSeq>

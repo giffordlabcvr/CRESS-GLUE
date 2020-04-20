@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KY354044</GBSeq_locus>
+    <GBSeq_length>791</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>12-DEC-2017</GBSeq_update-date>
+    <GBSeq_create-date>12-DEC-2017</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 3 strain PCV3/CN/Fujian-2/2016 capsid protein (cap) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KY354044</GBSeq_primary-accession>
+    <GBSeq_accession-version>KY354044.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KY354044.1|</GBSeqid>
+      <GBSeqid>gi|1236577392</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 3</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..791</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ku,X.</GBAuthor>
+          <GBAuthor>Chen,F.</GBAuthor>
+          <GBAuthor>Li,P.</GBAuthor>
+          <GBAuthor>Wang,Y.</GBAuthor>
+          <GBAuthor>Yu,X.</GBAuthor>
+          <GBAuthor>Fan,S.</GBAuthor>
+          <GBAuthor>He,Q.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic variation analysis of novel porcine circovirus type 3 in China, 2016</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..791</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ku,X.</GBAuthor>
+          <GBAuthor>Chen,F.</GBAuthor>
+          <GBAuthor>Li,P.</GBAuthor>
+          <GBAuthor>Wang,Y.</GBAuthor>
+          <GBAuthor>Yu,X.</GBAuthor>
+          <GBAuthor>Fan,S.</GBAuthor>
+          <GBAuthor>He,Q.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-DEC-2016) Veterinary Medicine, Huazhong Agricultural University, 1st Shizishan Street, Wuhan, Hubei 430070, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: MEGA v. 6.06 ; Sequencing Technology :: ABI3730 ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..791</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>791</GBInterval_to>
+            <GBInterval_accession>KY354044.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>PCV3/CN/Fujian-2/2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>porcine</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1868221</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Xugang Ku</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>identified_by</GBQualifier_name>
+            <GBQualifier_value>Fangzhou Chen</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>76..720</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>76</GBInterval_from>
+            <GBInterval_to>720</GBInterval_to>
+            <GBInterval_accession>KY354044.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>cap</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>76..720</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>76</GBInterval_from>
+            <GBInterval_to>720</GBInterval_to>
+            <GBInterval_accession>KY354044.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>cap</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ASV45117.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MRHRAIFRRRPRPRRRRRHRRRYARRRLFIRRPTAGTYYTKKYSTMNVISVGTPQNNKPWHANHFITRLNEWETAITFEYYKILKMKVTLSPVISPAQQTKTMFGHTAIDLDGAWTTNTWLQDDPYAESSTRKVMTSKKKHSRYFTPKPLLAGTTSAHPGQSLFFFSRPTPWLNTYDPTVQWGALLWSIYVPEKTGMTDFYGTKEVWIRYKSVL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ataccactttttctccctacagacctccgtggatccgggttccgaggtgccgggtaatactagcccggcaccaaaatgagacacagagctatattcagaagaagaccccgcccaaggagacgacgacgccacagaaggcgctatgccagaagaagactattcattaggaggcccacagctggcacatactacacaaagaaatactccaccatgaacgtcatatccgttggaacccctcagaataacaagccctggcacgccaaccacttcattacccgcctaaacgaatgggagactgcaattacctttgaatattataagatactaaagatgaaagttacactcagccctgtaatttctccggctcagcaaacaaaaactatgttcgggcacacagccatagatctagacggcgcctggaccacaaacacttggctccaagacgacccttatgcggaaagttccactcgtaaagttatgacttctaaaaaaaaacacagccgttacttcacccccaaaccacttctggcgggaactaccagcgctcacccaggacaaagcctcttctttttctccagacccaccccatggctcaacacatatgaccccaccgttcaatggggagcactgctttggagcatttatgtcccggaaaaaactggaatgacagacttctacggcaccaaagaagtttggattcgttacaagtccgttctctaagtgaaaataaatataaatctgacccctccggtggcgacaagccgtgtcccctcgcgcgcgctcccgctgcg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JQ821392</GBSeq_locus>
+    <GBSeq_length>2063</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>05-JUN-2012</GBSeq_update-date>
+    <GBSeq_create-date>05-JUN-2012</GBSeq_create-date>
+    <GBSeq_definition>Canine circovirus isolate 214, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>JQ821392</GBSeq_primary-accession>
+    <GBSeq_accession-version>JQ821392.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JQ821392.1|</GBSeqid>
+      <GBSeqid>gi|389093105</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine circovirus</GBSeq_source>
+    <GBSeq_organism>Canine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2063</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kapoor,A.</GBAuthor>
+          <GBAuthor>Dubovi,E.J.</GBAuthor>
+          <GBAuthor>Henriquez-Rivera,J.A.</GBAuthor>
+          <GBAuthor>Lipkin,W.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete genome sequence of the first canine circovirus</GBReference_title>
+        <GBReference_journal>J. Virol. 86 (12), 7018 (2012)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.00791-12</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22628401</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2063</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kapoor,A.</GBAuthor>
+          <GBAuthor>Dubovi,E.J.</GBAuthor>
+          <GBAuthor>Lipkin,W.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (26-MAR-2012) Center for Infection and Immunity, Columbia University, 732 West, 168 Street, New York, NY 10032, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Sequencher v. 4.7 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2063</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2063</GBInterval_to>
+            <GBInterval_accession>JQ821392.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>214</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>canine</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1194757</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2011</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: A1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..912</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>912</GBInterval_to>
+            <GBInterval_accession>JQ821392.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>replication protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replicase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFK82575.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAQAQVDHRGRDSRRGNPVRRWCFTINNPTPEEEDAVKNLAPDAKYLICGREVGENGTPHLQGFVNLNRTTRMGALKARLGGRGHFEPARGDDCSNRDYCSKGGDLLIESGEPSRQGKRNDLHDAVVKLKETRSLAAVASAFPETYVKYSRGLRELLLISPEMTTPRTWKTEVEVLCGPPGCGKSRYCMETAPAAYWKPRGKWWDGYDGHQDVILDDFYGWLPFDDMLRLCDRYPLRVETKGGTMNFLARRIFITSNRLPHEWYSDEIGNKDALYRRLTLIKVWDGGNFIPVPNFMFPHLYNY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1116..1928)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1928</GBInterval_from>
+            <GBInterval_to>1116</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>JQ821392.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFK82576.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MRVRRHARASRRNYRTRPLNRYRRRRQNRFKLFHLRLRRTLTADWPTAPVKPTNDPQTETPLLWNFDHLSFKLTDFLQASHGTGDFQHLPPFRFYKFKKVYIRARWINWPKTLMENVLGRTALDLDGEDQGRGNATRSHLDPGTVPGRLEPPKDPNKAPFIYDPLQDRSSSRSFNMATGFKRGLTPKPMFTQDITSPSATAPWLTRGTPWVSVIQGANMVWNGLSISLRQMKDMRPTTPDTSTSQIPQVQYDISAYIAFKEFDYETGRQL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctcaagctcaggttgaccatcgcggccgagatagccggcgaggtaacccggttcgccgatggtgcttcaccatcaataatcctactccggaggaggaggatgccgtgaagaaccttgcgccggacgctaagtacttaatctgtggccgggaggttggggagaacgggaccccgcacctccagggctttgtcaacctgaatcgaaccactcgtatgggcgctcttaaggcacggttgggtggtcgcggacattttgagcctgctcggggggatgactgctcaaaccgggactattgctctaaggggggcgatctgttgattgagtccggggaacctagtaggcaaggaaaacgaaatgacttacatgatgctgttgtgaaactgaaagagacgaggagccttgccgctgtcgcgtctgcgtttccggagacctacgtcaaatactcgcgaggcttgcgagagctgctccttatatctccggagatgaccacgccccggacgtggaagacggaagtggaggttctgtgcggcccccctggatgcggcaagagccggtactgcatggagacagcaccagcggcgtattggaagcccagaggaaaatggtgggatggctacgatgggcaccaggacgtcattctggatgacttctatggatggctgccctttgatgacatgttgagactctgtgatcggtaccctctcagagttgagaccaaaggtggtaccatgaattttttggctcgtcggatttttattacttctaatagattgcctcatgaatggtatagtgatgagattggtaacaaggatgccctctatcggcggctcactctgattaaagtgtgggatgggggtaatttcatacctgtacctaattttatgttcccccacctgtataactactgaaagataaaggcctctcgctccgcccgaagcacggcgggggctgggggccccgccgtgcgaggggaggcggtgcgttgaccgaagcgcggccgggggccgcgcgagggcgtttacctgttcaccccccttcgaggctgtttattaaggttacaccccctcgaataaacacacgtgacactgaatggcgtttgactgtttatttatcacaactgtctaccagtctcataatcaaattctttgaatgcaatataggcagatatgtcatattgcacttgtgggatttgggatgtagaagtgtctggtgttgtcggcctcatatctttcatttgtctgagagatatactgaggccgttccataccatgttagccccttgaatgacagatacccatggtgttcctctggtcagccatggggctgttgccgaaggactagtaatgtcctgagtgaacattggttttggagtcagaccccttttaaaaccggtcgccatgttgaatgatcttgatgaagatctgtcttgtagcgggtcatatatgaatggagccttgttaggatcttttggtggctccaatcttcctgggacagtcccggggtctaaatgtgatcttgtagcattccctcttccttgatcttcaccgtcaagatcaagtgctgttcttccaagaacgttttccatgagtgttttgggccagttaatccatcttgcccttatgtatacttttttgaatttgtagaatctaaatggtgggagatgctggaaatctcctgttccatgcgatgcttgtaggaagtctgttaatttaaatgacagatggtcaaagttccatagcaacggtgtctctgtctgaggatcattggttggtttaactggtgctgtcggccaatcagctgtgagtgttctgcgcagtcgcagatgaaacagtttgaatctgttttggcgccttctcctgtaacggttcaatgggcgtgtcctgtagttccggcgacttgcccgggcatgtcttcgcacgcgcatgcgccgtctgtatgttctccgtctgagcctgcgcggatgaacgggatgtggttagtgacgtaagcgtatcgaggtgccgggcatagtattacccggcacctcgtcacagacacagcacaccgcctctgctccgac</GBSeq_sequence>
+  </GBSeq>

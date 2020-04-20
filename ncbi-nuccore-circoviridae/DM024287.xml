@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DM024287</GBSeq_locus>
+    <GBSeq_length>713</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>27-FEB-2009</GBSeq_update-date>
+    <GBSeq_create-date>27-FEB-2009</GBSeq_create-date>
+    <GBSeq_definition>PCV2 IMMUNOGENIC COMPOSITIONS AND METHODS OF PRODUCING SUCH COMPOSITIONS</GBSeq_definition>
+    <GBSeq_primary-accession>DM024287</GBSeq_primary-accession>
+    <GBSeq_accession-version>DM024287.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DM024287.1|</GBSeqid>
+      <GBSeqid>pat|JP|2008526212|3</GBSeqid>
+      <GBSeqid>gi|224442182</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2008526212-A/3</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..713</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Schaeffer,M.</GBAuthor>
+          <GBAuthor>Nitzel,G.</GBAuthor>
+          <GBAuthor>Eichmeyer,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>PCV2 IMMUNOGENIC COMPOSITIONS AND METHODS OF PRODUCING SUCH</GBReference_title>
+        <GBReference_journal>JP2008526212-A 3 24-JUL-2008 Boehringer Ingelheim Vetmedica Inc</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Porcine circovirus~PN JP 2008526212-A/3~PD 24-JUL-2008~PF 29-DEC-2005 JP 2007549685~PR 30-DEC-2004 US 60/640510,13-JAN-2005 US 11/034797 PI merrill schaeffer,greg nitzel,mark eichmeyer~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..713</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>713</GBInterval_to>
+            <GBInterval_accession>DM024287.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagctatgacgtatccaaggaggcgttaccgcagaagaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgctaccgttggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactgtggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactgtgacgactttgttcccccgggaggggggaccaacaaaatctctataccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctcccccatcacccagggtgataggggagtgggctccactgctgttattctagatgataactttgtaacaaaggccacagccctaacctatgacccatatgtaaactactcctcccgccatacaatcccccaacccttctcctaccactcccgttacttcacacccaaacctgttcttgactccactattgattacttccaaccaaataacaaaaggaatcagctttggctgaggctacaaacctctagaaatgtggaccacgtaggcctcggcactgcgttcgaaaacagtaaatacgaccaggactacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaaaccctaaatgaat</GBSeq_sequence>
+  </GBSeq>

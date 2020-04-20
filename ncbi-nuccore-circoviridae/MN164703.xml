@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MN164703</GBSeq_locus>
+    <GBSeq_length>1988</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-NOV-2019</GBSeq_update-date>
+    <GBSeq_create-date>25-NOV-2019</GBSeq_create-date>
+    <GBSeq_definition>Penguin circovirus isolate Croz_chick, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MN164703</GBSeq_primary-accession>
+    <GBSeq_accession-version>MN164703.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MN164703.1|</GBSeqid>
+      <GBSeqid>gi|1777190984</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Penguin circovirus</GBSeq_source>
+    <GBSeq_organism>Penguin circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; unclassified Circoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1988</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Morandini,V.</GBAuthor>
+          <GBAuthor>Dugger,K.</GBAuthor>
+          <GBAuthor>Ballard,G.</GBAuthor>
+          <GBAuthor>Elrod,M.</GBAuthor>
+          <GBAuthor>Schmidt,A.</GBAuthor>
+          <GBAuthor>Ruoppolo,V.</GBAuthor>
+          <GBAuthor>Lescroel,A.</GBAuthor>
+          <GBAuthor>Jongsomjit,D.</GBAuthor>
+          <GBAuthor>Massaro,M.</GBAuthor>
+          <GBAuthor>Schmidlin,K.</GBAuthor>
+          <GBAuthor>Kraberger,S.</GBAuthor>
+          <GBAuthor>Ainley,D.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of a novel Adelie penguin circovirus at Cape Crozier (Ross Island, Antarctica)</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1988</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Morandini,V.</GBAuthor>
+          <GBAuthor>Dugger,K.</GBAuthor>
+          <GBAuthor>Ballard,G.</GBAuthor>
+          <GBAuthor>Elrod,M.</GBAuthor>
+          <GBAuthor>Schmidt,A.</GBAuthor>
+          <GBAuthor>Ruoppolo,V.</GBAuthor>
+          <GBAuthor>Lescroel,A.</GBAuthor>
+          <GBAuthor>Jongsomjit,D.</GBAuthor>
+          <GBAuthor>Massaro,M.</GBAuthor>
+          <GBAuthor>Schmidlin,K.</GBAuthor>
+          <GBAuthor>Kraberger,S.</GBAuthor>
+          <GBAuthor>Ainley,D.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JUL-2019) The Biodesign Center of Fundamental and Applied Microbiomics, Arizona State University, 1001 S. McAllister Ave, Tempe, Arizona 85287-5001, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. v11 ; Coverage :: complete ; Sequencing Technology :: Sanger ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1988</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1988</GBInterval_to>
+            <GBInterval_accession>MN164703.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Penguin circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Croz_chick</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>nest</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Pygoscelis adeliae</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2676049</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Antarctica</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Dec-2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>93..962</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>93</GBInterval_from>
+            <GBInterval_to>962</GBInterval_to>
+            <GBInterval_accession>MN164703.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QGM50355.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAPVRAAGARRWCLTLNNPTDEEVQAAKRLEPNTYHYAIIGREVGESGTPHLQGFLHFKQKQRLTALKKLFSRAHWEKARGSDSENQAYCSKDGDVILTIGQPVRGNVTELSEAVAAVKAGRGMRDVALEFPEVYVKHGRGLRDLALLIGRAPRDFKTDVIVLTGPPGCGKSRWAAEQEGTKYYKMKGDWWDGYSHEDIVIIDDFYGWLPYCELLRLCDRYPHKVPVKGSFVEFVSKKIIITSNKTPDQWYRDEYDKSALYRRITRLLFFNGDTMTDMPAFMLPHPINF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1143..&gt;1868)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1868</GBInterval_from>
+            <GBInterval_to>1143</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MN164703.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>start site undetermined</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QGM50354.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SSNRRGHRTNRIYLFRFKRQFEFNLSKETTPGQLEFDSDYLTFTLNDFIGVEGVPQQWPFEDYRIPLAKVELKLRGDMMTIGHGIGHTVPIQDSRIRDFKLKNQKQDPLANWDGARQWLPNRGFKRIVRPKPQITVQDLTATNLTGSLFLNSSRSGWLPLQLPNGTTRDGAKIVHYGLAWSWPQPVKDLTYMAEVTIYVTFRQMASTLKNMLLLNNNAECLNIANDEDELNEYAESMENTV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtattaccggcgctccggggccatggggccattcagcgattggctgaatggcccctacgacgtaacaccagcgccatcttgttaaacaagatggcccctgtgcgagcagcgggagcacggcgctggtgtctgactctcaataacccgactgacgaagaagttcaagccgcgaagcggcttgaacctaacacttaccactatgcgatcatcgggcgcgaggtcggtgagtccggaaccccccacctacaaggctttctgcatttcaagcaaaagcagagattgaccgcgctaaagaaattgtttagccgcgctcactgggagaaggcccggggctctgattctgagaatcaggcttattgcagcaaggatggggatgttatactcaccatcgggcagccggtgcgcggtaatgtcacggagctgtcagaggctgttgccgctgtgaaagccggaagaggaatgagagatgtggctcttgagttcccggaagtctacgtcaagcatgggcgtggtctccgtgatctcgctcttctcattggacgcgcgcctcgtgacttcaagactgacgtcatcgtcttgactggtcccccgggatgtgggaagtcacgttgggctgccgagcaggagggcacgaaatactataagatgaaaggtgactggtgggatgggtactcccatgaagatatagtcatcatagatgacttttatggctggttaccttactgtgagctcttacgcttatgtgatcgttaccctcataaggtccctgttaagggttcattcgttgaattcgtctcgaagaagataattataacttctaataagactcctgatcaatggtaccgtgatgagtatgacaagagtgctctctaccgccgtatcactcgtcttttgttttttaacggtgatactatgactgatatgcctgcgtttatgctcccccaccctatcaatttctgatacccgactgacaaactgccccctatcaattgatgttcatattcattcgcaagccggcggagcgcggagtccgcgaagcggacgtagcgcgattccggcgcgaattgtcgacgaccgaccgccggaggcgggagggaggagacaatcggaaagtgaggttcatatcagaataaattttatttaaacagtattttccatgctctcagcgtactcatttaattcatcttcatcatttgcaatgtttaagcattcagcattgttatttagcaaaagcatgttttttagcgtgcttgccatttgcctgaatgtgacatatattgtcacttcagccatgtacgttaagtctttgactggctgtggccatgaccatgcaagcccgtaatgcacgattttagctccgtccctggtcgtcccgttcggtaattgtaagggcagccatccgctccgcgagctgttcaagaacaggctcccagttaggtttgttgctgtgaggtcttggacggtaatttggggtttgggtcgcacgatccttttgaatcctcggttcgggagccactgcctcgctccgtcccagtttgccagtggatcttgcttctggtttttcagcttgaagtcccttattctcgaatcttgaatagggacagtatgccctattccgtgaccaatggtcatcatgtctccacgtaacttgagctctacttttgcgaggggtattctgtaatcctcgaaaggccattgttgagggactccttcaacaccaataaagtcgtttagagtgaatgttagataatcactatcaaactctaactgacctggtgttgtttctttcgataggttgaattcaaattgtcgtttgaatctaaacaggtatatcctgtttgttcggtgccctctgcggttgctgctccggaaacgccttctccggaaacgccttcgttgcctggggaaccgccgtttgaccgcaacccgcttccgtattcgtctcctagcaacctgataaaaatagaatggccccggagcgccgta</GBSeq_sequence>
+  </GBSeq>

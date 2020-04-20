@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MF322629</GBSeq_locus>
+    <GBSeq_length>2051</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>27-MAR-2019</GBSeq_update-date>
+    <GBSeq_create-date>27-MAR-2019</GBSeq_create-date>
+    <GBSeq_definition>UNVERIFIED: Circovirus sp. isolate CL6, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MF322629</GBSeq_primary-accession>
+    <GBSeq_accession-version>MF322629.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MF322629.1|</GBSeqid>
+      <GBSeqid>gi|1597476782</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UNVERIFIED</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Circovirus sp.</GBSeq_source>
+    <GBSeq_organism>Circovirus sp.</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2051</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hu,D.</GBAuthor>
+          <GBAuthor>Zhu,C.</GBAuthor>
+          <GBAuthor>Wang,Y.</GBAuthor>
+          <GBAuthor>Ai,L.</GBAuthor>
+          <GBAuthor>Yang,L.</GBAuthor>
+          <GBAuthor>Ye,F.</GBAuthor>
+          <GBAuthor>Ding,C.</GBAuthor>
+          <GBAuthor>Chen,J.</GBAuthor>
+          <GBAuthor>He,B.</GBAuthor>
+          <GBAuthor>Zhu,J.</GBAuthor>
+          <GBAuthor>Qian,H.</GBAuthor>
+          <GBAuthor>Xu,W.</GBAuthor>
+          <GBAuthor>Feng,Y.</GBAuthor>
+          <GBAuthor>Tan,W.</GBAuthor>
+          <GBAuthor>Wang,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Virome analysis for identification of novel mammalian viruses in bats from Southeast China</GBReference_title>
+        <GBReference_journal>Sci Rep 7 (1), 10917 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/s41598-017-11384-w</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28883450</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2051</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wang,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-JUN-2017) Institute of Military Medicine Nanjing Command, Nanjing, No. 293 East Zhongshan Road, Nanjing, JangSu 210002, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank staff is unable to verify sequence and/or annotation provided by the submitter.; ; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2051</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2051</GBInterval_to>
+            <GBInterval_accession>MF322629.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Circovirus sp.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CL6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Rhinolophidae</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1964372</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China: Fujian province</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Jul-2015</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgttcttggggatggtaagtcataacttctcttctcaattttacattgaaaacaccatttcttagtctccaccggatcagcctcgggatgcgaggggttaacctcctgcggcggctccaacggcgcctccagtcccgcctcctccttctccagcggcggcggcgccacgtcactgaaatttaaatgaaaagcccgccgggggcctgccgttataaacacgggtggctgacagtattacccagccacctcggcagcggcagcgaccccggcagcaagcagcacacagcagcagccatggtgagacgccgcagcggcccccccccccacaaaaggtggtgcttcaccctgaacaaccctacagctcaagaagagcagcatctgagagagatccctgtgaaccaggtagattatctgatcgcggggcgcgagaggggggcccagggcactccccacatccaggggttcgtgaacttcgtgaagaagaagaccctgaaccaagtgaagatgtttgtgggcgtgagagcccacgtggagaaagcaagaggaagtgatgagcagaatagagattactgcacaaaagatggagacatacttgtggatgtggggtgcccccgccgtcctggagcccgtcacgacctggcctcagctgtgagtaccgccctgagcacgggggatctgggcaaagtggcctctgcccatccagagacttatgggaagtcccacagagacctggatccagcttataaaggatacccaacaagacagccccgcagggcctggaaaactgaagtgcatgtgcatgtggggcccccaggctgtggaaaaagccgctgggcgagtgactttgctgaccctgaggtcacctactggaaacccccccgcaataaatggtgggatggctatgccagccatgaagtggtaatactggatgacttctatggctggctgccctttgatgagctgctcaggatctgtgacaggtaccccctggaggtggaagtgaagggggggcttgttccctttcttgccaggacgctgattattacaagcaacaagatgccccaggaatggtactccttagatgctgtgcctcatgcagaagcactctacagacggattactactttgacgtgctggcagattgctacgccaccatccacggaggattcggccccccagtaccacccccgtcccctgagctgcccttctgagcagttcccctatgaaataaattactgagtcaaaagttacactggtgtgaagttgtctttaaatacttagacactgtgggagacaccacttgtgtccatgtaccccgtaatacccgactaacggtacgaagacgaccctaaagtccctgtgtaacaagtagtccaactcgagggacttgacgtgtatccgacacttgtagtggacggtaaagtacagtcggagccggaccaagtagtacgacatcgggtccggtatcacgaactgtctccgtatccggtaccggtaggtggtgaccaaggagaacgacaacccgacctgacaccaagtccaacgactgacacagatacagtccgaacccgtattatatggacgacacccagaataataaccacttcccggaccgtctccacaccaagagtatccccaacatccgatacaaccagacgaacccctttcgtaagggtagtcatagttactaccacttcggtacggaggagacctactaccgctccccgaggaacccttccttgaactgtctctacggggactaggacaacaacagggtcccgtagtccatctataatcagaccgaaggactggacccatgttatagacaacacgtataagtatgaacaggtgcatcatcgatagagctgaacaccacaagaacccgtaccacattcataacttctcttctcaattttacattgaaaacaccatttcttagtctccaccggatcagcctcgggatgcgaggggttaacctcctgcggcggctccaacggcgcctccagtcccgcctcctccttctccagcggcggcggcgccaactcactgaa</GBSeq_sequence>
+  </GBSeq>

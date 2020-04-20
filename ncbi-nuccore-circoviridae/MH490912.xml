@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH490912</GBSeq_locus>
+    <GBSeq_length>963</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>12-FEB-2019</GBSeq_update-date>
+    <GBSeq_create-date>12-FEB-2019</GBSeq_create-date>
+    <GBSeq_definition>Fur seal faeces associated circular DNA virus putative capsid protein (Cap) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH490912</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH490912.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH490912.1|</GBSeqid>
+      <GBSeqid>gi|1569050677</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Fur seal faeces associated circular DNA virus</GBSeq_source>
+    <GBSeq_organism>Fur seal faeces associated circular DNA virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; unclassified Circoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..963</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Barron Rodriguez,R.J.</GBAuthor>
+          <GBAuthor>Parra Laca,R.</GBAuthor>
+          <GBAuthor>Rojas Anaya,E.</GBAuthor>
+          <GBAuthor>Romero Espinoza,J.A.I.</GBAuthor>
+          <GBAuthor>Ayala Sumuano,J.T.</GBAuthor>
+          <GBAuthor>Vazquez Perez,J.A.</GBAuthor>
+          <GBAuthor>Ramirez Mendoza,H.</GBAuthor>
+          <GBAuthor>Garcia Espinosa,G.</GBAuthor>
+          <GBAuthor>Loza Rubio,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Virome of rural backyard swines</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..963</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Barron Rodriguez,R.J.</GBAuthor>
+          <GBAuthor>Parra Laca,R.</GBAuthor>
+          <GBAuthor>Rojas Anaya,E.</GBAuthor>
+          <GBAuthor>Romero Espinoza,J.A.I.</GBAuthor>
+          <GBAuthor>Ayala Sumuano,J.T.</GBAuthor>
+          <GBAuthor>Vazquez Perez,J.A.</GBAuthor>
+          <GBAuthor>Ramirez Mendoza,H.</GBAuthor>
+          <GBAuthor>Garcia Espinosa,G.</GBAuthor>
+          <GBAuthor>Loza Rubio,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-JUN-2018) Posgraduate, Facultad de Medicina Veterinaria y Zootecnia - Universidad Nacional Autonoma de Mexico, Av. Universidad, Mexico 04510, Mexico</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Velvet v. 1.2.12 ; Assembly Name :: Fur seal faeces associated circular DNA like virus FSFA-CirVSwine/Mexico/2016 ; Coverage :: 3.7 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..963</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>963</GBInterval_to>
+            <GBInterval_accession>MH490912.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Fur seal faeces associated circular DNA virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>FSFA-CirV/swine/Mex/2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>swine</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1353241</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mexico</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Mar-2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>identified_by</GBQualifier_name>
+            <GBQualifier_value>Rodrigo Jesus Barron Rodriguez</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..803</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>803</GBInterval_to>
+            <GBInterval_accession>MH490912.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Cap</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..803</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>803</GBInterval_to>
+            <GBInterval_accession>MH490912.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Cap</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QBA86145.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>GTDCFKRGIGKKEEALMLVDLPICISQLSLRNLVRCDTLFDLCKSYRIVSVSCTFTVPERTSDGPNHNLYLMWTHLPKCRAADAESCFGMVCKEVANIEGQYSPSVSGWNWIANPADIAEACSCDGIENGKNGWQRKQLAYNNPVTISWRPRHAKIIASHENYVDSGYAHNAAQTYNKVLPNFASDLKMSRGYLPTDIDDRARTERQYWMGPCIRLIDGDIKASEPVPETSALNIFDRYGIRVTTTVKVRFKGMNTSDPIFPEYQA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctggtactgattgttttaagcgtggaattggtaaaaaagaggaagctttaatgctagtggatttacctatttgcatatcacaattgagtttacgcaatcttgtaagatgcgatacgctctttgacttatgcaaatcatatcgaatcgtctcagtgtcttgtacatttactgtacctgaacgaacctcggatggtcctaaccacaatttatatcttatgtggacacatttaccgaaatgtcgtgctgctgatgctgagtcttgctttggtatggtttgtaaagaggttgctaatattgaaggtcagtattcaccttctgtgagtggctggaattggattgctaatcctgcagatattgcagaggcatgctcttgtgatggtattgagaatggtaaaaatggatggcaacgtaagcaacttgcttataataatcctgtgactatttcttggcgtcctcgtcatgctaaaatcattgcttctcacgagaattatgttgattctggatatgctcataatgctgctcaaacctataataaagtgcttccaaattttgctagtgatctcaaaatgtctcgtggctatttgcctacagatattgatgatagagcccgtactgaacgtcaatattggatgggtccatgtatccgtcttattgatggtgatattaaagcatctgaacctgttcctgaaacatctgctttgaatatattcgatcgatatggtatccgtgtcactactactgttaaagtgaggtttaaaggaatgaatacttctgaccctatcttccctgaatatcaggcttaatgtataggctgtcggaggtcgtattgctggtcgaaattggattaatcctgaacaaacttggtctggtgctgctaatactgtttacaaacaacttggtaagggttatggtgcttggaagctactcagaggtatttaccatgctgtgaatggaatgggtgct</GBSeq_sequence>
+  </GBSeq>

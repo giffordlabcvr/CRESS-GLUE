@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KY052047</GBSeq_locus>
+    <GBSeq_length>3018</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-NOV-2017</GBSeq_update-date>
+    <GBSeq_create-date>01-NOV-2017</GBSeq_create-date>
+    <GBSeq_definition>Human PoSCV5-like circular virus, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KY052047</GBSeq_primary-accession>
+    <GBSeq_accession-version>KY052047.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KY052047.1|</GBSeqid>
+      <GBSeqid>gi|1152730486</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human PoSCV5-like circular virus</GBSeq_source>
+    <GBSeq_organism>Human PoSCV5-like circular virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; unclassified Circoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3018</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cui,L.</GBAuthor>
+          <GBAuthor>Wu,B.</GBAuthor>
+          <GBAuthor>Zhu,X.</GBAuthor>
+          <GBAuthor>Guo,X.</GBAuthor>
+          <GBAuthor>Ge,Y.</GBAuthor>
+          <GBAuthor>Zhao,K.</GBAuthor>
+          <GBAuthor>Qi,X.</GBAuthor>
+          <GBAuthor>Shi,Z.</GBAuthor>
+          <GBAuthor>Zhu,F.</GBAuthor>
+          <GBAuthor>Sun,L.</GBAuthor>
+          <GBAuthor>Zhou,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification and genetic characterization of a novel circular single-stranded DNA virus in a human upper respiratory tract sample</GBReference_title>
+        <GBReference_journal>Arch. Virol. 162 (11), 3305-3312 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-017-3481-3</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28707271</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3018</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cui,L.</GBAuthor>
+          <GBAuthor>Guo,X.</GBAuthor>
+          <GBAuthor>Zhao,K.</GBAuthor>
+          <GBAuthor>Zhu,X.</GBAuthor>
+          <GBAuthor>Ge,Y.</GBAuthor>
+          <GBAuthor>Shi,Z.</GBAuthor>
+          <GBAuthor>Qi,X.</GBAuthor>
+          <GBAuthor>Zhu,F.</GBAuthor>
+          <GBAuthor>Zhou,M.</GBAuthor>
+          <GBAuthor>Wu,B.</GBAuthor>
+          <GBAuthor>Sun,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-OCT-2016) Institute of Pathogenic Microbiology, Jiangsu Provincial Center for Disease Control and Prevention, 172 Jiangsu Road, Nanjing, Jiangsu 210009, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3018</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3018</GBInterval_to>
+            <GBInterval_accession>KY052047.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human PoSCV5-like circular virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MRJ</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>throat swab</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1965018</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>05-Apr-2016</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1596</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1596</GBInterval_to>
+            <GBInterval_accession>KY052047.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>cap protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQW45175.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAKRYASRKRVYRRKARKPIKRFRRYRAKARSTAKRYFRLKRAARNYSKVKKIRRAKRQYKTISGKGVKNKLSKLSISEFIQLPYYDLIRLASMVCTRHSPTGYPLTEQAMQSFANLYSEQYLYKLGAILPEKLFVNSNPFIIGADRSFTPYLFGFNPILTPVTCGQKMQIYASLYSKFKYVGVKVSWHPRNRAVSSYLPSEFKVKYDSDVLSMAALTPNPAEDGVPSTIAQGNAMFTPKDRLNQTIEMTRSEANVSGNYYMHVYFGKQIESSETWDLPYYRWRQMSGGQKELSLQHEKAKHNNKGRVKASLFYDIQTLLPCIETNSKLHKVYDMSKPFSFFVRPMVVDSSTVKEPNERGAENIDTIDCNCQHESLTKGLKHLGYRSFDHALVPSTIEIPQDNQELSDLTQDRWYYNSDDDNFFNPTLFWYCFTTSDNPVDASYKSHSPYQALASSFNNAQVPAGAPNGNARYELSSHFGTYNDALNQYGYFDVTFYTKWKGERPLVSKSSYTGIVPSETGVTGLSTIISN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1836..2843)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2843</GBInterval_from>
+            <GBInterval_to>1836</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KY052047.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>rep protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQW45176.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MLSHSSCKLLNAKRFLLTYNDVXGKIPSALDLSEHLINLTSEKMEFVVVSEETAPTTGMIHYHALVILKDNLYSRKLDYFDYLMIHPNIEAVRGNAQKAYEYVIKDGKYWQTDLNYFKVDGGKKNNERRERNKLLMNGDIFEEYEKGNIGPIDLIRAAKIRAIKVQYNNNMTKRTPPLIMWFYGNTGSGKTRKAVEIAEELKARIWISNDNLKWFDGYCGQEVAVFDDLRRDILPTWAFLLRLLDRYPLIVQIKGGFVKWEPKIIIITCPVPPEECFKWYNKQGEEQQWDRQEQLNRRLTWEEKEQVYEFPLSLGDGEEMELTIENWKTKQADDN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctaagcgatatgcatcaagaaagagagtttatcgtcgaaaagctcgtaaacctattaaaaggtttcgtcgatatcgtgctaaggctcgttcaactgctaaacgatattttaggcttaagagggctgctaggaattattcaaaagtcaagaagattagaagggctaaaaggcaatataaaacgatttctggcaaaggtgttaagaataaattatcaaagctttcaatatcagaatttattcaattgccttattatgaccttattagacttgcttcaatggtttgtactaggcattctccgactggttatcctcttactgagcaagctatgcaatcttttgctaatttatattcagaacaatatctttacaaattgggtgctatacttcctgagaagttgtttgttaattctaatccttttattattggagctgatagatcttttactccttatttattcgggtttaatcccatacttacaccagttacatgtggacaaaaaatgcagatttacgcatcactttattccaaatttaaatatgtcggtgtcaaagtttcatggcatccaaggaatagagcagtttcatcatatcttccttctgaatttaaagtaaagtatgattctgatgttttgtctatggctgctcttacaccaaatccagctgaagatggtgtaccatcaacaatagcacagggaaatgcaatgtttactcctaaggatcgtttaaatcagacaatagagatgactagatcagaagctaatgtatcaggaaattattatatgcatgtatattttggtaagcagatagaatcatccgaaacatgggatttaccatattatagatggcgtcaaatgtcaggtggacaaaaagaattatcattacaacatgagaaagctaaacataataacaaaggaagagttaaagcttctttattttatgatattcaaacacttcttccatgtattgaaactaattcaaagttacataaagtgtatgatatgtcaaagccattttccttctttgttagaccaatggttgtagattcatcaacagtaaaagaacctaatgagagaggtgcagaaaatatagatacaattgattgtaattgtcagcatgagtcattaactaaagggcttaaacatcttggttatcgtagctttgatcatgcattagttccttcaacaatagaaataccacaagacaatcaagaactttcagatcttactcaagatagatggtattacaattcagatgatgataacttcttcaatcctactctgttttggtattgttttacaacatcagataatcctgtcgatgcatcttataaatctcattcaccatatcaagcattagctagttcttttaataatgcacaagtacctgctggtgctccaaatggaaatgctagatatgaattatcatcacattttggaacgtataatgatgctcttaatcaatatggttattttgatgtaacattctataccaaatggaagggagagaggcctttggtctcgaaatcttcctatactggtatagtaccttcagaaacaggtgtcactggtttatcaacaatcatttctaattaacttctttctctattaactctctttcttattttctttttgataaaactttttcttttaaaaattgaattaaaaaatggtttgtcggccttactttaattcggacgacgaagctttttcgttgtcacttgtgaaacgatgaaattttagttggctcgtaacaacggtaaaagaatagtggaatctaaaaagaaaatattttattactacaataaaaaataaataaaaaaaattcaactgaattaattatcatcagcttgttttgttttccaattttcgattgttagctccatttcttctccatctcctaagctgagtggaaattcatagacctgttctttctcttcccaagtgagtcttctattgagttgctcttgcctatcccactgttgttcttcaccttgcttgttataccatttgaagcattcttcaggcgggactgggcaagtgatgattattatctttggttcccattttacgaaccctccctttatttgcacaatgaggggatatctgtcgagtaatcgtaacaagaatgcccatgtaggcaaaatatctcttcttaaatcatcaaagacggctacttcttggccacaataaccatcaaaccatttcaggttatcgtttgagatccatattcttgcttttaactcttctgcaatttctaccgctttgcgtgttttaccacttccggtgtttccataaaaccacattatgagtggtggtgtcctttttgtcatattgttattatattgaacttttatagctcttatttttgctgctctgataagatctatgggacctatgtttcccttttcgtattcttcaaaaatgtctccgttcatgagtagcttatttctttctcttctttcattattcttctttccaccatctactttgaaataatttaaatctgtttgccagtattttccatcttttatcacatactcgtaggctttctgtgcatttcctcttacagcttctatattgggatgtatcatgagataatcaaaatagtccaactttctactgtacaaattatccttgagaattaccaaagcatggtaatgtatcataccagtagtgggtgcagtttcttcacttacgactacaaattccattttctctgaggttaaattaattaaatgctctgataggtctaatgctgatggtattttcccttmtacgtcgttgtatgtcaataggaagcgcttagcgttaaggagtttgcaggatgaatgacttaacattgtatagaatttatccgtgcaaacgtgcacttatatatagggctttggctttgctttaattgtggttagcattttttgtagtttatttatagcttttgaactataattgtaattcctcaatttaatgcagccctatttcaattctgtctcaaacctgtctctttcataattatat</GBSeq_sequence>
+  </GBSeq>

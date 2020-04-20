@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG254874</GBSeq_locus>
+    <GBSeq_length>1902</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-FEB-2019</GBSeq_update-date>
+    <GBSeq_create-date>28-FEB-2019</GBSeq_create-date>
+    <GBSeq_definition>Duck associated cyclovirus 1 strain DuACyV-1/3, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MG254874</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG254874.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG254874.1|</GBSeqid>
+      <GBSeqid>gi|1540876657</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Duck associated cyclovirus 1</GBSeq_source>
+    <GBSeq_organism>Duck associated cyclovirus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Cyclovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1902</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Feher,E.</GBAuthor>
+          <GBAuthor>Kaszab,E.</GBAuthor>
+          <GBAuthor>Lengyel,G.</GBAuthor>
+          <GBAuthor>Banyai,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of CRESS DNA viruses in wild birds in Hungary</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1902</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Feher,E.</GBAuthor>
+          <GBAuthor>Kaszab,E.</GBAuthor>
+          <GBAuthor>Lengyel,G.</GBAuthor>
+          <GBAuthor>Banyai,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-OCT-2017) Centre for Agricultural Research, Hungarian Academy of Sciences, Institute for Veterinary Medical Research, Hungaria krt. 21., Budapest, PEST 1143, Hungary</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1902</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1902</GBInterval_to>
+            <GBInterval_accession>MG254874.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Duck associated cyclovirus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>DuACyV-1/3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>cloacal swab</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Anas platyrhynchos</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2006585</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Hungary</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2013</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>112..870</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>112</GBInterval_from>
+            <GBInterval_to>870</GBInterval_to>
+            <GBInterval_accession>MG254874.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative cap</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AZQ25379.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MANYRRKKKYGRRFRPRPLRVRLYNPKRNRLRRTQRRLKNDKYFTRFMSWTSVDVDPKIGQGWYLAPNYKSNPGFLQLAEQYSEFKIHKVAARITPGLNETYLAEQGLRYAYCPWQQDNGGSPSTNDIVSNGTDLTYGKLMNVPWAKSKRLHQSATIVYKPKCNQAIAFAPRTSSGANGNQRVISFPWVTTQAMSMGALPGMSGIMLAFDQQDPLSVIGKPLRVQVEFFLYVTFRKRRNPMLQTPTPFVMDQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(875..1855)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1855</GBInterval_from>
+            <GBInterval_to>875</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MG254874.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AZQ25380.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MQRKCYSWTLNNYTSEDIERIRQHEHLFDYAIWGREIAPETGTPHLQGYFKFKTKQRFNTVRAILGGRGHLEGSKGSPKQNHDYCSKSGDYETVGDLVIASQSSLELVCQMLKDGVRLAQVAADYPSIFVRHHRGLRELSLILGVVKPRDFKTGEWAAARSIPESLSRFRANLLLTVRWMILSLLVLVSEVLVFYGASGTGKSRRAAELCGSESTYYKPRGKWWDGYANQDNVIIDDFYGWLSFDEFLRIADRYPCRVEVKGGFAEFTSKRIVITSNQAPSQWWRGEWFKGEQLKALTRRLDVVCFYSAHSGLPHEINCQGDCDKE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtattacccgtgagccgcgactcaacgactcacagccaaaggcaggaactgataaggacaaacgactcaggtatataagtagcgcccgttgcctagcaaccgtcatacgatggctaactacagacgtaagaagaagtacgggcgcagatttaggccccgcccactgagggtgcggctatataaccccaaacgcaatagattacgccgcacacaacgacgattgaaaaacgacaagtactttacccgttttatgtcatggacctctgtcgatgtagatccaaaaatcggacaaggatggtacttagcaccaaactacaagtcgaaccccggcttcctccaactggccgaacagtacagcgagttcaaaatccacaaggtggcagcacggataacacccggactgaacgagacatatctagcggaacaaggattgagatacgcatactgcccatggcaacaggacaacggcggatccccgagcaccaacgacatagtatccaacgggacggacctgacctatggcaaactaatgaacgtcccctgggcgaaaagcaaacggctacatcaatcagcaacgatagtgtacaaaccaaagtgcaatcaggcaatcgcattcgccccacgaaccagctctggcgccaatggaaaccaacgagtaatctcgttcccatgggtgacaacgcaagcaatgtcaatgggtgcccttccaggcatgtcaggcatcatgctcgcttttgaccagcaagatcccctctctgtaatcggaaaaccactacgagtccaagtggaatttttcctctatgtaaccttccgtaaacgaaggaacccaatgttacaaacaccaacaccctttgtaatggatcaataaaactttattccttatcgcaatctccttgacaattaatttcatgtggtaatccactatgagcgctataaaagcaaacgacatccagacgtcgtgtaagagcctttaattgctcccctttgaaccactcgcctcgccaccactgcgacggcgcttggttactggtgataacgatgcgctttgaggtgaactcagcaaacccccctttgacttccacacggcagggatatctatcagcgattcgcaggaactcgtcgaagctgagccatccataaaagtcgtcgatgataacgttatcttggttggcgtaaccatcccaccacttgcctctcggcttatagtaggtcgattctgatccacataactctgccgcgcgacgagacttgccggtgccagaggctccatagaacacaagcacctctgaaacaagaaccagaagacttagaatcatccacctgactgttaataaaagattggcccggaatcgcgagagcgattccggtatgctccgcgcagcggcccactcaccagtcttaaaatctctgggtttgacgactccaagaataaggctaagctctctaaggcctctgtggtgacggacaaaaattgaggggtaatcggctgcgacttgagccagtcgtactccatctttaagcatttggcacaccagttcaagagatgactgtgacgcaataacgaggtcccccaccgtttcgtaatctccggacttcgaacaatagtcatgattctgcttaggagagccttttgaaccttcaaggtgtccacggcctccaaggatcgcccgtacagtgttgaatcgttgcttcgttttgaacttaaaataaccttgcagatgtggagttccagtttcaggagcgatctctctaccccagatagcgtagtcgaacaggtgttcatgctgacgaattctctcgatgtcttcactcgtatagttgttaagagtccaagagtaacacttgcgctgcattgttataacgtagctccgcgcagcggccttataagcggctcacggct</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT732796</GBSeq_locus>
+    <GBSeq_length>2145</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-FEB-2016</GBSeq_update-date>
+    <GBSeq_create-date>17-FEB-2016</GBSeq_create-date>
+    <GBSeq_definition>Pacific flying fox faeces associated gemycircularvirus-4 isolate Tbat_H_103639, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KT732796</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT732796.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT732796.1|</GBSeqid>
+      <GBSeqid>gi|992391323</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Pacific flying fox faeces associated gemycircularvirus-4</GBSeq_source>
+    <GBSeq_organism>Pacific flying fox faeces associated gemycircularvirus-4</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; unclassified Cyclovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2145</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Male,M.F.</GBAuthor>
+          <GBAuthor>Kraberger,S.</GBAuthor>
+          <GBAuthor>Stainton,D.</GBAuthor>
+          <GBAuthor>Kami,V.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Cycloviruses, gemycircularviruses and other novel replication-associated protein encoding circular viruses in Pacific flying fox (Pteropus tonganus) faeces</GBReference_title>
+        <GBReference_journal>Infect. Genet. Evol. (2106) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2145</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Male,M.F.</GBAuthor>
+          <GBAuthor>Kraberger,S.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (09-SEP-2015) School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch 8140, New Zealand</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: DNABaser v. 4 ; Coverage :: complete ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2145</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2145</GBInterval_to>
+            <GBInterval_accession>KT732796.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Pacific flying fox faeces associated gemycircularvirus-4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Tbat_H_103639</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>feces</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Pteropus tonganus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1795996</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Tonga</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2015</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>108..980</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>108</GBInterval_from>
+            <GBInterval_to>980</GBInterval_to>
+            <GBInterval_accession>KT732796.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AMH87677.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPLKRYKGRNSVSYSRRSKSRKPSPKKKSYAKRKTMTRKRVVNIASTKKMDTMSTVSIRPDGSAFREPFVMNGDTTYIIPWVATWRNFQTSSTNTVKGLKADPTRSATSCYMRGLKEQIQLATNDGQCWQWRRICFTMKGDDIYAAAGPSFRVAFQNSGGYQRLFSDWNNTKGGTTPPINFLVDPIFKGTAGTDWDDPFVAPLDPYRIGVKYDKTRYIRSGNNFGMLKMVKLWHPMNKTLIYNDDENGGVTDAAATSVRTHGMGDYYVIDMFRAATGAVAGSQLNIRSSG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(join(977..1403,1532..2115))</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2115</GBInterval_from>
+            <GBInterval_to>1532</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KT732796.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1403</GBInterval_from>
+            <GBInterval_to>977</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KT732796.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AMH87678.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTFLFSARYVLLTYPQCGTLDGWAVSDHLSALGAECIVGRENHSDGGTHLHAFVDFGRKKQSRRSDFFDVGGHHPNIAPSRGRPERGYDYAIKDGDVVAGGLARPGGGGLPEIANKWSEIVSAESREQFFDLLRQLDPKTLVTRWTELNKYADAAYAPTPEPYVGSDGKQFELGMVPELARWGEQLVANDPVEGNLVLYGPSRLGKTVWARSLGPHVYSMGIVSGKLLLRDAPEAKYAVFDDMRGGIGYFHSWKEWLGAQSVVTVKELYRDPVQLVWGRPCIWLANRDPRLELGAYFTARSTPNKGALFQSDWAWLETNCYFWGARTTLFFRPNTD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1417..2115)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2115</GBInterval_from>
+            <GBInterval_to>1417</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KT732796.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>RepA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AMH87679.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTFLFSARYVLLTYPQCGTLDGWAVSDHLSALGAECIVGRENHSDGGTHLHAFVDFGRKKQSRRSDFFDVGGHHPNIAPSRGRPERGYDYAIKDGDVVAGGLARPGGGGLPEIANKWSEIVSAESREQFFDLLRQLDPKTLVTRWTELNKYADAAYAPTPEPYVGSDGKQFELGMVPELARWGEQLVANDPVEGKCSPLPGPPRGGHGGFPGGGPLPLPLALRDSRRAMLIV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>taatgttatagcccaggtgacgggtgacaacccatcacttataaagaggccgccccaccccgccatgtggaggaccccacctcaacaaaaacctccccacatgcgctatgcctctcaagaggtacaaagggcgcaacagcgtcagctactctcgccgttcaaaatcccgcaaaccatccccaaaaaagaaaagttatgcgaagcgaaagaccatgacgcgcaagcgtgtggtcaacatcgcgtcgaccaaaaagatggacaccatgtccactgtatcgatccggccagatggctcggcgtttcgggaaccgttcgtgatgaacggcgacacaacatacatcatcccgtgggtagcgacctggaggaacttccagacaagctcaacgaacacggtgaagggcctgaaggcggaccccacaaggtcggccacatcatgctacatgagagggctgaaggaacagatccaactcgcaaccaatgacggacaatgctggcagtggaggcgcatctgtttcaccatgaagggagacgacatctacgcagcagctggaccatccttccgcgtcgcgttccagaacagcggtggataccagcgactattctcggattggaacaatacgaagggcggtaccacaccgcctatcaatttcttagtggacccaattttcaagggtaccgcaggaactgattgggacgacccatttgttgctccactggacccataccgtatcggcgtcaagtacgacaagacacgatacattcggtccggcaacaactttggcatgctgaagatggttaaactttggcatccaatgaacaagacccttatctacaacgatgatgagaacggaggcgtcacggatgccgcagccacatcggttagaacacatggaatgggtgattattatgttatcgatatgtttcgagcagccacaggtgcagttgcaggcagccagctgaatattcgcagctccggttagtctgtattgggacgaaaaaataaggtggttctagctccccaaaaataacaatttgtttccaaccaggcccaatcgctttgaaataaggcccccttatttggagttgaccgggcagtgaagtaagcccccagttccaatcttggatcccgattagccaaccagatacaaggtcttccccatacaagctgtacgggatctcggtacaattctttgaccgtgaccacactctgtgccccgagccactctttccatgaatggaaatatccaataccacctcgcatatcgtcgaagacagcatacttagcctccggcgcatcacgcaggagaagcttgccggacacgatgcccatactgtacacgtgtgggcccagtgatctagcccaaacagtttttccaagtcgtgaaggaccatagagtaccagacttcgcattctgcctaaacaattagcatggcacggcgtgagtcccgaagggcgagagggaggggcaggggcccccccccgggaaatcccccgtgcccgccgcgcggcgggccagggaggggggaacacttaccctctactggatcattcgcaacaagctgttctccccatcgagccagctcaggtaccattccaagctcaaattgcttcccatcggaacccacatagggttctggggtgggggcgtaggcggcgtcggcgtacttgttgagttcggtccaacgagtgacaagcgtcttcggatccaactgtcgaagcaagtcaaaaaactgctctcgactttctgccgagacaatttcgctccacttattcgcaatttcaggtaatccacctccgcccggcctcgccaacccgcctgcaacaacatctccatccttgattgcatagtcataaccgcgctccggacgacctcgagatggcgcaatgtttgggtggtggcctccgacatcaaagaaatcggatcgtcgggattgcttctttcttccgaaatccacaaaagcatggaggtgagtacctccatcagagtgattttctcgtccgacgatacactcagctccaagcgctgacaaatggtctgaaacggcccaaccatcaagcgttccgcactgagggtaagtgaggaggacataacgagctgagaagaggaaagtcatgtgatgcaacccgtaggaacctgggcaaac</GBSeq_sequence>
+  </GBSeq>

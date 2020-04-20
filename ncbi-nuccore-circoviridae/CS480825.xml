@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>CS480825</GBSeq_locus>
+    <GBSeq_length>1768</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>19-FEB-2007</GBSeq_update-date>
+    <GBSeq_create-date>19-FEB-2007</GBSeq_create-date>
+    <GBSeq_definition>Sequence 28 from Patent WO2006113372</GBSeq_definition>
+    <GBSeq_primary-accession>CS480825</GBSeq_primary-accession>
+    <GBSeq_accession-version>CS480825.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|CS480825.1|</GBSeqid>
+      <GBSeqid>pat|WO|2006113372|28</GBSeqid>
+      <GBSeqid>gi|125994985</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ellis,J.</GBAuthor>
+          <GBAuthor>Charreyre,C.</GBAuthor>
+          <GBAuthor>Martinon,O.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Porcine circovirus and helicobacter combination vaccines and methods of use</GBReference_title>
+        <GBReference_journal>WO2006113372-A2 28 26-OCT-2006 Merial Ltd. (US)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1768</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1768</GBInterval_to>
+            <GBInterval_accession>CS480825.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>231</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>231</GBInterval_point>
+            <GBInterval_accession>CS480825.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>a, c, g, t, unknown or other</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>555</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>555</GBInterval_point>
+            <GBInterval_accession>CS480825.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>a, c, g, t, unknown or other</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1132..1138</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1132</GBInterval_from>
+            <GBInterval_to>1138</GBInterval_to>
+            <GBInterval_accession>CS480825.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>a, c, g, t, unknown or other</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1292</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>1292</GBInterval_point>
+            <GBInterval_accession>CS480825.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>a, c, g, t, unknown or other</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaattcaaccttaaccttttttattctgtagtattcaaagggtataaagattttgttggtcccccctcccgggggaacaaagtcgtcaatattaaatctcatcatgtccaccgcccaggagggcgttctgactgtggtagccttgacagtatatccgaaggtgcgggagargcgggtgttgaaaatgccatttttccttctccaacggtagcggtggcgggggtggacmanccacgggcggcggcggawgatctggccaagatggctgcgggggcggtgtcttcttctgcggtaacgcctccttggatacgtcatagctgaaaacgaaagaagtgcgctgtaagtattaccagcgcacttcggcagcggcagcacctcggcagcacctcagcagcaacatgcccagcaagaagaatggaagaagcggaccccaaccacataaaaggtgggtgttcacgctgaataatccttccgaagacgagcgcaagaaaatacgggagctcccaatctccctatttgattattttattgttggcgaggagggtwwtgaggaangacgaacacctcacctccaggggttcgctaattttgtgaagaagcaaacttttaataaagtgaagtggtatttgggtgcccgctgccacatcgagaaagccaaaggaactgatcagcagaataaagaatattgcagtaaagaaggcaacttacttattgaatgtggagctcctcgatctcaaggacaacggagtgacctgtctactgctgtgagtaccttgttggagagcgggagtctggtgaccgttgcagagcagcaccctgtaacgtttgtcagaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcagaagcgtgattggaagaccaatgtacacgtcattgtggggccacctgggtgtggtaaaagcaaatgggctgctaattttgcagacccggaaaccacatactggaaaccacctagaaacaagtggtgggatggttaccatggtgaagaagtggttgttattgatgacttttatggctggctgccgtgggatgatctactgagactgtgtgatcgatatccattgactgtagagactaaaggtggaactgtacnnnnnnnggcccgcagtattctgattaccagcaatcagaccccgttggaatggtactcctcaactgctgtcccagctgtagaagctctctatcggaggattacttccttggtattttggaagaatgctacagaacaatccacggaggaagggggccagttngtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtcttttttatcacttcgtaatggtttttattattcatttagggtttaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattgtagtcctggtcgtatatactgttttcgaacgcagtgccgaggcctacgtggtccacatttctagaggtttgtagcctcagccaaagctgattccttttgttatttggttggaagtaatcaatagtggagtcaagaacaggtttgggtgtgaagtaacgggagtggtaggagaagggttgggggattgtatggcgggaggagtagtttacatatgggtcataggttagggctgtggcctttgttacaaagttatcatctagaataacagcagtggagcccactcccctatcaccctgggtgatgggggagcagggcca</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GU936291</GBSeq_locus>
+    <GBSeq_length>1988</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-JUN-2012</GBSeq_update-date>
+    <GBSeq_create-date>27-SEP-2011</GBSeq_create-date>
+    <GBSeq_definition>Beak and feather disease virus isolate BFDV_NZ_CN_B79_2008, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>GU936291</GBSeq_primary-accession>
+    <GBSeq_accession-version>GU936291.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|GU936291.1|</GBSeqid>
+      <GBSeqid>gi|307638544</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Beak and feather disease virus</GBSeq_source>
+    <GBSeq_organism>Beak and feather disease virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1988</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Massaro,M.</GBAuthor>
+          <GBAuthor>Ortiz-Catedral,L.</GBAuthor>
+          <GBAuthor>Julian,L.</GBAuthor>
+          <GBAuthor>Galbraith,J.A.</GBAuthor>
+          <GBAuthor>Kurenbach,B.</GBAuthor>
+          <GBAuthor>Kearvell,J.</GBAuthor>
+          <GBAuthor>Kemp,J.</GBAuthor>
+          <GBAuthor>van Hal,J.</GBAuthor>
+          <GBAuthor>Elkington,S.</GBAuthor>
+          <GBAuthor>Taylor,G.</GBAuthor>
+          <GBAuthor>Greene,T.</GBAuthor>
+          <GBAuthor>van de Wetering,J.</GBAuthor>
+          <GBAuthor>van de Wetering,M.</GBAuthor>
+          <GBAuthor>Pryde,M.</GBAuthor>
+          <GBAuthor>Dilks,P.</GBAuthor>
+          <GBAuthor>Heber,S.</GBAuthor>
+          <GBAuthor>Steeves,T.E.</GBAuthor>
+          <GBAuthor>Walters,M.</GBAuthor>
+          <GBAuthor>Shaw,S.</GBAuthor>
+          <GBAuthor>Potter,J.</GBAuthor>
+          <GBAuthor>Farrant,M.</GBAuthor>
+          <GBAuthor>Brunton,D.H.</GBAuthor>
+          <GBAuthor>Hauber,M.</GBAuthor>
+          <GBAuthor>Jackson,B.</GBAuthor>
+          <GBAuthor>Bell,P.</GBAuthor>
+          <GBAuthor>Moorhouse,R.</GBAuthor>
+          <GBAuthor>McInnes,K.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular characterisation of beak and feather disease virus (BFDV) in New Zealand and its implications for managing an infectious disease</GBReference_title>
+        <GBReference_journal>Arch. Virol. (2012) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-012-1336-5</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22638639</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1988</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Varsani,A.</GBAuthor>
+          <GBAuthor>Kurenbach,B.</GBAuthor>
+          <GBAuthor>Ortiz-Catedral,L.</GBAuthor>
+          <GBAuthor>Massaro,M.</GBAuthor>
+          <GBAuthor>Galbraith,J.A.</GBAuthor>
+          <GBAuthor>Heinemann,J.A.</GBAuthor>
+          <GBAuthor>Brunton,D.H.</GBAuthor>
+          <GBAuthor>Hauber,M.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Rapid screening and isolation of Beak and feather disease virus genomes from feather samples and blood stored in Queen's lysis buffer</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1988</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Varsani,A.</GBAuthor>
+          <GBAuthor>Kurenbach,B.</GBAuthor>
+          <GBAuthor>Ortiz-Catedral,L.</GBAuthor>
+          <GBAuthor>Massaro,M.</GBAuthor>
+          <GBAuthor>Galbraith,J.A.</GBAuthor>
+          <GBAuthor>Heinemann,J.A.</GBAuthor>
+          <GBAuthor>Brunton,D.H.</GBAuthor>
+          <GBAuthor>Hauber,M.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-FEB-2010) School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch 8140, New Zealand</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1988</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1988</GBInterval_to>
+            <GBInterval_accession>GU936291.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Beak and feather disease virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>BFDV_NZ_CN_B79_2008</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Cyanoramphus novaezelandiae</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:77856</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>New Zealand</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lat_lon</GBQualifier_name>
+            <GBQualifier_value>36.1999 S 175.0819 E</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2008</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>131..997</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>131</GBInterval_from>
+            <GBInterval_to>997</GBInterval_to>
+            <GBInterval_accession>GU936291.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ADN80862.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSKEGSGCRRWCFTLNNPTDGEIEFVRTLGPDEFHYAIVGREKGEQGTPHLQGYFHFKSKKRLSALKKMLPRAHFERAKGSDADNEKYCSKEGDVILTLGIVARDGHRAFDGAVAAVMSGRKMKEVAREFPDIYVRHGRGLHSLSLLVGSRPRDFKTEVDVIWGPPGCGKSRWANEQPGTKYYKMRGEWWDGYDGEDIVVIDDFYGWLPYCEMLRLCDRYPHKVPVKGAFVEFTSKRIIITSNKPPETWYKEDCDPKPLFRRFTRVWWYTDKLEQVRPDFLAHPINF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1231..1965)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1965</GBInterval_from>
+            <GBInterval_to>1231</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>GU936291.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_except</GBQualifier_name>
+            <GBQualifier_value>(pos:complement(1963..1965),aa:Met)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>coat protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ADN80863.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNCACATFQIRRRYARPYYRRRHFRRYRRRRRHFRRRRFTTNRIYTLRLTRQFKFQIQKQTTSTGNLIFNSDYITFALSDFLTNTPNPTTLNFEDYRIKLAKMEMRPTWGHYTIAADGFGHTAIIQDSRITKFKTTKDQTQDPLAPFDGAKKWYVSRGFKRLLRPKPQITLNDLATANQSAALWLNSARTGWIPLQGGPNAAGAKVKHYGIAFSFPQPEQTITYVTKLTLYVQFRQFAPNNPST</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tattacccgccgcctggggcaccggggcaccgcagccattggctgtaggtccacggtgcccgcccctagggaggagaaaacgacgccgttaggcgtcgtaatctccggaggatcacactcgcccggaactatgccgtccaaggagggctccggctgtcgccgttggtgtttcacccttaacaaccctacggacggcgagatcgaattcgtccgtactctcgggcctgacgaattccactatgccatcgttggacgggaaaagggcgagcaaggtaccccccatttgcaaggctactttcattttaaaagtaagaagcgacttagcgcgcttaagaaaatgctgccgcgagctcattttgagcgcgctaaagggagcgatgcggataatgagaagtattgcagtaaagagggggatgtgatacttaccctgggcattgtggcgagagacggtcaccgcgctttcgatggagctgttgctgccgtgatgtccggacgcaaaatgaaggaagtcgcgcgagagttcccagatatctacgtcaggcatgggcggggcttgcatagcctgtcgctattggtcggttcccgcccacgtgacttcaagactgaggtcgacgtcatctgggggcctccggggtgtggcaagagccgatgggccaatgagcagcccggaactaaatattataaaatgcgtggtgaatggtgggatggatatgatggggaagatatcgtcgtcattgacgacttttatgggtggctaccttattgtgagatgctccgcctctgcgaccgttacccacataaggtgccagttaagggcgcctttgtggagtttaccagcaagaggatcattatcacgagcaataagccccccgagacctggtacaaggaggactgtgacccgaagccactgttccggagattcacccgtgtttggtggtacacggacaagttggaacaagtccggcctgatttcctcgctcatcccataaatttttgacagtcccggtgatgtttaataaagttaggcgtcgggccgaacgcccgatgccgcagggcgggacgccctgccggagggctcggagggccgtcaggcccgagagcccgaccagcccggagggcctcgtctgtgtcggggggggggccccgggggggtccccccgacacgaccaacacggtagcgccgaaggcgccaataaaaactcgaaaaggtatttgttgtctgagtctttattaagtactgggattgttaggggcaaactgacggaattgaacatacaaagtgagtttggtaacataagtgatagtttgttctggctgagggaagctgaaggcaattccgtagtgcttgactttcgctcctgctgcgttgggtcctccttgtagtgggatccagccggttctggcgctgtttagccacaatgccgcagactggttcgctgtggccaggtcgtttaacgttatttgtggtttcggtctgaggagtcgtttgaatcccctgctaacataccactttttggcaccgtcgaaaggtgccagggggtcttgtgtttggtctttagtagttttaaatttagtaattctagagtcttggattatggccgtatggccgaatccgtctgcagctattgtgtagtggccccatgtgggccgcatttccattttagctaatttaattcggtagtcttcgaaatttagagttgttgggtttggtgtgtttgttaggaagtctgacaatgcaaatgttatgtagtcagaattaaaaattaggttgccagtactggtggtttgtttttgaatttggaatttgaattggcgtgtgagtctgagagtgtaaattctattggttgtgaaacggcgtctgcggaagtgtctgcgtcgccggcggtatcgccggaagtgacgtctgcggtagtatgggcgggcatatctccgtctaatctgaaatgtagcgcatgcgcagttagaggtgccccagaggcggctcttac</GBSeq_sequence>
+  </GBSeq>

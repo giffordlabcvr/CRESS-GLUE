@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MF593272</GBSeq_locus>
+    <GBSeq_length>1783</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-APR-2018</GBSeq_update-date>
+    <GBSeq_create-date>04-APR-2018</GBSeq_create-date>
+    <GBSeq_definition>Cyclovirus sp. strain Neoromicia/19681/RSA replicase and capsid protein genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MF593272</GBSeq_primary-accession>
+    <GBSeq_accession-version>MF593272.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MF593272.1|</GBSeqid>
+      <GBSeqid>gi|1273809602</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Cyclovirus sp.</GBSeq_source>
+    <GBSeq_organism>Cyclovirus sp.</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; unclassified Cyclovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1783</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Geldenhuys,M.</GBAuthor>
+          <GBAuthor>Mortlock,M.</GBAuthor>
+          <GBAuthor>Weyer,J.</GBAuthor>
+          <GBAuthor>Bezuidt,O.</GBAuthor>
+          <GBAuthor>Seamark,E.C.J.</GBAuthor>
+          <GBAuthor>Kearney,T.</GBAuthor>
+          <GBAuthor>Gleasner,C.</GBAuthor>
+          <GBAuthor>Erkkila,T.H.</GBAuthor>
+          <GBAuthor>Cui,H.</GBAuthor>
+          <GBAuthor>Markotter,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A metagenomic viral discovery approach identifies potential zoonotic and novel mammalian viruses in Neoromicia bats within South Africa</GBReference_title>
+        <GBReference_journal>PLoS ONE 13 (3), e0194527 (2018)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1371/journal.pone.0194527</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29579103</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1783</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Geldenhuys,M.</GBAuthor>
+          <GBAuthor>Mortlock,M.</GBAuthor>
+          <GBAuthor>Weyer,J.</GBAuthor>
+          <GBAuthor>Bezuidt,O.</GBAuthor>
+          <GBAuthor>Seamark,E.</GBAuthor>
+          <GBAuthor>Kearney,T.</GBAuthor>
+          <GBAuthor>Gleasner,C.</GBAuthor>
+          <GBAuthor>Tracy,E.</GBAuthor>
+          <GBAuthor>Cui,H.</GBAuthor>
+          <GBAuthor>Markotter,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (31-JUL-2017) Medical Virology, University of Pretoria, Room 2-72, Pathology Building, 5 Bophelo Road, Prinshof Campus, University of Pretoria, Corner of Steve Biko and Dr Savage St, Pretoria 0001., Pretoria, Gauteng 0007, South Africa</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: CLC genomics workbench v. V6 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1783</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1783</GBInterval_to>
+            <GBInterval_accession>MF593272.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Cyclovirus sp.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Neoromicia/19681/RSA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>fecal, rectum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Neoromicia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1983780</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>South Africa</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>210..1115</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>210</GBInterval_from>
+            <GBInterval_to>1115</GBInterval_to>
+            <GBInterval_accession>MF593272.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replicase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ATQ39402.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MRAERAHARVPRYEGRALCVAQSTMGSPVRRFCFTWNNYSVVDTITVKNFFVEYCKYAIAGEEIAPTTGTAHLQGFCNLNKPMRFSTIKKHLSDAIHIEKANGSDIQNQEYCRKAGTWFEQGTPIKQGQRSDLESVISTISSGKNTARDIAELHPVSFIRYFRGISEYLRLIQPVPVRDFPTTVHYFWGPPGSGKSRRALAEAQNIARDSIYYKPRGLWWDGYKQQQCVVIDDFYGWIKYDEMLKIMDRYPYKVQIKGGFEEFTTKNIWITSNVDTDQLYKFIGYNSAAFDRRITLKEYMD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1112..1783)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1783</GBInterval_from>
+            <GBInterval_to>1112</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MF593272.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>coded by complement</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ATQ39403.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAYRRRRLTRRKPVFRRRRRFLRRRRRRPRSGNLFCKLTKVSSYTVDSSTNNIWDGSFKLSDFPEHVALEKNFESVKLYKVRVTVLPMQNVSNNTTSVVTGYVMCPWHYPIDLPKQFNDYLSSDKAKLYRQTQVGRQTYVPNIMLCNDISSASAPPQRATVDTMMWRPTLRTTHFGDSNTVPRIYAGIIAFQGDPSVGATKSHFNVKMDVWVQYKNQTRMNIV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atagcgtactaacgctcaaggacaaaagtgaaaggcgcgcgaagagggaccgggcgacagagtggggggctacgaggttccgttacgaggtcgacgggtaatactataccgtcgacctctctcttttatatatactctctcttccccaagtggacggaacaggttggaacgtgtcgcccggtccctcttcgcggcggccccgctgcttcatgcgcgctgaacgcgcgcatgcgcgggtcccccgctacgagggacgggctctgtgtgtagcacagagcacaatgggcagtccagtgagacggttctgttttacttggaacaactactcagtagtcgatactataacagttaaaaatttctttgtggaatactgcaaatatgccatcgctggagaggaaatcgctcccacaactggtacagcacatctacagggattctgtaatcttaacaagcccatgcgcttcagtaccatcaaaaagcatctctctgacgcaatccatattgagaaggcaaatggatccgacatccaaaaccaagaatactgtagaaaggcaggtacgtggtttgaacagggaactccaattaagcaaggacaacgcagtgacttggagtccgtcatatctactatatcgagtgggaaaaacaccgcacgagatatcgcggagttacaccccgtttcttttatccggtactttcgtgggatatcggaatacctacgactcatacaaccagtacctgtacgagacttcccaacaacagtacactacttctgggggccgcctggttcggggaaatcacgcagggcactcgctgaagcgcaaaacatcgcaagggactccatttactataagcccagaggcttatggtgggatgggtacaaacagcagcaatgcgtggttatcgacgacttctacggatggataaaatacgacgaaatgctgaaaataatggaccgctacccatacaaggtacaaataaaaggaggattcgaggaatttacaactaaaaacatttggatcacttccaacgttgatactgatcaattgtataaatttattggttacaattcagcagcgtttgaccgccgcattacattgaaagaatatatggattaaacaatattcatgcgcgtctgattcttatattgcacccacacatccatcttaacattaaaatgcgacttcgttgctccgacactcggatctccttgaaacgctataataccagcatatatccttggaactgtatttgaatctccaaaatgcgtagtacgtaatgttggtctccacatcatagtatctactgtagctctctgcggaggagcacttgcggacgatatatcattgcacagcatgatattcggtacatatgtttgcctgccaacttgggtttgtctatataactttgctttatctgacgataaataatcgttaaattgcttcgggagatcaataggataatgccaagggcacattacatatccagtaacaactgaagtagtattattgctaacattttgcataggcaggacagtaactctgactttatataatttaacactttcaaaattcttctccaacgcaacatgttccgggaagtcagataatttaaaagatccatcccaaatattattcgtactggaatctacggtataagaagaaaccttcgttagcttacagaacaggtttccagaccttggacggcgcctgcggcgacgcaggaaccgtcgccgcctgcgaaaaaccggttttcgccgggtcagccgtctccgtctgtaagccat</GBSeq_sequence>
+  </GBSeq>

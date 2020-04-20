@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KR869727</GBSeq_locus>
+    <GBSeq_length>1794</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>05-AUG-2015</GBSeq_update-date>
+    <GBSeq_create-date>22-JUN-2015</GBSeq_create-date>
+    <GBSeq_definition>Goose circovirus isolate 2GK replication associated protein and capsid protein genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KR869727</GBSeq_primary-accession>
+    <GBSeq_accession-version>KR869727.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KR869727.1|</GBSeqid>
+      <GBSeqid>gi|835278456</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Goose circovirus</GBSeq_source>
+    <GBSeq_organism>Goose circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1794</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Stenzel,T.</GBAuthor>
+          <GBAuthor>Farkas,K.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genome Sequence of a Diverse Goose Circovirus Recovered from Greylag Goose</GBReference_title>
+        <GBReference_journal>Genome Announc 3 (4), e00767-15 (2015)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/genomeA.00767-15</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26227589</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1794</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Stenzel,T.</GBAuthor>
+          <GBAuthor>Farkas,K.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-MAY-2015) School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch 8140, New Zealand</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: DNAbaser v. 4 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1794</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1794</GBInterval_to>
+            <GBInterval_accession>KR869727.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Goose circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>2GK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>cloaca</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Anser anser</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:146032</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Poland</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>02-Nov-2012</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>49..930</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>49</GBInterval_from>
+            <GBInterval_to>930</GBInterval_to>
+            <GBInterval_accession>KR869727.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKM52583.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAKSGNYSYKRWVFTINNPTFEDYCAVVEFCNLENCKFAIVGEEKGEKEGTPHLQGFLSLRKNAKAAAIEEKLGGRAWLSRARGSDEENEEYCAKERTYLRVGEPNRKGRSSDLADAASDVLAGLPITEVARKYPTTFVMFGRGLERLRQVIVETPRDWKTDVIVLIGPPGSGKSRYAFEFPAVEKYYKSRGKWWDGYNGQDVVVMDDFYGWLPYDDLLRVCDRYPLRVEYKGGMTQFVAKTLIITSNREPRDWYKCEVDVSALYRRITQYLVLTPDGYAPAPDFMLPFKINY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(985..1734)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1734</GBInterval_from>
+            <GBInterval_to>985</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KR869727.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKM52584.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPLYRARSRSLYHRRRRASNRRRRYGRRRLHIGRIRSRYSIFNVKQTQTITFTFFQTSTPEQGKWESKSLEAIQSTDSRPKPGINLRFAVFGDRTAGTGGVYHYPFDYYMIRMVKVELRPAYNVFDAARTQGSTYIDKEGNITTTDTSYWGVDPYAAMSSRKTWSPHRYHKRVFIPKPTIQGGGQTPAIYSTWYTPGRRQQWINSIQDNVTWWGMGMSLRQAEKTAKPLTVEATITYYIRFGQWTGLQP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accggcgcttgtactccgtactccgcaccgaacgagacagcccgtgaaatggcgaaaagcggcaattattcgtacaagaggtgggtcttcacgataaataaccctaccttcgaagattactgtgcagttgtagagttttgcaacttggaaaattgcaagttcgcgatagtcggcgaagagaaaggggagaaagaaggcacacctcacctgcagggattcctgagtctgcgaaagaatgcgaaagccgctgcgatcgaagagaagctgggaggaagagcctggctgtctcgagcccggggatctgacgaagagaatgaagaatattgcgccaaagagaggacataccttcgagtcggtgagccaaatcgaaagggtcgttcgagcgatcttgccgacgctgcatccgacgtgctcgccggtctgccgatcactgaagttgcccggaagtacccgacgacttttgtaatgtttgggcggggcttggagcggttgcgtcaggtgattgttgagacgcctcgtgattggaagacggatgtcatcgttctgattggtccgcctgggagcgggaagagccgttacgcgttcgaattccccgcggttgagaagtattataagtctcgcgggaagtggtgggacggatataatgggcaggatgtggttgtgatggatgatttctatgggtggcttccttatgatgatcttttgcgagtgtgtgatcggtacccgttaagagtggagtataaggggggtatgacacagtttgtagctaagacgttgataataacgtctaatagagaacctagagattggtataagtgtgaggttgatgtgtccgccttgtatcgacggattacacagtatttggttttgacccctgatggatatgctcctgctcctgattttatgttgccgtttaaaataaattactgaagacatttttatggttttatatatatttctttattgtgtgaatttacaataaaattatggttgcagacctgtccattgtccgaatcttatgtaataggttattgtggcttctactgtcaggggttttgccgttttttcagcttgtctgagagacatgcccattccccaccaggttacgttgtcttgtatggagtttatccattgttgtcttctgcctggcgtgtaccatgtgctgtatatggctggtgtttgtcctcctccttgaattgtaggttttgggatgaatactcttttgtggtatctgtgtggtgaccatgtttttctggagctcatcgcagcgtatgggtctaccccccagtaagacgtgtctgttgttgtgatgtttccttctttgtctatgtatgtgctgccttgtgttcgtgctgcatcgaacacgttgtatgcaggtcggagttctactttaaccattcggatcatgtaatagtcgaatgggtaatggtatactcctcctgtaccagccgttctgtctccgaatactgcgaatcttaggtttatgccgggttttggtctgctgtctgttgactgtattgcttctaagctttttgattcccatttgccttgttctggtgtgcttgtctggaagaacgtgaatgtgatggtttgcgtttgtttcacgttgaatatgctgtatctggaccttattcgtccgatgtgtagccttcgtcttccgtatcttcgtcgtcggttggatgcccgcctacgacgatgatatagactccgcgatctcgcgcggtacagcggcatgatgggcagtggcttcttgtgggcggggagaagaacgttacaagcgccgtatatattatt</GBSeq_sequence>
+  </GBSeq>

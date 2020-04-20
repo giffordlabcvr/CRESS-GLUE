@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KC415249</GBSeq_locus>
+    <GBSeq_length>839</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-APR-2013</GBSeq_update-date>
+    <GBSeq_create-date>24-FEB-2013</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus isolate HN6-1 truncated complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KC415249</GBSeq_primary-accession>
+    <GBSeq_accession-version>KC415249.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KC415249.1|</GBSeqid>
+      <GBSeqid>gi|451774846</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..839</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Luo,W.</GBAuthor>
+          <GBAuthor>Zhao,D.</GBAuthor>
+          <GBAuthor>Yu,X.L.</GBAuthor>
+          <GBAuthor>Ge,M.</GBAuthor>
+          <GBAuthor>Li,R.C.</GBAuthor>
+          <GBAuthor>Jiang,D.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Small-sized circular genomes similar to genome of porcine circovirus 2</GBReference_title>
+        <GBReference_journal>Genome Announc 1 (2), E0009313 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/genomeA.00093-13</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>23538903</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..839</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhao,D.</GBAuthor>
+          <GBAuthor>Luo,W.</GBAuthor>
+          <GBAuthor>Yu,X.-L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-DEC-2012) College of Veterinary Medicine, Hunan Agricultural University, Yuan Da Road, Changsha, Hunan 410128, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..839</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>839</GBInterval_to>
+            <GBInterval_accession>KC415249.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>HN6-1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>pig tissue</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>pig</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>20-Sep-2008</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>51..545</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>51</GBInterval_from>
+            <GBInterval_to>545</GBInterval_to>
+            <GBInterval_accession>KC415249.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>rep</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>51..545</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>51</GBInterval_from>
+            <GBInterval_to>545</GBInterval_to>
+            <GBInterval_accession>KC415249.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>truncated Rep protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGF46562.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSKKSGRSGPQPHKRWVFTLNNPSEDERKKIRELPISLFDYFIVGEEGNEEGRTPHLQGFANFVKKQTFNKVKWYFGARCHIEKAKGTDQQNKEYCSKEGNLLIECGAPRSQGQRSDLSTAVSTLLESGSLVTVAEQHPVTFVRNFRGLAELLKVSGKMHQEW</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(750..806)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>806</GBInterval_from>
+            <GBInterval_to>750</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KC415249.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional capsid protein due to mutation; ORF2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accagcgcacttcggcagcggcagcacctcggcagcacctcagcagcaacatgcccagcaagaagagtggaagaagcggaccccaaccacataaaaggtgggtgttcacgctgaataatccttccgaagacgagcgcaagaaaatacgggagctcccaatctccctatttgattattttattgttggcgaggaaggtaatgaggagggccgaacaccccacctacaggggttcgctaattttgtgaagaaacaaacttttaataaagtgaagtggtattttggtgcccgctgccacatcgagaaagcgaaaggaacagatcagcagaataaagaatattgcagtaaagaaggcaacttactgatagaatgtggagctcctagatctcaaggacaacggagtgacctctctactgccgtgagtaccttgttggagagcgggagtctggtgaccgttgcagagcagcaccctgtaacgtttgtcagaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcatcaagaatggtgagactcccatgacttgtaaatttttatctgagcaatgaagtggatcccggcatcatcaattgaaagagaaagataagaaagaagcaccttgaaggatgagaaacagagagaatgaagagttctgttttggtcctgttcagtagaaatatcttttatatgaaatacataggaggcagcgggcatttgagtctggagttcaggggagaagatggctgcgggggcggtgtcttcgtctgcggaaacgcctccttggatacgtcatcgctgaaaacgaaagaagtgcgctgtaagtatt</GBSeq_sequence>
+  </GBSeq>

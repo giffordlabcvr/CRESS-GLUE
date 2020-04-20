@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JC052739</GBSeq_locus>
+    <GBSeq_length>1760</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>27-JAN-2014</GBSeq_update-date>
+    <GBSeq_create-date>27-JAN-2014</GBSeq_create-date>
+    <GBSeq_definition>Sequence 28 from Patent EP2528931</GBSeq_definition>
+    <GBSeq_primary-accession>JC052739</GBSeq_primary-accession>
+    <GBSeq_accession-version>JC052739.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|JC052739.1|</GBSeqid>
+      <GBSeqid>pat|EP|2528931|28</GBSeqid>
+      <GBSeqid>gi|576541678</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Chicken cyclovirus</GBSeq_source>
+    <GBSeq_organism>Chicken cyclovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; unclassified Cyclovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1760</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>DELWART,E.</GBAuthor>
+          <GBAuthor>LI,L.</GBAuthor>
+          <GBAuthor>KAPOOR,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>CYCLOVIRUS AND METHOD OF USE</GBReference_title>
+        <GBReference_journal>EP2528931-A2 28 05-DEC-2012 BLOOD SYSTEMS INC [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1760</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1760</GBInterval_to>
+            <GBInterval_accession>JC052739.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Chicken cyclovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1455630</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagccgccacttcgttgtaaccatgcctcggcaaacagtcagacgtttcgtgttcacttggaacaactatcctatcgaagcatacgacaagtgcgaaaaatatctcaccaaattttgcaaatatggcatcgttggagaagaaatcgctccggaaacagggacgcctcacctacaggggttttgtaacctacataaacccacacgctttagtaccatcaagaagcatctcgataactcaatccatattgagaaggcaaatggatccgacattgacaaccaaaaatactgtagtaagtcaggcatcttttttgaaacgggacagccctctaaacaaggacagaggtcggaccttgctgtcgttagtaacaaaatcttggaaggaagtactacaatacgagatattgccacccaacatcctgaaacgtacatcagatactttcgcggcattcgagaactacaacgattggtcaacccgatctctcctcgagactttcccacacaagtatattactactacggtccgccaggaacaggtaaatccagaactgctttggaagaagcaaaaaaaattgatccgacttccatctactataaaccacgaggtctgtggtgggacggctatacaaaccagaaatgtgttattattgacgacttctacggatggataaaatacgacgaactactaaaaatttgcgaccgttatccttacaaagtacaaataaaagggggattcgaagaattcaacagcacacacatctggattacttcaaacgtcgatacagatttattgtataaatttacaggatattgtaacgctgcatttgaacgtcgtattacaataaaaaaatattttgcttaagacagtccatttattatagattgattcttcatttccacataaacattagtaactatattaaaccgcgtactccgaccagttgctgagggatcaccctgaaatcctaaagcgccacagcgaatcaaaggctgatcttgtgcagttgtagtccattgaacggtaggcttccaattaatcactggagcggtaaactcattcgacgaagtattttgagctggggatatagtattcggcacaaaactcatagtcaacggaacagtttgtggacgaatcttggctttatccacacttaacagcgttccaaaatctttaggaataggtaccccgtaatgccaagggtaaatacaatacgaaggcacagaggacgtactattgtttgacacattctgcattggaataacttttacaactactttattaacttttgtcatctcgaaattacttccgatacgagtccactcagaaaactgacccagttgaaacgaacaatcccacgtagtattaagttcattctgaacaacaatcgtatgaattcgcgtaaatttagcatacagatttccaggtttcgaataccggcctttacgtatcctacgaaatcggcgacggtacttccgcaacggtcgccgaatgcggcgacgatactttctaactcgacgatacgccatatgtagagggggagcttccctcgctaccgctcgggacaaatataaccccccttctaacaaccggtttcaacatgctttgggtagcgctcccccagctcgcccccccgccccccccccctccggtacgctccggggggggggcgtcgcgccgctgtggcgcgtgcgcgtggaaacgtgttcaaggctgaaagtgaaaggtggttacaaagttgggttacgaagtggcgggtaatact</GBSeq_sequence>
+  </GBSeq>

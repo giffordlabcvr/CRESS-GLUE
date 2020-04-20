@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MN928506</GBSeq_locus>
+    <GBSeq_length>2063</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-MAR-2020</GBSeq_update-date>
+    <GBSeq_create-date>23-MAR-2020</GBSeq_create-date>
+    <GBSeq_definition>UNVERIFIED: Bat circovirus isolate Sardinia BatACV, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MN928506</GBSeq_primary-accession>
+    <GBSeq_accession-version>MN928506.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MN928506.1|</GBSeqid>
+      <GBSeqid>gi|1821706893</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UNVERIFIED</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Bat circovirus</GBSeq_source>
+    <GBSeq_organism>Bat circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2063</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lecis,R.</GBAuthor>
+          <GBAuthor>Mucedda,M.</GBAuthor>
+          <GBAuthor>Pidinchedda,E.</GBAuthor>
+          <GBAuthor>Zobba,R.</GBAuthor>
+          <GBAuthor>Pittau,M.</GBAuthor>
+          <GBAuthor>Alberti,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genomic characterization of a novel bat-associated Circovirus detected in European Miniopterus schreibersii bats</GBReference_title>
+        <GBReference_journal>Virus Genes (2020) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s11262-020-01747-3</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>32088806</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2063</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lecis,R.</GBAuthor>
+          <GBAuthor>Alberti,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-JAN-2020) Medicina Veterinaria, University of Sassari, Via Vienna 2, Sassari 07100, Italy</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank staff is unable to verify sequence and/or annotation provided by the submitter.; ; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2063</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2063</GBInterval_to>
+            <GBInterval_accession>MN928506.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bat circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Sardinia BatACV</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>fecal samples</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Miniopterus schreibersii</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1329650</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Italy</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>54..974</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>54</GBInterval_from>
+            <GBInterval_to>974</GBInterval_to>
+            <GBInterval_accession>MN928506.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>rep</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>54..974</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>54</GBInterval_from>
+            <GBInterval_to>974</GBInterval_to>
+            <GBInterval_accession>MN928506.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replicase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QIM58708.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSETEGPAGVKSARRSREAPAARWCFTLNNPTDEEKAQIAGIADEKVKYLIVGEEVGDSGTPHLQGFINLRAKVRLQGLKQLLGPRAHCEKARGTDEDNKKYCGKDGKLLVEKGEPHCKGKRTDLANAVRILLEEKSLAAVAAALPEVYVRNHRGLAQLLLDHPAMQMKRAWKSDVTVWVGPPGVGKSRACLDMCPDAYWKPRGKWWDGYNGHKVVILDDFYGWLPFDDLLRLLDRYPLTVETKGGTRAFLAEKILITSNKLPNEWYSDEFSNKDALYRRINKILWWDGKEFVPPPHFVFPNKIDY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>complement(1141..1989)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1989</GBInterval_from>
+            <GBInterval_to>1141</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MN928506.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>cap</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(1141..1989)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1989</GBInterval_from>
+            <GBInterval_to>1141</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MN928506.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>cap</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to capsid protein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtattaccctcggcaccttggaaccttggaaccacttcagcaccacccgagatgtctgagacagaaggcccggcgggggtaaagagtgcccggcgcagccgtgaagcaccagcggcacgctggtgcttcaccctcaacaatcctactgatgaggagaaggcccagattgccggcattgctgatgaaaaggtgaagtacctcattgtgggagaggaggttggtgacagcgggacgccgcatctgcaaggcttcattaacctgcgtgcgaaggtccgcctccaaggcctcaagcagctcttgggcccacgagctcattgcgagaaggctagaggtacagatgaagacaacaagaaatattgcggtaaagatggcaagctgttggttgagaaaggagagcctcattgcaaaggcaaaaggactgacctggctaatgcggtgaggatcctgcttgaggagaagagcctggctgctgttgccgctgcgctgccggaagtgtatgtgaggaaccaccggggactcgcccagcttttattagatcatccggctatgcaaatgaagagggcgtggaagagtgatgtcactgtgtgggttggaccgcccggtgtgggcaagtcccgggcatgtctggacatgtgccctgatgcctactggaagccgcgtggcaagtggtgggatggctataatggccacaaggtggtgatattggatgatttttatggttggctgccttttgatgatttgctgcggcttttggatcgataccccctgactgtggagactaaagggggtacccgggccttcttggctgagaagatattgattactagcaataagttgcctaatgagtggtattctgatgagtttagtaataaggatgccctctaccggagaattaataagatattgtggtgggatggtaaagagtttgtcccccctccccactttgtgtttcccaataaaattgattattgatttgatgtttgtgtggagtgttttcttttttttttttttttttttttttttttttttttttttttttttttttttttttttttggttgcctcccgcgaagcgggagagagagagaaggccgccgaaggcggccagtaaccctgggcgtttacctgtgccacccccttcaatgaagtgcgagaaacagagtttcttttgaaagctttattgatgggggttgaaatctagacacatttctctgaatacaacatacagagtgatagaatattggggtgtaaatatcggtggtcccttctctgagggagatggacagtccattccatggggtggtcactccggatggagtgtttggcagccaggcttttcttaggcctctgttgaaatagttagaggctgggcctagtccacagcaagtggcagtttgtgacactactgtgggcttaattaccctggtgaagcctttgtttgcattccaggatcttttgctggagcggttgcgcagggggtccgatgtttttggtccggtgtcgtcattgggggttgtgcctgggtctccgtctgttttcaccgtgccggtgcccacgtcactgccatcaaagtctgtggcgtggttcccgtaggcttcctccctttccgcccagagggttcttatgggtttgacccgaaccactgcctttctgatgttgtagtctttgaaaggggggacggatgcttttttagtgctgtcttgagggaggaagtcagccaatttgaattggacgtggtcaagattccaggcaaaggttgtggttttgtcatctgaaggactgctggctttaggccatttgacagtgtagtaccttgtgagccggacatggaagtgtttgtagcggggcctgccccaacggcgcccccggcgtcttcccactccatgggttcttcttcctcttctatggtagggagtgaaggccggaaggtggctccgcctatgccacctgcgcctgaagtaacgggccatttctaaaaatagaaacatggctgatgcatgacggactccacccccgacacgccccaacccctcccactaactccgcccatggtgccgaggtg</GBSeq_sequence>
+  </GBSeq>

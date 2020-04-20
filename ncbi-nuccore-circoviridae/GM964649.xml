@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GM964649</GBSeq_locus>
+    <GBSeq_length>702</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>17-DEC-2008</GBSeq_update-date>
+    <GBSeq_create-date>17-DEC-2008</GBSeq_create-date>
+    <GBSeq_definition>Sequence 12 from Patent EP2000535</GBSeq_definition>
+    <GBSeq_primary-accession>GM964649</GBSeq_primary-accession>
+    <GBSeq_accession-version>GM964649.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|GM964649.1|</GBSeqid>
+      <GBSeqid>pat|EP|2000535|12</GBSeqid>
+      <GBSeqid>gi|218405094</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Circovirus</GBSeq_source>
+    <GBSeq_organism>Circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..702</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jestin,A.</GBAuthor>
+          <GBAuthor>Albina,E.</GBAuthor>
+          <GBAuthor>Le Cann,P.</GBAuthor>
+          <GBAuthor>Blanchard,P.</GBAuthor>
+          <GBAuthor>Hutet,E.</GBAuthor>
+          <GBAuthor>Arnaud,C.</GBAuthor>
+          <GBAuthor>Truong,C.</GBAuthor>
+          <GBAuthor>Mahe,D.</GBAuthor>
+          <GBAuthor>Cariolet,R.</GBAuthor>
+          <GBAuthor>Madec,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Circovirus sequences associated with porcine wasting disease (PWD)</GBReference_title>
+        <GBReference_journal>EP2000535-A1 12 10-DEC-2008 Wyeth (US)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>GM964649.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:39725</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Circovirus MAP type B</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>GM964649.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgacgtatccaaggaggcgttaccgaagaagaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgttaccgctggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactgtcaagcgaaccacagtcagaacgccctcctgggcggtggacatgatgagattcaatattaatgactttcttcccccaggaggggggtcaaacccccgctctgtgccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctccccgatcacccagggtgacaggggagtgggctccagtgctgttattttagatgataactttgtaacaaaggccacagccctcacctatgacccctatgtaaactactcctcccgccataccataacccagcccttctcctaccactcccggtactttacccccaaacctgtcctagatttcactattgattacttccaaccaaacaacaaaagaaaccagctgtggctgagactacaaactgctggaaatgtagaccacgtaggcctcggcactgcgttcgaaaacagtatatacgaccaggaatacaatatccgtgtaaccatgtatgtacaattcagagaatttaattttaaagaccccccacttaacccttaa</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JE825175</GBSeq_locus>
+    <GBSeq_length>702</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>07-JUN-2015</GBSeq_update-date>
+    <GBSeq_create-date>07-JUN-2015</GBSeq_create-date>
+    <GBSeq_definition>Sequence 36 from Patent WO2015048115</GBSeq_definition>
+    <GBSeq_primary-accession>JE825175</GBSeq_primary-accession>
+    <GBSeq_accession-version>JE825175.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|JE825175.1|</GBSeqid>
+      <GBSeqid>pat|WO|2015048115|36</GBSeqid>
+      <GBSeqid>gi|829018047</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..702</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>NITZEL,G.P.</GBAuthor>
+          <GBAuthor>SLADE,D.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>PCV2B DIVERGENT VACCINE COMPOSITION AND METHODS OF USE</GBReference_title>
+        <GBReference_journal>WO2015048115-A1 36 02-APR-2015 ZOETIS LLC [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>JE825175.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgacgtatccaaggaggcgttaccggagaagaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgttaccgctggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccatcggttatactgtcaagaaaaccacagtcagaacgccctcctggaatgtggacatgatgagatttaatattaatgattttcttcccccaggagggggctcaaaccccctcactgtgccctttgaatactacagaataaggaaggttaaggttgaattctggccctgctccccaatcacccagggtgacaggggagtgggctccactgctgttattctagatgataactttgtaacaaaggccaatgccctaacctatgacccctatgtaaactactcctcccgccataccataacccagcccttctcctaccactcccggtactttaccccgaaacctgtccttgataggacaatcgattacttccaacccaataacaaaagaaatcaactctggctgagactacaaactactggaaatgtagaccatgtaggcctcggcactgcgttcgaaaacagtatatacgaccaggactacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaacccttaa</GBSeq_sequence>
+  </GBSeq>

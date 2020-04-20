@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HQ335044</GBSeq_locus>
+    <GBSeq_length>942</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>ENV</GBSeq_division>
+    <GBSeq_update-date>21-JUN-2011</GBSeq_update-date>
+    <GBSeq_create-date>25-MAY-2011</GBSeq_create-date>
+    <GBSeq_definition>Uncultured circovirus isolate SDWAP K genomic sequence</GBSeq_definition>
+    <GBSeq_primary-accession>HQ335044</GBSeq_primary-accession>
+    <GBSeq_accession-version>HQ335044.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|HQ335044.1|</GBSeqid>
+      <GBSeqid>gi|333596639</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>ENV</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>uncultured circovirus</GBSeq_source>
+    <GBSeq_organism>uncultured circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus; environmental samples</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..942</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ng,T.F.</GBAuthor>
+          <GBAuthor>Willner,D.L.</GBAuthor>
+          <GBAuthor>Lim,Y.W.</GBAuthor>
+          <GBAuthor>Schmieder,R.</GBAuthor>
+          <GBAuthor>Chau,B.</GBAuthor>
+          <GBAuthor>Nilsson,C.</GBAuthor>
+          <GBAuthor>Anthony,S.</GBAuthor>
+          <GBAuthor>Ruan,Y.</GBAuthor>
+          <GBAuthor>Rohwer,F.</GBAuthor>
+          <GBAuthor>Breitbart,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Broad Surveys of DNA Viral Diversity Obtained through Viral Metagenomics of Mosquitoes</GBReference_title>
+        <GBReference_journal>PLoS ONE 6 (6), E20579 (2011)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1371/journal.pone.0020579</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>21674005</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..942</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ng,T.F.F.</GBAuthor>
+          <GBAuthor>Willner,D.</GBAuthor>
+          <GBAuthor>Lim,Y.W.</GBAuthor>
+          <GBAuthor>Schmieder,R.</GBAuthor>
+          <GBAuthor>Chau,B.</GBAuthor>
+          <GBAuthor>Nilsson,C.</GBAuthor>
+          <GBAuthor>Anthony,S.</GBAuthor>
+          <GBAuthor>Ruan,Y.</GBAuthor>
+          <GBAuthor>Rohwer,F.</GBAuthor>
+          <GBAuthor>Breitbart,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Vector-enabled metagenomics reveals highly diverse and uncharacterized vertebrate, plant, insect, and bacterial viruses in mosquitoes</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..942</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ng,T.F.F.</GBAuthor>
+          <GBAuthor>Willner,D.</GBAuthor>
+          <GBAuthor>Lim,Y.W.</GBAuthor>
+          <GBAuthor>Schmieder,R.</GBAuthor>
+          <GBAuthor>Chau,B.</GBAuthor>
+          <GBAuthor>Nilsson,C.</GBAuthor>
+          <GBAuthor>Anthony,S.</GBAuthor>
+          <GBAuthor>Ruan,Y.</GBAuthor>
+          <GBAuthor>Rohwer,F.</GBAuthor>
+          <GBAuthor>Breitbart,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-SEP-2010) University of South Florida, 140 7th Ave S, Saint Petersburg, FL 33701, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..942</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>942</GBInterval_to>
+            <GBInterval_accession>HQ335044.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>uncultured circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>SDWAP K</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>mosquito</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:742825</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>environmental_sample</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: San Diego</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaagcgactcttgatggccatctccggatcggcgtccatctgatccttccaagtttaagccggcgaaatctttcagtgtagattcgtcaactttcggggtcccccaagttccaagaagacgtcgccggtcttcgaacagtactccttgttctgtgcatcggttccacgggcagtctccaaatggggcgtcgtgcaaggaaagggaatagcgttcttccacgtgccgactaaacccatccgatgcacgaagggcagtaggctgcatagcgataaaatccctgcagatgatggactccggtggtcggtgcaacctcttttccccacacaggcatactggcagggcggcccatcctcgtggggacttcccgagggaagcttggacttcttctaagacactcgtcggccatgttccttcttctttgaagttgagcgtgaaacacacgcggttggaacgaacgctctgtcttttaggggcggccatcgcgacaagactgagctcgcttcgctcgcgggcgcgccttcggcgcgcgggcgggggtaatactgctgcgctccccgcccgaccaaccgtcctgagcggaccgtgcggagacgcacagcagatctgaaatctgaattctgaatctgaaatataggctcccaacgtattgggttaggtttgccttcggggagtcggcgctacgcgcctcgcgcaaacctaacccaagcaaaagcgtgtcctaacttgtacgcctaaawttgggtatatataacctaacctaacctaacctaacctaaacctcagtcggtcatgaaagcgttaatggtggaaaggttctccaaagaggcgtcgcttctccaagaagcggcgcttcacgaagaagaagaccactcgaacggttaagagacgatttaaaagctaaagcgcccaaatgcgtcgcactggtcgcaaagctgtttcgc</GBSeq_sequence>
+  </GBSeq>

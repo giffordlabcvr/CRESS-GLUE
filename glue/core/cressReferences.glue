@@ -3,73 +3,82 @@
   ### Circovirus
 
   # Mammalian
-  create reference REF_MASTER_PCV-1    ncbi-refseqs NC_001792
-  create reference REF_PCV-2           ncbi-refseqs NC_005148
-  create reference REF_PCV-3           ncbi-refseqs NC_031753
-  create reference REF_CfCV            ncbi-refseqs NC_020904
-  create reference REF_MiCV            ncbi-refseqs NC_023885
-  create reference REF_TbCV            ncbi-refseqs NC_028045
+  create reference REF_Circo_MASTER_PCV-1       ncbi-refseqs NC_001792
+  create reference REF_Circo_PCV-2              ncbi-refseqs NC_005148
+  create reference REF_Circo_PCV-3              ncbi-refseqs NC_031753
+  create reference REF_Circo_CfCV               ncbi-refseqs NC_020904
+  create reference REF_Circo_MiCV               ncbi-refseqs NC_023885
+  create reference REF_Circo_TbCV               ncbi-refseqs NC_028045
   
   ## Avian 1
-  create reference REF_BFDV            ncbi-refseqs  NC_001944
-  create reference REF_StCV            ncbi-refseqs  NC_008033
-  create reference REF_CaCV            ncbi-refseqs  NC_003410
-  create reference REF_ZfCV            ncbi-refseqs  NC_026945
-  create reference REF_FiCV            ncbi-refseqs  NC_008522
-  create reference REF_RaCV            ncbi-refseqs  NC_008375
-  create reference REF_GuCV            ncbi-refseqs  NC_008521
-  create reference REF_SvCV            ncbi-refseqs  NC_008033
-  create reference REF_CoCV            ncbi-refseqs  NC_002361
+  create reference REF_Circo_BFDV               ncbi-refseqs  NC_001944
+  create reference REF_Circo_StCV               ncbi-refseqs  NC_008033
+  create reference REF_Circo_CaCV               ncbi-refseqs  NC_003410
+  create reference REF_Circo_ZfCV               ncbi-refseqs  NC_026945
+  create reference REF_Circo_FiCV               ncbi-refseqs  NC_008522
+  create reference REF_Circo_RaCV               ncbi-refseqs  NC_008375
+  create reference REF_Circo_GuCV               ncbi-refseqs  NC_008521
+  create reference REF_Circo_SvCV               ncbi-refseqs  NC_008033
+  create reference REF_Circo_CoCV               ncbi-refseqs  NC_002361
   
   ## Avian 2
-  create reference REF_SwCV            ncbi-refseqs  NC_025247
-  create reference REF_DuCV            ncbi-refseqs  NC_007220
+  create reference REF_Circo_SwCV               ncbi-refseqs  NC_025247
+  create reference REF_Circo_DuCV               ncbi-refseqs  NC_007220
   
   ## Fish 1
-  create reference REF_BarbCV          ncbi-refseqs  NC_015399
+  create reference REF_Circo_BarbCV             ncbi-refseqs  NC_015399
   
   ## Fish 2
-  create reference REF_SgCV            ncbi-refseqs  NC_025246
+  create reference REF_Circo_SgCV               ncbi-refseqs  NC_025246
    
   ### Cyclovirus 
-  create reference REF_HuACyV-1        ncbi-refseqs  KJ831064
-  create reference REF_BatACyV-10      ncbi-refseqs  KM382270
-  create reference REF_FlCyV           ncbi-refseqs  NC_024700
-  create reference REF_DfCyV5          ncbi-refseqs  NC_023866
-  create reference REF_NGchicken15     ncbi-refseqs  NC_014930
-  create reference REF_DuACyV-1        ncbi-refseqs  NC_034977
-  create reference REF_BtCyV-GF-4c     ncbi-refseqs  NC_034547
-  create reference REF_BtCyV-POAII     ncbi-refseqs  NC_025791
-  create reference REF_BtCyV-POAVI     ncbi-refseqs  NC_025792
-  create reference REF_CyV-ZM36a       ncbi-refseqs  NC_025476
-  create reference REF_IE-CyV-IECSF08  ncbi-refseqs  NC_032682
-  create reference REF_HuCyV-GS140     ncbi-refseqs  NC_023874
-  create reference REF_FwCa-CyV-GS140  ncbi-refseqs  NC_020206
-  create reference REF_HuCyV-VS5700009 ncbi-refseqs  NC_021568
-  create reference REF_DfCyV-2         ncbi-refseqs  NC_023869
-  create reference REF_CyV-bat         ncbi-refseqs  NC_014929
-  create reference REF_DfCyV-4         ncbi-refseqs	 NC_023867
-  create reference REF_DfCyV-A1        ncbi-refseqs  NC_023886
-  create reference REF_CyV-SL-108277   ncbi-refseqs  KJ831064
-  create reference REF_BtRp-CV-POA     ncbi-refseqs  KM382270
-  create reference REF_Cyc-VN          fasta-refseqs NC_021707
+  create reference REF_Cyclo_MASTER_HuACyV-1    ncbi-refseqs  KJ831064
+  create reference REF_Cyclo_BatACyV-10         ncbi-refseqs  KM382270
+  create reference REF_Cyclo_FlCyV              ncbi-refseqs  NC_024700
+  create reference REF_Cyclo_DfCyV5             ncbi-refseqs  NC_023866
+  create reference REF_Cyclo_NGchicken15        ncbi-refseqs  NC_014930
+  create reference REF_Cyclo_DuACyV-1           ncbi-refseqs  NC_034977
+  create reference REF_Cyclo_BtCyV-GF-4c        ncbi-refseqs  NC_034547
+  create reference REF_Cyclo_BtCyV-POAII        ncbi-refseqs  NC_025791
+  create reference REF_Cyclo_BtCyV-POAVI        ncbi-refseqs  NC_025792
+  create reference REF_Cyclo_CyV-ZM36a          ncbi-refseqs  NC_025476
+  create reference REF_Cyclo_IE-CyV-IECSF08     ncbi-refseqs  NC_032682
+  create reference REF_Cyclo_HuCyV-GS140        ncbi-refseqs  NC_023874
+  create reference REF_Cyclo_FwCa-CyV-GS140     ncbi-refseqs  NC_020206
+  create reference REF_Cyclo_HuCyV-VS5700009    ncbi-refseqs  NC_021568
+  create reference REF_Cyclo_DfCyV-2            ncbi-refseqs  NC_023869
+  create reference REF_Cyclo_CyV-bat            ncbi-refseqs  NC_014929
+  create reference REF_Cyclo_DfCyV-4            ncbi-refseqs  NC_023867
+  create reference REF_Cyclo_DfCyV-A1           ncbi-refseqs  NC_023886
+  create reference REF_Cyclo_CyV-SL-108277      ncbi-refseqs  KJ831064
+  create reference REF_Cyclo_BtRp-CV-POA        ncbi-refseqs  KM382270
+  create reference REF_Cyclo_Cyc-VN             fasta-refseqs NC_021707
 
   #### Redondoviridae    
-  create reference REF_HLVV            ncbi-refseqs  MK059763   # Vientovirus
-  create reference REF_L-BrV-RC        ncbi-refseqs  MK059757   # Brisavirus
+  create reference REF_Redondo_MASTER_HLVV      ncbi-refseqs  MK059763   # Vientovirus
+  create reference REF_Redondo_L-BrV-RC         ncbi-refseqs  MK059757   # Brisavirus
 
-  #### Smacoviridae
-  create reference REF_CBSV            ncbi-refseqs  MF669476   # Smacovirus
+  #### Porprismacovirus
+  create reference REF_Porprismaco_MASTER_CBSV  ncbi-refseqs  MF669476   # Porprismacovirus
 
-  #### CRESS
-  create reference REF_Po-41           ncbi-refseqs  NC_025683  # Po-Circo-like virus 41
-  create reference REF_AHEaCV-13       ncbi-refseqs  NC_026639
-  create reference REF_AHEaCV-14       ncbi-refseqs  NC_026641
+  #### CRESS 1
+  create reference REF_CRESS1_AHEaCV-13         ncbi-refseqs  NC_026639
+  create reference REF_CRESS1_AHEaCV-14         ncbi-refseqs  NC_026641
+  create reference REF_CRESS1_CV-5-LDMD-2013    ncbi-refseqs  NC_025710
+  create reference REF_CRESS1_CV-11-LDMD-2013   ncbi-refseqs  NC_025716
+  create reference REF_CRESS1_CV-13-LDMD-2013   ncbi-refseqs  NC_025717
+  create reference REF_CRESS1_CV-16-LDMD-2013   ncbi-refseqs  NC_025720
+  create reference REF_CRESS1_AHEaCV-13         ncbi-refseqs  NC_026639
+  create reference REF_CRESS1_AHEaCV-21         ncbi-refseqs  NC_026648
+  create reference REF_CRESS1_COACV             ncbi-refseqs  NC_027795
+
+  #### CRESS 2
+  create reference REF_CRESS1_MASTER_Po-41      ncbi-refseqs  NC_025683  # Po-Circo-like virus 41
 
   #### Geminiviridae 
   
   ### Begomovirus
-  create reference REF_EACMKV          ncbi-refseqs  KJ888053   # East African cassava mosaic Kenya virus isolate MG
+  create reference REF_Begomo_EACMKV            ncbi-refseqs  KJ888053   # East African cassava mosaic Kenya virus isolate MG
   
   
   

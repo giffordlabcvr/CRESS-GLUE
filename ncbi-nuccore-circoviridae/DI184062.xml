@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DI184062</GBSeq_locus>
+    <GBSeq_length>1768</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>23-OCT-2013</GBSeq_update-date>
+    <GBSeq_create-date>23-OCT-2013</GBSeq_create-date>
+    <GBSeq_definition>KR 1020100127327-A/10: Porcine cercovirus 2 vaccine</GBSeq_definition>
+    <GBSeq_primary-accession>DI184062</GBSeq_primary-accession>
+    <GBSeq_accession-version>DI184062.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DI184062.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020100127327|10</GBSeqid>
+      <GBSeqid>gi|551428340</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020100127327-A/10</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lee,S.</GBAuthor>
+          <GBAuthor>Kim,S.</GBAuthor>
+          <GBAuthor>Jung,S.</GBAuthor>
+          <GBAuthor>Kim,K.</GBAuthor>
+          <GBAuthor>Ko,J.</GBAuthor>
+          <GBAuthor>Kim,H.</GBAuthor>
+          <GBAuthor>Lee,J.</GBAuthor>
+          <GBAuthor>Kim,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Porcine cercovirus 2 vaccine</GBReference_title>
+        <GBReference_journal>KR1020100127327-A 10 06-DEC-2010 Woori Life Science Co., Ltd</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020090045717-A/10~AN KR 1020090045717~AD 2009-05-26~PN KR 1020100127327~PD 2010-12-06~AT Porcine cercovirus 2 vaccine~AI Lee, Sung-Tai|Kim, Sun-Woo|Jung, Sang-Yoon|Kim, Ki-En|Ko, AI Joung-Doug|Kim, Hong-Jib|Lee, Jong-Arm|Kim, Ki-Sei AA Woori Life Science Co., Ltd.~PR~OS Porcine circovirus~TY DNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1768</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1768</GBInterval_to>
+            <GBInterval_accession>DI184062.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accagcgcacttcggcagcggcagcacctcggcagcacctcagcagcaacatgcccagcaagaagaatggaagaagcggaccccaaccccataaaaggtgggtgttcaccctgaataatccttccgaagaggagcgcaacaaaatacgggagcttccaatctccctatttgattattttgtttgtggcgaggagggtaatgaggaaggacgaacacctcacctccaggggttcgctaattttgttaagaagcaaacttttaataaggtgaagtggtatttgggtgcccgctgccacatcgagaaagcgaaaggaactgatcagcagaataaagaatattgcagtaaagaaggcaacttacttattgaatgtggagctcctcgatcacaaggacaacggagtgacctgtctactgctgtgagtaccttgttggagagcgggtctttggtgaccgttgccgagcagcaccctgtaacgtatgtcagaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcagaagcgtgattggaagaccaatgtacacgtcattgtggggccacctgggtgtggtaaaagcaaatgggctgctaattttgcagacccggaaaccacatactggaaaccacctagaaacaagtggtgggatggttaccatggtgaagaagtggttgtttttgatgacttttatggctggctgccctgggatgatctactgagactgtgtgaccggtatccattgactgtagagactaaaggtggaactgtaccttttttggcccgcagtattctgattaccagcaatcagaccccgttggaatggtactcctcagctgctgtcccagctgtagaagctctctatcggaggattacttccttggtattttggaagaatgctacagaacaatccacggaggaagggggccagttcgtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtcttttttatcacttcgtaatggtttttattattcatttagggtttaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattgtagtcctggtcgtatatactgttttcgaacgcagtgccgaggcctacgtggtctacatttctagaggtttgtatcctcagccaaagctgattccttttgttatttggttggaagtaatcaatagtggagtcaagaacaggtttgggtgtgaagtaacgggagtggtaggagaagggttgggggattgtatggcgggaggagtagtttacatatgggtcataggtttgggctgtggcctttggtacaaagttatcatctagaatcacagcagtggagcccactcccctatcaccctgggtgatgggggagcagggccagaattcaaccttaacctttcttattctgtagtattcaaagggtatagagattttgttggtcccccctcccgggggaacaaagtcgtcaatattaaatctcatcatgtccaccgcccaggagggcgttctgactgtggtagccttgacagtatatccgaaggtgcgggagaggcgggtgttgaagatgccatttttccttctccaacggtagcggtggcgggggtggacgagccaggggcggcggcggaggatctggccaagatggctgcgggggcggtgtcttcttctgcggtaacgcctccttggatacgtcatagctgaaaacgaaagaagtgcgctgtaagtatt</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HW480433</GBSeq_locus>
+    <GBSeq_length>713</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>10-JUN-2014</GBSeq_update-date>
+    <GBSeq_create-date>10-JUN-2014</GBSeq_create-date>
+    <GBSeq_definition>JP 2013067655-A/3: USE OF A PCV2 IMMUNOGENIC COMPOSITION FOR LESSENING CLINICAL SYMPTOMS IN PIGS</GBSeq_definition>
+    <GBSeq_primary-accession>HW480433</GBSeq_primary-accession>
+    <GBSeq_accession-version>HW480433.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HW480433.1|</GBSeqid>
+      <GBSeqid>pat|JP|2013067655|3</GBSeqid>
+      <GBSeqid>gi|651057363</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2013067655-A/3</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..713</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Schaeffer,M.</GBAuthor>
+          <GBAuthor>Nitzel,G.</GBAuthor>
+          <GBAuthor>Eichmeyer,M.</GBAuthor>
+          <GBAuthor>Hayes,P.W.</GBAuthor>
+          <GBAuthor>Roof,M.B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>USE OF A PCV2 IMMUNOGENIC COMPOSITION FOR LESSENING CLINICAL SYMPTOMS IN PIGS</GBReference_title>
+        <GBReference_journal>JP2013067655-A 3 18-APR-2013 Boehringer Ingelheim Vetmedica Inc</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Porcine circovirus~PN JP 2013067655-A/3~PD 18-APR-2013~PF 04-JAN-2013 JP 2013000182~PR 29-DEC-2005 US 60/755016 ,17-OCT-2006 US 60/829809~PA Boehringer Ingelheim Vetmedica Inc~PI merrill schaeffer,greg nitzel,mark eichmeyer,phillip wayne~PI hayes,~PI michael b roof~PT 'USE OF A PCV2 IMMUNOGENIC COMPOSITION FOR LESSENING CLINICAL~PT SYMPTOMS IN~PT PIGS'~PS N3~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..713</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>713</GBInterval_to>
+            <GBInterval_accession>HW480433.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagctatgacgtatccaaggaggcgttaccgcagaagaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgctaccgttggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactgtggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactgtgacgactttgttcccccgggaggggggaccaacaaaatctctataccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctcccccatcacccagggtgataggggagtgggctccactgctgttattctagatgataactttgtaacaaaggccacagccctaacctatgacccatatgtaaactactcctcccgccatacaatcccccaacccttctcctaccactcccgttacttcacacccaaacctgttcttgactccactattgattacttccaaccaaataacaaaaggaatcagctttggctgaggctacaaacctctagaaatgtggaccacgtaggcctcggcactgcgttcgaaaacagtaaatacgaccaggactacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaaaccctaaatgaat</GBSeq_sequence>
+  </GBSeq>

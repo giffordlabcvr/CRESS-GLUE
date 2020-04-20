@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KC620514</GBSeq_locus>
+    <GBSeq_length>702</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-MAR-2014</GBSeq_update-date>
+    <GBSeq_create-date>01-MAR-2014</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 2 strain KW177 capsid protein gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KC620514</GBSeq_primary-accession>
+    <GBSeq_accession-version>KC620514.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KC620514.1|</GBSeqid>
+      <GBSeqid>gi|532873320</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..702</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>An,D.J.</GBAuthor>
+          <GBAuthor>Lim,S.I.</GBAuthor>
+          <GBAuthor>Kim,Y.K.</GBAuthor>
+          <GBAuthor>Lee,H.K.</GBAuthor>
+          <GBAuthor>Cho,Y.Y.</GBAuthor>
+          <GBAuthor>Song,J.Y.</GBAuthor>
+          <GBAuthor>Hyun,B.H.</GBAuthor>
+          <GBAuthor>Park,B.K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic characterization of porcine circovirus type 2 in the Korean wild boar population</GBReference_title>
+        <GBReference_journal>Vet. Microbiol. 169 (3-4), 147-153 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.vetmic.2013.12.023</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24480584</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..702</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>An,D.J.</GBAuthor>
+          <GBAuthor>Lim,S.I.</GBAuthor>
+          <GBAuthor>Jeoung,H.Y.</GBAuthor>
+          <GBAuthor>Lee,H.Y.</GBAuthor>
+          <GBAuthor>Jo,Y.Y.</GBAuthor>
+          <GBAuthor>Song,J.Y.</GBAuthor>
+          <GBAuthor>Hyun,B.H.</GBAuthor>
+          <GBAuthor>Park,B.K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-FEB-2013) Viral Disease Division, Animal, Plant and Fisheries Quarantine and Inspection Agency, Anyang 6 dong, Anyang, Gyeonggi 430-824, Korea</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: BIOEDIT v. 7.053 ; Sequencing Technology :: ABI Prism 3730XI DNA Sequencer ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>KC620514.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>KW177</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>wild boar</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>South Korea</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2010</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..702</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>702</GBInterval_to>
+            <GBInterval_accession>KC620514.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGU03038.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTYPRRRYRRRRHRPRSHLGQILRRRPWLVHPRHRYRWRRKNGIFNTRLSRTFGYTIKRTTVKTPSWAVDMMRFNINDFLPPGGGSNPRSVPFEYYRIRKVKVEFWPCSPITQGDRGVGSSAVILDDNFVTKATALTYDPYVNYSSRHTITQPFSYHSRYFTPKPVLDSTIDYFQPNNKRNQLWLRLQTAGNVDHVGLGTAFENSIYDQEYNIRVTMYVQFREFNLKDPPLNP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgacgtatccaaggaggcgttaccggagaagaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgttaccgctggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactataaagcgaaccacagtcaaaacgccctcctgggcggtggacatgatgagattcaatattaatgactttcttcccccaggagggggctcaaacccccgctctgtgccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctccccgatcacccagggtgacaggggagtgggctccagtgctgttattctagatgataactttgtaacaaaggccacagccctcacctatgacccctatgtaaactactcctcccgccataccataacccagcccttctcctaccactcccgctactttacccccaaacctgtcctagattccactattgattacttccaaccaaacaacaaaagaaatcagctgtggctgagactacaaactgctggaaatgtagaccacgtaggcctcggcactgcattcgaaaacagtatatacgaccaggaatacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaacccttaa</GBSeq_sequence>
+  </GBSeq>

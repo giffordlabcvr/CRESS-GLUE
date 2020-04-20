@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Y09921</GBSeq_locus>
+    <GBSeq_length>1759</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-MAR-2009</GBSeq_update-date>
+    <GBSeq_create-date>17-DEC-1996</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 1, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>Y09921</GBSeq_primary-accession>
+    <GBSeq_accession-version>Y09921.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Y09921.1|</GBSeqid>
+      <GBSeqid>gi|1743370</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>complete genome</GBKeyword>
+      <GBKeyword>origin of replication</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus 1</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1759</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mankertz,A.</GBAuthor>
+          <GBAuthor>Persson,F.</GBAuthor>
+          <GBAuthor>Mankertz,J.</GBAuthor>
+          <GBAuthor>Blaess,G.</GBAuthor>
+          <GBAuthor>Buhk,H.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Mapping and characterization of the origin of DNA replication of porcine circovirus</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 71, 2562-2566 (1997)</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1759</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mankertz,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (09-DEC-1996) A. Mankertz, Robert Koch-Institut, Fachbereich Gentechnik und Genetik, Nordufer 20, D-13353 Berlin, FRG</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1759</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1759</GBInterval_to>
+            <GBInterval_accession>Y09921.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Sus scrofa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:133704</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>PK15</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>rep_origin</GBFeature_key>
+        <GBFeature_location>728..838</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>728</GBInterval_from>
+            <GBInterval_to>838</GBInterval_to>
+            <GBInterval_accession>Y09921.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cttttttgttatcacatcgtaatggtttttatttttatttatttagagggtcttttaggataaattctctgaattgtacataaatagtcagccttaccacataattttgggctgtggctgcattttggagcgcatagccgaggcctgtgtgctcgacattggtgtgggtatttaaatggagccacagctggtttcttttattatttgggtggaaccattcaattgtttggtccagctcaggtttgggggtgaagtacctggagtggtaggtaaagggctgccttatggtgtggcgggaggagtagttaatataggggtcataggccaagttggtggagggggttacaaagttggcatccaagataacaacagtggacccaacacctctttcattagaggtgatggggtctctggggtaaaattcatatttagcctttctaatacggtagtattggaaaggtaggggtagggggttggtgccgcctgagggggggaggaactggccgatgttgaatctgaggtggttaacatgccaagatggctgcgagtatcctccttttatggtgattacaaattctttagaaaggcggcaattgaagatacccgtctttcggcgccatctgtaacggtttctgaaggcggggtgtgccaaatatggtcttctccggaggatgtttccaagatggctgcgggggcgggtccttcttctgcggtaacgcctccttggccacgtcatcctataaaagtgaaagaagtgcgctgctgtagtattaccagcgcacttcggcagcggcagcacctcggcagcgtcagtgaaaatgccaagcaagaaaagcggcccgcaaccccataagaggtgggtgttcacccttaataatccttccgaggaggagaaaaacaaaatacgggagcttccaatctccctttttgattattttgtttgcggagaggaaggtttggaagagggtagaactgctcacctccaggggtttgctaattttgctaagaagcagacttttaacaaggtgaagtggtattttggtgcccgctgccacatcgagaaagcgaaaggaaccgaccagcagaataaagaatactgcagtaaagaaggccacatacttatcgagtgtggagctccgcggaaccaggggaagcgcagcgacctgtctactgctgtgagtacccttttggagacggggtctttggtgactgtagccgagcagttccctgtaacgtatgtgagaaatttccgcgggctggctgaacttttgaaagtgagcgggaagatgcagcagcgtgattggaagacagctgtacacgtcatagtgggcccgcccggttgtgggaagagccagtgggcccgtaattttgctgagcctagcgacacctactggaagcctagtagaaataagtggtgggatggatatcatggagaagaagttgttgttttggatgatttttatggctggttaccttgggatgatctactgagactgtgtgaccggtatccattgactgtagagactaaaggcggtactgttccttttttggctcgcagtattttgattaccagcaatcaggccccccaggaatggtactcctcaactgctgtcccagctgtagaagctctctatcggaggattactactttgcaattttggaagactgctggagaacaatcaacggaggtacccgaaggccgatttgaagcagtggacccaccctgtgcccttttcccatataaaataaattactgagt</GBSeq_sequence>
+  </GBSeq>

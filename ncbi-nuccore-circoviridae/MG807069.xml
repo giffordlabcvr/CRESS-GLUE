@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG807069</GBSeq_locus>
+    <GBSeq_length>848</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-APR-2018</GBSeq_update-date>
+    <GBSeq_create-date>28-APR-2018</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 3 strain PCV-3|Spain|2002 replicase protein (Rep) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MG807069</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG807069.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG807069.1|</GBSeqid>
+      <GBSeqid>gi|1380179410</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 3</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..848</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Klaumann,F.</GBAuthor>
+          <GBAuthor>Franzo,G.</GBAuthor>
+          <GBAuthor>Sohrmann,M.</GBAuthor>
+          <GBAuthor>Correa-Fiz,F.</GBAuthor>
+          <GBAuthor>Drigo,M.</GBAuthor>
+          <GBAuthor>Nunez,J.I.</GBAuthor>
+          <GBAuthor>Sibila,M.</GBAuthor>
+          <GBAuthor>Segales,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Retrospective detection of Porcine circovirus 3 (PCV-3) in pig serum samples from Spain</GBReference_title>
+        <GBReference_journal>Transbound Emerg Dis (2018) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1111/tbed.12876</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29654637</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..848</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Klaumann,F.</GBAuthor>
+          <GBAuthor>Franzo,G.</GBAuthor>
+          <GBAuthor>Correa-Fiz,F.</GBAuthor>
+          <GBAuthor>Drigo,M.</GBAuthor>
+          <GBAuthor>Nunez,J.I.</GBAuthor>
+          <GBAuthor>Segales,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-JAN-2018) Centre de Recerca en Sanitat Animal- CReSA, IRTA- CReSA, Universitat Autonoma de Barcelona, UAB, Bellaterra, Barcelona 08193, Spain</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..848</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>848</GBInterval_to>
+            <GBInterval_accession>MG807069.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>PCV-3|Spain|2002</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Sus scrofa domesticus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1868221</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Spain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2002</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;223..&gt;848</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>223</GBInterval_from>
+            <GBInterval_to>848</GBInterval_to>
+            <GBInterval_accession>MG807069.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Rep</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;223..&gt;848</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>223</GBInterval_from>
+            <GBInterval_to>848</GBInterval_to>
+            <GBInterval_accession>MG807069.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replicase protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AWB80894.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>VRRESPKHRWCFTINNWTPTEWESIVECGGSIARYLIIGKEVGKSGTPHLQGYVNFKNKRRLSSVKRLPGFGRAHLEPARGSHKEASEYCKKEGDYLEIGEDSSSGTRSDLQAAARILTETAGNLTEVAEKMPAVFIRYGRGLRDFCGVMGLGKPRDFKTEVYVFIGPPGCGKTREACADAAARELQLYFKPRGPWWDGYGGEGNQCLG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtattacccggcacctcggaacccggatccacggaggtctgtagggagaaaaagtggtatcccattatggatgctcctcaccgtgtgagtggatataccgggcagtggatgatgaagcggcctcgtgttttgatgccgcaggacggggactggataactgagtttttgtggtgctacgagtgtcctgaagataaggacttttattgtcatcctattctaggtccggagggaaagcccgaaacacaggtggtgttttacgataaacaactggaccccgaccgagtgggaatctattgtggagtgtggaggcagtatagcgagataccttattatcggcaaagaggttggaaaaagcggtaccccacacttgcaagggtacgtgaatttcaagaacaaaaggcgactcagctcggtgaagcgcttacccggatttggtcgggcccatctggagccggcgagggggagccacaaagaggccagcgagtattgcaagaaagagggggattacctcgagattggcgaagattcctcttcgggtaccagatcggatcttcaagcagcagctcggattctgacggagacggcgggaaatctgactgaagttgcggagaagatgcctgcagtatttatacgctatgggcggggtttgcgtgatttttgcggggtgatggggttgggtaaaccgcgtgattttaaaactgaagtttatgtttttattggtcctccaggttgcgggaaaacgcgggaagcttgtgccgatgcggctgcgcgggaattgcagttgtattttaagccacgggggccttggtgggatggttatggtggggagggtaatcaatgtttggg</GBSeq_sequence>
+  </GBSeq>

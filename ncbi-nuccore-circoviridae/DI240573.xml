@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DI240573</GBSeq_locus>
+    <GBSeq_length>713</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>23-OCT-2013</GBSeq_update-date>
+    <GBSeq_create-date>23-OCT-2013</GBSeq_create-date>
+    <GBSeq_definition>KR 1020120104514-A/4: Methods of reducing virucidal activity in PCV-2 compositions and PCV-2 compositions with an improved immunogenicity</GBSeq_definition>
+    <GBSeq_primary-accession>DI240573</GBSeq_primary-accession>
+    <GBSeq_accession-version>DI240573.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DI240573.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020120104514|4</GBSeqid>
+      <GBSeqid>gi|551435541</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020120104514-A/4</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..713</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kohler,C.A.</GBAuthor>
+          <GBAuthor>Zhao,G.</GBAuthor>
+          <GBAuthor>Khazraeinazmpour,A.</GBAuthor>
+          <GBAuthor>Eichenmueller,B.C.</GBAuthor>
+          <GBAuthor>Eichmeyer,M.</GBAuthor>
+          <GBAuthor>Haiwick,G.</GBAuthor>
+          <GBAuthor>Schaeffer,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Methods of reducing virucidal activity in PCV-2 compositions and PCV-2 compositions with an improved immunogenicity</GBReference_title>
+        <GBReference_journal>KR1020120104514-A 4 21-SEP-2012 BOEHRINGER INGELHEIM VETMEDICA, INC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020127005595-A/4~AN KR 1020127005595~AD 2012-02-29~PN KR 1020120104514~PD 2012-09-21~AT Methods of reducing virucidal activity in PCV-2 compositions AT and PCV-2 compositions with an improved immunogenicity AI Kohler, Caroline Ann|Zhao, Guosong|Khazraeinazmpour, AI Ali|Eichenmueller, Bernd Colin|Eichmeyer, Marc|Haiwick, AI Gregory|Schaeffer, Merrill~AA BOEHRINGER INGELHEIM VETMEDICA, INC.~PR US 61/239,192=2009-09-02|US 61/309,408=2010-03-01 OS Porcine circovirus~TY DNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..713</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>713</GBInterval_to>
+            <GBInterval_accession>DI240573.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccgccatgacgtatccaaggaggcgttaccgcagaagaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgctaccgttggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactgtcaaggctaccacagtcacaacgccctcctgggcggtggacatgatgagatttaatattgacgactttgttcccccgggaggggggaccaacaaaatctctataccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctcccccatcacccagggtgataggggagtgggctccactgctgttattctagatgataactttgtaacaaaggccacagccctaacctatgacccatatgtaaactactcctcccgccatacaatcccccaacccttctcctaccactcccgttacttcacacccaaacctgttcttgactccactattgattacttccaaccaaataacaaaaggaatcagctttggctgaggctacaaacctctagaaatgtggaccacgtaggcctcggcactgcgttcgaaaacagtaaatacgaccaggactacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttgaaccctaagaattc</GBSeq_sequence>
+  </GBSeq>

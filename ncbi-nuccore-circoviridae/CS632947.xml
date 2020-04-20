@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>CS632947</GBSeq_locus>
+    <GBSeq_length>4912</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2007</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2007</GBSeq_create-date>
+    <GBSeq_definition>Sequence 20 from Patent WO2007054788</GBSeq_definition>
+    <GBSeq_primary-accession>CS632947</GBSeq_primary-accession>
+    <GBSeq_accession-version>CS632947.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|CS632947.1|</GBSeqid>
+      <GBSeqid>pat|WO|2007054788|20</GBSeqid>
+      <GBSeqid>gi|152942795</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4912</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rybicki,E.P.</GBAuthor>
+          <GBAuthor>Tanzer,F.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Expression system incorporating a capsid promotor sequence as an enhancer of a cytomegalovirus promotor</GBReference_title>
+        <GBReference_journal>WO2007054788-A1 20 18-MAY-2007 University of Cape Town (ZA); South African Medical Researc h Council (ZA)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4912</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4912</GBInterval_to>
+            <GBInterval_accession>CS632947.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gacggatcgggagatctcccgatcccctatggtcgactctcagtacaatctgctctgatgccgcatagttaagccagtatctgctccctgcttgtgtgttggaggtcgctgagtagtgcgcgagcaaaatttaagctacaacaaggcaaggcttgaccgacaattgcatgaagaatctgcttagggttaggcgttttgcgctgcttcgcgatgtacgggccagatatacgcgttttgagatttctgtcgccgactaaattcatgtcgcgcgatagtggtgtttatcgccgatagagatggcgatattggaaaaatcgatatttgaaaatatggcatattgaaaatgtcgccgatgtgagtttctgtgtaactgatatcgccatttttccaaaagtgatttttgggcatacgcgatatctggcgatagcgcttatatcgtttacgggggatggcgatagacgactttggtgacttgggcgattctgtgtgtcgcaaatatcgcagtttcgatataggtgacagacgatatgaggctatatcgccgatagaggcgacatcaagctggcacatggccaatgcatatcgatctatacattgaatcaatattggccattagccatattattcattggttatatagcataaatcaatattggctattggccattgcatacgttgtatccatatcataatatgtacatttatattggctcatgtccaacattaccgccatgttgacattgattattgactagttattaatagtaatcaattacggggtcattagttcatagcccatatatggagttccgcgttacataacttacggtaaatggcccgcctggctgaccgcccaacgacccccgcccattgacgtcaataatgacgtatgttcccatagtaacgccaatagggactttccattgacgtcaatgggtggagtatttacggtaaactgcccacttggcagtacatcaagtgtatcatatgccaagtacgccccctattgacgtcaatgacggtaaatggcccgcctggcattatgcccagtacatgaccttatgggactttcctacttggcagtacatctacgtattagtcatcgctattaccatggtgatgcggttttggcagtacatcaatgggcgtggatagcggtttgactcacggggatttccaagtctccaccccattgacgtcaatgggagtttgttttggcaccaaaatcaacgggactttccaaaatgtcgtaacaactccgccccattgacgcaaatgggcggtaggcgtgtacggtgggaggtctatataagcagagctcgtttagtgaaccgtcagatcgcctggagacgccatccacgctgttttgacctccatagaagacaccgggaccgatccagcctccgcggccgggaacggtgcattggaacgcggattccccgtgccaagagtgacgtaagtaccgcctatagagtctataggcccacccccttggcttcttatgcatgctatactgtttttggcttggggtctatacacccccgcttcctcatgttataggtgatggtatagcttagcctataggtgtgggttattgaccattattgaccactcccctattggtgacgatactttccattactaatccataacatggctctttgccacaactctctttattggctatatgccaatacactgtccttcagagactgacacggactctgtatttttacaggatggggtctcatttattatttacaaattcacatatacaacaccaccgtccccagtgcccgcagtttttattaaacataacgtgggatctccacgcgaatctcgggtacgtgttccggacatgggctcttctccggtagcggcggagcttctacatccgagccctgctcccatgcctccagcgactcatggtcgctcggcagctccttgctcctaacagtggaggccagacttaggcacagcacgatgcccaccaccaccagtgtgccgcacaaggccgtggcggtagggtatgtgtctgaaaatgagctcggggagcgggcttgcaccgctgacgcatttggaagacttaaggcagcggcagaagaagatgcaggcagctgagttgttgtgttctgataagagtcagaggtaactcccgttgcggtgctgttaacggtggagggcagtgtagtctgagcagtactcgttgctgccgcgcgcgccaccagacataatagctgacagactaacagactgttcctttccatgggtcttttctgcagtcaccgtccttgacacgaagcttggtaccgagctcggatccactagtaacggccgccagtgtgctggaattctgcagatatccatcacactggcggccgctcgagcatgcatctagagggccctattctatagtgtcacctaaatgctagagctcgctgatcagcctcgactgtgccttctagttgccagccatctgttgtttgcccctcccccgtgccttccttgaccctggaaggtgccactcccactgtcctttcctaataaaatgaggaaattgcatcgcattgtctgagtaggtgtcattctattctggggggtggggtggggcaggacagcaagggggaggattgggaagacaatagcaggcatgctggggatgcggtgggctctatggcttctgaggcggaaagaaccagctggggctcgaggggggatcgatcccgtcgacctcgagagcttggcgtaatcatggtcatagctgtttcctgtgtgaaattgttatccgctcacaattccacacaacatacgagccggaagcataaagtgtaaagcctggggtgcctaatgagtgagctaactcacattaattgcgttgcgctcactgcccgctttccagtcgggaaacctgtcgtgccagctgcattaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcgctcttccgcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcaatgctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgacgtc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JN837698</GBSeq_locus>
+    <GBSeq_length>572</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>22-FEB-2012</GBSeq_update-date>
+    <GBSeq_create-date>22-FEB-2012</GBSeq_create-date>
+    <GBSeq_definition>Circovirus-like NI/2007-3 rep protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>JN837698</GBSeq_primary-accession>
+    <GBSeq_accession-version>JN837698.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JN837698.1|</GBSeqid>
+      <GBSeqid>gi|376341675</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Circovirus-like NI/2007-3</GBSeq_source>
+    <GBSeq_organism>Circovirus-like NI/2007-3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; unclassified Circoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..572</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yozwiak,N.L.</GBAuthor>
+          <GBAuthor>Skewes-Cox,P.</GBAuthor>
+          <GBAuthor>Stenglein,M.D.</GBAuthor>
+          <GBAuthor>Balmaseda,A.</GBAuthor>
+          <GBAuthor>Harris,E.</GBAuthor>
+          <GBAuthor>DeRisi,J.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Virus identification in unknown tropical febrile illness cases using deep sequencing</GBReference_title>
+        <GBReference_journal>PLoS Negl Trop Dis 6 (2), E1485 (2012)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1371/journal.pntd.0001485</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22347512</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..572</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yozwiak,N.L.</GBAuthor>
+          <GBAuthor>Skewes-Cox,P.</GBAuthor>
+          <GBAuthor>Stenglein,M.D.</GBAuthor>
+          <GBAuthor>Balmaseda,A.</GBAuthor>
+          <GBAuthor>Harris,E.</GBAuthor>
+          <GBAuthor>DeRisi,J.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (06-OCT-2011) Department of Biochemistry, University of California San Francisco, Byers Hall, Rm s403c, 1700 4th St, San Francisco, CA 94158-2330, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..572</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>572</GBInterval_to>
+            <GBInterval_accession>JN837698.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Circovirus-like NI/2007-3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>NI</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1148801</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Nicaragua</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>12-Dec-2007</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>54..&gt;572</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>54</GBInterval_from>
+            <GBInterval_to>572</GBInterval_to>
+            <GBInterval_accession>JN837698.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>rep protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFB35209.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTSCRWCFTVNNPKDTDHVTLSTLDCKYMIYAEETAPTTGTLHLQGYVVLSSPCSLSKMKKILPPGTHIEAAKGTTEQNIEYCSKEGWPVEYGTRPKTRAQIGEDNAARYADAIQAAKEGRMDDIPPDLRTKHYNTYKNIAKDYMPKPDSLAQTCGLWIYGPTGNVKIGRACN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctataagcgctcttccgatcttaaacccgctctgactctctgacaaaaacaaaatgacctcctgccgatggtgcttcacagtcaacaacccgaaagatacagatcacgtgacgctgtccactctggactgcaagtacatgatatatgccgaagaaactgccccgactacaggaacgctgcacttgcaagggtatgtagtgctttccagtccctgcagcctgtccaagatgaaaaagatactcccgcccggaacccacattgaagctgctaaaggaacgactgaacagaacattgaatactgttctaaagaaggatggcctgtagagtatggtactcgacccaaaacacgcgcccagatcggagaagacaatgccgccaggtacgctgatgcgatacaagccgctaaagaaggacgcatggatgatattcccccagacctgcggaccaaacattacaacacatacaaaaatattgccaaggattatatgcccaagccggactccctcgcccagacgtgtggactatggatctatggcccgactggaaacgtaaagatcggaagagcgtgcaat</GBSeq_sequence>
+  </GBSeq>

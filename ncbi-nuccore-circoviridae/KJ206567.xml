@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KJ206567</GBSeq_locus>
+    <GBSeq_length>1091</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>29-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Circovirus VS6600032 replication-associated protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ206567</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ206567.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ206567.1|</GBSeqid>
+      <GBSeqid>gi|667677344</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Circovirus VS6600032</GBSeq_source>
+    <GBSeq_organism>Circovirus VS6600032</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1091</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Smits,S.L.</GBAuthor>
+          <GBAuthor>Schapendonk,C.M.</GBAuthor>
+          <GBAuthor>van Beek,J.</GBAuthor>
+          <GBAuthor>Vennema,H.</GBAuthor>
+          <GBAuthor>Schurch,A.C.</GBAuthor>
+          <GBAuthor>Schipper,D.</GBAuthor>
+          <GBAuthor>Bodewes,R.</GBAuthor>
+          <GBAuthor>Haagmans,B.L.</GBAuthor>
+          <GBAuthor>Osterhaus,A.D.</GBAuthor>
+          <GBAuthor>Koopmans,M.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>New viruses in idiopathic human diarrhea cases, the Netherlands</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 20 (7) (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3201/eid2007.140190</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24964003</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1091</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Smits,S.L.</GBAuthor>
+          <GBAuthor>Schapendonk,C.M.E.</GBAuthor>
+          <GBAuthor>Schipper,D.</GBAuthor>
+          <GBAuthor>Bodewes,R.</GBAuthor>
+          <GBAuthor>Haagmans,B.L.</GBAuthor>
+          <GBAuthor>Osterhaus,A.D.M.E.</GBAuthor>
+          <GBAuthor>Koopmans,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-JAN-2014) Viroscience, Erasmus Medical Center, Dr Molewaterplein 50, Rotterdam 3015 GE, The Netherlands</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: DNAStar Lasergene v. 10 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1091</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1091</GBInterval_to>
+            <GBInterval_accession>KJ206567.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Circovirus VS6600032</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>VS6600032</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>diarrhea</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1525174</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Netherlands</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>497..&gt;1091</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>497</GBInterval_from>
+            <GBInterval_to>1091</GBInterval_to>
+            <GBInterval_accession>KJ206567.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>REP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIG71987.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDFENTRLRAACITTYQVDQIDSMDWDRILKTTPVTYVIAGKEVCPETGKIHYQMYMEFDRKVTVRQIKRILRDAAAHIEPRYGTADEAKLYCKKDGLWWEKGRSKIQGERNDLKDVYEGLKVGKSLLEIIEDHPGTFIRYFKGIERTLDIIRRDQQRREERISPTVIVYIGKSGTGKSHRCYNDPDYQASXYKYPCQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtggcttttaccagttccactcttgccgatgtatacgataacggtaggactaatacgttcttctcttctttgctgatcccttctgatgatatcgagagtacgctcgattcctttgaagtaccgaatgaaggttccaggatgatcttcgattatttctaacagtgacttccctactttcagaccttcgtacacatcttttaagtcgttgcgttctccttgtattttacttcttcctttttcccaycaactcgcgtataaccctaaggtaaaccttaggataaccctcgttgcccagaagtgtatagtattaccctgaccagaagtggagggtaatactatgtattaccacgggaaaattcgccgtaattttcggttggcgtaacgtaacccgaatcagctgacgaaactcccgatcagctgcgccattttattggctacgaacattcgaagaactttcacggttactaccatcaaaaaatttcataatttattttaaatggacttcgagaatactagactacgtgctgcctgtatcacaacgtatcaagttgaccaaattgactccatggactgggatcgaatcttgaaaacaacacctgtgacatacgtaatcgcggggaaagaggtatgtccagaaacggggaaaatccattaccaaatgtatatggaattcgatcgtaaagttactgtgcgtcaaatcaaacgtatattacgtgatgcagcagcgcatattgaaccaagatacggaacagcagatgaagctaaactttattgcaagaaagacggcctatggtgggaaaaaggaagaagtaaaatacaaggagaacgcaacgacttaaaagatgtgtacgaaggtctgaaagtagggaagtcactgttagaaataatcgaagatcatcctggaaccttcattcggtacttcaaaggaatcgagcgtactctcgatatcatcagaagggatcagcaaagaagagaagaacgtattagtcctaccgttatcgtatacatcggcaagagtggaactggtaaaagccacagatgttacaatgatccggattaccaagcgtcargatacaagtacccgtgtcaac</GBSeq_sequence>
+  </GBSeq>

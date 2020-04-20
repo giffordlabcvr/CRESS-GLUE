@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JX512859</GBSeq_locus>
+    <GBSeq_length>1767</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-MAR-2013</GBSeq_update-date>
+    <GBSeq_create-date>11-MAR-2013</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 2 isolate S05-1218, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>JX512859</GBSeq_primary-accession>
+    <GBSeq_accession-version>JX512859.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JX512859.1|</GBSeqid>
+      <GBSeqid>gi|459360783</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1767</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Weilenmann,R.</GBAuthor>
+          <GBAuthor>Zimmermann,D.</GBAuthor>
+          <GBAuthor>Brugnera,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Recombinant porcine circovirus 2</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1767</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Weilenmann,R.</GBAuthor>
+          <GBAuthor>Zimmermann,D.</GBAuthor>
+          <GBAuthor>Brugnera,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-AUG-2012) Department of Farm Animals, University of Zurich, Winterthurerstr. 268, Zurich, ZH 8057, Switzerland</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1767</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1767</GBInterval_to>
+            <GBInterval_accession>JX512859.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>S05-1218</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>tissue from PMWS diseased pig</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>pig</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:85708</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Switzerland</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2005</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: ecorif, fwd_seq: ccagaattcaaccttaacctttcttattc, rev_name: ecorir, rev_seq: gaataagaaaggttaaggttgaattctgg</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: pflmif, fwd_seq: gcaaatgggctgctaattttgcag, rev_name: pflmir, rev_seq: cacttcttcaccatggtaaccatcc</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: PCV2b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(join(1381..1767,1..315))</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>315</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>JX512859.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1767</GBInterval_from>
+            <GBInterval_to>1381</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>JX512859.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGG56656.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTYPRRRYRRRRHRPRSHLGQILRRRPWLVHPRHRYRWRRKNGIFNTRLSRTFGYTIKRTTVKTPSWAVDMMRFNINDFLPPGGGSNPRSVPFEYYRIRKVKVEFWPCSPITQGDRGVGSSAVILDDNFVTKATALTYDPYVNYSSRHTITQPFSYHSRYFTPKPVLDSTIDYFQPNNKRNQLWLRLQTTGNVDHVGLGTAFENSIYDQEYNIRVTMYVQFREFNLKDPPLNP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>399..1343</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>399</GBInterval_from>
+            <GBInterval_to>1343</GBInterval_to>
+            <GBInterval_accession>JX512859.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative replicase protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGG56655.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSKKNGRSGPQPHKRWVFTLNNPSEDERKKIRDLPISLFDYFIVGEEGNEEGRTPHLQGFANFVKKQTFNKVKWYLGARCHIEKAKGTDQQNKEYCSKEGNLLMECGAPRSQGQRSDLSTAVSTLLESGSLVTVAEQHPVTFVRNFRGLAELLKVSGKMQKRDWKTNVHVIVGPPGCGKSKWAANFADPETTYWKPPRNKWWDGYHGEEVVVIDDFYGWLPWDDLLRLCDRYPLTVETKGGTVPFLARSILITSNQTPLEWYSSTAVPAVEALYRRITSLVFWKNATEQSTEEGGQFVTLSPPCPEFPYEINY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(705..1019)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1019</GBInterval_from>
+            <GBInterval_to>705</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>JX512859.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative ORF3 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGG56657.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MVTIPPLVSRWFPVCGFRVCKISSPFAFTTPRWPHNDVYISLPITLLHFPAHFQKFSQPAEISDKRYRVLLCNGHQTPALQQGTHSSRQVTPLSLRSRSSTLHQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaattcaaccttaacctttcttattctgtagtattcaaagggtacagagcgggggtttgagccccctcctgggggaagaaagtcattaatattgaatcgcatcatgtccaccgcccaggagggcgttttgactgtggttcgcttgatagtatatccgaaggtgcgggagaggcgggtgttgaagatgccatttttccttctccagcggtaacggtggcgggggtggacgagccaggggcggcggcggaggatctggccaagatggctgcgggggcggtgtcttcttctccggtaacgcctccttggatacgtcatatctgaaaacgaaagaagtgcgctgtaagtattaccagcgcacttcggcagcggcagcacctcggcagcacctcagcagcaacatgcccagcaagaagaatggaagaagcggaccccaaccccataaaaggtgggtgttcactctgaataatccttccgaagacgagcgcaagaaaatacgggatcttccaatatccctatttgattattttattgttggcgaggagggtaatgaggaaggacgaacacctcacctccaggggttcgctaattttgtgaagaagcagacttttaataaagtgaagtggtatttgggtgcccgctgccacatcgagaaagcgaaaggaacagatcagcagaataaagaatactgcagtaaagaaggcaacttactgatggagtgtggagctcctagatctcagggacaacggagtgacctgtctactgctgtgagtaccttgttggagagcgggagtctggtgaccgttgcagagcagcaccctgtaacgtttgtcagaaatttccgcgggctggctgaacttttgaaagtgagcgggaaaatgcagaagcgtgattggaagactaatgtacacgtcattgtggggccacctgggtgtggtaaaagcaaatgggctgctaattttgcagacccggaaaccacatactggaaaccacctagaaacaagtggtgggatggttaccatggtgaagaagtggttgttattgatgacttttatggctggctgccctgggatgatctactgagactgtgtgatcgatatccattgactgtagagactaaaggtggaactgtaccttttttggcccgcagtattctgattaccagcaatcagaccccgttggaatggtactcctcaactgctgtcccagctgtagaagctctttatcggaggattacttccttggtattttggaagaatgctacagaacaatccacggaggaagggggccagttcgtcaccctttcccccccatgccctgaatttccatatgaaataaattactgagtcttttttatcacttcgtaatggtttttattattcattaagggttaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattgtattcctggtcgtatatactgttttcgaacgcagtgccgaggcctacgtggtctacatttccagtagtttgtagtctcagccacagctgatttcttttgttgtttggttggaagtaatcaatagtggaatctaggacaggtttgggggtaaagtagcgggagtggtaggagaagggctgggttatggtatggcgggaggagtagtttacataggggtcataggtgagggctgtggcctttgttacaaagttatcatctagaataacagcactggagcccactcccctgtcaccctgggtgatcggggagcagggcca</GBSeq_sequence>
+  </GBSeq>

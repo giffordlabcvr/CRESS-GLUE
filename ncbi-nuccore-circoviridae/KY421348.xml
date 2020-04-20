@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KY421348</GBSeq_locus>
+    <GBSeq_length>2000</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-NOV-2017</GBSeq_update-date>
+    <GBSeq_create-date>02-SEP-2017</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus 3 isolate PCV3-CHN/CC2016, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KY421348</GBSeq_primary-accession>
+    <GBSeq_accession-version>KY421348.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KY421348.1|</GBSeqid>
+      <GBSeqid>gi|1237407453</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus 3</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2000</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhai,S.L.</GBAuthor>
+          <GBAuthor>Zhou,X.</GBAuthor>
+          <GBAuthor>Zhang,H.</GBAuthor>
+          <GBAuthor>Hause,B.M.</GBAuthor>
+          <GBAuthor>Lin,T.</GBAuthor>
+          <GBAuthor>Liu,R.</GBAuthor>
+          <GBAuthor>Chen,Q.L.</GBAuthor>
+          <GBAuthor>Wei,W.K.</GBAuthor>
+          <GBAuthor>Lv,D.H.</GBAuthor>
+          <GBAuthor>Wen,X.H.</GBAuthor>
+          <GBAuthor>Li,F.</GBAuthor>
+          <GBAuthor>Wang,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Comparative epidemiology of porcine circovirus type 3 in pigs with different clinical presentations</GBReference_title>
+        <GBReference_journal>Virol. J. 14 (1), 222 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1186/s12985-017-0892-4</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29132394</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2000</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhai,S.-L.</GBAuthor>
+          <GBAuthor>Zhou,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-JAN-2017) Animal Disease Diagnostic Center, Institute of Animal Health, Guangdong Academy of Agricultural Sciences, No. 21 Baishigang Street, Wushan Road, Tianhe District, Guangzhou 510640, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: SeqMan v. DNAStar 7 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2000</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2000</GBInterval_to>
+            <GBInterval_accession>KY421348.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PCV3-CHN/CC2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>lung</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>swine</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1868221</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China: Jilin, Changchun</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2016</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>62..595</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>62</GBInterval_from>
+            <GBInterval_to>595</GBInterval_to>
+            <GBInterval_accession>KY421348.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ASV63295.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDAPHRVSGYTGQWMMKRPRVLMPQDGDWITEFLWCYECPEDKDFYCHPILGPEGKPETQVVFYDKQLDPDRVGIYCGVWRQYSEIPYYRQRGWKKRYPTLARVREFQEQKATQLGEALTRIWSGPSGAGEGEPQRGQRVLQERGGLPRDWRRFLFGYQIGSSSSSSDSDGDGGKSD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1336..1980)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1980</GBInterval_from>
+            <GBInterval_to>1336</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KY421348.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ASV63296.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MRHRAIFRRRPRPRRRRRHRRRYVRRKLFIRRPTAGTYYTKKYSTMNVISVGTPQNNKPWHANHFITRLNEWETAISFEYYKILKMKVTLSPVISPAQQTKTMFGHTAIDLDGAWTTNTWLQDDPYAESSTRKVMTSKKKHSRYFTPKPILAGTTSAHPGQSLFFFSRPTPWLNTYDPTVQWGALLWSIYVPEKTGMTDFYGTKEVWIRYKSVL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acccggcacctcggaacccggatccacggaggtctgtagggagaaaaagtggtatcccattatggatgctccgcaccgtgtgagtggatataccgggcagtggatgatgaagcggcctcgtgttttgatgccgcaggacggggactggataactgagtttttgtggtgctacgagtgtcctgaagataaggacttttattgtcatcctattctaggtccggagggaaagcccgaaacacaggtggtgttttacgataaacaactggacccagaccgagtgggaatctattgtggagtgtggaggcagtatagcgagataccttattatcggcaaagaggttggaaaaagcggtaccccacacttgcaagggtacgtgaatttcaagaacaaaaggcgactcagctcggtgaagcgcttacccggatttggtcgggcccatctggagccggcgagggggagccacaaagaggccagcgagtattgcaagaaagagggggattacctcgagattggcgaagattcctcttcgggtaccagatcggatcttcaagcagcagctcggattctgacggagacggcgggaaatctgactgaagttgcggagaagatgcctgcagtatttatacgctatgggcggggtttgcgtgatttttgcggggtgatggggttgggtaaaccgcgtgattttaaaactgaagtttatgtttttattggtcctccaggttgcgggaaaacgcgggaagcttgtgcggatgcggctgcgcgggaattgcagttgtatttcaagccacgggggccttggtgggatggttataatggggagggtgctgttattctggatgatttttatgggtgggttccatttgatgaattgctgagaattggggacaggtaccctctgagggttcctgttaagggtgggtttgttaattttgtggctaaggtattatatattactagtaatgttgtaccggaggagtggtattcatcggagaatattcgtggaaagttggaggccttgtttaggaggttcactaaggttgtttgttggggggaggggggggtaaagaaagacatggagacagtgtatccaataaactattgattttatttgcacttgtgtacaattattgcgttggggtgggggtatttattgggtcggtgggtgggcagccccctagccacggcttgtcgcccccaccgaagcatgtgggggatggggtccccacatgcgagggcgtttacctgtgcccgcacccgaagcgcagcgggagcgcgcgcgaggggacacggcttgtcgccaccggaggggtcagatttatatttattttcacttagagaacggacttgtaacgaatccaaacttctttggtgccgtagaagtctgtcattccagttttttccgggacataaatgctccaaagcagtgctccccattgaacggtggggtcatatgtgttgagccatggggtgggtctggagaaaaagaagaggctttgtcctgggtgagcgctggtagttcccgccagaattggtttgggggtgaagtaacggctgtgtttttttttagaagtcataactttacgagtggaactttccgcataagggtcgtcttggagccaagtgtttgtggtccaggcgccgtctagatctatggctgtgtgcccgaacatagtttttgtttgctgagccggagaaattacagggctgagtgtaactttcatctttagtatcttataatattcaaagctaatcgcagtttcccattcgtttaggcgggtaatgaagtggttggcgtgccagggcttgttattctgaggggttccaacggaaatgacgttcatggtggagtatttctttgtgtagtatgtgccagctgtgggcctcctaatgaatagttttcttctgacatagcgccttctgtggcgtcgtcgtctccttgggcgtggtcttcttctgaatatagccctgtgtctcattttggtgccgggctagtatt</GBSeq_sequence>
+  </GBSeq>

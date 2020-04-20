@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MA820822</GBSeq_locus>
+    <GBSeq_length>2000</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>29-MAR-2019</GBSeq_update-date>
+    <GBSeq_create-date>29-MAR-2019</GBSeq_create-date>
+    <GBSeq_definition>JP 2018535251-A/1: PORCINE CIRCOVIRUS TYPE 3 IMMUNOGENIC COMPOSITIONS AND METHODS OF MAKING AND USING THE SAME</GBSeq_definition>
+    <GBSeq_primary-accession>MA820822</GBSeq_primary-accession>
+    <GBSeq_accession-version>MA820822.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|MA820822.1|</GBSeqid>
+      <GBSeqid>pat|JP|2018535251|1</GBSeqid>
+      <GBSeqid>gi|1603745316</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2018535251-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus 3</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2000</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hause,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>PORCINE CIRCOVIRUS TYPE 3 IMMUNOGENIC COMPOSITIONS AND METHODS OF MAKING AND USING THE SAME</GBReference_title>
+        <GBReference_journal>JP2018535251-A 1 29-NOV-2018 Kansas State University Research Foundation,Ben Hause</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Porcine circovirus 3~PN JP 2018535251-A/1~PD 29-NOV-2018~PF 17-OCT-2016 JP 2018539250~PR 16-OCT-2015 US 62/242866~PA Kansas State University Research Foundation,Ben Hause~PI ben hause~PT 'PORCINE CIRCOVIRUS TYPE 3 IMMUNOGENIC COMPOSITIONS AND~PT METHODS OF MAKING~PT AND USING THE SAME'~PS N1~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2000</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2000</GBInterval_to>
+            <GBInterval_accession>MA820822.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1868221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acccggcacctcggaacccggatccacggaggtctgtagggagaaaaagtggtatcccattatggatgctccgcaccgtgtgagtggatataccgggcagtggatgatgaagcggcctcgtgttttgatgccgcaggacggggactggataactgagtttttgtggtgctacgagtgtcctgaagataaggacttttattgtcatcctattctaggtccggagggaaagcccgaaacacaggtggtgttttacgataaacaactggaccccgaccgagtgggaatctattgtggagtgtggaggcagtatagcgagataccttattatcggcaaagaggttggaaaaagcggtaccccacacttgcaagggtacgtgaatttcaagaacaaaaggcgactcagctcggtgaagcgcttacccggatttggtcgggcccatctggagccggcgagggggagccacaaagaggccagcgagtattgcaagaaagagggggattacctcgagattggcgaagattcctcttcgggtaccagatcggatcttcaagcagcagctcggattctgacggagacgtcgggaaatctgactgaagttgcggagaagatgcctgcagtatttatacgctatgggcggggtttgcgtgatttttgcggggtgatggggttgggtaaaccgcgtgattttaaaactgaagtttatgtttttattggtcctccaggatgcgggaaaacgcgggaagcttgtgcggatgcggctgcgcgggaattgcagttgtatttcaagccacgggggccttggtgggatggttataatggggagggtgctgttattttggatgatttttatgggtgggttccatttgatgaattgctgagaattggggacaggtaccctctgagggttcctgttaagggtgggtttgttaattttgtggctaaggtattatatattactagtaatgttgtaccggaggagtggtattcatcggagaatattcgtggaaagttggaggccttgtttaggaggttcactaaggttgtttgttggggggaggggggggtaaagaaagacatggagacagtgtatccaataaactattgattttatttgcacttgtgtacaattattgcgttggggtgggggtatttattgggagggtgggtgggcagccccctagccacggcttgtcgcccccaccgaagcatgtgggggatggggtccccacatgcgagggcgtttacctgtgcccgcacccgaagcgcagcgggagcgcgcgcgaggggacacggcttgtcgccaccggaggggtcagatttatatttattttcacttagagaacggacttgtaacgaatccaaacttctttggtgccgtagaagtctgtcattccagttttttccgggacataaatgctccaaagcagtgctccccattgaacggtggggtcatatgtgttgagccatggggtgggtctggagaaaaagaagaggctttgtcctgggtgagcgctggtagttcccgccagaagtggtttgggggtgaagtaacggctgtgtttttttttagaagtcataactttacgagtggaactttccgcataagggtcgtcttggagccaagtgtttgtggtccaggcgccgtctagatctatggctgtgtgcccgaacatagtttttgtttgctgagccggagaaattacagggctgagtgtaactttcatttttagtatcttataatattcaaaggtaattgcagtttcccattcgtttaggcgggtaatgaagtggttggcgtgccagggcttgttattctgaggggttccaacggatatgacgttcattgtggagtatttctttgtgtagtatgtgccagctgtgggcctcctaatgaatagtcgtcttctggcatagcgccttctgtggcgtcgtcgtctccttgggcggggtcttcttctgaatatagctctgtgtctcattttggtgccgggctagtatt</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KR704912</GBSeq_locus>
+    <GBSeq_length>3811</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>02-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>02-JUL-2016</GBSeq_create-date>
+    <GBSeq_definition>Chimpanzee faeces associated circular DNA virus 1 isolate CPNG_29286, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KR704912</GBSeq_primary-accession>
+    <GBSeq_accession-version>KR704912.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KR704912.1|</GBSeqid>
+      <GBSeqid>gi|859808648</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Chimpanzee faeces associated circular DNA virus 1</GBSeq_source>
+    <GBSeq_organism>Chimpanzee faeces associated circular DNA virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; unclassified Circoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3811</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Walters,M.</GBAuthor>
+          <GBAuthor>Bawuro,M.</GBAuthor>
+          <GBAuthor>Christopher,A.</GBAuthor>
+          <GBAuthor>Knight,A.</GBAuthor>
+          <GBAuthor>Chapman,H.</GBAuthor>
+          <GBAuthor>Stainton,D.</GBAuthor>
+          <GBAuthor>Kraberger,S.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Small circular DNA viruses identified in chimpanzee faeces from Nigeria</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3811</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Walters,M.</GBAuthor>
+          <GBAuthor>Bawuro,M.</GBAuthor>
+          <GBAuthor>Christopher,A.</GBAuthor>
+          <GBAuthor>Knight,A.</GBAuthor>
+          <GBAuthor>Chapman,H.</GBAuthor>
+          <GBAuthor>Stainton,D.</GBAuthor>
+          <GBAuthor>Kraberger,S.</GBAuthor>
+          <GBAuthor>Varsani,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-MAY-2015) School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch 8140, New Zealand</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: DNAbaser v. V4 ; Coverage :: complete ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3811</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3811</GBInterval_to>
+            <GBInterval_accession>KR704912.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Chimpanzee faeces associated circular DNA virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CPNG_29286</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Pan troglodytes</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1676184</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Nigeria</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2013</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1083</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1083</GBInterval_to>
+            <GBInterval_accession>KR704912.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKO71486.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSWLPYNTTGSQEGKNRMTKGQIQYSQVLLTYPQCDRSKEELLKFIQGLDDICCAIVAKENHHETDGEHLHAWIRFNKSQRIATSKWGSLFDWDGKHGDYQKVTCTQRSIADTVTYVMKDGDTLIWNCNAEALKCKEKTHIRKYDNEKILNTPMKELIDEGVINVKEAAAYLRGKQLYKLLDKPAEKSKCRGIWVSGRPGTGKSTWAQKFGKSLGGFYEKAQNKWWDGYDGEKVVVMDDVDTDALIHYMKIWADKFPCKGEIKGCTVWLHHDWFIVTSNFTIEEICEMKQDGYKYVDAVKRRFKELHVPDTVQYLQWDPDFVWENPDAPDEEPHQEPTAPEPKRQPVDELSNTLLGSGY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1792..2514)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2514</GBInterval_from>
+            <GBInterval_to>1792</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KR704912.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKO71487.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSLVTPRGKYTRDVRTTPRTPQYQLTGRKLVRYFVSGSVGNTFDTRYSGYLPYHLSYDVKRKEGVLQRKDPEVSSATVFRDSSILPYALPGLTTGCSTELDFLAAQLSGSVRVRVPALYRISDTWVIDDLGRFYRAGPSGYTWFQYRLSGDFRNEVTLRNDDGTYLRRSAYFFAGVAGYVPHLQEHFVFSLKYDFHHIAENKLDLRPDSIVPLEVDLHRYVHSKDLRSEVGKFFRQSKQF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(2550..3644)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>3644</GBInterval_from>
+            <GBInterval_to>2550</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KR704912.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative CP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKO71488.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAYSTFYKNRFSAYRRARSSRRWNSGSRRRAWGNSKAARQQRDAATVTISRIATTQVTVLSGTQTAAEVINHWNNLRLSTYFGNYAPMYDQMKLDKIRIKVTGSQSGTAMTANWSPSIVLAFDRNGLTTGQQMTSDVVSTYSSAQLKQWSTGNAFTMYQTIYPSTIMEKGMYIPTESLQDPLTVADATNPCYNYASSTLPFKPLTLLAVDMGGNLESSNTFAFTIEYEYTVTFRGMRKPSLSYVSSVVTVDSFGAASTKFPFSSMAYAAENISVTLPTYTLLLAFNTEPDDYIEVRVYSSSNTTLSITVPGDCYYGYISSTSTNTLATLYSGEDVVLSLSDPSADRYPTILRLSKSNYEFSIPN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgccctcttggctcccttataatactacaggtagccaggagggtaaaaacagaatgaccaaaggtcaaattcagtatagtcaagttttgctcacatatccacaatgtgacagaagcaaggaagaactcttaaagttcatacaaggtctcgacgacatatgttgcgccatagtcgcaaaggaaaaccatcacgagacagacggcgaacacctacacgcatggataaggttcaataaatctcagagaatcgcaacaagcaaatggggaagtctgttcgactgggatggtaaacacggagattatcagaaagtcacgtgcacacaaaggtcgatagcagataccgtaacatatgtcatgaaagacggggacacgcttatatggaattgcaacgcagaagcattgaagtgcaaagaaaagactcacatacgtaagtacgataacgaaaagatactcaacacaccgatgaaagaactcatcgatgaaggagtcattaacgtcaaagaagcagcagcttacctgcgcggcaagcaactatacaagctactggataaacctgcagaaaaatccaaatgcagaggcatctgggtatcaggacgccccggaacaggcaaatcgacatgggcacaaaagttcggaaaaagcctaggcggattctacgagaaagcgcagaacaagtggtgggacggatacgatggagagaaagtcgttgtcatggatgacgttgacaccgatgccctgattcattacatgaaaatatgggcagacaaattcccctgcaagggagagatcaaaggatgcaccgtgtggctacaccacgactggttcatcgtgacctctaacttcaccatagaagaaatatgcgaaatgaaacaagacggatacaaatacgtcgatgcggtgaagcgtcgcttcaaggaactacacgttcctgacactgttcagtatctccaatgggatcctgatttcgtctgggagaatccagatgctcctgacgaagagccccatcaagagcctacggctcccgaaccgaaacgtcaaccagttgacgagctttccaacaccctactcggttccggctattaagtaaagtctttagcagcatgcccttgcctacttcattcccgttttctccttcactgtctagatcactgcgtttagatagccttcctgcgccttcgttccgagtcttagggtctctctactatccagcttgtttcaatgtccattcacgttacggctggcggttccagcagcgaaatacgtacttagcctcctcctcacatatactgcacctacatatggacaacggctccttctacttcattcccgttttctccttcactgtctagatcactgcgtttagatagccttcctgcgccttcgttccgagtcttagggtctctctactatccagcttgtttcaatgtccattcacgttacggctggcggttccagcagcgaaatacgtacttagcctcctcctcacatatactgcacctacatatggacaacggctccttggtcttcgagccattccgttatccacatcggcaccctttattccagtattacgccttcgccagacacctcatattcccagcttatttccgagtcgataaactggctcgtagacactcaccattattcagcggctgcatacttcgcctccctgaataactaaaggtagcttcgctctcggcctctttttctttcggagctgggaaaattcagttatctttcaatttcatcttttaccctaaagaatatccagtatgtcgcctacgcattaaactagaactgtttactttgacggaagaacttgcctacttcactcctgagatctttggaatgcacataacgatgcaaatctacttctagaggcactatactatcaggtcggaggtccagtttattttcagcgatatgatggaagtcatacttaagagagaacacaaaatgctcttgcaaatgaggaacataaccagctacacctgcaaagaaatatgcactacgtctcagataagtaccatcatcattacgcaacgtcacttcgtttctgaaatctcctgacaatctgtactgaaaccaggtataacctgagggtccggcacgataaaaccgtccaaggtcatcaatgacccaagtgtcagatatcctgtacagggcgggaactctaacgcgaacggatccagatagttgggctgcgagaaaatcgagttcggtagaacatccggtagtgagtcctggaagggcatacggtaagatgctgctgtctctaaagactgtggcggaggacacttctggatcttttctttgaagaactccttcttttcgcttaacgtcgtagctaaggtggtatgggaggtagccagaatatcttgtgtcgaaggtatttccgacactcccggaaacaaagtatcgaacgagcttacgacccgtgagctgatactggggtgtacgcggcgtggtacgaacatctctggtgtatttacctcgaggagttactaaagacatctaaaaaggaaaagggagaataaatggcgtatcatttaattcggtatggaaaattcataattagatttggagagacgaagaattgtaggataacgatctgctgaaggatctgagagagataaaacaacatcttctccggagtacaatgtggcaagcgtgtttgtagatgtggaagaaatataaccataataacaatcacctggaactgtaatggataaggtggtgttacttgaagaataaacgcgaacttcaatatagtcatcgggttcggtgttgaaagcaagaaggagagtataagtaggaagagttactgaaatattttcagcagcatatgccatagatgaaaatggaaacttggtggaggcagctccgaaagagtcaacggtaacaacagaggaaacataactcaaagaaggtttacgcattcccctgaatgtcactgtatactcatactcaatggtaaaggcaaaggtgttagaggattctaaattgcctcccatatcaacagcgagaagtgtcaagggcttaaatggaagagtgctagacgcataattgtagcacgggttagtagcatcagctacagtaagcgggtcctgaagagactcggtaggtatatacatacccttctccataatcgtggacggataaatagtctgatacatagtgaacgcattaccggtagaccactgcttgagctgggcgctagaataagtactaaccacatcagaagtcatttgctggccagtagttaatccatttctgtcgaatgccagcactatagaaggagaccaatttgcagtcatagcagtacctgattgagaaccagtgaccttaatacggatcttatccaacttcatctgatcatacatgggcgcataattaccgaaatatgtagacaaacgcaagttgttccaatgattaataacctcagcagcagtctgagttccagagagaacggtaacctgagtcgtcgctatacgggagattgtgacggttgcggcgtcacgttgctgcctggcagctttggagttgccccaggctctcctgcgagatccagagttccatctgcggctggaacgggcgcggcggtatgcggagaagcggttcttgtagaacgttgaatatgccatctataacaacaccttacgggtatgtcgatatctatgtctggagacatatagaagagctaacgggaataaatggcaagtcagattcatttatttccaagaattaattcggttcgaattaaatagcctgatggggcaaaatagcaaaacaaattcgggcaaaagccctc</GBSeq_sequence>
+  </GBSeq>

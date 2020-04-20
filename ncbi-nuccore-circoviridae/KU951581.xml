@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KU951581</GBSeq_locus>
+    <GBSeq_length>1111</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>21-NOV-2019</GBSeq_update-date>
+    <GBSeq_create-date>07-FEB-2017</GBSeq_create-date>
+    <GBSeq_definition>Eel circovirus putative capsid protein gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KU951581</GBSeq_primary-accession>
+    <GBSeq_accession-version>KU951581.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KU951581.1|</GBSeqid>
+      <GBSeqid>gi|1139869896</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Eel circovirus</GBSeq_source>
+    <GBSeq_organism>Eel circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1111</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Borzak,R.</GBAuthor>
+          <GBAuthor>Sellyei,B.</GBAuthor>
+          <GBAuthor>Szekely,C.</GBAuthor>
+          <GBAuthor>Doszpoly,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular detection and genome analysis of circoviruses of European eel (Anguilla anguilla) and sichel (Pelecus cultratus)</GBReference_title>
+        <GBReference_journal>Acta Vet. Hung. 65 (2), 262-277 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1556/004.2017.026</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28605966</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1111</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Borzak,R.</GBAuthor>
+          <GBAuthor>Sellyei,B.</GBAuthor>
+          <GBAuthor>Szekely,C.</GBAuthor>
+          <GBAuthor>Doszpoly,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-MAR-2016) Institute for Veterinary Medical Research, Centre for Agricultural Sciences, Hungarian Academy of Sciences, Hungaria 21, Budapest 1143, Hungary</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1111</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1111</GBInterval_to>
+            <GBInterval_accession>KU951581.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Eel circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Anguilla anguilla</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1941417</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Hungary</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>117..884</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>117</GBInterval_from>
+            <GBInterval_to>884</GBInterval_to>
+            <GBInterval_accession>KU951581.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>APZ87909.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MRRTVTEDGPPARRARPNSASRRAFGKSSYSRVARIPRNVGGPGLNSVHRFTKIAQGDVQMNDLGFGIGAAISNRFAIQFNMQSASFSINNTGATITYNIPGFVELAALFDQVMIEKVVVKFTFNCDPQLVTQQGGTYQTQSVPILYQAIDFNDASVPASVTDIMQYSSVKSAILGATRGPIVRAVKPMFAQIVYASAVGSSYRATRGFLQKDVDVPHYGMKGFVTTPNPATGGALAIGKLSLEFKYHYACKNVI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acctcctgtcctagagatcactgatcaaatttagacccttgtgatcaagcctaaattcctagagttcctgcggcagaatgccaaagggctattcatgtcattaattaaaaacttaaatgcgtcgtacagttactgaagatggtcctcctgctcgtcgtgctcgccctaacagcgcaagtcgccgtgctttcggtaagtcaagttattcgcgtgtggcgagaattccaagaaacgtcggcgggccgggattgaactcggttcatcgcttcactaagattgctcaaggcgatgttcaaatgaacgaccttgggtttggtattggggctgctataagcaatagattcgccattcaatttaatatgcaatccgcaagtttttctattaataacaccggtgccactatcacgtataatataccggggtttgttgagttggctgcgttattcgatcaggttatgattgagaaagttgttgtgaagtttactttcaattgtgatccgcagttrgtaactcagcaaggtggtacttatcagactcagtctgttcctattctgtatcaagctattgatttcaatgatgcatcggttccggcgagtgtaactgacattatgcagtattcgtcagttaagtctgcaatattgggtgccacacgtggtcctattgttagggctgtcaagcctatgtttgcgcagattgtttatgctagtgccgtaggcagtagttatcgcgcaactcgaggttttttgcaaaaagacgttgacgttcctcattatggaatgaaggggtttgtgacaacccctaatccggctactggcggtgctttggcaattggcaaattatcgttagagtttaagtatcattatgcttgtaaaaatgtaatctaaaaaaataacaagaaaaatacaagtcgcaaaaactggcgcccggggggccccgcggctcgtctcgagcggggtccgggcaagacaaaaacccccatatgcaaataattgcaaaaaaagaaaaaaaaatatcacgatctcggaactaggatgagcagtactattattacctgctctcctagagatcgaagatcaaaaagtgtaacggttttggacaggagtacagtatt</GBSeq_sequence>
+  </GBSeq>

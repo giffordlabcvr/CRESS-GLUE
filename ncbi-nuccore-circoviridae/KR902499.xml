@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KR902499</GBSeq_locus>
+    <GBSeq_length>1843</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-JUN-2015</GBSeq_update-date>
+    <GBSeq_create-date>30-JUN-2015</GBSeq_create-date>
+    <GBSeq_definition>Cyclovirus Equ1, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KR902499</GBSeq_primary-accession>
+    <GBSeq_accession-version>KR902499.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KR902499.1|</GBSeqid>
+      <GBSeqid>gi|850199433</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Cyclovirus Equ1</GBSeq_source>
+    <GBSeq_organism>Cyclovirus Equ1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Cyclovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1843</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Li,L.</GBAuthor>
+          <GBAuthor>Giannitti,F.</GBAuthor>
+          <GBAuthor>Low,J.</GBAuthor>
+          <GBAuthor>Keyes,C.</GBAuthor>
+          <GBAuthor>Ullmann,L.S.</GBAuthor>
+          <GBAuthor>Deng,X.</GBAuthor>
+          <GBAuthor>Aleman,M.</GBAuthor>
+          <GBAuthor>Pesavento,P.A.</GBAuthor>
+          <GBAuthor>Pusterla,N.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Exploring the virome of diseased horses</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. (2015) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/vir.0.000199</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26044792</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1843</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Li,L.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (19-MAY-2015) Department of Laboratory Medicine, University of California, San Francisco, Blood Systems Research Institute, 270 Masonic Ave, San Francisco, CA 94118, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.0 ; Sequencing Technology :: Sanger dideoxy sequencing; Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1843</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1843</GBInterval_to>
+            <GBInterval_accession>KR902499.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Cyclovirus Equ1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>horse 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Equus caballus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1673638</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>10-Oct-2012</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..816</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>816</GBInterval_to>
+            <GBInterval_accession>KR902499.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Rep protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKN50607.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAQKKGWCFTYNNYDEQTLNGIFNRCEDICKFIVVGKEVCPTTGTKHLQGYCLFNERKRFASVKEAIGGKSHIEPAKGSPQQNYDYCTKSGDYETRGTLPKGKYSTLYMVCEELKSGTPLRTIALNEPETFVRHHRGLQRFTEILGESTLRDWKTEVIVYIGETGTGKSRKCAELCGSTPTYYKPRGKWWDGYTGQPNVIIDDFYGWIKYDELLRITDRYPHRVPVKFGYQQFLAKTIYITSNKPMKEWYTFDISALERRITNVTLFKKLK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(823..1629)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1629</GBInterval_from>
+            <GBInterval_to>823</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KR902499.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Cap protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKN50608.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAFRRRRTYRRRLPRRPRYVITKRFRPRYQRQRYRTRKQLNAGDKYFTRMHYSSELRIVANDPSTYSRQMRIYMSWFSNFIDFNQNWSQYKVHKIVMKFTPMFNNTQVNDAVGNYAVAVMNTGLGFGGTDENSSTIIEENRMSYEQLVAIPSTKIRKATKAVTLVFKPKIANTTGVVLGESSYVHNNNLIYHPWISTLRASTNANKVPQLYGAYFAHQGTANEAVPQEINYMVDVFAYVTFKGYRLPVSSKQKIRQLNPVPEPDMTDM</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctcagaagaaaggttggtgctttacatacaacaattacgacgaacaaactctcaatggaattttcaaccgatgcgaagatatttgtaaatttattgtggtcgggaaagaagtatgtcctacaacgggaactaaacaccttcagggatactgcctattcaatgaacggaagcgttttgcaagtgttaaagaagcaattggtggcaagtcccacattgaaccagctaaaggaagtcctcaacagaattatgattattgtacaaaatcgggcgattatgaaacgaggggaacacttccaaaggggaaatattcaactctgtatatggtatgcgaagaacttaaatctggaactccgttacgaaccatcgctcttaacgaacccgaaacttttgtcagacatcaccgaggcttacaaagatttactgaaattttgggcgaatcaaccttgcgagactggaagactgaagttattgtctacattggcgaaacgggaacaggaaaatcacgaaaatgtgcagaactatgtggatcaacacctacctactataagcctagagggaagtggtgggatggttacaccggacaacccaatgtcatcattgatgacttttatggatggattaaatacgatgaactgctacgaattactgacagatacccccatagagtccctgtgaaatttggctatcaacaattcctagctaaaactatttatataacctctaataaacctatgaaagaatggtacacctttgacataagtgctctcgaaagacgtataacaaatgtaactttatttaagaaattaaaataaaactttttacatatcggtcatatctggttcgggaacaggatttaattgcctaattttttgtttgctactaacaggtaacctatatcccttaaacgtaacgtatgcgaacacgtcaaccatataatttatttcttgaggaacagcttcatttgcagtgccttgatgcgcaaagtatgctccgtataactgcggtactttgtttgcattagtagacgctcgtagagtagatatccatgggtgatagataagattgttgttatgaacataactgctctctcctagaactacacctgtagtgtttgctatttttggtttgaagactagagttacggccttggttgcttttcttatcttagttgatggtattgcgactaactgctcgtatgacatgcgattttcttctattattgtagatgaattctcgtccgtccccccgaaacctaaccctgtgttcattacagccactgcgtagtttcctactgcgtcattaacttgcgtgttgttgaacataggagtaaacttcataactattttatgaactttgtattgactccaattttgattgaagtcaataaaatttgaaaaccacgacatatagatcctcatttgcctagagtaagtagagggatcgttagctacgatcctaagctcagaggagtaatgcatgcgagtaaaatatttatcgcctgcgtttaattgcttccttgtccgataacgttgccgttggtaacgcggacgaaagcgcttggtgataacgtatcgtggccgacgcggcaagcgtcgacgatacgtccgtctccgtcggaaggccatgatgaaatgaaacgactcagttgagccgattccttttataacctctgagtcgatgagtcgcttggcggggtaatactatacccgccaagagagacgactcaggggcgctgcgcgtgcgcgagagattgaggccacgcccacaggtgctgccgcacctgtgtgcgttgcttaaaaagcgcttcgcgcaaaggtctgttgctagtgatgatgattg</GBSeq_sequence>
+  </GBSeq>

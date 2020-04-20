@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MN171332</GBSeq_locus>
+    <GBSeq_length>1822</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-FEB-2020</GBSeq_update-date>
+    <GBSeq_create-date>11-FEB-2020</GBSeq_create-date>
+    <GBSeq_definition>Goose circovirus strain GoCV/616/GD/2018, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MN171332</GBSeq_primary-accession>
+    <GBSeq_accession-version>MN171332.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MN171332.1|</GBSeqid>
+      <GBSeqid>gi|1806102473</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Goose circovirus</GBSeq_source>
+    <GBSeq_organism>Goose circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1822</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chen,J.</GBAuthor>
+          <GBAuthor>Zhang,J.</GBAuthor>
+          <GBAuthor>Chen,J.</GBAuthor>
+          <GBAuthor>Chen,G.</GBAuthor>
+          <GBAuthor>Wu,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-JUL-2019) College of Life Science and Engineering, Foshan University, Jiangwan Road, Chancheng Dist, Foshan, Guangdong 528000, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1822</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1822</GBInterval_to>
+            <GBInterval_accession>MN171332.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Goose circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>GoCV/616/GD/2018</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>goose</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:146032</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China: Guangdong</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>16-Jun-2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>73..954</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>73</GBInterval_from>
+            <GBInterval_to>954</GBInterval_to>
+            <GBInterval_accession>MN171332.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative rep protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QHW04712.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAKSSNYAYKRWVFTINNPTFEDYCAVVEFCNLDNCKFAIVGEEKGEREGTPHLQGFLSLRKNAKAAALEEKLGGRAWLSRARGSDEDNEEYCSKESTYLRVGEPNRKGRSSDLSDAASDVLAGLPITDVARKYPTTYVMFGRGLERLRQLIVETARDWKTEVIVLIGRPGSGKSRYAFEFPAREKYYKSRGKWWDGYNGQDVVVMDDFYGWLPYDDLLRICDRYPLRVEYKGGMTQFVSKTLIITSNREPRDWYKCECDVSALYRRINQYLILTPDGYAPAPDFMLPFPINY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1009..1761)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1761</GBInterval_from>
+            <GBInterval_to>1009</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MN171332.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative cap protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QHW04713.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPLYRARPRSLYYRRRRATNRRRRYRRRRLHIGRIRSKYTIFNVKQTQNISFTFFGTGSPDKNKWQAMSLEAIQSSGTSPKPGINLRFAVFGDRLPGTGNQYHYPFDYYMIRLVKVELRPAFNPFTRVRTQGSTYIDKEGNITTTTSGSEWNVDPYAAMSSRKTWSPHRYHKRVFIPKPTIQQGGTGSNIWSTWYTPGGRQLWLNSIQDNVVFYGMGMSLRQAEDTAAPLTVEATITYYIRFGQWTGLAP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accggcgcctgtactccgtactccgcgctctacggggaagccgctcgccgcactcaagcagccagcctgaccatggcgaaaagcagcaactacgcttacaagaggtgggtcttcacgattaataaccctacctttgaagattattgtgcagttgtcgagttctgcaatctggataactgcaagttcgcgattgttggcgaagaaaaaggggagagagaagggacacctcacctgcagggattcctgagtctgcgaaagaatgcgaaagctgctgcgcttgaagagaagctgggaggaagagcctggctgtctcgagctcggggatctgacgaagataacgaagaatattgttccaaagagtcgacataccttcgagtcggtgaaccaaaccgaaaaggtcgctccagtgatctctccgacgcggcatccgacgtgctcgcaggtctgccgataactgacgtggcccggaagtacccgacgacttatgtaatgtttgggcggggcttagagcgattgcgtcagctgatcgttgagaccgctcgtgattggaagacggaggtcatcgttctgattggtcggcctggaagcgggaagagtcgttacgcgttcgaatttcccgcgcgtgaaaagtattataaatctcgcgggaagtggtgggatggctataatgggcaggatgtggttgtgatggatgatttttatgggtggctcccttacgatgaccttttaaggatctgtgatcgctatcctttaagggttgaatacaagggtggtatgacccagttcgtatctaagacccttataattacttctaatagggagcctcgtgattggtataaatgcgagtgtgatgtgtccgcattgtatcggagaattaatcagtacctgatattaaccccggacggatacgcgcccgcccccgattttatgctgccgttcccaataaactactagagtcctggttaaggtttgaataaggaacgtttattgtgtaaaattacaataaatttatggtgcaagcccagtccattgtccgaatcttatgtaataggtaatggttgcctctactgtcagaggtgctgctgtgtcctcggcttgtcttagtgacatacccattccgtagaataccacgttgtcttgaatcgagtttagccatagttgtcttcctcctggtgtgtaccaggtgctccatatgttactccctgtccccccctgctggatggttggtttcgggataaatacccttttatggtatctgtgaggtgaccatgtcttcctggagctcattgctgcgtatgggtctacgttccattctgagccgctggttgtggttgtgatgttgccttctttgtctatgtatgtgctgccttgtgtgcgtactcgtgtgaaggggttaaatgccggacggagttcgacctttaccaatcttatcatatagtaatcgaatggataatggtattggttacccgttcccggcaatctgtctccgaagactgcgaagcgtaggttaattcctggtttggggcttgttcctgatgattgtatcgcttccaggctcattgcctgccatttgtttttgtctgggcttccggttccgaagaaggtgaaggagatgttctgtgtttgtttgacgttgaagatggtgtactttgaccttattcgtccgatgtgtagccttcgtcgtctgtatcgtcgtctccggttggttgcccgcctacgacgataatatagactccgcggtctcgcgcgatacagcggcatgatgggcagtggcttcctgtgggcggggacagaaaccgttacaggcgccgtatatattatt</GBSeq_sequence>
+  </GBSeq>

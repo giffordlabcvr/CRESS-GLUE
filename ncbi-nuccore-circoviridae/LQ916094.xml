@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LQ916094</GBSeq_locus>
+    <GBSeq_length>1773</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>09-NOV-2018</GBSeq_update-date>
+    <GBSeq_create-date>09-NOV-2018</GBSeq_create-date>
+    <GBSeq_definition>Sequence 2 from Patent EP3388515</GBSeq_definition>
+    <GBSeq_primary-accession>LQ916094</GBSeq_primary-accession>
+    <GBSeq_accession-version>LQ916094.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|LQ916094.1|</GBSeqid>
+      <GBSeqid>pat|EP|3388515|2</GBSeqid>
+      <GBSeqid>gi|1511350915</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1773</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>MENG,X.</GBAuthor>
+          <GBAuthor>FENAUX,M.</GBAuthor>
+          <GBAuthor>HALBUR,P.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>CHIMERIC INFECTIOUS DNA CLONES OF PORCINE CIRCOVIRUS AND USES THEREOF</GBReference_title>
+        <GBReference_journal>EP3388515-A1 2 17-OCT-2018 VIRGINIA TECH INTELLECTUAL PROPERTIES INC [US], IOWA STATE UNIV RESEARCH FOUNDATION INC [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1773</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1773</GBInterval_to>
+            <GBInterval_accession>LQ916094.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..1773</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1773</GBInterval_to>
+            <GBInterval_accession>LQ916094.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Sequence present in claims 2, 3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggtacctccgtggattgttctccagcagtcttccaaaattgcaaagtagtaatcctccgatagagagcttctacagctgggacagcagttgaggagtaccattcctggggggcctgattgctggtaatcaaaatactgcgggccaaaaaaggaacagtaccccctttagtctctacagtcaatggataccggtcacacagtctcagtagatcatcccaaggtaaccagccataaaaatcatccaaaacaacaacttcttctccatgatatccatcccaccacttatttctactaggcttccagtaggtgtccctaggctcagcaaaattacgggcccactggctcttcccacaaccgggcgggcccactatgacgtgtacagctgtcttccaatcacgctgctgcatcttcccgctcactttcaaaagttcagccagcccgcggaaatttctcacatacgttacaggaaactgctcggctacagtcaccaaagaccccgtctccaaaagggtactcacagcagtagacaggtcgctgcgcttcccctggttccgcggagctccacactcgataagtatgtggccttctttactgcagtattctttattctgctggtcggttcctttcgctttctcgatgtggcagcgggcaccaaaataccacttcaccttgttaaaagtctgcttcttagcaaaattcgcaaacccctggaggtgaggagttctaccctcttccaaaccttcctcgccacaaacaaaataatcaaaaagggagattggaagctcccgtattttgtttttctcctcctcggaaggattattaagggtgaacacccacctcttatggggttgcgggccgcttttcttgcttggcattttcactgacgctgccgaggtgctgccgctgccgaagtgcgctggtaatactacagcagcgcacttctttcacttttataggatgacgtatccaaggaggcgttaccgcagaagaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgctaccgttggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactgtcaaggctaccacagtcagaacgccctcctgggcggtggacatgatgagatttaatattgacgactttgttcccccgggaggggggaccaacaaaatctctataccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctcccccatcacccagggtgataggggagtgggctccactgctgttattctagatgataactttgtaacaaaggccacagccctaacctatgacccatatgtaaactactcctcccgccatacaatcccccaacccttctcctaccactcccgttacttcacacccaaacctgttcttgactccaccattgattacttccaaccaaataacaaaaggaatcagctttggatgaggctacaaacctctagaaatgtggaccacgtaggcctcggcactgcgttcgaaaacagtatatacgaccaggactacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaaaccctaaatgaataaaaataaaaaccattacgatgtgataacaaaaaagactcagtaatttattttatatgggaaaagggcacagggtgggtccactgcttcaaatcggccttcgggtacc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JN040277</GBSeq_locus>
+    <GBSeq_length>648</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-FEB-2016</GBSeq_update-date>
+    <GBSeq_create-date>02-NOV-2011</GBSeq_create-date>
+    <GBSeq_definition>Porcine circovirus HAHZ/China/2011 clone HAHZ ORF1 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>JN040277</GBSeq_primary-accession>
+    <GBSeq_accession-version>JN040277.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JN040277.2|</GBSeqid>
+      <GBSeqid>gi|984697925</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine circovirus HAHZ/China/2011</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus HAHZ/China/2011</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..648</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wen,L.</GBAuthor>
+          <GBAuthor>He,K.</GBAuthor>
+          <GBAuthor>Yu,Z.</GBAuthor>
+          <GBAuthor>Mao,A.</GBAuthor>
+          <GBAuthor>Ni,Y.</GBAuthor>
+          <GBAuthor>Zhang,X.</GBAuthor>
+          <GBAuthor>Guo,R.</GBAuthor>
+          <GBAuthor>Li,B.</GBAuthor>
+          <GBAuthor>Wang,X.</GBAuthor>
+          <GBAuthor>Zhou,J.</GBAuthor>
+          <GBAuthor>Lv,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete Genome Sequence of a Novel Porcine Circovirus-Like Agent</GBReference_title>
+        <GBReference_journal>J. Virol. 86 (1), 639 (2012)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.06469-11</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22158848</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..648</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>He,K.</GBAuthor>
+          <GBAuthor>Yang,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (31-MAY-2011) Institute of Veterinary Medicine, Jiangsu Academy of Agricultural Sciences, Zhongling Street 50, Xiaolingwei, Nanjing, Jiangsu 210014, China</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..648</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>He,K.</GBAuthor>
+          <GBAuthor>Yang,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-FEB-2016) Institute of Veterinary Medicine, Jiangsu Academy of Agricultural Sciences, Zhongling Street 50, Xiaolingwei, Nanjing, Jiangsu 210014, China</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Feb 1, 2016 this sequence version replaced JN040277.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..648</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>648</GBInterval_to>
+            <GBInterval_accession>JN040277.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus HAHZ/China/2011</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1105337</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>HAHZ</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>19-May-2011</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(77..421)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>421</GBInterval_from>
+            <GBInterval_to>77</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>JN040277.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>ORF1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AER35098.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MMRFNIDDFVPPGGGTNKISIPFEYYRIRKVKVEFWPCSPITQGDRGVGTTAVILDDNFVPKATAQTYDPYVTTPPAIQSPNPSPTTPVTSHPNLFLTPLLITSNQITKGISFG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtcctggtcgtatatactgttttcgaacgcagtgccgaggcctacgtggtctacatttctagaggtttgtatcctcagccaaagctgattccttttgttatttggttggaagtaatcaatagtggagtcaagaacaggtttgggtgtgaagtaacgggagtggtaggagaagggttgggggattgtatggcgggaggagtagttacatatgggtcataggtttgggccgtggcctttggtacaaagttatcatctagaataacagcagtggtgcccactcccctatcaccctgggtgatgggggagcagggccagaattcaaccttaacctttcttattctgtagtattcaaagggtatagagattttgttggtcccccctcccgggggaacaaagtcgtcaatattaaatctcatcatgtccaccgccctggagggcgttctgactgtggtagccttgatagtatatccgaaggtacgggagaggcgggtgttgaagatgccatttttccttctccaacggtagcggtggcgggggtggacgagccaggggcggccgttactagtggatcctcatttagggtttaagtggggggtctttaagattaaattctctgaattgtacatacatggttacacggatattg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG740715</GBSeq_locus>
+    <GBSeq_length>3226</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-OCT-2018</GBSeq_update-date>
+    <GBSeq_create-date>24-OCT-2018</GBSeq_create-date>
+    <GBSeq_definition>Ecklonia radiata-associated virus 4 Rep-A and capsid-like protein genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MG740715</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG740715.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG740715.1|</GBSeqid>
+      <GBSeqid>gi|1493634226</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Ecklonia radiata-associated virus 4</GBSeq_source>
+    <GBSeq_organism>Ecklonia radiata-associated virus 4</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; unclassified Circoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3226</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Beattie,D.T.</GBAuthor>
+          <GBAuthor>Lachnit,T.</GBAuthor>
+          <GBAuthor>Dinsdale,E.A.</GBAuthor>
+          <GBAuthor>Thomas,T.</GBAuthor>
+          <GBAuthor>Steinberg,P.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Novel ssDNA Viruses Detected in the Virome of Bleached, Habitat-Forming Kelp Ecklonia radiata</GBReference_title>
+        <GBReference_journal>Frontiers in Marine Science 4, 441 (2018)</GBReference_journal>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3226</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Beattie,D.T.</GBAuthor>
+          <GBAuthor>Lachnit,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-DEC-2017) BEES, University of New South Wales, High St, Sydney, NSW 2000, Australia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: SPAdes v. 3.6.0 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3226</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3226</GBInterval_to>
+            <GBInterval_accession>MG740715.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Ecklonia radiata-associated virus 4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Ecklonia radiata</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2480194</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Australia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Jun-2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>959..1873</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>959</GBInterval_from>
+            <GBInterval_to>1873</GBInterval_to>
+            <GBInterval_accession>MG740715.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Rep-A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AYM54669.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSVPSSTRAKRWVFTLNNHTEGEVQLLADLLTSEHVSYGIFGREVGESGTPHLQGYCIFSDRKSFNQVRALLGERYHVEVSRGTPSQASQYCKKDGDFEEFGEFPGTQGKRSDWERLRLWCETQTRQPTDLELFYAFPSLFGRYEKSVRKICHLCIKCDPVSIGEPRGWQRDLEERLLDEPDDRCIEFVLDYEGNSGKSWFVRYYMLKHQGSAQMLSVGKRDDIAHCVDVSRRVFFFDIPRGGMEFLQYGALEGIKNGFIFSPKYESTTKVLLNKAHVVVLCNEDPDMLKLSLDRYKITNLXBL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(2002..2856)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2856</GBInterval_from>
+            <GBInterval_to>2002</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MG740715.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid-like protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AYM54670.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAIRRKRILLPLHRRRVRPKLYKKXTRTYRRSYGTXXMRRMQDFSPRAIANPVGLSNAKTRLLTFSQXSPDRAFVPYIMTNIPFTAANAPDSRQRNIINIRGFKIQVVFQNTQRPAFYLNWAVIHPKLSIDDTSVSTQDFFRTYNANRAVDLXTDNTGVVNNIAQDVPTHGMSSINTDKWVVLKHKRTLJAGAINNPDDNALXFTATNCQIPKGNRVVIDKYIKMGRQFRFPNDDSTFPEGGNTIFCYWLTNLNNYLGSQNTSXDVSVVRTTGRIITYFRETKN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcagagacactggcagatgtatcttgactaccaaggtagttgttaaggttggttaaccaataacaaaagatagtattgcccccttcggggaaagttgagtcatcattggggaatctgaactggcgtcccattttgatatatttgtcaataacaacgcgattacctttgggcatgttgttgttcgaagctaaaaaggttaaggcgttgtcatctgggttgttttgagcacctgtaagcagagtgcgtttatgttttaggacaacccacttgtccgtgttgatgctactcattccatgagtaggaacatcttgagcgatgttgttaacaactccggtgttatcggtgatcaagtcaactgctctgttggcattgtatgttcggaagaaatcttgggtactaacggaggtattatcgatagataattttggatggataactgcccagttgagataaaaagcaggtctttgtgtgttttgaaacataacttgtattttgaatcctctgatgttgatgatattccgttgacgtgagtccggcgcgttcgcggcggtgaaaggaatattagtcatgatgtaaggaacgaakgctctgtckggagagtcttgactgaaagtcaacaacctcgttttagcattagacamccccacagggttggcaatagcacgtggactaaagtcctgcatgcgacgcatgcgtctagtgccatagctacgtctgtargttcttgtcttctttttgtagagacgaggtctcacacgacgtcgktgtawaggtagtakgatacgtttacgacgaakagccattgtgttgttacgggcataggattacgtagtaatagtaacaatasaacccaatcatgrtmttatgttgaagttgaaggtatcttttyctcgcgatagcccgtgtgtagtggttagtattacccactacacttctgggtggtcgttctcataaaactatgtctgtcccttcctcaactcgggcaaaacgttgggtgtttacactcaacaatcataccgaaggtgaagtacaactacttgctgatcttcttacctctgaacacgttagttacgggatctttggacgtgaagtcggagaatctggtactccccatcttcaaggttattgtatcttttctgatcggaagtctttcaatcaagttcgtgctttactcggtgaacgttatcatgtcgaagtctcgagaggaaccccctctcaagctagccagtactgcaagaaagacggagacttcgaggagttcggcgagttcccaggaacacaaggaaaacgttccgactgggaacgtcttaggttgtggtgcgaaacgcagacacgacaacctacagacttggaactcttctatgcctttcccagtctctttggaagatacgaaaagtccgttcgaaagatttgtcatctctgcattaaatgtgatcctgtctcaattggagaacctcgtggatggcaacgagatctcgaggagcgattactcgatgagccagacgacagatgcatcgaattcgtcttagactatgaaggtaactctggtaagagttggttcgtacgatactatatgttgaagcatcaaggctccgcgcagatgctctctgttggaaaacgtgatgatattgctcactgtgttgatgtttctagacgagtcttcttctttgacattcctcgaggaggaatggagtttctccaatatggagccttggaaggtataaagaatggcttcatcttttctcctaagtatgaatcaactacgaaagtgttgcttaacaaagcacatgtagttgtcttatgtaatgaggatcccgatatgttgaagctatccttggatagatacaaaataactaatttaamtratctctaaycaaccaaatcactaagtgcggtgccgagggcacccgcgaaaaggagcgtagcggaagcgggtcgaggccaagcacccataccgccggtgccacacccaataccactctatatgattactcttctcccttaattttttgtctctctgaaatatgtaatgatgcgaccggtagtcctgacaacagagacatctgstgatgtattttgactaccaaggtagttgttgagatttgtcaaccaataacaaaagattgtattgcccccttctgggaatgttgaatcgtcatttgggaatctgaattgkcgtcccattttgatatacttatcaataacgacgcgatttccctttgggatctgacarttagttgctgtaaagstcagagcattgtcatctggrttgtttattgckccagcaaktaatgttcttttgtgtttcagcacaacccacttgtctgtgttgatgctactcattccatgagtaggaacatcttgagctatgttgttaacaacwccggtgttatcggtgaytaagtcaactgctctgttggcattgtatgttcggaagaaatcttgggtactaacagaggtatcatcgatagatagctttggatggataactgcccagttgagataaaaagcrggtctttgtgtgttttgaaacacaacttgtattttgaatcctctgatgttgatgatattccgttgacgtgagtccggcgcgttcgcggcggtgaaaggaatattagtcatgatgtaaggaacgaatgctctgtctggagagkcttgactgaaagtcaacarcctsgttttrgcattagacaaccccacagggttggcaatagcacgtggrctaaagtcctgcatgcgtcgcatgcktytagtgccatagctacgtckgtatgttcttgtcktcttcttgtagagtttgggtctcacacgacgtcggtgtaaaggtagtaggatacgtttacgacgaatagccattgtgwtkttaygggcataggattacgtagtaatagtaacaatagaacccaatcatggtcttatgttgaagttgaargtatcttttcctcgckatatcccgtgtgtagtggttagtattacccactacacttctgtcccgtnccctctcataaaacyatgtctgtcccttcctctactcggggaaaacgttgggtgtttacactcaacaatcacaccgaaggtgaarttcaactactttctgaccttcttacctctgaacacgttagttacgggatctttggacgtgaagtcggagaatctggtactccccatcttcaaggttattgyatcttttctgatcggaaacgtttcaatcaagttcgtgctttat</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MN186292</GBSeq_locus>
+    <GBSeq_length>768</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-OCT-2019</GBSeq_update-date>
+    <GBSeq_create-date>30-OCT-2019</GBSeq_create-date>
+    <GBSeq_definition>UNVERIFIED: Bororo circovirus replication associated protein and capsid protein-like gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MN186292</GBSeq_primary-accession>
+    <GBSeq_accession-version>MN186292.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MN186292.1|</GBSeqid>
+      <GBSeqid>gi|1769262225</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UNVERIFIED</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Bororo circovirus</GBSeq_source>
+    <GBSeq_organism>Bororo circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Circoviridae; Cyclovirus; unclassified Cyclovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Maia,L.M.S.</GBAuthor>
+          <GBAuthor>Pinto,A.Z.L.</GBAuthor>
+          <GBAuthor>Carvalho,M.S.</GBAuthor>
+          <GBAuthor>Melo,F.L.</GBAuthor>
+          <GBAuthor>Ribeiro,B.M.</GBAuthor>
+          <GBAuthor>Slhessarenko,R.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Novel Viruses in Mosquitoes from Brazilian Pantanal</GBReference_title>
+        <GBReference_journal>Viruses 11 (10), E957 (2019)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3390/v11100957</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>31627274</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..768</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Maia,L.M.S.</GBAuthor>
+          <GBAuthor>Pinto,A.Z.L.</GBAuthor>
+          <GBAuthor>Carvalho,M.S.</GBAuthor>
+          <GBAuthor>Melo,F.L.</GBAuthor>
+          <GBAuthor>Ribeiro,B.M.</GBAuthor>
+          <GBAuthor>Shlessarenko,R.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-JUL-2019) Virology Laboratory, Federal University of Mato Grosso, Av Fernando Correa da Costa, n 2367, Boa Esperanca, Cuiaba, MT 78060-900, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank staff is unable to verify sequence and/or annotation provided by the submitter.; ; ##Assembly-Data-START## ; Assembly Method :: Geneious v. 11.1.5 ; Assembly Name :: Bororo circovirus ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..768</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>768</GBInterval_to>
+            <GBInterval_accession>MN186292.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bororo circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>BR/MT_M38</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>salivary glands from female</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Psorophora albigenu</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2661633</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Sep-2015</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(&lt;1..&gt;768)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>768</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MN186292.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to replication associated protein and capsid protein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cccgcttcggtggccgccaatcttgtttttccgactccgcttgggccgtatacccaatgcacgtacgacttgaaattacgtttaggttctgagtacgataaccacaattggcacatgcgtacccctgatagtcccggcggattgtccatgatgcttcgcattgtttcgccatttttaactctggtaatggcctcctttgcggatttggtcgataaattttccgggagggtcccacgttcctcatatctgccttcctttttgcaatagtccgctgctgctgttctagtacctcttcgttgctcccaatgcaccataggccaagctcgtttgatcgtgtcgaatcgtttcctctttttgagttcgccatatccttgtaggtgcggcgttccgttttctccgacttcttttccgatgatgacatatttccactcattccactctaatagtgacacgtatgattcttccgaataattgttataagtaaagcacacgaattgaagtagactcattctaacgatggctttcaaacgactgagacgttctcgcccgatcagacgtcgttctcgtcgtaagcgttcttatcgcgctcgtcgttatcgtcgctataatgcaactcgcgcggtttttcgccagtttcttgacgttgatttcgggacaactagtgttggctataattacatctctaacaacccttccaagttacgtgggtggagctattatgcgtctgtgtaccataatttcaaagttactggtttctcgattaaattt</GBSeq_sequence>
+  </GBSeq>

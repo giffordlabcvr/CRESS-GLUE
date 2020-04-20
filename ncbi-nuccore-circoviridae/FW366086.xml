@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FW366086</GBSeq_locus>
+    <GBSeq_length>713</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>30-AUG-2010</GBSeq_update-date>
+    <GBSeq_create-date>30-AUG-2010</GBSeq_create-date>
+    <GBSeq_definition>Treatment of PIGS with PCV-2 antigen</GBSeq_definition>
+    <GBSeq_primary-accession>FW366086</GBSeq_primary-accession>
+    <GBSeq_accession-version>FW366086.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|FW366086.1|</GBSeqid>
+      <GBSeqid>pat|JP|2010513315|3</GBSeqid>
+      <GBSeqid>gi|305395216</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2010513315-A/3</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Porcine circovirus</GBSeq_source>
+    <GBSeq_organism>Porcine circovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; Circovirus; unclassified Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..713</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Piontkowski,M.</GBAuthor>
+          <GBAuthor>Fachinger,V.</GBAuthor>
+          <GBAuthor>Lischewski,A.</GBAuthor>
+          <GBAuthor>Richthofen,I.F.V.</GBAuthor>
+          <GBAuthor>Orveillon,F.</GBAuthor>
+          <GBAuthor>Elbers,K.</GBAuthor>
+          <GBAuthor>Kixmoeller,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Treatment of PIGS with PCV-2 antigen</GBReference_title>
+        <GBReference_journal>JP2010513315-A 3 30-APR-2010 BOEHRINGER INGELHEIM VETMEDICA GMBH</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Porcine circovirus~PN JP 2010513315-A/3~PD 30-APR-2010~PF 14-DEC-2007 JP 2009541620~PR 15-DEC-2006 US 60/870311~PI michael piontkowski,vicky fachinger,axel lischewski, PI isabelle freiin von richthofen,francois-xavier orveillon,knut PI elbers,~PI marion kixmoeller~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..713</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>713</GBInterval_to>
+            <GBInterval_accession>FW366086.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine circovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46221</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagctatgacgtatccaaggaggcgttaccgcagaagaagacaccgcccccgcagccatcttggccagatcctccgccgccgcccctggctcgtccacccccgccaccgctaccgttggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactgtggagaaggaaaaatggcatcttcaacacccgcctctcccgcaccttcggatatactgtgacgactttgttcccccgggaggggggaccaacaaaatctctataccctttgaatactacagaataagaaaggttaaggttgaattctggccctgctcccccatcacccagggtgataggggagtgggctccactgctgttattctagatgataactttgtaacaaaggccacagccctaacctatgacccatatgtaaactactcctcccgccatacaatcccccaacccttctcctaccactcccgttacttcacacccaaacctgttcttgactccactattgattacttccaaccaaataacaaaaggaatcagctttggctgaggctacaaacctctagaaatgtggaccacgtaggcctcggcactgcgttcgaaaacagtaaatacgaccaggactacaatatccgtgtaaccatgtatgtacaattcagagaatttaatcttaaagaccccccacttaaaccctaaatgaat</GBSeq_sequence>
+  </GBSeq>
