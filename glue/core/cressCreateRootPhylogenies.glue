@@ -1,9 +1,7 @@
 
   # Clean up from any previous run of this file
   delete alignment AL_UNC_CRESS_C
-
   delete alignment AL_UNC_Smacocress_C
-
   delete alignment AL_UNC_Circocress_C
 
   delete module fastaAlignmentExporter
@@ -15,9 +13,9 @@
   # Create all the modules we need
   create module -f modules/core/fastaAlignmentExporter.xml
   create module -f modules/core/cressTreeAlignmentImporterNucs.xml
-  create module -t raxmlPhylogenyGenerator
   create module -f modules/core/cressPhyloUtility.xml
   create module -f modules/core/cressFigTreeAnnotationExporter.xml
+  create module -t raxmlPhylogenyGenerator
 
   # Export the gene alignments 
   module fastaAlignmentExporter
