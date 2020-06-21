@@ -26,7 +26,7 @@ project cress
   module featureLocationTextToGlue
     transform tabular/core/reference_feature_locations.tsv -r
     exit
-  run file glue/core/cressFeatureLocations.glue
+  #run file glue/core/cressFeatureLocations.glue
 
   # Define constrained alignment tree
   run file glue/core/cressAlignmentTree.glue

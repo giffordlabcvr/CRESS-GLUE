@@ -68,7 +68,6 @@
   create reference REF_CRESS1_CV-11-LDMD-2013   ncbi-refseqs  NC_025716
   create reference REF_CRESS1_CV-13-LDMD-2013   ncbi-refseqs  NC_025717
   create reference REF_CRESS1_CV-16-LDMD-2013   ncbi-refseqs  NC_025720
-  create reference REF_CRESS1_AHEaCV-13         ncbi-refseqs  NC_026639
   create reference REF_CRESS1_AHEaCV-21         ncbi-refseqs  NC_026648
   create reference REF_CRESS1_COACV             ncbi-refseqs  NC_027795
 
