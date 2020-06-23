@@ -1,5 +1,7 @@
   delete module cressCompoundAligner
+  delete module smacoviridaeCompoundAligner
   create module -f modules/core/cressCompoundAligner.xml
+  create module -f modules/core/smacoviridaeCompoundAligner.xml
 
   
   # Constrained alignment tree
@@ -55,4 +57,7 @@
     derive segments AL_UNC_Circovirus_genome -a --mergeStrategy OVERWRITE
     exit
 
+
+  # Compute alignments
+  compute alignment AL_Smacoviridae smacoviridaeCompoundAligner
 

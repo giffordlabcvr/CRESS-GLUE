@@ -2,17 +2,13 @@
   #~# Root alignment
   
   module unconstrainedAlignmentImporter    
-    import AL_UNC_CRESS_rep_root -f alignments/virus/root/cress-rep.fna
+    import AL_UNC_CRESS_rep_root -f alignments/core/root/cress-rep.fna
     exit
 
 
   #~# Genus-level alignments
   
   module unconstrainedAlignmentImporter 
-    import AL_UNC_Circovirus_genome -f alignments/virus/internal/circovirus-genome.fna
+    import AL_UNC_Circovirus_genome -f alignments/core/internal/circovirus-genome.fna
     exit
-
-  #module unconstrainedAlignmentImporter 
-  #  import AL_UNC_Cyclovirus_rep -f alignments/virus/internal/cyclovirus-rep.fna
-  #  exit
 
