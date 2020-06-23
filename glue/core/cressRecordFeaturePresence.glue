@@ -1,5 +1,5 @@
   delete module cressFeaturePresenceRecorder
-  create module -f modules/cressFeaturePresenceRecorder.xml
+  create module -f modules/core/cressFeaturePresenceRecorder.xml
 
   module cressFeaturePresenceRecorder 
 

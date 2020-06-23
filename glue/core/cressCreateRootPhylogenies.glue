@@ -19,24 +19,23 @@
 
   # Export the gene alignments 
   module fastaAlignmentExporter
- 	export AL_CRESS -r  REF_Circo_MASTER_HBV -f Rep -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/cress-rep.aln.fna
- 	export AL_GENUS_Circo -r  REF_Circo_MASTER_HBV -f Rep -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Circo-rep.aln.fna
- 	export AL_GENUS_Smaco -r  REF_Smaco_MASTER_DHBV -f Rep -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Smaco-rep.aln.fna
+ 	export AL_CRESS_MASTER -r REF_Circo_MASTER_PCV-1 -f Rep --recursive -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/cress-rep.aln.fna
+ 	export AL_Circoviridae -r  REF_Circo_MASTER_PCV-1 -f Rep --recursive -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Circo-rep.aln.fna
+ 	#export AL_Smacoviridae -r  REF_Porprismaco_MASTER_CBSV -f Rep -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Smaco-rep.aln.fna
 
 	exit
 
   # Import the alignments to GLUE
-  module cressTreeAlignmentImporterNucs import AL_UNC_CRESS_C -f alignments/tree/cress-rep.aln.fna
-  module cressTreeAlignmentImporterNucs import AL_UNC_Circo_C -f alignments/tree/Circo-rep.aln.fna
-  module cressTreeAlignmentImporterNucs import AL_UNC_Smaco_C -f alignments/tree/Smaco-rep.aln.fna
+  module cressTreeAlignmentImporterNucs import AL_UNC_CRESS_Rep -f alignments/tree/cress-rep.aln.fna
+  module cressTreeAlignmentImporterNucs import AL_UNC_Circo_Rep -f alignments/tree/Circo-rep.aln.fna
+  #module cressTreeAlignmentImporterNucs import AL_UNC_Smaco_Rep -f alignments/tree/Smaco-rep.aln.fna
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_UNC_CRESS_C -a -o trees/cress-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Circo_C -a -o trees/Circo-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Smaco_C -a -o trees/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
-
+    generate nucleotide phylogeny AL_UNC_CRESS_Rep -a -o trees/cress-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Circo_Rep -a -o trees/Circo-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
+    #generate nucleotide phylogeny AL_UNC_Smaco_Rep -a -o trees/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
@@ -52,20 +51,18 @@
       --midpoint \
       --outputFile trees/Circo-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/Smaco-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
+	#reroot-phylogeny \
+    #  --inputFile trees/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    # --outputFile trees/Smaco-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
   # Export annotations
   module cressFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_CRESS_C -f trees/Cress-rep.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Circo_C -f trees/Circo-rep.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Smaco_C -f trees/Smaco-rep.figtree-annotations.tsv
-§
+    export figtree-annotation AL_UNC_CRESS_Rep -f trees/Cress-rep.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Circo_Rep -f trees/Circo-rep.figtree-annotations.tsv
+    #export figtree-annotation AL_UNC_Smaco_Rep -f trees/Smaco-rep.figtree-annotations.tsv
   exit
 
 
