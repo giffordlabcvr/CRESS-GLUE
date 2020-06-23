@@ -12,15 +12,12 @@ project cress
   # Define genome features
   run file glue/core/cressFeatures.glue
 
+  # Create reference sequences
+  run file glue/core/cressReferences.glue
+
   # Apply reverse complement & rotations to reference seqs
   sequence ncbi-refseqs NC_026639 set field reverse_complement true
   run script glue/core/cressRefseqsApplyRotations.js
-
-  # Import alignments and alignment tree
-  run file glue/core/cressAlignments.glue
-
-  # Create reference sequences
-  run file glue/core/cressReferences.glue
 
   # Add feature locations from tabular to reference sequences
   module featureLocationTextToGlue
@@ -28,11 +25,17 @@ project cress
     exit
   #run file glue/core/cressFeatureLocations.glue
 
+  # Add variations
+  run file glue/core/cressVariations.glue
+
+  # Import alignments
+  run file glue/core/cressAlignments.glue
+
   # Define constrained alignment tree
   run file glue/core/cressAlignmentTree.glue
 
-  # Add variations
-  run file glue/core/cressVariations.glue
+  # Record feature coverage in alignments
+  run file glue/core/cressRecordFeaturePresence.glue
   
   # Validate
   validate
