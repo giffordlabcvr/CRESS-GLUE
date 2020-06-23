@@ -16,9 +16,6 @@ project cress
   sequence ncbi-refseqs NC_026639 set field reverse_complement true
   run script glue/core/cressRefseqsApplyRotations.js
 
-  # Import alignments and alignment tree
-  run file glue/core/cressAlignments.glue
-
   # Create reference sequences
   run file glue/core/cressReferences.glue
 
@@ -28,12 +25,21 @@ project cress
     exit
   #run file glue/core/cressFeatureLocations.glue
 
-  # Define constrained alignment tree
-  run file glue/core/cressAlignmentTree.glue
-
   # Add variations
   run file glue/core/cressVariations.glue
   
+  # Import alignments and alignment tree
+  run file glue/core/cressAlignments.glue
+
+  # Define constrained alignment tree
+  run file glue/core/cressAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/core/cressRecordFeaturePresence.glue
+
+  # Create phylogenies
+  run file glue/core/cressCreateRootPhylogenies.glue
+
   # Validate
   validate
 
