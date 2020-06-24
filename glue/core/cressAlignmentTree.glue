@@ -28,9 +28,7 @@
     extract child AL_CRESS_1 --refName REF_CRESS1_AHEaCV-13
 	demote member AL_CRESS_1 --whereClause "sequence.genus = 'CRESS-1'"	
 
- 
-    # Naryaviridae
-    
+    # Naryaviridae  
     # Nenyaviridae
  
     exit
@@ -46,6 +44,28 @@
  
     exit
 
+  alignment AL_Smacoviridae 
+  
+	extract child AL_Porprismacovirus --refName REF_Porprismaco_MASTER_CBSV
+	demote member AL_Porprismacovirus --whereClause "sequence.genus = 'Porprismacovirus' and sequence.source.name = 'ncbi-refseqs'" 	
+ 
+	extract child AL_Bovismacovirus   --refName REF_Bovismaco_Bovine-SCV-3
+	demote member AL_Bovismacovirus   --whereClause "sequence.genus = 'Bovismacovirus' and sequence.source.name = 'ncbi-refseqs'" 	
+ 
+	extract child AL_Cosmacovirus     --refName REF_Cosmaco_Bovine-SCV-4
+	demote member AL_Cosmacovirus     --whereClause "sequence.genus = 'Cosmacovirus' and sequence.source.name = 'ncbi-refseqs'" 	
+ 
+	extract child AL_Dragsmacovirus   --refName REF_Dragsmaco_Odonata-CV-5
+	demote member AL_Dragsmacovirus   --whereClause "sequence.genus = 'Dragsmacovirus' and sequence.source.name = 'ncbi-refseqs'" 	
+ 
+	extract child AL_Drosmacovirus    --refName REF_Drosmaco_Camel-SCV-1
+	demote member AL_Drosmacovirus    --whereClause "sequence.genus = 'Drosmacovirus' and sequence.source.name = 'ncbi-refseqs'" 	
+ 
+	extract child AL_Huchismacovirus  --refName REF_Huchismaco_Bovine-SCV-1
+	demote member AL_Huchismacovirus  --whereClause "sequence.genus = 'Huchismacovirus' and sequence.source.name = 'ncbi-refseqs'" 	
+
+    exit
+
 
   # Derive constrained alignment segments from unconstrained alignments
 
@@ -59,5 +79,5 @@
 
 
   # Compute alignments
-  compute alignment AL_Smacoviridae smacoviridaeCompoundAligner
+  compute alignment AL_Porprismacovirus smacoviridaeCompoundAligner
 

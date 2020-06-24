@@ -60,7 +60,12 @@
 
   #### Porprismacovirus
   create reference REF_Porprismaco_MASTER_CBSV  ncbi-refseqs  MF669476   # Porprismacovirus
-
+  create reference REF_Bovismaco_Bovine-SCV-3   ncbi-refseqs  NC_030123  # Bovismacovirus
+  create reference REF_Huchismaco_Bovine-SCV-1  ncbi-refseqs  NC_030124  # Huchismacovirus
+  create reference REF_Cosmaco_Bovine-SCV-4     ncbi-refseqs  NC_030128  # Cosmacovirus
+  create reference REF_Dragsmaco_Odonata-CV-5   ncbi-refseqs  NC_039056  # Dragsmacovirus
+  create reference REF_Drosmaco_Camel-SCV-1     ncbi-refseqs  NC_039057  # Drosmacovirus
+	
   #### CRESS 1
   create reference REF_CRESS1_AHEaCV-13         ncbi-refseqs  NC_026639
   create reference REF_CRESS1_AHEaCV-14         ncbi-refseqs  NC_026641
@@ -70,6 +75,7 @@
   create reference REF_CRESS1_CV-16-LDMD-2013   ncbi-refseqs  NC_025720
   create reference REF_CRESS1_AHEaCV-21         ncbi-refseqs  NC_026648
   create reference REF_CRESS1_COACV             ncbi-refseqs  NC_027795
+
 
   #### CRESS 2
   create reference REF_CRESS1_MASTER_Po-41      ncbi-refseqs  NC_025683  # Po-Circo-like virus 41
