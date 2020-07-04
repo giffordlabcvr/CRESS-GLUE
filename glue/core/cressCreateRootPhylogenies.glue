@@ -33,36 +33,36 @@
   # Create the phylogeny
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_UNC_CRESS_Rep -a -o trees/cress-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Circo_Rep -a -o trees/Circo-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
-    #generate nucleotide phylogeny AL_UNC_Smaco_Rep -a -o trees/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_CRESS_Rep -a -o trees/core/cress-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Circo_Rep -a -o trees/core/Circo-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
+    #generate nucleotide phylogeny AL_UNC_Smaco_Rep -a -o trees/core/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
   module cressPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/Cress-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/core/Cress-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/Cress-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/core/Cress-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/Circo-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/core/Circo-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/Circo-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/core/Circo-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	#reroot-phylogeny \
-    #  --inputFile trees/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
+    #  --inputFile trees/core/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
     #  --midpoint \
-    # --outputFile trees/Smaco-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    # --outputFile trees/core/Smaco-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
   # Export annotations
   module cressFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_CRESS_Rep -f trees/Cress-rep.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Circo_Rep -f trees/Circo-rep.figtree-annotations.tsv
-    #export figtree-annotation AL_UNC_Smaco_Rep -f trees/Smaco-rep.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_CRESS_Rep -f trees/core/Cress-rep.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Circo_Rep -f trees/core/Circo-rep.figtree-annotations.tsv
+    #export figtree-annotation AL_UNC_Smaco_Rep -f trees/core/Smaco-rep.figtree-annotations.tsv
   exit
 
 
