@@ -12,3 +12,6 @@
     import AL_UNC_Circovirus_genome -f alignments/core/internal/circovirus-genome.fna
     exit
 
+  module unconstrainedAlignmentImporter 
+    import AL_UNC_Cyclovirus_genome -f alignments/core/internal/cyclovirus-genome.fna
+    exit
