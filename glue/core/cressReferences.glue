@@ -52,7 +52,6 @@
   create reference REF_Cyclo_DfCyV-A1           ncbi-refseqs  NC_023886
   create reference REF_Cyclo_CyV-SL-108277      ncbi-refseqs  KJ831064
   create reference REF_Cyclo_BtRp-CV-POA        ncbi-refseqs  KM382270
-  create reference REF_Cyclo_Cyc-VN             fasta-refseqs NC_021707
 
   #### Redondoviridae    
   create reference REF_Redondo_MASTER_HLVV      ncbi-refseqs  MK059763   # Vientovirus
@@ -78,7 +77,7 @@
 
 
   #### CRESS 2
-  create reference REF_CRESS1_MASTER_Po-41      ncbi-refseqs  NC_025683  # Po-Circo-like virus 41
+  create reference REF_CRESS2_MASTER_Po-41      ncbi-refseqs  NC_025683  # Po-Circo-like virus 41
 
   #### Geminiviridae 
   

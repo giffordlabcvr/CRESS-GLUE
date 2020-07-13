@@ -14,7 +14,19 @@ project cress
 
   # Apply reverse complement & rotations to reference seqs
   sequence ncbi-refseqs NC_026639 set field reverse_complement true
-  run script glue/core/cressRefseqsApplyRotations.js
+  sequence ncbi-refseqs NC_023874 set field reverse_complement true
+  sequence ncbi-refseqs NC_023867 set field reverse_complement true
+  sequence ncbi-refseqs NC_020206 set field reverse_complement true
+  sequence ncbi-refseqs KM382270 set field reverse_complement true
+  sequence ncbi-refseqs NC_023869 set field reverse_complement true
+  sequence ncbi-refseqs KJ831064 set field reverse_complement true
+  sequence ncbi-refseqs NC_023866 set field reverse_complement true
+  sequence ncbi-refseqs NC_025476 set field reverse_complement true
+  sequence ncbi-refseqs NC_025791 set field reverse_complement true
+  sequence ncbi-refseqs NC_025792 set field reverse_complement true
+  sequence ncbi-refseqs NC_034977 set field reverse_complement true
+
+  #run script glue/core/cressRefseqsApplyRotations.js
 
   # Create reference sequences
   run file glue/core/cressReferences.glue
