@@ -1,68 +1,68 @@
 
   # Clean up from any previous run of this file
   delete alignment AL_UNC_CRESS_C
-  delete alignment AL_UNC_Smacocress_C
-  delete alignment AL_UNC_Circocress_C
-
+ 
   delete module fastaAlignmentExporter
   delete module cressTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
+  delete module cressTreeAlignmentImporterNucs
   delete module cressPhyloUtility
   delete module cressFigTreeAnnotationExporter
+  delete module alignmentColumnsSelectorRepRoot
   
   # Create all the modules we need
   create module -f modules/core/fastaAlignmentExporter.xml
   create module -f modules/core/cressTreeAlignmentImporterNucs.xml
   create module -f modules/core/cressPhyloUtility.xml
   create module -f modules/core/cressFigTreeAnnotationExporter.xml
+  create module -f modules/core/cressFeaturePresenceRecorder.xml
+  create module -f modules/core/alignmentColumnsSelectorRepRoot.xml
   create module -t raxmlPhylogenyGenerator
 
-  # Export the gene alignments 
+
+  # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
  	export AL_CRESS_MASTER -r REF_Circo_MASTER_PCV-1 -f Rep --recursive -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/cress-rep.aln.fna
- 	export AL_Circoviridae -r  REF_Circo_MASTER_PCV-1 -f Rep --recursive -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Circo-rep.aln.fna
- 	#export AL_Smacoviridae -r  REF_Porprismaco_MASTER_CBSV -f Rep -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Smaco-rep.aln.fna
-
 	exit
 
-  # Import the alignments to GLUE
-  module cressTreeAlignmentImporterNucs import AL_UNC_CRESS_Rep -f alignments/tree/cress-rep.aln.fna
-  module cressTreeAlignmentImporterNucs import AL_UNC_Circo_Rep -f alignments/tree/Circo-rep.aln.fna
-  #module cressTreeAlignmentImporterNucs import AL_UNC_Smaco_Rep -f alignments/tree/Smaco-rep.aln.fna
+  # Re-import the recursively populated root alignment into the project
+  module cressTreeAlignmentImporterNucs import AL_UNC_CRESS_ROOT_Rep -f alignments/tree/cress-rep.aln.fna
 
-  # Create the phylogeny
+  # Derive constrained root alignment from unconstrained
+  create alignment AL_TREE_CRESS_ROOT_Rep -r REF_Circo_MASTER_PCV-1
+  alignment AL_TREE_CRESS_ROOT_Rep
+	derive segments AL_UNC_CRESS_ROOT_Rep -a --mergeStrategy OVERWRITE
+	exit
+	
+  # Record feature presence
+  module cressFeaturePresenceRecorder
+    record feature-presence AL_TREE_CRESS_ROOT_Rep --featureName whole_genome --descendentFeatures
+    exit
+    
+  
+  # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_UNC_CRESS_Rep -a -o trees/core/cress-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Circo_Rep -a -o trees/core/Circo-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
-    #generate nucleotide phylogeny AL_UNC_Smaco_Rep -a -o trees/core/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_TREE_CRESS_ROOT_Rep -s alignmentColumnsSelectorRepRoot \
+      -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-root/cress-root-rep.tre NEWICK_BOOTSTRAPS
+
     exit
+
 
   # Re-root phylogeny 
   module cressPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/core/Cress-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-root/cress-root-rep.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/core/Cress-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Circo-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Circo-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/core/Smaco-rep.export_nucs.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    # --outputFile trees/core/Smaco-rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-root/cress-root-rep-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
   # Export annotations
   module cressFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_CRESS_Rep -f trees/core/Cress-rep.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Circo_Rep -f trees/core/Circo-rep.figtree-annotations.tsv
-    #export figtree-annotation AL_UNC_Smaco_Rep -f trees/core/Smaco-rep.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_CRESS_ROOT_Rep -f trees/main-root/cress-root-rep.figtree-annotations.tsv
   exit
 
 
