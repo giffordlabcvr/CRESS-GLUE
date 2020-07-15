@@ -44,6 +44,7 @@
  
     exit
 
+
   alignment AL_Smacoviridae 
   
 	extract child AL_Porprismacovirus --refName REF_Porprismaco_MASTER_CBSV
@@ -75,6 +76,10 @@
  
   alignment AL_Circovirus
     derive segments AL_UNC_Circovirus_genome -a --mergeStrategy OVERWRITE
+    exit
+ 
+  alignment AL_Cyclovirus
+    derive segments AL_UNC_Cyclovirus_genome -a --mergeStrategy OVERWRITE
     exit
 
 
