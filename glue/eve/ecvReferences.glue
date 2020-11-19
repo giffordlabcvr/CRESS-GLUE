@@ -1,7 +1,7 @@
   ## Circovirus ECV  
   create reference REF_ECV_Circo.1-Passeriformes    fasta-refseqs-ecv ecv-circo.1-passeriformes-con
   create reference REF_ECV_Circo.2-Psittaciformes   fasta-refseqs-ecv ecv-circo.2-psittaciformes-con
-  create reference REF_ECV_Circo.3-Mus              fasta-refseqs-ecv ecv-circo.3-mus_caroli
+  create reference REF_ECV_Circo.3-Mus_caroli       fasta-refseqs-ecv ecv-circo.3-mus_caroli
   create reference REF_ECV_Circo.4-Monodelphis      fasta-refseqs-ecv ecv-circo.4-monodelphis_domestica
   create reference REF_ECV_Circo.5-Serpentes        fasta-refseqs-ecv ecv-circo.5-serpentes-con
   create reference REF_ECV_Circo.6-Cyprinus         fasta-refseqs-ecv ecv-circo.6-cyprinus-con 
