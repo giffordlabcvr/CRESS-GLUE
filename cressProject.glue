@@ -12,7 +12,7 @@ project cress
   exit
 
 # Build core project
-run file glue/core/buildCoreProject.glue
+run file glue/core/buildCressCoreProject.glue
   
 # Build endogenous circovirus component
 #run file glue/eve/buildEveExtension.glue

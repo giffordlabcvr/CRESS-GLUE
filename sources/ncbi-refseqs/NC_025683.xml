@@ -7,7 +7,7 @@
     <GBSeq_moltype>DNA</GBSeq_moltype>
     <GBSeq_topology>circular</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>24-NOV-2014</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>24-NOV-2014</GBSeq_create-date>
     <GBSeq_definition>Po-Circo-like virus 41, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_025683</GBSeq_primary-accession>
@@ -17,13 +17,13 @@
       <GBSeqid>gnl|NCBI_GENOMES|39713</GBSeqid>
       <GBSeqid>gi|725548546</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA268201</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
     <GBSeq_source>Po-Circo-like virus 41</GBSeq_source>
     <GBSeq_organism>Po-Circo-like virus 41</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Circoviridae; unclassified Circoviridae</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Circoviridae; unclassified Circoviridae</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -299,7 +299,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA268201</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>
