@@ -11,9 +11,35 @@ project cress
   run file glue/core/cressProjectSettings.glue
   exit
 
-# Build core project
-run file glue/core/buildCressCoreProject.glue
+# Build the core project for CRESS viruses
+
+project cress
+  run file glue/core/buildCressCoreProject.glue
+exit
+
+
+# Build the genus-level project extensions
+project cress
+
+  run file glue/genus/circo/buildCircovirusProject.glue
+  run file glue/genus/cyclo/buildCyclovirusProject.glue
+  run file glue/genus/cress/buildCressvirusProject.glue
   
-# Build endogenous circovirus component
-#run file glue/eve/buildEveExtension.glue
+exit
+
+
+# Build genus-level EVE extensions
+project cress
+
+  run file glue/eve/circo/buildCircoEveExtension.glue
+  #run file glue/eve/cyclo/buildCycloEveExtension.glue
+  #run file glue/eve/cress/buildCressEveExtension.glue
+
+exit
+
+
+# Build GenBank extensions
+project cress
+  #run file glue/genus/circo/buildCircoBfdvExtension.glue
+exit
 

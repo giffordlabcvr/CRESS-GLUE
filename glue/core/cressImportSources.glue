@@ -1,3 +1,2 @@
   # Import exogenous sources and side data 
   import source sources/ncbi-refseqs/
-  #import source sources/fasta-refseqs/
