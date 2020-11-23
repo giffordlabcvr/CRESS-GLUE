@@ -1,42 +1,41 @@
 
   # Import core project sources (reference sequence only)
-  run file glue/genus/circo/cressImportSources.glue
+  run file glue/genus/circo/circoImportSources.glue
 
   # Import data
-  run file glue/genus/circo/cressImportData.glue
+  run file glue/genus/circo/circoImportData.glue
 
   # Define genome features
-  run file glue/genus/circo/cressFeatures.glue
+  run file glue/genus/circo/circoFeatures.glue
 
   # Apply reverse complement & rotations to reference seqs
-  run file glue/genus/circo/cressRefseqsApplyReverseComplement.glue
+  run file glue/genus/circo/circoRefseqsApplyReverseComplement.glue
 
-  #run script glue/genus/circo/cressRefseqsApplyRotations.js
+  #run script glue/genus/circo/circoRefseqsApplyRotations.js
 
   # Create reference sequences
-  run file glue/genus/circo/cressReferences.glue
+  run file glue/genus/circo/circoReferences.glue
 
   # Add feature locations from tabular to reference sequences
   module featureLocationTextToGlue
     transform tabular/genus/circo/reference_feature_locations.tsv -r
-    exit
-    
-  #run file glue/genus/circo/cressFeatureLocations.glue
+    exit   
+  #run file glue/genus/circo/circoFeatureLocations.glue
 
   # Add variations
-  run file glue/genus/circo/cressVariations.glue
+  run file glue/genus/circo/circoVariations.glue
   
   # Import alignments and alignment tree
-  run file glue/genus/circo/cressAlignments.glue
+  run file glue/genus/circo/circoAlignments.glue
 
   # Define constrained alignment tree
-  run file glue/genus/circo/cressAlignmentTree.glue
+  run file glue/genus/circo/circoAlignmentTree.glue
 
   # Record feature coverage in alignments
-  run file glue/genus/circo/cressRecordFeaturePresence.glue
+  run file glue/genus/circo/circoRecordFeaturePresence.glue
 
   # Create phylogenies
-  run file glue/genus/circo/cressCreateRootPhylogenies.glue
+  run file glue/genus/circo/circoCreateRootPhylogenies.glue
 
   # Validate
   validate
