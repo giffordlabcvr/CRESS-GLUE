@@ -1,0 +1,9 @@
+delete module ncbiImporterCirco
+create module -f modules/genus/circo/circoNcbiImporterCircoReferences.xml ncbiImporterCirco
+
+# Download NCBI sequences 
+module ncbiImporterCirco import
+
+export source ncbi-refseqs-circo
+
+ 
