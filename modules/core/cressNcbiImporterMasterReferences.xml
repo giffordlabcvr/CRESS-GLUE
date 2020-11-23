@@ -1,0 +1,44 @@
+<!-- Circoviridae genus reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
+
+    <specificPrimaryAccessions>
+
+
+      <!-- ## CIRCOVIRUS ## -->  	  
+      <primaryAccession>NC_001792</primaryAccession> <!-- Porcine circovirus 1 -->	  
+      
+      <!-- ## CYCLOVIRUS ### -->  
+      <primaryAccession>KJ831064</primaryAccession> <!-- Cyclovirus SL-108277 -->	 
+ 
+      <!-- ## Vientovirus ## -->  
+      <primaryAccession>MK059763</primaryAccession>
+      
+      <!-- ## Porprismacovirus ### -->  
+	  <primaryAccession>MF669476</primaryAccession>
+      
+      <!-- ## Po-Circo-like virus 41 ## -->  
+      <primaryAccession>NC_025683</primaryAccession>
+      
+      <!-- ## Gemininvirus ## -->  
+      <primaryAccession>KJ888053</primaryAccession>
+      
+      <!-- ## Brisavirus ## -->  
+      <primaryAccession>MK059757</primaryAccession>
+
+      <!-- ## CRESS ### -->  
+      <primaryAccession>NC_026639</primaryAccession> <!--AHEaCV-13-->
+
+      <!-- ## Unclassified ### -->  
+	  <primaryAccession>NC_025683</primaryAccession>
+
+
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+
+s
+
