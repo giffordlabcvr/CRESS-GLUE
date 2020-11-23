@@ -1,0 +1,24 @@
+  #### Circoviridae    
+   
+  ### Cyclovirus 
+  create reference REF_Cyclo_MASTER_HuACyV-1    ncbi-refseqs  KJ831064
+  create reference REF_Cyclo_BatACyV-10         ncbi-refseqs  KM382270
+  create reference REF_Cyclo_FlCyV              ncbi-refseqs  NC_024700
+  create reference REF_Cyclo_DfCyV5             ncbi-refseqs  NC_023866
+  create reference REF_Cyclo_NGchicken15        ncbi-refseqs  NC_014930
+  create reference REF_Cyclo_DuACyV-1           ncbi-refseqs  NC_034977
+  create reference REF_Cyclo_BtCyV-GF-4c        ncbi-refseqs  NC_034547
+  create reference REF_Cyclo_BtCyV-POAII        ncbi-refseqs  NC_025791
+  create reference REF_Cyclo_BtCyV-POAVI        ncbi-refseqs  NC_025792
+  create reference REF_Cyclo_CyV-ZM36a          ncbi-refseqs  NC_025476
+  create reference REF_Cyclo_IE-CyV-IECSF08     ncbi-refseqs  NC_032682
+  create reference REF_Cyclo_HuCyV-GS140        ncbi-refseqs  NC_023874
+  create reference REF_Cyclo_FwCa-CyV-GS140     ncbi-refseqs  NC_020206
+  create reference REF_Cyclo_HuCyV-VS5700009    ncbi-refseqs  NC_021568
+  create reference REF_Cyclo_DfCyV-2            ncbi-refseqs  NC_023869
+  create reference REF_Cyclo_CyV-bat            ncbi-refseqs  NC_014929
+  create reference REF_Cyclo_DfCyV-4            ncbi-refseqs  NC_023867
+  create reference REF_Cyclo_DfCyV-A1           ncbi-refseqs  NC_023886
+  create reference REF_Cyclo_CyV-SL-108277      ncbi-refseqs  KJ831064
+  create reference REF_Cyclo_BtRp-CV-POA        ncbi-refseqs  KM382270
+
