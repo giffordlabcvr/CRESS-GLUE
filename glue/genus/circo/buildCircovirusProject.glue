@@ -1,4 +1,3 @@
-project cress
 
   # Import core project sources (reference sequence only)
   run file glue/genus/circo/cressImportSources.glue
@@ -41,5 +40,3 @@ project cress
 
   # Validate
   validate
-
-  exit
