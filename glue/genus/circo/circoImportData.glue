@@ -1,3 +1,5 @@
+  delete module circoSideDataImporter
+  create module -f modules/genus/circo/circoSideDataImporter.xml
 
   # Create links to isolate table
   run script glue/genus/circo/loadIsolateData.js
