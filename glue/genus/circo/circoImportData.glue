@@ -6,7 +6,7 @@
 
   # Import metadata for exogenous reference sequences from tabular
   module circoSideDataImporter 
-    populate -f tabular/genus/circo/circo-refseqs-side-data.tsv
+    populate -f tabular/genus/circo-refseqs-side-data.tsv
     exit
 
   # Populate fields from GenBank data

@@ -2,5 +2,5 @@
   #~# Root alignment
   
   module unconstrainedAlignmentImporter    
-    import AL_UNC_CRESS_rep_root -f alignments/root/cress-rep.fna
+    import AL_UNC_CRESS_rep_root -f alignments/root/cress-root.fna
     exit
