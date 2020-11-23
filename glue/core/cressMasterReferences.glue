@@ -16,6 +16,11 @@
     feature-location whole_genome
       add segment 1 1758
       exit
+      
+    add feature-location 5UTR
+    feature-location 5UTR
+      add segment 1  54
+      exit
 
     add feature-location Rep
     feature-location Rep
@@ -27,6 +32,11 @@
       add segment 1038 1730
       exit
       
+    add feature-location 3UTR
+    feature-location 3UTR
+      add segment 1731  1758
+      exit
+
   exit 
 
 

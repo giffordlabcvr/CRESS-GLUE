@@ -18,7 +18,7 @@
 
   # Add feature locations from tabular to reference sequences
   module featureLocationTextToGlue
-    transform tabular/genus/circo/reference_feature_locations.tsv -r
+    transform tabular/genus/circo_reference_feature_locations.tsv -r
     exit   
   #run file glue/genus/circo/circoFeatureLocations.glue
 

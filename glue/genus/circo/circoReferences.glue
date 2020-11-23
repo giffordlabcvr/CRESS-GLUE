@@ -3,30 +3,30 @@
   ### Circovirus
 
   # Mammalian
-  create reference REF_Circo_PCV-2              ncbi-refseqs NC_005148
-  create reference REF_Circo_PCV-3              ncbi-refseqs NC_031753
-  create reference REF_Circo_CfCV               ncbi-refseqs NC_020904
-  create reference REF_Circo_MiCV               ncbi-refseqs NC_023885
-  create reference REF_Circo_TbCV               ncbi-refseqs NC_028045
+  create reference REF_Circo_PCV-2    ncbi-refseqs-circo NC_005148
+  create reference REF_Circo_PCV-3    ncbi-refseqs-circo NC_031753
+  create reference REF_Circo_CfCV     ncbi-refseqs-circo NC_020904
+  create reference REF_Circo_MiCV     ncbi-refseqs-circo NC_023885
+  create reference REF_Circo_TbCV     ncbi-refseqs-circo NC_028045
   
   ## Avian 1
-  create reference REF_Circo_BFDV               ncbi-refseqs  NC_001944
-  create reference REF_Circo_StCV               ncbi-refseqs  NC_008033
-  create reference REF_Circo_CaCV               ncbi-refseqs  NC_003410
-  create reference REF_Circo_ZfCV               ncbi-refseqs  NC_026945
-  create reference REF_Circo_FiCV               ncbi-refseqs  NC_008522
-  create reference REF_Circo_RaCV               ncbi-refseqs  NC_008375
-  create reference REF_Circo_GuCV               ncbi-refseqs  NC_008521
-  create reference REF_Circo_SvCV               ncbi-refseqs  NC_008033
-  create reference REF_Circo_CoCV               ncbi-refseqs  NC_002361
+  create reference REF_Circo_BFDV     ncbi-refseqs-circo  NC_001944
+  create reference REF_Circo_StCV     ncbi-refseqs-circo  NC_008033
+  create reference REF_Circo_CaCV     ncbi-refseqs-circo  NC_003410
+  create reference REF_Circo_ZfCV     ncbi-refseqs-circo  NC_026945
+  create reference REF_Circo_FiCV     ncbi-refseqs-circo  NC_008522
+  create reference REF_Circo_RaCV     ncbi-refseqs-circo  NC_008375
+  create reference REF_Circo_GuCV     ncbi-refseqs-circo  NC_008521
+  create reference REF_Circo_SvCV     ncbi-refseqs-circo  NC_008033
+  create reference REF_Circo_CoCV     ncbi-refseqs-circo  NC_002361
   
   ## Avian 2
-  create reference REF_Circo_SwCV               ncbi-refseqs  NC_025247
-  create reference REF_Circo_DuCV               ncbi-refseqs  NC_007220
+  create reference REF_Circo_SwCV     ncbi-refseqs-circo  NC_025247
+  create reference REF_Circo_DuCV     ncbi-refseqs-circo  NC_007220
   
   ## Fish 1
-  create reference REF_Circo_BarbCV             ncbi-refseqs  NC_015399
+  create reference REF_Circo_BarbCV   ncbi-refseqs-circo  NC_015399
   
   ## Fish 2
-  create reference REF_Circo_SgCV               ncbi-refseqs  NC_025246
+  create reference REF_Circo_SgCV     ncbi-refseqs-circo  NC_025246
   
