@@ -1,0 +1,11 @@
+
+  # Create links to isolate table
+  run script glue/genus/circo/loadIsolateData.js
+
+  # Import metadata for exogenous reference sequences from tabular
+  module circoSideDataImporter 
+    populate -f tabular/genus/circo/circo-refseqs-side-data.tsv
+    exit
+
+  # Populate fields from GenBank data
+  module circoGenbankXmlPopulator populate 

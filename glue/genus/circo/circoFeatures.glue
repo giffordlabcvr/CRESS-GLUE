@@ -27,14 +27,6 @@
 	set metatag CODES_AMINO_ACIDS true
 	exit
 
-  create feature ORF3 -p whole_genome "Hypothetical protein ORF3"
-  feature ORF3
-	set field displayName ORF3
-	set metatag OWN_CODON_NUMBERING true
-	set metatag CODES_AMINO_ACIDS true
-	set metatag REVERSE_COMPLEMENT_TRANSLATION true
-	exit
-
   create feature ORF4 -p whole_genome "Hypothetical protein ORF4"
   feature ORF4
 	set field displayName ORF4
