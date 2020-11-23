@@ -1,0 +1,11 @@
+
+  #~# Genus-level alignments
+  
+  module unconstrainedAlignmentImporter 
+    import AL_UNC_Circovirus_genome -f alignments/internal/circovirus-genome.fna
+    exit
+
+  module unconstrainedAlignmentImporter 
+    import AL_UNC_Cyclovirus_rep -f alignments/internal/cyclovirus-rep.fna
+    exit
+
