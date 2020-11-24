@@ -28,9 +28,19 @@
  
     exit
 
+  alignment AL_Circoviridae 
+  
+	extract child AL_Circovirus   --refName REF_Circo_MASTER_PCV-1
+	demote member AL_Circovirus   --whereClause "sequence.genus = 'Circovirus' and sequence.source.name = 'ncbi-refseqs' or sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-refseqs'" 	
+ 
+	extract child AL_Cyclovirus   --refName REF_Cyclo_MASTER_HuACyV-1
+	demote member AL_Cyclovirus   --whereClause "sequence.genus = 'Cyclovirus' and sequence.source.name = 'ncbi-refseqs' or sequence.genus = 'Cyclovirus' and sequence.source.name = 'fasta-refseqs'" 	
+ 
+    exit
+
+
 
   # Derive constrained alignment segments from unconstrained alignments
-
   alignment AL_CRESS_MASTER
     derive segments AL_UNC_CRESS_rep_root -a --mergeStrategy OVERWRITE
     exit

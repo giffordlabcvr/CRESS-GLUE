@@ -11,15 +11,18 @@
   # Define genome features
   run file glue/core/cressFeatures.glue
 
+  # Apply reverse complement & rotations to reference seqs
+  run file glue/core/cressRefseqsApplyReverseComplement.glue
+
   # Create reference sequences
   run file glue/core/cressMasterReferences.glue    
   #run file glue/core/cressFeatureLocations.glue
   
   # Import alignments
-  #run file glue/core/cressImportRootAlignment.glue
+  run file glue/core/cressImportRootAlignment.glue
 
   # Define constrained alignment tree
-  #run file glue/core/cressAlignmentTree.glue
+  run file glue/core/cressAlignmentTree.glue
 
   # Record feature coverage in alignments
   #run file glue/core/cressRecordFeaturePresence.glue

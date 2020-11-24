@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_Circo_MASTER_PCV-1</relRefName>
+    <relRefName>REF_Circo_MASTER_PCV-1 </relRefName>
     
     <aminoAcidRegionSelector>
         <featureName>Rep</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>100</endCodon>
+        <startCodon>78</startCodon>
+        <endCodon>834</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>Rep</featureName>
-        <startNt>1</startNt>
-        <endNt>300</endNt>
+        <startNt>755</startNt>
+        <endNt>3023</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

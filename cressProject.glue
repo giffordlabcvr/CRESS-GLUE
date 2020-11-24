@@ -17,7 +17,6 @@ project cress
   run file glue/core/buildCressCoreProject.glue
 exit
 
-
 # Build the genus-level project extensions
 project cress
 
@@ -27,6 +26,10 @@ project cress
   
 exit
 
+# Create the EVE schema extensions
+schema-project cress
+  run file glue/eve/circo/ecvSchemaExtensions.glue
+  exit
 
 # Build genus-level EVE extensions
 project cress
@@ -34,7 +37,7 @@ project cress
   run file glue/eve/circo/buildCircoEveExtension.glue
   #run file glue/eve/cyclo/buildCycloEveExtension.glue
   #run file glue/eve/cress/buildCressEveExtension.glue
-
+  
 exit
 
 
