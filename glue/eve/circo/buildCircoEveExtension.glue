@@ -1,7 +1,6 @@
 
   delete source fasta-refseqs-ecv
   delete source fasta-curated-ecv
-  exit
 
   # Import eve sequences
   import source sources/fasta-refseqs-circo-ecv/
