@@ -6,13 +6,13 @@
     <aminoAcidRegionSelector>
         <featureName>Rep</featureName>
         <startCodon>1</startCodon>
-        <endCodon>313</endCodon>
+        <endCodon>100</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>Rep</featureName>
-        <startNt>55</startNt>
-        <endNt>991</endNt>
+        <startNt>1</startNt>
+        <endNt>300</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
