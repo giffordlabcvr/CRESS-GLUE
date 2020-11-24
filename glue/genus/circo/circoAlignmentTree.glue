@@ -1,13 +1,12 @@
  
 
-  #~# Genus-level alignments
+  #~# Add circovirus species to genus-level alignment
 
-    alignment AL_Circoviridae 
-  
-	  demote member AL_Circovirus -w "sequence.genus = 'Circovirus'"
- 
-    exit
+  alignment AL_Circoviridae 
+
+	demote member AL_Circovirus -w "sequence.genus = 'Circovirus' and sequence.source.name = 'ncbi-refseqs-circo'"
+
+  exit
 
 
 
- 

@@ -1,0 +1,54 @@
+  delete module raxmlPhylogenyGenerator
+  delete module cressPhyloUtility
+  delete module alignmentColumnsSelectorCircoRep
+  delete module alignmentColumnsSelectorCircoCap
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/cressPhyloUtility.xml
+  create module -f modules/cressFigTreeAnnotationExporter.xml
+  create module -f modules/circoFeaturePresenceRecorder.xml
+  create module -f modules/alignmentColumnsSelectorCircoRep.xml
+  #create module -f modules/alignmentColumnsSelectorCircoCap.xml
+
+  
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_Circovirus -s alignmentColumnsSelectorCircoCore \
+      -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-genus/Circo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    #generate nucleotide phylogeny AL_Circovirus -s alignmentColumnsSelectorCircoCap \
+    #  -w "fLocNotes.featureLoc.feature.name = 'Cap' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/main-genus/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS
+      
+    exit
+
+
+  # Re-root phylogeny 
+  module cressPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/Circo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/Circo-Rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	#reroot-phylogeny \
+    #  --inputFile trees/main-genus/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/main-genus/Circo-Cap.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Export annotations
+  module cressFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_Circovirus -w "fLocNotes.featureLoc.feature.name = 'Rep'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Ortho-root-core.figtree-annotations.tsv
+    #export figtree-annotation AL_Circovirus -w "fLocNotes.featureLoc.feature.name = 'Cap'  \
+    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Ortho-root-pol.figtree-annotations.tsv
+
+  exit
+
