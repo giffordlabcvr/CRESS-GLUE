@@ -1,15 +1,15 @@
   ## Cyclovirus ECV  
-  create reference REF_ECV_Cyclo.1-Varroa           fasta-refseqs-ecv ecv-cyclo.1-varroa-con
+  create reference REF_ECV_Cyclo.1-Varroa           fasta-refseqs-cyclo-ecv ecv-cyclo.1-varroa-con
   
   ## CRESS ECV  
-  create reference REF_ECV_CRESS.1-Eptatretus       fasta-refseqs-ecv ecv-cress.1-eptatretus-con
-  create reference REF_ECV_CRESS.2-Loxosceles       fasta-refseqs-ecv ecv-cress.2-loxosceles-con
-  create reference REF_ECV_CRESS.3-Modiolus         fasta-refseqs-ecv ecv-cress.3-modiolus-con
-  create reference REF_ECV_CRESS.4-Mytilus          fasta-refseqs-ecv ecv-cress.4-mytilus-con
-  create reference REF_ECV_CRESS.5-Neolamprologus   fasta-refseqs-ecv ecv-cress.5-neolamprologus-con
-  create reference REF_ECV_CRESS.6-Parhyale         fasta-refseqs-ecv ecv-cress.6-parhyale-con
-  create reference REF_ECV_CRESS.7-Salmo            fasta-refseqs-ecv ecv-cress.7-salmo-con
-  create reference REF_ECV_CRESS.8-Tropileilaps     fasta-refseqs-ecv ecv-cress.8-tropileilaps-con
-  create reference REF_ECV_CRESS.9-Conus            fasta-refseqs-ecv ecv-cress.9-conus-con
-  create reference REF_ECV_CRESS.10-Taenia          fasta-refseqs-ecv ecv-cress.10-taenia-con
+  create reference REF_ECV_CRESS.1-Eptatretus       fasta-refseqs-cyclo-ecv ecv-cress.1-eptatretus-con
+  create reference REF_ECV_CRESS.2-Loxosceles       fasta-refseqs-cyclo-ecv ecv-cress.2-loxosceles-con
+  create reference REF_ECV_CRESS.3-Modiolus         fasta-refseqs-cyclo-ecv ecv-cress.3-modiolus-con
+  create reference REF_ECV_CRESS.4-Mytilus          fasta-refseqs-cyclo-ecv ecv-cress.4-mytilus-con
+  create reference REF_ECV_CRESS.5-Neolamprologus   fasta-refseqs-cyclo-ecv ecv-cress.5-neolamprologus-con
+  create reference REF_ECV_CRESS.6-Parhyale         fasta-refseqs-cyclo-ecv ecv-cress.6-parhyale-con
+  create reference REF_ECV_CRESS.7-Salmo            fasta-refseqs-cyclo-ecv ecv-cress.7-salmo-con
+  create reference REF_ECV_CRESS.8-Tropileilaps     fasta-refseqs-cyclo-ecv ecv-cress.8-tropileilaps-con
+  create reference REF_ECV_CRESS.9-Conus            fasta-refseqs-cyclo-ecv ecv-cress.9-conus-con
+  create reference REF_ECV_CRESS.10-Taenia          fasta-refseqs-cyclo-ecv ecv-cress.10-taenia-con
 

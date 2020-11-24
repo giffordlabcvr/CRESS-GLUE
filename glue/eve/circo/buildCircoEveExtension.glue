@@ -15,20 +15,17 @@
 
   # Import eve reference sequence data
   module cressSideDataImporter 
-    populate -f tabular/eve/ecv-refseqs-side-data.tsv
+    populate -f tabular/eve/ecv-circo-refseqs-side-data.tsv
     exit
  
   # Declare references 
-  run file glue/eve/circo/ecvReferences.glue
+  run file glue/eve/circo/ecvReferencesCirco.glue
 
   # Import alignments
-  run file glue/eve/circo/ecvAlignments.glue
+  run file glue/eve/circo/ecvAlignmentsCirco.glue
 
   # Import alignment tree
-  run file glue/eve/circo/ecvConstrainedAlignmentTree.glue
-
-  # Inherit features from master reference to other reference sequences
-  #run script glue/core/cressInheritFeatureLocations.js
+  run file glue/eve/circo/ecvConstrainedAlignmentTreeCirco.glue
 
   # Validate
   validate
