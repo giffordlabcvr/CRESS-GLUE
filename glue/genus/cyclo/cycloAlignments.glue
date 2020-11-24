@@ -1,0 +1,7 @@
+
+  #~# Genus-level alignments
+  
+  module unconstrainedAlignmentImporter 
+    import AL_UNC_Cyclovirus_rep -f alignments/internal/cyclovirus-rep.fna
+    exit
+

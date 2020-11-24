@@ -1,0 +1,13 @@
+ 
+
+  #~# Genus-level alignments
+
+    alignment AL_Circoviridae 
+  
+	  demote member AL_Circovirus -w "sequence.genus = 'Circovirus'"
+ 
+    exit
+
+
+
+ 

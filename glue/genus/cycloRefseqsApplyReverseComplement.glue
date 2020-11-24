@@ -1,0 +1,13 @@
+  
+  # Cycloviruses
+  sequence ncbi-refseqs NC_023874 set field reverse_complement true
+  sequence ncbi-refseqs NC_023867 set field reverse_complement true
+  sequence ncbi-refseqs NC_020206 set field reverse_complement true
+  sequence ncbi-refseqs KM382270 set field reverse_complement true
+  sequence ncbi-refseqs NC_023869 set field reverse_complement true
+  sequence ncbi-refseqs KJ831064 set field reverse_complement true
+  sequence ncbi-refseqs NC_023866 set field reverse_complement true
+  sequence ncbi-refseqs NC_025476 set field reverse_complement true
+  sequence ncbi-refseqs NC_025791 set field reverse_complement true
+  sequence ncbi-refseqs NC_025792 set field reverse_complement true
+  sequence ncbi-refseqs NC_034977 set field reverse_complement true

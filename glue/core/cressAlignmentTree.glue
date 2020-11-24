@@ -30,7 +30,6 @@
 
 
   # Derive constrained alignment segments from unconstrained alignments
-
   alignment AL_CRESS_MASTER
     derive segments AL_UNC_CRESS_rep_root -a --mergeStrategy OVERWRITE
     exit
