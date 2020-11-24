@@ -12,7 +12,7 @@
   run file glue/core/cressFeatures.glue
 
   # Apply reverse complement & rotations to reference seqs
-  run file glue/genus/circo/circoRefseqsApplyReverseComplement.glue
+  run file glue/core/cressRefseqsApplyReverseComplement.glue
 
   # Create reference sequences
   run file glue/core/cressMasterReferences.glue    
