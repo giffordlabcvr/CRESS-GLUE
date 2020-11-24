@@ -1,0 +1,11 @@
+    # Cyclovirus tip alignments
+    import AL_UNCONSTRAINED_ECV_Varroa -f alignments/tip/cyclovirus/ecv-varroa-master-1.fna
+    import AL_UNCONSTRAINED_ECV_Tropileilaps -f alignments/tip/cyclovirus/ecv-tropileilaps-master-1.fna
+
+    # CRESS tip alignments
+    import AL_UNCONSTRAINED_ECV_Loxosceles -f alignments/tip/cress/ecv-loxosceles-master-1.fna
+    import AL_UNCONSTRAINED_ECV_Modiolus -f alignments/tip/cress/ecv-modiolus-master-1.fna
+    import AL_UNCONSTRAINED_ECV_Mytilus -f alignments/tip/cress/ecv-mytilus-master-1.fna
+    import AL_UNCONSTRAINED_ECV_Conus -f alignments/tip/cress/ecv-conus-master-1.fna
+    import AL_UNCONSTRAINED_ECV_Parhyale -f alignments/tip/cress/ecv-parhyale-master-1.fna
+    import AL_UNCONSTRAINED_ECV_Taenia -f alignments/tip/cress/ecv-taenia-master-1.fna
