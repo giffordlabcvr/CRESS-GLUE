@@ -12,5 +12,5 @@
   create reference REF_ECV_Circo.12-Chrysochloris   fasta-refseqs-circo-ecv ecv-circo.12-chrysochloris-con
   create reference REF_ECV_Circo.13-Galeopterus     fasta-refseqs-circo-ecv ecv-circo.13-galeopterus-con
   create reference REF_ECV_Circo.14-Tinamou         fasta-refseqs-circo-ecv ecv-circo.14-tinamou-con
-  create reference REF_ECV_Circo.14-Gallirallus     fasta-refseqs-circo-ecv ecv-circo.15-gallirallus
+  #create reference REF_ECV_Circo.14-Gallirallus     fasta-refseqs-circo-ecv ecv-circo.15-gallirallus
  
