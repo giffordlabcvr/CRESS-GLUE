@@ -1,0 +1,120 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=18;
+	taxlabels
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_001792'[&clade="Mammal-1",country="-",full_name="Porcine circovirus 1",genus="Circovirus",host_sci_name="-",isolate="-",name="PCV-1",sample_date="-",sequenceID="NC_001792"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_001944'[&clade="Avian-1",country="-",full_name="Beak and feather disease virus",genus="Circovirus",host_sci_name="-",isolate="-",name="BFDV",sample_date="-",sequenceID="NC_001944"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_003410'[&clade="Avian-1",country="-",full_name="Canary circovirus",genus="Circovirus",host_sci_name="serinus canaria",isolate="-",name="CaCV",sample_date="-",sequenceID="NC_003410"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_005148'[&clade="Mammal-1",country="-",full_name="Porcine circovirus 2",genus="Circovirus",host_sci_name="-",isolate="AUT1",name="PCV-2",sample_date="-",sequenceID="NC_005148"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_007220'[&clade="Avian-2",country="USA",full_name="Duck circovirus",genus="Circovirus",host_sci_name="Pekin duck",isolate="33753-52",name="DuCV",sample_date="-",sequenceID="NC_007220"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_008033'[&clade="Avian-1",country="-",full_name="Starling circovirus",genus="Circovirus",host_sci_name="European Starling (Sturnus vulgaris)",isolate="-",name="StCV",sample_date="-",sequenceID="NC_008033"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_008375'[&clade="Avian-1",country="Australia",full_name="Raven circovirus",genus="Circovirus",host_sci_name="Corvus coronoides",isolate="4-1131",name="RaCV",sample_date="-",sequenceID="NC_008375"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_008521'[&clade="Avian-1",country="-",full_name="Gull circovirus",genus="Circovirus",host_sci_name="gull",isolate="-",name="GuCV",sample_date="-",sequenceID="NC_008521"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_008522'[&clade="Avian-1",country="-",full_name="Finch circovirus",genus="Circovirus",host_sci_name="finch",isolate="-",name="FiCV",sample_date="-",sequenceID="NC_008522"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_015399'[&clade="Fish-1",country="Hungary",full_name="Barbel circovirus",genus="Circovirus",host_sci_name="Barbus barbus (barbel)",isolate="-",name="BarbCV",sample_date="-",sequenceID="NC_015399"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_020904'[&clade="Mammal-1",country="USA",full_name="Canine circovirus 1",genus="Circovirus",host_sci_name="Canis lupus familiaris",isolate="UCD1-1698",name="CfCV",sample_date="-",sequenceID="NC_020904"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_023885'[&clade="Mammal-1",country="China",full_name="Mink circovirus",genus="Circovirus",host_sci_name="mink",isolate="-",name="MiCV",sample_date="-",sequenceID="NC_023885"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_025246'[&clade="Fish-2",country="Hungary",full_name="Wels catfish circovirus",genus="Circovirus",host_sci_name="-",isolate="H5",name="SgCV",sample_date="-",sequenceID="NC_025246"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_025247'[&clade="Avian-2",country="Germany",full_name="Swan circovirus",genus="Circovirus",host_sci_name="mute swan (Cygnus olor)",isolate="H51",name="SwCV",sample_date="-",sequenceID="NC_025247"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_026639'[&clade="CRESS",country="New Zealand",full_name="Avon-Heatchote Estuary Associated Virus 13",genus="CRESS-1",host_sci_name="-",isolate="AHEaCV-13-NZ-1986SG-2012",name="AHEaCV-13",sample_date="-",sequenceID="NC_026639"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_026945'[&clade="Avian-1",country="Germany",full_name="Zebra finch circovirus",genus="Circovirus",host_sci_name="Taeniopygia guttata",isolate="8454V25-1",name="ZfCV",sample_date="-",sequenceID="NC_026945"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_028045'[&clade="Mammal-2",country="Brazil",full_name="Mexican free-tailed bat circovirus",genus="Circovirus",host_sci_name="Tadarida brasiliensis (bat)",isolate="-",name="TbCV",sample_date="-",sequenceID="NC_028045"]
+	'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_031753'[&clade="Mammal-2",country="USA: North Carolina",full_name="Porcine circovirus 3",genus="Circovirus",host_sci_name="Sus scrofa",isolate="-",name="PCV-3",sample_date="-",sequenceID="NC_031753"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_026639':1.815506,('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_023885':0.521234,(((('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_001944':0.423082,((('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_026945':0.141326,'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_008522':0.105918)[&label=91]:0.080853,(('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_003410':0.243936,'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_008375':0.270166)[&label=80]:0.068214,'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_008033':0.210168)[&label=90]:0.058277)[&label=99]:0.128773,'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_008521':0.474287)[&label=97]:0.118075)[&label=100]:0.284943,(('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_025246':0.725094,'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_015399':0.72459)[&label=82]:0.161405,('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_031753':0.714249,'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_028045':0.540425)[&label=33]:0.150499)[&label=65]:0.103178)[&label=51]:0.125415,('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_025247':0.238154,'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_007220':0.159703)[&label=100]:0.614214)[&label=24]:0.07524,('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_020904':0.652957,('alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_001792':0.079446,'alignment/AL_TREE_CRESS_ROOT_Rep/member/ncbi-refseqs/NC_005148':0.161913)[&label=100]:0.697656)[&label=51]:0.173185)[&label=16]:0.158706):0.466468);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
