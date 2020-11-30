@@ -3,7 +3,7 @@
 
     #~#  INTERNAL alignments (Circovirus genus)
       
-    import AL_UNCONSTRAINED_Circovirus_ECV -f alignments/eve/internal/circovirus-genome+eves.fna
+    import AL_UNCONSTRAINED_Circovirus_ECV -f alignments/internal/circovirus-genome+eves.fna
 
 
     #~#  TIP alignments  
