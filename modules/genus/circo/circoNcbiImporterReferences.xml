@@ -8,7 +8,7 @@
 
 
       <!-- ## CIRCOVIRUS ## -->  	  
-      <primaryAccession>NC_001792</primaryAccession> <!-- Porcine circovirus 1 -->	  
+      <!--  <primaryAccession>NC_001792</primaryAccession> Porcine circovirus 1 = EXCLUDED because its the MASTER reference include in core -->	  
       <primaryAccession>NC_005148</primaryAccession> <!-- Porcine circovirus 2 -->	  
       <primaryAccession>NC_031753</primaryAccession> <!-- Porcine circovirus 3 -->     	  
       <primaryAccession>NC_020904</primaryAccession> <!-- Canine circovirus 1  -->  
