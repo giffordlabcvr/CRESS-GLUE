@@ -1,7 +1,9 @@
   delete module circoSideDataImporter
   delete module circoGenbankXmlPopulator
+  
   create module -f modules/genus/circo/circoSideDataImporter.xml
   create module -f modules/genus/circo/circoGenbankXmlPopulator.xml
+
 
   # Create links to isolate table
   run script glue/genus/circo/loadIsolateData.js
