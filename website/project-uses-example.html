@@ -72,7 +72,8 @@
 		 </ol>
 
 
-          Sharing of resources. GLUE ethos.
+          A brief section at the end of this tutorial discusses how GLUE resources can 
+          be collaboratively developed via online repositories such as GitHub.
  	   </p>
 
 	   <h3>
@@ -97,13 +98,19 @@
 	   <p>
 
 
+
+	   <p>
+         Notice that the module configuration specifies the name of a '<b>source</b>': "ncbi-curated-circo-bfdv".
+         A source is simply the name used in GLUE for a directory that contains sequence
+         data. Because GLUE projects frequently contain large numbers of sequence files
+         it is expedient to organise these files into distinct sources.
  	   </p>
 
 
          
   <pre>
   <code>Mode path: /
-  GLUE> project cress create module modules/genus/circo/circoviridaeNcbiImporterBfdv.xml</code></pre>
+  GLUE> project cress create module -f modules/genus/circo/circoviridaeNcbiImporterBfdv.xml</code></pre>
 
 
 
