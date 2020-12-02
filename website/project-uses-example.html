@@ -55,8 +55,9 @@
 
 	   <p>
          Genomic approaches can be used to help control the spread of BFDV.
-         In this tutorial we will use the <b>CRESS-GLUE</b> project as foundation for a rapid
-         investigation of BFDV distribution diversity and evolution.
+         In this tutorial we will use the <b>CRESS-GLUE</b> project to (i)
+         investigate BFDV distribution diversity and evolution, and (ii) establish
+         a sequence-based resource for BFDV.
  	   </p>
 
 	   <p>
@@ -194,11 +195,12 @@
  	   </p>
 
 	   <p>
-         Look for host species, time and place of isolation, and isolate name data in "Notes" section. 
+         Use module to search for for <i>host species</i>, <i>time and place of isolation</i>,
+         and <i>isolate</i> data in the "notes" section of the GenBank XML. 
  	   </p>
  	   
 	   <p>
-         Use of FreeMarker.
+         Use of FreeMarker and REGEX in this and other GLUE modules.
          If unfamiliar the examples included in this project can be modified. 
  	   </p>
 
@@ -221,6 +223,11 @@
          the virus genome. 
  	   </p>
 
+ 	   
+	   <p>
+         Modify existing BFDV sequence. Create file. Run file. 
+ 	   </p>
+
 
 	   <h3>
 		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Creating an alignment of all BFDV sequences</strong>.
@@ -231,7 +238,11 @@
          When aligning sequences derived from a single virus species, an efficient and reliable 
          approach is to use a pairwise, reference guided approach initially. The GLUE
          framework allows this approach to be used without data loss 
- 	     While the use of a reference can in some cases lead to data loss,
+       </p>
+ 	   
+	   <p>
+         For this purpose we will use our BFDV reference sequence, and GLUE's inbuilt,
+         codon-aware alignment routines. 
        </p>
 
 
@@ -241,8 +252,29 @@
 
  	   
 	   <p>
-         Now that we have 
+         Now that we have created an alignment of BFDV sequences that is constrained to 
+         the BFDV reference sequences, we can used this alignment, and features of the 
+         GLUE framework, to examine feature coverage within individual BFDV sequence
+         spans each genome feature defined in the BFDV reference sequence.  
        </p>
+
+
+
+	   <h3>
+		 <a id="MapCoverage" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Reconstructing phylogenetic trees</strong>.
+	   </h3>
+
+ 	   
+	   <p>
+         Now that we have created a constrained alignment of BFDV sequences
+       </p>
+
+
+	   <h3>
+		 <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Collaboratively developing CRESS-GLUE resources</strong>.
+	   </h3>
+
+
 
 	  <footer class="site-footer">
 	 
