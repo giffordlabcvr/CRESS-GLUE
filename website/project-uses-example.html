@@ -47,8 +47,10 @@
          creatures on the planet. Unfortunately, many of these wonderful species are 
          presently endangered. 
          Conservation efforts for have been hampered by
-         the emergence of <b>psittacine beak and feather disease</b> (PBFD) in captive populations. PBFD is 
-         caused by a <b>circovirus</b> called beak and feather disease virus (<b>BFDV</b>).
+         the emergence of
+        <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>
+         in captive populations. PBFD is caused by a <b>CRESS DNA virus</b> belonging to the 
+         family <i>Circoviridae</i>, genus <i>Circovirus</i> called beak and feather disease virus (<b>BFDV</b>).
  	   </p>
 
 	   <p>
@@ -100,17 +102,16 @@
 	   <p>
          To download all entries labelled beak and feather disease in NCBI GenBank, we 
          can use GLUE's 'NcbiImporter' module, as shown
-		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b>here</b></a>.
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b>here</b></a>.
  	   </p>
 
 
 	   <p>
-         Specifically configured to download sequences based on a query phrase:
- 	   </p>
-
-
-	   <p>
-        "Beak and feather disease virus"[Organism].
+         Specifically configured to download sequences based on the query phrase:
+        <i>"Beak and feather disease virus"[Organism]</i>. In addition, we have added
+         a length specification
+         As explained in the comments within the module configuration. This 'eSearchTerm'
+         is a standard NCBI entrez text query. 
  	   </p>
  	   
 
@@ -118,37 +119,40 @@
          Notice that the module configuration specifies the name of a '<b>source</b>': "ncbi-curated-circo-bfdv".
          A source is simply the name used in GLUE for a directory that contains sequence
          data. Because GLUE projects frequently contain large numbers of sequence files
-         it is expedient to organise these files into distinct sources.
+         it is expedient to organise these files into distinct sources. In CRESS-GLUE
+         we organise sources based on (i) data format (FASTA or NCBI-XML)
+         (ii) taxonomic group (e.g. genus Circovirus) and; 
+         (iii) data type (virus or endogenous viral element).
  	   </p>
 
 	   <p>
          To use the module, first initiate GLUE on the command line, then navigate
          to the 'cress' project as shown here:
- 	   </p>
 
   <pre>
   <code>GLUE> project cress 
   OK
-  Mode path: /project/cress
+  Mode path: /project/cress/ </code></pre>
 
+ 	   </p>
+ 
 	   <p>
          Now create the module using this configuration file, as shown here:
- 	   </p>
-         
+
   <pre>
-  <code>Mode path: /
+  <code>Mode path: /project/cress/
   GLUE> create module -f modules/genus/circo/circoviridaeNcbiImporterBfdv.xml
   OK
-  (1 Module created)
-  </code></pre>
+  (1 Module created) </code></pre>
 
-	   <p>
-         Now we can run the module to download the sequences.
  	   </p>
 
+ 	   <p>
+         To run the module, execute the following command in the GLUE shell:
 
   <pre>
-  <code>module circoviridaeNcbiImporterBfdv import
+  <code>Mode path: /project/cress/
+  GLUE> module circoviridaeNcbiImporterBfdv import
   ncbiImporterSummaryResult
   totalMatching: 1250
   present: 0
@@ -157,12 +161,20 @@
   deleted: 0
   downloaded: 1250</code></pre>
 
+         As shown above, when I ran this command on 2020-12-01 I obtained 1250
+         sequences. Since the GenBank database is continually expanding, you may find
+         that you obtain more sequences than this running the same 
+         command at a later date.
+	   </p>
+ 
 
+ 	   <p>
+ 	     A logical next step is to export the source to a directory as follws.
+ 	   </p>
 
-
-
-	   <h3>
-		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Extracting isolate data from GenBank files</strong>.
+       
+ 	   <h3>
+		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Extracting BFDV isolate data from GenBank files</strong>.
 	   </h3>
 
 

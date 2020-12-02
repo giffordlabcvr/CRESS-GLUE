@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG257487</GBSeq_locus>
+    <GBSeq_length>1991</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-DEC-2017</GBSeq_update-date>
+    <GBSeq_create-date>26-DEC-2017</GBSeq_create-date>
+    <GBSeq_definition>Beak and feather disease virus isolate PBFDV2017, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MG257487</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG257487.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG257487.1|</GBSeqid>
+      <GBSeqid>gi|1314948349</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Beak and feather disease virus</GBSeq_source>
+    <GBSeq_organism>Beak and feather disease virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota; Arfiviricetes; Cirlivirales; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1991</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Guo,X.</GBAuthor>
+          <GBAuthor>Ge,X.</GBAuthor>
+          <GBAuthor>Chang,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Whole-Genome Sequence Characterization of Beak and Feather Disease Virus in a African Grey Parrot (Psittacus erithacus) in China</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1991</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Guo,X.</GBAuthor>
+          <GBAuthor>Ge,X.</GBAuthor>
+          <GBAuthor>Chang,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-OCT-2017) Department of Veterinary Medicine, China Agricultural University, No.2, Yuanmingyuan West Road, Haidian District, Beijing, Beijing 100193, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1991</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1991</GBInterval_to>
+            <GBInterval_accession>MG257487.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Beak and feather disease virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PBFDV2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>dried fresh hepatic tissue collected from a male African grey parrot</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Psittacus erithacus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:77856</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>22-Jun-2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: PBFDV450bp-F, fwd_seq: ttgggtcctccttgtagtgggatc, rev_name: PBFDV450bp-R, rev_seq: cagacgccgtttctcaaccaatag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: PBFDV1700bp-F, fwd_seq: gaattggcgtttgaacctgagagtg, rev_name: PBFDV1700bp-R, rev_seq: ataacgatagaggacctgaccacag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>135..1004</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>135</GBInterval_from>
+            <GBInterval_to>1004</GBInterval_to>
+            <GBInterval_accession>MG257487.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AUG45095.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPSKEGSGCRRWCFTLNNPTDGEIEYVRSLGPDEFYYAIVGREKGEQGTPHLQGYFHFKNKKRLSALKKMLPRGHFERAKGSDADNEKYCSKEGDVILTLGIVARDGHRAFDGAVAAVMSGRKMKEVAREFPEVYVRHGRGLHNLSLLVGSRPRDFKTEVDVIYGPPGCGKSRWANEQPGTKYYKMRGEWWDGYDGEDIVILDDFYGWLPYCEMLRLCDRYPHKVPVKGAFVEFTSKRIIITSNKAPETWYKEDCDPKPLFRRFTRVWWYSNERLEQVRADFLAHPINF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(1238..1984)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1984</GBInterval_from>
+            <GBInterval_to>1238</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MG257487.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AUG45096.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MWGTSNCACAIFQFRRRYARPYYRRRHIRRYRRRRRHFRRRRFNTNRVYTLRFKREFKFEIQKQTTSTGNVIWNSDYVTFALSDFIQNTPNPQTLNFEDYRIKLAKMEMRPTWGHNSTASQGYGHTAVIQDSRISKFKTTADQTQDPLAPFDGARKWYLSRGFKRLLRPKAQITISDLTTANQSATLWLNSARTGWIPLQGGPNTAGTKVRHYGLAFSFPQPQTKITYECMLTVYVQFRQFTPNNPST</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttagtattacccgccgcctggggcaccggggcactgcagccattggctgcaggccccccgtgcccgccctagggaggagtaaatgacgccgttaggcgtcgtaagctccggaggatcacacacgcccgggaaccatgccgtccaaggagggctctggttgtcgccgttggtgtttcacccttaacaaccctacagacggcgagatcgaatacgtccgtagtctggggcctgacgaattctactatgccatcgttggacgggaaaagggcgagcaaggtactccccatttgcaagggtactttcattttaaaaataagaagcgactgagcgcgcttaagaaaatgctgccgcgaggtcattttgagcgcgctaaagggagcgatgcggataatgagaagtattgcagtaaagagggggacgtcatacttaccctgggcattgtggcgagagacggtcaccgcgctttcgatggagctgttgctgccgtgatgtccggacgcaaaatgaaggaagtcgcgcgagagttcccagaagtctacgtcaggcatgggcggggcttgcataatctctcgctattggttggttcccgcccacgtgatttcaagactgaggtcgacgtcatctacgggccaccggggtgtggcaagagtagatgggccaatgaacagcctgggactaaatattataaaatgcgcggtgaatggtgggatggatatgatggggaagatatcgtcatcttggatgacttttatgggtggctaccttattgcgagatgctccgcctttgcgatcgttacccacataaagtgccagttaagggcgcctttgtggagtttaccagcaagaggatcattataacgagcaataaggcacccgagacttggtacaaggaggactgtgacccgaagccactgttccggagattcactcgtgtttggtggtacagcaatgagaggctggaacaagtccgggcagatttccttgcccaccccatcaatttttgatagtctcggtgatgtttaataaaggtaggcgtcgggccgaaggcccgatgccgcagggggggaccccctgccggagggttcgcagggccgtcaggcccgagaacccgaccagcccggagggcctcgtctgtgtcggggggggggccccggggggtccccccgacacgaccatctgtgtcagcgccgaaggcgccaataaacactcgaaacggtatttgttgtttgagtctttattaagtgctgggattgttaggggtaaactgacggaattgaacatacacagtgagcatgcattcataagtgatctttgtttgtggctgagggaagctgaatgcaaggccatagtgtctgaccttcgttcctgctgtgttgggtcctccttgtagtgggatccatccggttctggcgctgttcagccacaatgttgcagactggttcgctgtggtcaggtcgctgatcgtaatttgtgcttttggtctgaggaggcgtttgaaccccctgctaagataccattttctggcaccgtcgaaaggtgccagcgggtcttgtgtctggtcagcagtagttttaaatttactaattctggagtcttggattacggccgtgtggccgtacccttgagaagcagtggagttgtggccccatgtgggcctcatctccattttagctaacttaatacggtagtcttcgaaattcagtgtttgagggtttggtgtgttttgtatgaagtctgacaatgcaaaggttacgtagtcagaattccaaattacgttgccagtacttgttgtttgtttctgaatttcgaatttaaattcgcgtttgaatctgagagtgtaaactctattggtgttgaaacggcgtctgcggaagtgtctacgtcgtctgcggtatcgcctgatgtgacgtctgcggtagtaggggcgggcatatcttcgtctgaactgaaatatagcgcatgcgcagttagaggtgccccacaggcggcgg</GBSeq_sequence>
+  </GBSeq>
