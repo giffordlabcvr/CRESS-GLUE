@@ -9,12 +9,12 @@
     #~#  TIP alignments  
     
     # Circovirus
-    import AL_UNCONSTRAINED_ECV_Passeriformes -f alignments/tip/circovirus/ecv-passeriforme-master-1.fna
-    import AL_UNCONSTRAINED_ECV_Serpentes -f alignments/tip/circovirus/ecv-serpentes-master-1.fna
-    import AL_UNCONSTRAINED_ECV_Eptatretus -f alignments/tip/circovirus/ecv-eptatretus-master-1.fna
-    import AL_UNCONSTRAINED_ECV_Psittaciformes -f alignments/tip/circovirus/ecv-psittaciforme-master-1.fna
-    import AL_UNCONSTRAINED_ECV_Galeopterus -f alignments/tip/circovirus/ecv-galeopterus-master-1.fna
-    import AL_UNCONSTRAINED_ECV_Tinamou -f alignments/tip/circovirus/ecv-tinamou-master-1.fna
+    #import AL_UNCONSTRAINED_ECV_Passeriformes -f alignments/tip/circovirus/ecv-passeriforme-master-1.fna
+    #import AL_UNCONSTRAINED_ECV_Serpentes -f alignments/tip/circovirus/ecv-serpentes-master-1.fna
+    #import AL_UNCONSTRAINED_ECV_Eptatretus -f alignments/tip/circovirus/ecv-eptatretus-master-1.fna
+    #import AL_UNCONSTRAINED_ECV_Psittaciformes -f alignments/tip/circovirus/ecv-psittaciforme-master-1.fna
+    #import AL_UNCONSTRAINED_ECV_Galeopterus -f alignments/tip/circovirus/ecv-galeopterus-master-1.fna
+    #import AL_UNCONSTRAINED_ECV_Tinamou -f alignments/tip/circovirus/ecv-tinamou-master-1.fna
     #import AL_UNCONSTRAINED_ECV_Chrysochloris -f alignments/tip/circovirus/ecv-chrysochloris-master-1.fna
     #import AL_UNCONSTRAINED_ECV_Amphibia -f alignments/tip/circovirus/ecv-amphibia-master.fna
     #import AL_UNCONSTRAINED_ECV_Carnivora -f alignments/tip/circovirus/ecv-carnivore-master-1.fna
