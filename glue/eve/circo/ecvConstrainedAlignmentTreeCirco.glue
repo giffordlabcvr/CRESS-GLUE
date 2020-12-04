@@ -23,7 +23,7 @@
 
   alignment AL_Circovirus 
    
-	extract child AL_ECV_Carnivora -r REF_ECV_Carnivora
+	extract child AL_ECV_Carnivora -r REF_ECV_Circo.51-Carnivora
 	demote member AL_ECV_Carnivora -w "sequence.name = 'ECV.Carnivore'"	
 
 	extract child AL_ECV_Actinopterygii -r REF_ECV_Actinopterygii
