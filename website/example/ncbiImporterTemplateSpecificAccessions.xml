@@ -1,0 +1,36 @@
+<!-- Circoviridae genus reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-circo</sourceName>
+
+    <specificPrimaryAccessions>
+
+
+      <!-- ## CIRCOVIRUS ## -->  	  
+      <!--  <primaryAccession>NC_001792</primaryAccession> Porcine circovirus 1 = EXCLUDED because its the MASTER reference include in core -->	  
+      <primaryAccession>NC_005148</primaryAccession> <!-- Porcine circovirus 2 -->	  
+      <primaryAccession>NC_031753</primaryAccession> <!-- Porcine circovirus 3 -->     	  
+      <primaryAccession>NC_020904</primaryAccession> <!-- Canine circovirus 1  -->  
+      <primaryAccession>NC_023885</primaryAccession> <!-- Mink circovirus -->	  
+      <primaryAccession>NC_028045</primaryAccession> <!-- Mexican free-tailed bat circovirus -->
+      <primaryAccession>NC_001944</primaryAccession> <!-- Beak and feather disease virus --> <!-- Canary circovirus -->
+      <primaryAccession>NC_003410</primaryAccession> <!-- Starling circovirus -->	  
+      <primaryAccession>NC_008033</primaryAccession> <!-- Raven circovirus -->
+      <primaryAccession>NC_008375</primaryAccession> <!-- Gull circovirus -->
+      <primaryAccession>NC_008521</primaryAccession> <!-- Finch circovirus -->
+      <primaryAccession>NC_008522</primaryAccession> <!-- Zebra finch circovirus -->
+      <primaryAccession>NC_026945</primaryAccession> <!-- Columbid circovirus -->
+      <primaryAccession>NC_002361</primaryAccession> <!-- Starling circovirus -->
+      <primaryAccession>NC_008033</primaryAccession> <!-- Duck circovirus -->
+      <primaryAccession>NC_007220</primaryAccession> <!-- Swan circovirus -->
+      <primaryAccession>NC_025247</primaryAccession> <!-- Cygnus olor circovirus -->
+      <primaryAccession>NC_015399</primaryAccession> <!-- Barbel circovirus -->	  
+      <primaryAccession>NC_025246</primaryAccession> <!-- Wels catfish circovirus -->    
+      <primaryAccession>KY370034</primaryAccession>  <!-- Rodent circovirus 1 -->    
+ 
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+

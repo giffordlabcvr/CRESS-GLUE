@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KP677582</GBSeq_locus>
+    <GBSeq_length>2000</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>07-JUN-2016</GBSeq_update-date>
+    <GBSeq_create-date>07-JUN-2016</GBSeq_create-date>
+    <GBSeq_definition>UNVERIFIED: Beak and feather disease virus isolate Taiwan-18, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>KP677582</GBSeq_primary-accession>
+    <GBSeq_accession-version>KP677582.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KP677582.1|</GBSeqid>
+      <GBSeqid>gi|874346880</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UNVERIFIED</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Beak and feather disease virus</GBSeq_source>
+    <GBSeq_organism>Beak and feather disease virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota; Arfiviricetes; Cirlivirales; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2000</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ho,C.F.</GBAuthor>
+          <GBAuthor>Huang,S.W.</GBAuthor>
+          <GBAuthor>Wang,C.Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (29-DEC-2014) National Chung Hsing University, 250 Kuo Kuang Rd., Taichung 402, Taiwan (R.O.C.)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank staff is unable to verify sequence and/or annotation provided by the submitter.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2000</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2000</GBInterval_to>
+            <GBInterval_accession>KP677582.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Beak and feather disease virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Taiwan-18</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>stool</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Agapornis roseicollis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:77856</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Taiwan</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>140..1009</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>140</GBInterval_from>
+            <GBInterval_to>1009</GBInterval_to>
+            <GBInterval_accession>KP677582.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to replication-associated protein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(1263..&gt;2000)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2000</GBInterval_from>
+            <GBInterval_to>1263</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KP677582.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to capsid protein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggtgccccacaggcggcggttagatattacccgccgcctggggcaccgggggcaccgcaaactgtgcctgcgctgcatttacgattagacgacggagatatgcaagcccgtactaccgcagacgtcacatctggcgatgatgccgtccaaggagggctctggctgtcgccgttggtgttttacccttaacaatcctacagacggcgagatcgaattcgtccgtactctcgggcctgacgaattctactatgccatcgttggacgggaaaagggcgagcaaggtaccccccatttgcaaggctactttcattttaaaaataagaagcgtctgagcgcgcttaagaaattcctgccgcgagctcattttgagcgcgctaaagggagtgatgcggacaatgagaagtattgcagtaaagagggggacgtgatactcaccctcggcattgtggcgagagacggtcaccgcgctttcgatggagctgttgctgccgtgatgtccggacgcaaaatgaaggaagtcgcgcgagagttcccagagatctacgtcaggcatgggcggggcttgcatagcctttcgctattggttggctcccgcccacgtgacttcaagactgaggtcgacgtcatctacggaccaccggggtgtggcaagagtagatgggccaatgagcagcctgggactaaatattataaaatgcgcggtgaatggtgggatggatatgatggggaggaagtcgttgtattggacgacttctatgggtggctaccttattgcgagatgctccgcctctgcgaccgttacccacataaagtgccagttaagggcgcttttgtggagtttacgagcaagaggattattattacgagcaataagccccccgagacctggtacaaggaggactgtgacccgaagccactctttcggagattcactcgtgtttggtggtacaatgtggacaagttggaacaagtccggcctgatttcctcgcccaccccatcatgtgttagtcgtctcggagatgattaaaaaaatccgggcgtcaggccgaaggcctgatgccgcagggcgggacgccctgccggagggctcgcagggccgtcaggcccgagagcccgaccagcccggagggctactgtctgtgtcgggggggggggccccgggggtccccccgacacgacgagcacggtcagcgccgaaggcgccaatgaccacttgaaaacaataaacacttcgaacggtatttgctgtctgaagtctttattaagtgcttgggttgttaggggcaaactgacggaattgaacatacaaagtgagcatgcatacataagtgatcgttacttctggctgagggaagctgaaggcaaggccgtagtgcttgaccttcgcccctgctgcgttgggtcctccttgtagtgggatccagccggttctggcgctgtttagccacagtgctgcagacaagttcgatgtggtcagatcatctattgttatttgtggtttcggtctgagtaggcgtttgaatcccctgctaagataccacttctttgcaccgtcgaaaggtgccagtgggtcttgtgtttggtctgccgtagttttaaatttagttattctggaatcttgtattacggccgtgtgtccgaatccgtctgcagcaatggtgtagtggccccatgtgggcctcaattccattttagctaacttaatgcggtagttttcgaaattgagtgtatgtgggtttggtgtggcttgtaggaaatctgacaatgcgaaggttatgtagtcagaattccaaattacttggccagcacttgtggtctgtttctgaatttcgaatttgaattggcgtttgagtctgagagtgtaaattctattggttgtgaaacggcgtttgcggatgtatctacgtcgccggcggtatcgcctgatgtgacgtctgcggtagtatgggcgggcatatcttcgtcgtctaatctgaaatgtagcgcatgcgcagttaga</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HM565916</GBSeq_locus>
+    <GBSeq_length>249</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-FEB-2011</GBSeq_update-date>
+    <GBSeq_create-date>22-NOV-2010</GBSeq_create-date>
+    <GBSeq_definition>Beak and feather disease virus strain Mira08 replication-associated protein-like gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>HM565916</GBSeq_primary-accession>
+    <GBSeq_accession-version>HM565916.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|HM565916.2|</GBSeqid>
+      <GBSeqid>gi|323433696</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Beak and feather disease virus</GBSeq_source>
+    <GBSeq_organism>Beak and feather disease virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota; Arfiviricetes; Cirlivirales; Circoviridae; Circovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..249</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hakami,A.U.H.</GBAuthor>
+          <GBAuthor>Al-Ankary,A.S.</GBAuthor>
+          <GBAuthor>Zaki,M.M.</GBAuthor>
+          <GBAuthor>Al-Ali,A.M.</GBAuthor>
+          <GBAuthor>Yousif,A.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Beak and Feather Disease Virus in the Kingdom of Saudi Arabia</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..249</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hakami,A.U.H.</GBAuthor>
+          <GBAuthor>Al-Ankary,A.S.</GBAuthor>
+          <GBAuthor>Zaki,M.M.</GBAuthor>
+          <GBAuthor>Al-Ali,A.M.</GBAuthor>
+          <GBAuthor>Yousif,A.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-JUN-2010) Central Biotechnology Laboratory, College of Veterinary Medicine and Animal Resources, King Faisal University, Quatar Rd., Al-Hufof, Al-Ahsaa 31982, KSA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..249</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hakami,A.U.H.</GBAuthor>
+          <GBAuthor>Al-Ankary,A.S.</GBAuthor>
+          <GBAuthor>Zaki,M.M.</GBAuthor>
+          <GBAuthor>Al-Ali,A.M.</GBAuthor>
+          <GBAuthor>Yousif,A.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-FEB-2011) Central Biotechnology Laboratory, College of Veterinary Medicine and Animal Resources, King Faisal University, Quatar Rd., Al-Hufof, Al-Ahsaa 31982, KSA</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Feb 15, 2011 this sequence version replaced HM565916.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..249</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>249</GBInterval_to>
+            <GBInterval_accession>HM565916.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Beak and feather disease virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Mira08</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Psittacus erithacus (African grey parrot)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:77856</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Saudi Arabia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2008</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Mohammad M. Zaki</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;249</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>249</GBInterval_to>
+            <GBInterval_accession>HM565916.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to replication-associated protein; ATP-dependent helicase; essential for the replication of viral ssDNA; displays origin-specific DNA cleavage, nucleotidyl transferase, ATPase and helicase activities; similar to Q9YUD3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaggaagtagcgggagagttcccagatatctaagtcaggcatgggcggggcttgcataacctctcgctattggttggttcccgccccagtgacttcaaggaggaggttgacgtcatcttcgggccaccggggtgtggcaagagtaaatgggccaatgagcagcctgggactaaatattataaaatgcgcggtgagtggtgggatggatatgatggggaagatgtcgtcatcttggatgacgtttatggg</GBSeq_sequence>
+  </GBSeq>

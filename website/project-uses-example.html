@@ -28,6 +28,7 @@
       <h1 class="project-name">CRESS-GLUE</h1>
       <h2 class="project-tagline">A GLUE project for CRESS DNA viruses.</h2>
       <a href="../index.html" class="btn">Home</a>
+      <a href="./project.html" class="btn">Viruses</a>
       <a href="./paleovirology.html" class="btn">Paleoviruses</a>
       <a href="https://github.com/giffordlabcvr/CRESS-GLUE/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master" class="btn">View on GitHub</a>
@@ -37,21 +38,255 @@
 
 
 	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>CRESS virus sequence data</strong>
+		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use CRESS-GLUE - an example based on an avian circovirus</strong>
 	   </h3>
 
 
 	   <p>
- 
+         <b><a target="_blank" href="https://en.wikipedia.org/wiki/Parrot">Psittacine birds</b></a> (parrots and cockatoos) are among the most beautiful and remarkable
+         creatures on the planet. Unfortunately, many of these wonderful species are 
+         presently endangered. 
+         Conservation efforts for have been hampered by
+         the emergence of
+        <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>
+         in captive populations. PBFD is caused by a <b>CRESS DNA virus</b> belonging to the 
+         family <i>Circoviridae</i>, genus <i>Circovirus</i> called beak and feather disease virus (<b>BFDV</b>).
  	   </p>
 
+	   <p>
+         Genomic approaches have great potential to help control the spread of BFDV.
+         In this tutorial we will use the <b>CRESS-GLUE</b> project to (i)
+         investigate BFDV distribution diversity and evolution, and (ii) establish
+         a sequence-based resource for BFDV.
+ 	   </p>
+
+	   <p>
+         
+         This <b>tutorial</b> comprises the following steps:
+
+		 <ol>
+		   <li> <b>Downloading</b> all available BFDV sequences from GenBank.</li>
+		   <li> <b>Extracting</b> isolate data from GenBank files.</li>
+		   <li> <b>Filtering</b> data to obtain a valid analysis data set.</li>
+		   <li> Refining the BFDV <b>reference sequence</b>.</li>
+		   <li> Creating an <b>alignment</b> of all BFDV sequences.</li>
+		   <li> Mapping <b>feature coverage</b> in all BFDV isolates.</li>
+		   <li> Creating an automated procedure for reconstructing midpoint-rooted <b>phylogenetic trees</b>.</li>
+		 </ol>
+
+
+          A brief section at the end of this tutorial discusses how GLUE resources can 
+          be collaboratively developed via online repositories such as GitHub.
+ 	   </p>
+ 	   
+
+	   <p>
+         Notice that the module configuration specifies the name of a '<b>source</b>': "ncbi-curated-circo-bfdv".
+         A source is simply the name used in GLUE for a directory that contains sequence
+         data. Because GLUE projects frequently contain large numbers of sequence files
+         it is expedient to organise these files into distinct sources.
+ 	   </p>
+
+
+	   <p>
+         Before running this tutorial, you may first want to investigate the 
+         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/exampleProject"><b>GLUE example project</b></a>
+         which provides a introduction to the GLUE framework.
+ 	   </p>
+
+
+
+	   <h3>
+		 <a id="DownloadFromNcbi" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Downloading all available BFDV sequences from GenBank</strong>
+	   </h3>
+
+	   <p>
+         To download all entries labelled beak and feather disease in NCBI GenBank, we 
+         can use GLUE's 'NcbiImporter' module, as shown
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b>here</b></a>.
+ 	   </p>
+
+
+	   <p>
+         Specifically configured to download sequences based on the query phrase:
+        <i>"Beak and feather disease virus"[Organism]</i>. In addition, we have added
+         a length specification
+         As explained in the comments within the module configuration. This 'eSearchTerm'
+         is a standard NCBI entrez text query. 
+ 	   </p>
+ 	   
+
+	   <p>
+         Notice that the module configuration specifies the name of a '<b>source</b>': "ncbi-curated-circo-bfdv".
+         A source is simply the name used in GLUE for a directory that contains sequence
+         data. Because GLUE projects frequently contain large numbers of sequence files
+         it is expedient to organise these files into distinct sources. In CRESS-GLUE
+         we organise sources based on (i) data format (FASTA or NCBI-XML)
+         (ii) taxonomic group (e.g. genus Circovirus) and; 
+         (iii) data type (virus or endogenous viral element).
+ 	   </p>
+
+	   <p>
+         To use the module, first initiate GLUE on the command line, then navigate
+         to the 'cress' project as shown here:
+
+  <pre>
+  <code>GLUE> project cress 
+  OK
+  Mode path: /project/cress/ </code></pre>
+
+ 	   </p>
+ 
+	   <p>
+         Now create the module using this configuration file, as shown here:
+
+  <pre>
+  <code>Mode path: /project/cress/
+  GLUE> create module -f modules/genus/circo/circoviridaeNcbiImporterBfdv.xml
+  OK
+  (1 Module created) </code></pre>
+
+ 	   </p>
+
+ 	   <p>
+         To run the module, execute the following command in the GLUE shell:
+
+  <pre>
+  <code>Mode path: /project/cress/
+  GLUE> module circoviridaeNcbiImporterBfdv import
+  ncbiImporterSummaryResult
+  totalMatching: 1250
+  present: 0
+  surplus: 0
+  missing: 1250
+  deleted: 0
+  downloaded: 1250</code></pre>
+
+         As shown above, when I ran this command on 2020-12-01 I obtained 1250
+         sequences. Since the GenBank database is continually expanding, you may find
+         that you obtain more sequences than this running the same 
+         command at a later date.
+	   </p>
  
 
-	 <footer class="site-footer">
-	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/CRESS-GLUE/">CRESS-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
+ 	   <p>
+ 	     A logical next step is to export the source to a directory as follws.
+ 	   </p>
 
-	   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-	 </footer>
+       
+ 	   <h3>
+		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Extracting BFDV isolate data from GenBank files</strong>.
+	   </h3>
+
+
+	   <p>
+         Extracting information from GenBank fields (refer to Example project).
+         Report results.
+ 	   </p>
+
+
+
+	   <h3>
+		 <a id="FilterDataSet" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Filtering data to obtain a valid analysis data set</strong>.
+	   </h3>
+
+	   <p>
+         GenBankXmlPopulator module. Refer to example tutorial. 
+ 	   </p>
+
+	   <p>
+         Use module to search for for <i>host species</i>, <i>time and place of isolation</i>,
+         and <i>isolate</i> data in the "notes" section of the GenBank XML. 
+ 	   </p>
+ 	   
+	   <p>
+         Use of FreeMarker and REGEX in this and other GLUE modules.
+         If unfamiliar the examples included in this project can be modified. 
+ 	   </p>
+
+
+	   <h3>
+		 <a id="RefineReference" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Refining the BFDV reference sequence</strong>.
+	   </h3>
+
+
+	   <p>
+         The CRESS-GLUE project includes a previously constructed reference sequence for BFDV.
+         This reference has the the locations of major genome features mapped - specifically the 
+         rep and cap genes, plus [conclude].
+ 	   </p>
+ 	   
+ 	   
+	   <p>
+         However, in a project focussed specifically on BFDV, we may want to annotate this 
+         specific reference more richly - incorporating everything that is known about
+         the virus genome. 
+ 	   </p>
+
+ 	   
+	   <p>
+         Modify existing BFDV sequence. Create file. Run file. 
+ 	   </p>
+
+
+	   <h3>
+		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Creating an alignment of all BFDV sequences</strong>.
+	   </h3>
+
+ 	   
+	   <p>
+         When aligning sequences derived from a single virus species, an efficient and reliable 
+         approach is to use a pairwise, reference guided approach initially. The GLUE
+         framework allows this approach to be used without data loss 
+       </p>
+ 	   
+	   <p>
+         For this purpose we will use our BFDV reference sequence, and GLUE's inbuilt,
+         codon-aware alignment routines. 
+       </p>
+
+
+	   <h3>
+		 <a id="MapCoverage" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Mapping feature coverage in BFDV sequences</strong>.
+	   </h3>
+
+ 	   
+	   <p>
+         Now that we have created an alignment of BFDV sequences that is constrained to 
+         the BFDV reference sequences, we can used this alignment, and features of the 
+         GLUE framework, to examine feature coverage within individual BFDV sequence
+         spans each genome feature defined in the BFDV reference sequence.  
+       </p>
+
+
+
+	   <h3>
+		 <a id="MapCoverage" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Reconstructing phylogenetic trees</strong>.
+	   </h3>
+
+ 	   
+	   <p>
+         Now that we have created a constrained alignment of BFDV sequences
+       </p>
+
+
+	   <h3>
+		 <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Collaboratively developing CRESS-GLUE resources</strong>.
+	   </h3>
+
+
+
+	  <footer class="site-footer">
+	 
+		<span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/CRESS-GLUE/">
+		  CRESS-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.
+		</span>
+
+		<span class="site-footer-credits">
+		  This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+		</span>
+	   
+	  </footer>
 
     </section>
 
