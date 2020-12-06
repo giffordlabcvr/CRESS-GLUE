@@ -8,7 +8,6 @@
   create reference REF_ECV_Circo.52-Chrysochloris    fasta-refseqs-circo-ecv ecv-circo.52-chrysochloris-con
   create reference REF_ECV_Circo.53-Mus_caroli       fasta-refseqs-circo-ecv ecv-circo.53-mus_caroli
   create reference REF_ECV_Circo.57-Galeopterus      fasta-refseqs-circo-ecv ecv-circo.57-galeopterus-con
-
   create reference REF_ECV_Circo.92-Monodelphis      fasta-refseqs-circo-ecv ecv-circo.92-monodelphis
  
   create reference REF_ECV_Circo.105-Serpentes       fasta-refseqs-circo-ecv ecv-circo.105-serpentes-con
