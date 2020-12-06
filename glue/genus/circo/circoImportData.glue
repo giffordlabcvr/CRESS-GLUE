@@ -6,7 +6,7 @@
 
 
   # Create links to isolate table
-  run script glue/genus/circo/loadIsolateData.js
+  run script glue/genus/circo/loadIsolateDataCirco.js
 
   # Import metadata for exogenous reference sequences from tabular
   module circoSideDataImporter 

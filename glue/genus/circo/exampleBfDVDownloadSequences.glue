@@ -1,0 +1,5 @@
+# Download BFDV sequences from NCBI GenBank  
+create module -f modules/circoviridaeNcbiImporterBfdv.xml
+module circoviridaeNcbiImporterBfdv import
+
+export source sources/ncbi-curated-circo-bfdv/
