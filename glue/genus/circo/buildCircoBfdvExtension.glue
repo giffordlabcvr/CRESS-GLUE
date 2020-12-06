@@ -1,0 +1,26 @@
+
+
+  #run file glue/example/exampleDelete.glue
+  delete module circovirusCompoundAligner
+  delete source ncbi-curated-circo-bfdv
+  delete alignment AL_BFDV
+
+  create module -f modules/genus/circo/circovirusCompoundAligner.xml
+
+  # Import BFDV sequences and side data 
+  import source sources/ncbi-curated-circo-bfdv/
+
+  # Import metadata for exogenous reference sequences from tabular
+  module circoGenbankXmlPopulator populate 
+
+  # Reverse complement sequences
+  run file glue/genus/circo/exampleApplyReverseComplement.glue
+
+  # Create alignments
+  create alignment AL_BFDV -r REF_Circo_BFDV 
+  alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"
+  compute alignment AL_BFDV circovirusCompoundAligner
+  
+  # Validate
+  validate
+

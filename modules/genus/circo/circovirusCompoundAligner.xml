@@ -4,7 +4,7 @@
 			<featureName>Rep</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>Cap-rev</featureName>
+			<featureName>Cap</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner/>
 	</aligners>
