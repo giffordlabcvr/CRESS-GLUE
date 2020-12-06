@@ -9,6 +9,8 @@
 
   # Import BFDV sequences and side data 
   import source sources/ncbi-curated-circo-bfdv/
+  run script glue/genus/circo/exampleLoadIsolateDataBdfv.glue
+  run script glue/genus/circo/exampleLoadSequenceDataBdfv.glue
 
   # Import metadata for exogenous reference sequences from tabular
   module circoGenbankXmlPopulator populate 
