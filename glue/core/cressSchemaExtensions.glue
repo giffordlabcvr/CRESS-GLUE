@@ -18,7 +18,7 @@
   exit
 
   # Create 'isolate' table 
-  create custom-table isolate_data
+  create custom-table isolate
 
   table isolate
     create field isolate VARCHAR 100
