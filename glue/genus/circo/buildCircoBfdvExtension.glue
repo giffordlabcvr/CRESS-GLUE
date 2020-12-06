@@ -1,5 +1,4 @@
 
-
   #run file glue/example/exampleDelete.glue
   delete module circovirusCompoundAligner
   delete source ncbi-curated-circo-bfdv
@@ -9,8 +8,8 @@
 
   # Import BFDV sequences and side data 
   import source sources/ncbi-curated-circo-bfdv/
-  run script glue/genus/circo/exampleLoadIsolateDataBdfv.glue
-  run script glue/genus/circo/exampleLoadSequenceDataBdfv.glue
+  run script glue/genus/circo/exampleLoadIsolateDataBdfv.js
+  run script glue/genus/circo/exampleLoadSequenceDataBdfv.js
 
   # Import metadata for exogenous reference sequences from tabular
   module circoGenbankXmlPopulator populate 

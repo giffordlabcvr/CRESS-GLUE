@@ -7,10 +7,11 @@ var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
 // for each sequence ID
 _.each(seqIds, function(seqId) {
 
-	glue.inMode("sequence/ncbi-curated-circo-bfdv/"+eveObj.sequenceID, function() {
+	glue.inMode("sequence/ncbi-curated-circo-bfdv/"+seqId, function() {
 	
-		glue.log("INFO", "Entering sequence table data for EVE reference:", eveObj.sequenceID);
+		glue.log("INFO", "Entering sequence table data for EVE reference:", seqId );
 
+		glue.command(["set", "field", "full_name", "Beak and feather disease virus"]);
 		glue.command(["set", "field", "family", "Circoviridae"]);
 		glue.command(["set", "field", "genus", "Circovirus"]);
 		glue.command(["set", "field", "clade", "Avian"]);
