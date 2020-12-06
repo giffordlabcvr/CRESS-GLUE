@@ -25,7 +25,7 @@
   run file glue/eve/circo/ecvAlignmentsCirco.glue
 
   # Import alignment tree
-  run file glue/eve/circo/ecvConstrainedAlignmentTreeCirco.glue
+  #run file glue/eve/circo/ecvConstrainedAlignmentTreeCirco.glue
 
   # Validate
   validate
