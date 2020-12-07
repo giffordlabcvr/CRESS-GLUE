@@ -48,7 +48,7 @@
          presently endangered. 
          Conservation efforts for have been hampered by
          the emergence of
-        <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>
+         <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>
          in captive populations. PBFD is caused by a <b>CRESS DNA virus</b> belonging to the 
          family <i>Circoviridae</i>, genus <i>Circovirus</i> called beak and feather disease virus (<b>BFDV</b>).
  	   </p>
@@ -244,53 +244,59 @@
 	   </h3>
 
 
-	   <p>
-         The CRESS-GLUE project includes a previously constructed reference sequence for BFDV.
-         This reference has the the locations of major genome features mapped - specifically the 
-         rep and cap genes, plus [conclude].
- 	   </p>
- 	   
- 	   
-	   <p>
-         However, in a project focussed specifically on BFDV, we may want to annotate this 
-         specific reference more richly - incorporating everything that is known about
-         the virus genome. 
- 	   </p>
+		 <p>
+		   The CRESS-GLUE project includes a previously constructed reference sequence for BFDV.
+		   This reference has the locations of major genome features mapped - specifically the 
+		   <i>rep</i> and <i>cap genes, plus [conclude].
+		 </p>
+	   
+	   
+		 <p>
+		   However, in a project focussed specifically on BFDV, we may want to annotate this 
+		   specific reference more richly - incorporating everything that is known about
+		   the virus genome. 
+		 </p>
 
- 	   
-	   <p>
-         Modify existing BFDV sequence. Create file. Run file. 
- 	   </p>
+	   
+		 <p>
+		   Modify existing BFDV sequence. Create file. Run file. 
+		 </p>
 
 
 	   <h3>
 		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Creating an alignment of all BFDV sequences</strong>.
 	   </h3>
 
- 	   
-	   <p>
-         When aligning sequences derived from a single virus species, an efficient and reliable 
-         approach is to use a pairwise, reference guided approach initially. The GLUE
-         framework allows this approach to be used without data loss 
-       </p>
- 	   
-	   <p>
-         For this purpose we will use our BFDV reference sequence, and GLUE's inbuilt,
-         codon-aware alignment routines. 
-       </p>
+	   
+		 <p>
+		   When aligning sequences derived from a single virus species, an efficient and reliable 
+		   approach is to use a pairwise, reference guided approach initially. The GLUE
+		   framework allows this approach to be used without data loss 
+		 </p>
+	   
+		 <p>
+		   For this purpose we will use our BFDV reference sequence, and GLUE's inbuilt,
+		   codon-aware alignment routines. 
+		 </p>
+	   
+		 <p>
+		   We created a 'compoundAligner' module for the circovirus genus, 
+		   
+		   . 
+		 </p>
 
 
-	   <h3>
-		 <a id="MapCoverage" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Mapping feature coverage in BFDV sequences</strong>.
-	   </h3>
+		 <h3>
+		   <a id="MapCoverage" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Mapping feature coverage in BFDV sequences</strong>.
+		 </h3>
 
- 	   
-	   <p>
-         Now that we have created an alignment of BFDV sequences that is constrained to 
-         the BFDV reference sequences, we can used this alignment, and features of the 
-         GLUE framework, to examine feature coverage within individual BFDV sequence
-         spans each genome feature defined in the BFDV reference sequence.  
-       </p>
+	   
+		 <p>
+		   Now that we have created an alignment of BFDV sequences that is constrained to 
+		   the BFDV reference sequences, we can used this alignment, and features of the 
+		   GLUE framework, to examine feature coverage within individual BFDV sequence
+		   spans each genome feature defined in the BFDV reference sequence.  
+		 </p>
 
 
 
