@@ -184,23 +184,32 @@
 
 	   <p>
          Now that we have downloaded a set of sequences, we can extend the 
-         CRESS-GLUE project to incorporate these Run script 
-		  by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.
+         CRESS-GLUE project to incorporate them. 
+		  by <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js">giffordlabcvr</a>.
+  	   </p>
+ 	   
+	   <p>
+          Set the taxonomic data using
+		  by <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js">this script</a>.
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> run script glue/genus/circo/exampleLoadSequenceDataBdfv.js</code></pre>
+ 	   
+	   <p>
+          Link each new BFDV sequence to the isolate table
+		  using <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js">this script</a>.
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> run script glue/genus/circo/exampleLoadIsolateDataBdfv.js</code></pre>
+
  	   </p>
 
 
 	   <p>
-         Extracting information from GenBank fields (refer to Example project).
-         Report results.
- 	   </p>
-
-
-	   <h3>
-		 <a id="FilterDataSet" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Filtering data to obtain a valid analysis data set</strong>.
-	   </h3>
-
-	   <p>
-         GenBankXmlPopulator module. Refer to example tutorial. 
+         Extracting information from GenBank fields using a
+         customised version
+         of GLUE's 'genbankPopulator' module.
  	   </p>
 
 	   <p>
@@ -211,7 +220,19 @@
 	   <p>
          Use of FreeMarker and REGEX in this and other GLUE modules.
          If unfamiliar the examples included in this project can be modified. 
+  
+  
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> run script glue/genus/circo/exampleLoadIsolateDataBdfv.js</code></pre>
+
  	   </p>
+
+
+	   <h3>
+		 <a id="FilterDataSet" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Filtering data to obtain a valid analysis data set</strong>.
+	   </h3>
+
 
 
 	   <h3>

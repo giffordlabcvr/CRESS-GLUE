@@ -11,7 +11,7 @@
   run script glue/genus/circo/exampleLoadIsolateDataBdfv.js
   run script glue/genus/circo/exampleLoadSequenceDataBdfv.js
 
-  # Import metadata for exogenous reference sequences from tabular
+  # Extract and import data from GenBank XML
   module circoGenbankXmlPopulator populate 
 
   # Reverse complement sequences

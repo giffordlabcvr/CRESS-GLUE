@@ -1,5 +1,6 @@
-// list the sequences in source ncbi-refseqs
+// list the sequences in source 'ncbi-curated-circo-bfdv'
 var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-circo-bfdv'"]);
+
 // extract from the result a list of sequence IDs.
 var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
 // for each sequence ID
