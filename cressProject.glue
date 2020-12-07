@@ -28,7 +28,7 @@ exit
 
 # Create the EVE/paleovirus schema extensions
 schema-project cress
-  run file glue/core/cressPaleovirusSchemaExtensions.glue
+  run file glue/core/cressSchemaExtensionsPaleovirus.glue
   exit
 
 # Build genus-level EVE extensions

@@ -183,14 +183,18 @@
 
 
 	   <p>
-         Now that we have downloaded a set of sequences, we can extend the 
-         CRESS-GLUE project to incorporate them. 
-		  by <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js">giffordlabcvr</a>.
-  	   </p>
+         Now that we've downloaded a set of BFDV sequences, we can incorporate them into 
+         the CRESS-GLUE project as follows:
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> import source </code></pre>
+ 	   </p>
  	   
 	   <p>
-          Set the taxonomic data using
-		  by <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js">this script</a>.
+          Set the taxonomic data for each sequence in the main 'sequence' table by running
+		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>,
+		  as follows:
 
   <pre>
   <code>Mode path: /project/cress
@@ -198,7 +202,7 @@
  	   
 	   <p>
           Link each new BFDV sequence to the isolate table
-		  using <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js">this script</a>.
+		  using <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
   <pre>
   <code>Mode path: /project/cress
   GLUE> run script glue/genus/circo/exampleLoadIsolateDataBdfv.js</code></pre>

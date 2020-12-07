@@ -57,11 +57,26 @@
 
 		 <p>
 		   The paleovirus component of CRESS-GLUE extends GLUE's 
-		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
-		   with an additional table: 'locus_data'.
-		   This table is linked to the main 'sequence' table via the 'sequenceID' field, and
-		   contains eve locus-specific information (e.g. species, assembly, scaffold, location coordinates).
-		 </p>
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>.
+		   These schema extensions are defined in 
+		   
+		   and comprise two additional table: 'locus_data' and 'refcon_data'.
+		   Both tables are linked to the main 'sequence' table via the 'sequenceID' field.
+  		</p>
+
+
+ 		<p>
+		   The '<b>locus_data</b>' table contains EVE locus information: e.g. species, assembly, scaffold, location coordinates.
+		</p>
+
+ 		<p>
+		   The '<b>refcon_data</b>' table contains summary information for individual
+		   EVE insertions. It refers to the reference sequences constructed to represent
+		   each insertion, which reflect our best efforts to reconstruct progenitor virus
+		   sequences as they might have looked when they initially integrated into 
+		   the germline of ancestral species. 
+		</p>
+
 
 
 	   <h3>
@@ -80,9 +95,9 @@
            Reference sequence data in tabular format can be found at the following links: 
 
 		  <ul>
-			<li> ECVs derived from genus <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-circo-refseqs-side-data.tsv"><strong><i>Circovirus</i></strong></a>
-			<li> Genus <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-cyclo-refseqs-side-data.tsv"><strong><i>Cyclovirus</i></strong></a>
-			<li> Unclassified <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-cyclo-refseqs-side-data.tsv"><strong>CRESS</strong></a> DNA viruses.</li>
+			<li> ECVs derived from genus <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-circo-refseqs-side-data.tsv"><strong><i>Circovirus</i></strong></a></li>
+			<li> ECVs derived from genus <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-cyclo-refseqs-side-data.tsv"><strong><i>Cyclovirus</i></strong></a></li>
+			<li> ECVs derived from genus unclassified <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-cress-refseqs-side-data.tsv"><strong>CRESS</strong></a> DNA viruses</li>
 		  </ul>
            
   		</p>
@@ -92,43 +107,46 @@
            <strong>Nucleotide level data:</strong>
 
 
-		<table>
-		
-			<thead>
-				<tr>
-					<th>Taxonomic group</th>
-					<th>Tabular data</th>
-					<th>Full-length ECV nucleotides</th>
-					<th>Full-length ECV</th>
-				</tr>
-			</thead>
-		
-			<tbody>
+		   <table>
+	   
+			   <thead>
+				   <tr>
+					   <th>Taxonomic group</th>
+					   <th>Tabular data</th>
+					   <th>Full-length ECV nucleotides</th>
+					   <th>Full-length ECV</th>
+				   </tr>
+			   </thead>
+	   
+			   <tbody>
 
-				<tr>
-					<td><i>Genus Circovirus</i></td>
-					<td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-circo-refseqs-side-data.tsv"><i>2020-07-15</i></a></td>
-					<td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/alignments/internal/circovirus-genome.fna">FASTA MSA</a></td>
-					<td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/sources/fasta-refseqs-circo-ecv">Individual FASTA</a></td>
-				</tr>
+				   <tr>
+					   <td><i>Genus Circovirus</i></td>
+					   <td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-circo-refseqs-side-data.tsv"><i>2020-07-15</i></a></td>
+					   <td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/alignments/internal/circovirus-genome.fna">FASTA MSA</a></td>
+					   <td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/sources/fasta-refseqs-circo-ecv">Individual FASTA</a></td>
+				   </tr>
 
-				<tr>
-					<td><i>Genus Cyclovirus</i></td>
-					<td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-cyclo-refseqs-side-data.tsv"><i>2020-07-15</i></a></td>
-					<td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/alignments/internal/cyclovirus-genome.fna">FASTA MSA</a></td>
-					<td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/sources/fasta-refseqs-cyclo-ecv">Individual FASTA</a></td>
-				</tr>
+				   <tr>
+					   <td><i>Genus Cyclovirus</i></td>
+					   <td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-cyclo-refseqs-side-data.tsv"><i>2020-07-15</i></a></td>
+					   <td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/alignments/internal/cyclovirus-genome.fna">FASTA MSA</a></td>
+					   <td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/sources/fasta-refseqs-cyclo-ecv">Individual FASTA</a></td>
+				   </tr>
 
-				<tr>
-					<td><i>Unclassified CRESS</i></td>
-					<td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-cress-refseqs-side-data.tsv"><i>2020-07-15</i></a></td>
-					<td><a href="">FASTA MSA</a></td>
-					<td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/sources/fasta-refseqs-cress-ecv">Individual FASTA</a></td>
-				</tr>
+				   <tr>
+					   <td><i>Unclassified CRESS</i></td>
+					   <td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/eve/ecv-cress-refseqs-side-data.tsv"><i>2020-07-15</i></a></td>
+					   <td><a href="">FASTA MSA</a></td>
+					   <td><a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/sources/fasta-refseqs-cress-ecv">Individual FASTA</a></td>
+				   </tr>
 
-			</tbody>
-			
-		</table>
+			   </tbody>
+		   
+		   </table>
+
+
+
   		</p>
 
 		<p>
