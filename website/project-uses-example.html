@@ -93,7 +93,7 @@
 	   </h3>
 
 	   <p>
-         To download all entries labelled beak and feather disease in NCBI GenBank, we 
+         To download all BFDV entries in NCBI GenBank, we 
          can use a customised version of GLUE's 'NcbiImporter' module.
          The configuration of the module can be viewed
 		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b>here</b></a>.
@@ -103,7 +103,10 @@
 	   <p>
          Viewing the file, you can probably see how it is configured to download sequences
          based on a query phrase:
-        <i>"Beak and feather disease virus"[Organism]</i>. In addition, we have added
+        <i>"Beak and feather disease virus"[Organism] AND 200:2000[SLEN]</i>.
+        
+         Specifies all entries labelled "beak and feather disease" in the 'Organism' field.
+         In addition, we have added
          a length specification
          As explained in the comments within the module configuration. This 'eSearchTerm'
          is a standard NCBI entrez text query. 
