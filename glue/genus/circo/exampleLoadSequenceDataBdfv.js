@@ -11,6 +11,7 @@ _.each(seqIds, function(seqId) {
 	
 		glue.log("INFO", "Entering sequence table data for EVE reference:", seqId );
 
+		glue.command(["set", "field", "name", "BFDV"]);
 		glue.command(["set", "field", "full_name", "Beak and feather disease virus"]);
 		glue.command(["set", "field", "family", "Circoviridae"]);
 		glue.command(["set", "field", "genus", "Circovirus"]);
