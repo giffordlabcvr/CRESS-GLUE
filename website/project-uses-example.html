@@ -178,7 +178,7 @@
  	   </p>
    
  	   <h3>
-		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Extracting BFDV isolate data from GenBank files</strong>.
+		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Importing BFDV sequences and metadata from GenBank files</strong>.
 	   </h3>
 
 
@@ -214,10 +214,8 @@
          Extracting information from GenBank fields using a
          customised version
          of GLUE's 'genbankPopulator' module.
- 	   </p>
-
-	   <p>
-         Use module to search for for <i>host species</i>, <i>time and place of isolation</i>,
+         We can use this module to search for for <i>host species</i>,
+         <i>time and place of isolation</i>,
          and <i>isolate</i> data in the "notes" section of the GenBank XML. 
  	   </p>
  	   
@@ -233,9 +231,75 @@
  	   </p>
 
 
+		 <p>
+
+           Inspect data in the isolate table via the command line:
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> list sequence sequenceID name full_name family genus clade
+  +============+===============+================+==================+==============+
+  | sequenceID |     name      |     family     |      genus       |    clade     |
+  +============+===============+================+==================+==============+
+  | AB182568   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
+  | AB182569   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
+  | AB182570   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
+  | AB182571   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
+  | AB182572   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |</code></pre>
+
+  		 </p>
+
+
+		 <p>
+           Inspect data via the command line, this time using a 'where clause' to 
+           limit the query to Japanese isolates:
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> list custom-table-row isolate id isolate country -w "country = 'Japan'"
+  +==========+============+=========+
+  |    id    |  isolate   | country |
+  +==========+============+=========+
+  | AB277726 | AGP-SA1P-1 | Japan   |
+  | AB277727 | AGP-SA1P-2 | Japan   |
+  | AB277728 | AGP-SA1P-3 | Japan   |
+  | AB277729 | AGP-SA1P-4 | Japan   |
+  | AB277730 | AGP-SA1P-5 | Japan   |</code></pre>		   
+
+
+  		 </p>
+
+		 <p>
+           Executing the query above without a where clause will show that
+           not every sequence has complete information for each field in the isolate
+           table. This is because typically, some GenBank entries for any given virus
+           lack this information.
+  		 </p>
+
+
+
 	   <h3>
 		 <a id="FilterDataSet" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Filtering data to obtain a valid analysis data set</strong>.
 	   </h3>
+
+
+
+
+		 <p>
+           Export data table to a text file (tab-separated values).
+           This is a three step process:
+
+
+  <pre>
+  <code>Mode path: /project/cress
+
+  GLUE> console set cmd-output-file-format tab 
+  OK
+  Mode path: /project/cress
+  GLUE> console set next-cmd-output-file bfdv-data.tsv
+  OK
+  Mode path: /project/cress
+  GLUE> list custom-table-row isolate id isolate country host_sci_name collection_year</code></pre>		
 
 
 
@@ -259,8 +323,35 @@
 
 	   
 		 <p>
-		   Modify existing BFDV sequence. Create file. Run file. 
-		 </p>
+           Modify existing BFDV sequence.
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> reference REF_
+  REF_Begomo_EACMKV              REF_CRESS1_MASTER_AHEaCV-13    REF_CRESS2_MASTER_Po-41        
+  REF_Circo_BFDV                 REF_Circo_BarbCV               REF_Circo_CaCV                 
+  REF_Circo_CfCV                 REF_Circo_CoCV                 REF_Circo_DuCV                 
+  REF_Circo_FiCV                 REF_Circo_GuCV                 REF_Circo_MASTER_PCV-1         
+  REF_Circo_MiCV                 REF_Circo_PCV-2                REF_Circo_PCV-3                
+  REF_Circo_RaCV                 REF_Circo_SgCV                 REF_Circo_StCV                 
+  REF_Circo_SvCV                 REF_Circo_SwCV                 REF_Circo_TbCV                 
+  REF_Circo_ZfCV                 REF_Cyclo_MASTER_HuACyV-1      REF_Porprismaco_MASTER_CBSV    
+  REF_Redondo_MASTER_HLVV        
+  </code></pre>		   
+  		 </p>
+  		 
+  		 
+		 <p>
+           Modify existing BFDV sequence.
+
+  <pre>
+  <code>Mode path: /project/cress
+
+GLUE> reference REF_Circo_BFDV 
+OK
+Mode path: /project/cress/reference/REF_Circo_BFDV
+  		 </p>
+
 
 
 	   <h3>
