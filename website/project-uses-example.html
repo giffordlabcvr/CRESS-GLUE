@@ -81,14 +81,6 @@
  	   
 
 	   <p>
-         Notice that the module configuration specifies the name of a '<b>source</b>': "ncbi-curated-circo-bfdv".
-         A source is simply the name used in GLUE for a directory that contains sequence
-         data. Because GLUE projects frequently contain large numbers of sequence files
-         it is expedient to organise these files into distinct sources.
- 	   </p>
-
-
-	   <p>
          Before running this tutorial, you may first want to investigate the 
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/exampleProject"><b>GLUE example project</b></a>
          which provides a introduction to the GLUE framework.
@@ -102,13 +94,15 @@
 
 	   <p>
          To download all entries labelled beak and feather disease in NCBI GenBank, we 
-         can use GLUE's 'NcbiImporter' module, as shown
+         can use a customised version of GLUE's 'NcbiImporter' module.
+         The configuration of the module can be viewed
 		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b>here</b></a>.
  	   </p>
 
 
 	   <p>
-         Specifically configured to download sequences based on the query phrase:
+         Viewing the file, you can probably see how it is configured to download sequences
+         based on a query phrase:
         <i>"Beak and feather disease virus"[Organism]</i>. In addition, we have added
          a length specification
          As explained in the comments within the module configuration. This 'eSearchTerm'
@@ -117,7 +111,7 @@
  	   
 
 	   <p>
-         Notice that the module configuration specifies the name of a '<b>source</b>': "ncbi-curated-circo-bfdv".
+         Notice also that the module configuration specifies the name of a '<b>source</b>': "ncbi-curated-circo-bfdv".
          A source is simply the name used in GLUE for a directory that contains sequence
          data. Because GLUE projects frequently contain large numbers of sequence files
          it is expedient to organise these files into distinct sources. In CRESS-GLUE
@@ -184,16 +178,19 @@
 
 	   <p>
          Now that we've downloaded a set of BFDV sequences, we can incorporate them into 
-         the CRESS-GLUE project as follows:
+         the CRESS-GLUE project.
+         Load the sequences as follows:
 
   <pre>
   <code>Mode path: /project/cress
-  GLUE> import source </code></pre>
+  GLUE> import source sources/ncbi-curated-circo-bfdv/</code></pre>
  	   </p>
  	   
 	   <p>
+          All sequences will have the same taxonomic information (since we're only
+          considering one virus species here).
           Set the taxonomic data for each sequence in the main 'sequence' table by running
-		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>,
+		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>
 		  as follows:
 
   <pre>
@@ -350,7 +347,6 @@
 
   <pre>
   <code>Mode path: /project/cress
-
   GLUE> reference REF_Circo_BFDV 
   OK
   Mode path: /project/cress/reference/REF_Circo_BFDV</code></pre>	
@@ -375,10 +371,32 @@
 		 </p>
 	   
 		 <p>
-		   We created a 'compoundAligner' module for the circovirus genus, 
-		   
-		   . 
+		   We created a 'compoundAligner' module for the circovirus genus. 
 		 </p>
+
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> create alignment AL_BFDV -r REF_Circo_BFDV 
+  alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"
+  compute alignment AL_BFDV circovirusCompoundAligner</code></pre>
+
+
+	   
+		 <p>
+		   Some BFDV sequences were in the opposite orientation than the reference.
+		   Run 
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.js"><b>this GLUE file </b></a>
+
+		   to fix this .
+		 </p>
+
+
+
+  <pre>
+  <code>run file glue/genus/circo/exampleApplyReverseComplement.glue</code></pre>
+
+
 
 
 		 <h3>
@@ -388,9 +406,8 @@
 	   
 		 <p>
 		   Now that we have created an alignment of BFDV sequences that is constrained to 
-		   the BFDV reference sequences, we can used this alignment, and features of the 
-		   GLUE framework, to examine feature coverage within individual BFDV sequence
-		   spans each genome feature defined in the BFDV reference sequence.  
+		   the BFDV reference sequences, we can use this alignment, and features of the 
+		   GLUE framework, to examine feature coverage within individual BFDV sequences.
 		 </p>
 
 
@@ -400,7 +417,8 @@
 	   </h3>
 	   
 	   <p>
-         Now that we have created a constrained alignment of BFDV sequences
+         In the final step in this tutorial, we will create a set of midpoint-rooted
+         tree for each of the two main genes in the BFDV genome. 
        </p>
 
 
