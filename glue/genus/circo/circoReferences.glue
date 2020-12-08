@@ -10,7 +10,7 @@
   create reference REF_Circo_TbCV     ncbi-refseqs-circo NC_028045
   
   ## Avian 1
-  create reference REF_Circo_BFDV     ncbi-refseqs-circo  NC_001944
+  create reference REF_Circo_BFDV     ncbi-refseqs-circo  NC_001944 # Beak and feather disease virus
   create reference REF_Circo_StCV     ncbi-refseqs-circo  NC_008033
   create reference REF_Circo_CaCV     ncbi-refseqs-circo  NC_003410
   create reference REF_Circo_ZfCV     ncbi-refseqs-circo  NC_026945

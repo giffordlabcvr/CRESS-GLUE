@@ -38,8 +38,15 @@
 
 
 	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use CRESS-GLUE - an example based on an avian circovirus</strong>
+		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use CRESS-GLUE - an example-driven tutorial based on an avian circovirus</strong>
 	   </h3>
+
+
+	   <p>
+         Before attempting this tutorial, you may first want to investigate the 
+         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/exampleProject"><b>GLUE example project</b></a>
+         which provides a broad introduction to the GLUE framework.
+ 	   </p>
 
 
 	   <p>
@@ -50,7 +57,7 @@
          the emergence of
          <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>
          in captive populations. PBFD is caused by a <b>CRESS DNA virus</b> belonging to the 
-         family <i>Circoviridae</i>, genus <i>Circovirus</i> called beak and feather disease virus (<b>BFDV</b>).
+         family <i>Circoviridae</i>, genus <i>Circovirus</i> called <b>beak and feather disease virus (BFDV)</b>.
  	   </p>
 
 	   <p>
@@ -79,13 +86,6 @@
           be collaboratively developed via online repositories such as GitHub.
  	   </p>
  	   
-
-	   <p>
-         Before running this tutorial, you may first want to investigate the 
-         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/exampleProject"><b>GLUE example project</b></a>
-         which provides a introduction to the GLUE framework.
- 	   </p>
-
 
 
 	   <h3>
@@ -121,11 +121,11 @@
  	   </p>
 
 	   <p>
-         To use the module, first initiate GLUE on the command line, 
+         To use the module, first initiate GLUE on the command line as follows: 
          
          
   <pre>
-  <code>big-jessie:CRESS-GLUE rob$ gluetools.sh 
+  <code>MyComputer:CRESS-GLUE rob$ gluetools.sh 
   GLUE Version 1.1.103
   Copyright (C) 2015-2020 The University of Glasgow
   This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
@@ -135,9 +135,13 @@
   Mode path: /
   GLUE></code></pre>
 
- 	   </p>
 
+          
+         Note that I am in the 'CRESS-GLUE' directory when I initiate GLUE here.
+         [Set directory path]. 
+ 
          Next, navigate to the 'cress' project as shown here:
+	   </p>
 
   <pre>
   <code>GLUE> project cress 
@@ -147,7 +151,9 @@
  	   </p>
  
 	   <p>
-         Now create the module using this configuration file, as shown here:
+         Now create the module using this
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b> configuration </b></a>file,
+         as shown here:
 
   <pre>
   <code>Mode path: /project/cress/
@@ -213,8 +219,8 @@
   GLUE> run script glue/genus/circo/exampleLoadSequenceDataBdfv.js</code></pre>
  	   
 	   <p>
-          Link each new BFDV sequence to the isolate table
-		  using <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
+          Link each new BFDV sequence to the isolate table using
+          <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
   <pre>
   <code>Mode path: /project/cress
   GLUE> run script glue/genus/circo/exampleLoadIsolateDataBdfv.js</code></pre>
@@ -245,7 +251,7 @@
 
 		 <p>
 
-           Inspect data in the isolate table via the command line:
+           Inspect data in the sequence table via the command line:
 
   <pre>
   <code>Mode path: /project/cress
@@ -263,8 +269,9 @@
 
 
 		 <p>
-           Inspect data via the command line, this time using a 'where clause' to 
-           limit the query to Japanese isolates:
+           Inspect data in the isolate table via the command line. This time using a
+          <a target="_blank" href="https://www.w3schools.com/sql/sql_where.asp"><b>'where clause'</b></a>         
+           to limit the query to Japanese isolates only:
 
   <pre>
   <code>Mode path: /project/cress
@@ -313,6 +320,25 @@
   Mode path: /project/cress
   GLUE> list custom-table-row isolate id isolate country host_sci_name collection_year</code></pre>		
 
+		 </p>
+		 <p>
+           Show format for updating data - (template).
+		 </p>
+
+		 <p>
+           Use       
+		   <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleImportCuratedSideData.js"><strong>this script</strong></a>
+		   to upload the refined data.
+		 </p>
+
+		 <p>
+		   If you improve metadata for any virus sequence set, you may want to share.
+		   See sharing section below.
+		 </p>
+
+
+
+
 
 
 	   <h3>
@@ -321,8 +347,10 @@
 
 
 		 <p>
-		   The CRESS-GLUE project includes a previously constructed reference sequence for BFDV.
-		   This reference has the locations of major genome features mapped - specifically the 
+		   The CRESS-GLUE project includes a previously constructed
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/circoReferences.glue"><b>reference sequence</b></a>
+           for BFDV.
+ 		   This reference has the locations of major genome features mapped - specifically the 
 		   <i>rep</i> and <i>cap</i> genes.	   
 		 </p>
 	   
@@ -336,6 +364,7 @@
 	   
 		 <p>
            Modify existing BFDV sequence. 
+		   <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001944"><b>BFDV GenBank entry</b></a>
            Use tab complete function of the console to see the complete list 
            of reference sequences.
 
@@ -356,9 +385,20 @@
   		 
   		 
 		 <p>
-           We see the MASTER references of the core project,
+           As expected, we see the master references of the core project,
            plus the references associated with the Circovirus extension.
-           Modify existing BFDV sequence.
+  		 </p>
+  		 
+  		 
+		 <p>
+		   <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001944"><b>BFDV GenBank entry</b></a>
+		   shows an additional, hypothetical open reading frame (ORF), called "V2".
+  		 </p>
+  		 
+  		 
+		 <p>
+           To modify existing BFDV sequence to include V2.
+  		 </p>
 
   <pre>
   <code>Mode path: /project/cress
@@ -392,13 +432,12 @@
    GLUE> project-mode 
    OK
    Mode path: /project/cress
-   GLUE></code></pre>	
+   GLUE></code></pre>
 	   
 		 <p>
 		   We created a 'compoundAligner' module for the circovirus genus. 
 		   The simple configuration of this file can be viewed here
 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
-		 </p>
 
 
   <pre>
@@ -406,14 +445,40 @@
   GLUE> create alignment AL_BFDV -r REF_Circo_BFDV 
   alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"
   compute alignment AL_BFDV circovirusCompoundAligner</code></pre>
+		 </p>
 
 
-	   
+		 <p>
+		   Inspect the alignment.
+		 </p>
+
+  <pre>
+  <code>GLUE> alignment AL_BFDV show statistics</code></pre>
+
+		 <p>
+		   Also.
+		 </p>
+
+
+  <pre>
+  <code>GLUE> alignment AL_BFDV 
+  OK
+  Mode path: /project/cress/alignment/AL_BFDV
+  GLUE> list member sequence.sequenceID sequence.name sequence.isolate.isolate
+  +=====================+===============+====================================+
+  | sequence.sequenceID | sequence.name |      sequence.isolate.isolate      |
+  +=====================+===============+====================================+
+  | AB182568            | BFDV          | YCC-IN1P                           |
+  | AB182569            | BFDV          | YCC-IN2P                           |
+  | AB182570            | BFDV          | RRP-JP11P                          |
+  | AB182571            | BFDV          | RRP-JP12P                          |
+  | AB182572            | BFDV          | BTP-SA11P                          |</code></pre>
+  
+     
 		 <p>
 		   Some BFDV sequences were in the opposite orientation than the reference.
 		   First, run 
 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.js"><b>this GLUE file </b></a>
-
 		   to fix this - then I'll explain how I created the file.
 		 </p>
 
@@ -428,7 +493,27 @@
 		   How did I figure out which ones? 
 		 </p>
 
+	   
+		 <p>
+		   Refining the alignment - may want to manually adjust and re-import.
+		   Note, the structure of the alignments directory - refer to alignment tree.
+		   BFDV is a 'tip' alignment'.
+		 </p>
 
+   <pre>
+   <code>Mode path: /project/cress/
+   GLUE> import alignment -f alignments/tip/</code></pre>
+	   
+		 <p>
+		   There is in reality only one correct alignment.
+		   However, in some highly-variable regions of viral genomes, the concept 
+		   might not even be that meaningful.
+		 </p>
+
+		 <p>
+		   If you improve an alignment in a way that seems clear - you may want to share.
+		   See sharing section below.
+		 </p>
 
 		 <h3>
 		   <a id="MapCoverage" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Mapping feature coverage in BFDV sequences</strong>.
@@ -453,6 +538,7 @@
 	   <p>
          In the final step in this tutorial, we will create a set of midpoint-rooted
          tree for each of the two main genes in the BFDV genome. 
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateGenusLevelPhylogeniesBfdv.js"><b>this file</b></a>.
        </p>
 
 
@@ -460,6 +546,43 @@
 		 <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Collaboratively developing CRESS-GLUE resources</strong>.
 	   </h3>
 
+		 <p>
+		   The 'philosophy' of GLUE - open source software for dealing with the
+		   nuts and bolts of comparative sequence analysis.
+		   The aim of this project really is to <b>facilitate</b>.
+		   Comparative analysis hampered by laborious data preparation.
+		   
+		 </p>
+	   
+		 <p>
+		   Host projects on GitHub.
+		   Clone. fork.  
+		 </p>
+
+
+	   <h3>
+		 <a id="Related resources" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related resources</strong>
+	   </h3>
+ 
+	   <p>
+         Parrot conservation societies:
+         FreeMarker
+         GLUE example project
+	   </p>
+
+
+	   <h3>
+		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
+	   </h3>
+
+        Arvind Varsani, Regnard GL, Bragg R, Hitzeroth II, EP Rybicki
+
+		<b>(2011)</b>
+		<br>
+		Global genetic diversity and geographical and host-species distribution of beak and feather disease virus isolates.
+		<i>J Gen Virol.</i>  Apr;92(Pt 4):752-67. doi: 10.1099/vir.0.028126-0. Epub 2010 Dec 22. 
+		<a href="https://www.microbiologyresearch.org/content/journal/jgv/10.1099/vir.0.028126-0" target="_blank">[view]</a> 
+		<br>
 
 
 	  <footer class="site-footer">
