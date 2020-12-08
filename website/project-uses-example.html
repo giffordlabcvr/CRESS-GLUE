@@ -121,13 +121,28 @@
  	   </p>
 
 	   <p>
-         To use the module, first initiate GLUE on the command line, then navigate
-         to the 'cress' project as shown here:
+         To use the module, first initiate GLUE on the command line, 
+         
+         
+  <pre>
+  <code>big-jessie:CRESS-GLUE rob$ gluetools.sh 
+  GLUE Version 1.1.103
+  Copyright (C) 2015-2020 The University of Glasgow
+  This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
+  are welcome to redistribute it under certain conditions. For details see
+  GNU Affero General Public License v3: http://www.gnu.org/licenses/
+
+  Mode path: /
+  GLUE></code></pre>
+
+ 	   </p>
+
+         Next, navigate to the 'cress' project as shown here:
 
   <pre>
   <code>GLUE> project cress 
   OK
-  Mode path: /project/cress/ </code></pre>
+  Mode path: /project/cress/</code></pre>
 
  	   </p>
  
@@ -367,11 +382,22 @@
 	   
 		 <p>
 		   For this purpose we will use our BFDV reference sequence, and GLUE's inbuilt,
-		   codon-aware alignment routines. 
+		   codon-aware alignment routines.
+		   First, exit the reference sequence to project level (assuming you are still 
+		   in this mode path
 		 </p>
+
+   <pre>
+   <code>Mode path: /project/cress/reference/REF_Circo_BFDV
+   GLUE> project-mode 
+   OK
+   Mode path: /project/cress
+   GLUE></code></pre>	
 	   
 		 <p>
 		   We created a 'compoundAligner' module for the circovirus genus. 
+		   The simple configuration of this file can be viewed here
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
 		 </p>
 
 
@@ -385,10 +411,10 @@
 	   
 		 <p>
 		   Some BFDV sequences were in the opposite orientation than the reference.
-		   Run 
+		   First, run 
 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.js"><b>this GLUE file </b></a>
 
-		   to fix this .
+		   to fix this - then I'll explain how I created the file.
 		 </p>
 
 
@@ -396,6 +422,11 @@
   <pre>
   <code>run file glue/genus/circo/exampleApplyReverseComplement.glue</code></pre>
 
+
+	   
+		 <p>
+		   How did I figure out which ones? 
+		 </p>
 
 
 
@@ -410,6 +441,9 @@
 		   GLUE framework, to examine feature coverage within individual BFDV sequences.
 		 </p>
 
+  <pre>
+  <code>module circoFeaturePresenceRecorder 
+  GLUE> record feature-presence AL_BFDV --recursive --featureName whole_genome --descendentFeatures</code></pre>
 
 
 	   <h3>
