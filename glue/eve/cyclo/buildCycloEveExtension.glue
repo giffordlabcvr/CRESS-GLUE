@@ -1,0 +1,32 @@
+
+  delete source fasta-refseqs-ecv
+  delete source fasta-curated-ecv
+
+  # Import eve sequences
+  import source sources/fasta-refseqs-cyclo-ecv/
+  import source sources/fasta-digs-cyclo-ecv/
+ 
+  # Import locus information for individual eve loci
+  run script glue/eve/cyclo/loadLocusData1.js
+  run script glue/eve/cyclo/loadLocusData2.js
+
+  # Link EVE references to EVE reference/consensus table
+  run script glue/eve/cyclo/loadRefConData1.js
+
+  # Import eve reference sequence data
+  module cressSideDataImporter 
+    populate -f tabular/eve/ecv-cyclo-refseqs-side-data.tsv
+    exit
+ 
+  # Declare references 
+  run file glue/eve/cyclo/ecvReferencescyclo.glue
+
+  # Import alignments
+  run file glue/eve/cyclo/ecvAlignmentscyclo.glue
+
+  # Import alignment tree
+  #run file glue/eve/cyclo/ecvConstrainedAlignmentTreecyclo.glue
+
+  # Validate
+  validate
+

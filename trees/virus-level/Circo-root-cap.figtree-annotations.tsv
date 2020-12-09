@@ -1,0 +1,678 @@
+taxon	sequenceID	pubmed_id	length	genus	name	full_name	clade	isolate	host_sci_name	sample_date	country
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB182568	AB182568	15781996	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCC-IN1P	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB182569	AB182569	15781996	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCC-IN2P	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB182570	AB182570	15781996	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	RRP-JP11P	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB182571	AB182571	15781996	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	RRP-JP12P	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB182572	AB182572	15781996	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BTP-SA11P	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB182573	AB182573	15781996	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	RL-JP1P	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277726	AB277726	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AGP-SA1P-1	Psittacus erithacus erithacus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277727	AB277727	-	444	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AGP-SA1P-2	Psittacus erithacus erithacus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277728	AB277728	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AGP-SA1P-3	Psittacus erithacus erithacus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277729	AB277729	-	444	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AGP-SA1P-4	Psittacus erithacus erithacus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277730	AB277730	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AGP-SA1P-5	Psittacus erithacus erithacus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277731	AB277731	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AGP-SA2P	Psittacus erithacus erithacus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277732	AB277732	-	444	Circovirus	BFDV	Beak and feather disease virus	Avian-1	TGP-SA1P	Psittacus erithacus timneh	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277733	AB277733	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	EC-SG1P	Cacatua galerita eleonora	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277734	AB277734	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	WC-SG1P	Cacatua alba	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277735	AB277735	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	WC-IN1P	Cacatua alba	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277736	AB277736	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCC-IN3P	Cacatua sulphurea	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277737	AB277737	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCC-IN4P	Cacatua sulphurea	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277738	AB277738	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BWP-SA1P	Pionus chalcopterus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277739	AB277739	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BP-SA1P	Poicephalus meyeri	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277740	AB277740	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BHP-SA1P	Poicephalus cryptoxanthus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277741	AB277741	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	RBP-SA1P	Poicephalus rufiventris	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277742	AB277742	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	SP-SA1P	Poicephalus senegalus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277743	AB277743	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AP-UN1P	Psittacula eupatria	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277744	AB277744	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	EP-JP1P	Eclectus roratus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277745	AB277745	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	DP-SA1P	Psittacula derbiana	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277746	AB277746	20658313	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	MU-JP1P	Melopsittacus undulatus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB277747	AB277747	20658313	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	MU-JP2P	Melopsittacus undulatus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AB514568	AB514568	20035119	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	-	-	Japan:Fukuoka
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AF071878	AF071878	9787657	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AF080560	AF080560	9791035	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua galerita	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AF311297	AF311297	-	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua tenuirostris	-	Australia: Southern Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AF311298	AF311298	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Eolophus roseicapillus	-	Australia: Western Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AF311300	AF311300	-	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua leabeateri	-	Australia: Western Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AF311301	AF311301	-	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua galerita	-	Australia: Northern Territory
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AF311302	AF311302	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua galerita	-	Australia: Western Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450434	AY450434	15308722	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	WBC1-ZA	Pionites leucogaster	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450435	AY450435	15308722	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AFG4-ZA	Psittacus erithacus	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450436	AY450436	15308722	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	UC1-ZA	Cacatua alba	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450442	AY450442	15308722	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BCL1-ZA	Agapornis nigrigenis	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450443	AY450443	15308722	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AFG3-ZA	Psittacus erithacus	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450444	AY450444	15308722	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	LJP2-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450445	AY450445	15308722	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BWJ1-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450446	AY450446	15308722	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	LJP1-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450447	AY450447	15308722	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	GJP2-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450448	AY450448	15308722	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	ARB2-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450449	AY450449	15308722	739	Circovirus	BFDV	Beak and feather disease virus	Avian-1	ARB3-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450450	AY450450	15308722	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	UC2-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450451	AY450451	15308722	732	Circovirus	BFDV	Beak and feather disease virus	Avian-1	SM1-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY450452	AY450452	15308722	747	Circovirus	BFDV	Beak and feather disease virus	Avian-1	ARB1-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518516	AY518516	-	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CG1	Cacatua galerita	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518899	AY518899	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Germany
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518900	AY518900	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacula kramerii	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518901	AY518901	15290360	690	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Portugal
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518902	AY518902	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Germany
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518903	AY518903	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Amazona aestiva	-	Germany
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518904	AY518904	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	United Kingdom
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518905	AY518905	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Japan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518906	AY518906	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	India
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518907	AY518907	15290360	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapornis roseicollis	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518908	AY518908	15290360	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapronis roseicollis	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518909	AY518909	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapornis roseicollis	-	United Kingdom
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518910	AY518910	15290360	690	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Portugal
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518911	AY518911	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Amazona aestiva	-	Germany
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518912	AY518912	15290360	690	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Portugal
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518913	AY518913	15290360	690	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Trichoglossus haematodus	-	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518914	AY518914	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Germany
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518915	AY518915	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Germany
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518916	AY518916	15290360	690	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Aratinga solstitalis	-	Spain
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518917	AY518917	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Eclectus roratus	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518918	AY518918	15290360	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapornis roseicollis	-	United Kingdom
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518919	AY518919	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapornis roseicollis	-	United Kingdom
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518920	AY518920	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Germany
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518921	AY518921	15290360	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua haematuropygia	-	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518922	AY518922	15290360	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua leadbeateri	-	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518923	AY518923	15290360	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua moluccensis	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518924	AY518924	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Amazona autumnalis	-	United Kingdom
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518925	AY518925	15290360	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Poicephalus senegalensis	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518926	AY518926	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Puerto Rico
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518927	AY518927	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518928	AY518928	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518929	AY518929	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacula kramerii	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518930	AY518930	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Eolophus roseicapillus	-	Israel
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518931	AY518931	15290360	696	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Ara militaris	-	USA
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY518932	AY518932	15290360	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Coracopsis vasa	-	United Kingdom
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY521234	AY521234	15290360	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacula kramerii	-	USA: Texas
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY521236	AY521236	15290360	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Portugal
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY521237	AY521237	15290360	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	Germany
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/AY521238	AY521238	15290360	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus eritacus	-	United Kingdom
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/CS449877	CS449877	-	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/CS449878	CS449878	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/CS449879	CS449879	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/CS449896	CS449896	-	669	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/CS449897	CS449897	-	624	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/CS449898	CS449898	-	588	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/DQ397818	DQ397818	-	1987	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CPA10-ZA	-	-	-
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EF457974	EF457974	18202953	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	05-106	Nymphicus hollandicus	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EF457975	EF457975	18202953	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	05-726	Nymphicus hollandicus	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139440	EU139440	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Amazona aestiva	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139441	EU139441	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapornis roseicollis	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139442	EU139442	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapornis roseicollis	-	Slovakia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139443	EU139443	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapornis roseicollis	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139444	EU139444	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapornis roseicollis	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139445	EU139445	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Agapornis sp.	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139446	EU139446	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua alba	-	Slovakia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139447	EU139447	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua galerita	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139448	EU139448	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua leadbeateri	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139449	EU139449	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Cacatua sulphurea	-	Slovakia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139450	EU139450	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Eunymphicus cornutus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139451	EU139451	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Eclectus roratus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139452	EU139452	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Lorius chlorocercus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139453	EU139453	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Melopsittacus undulatus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139454	EU139454	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Melopsittacus undulatus	-	Slovakia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139455	EU139455	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Melopsittacus undulatus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139456	EU139456	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Melopsittacus undulatus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139457	EU139457	-	401	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Probosciger aterrimus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139458	EU139458	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Poicephalus cryptoxanthus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139459	EU139459	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus erithacus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139460	EU139460	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus erithacus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139461	EU139461	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus erithacus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139462	EU139462	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus erithacus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139463	EU139463	-	401	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus erithacus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139464	EU139464	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus erithacus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139465	EU139465	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus erithacus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139466	EU139466	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Platycercus eximius	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139467	EU139467	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psephotus haematonotus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139468	EU139468	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacula krameri	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139469	EU139469	-	401	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Poicephalus senegalus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139470	EU139470	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Platycercus venustus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU139471	EU139471	-	404	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Trichoglossus haematodus	-	Czech Republic
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU624324	EU624324	-	750	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PAR	Psittacula krameri	-	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU624325	EU624325	-	750	Circovirus	BFDV	Beak and feather disease virus	Avian-1	RBKH	Poicephalus rufiventris	-	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU624326	EU624326	-	750	Circovirus	BFDV	Beak and feather disease virus	Avian-1	DGR	Psittacus erithacus	-	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU624327	EU624327	-	750	Circovirus	BFDV	Beak and feather disease virus	Avian-1	JKH	Poicephalus gulielmi massaicus	-	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU624328	EU624328	-	750	Circovirus	BFDV	Beak and feather disease virus	Avian-1	LBR	Agapornis roseicollis	-	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU624329	EU624329	-	750	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KWS	Psittacula krameri	-	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU810207	EU810207	20945789	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PT08	Psittacus erithacus	2008	Portugal
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/EU810208	EU810208	20945789	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PT05	Psittacus erithacus	2005	Portugal
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/FJ685978	FJ685978	-	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV6	Cacatua sulphurea	2005	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/FJ685979	FJ685979	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV7	Cacatua sulphurea	2005	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/FJ685980	FJ685980	-	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV8	Ara ararauna	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/FJ685989	FJ685989	-	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV17	Cacatua moluccensis	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ120621	GQ120621	20945789	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-PT08-2	Psittacus erithacus	2008	Portugal
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ165756	GQ165756	20127375	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BKS1ZA_84	Budgerigar	2003	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ165757	GQ165757	20127375	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BKS2ZA_85	Budgerigar	2003	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ165758	GQ165758	20127375	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BKS3ZA_86	Budgerigar	2003	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ329705	GQ329705	20945789	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PT09	Psittacus erithacus	2009	Portugal
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ396652	GQ396652	20180139	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B84b_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ396653	GQ396653	20180139	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B77_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ396654	GQ396654	20180139	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B80_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ396655	GQ396655	20180139	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B78_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GQ396656	GQ396656	20180139	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B81_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015012	GU015012	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV1	Psittacus erithacus	2005	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015013	GU015013	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV2	Psittacus erithacus	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015014	GU015014	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV3	Psittacula eupatria	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015015	GU015015	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV4	Psittacula eupatria	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015016	GU015016	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV5	Psittacula eupatria	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015017	GU015017	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV9	Ara severa	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015018	GU015018	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV10	Ara nobilis	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015019	GU015019	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV11	Eclectus roratus	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015020	GU015020	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV12	Eclectus roratus	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015021	GU015021	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV14	Ara chloropterus	2009	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015022	GU015022	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV15	Probosciger aterrimus	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU015023	GU015023	-	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV16	Ara ambigua	2006	Thailand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU047347	GU047347	20945789	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PT09-2	Psittacus erithacus	2009	Portugal
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936287	GU936287	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_PE_B51_2008	Platycercus eximius	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936288	GU936288	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B195_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936289	GU936289	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B157_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936290	GU936290	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B326_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936291	GU936291	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B79_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936292	GU936292	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B162a_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936293	GU936293	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B133_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936294	GU936294	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B125_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936295	GU936295	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B192_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936296	GU936296	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B127_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/GU936297	GU936297	22638639	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_CN_B162b_2008	Cyanoramphus novaezelandiae	2008	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748918	HM748918	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PR_60A_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748919	HM748919	21177924	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PGM_81A_2008	Poicephalus gulielmi massaicus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748920	HM748920	21177924	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PGM_80A_2008	Poicephalus gulielmi massaicus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748921	HM748921	21177924	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PGM_70A_2008	Poicephalus gulielmi massaicus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748922	HM748922	21177924	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PGM_69A_2008	Poicephalus gulielmi massaicus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748923	HM748923	21177924	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PGM_68A_2008	Poicephalus gulielmi massaicus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748924	HM748924	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_Am_83e_2008	Amazona sp.	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748925	HM748925	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_Am_83a_2008	Amazona sp.	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748926	HM748926	21177924	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_ER_78a_2008	Eclectus roratus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748927	HM748927	21177924	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PK_76f_2008	Psittacula krameri	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748928	HM748928	21177924	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PK_75A_2008	Psittacula krameri	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748929	HM748929	21177924	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PK_74d_2008	Psittacula krameri	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748930	HM748930	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PR_61A_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748931	HM748931	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PE_55A_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748932	HM748932	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PR_54b_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748933	HM748933	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PR_54A_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748934	HM748934	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PR_51A_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748935	HM748935	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PR_50A_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748936	HM748936	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PR_45A_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748937	HM748937	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PR_42A_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748938	HM748938	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_PR_41a_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HM748939	HM748939	21177924	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_38A_PR_2008	Poicephalus robustus	2008	South Africa
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662336	HQ662336	22345474	740	Circovirus	BFDV	Beak and feather disease virus	Avian-1	048E95/96	Psittacula echo	1995	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662337	HQ662337	22345474	675	Circovirus	BFDV	Beak and feather disease virus	Avian-1	056E93/94	Psittacula echo	1993	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662338	HQ662338	22345474	709	Circovirus	BFDV	Beak and feather disease virus	Avian-1	064E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662339	HQ662339	22345474	717	Circovirus	BFDV	Beak and feather disease virus	Avian-1	065E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662340	HQ662340	22345474	740	Circovirus	BFDV	Beak and feather disease virus	Avian-1	068E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662341	HQ662341	22345474	710	Circovirus	BFDV	Beak and feather disease virus	Avian-1	071E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662342	HQ662342	22345474	713	Circovirus	BFDV	Beak and feather disease virus	Avian-1	078E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662343	HQ662343	22345474	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	173E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662344	HQ662344	22345474	651	Circovirus	BFDV	Beak and feather disease virus	Avian-1	181E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662345	HQ662345	22345474	740	Circovirus	BFDV	Beak and feather disease virus	Avian-1	187E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662346	HQ662346	22345474	621	Circovirus	BFDV	Beak and feather disease virus	Avian-1	207E05/06	Psittacula echo	2005	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662348	HQ662348	22345474	740	Circovirus	BFDV	Beak and feather disease virus	Avian-1	217E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662349	HQ662349	22345474	663	Circovirus	BFDV	Beak and feather disease virus	Avian-1	219E05/06	Psittacula echo	2005	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662350	HQ662350	22345474	732	Circovirus	BFDV	Beak and feather disease virus	Avian-1	229E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662351	HQ662351	22345474	742	Circovirus	BFDV	Beak and feather disease virus	Avian-1	235E05/06	Psittacula echo	2005	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662352	HQ662352	22345474	710	Circovirus	BFDV	Beak and feather disease virus	Avian-1	240E05/06	Psittacula echo	2005	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662353	HQ662353	22345474	744	Circovirus	BFDV	Beak and feather disease virus	Avian-1	244E05/06	Psittacula echo	2005	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662354	HQ662354	22345474	713	Circovirus	BFDV	Beak and feather disease virus	Avian-1	245E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662355	HQ662355	22345474	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	247E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662356	HQ662356	22345474	483	Circovirus	BFDV	Beak and feather disease virus	Avian-1	272E05/06	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662358	HQ662358	22345474	694	Circovirus	BFDV	Beak and feather disease virus	Avian-1	278E06/07	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662359	HQ662359	22345474	730	Circovirus	BFDV	Beak and feather disease virus	Avian-1	292E06/07	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662360	HQ662360	22345474	737	Circovirus	BFDV	Beak and feather disease virus	Avian-1	317E06/07	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662361	HQ662361	22345474	747	Circovirus	BFDV	Beak and feather disease virus	Avian-1	322E06/07	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662362	HQ662362	22345474	704	Circovirus	BFDV	Beak and feather disease virus	Avian-1	351E06/07	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662363	HQ662363	22345474	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	355E06/07	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662364	HQ662364	22345474	723	Circovirus	BFDV	Beak and feather disease virus	Avian-1	356E06/07	Psittacula echo	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662365	HQ662365	22345474	739	Circovirus	BFDV	Beak and feather disease virus	Avian-1	383E07/08	Psittacula echo	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662366	HQ662366	22345474	689	Circovirus	BFDV	Beak and feather disease virus	Avian-1	388E07/08	Psittacula echo	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662367	HQ662367	22345474	743	Circovirus	BFDV	Beak and feather disease virus	Avian-1	390E07/08	Psittacula echo	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662368	HQ662368	22345474	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	400E07/08	Psittacula echo	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662369	HQ662369	22345474	695	Circovirus	BFDV	Beak and feather disease virus	Avian-1	414E07/08	Psittacula echo	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662370	HQ662370	22345474	537	Circovirus	BFDV	Beak and feather disease virus	Avian-1	441E07/08	Psittacula echo	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662371	HQ662371	22345474	537	Circovirus	BFDV	Beak and feather disease virus	Avian-1	447E07/08	Psittacula echo	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662372	HQ662372	22345474	559	Circovirus	BFDV	Beak and feather disease virus	Avian-1	449E07/08	Psittacula echo	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662373	HQ662373	22345474	683	Circovirus	BFDV	Beak and feather disease virus	Avian-1	551E08/09	Psittacula echo	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662374	HQ662374	22345474	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	508E08/09	Psittacula echo	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662375	HQ662375	22345474	706	Circovirus	BFDV	Beak and feather disease virus	Avian-1	528E08/09	Psittacula echo	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662376	HQ662376	22345474	708	Circovirus	BFDV	Beak and feather disease virus	Avian-1	521E08/09	Psittacula echo	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662377	HQ662377	22345474	681	Circovirus	BFDV	Beak and feather disease virus	Avian-1	570E08/09	Psittacula echo	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662378	HQ662378	22345474	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	593E08/09	Psittacula echo	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662379	HQ662379	22345474	691	Circovirus	BFDV	Beak and feather disease virus	Avian-1	597E08/09	Psittacula echo	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662380	HQ662380	22345474	706	Circovirus	BFDV	Beak and feather disease virus	Avian-1	474E08/09	Psittacula echo	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662381	HQ662381	22345474	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	598E08/09	Psittacula echo	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662382	HQ662382	22345474	682	Circovirus	BFDV	Beak and feather disease virus	Avian-1	611E08/09	Psittacula echo	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662383	HQ662383	22345474	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	520E08/09	Psittacula echo	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662384	HQ662384	22345474	689	Circovirus	BFDV	Beak and feather disease virus	Avian-1	544E08/09	Psittacula echo	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662385	HQ662385	22345474	677	Circovirus	BFDV	Beak and feather disease virus	Avian-1	586E08/09	Psittacula echo	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662386	HQ662386	22345474	658	Circovirus	BFDV	Beak and feather disease virus	Avian-1	002R06/07	Psittacula krameri	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662387	HQ662387	22345474	473	Circovirus	BFDV	Beak and feather disease virus	Avian-1	010R06/07	Psittacula krameri	2006	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662388	HQ662388	22345474	738	Circovirus	BFDV	Beak and feather disease virus	Avian-1	013R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662389	HQ662389	22345474	740	Circovirus	BFDV	Beak and feather disease virus	Avian-1	014R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662390	HQ662390	22345474	744	Circovirus	BFDV	Beak and feather disease virus	Avian-1	016R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662391	HQ662391	22345474	744	Circovirus	BFDV	Beak and feather disease virus	Avian-1	017R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662392	HQ662392	22345474	684	Circovirus	BFDV	Beak and feather disease virus	Avian-1	018R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662393	HQ662393	22345474	744	Circovirus	BFDV	Beak and feather disease virus	Avian-1	022R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662394	HQ662394	22345474	744	Circovirus	BFDV	Beak and feather disease virus	Avian-1	024R06/06	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662395	HQ662395	22345474	747	Circovirus	BFDV	Beak and feather disease virus	Avian-1	026R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662396	HQ662396	22345474	744	Circovirus	BFDV	Beak and feather disease virus	Avian-1	027R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662397	HQ662397	22345474	748	Circovirus	BFDV	Beak and feather disease virus	Avian-1	028R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662398	HQ662398	22345474	693	Circovirus	BFDV	Beak and feather disease virus	Avian-1	029R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662399	HQ662399	22345474	744	Circovirus	BFDV	Beak and feather disease virus	Avian-1	031R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662400	HQ662400	22345474	541	Circovirus	BFDV	Beak and feather disease virus	Avian-1	076R07/08	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662401	HQ662401	22345474	691	Circovirus	BFDV	Beak and feather disease virus	Avian-1	081R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662402	HQ662402	22345474	546	Circovirus	BFDV	Beak and feather disease virus	Avian-1	085R07/08	Psittacula krameri	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662403	HQ662403	22345474	522	Circovirus	BFDV	Beak and feather disease virus	Avian-1	087R07/08	Psittacula krameri	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662404	HQ662404	22345474	591	Circovirus	BFDV	Beak and feather disease virus	Avian-1	088R07/08	Psittacula krameri	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662405	HQ662405	22345474	479	Circovirus	BFDV	Beak and feather disease virus	Avian-1	091R07/08	Psittacula krameri	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662406	HQ662406	22345474	516	Circovirus	BFDV	Beak and feather disease virus	Avian-1	094R07/08	Psittacula krameri	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662407	HQ662407	22345474	701	Circovirus	BFDV	Beak and feather disease virus	Avian-1	099R07/08	Psittacula krameri	2008	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/HQ662408	HQ662408	22345474	730	Circovirus	BFDV	Beak and feather disease virus	Avian-1	115R06/07	Psittacula krameri	2007	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JF519618	JF519618	22638639	1987	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-NZ_L53_2010	Cyanoramphus novaezelandiae	2010	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JF519619	JF519619	22638639	1987	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-NZ_R18_2010	Platycercus eximius	2010	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782196	JQ782196	22638639	1987	Circovirus	BFDV	Beak and feather disease virus	Avian-1	D134138	Platycercus eximius	2009	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782197	JQ782197	22638639	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	D134142	Platycercus eximius	2009	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782198	JQ782198	22638639	1984	Circovirus	BFDV	Beak and feather disease virus	Avian-1	D134144	Platycercus eximius	2009	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782199	JQ782199	22638639	1986	Circovirus	BFDV	Beak and feather disease virus	Avian-1	D134146	Platycercus eximius	2009	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782200	JQ782200	22638639	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	SCPA2	Platycercus eximius	2009	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782201	JQ782201	22638639	1989	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCP01-11	Cyanoramphus auriceps	2011	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782202	JQ782202	22638639	1987	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCP28F	Cyanoramphus auriceps	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782203	JQ782203	22638639	1989	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCP24	Cyanoramphus auriceps	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782204	JQ782204	22638639	1989	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCP23	Cyanoramphus auriceps	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782205	JQ782205	22638639	1989	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCP21	Cyanoramphus auriceps	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782206	JQ782206	22638639	1989	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCP19	Cyanoramphus auriceps	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782207	JQ782207	22638639	1989	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCP25	Cyanoramphus auriceps	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JQ782208	JQ782208	22638639	1989	Circovirus	BFDV	Beak and feather disease virus	Avian-1	YCP20	Cyanoramphus auriceps	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049196	JX049196	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	NC107	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049197	JX049197	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	NC108	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049198	JX049198	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	NC109	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049199	JX049199	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	NCF19	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049200	JX049200	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	NCL1	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049201	JX049201	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	NCL3	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049202	JX049202	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	NCL7	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049203	JX049203	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	NCL9	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049204	JX049204	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC37F	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049205	JX049205	22855782	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC38F	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049206	JX049206	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC39B	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049207	JX049207	22855782	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC40F	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049208	JX049208	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC41B	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049209	JX049209	22855782	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC42B	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049210	JX049210	22855782	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC43B	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049211	JX049211	22855782	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC44B	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049212	JX049212	22855782	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC94F	Trichoglossus haematodus deplanchii	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049213	JX049213	22855782	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC85B	Eclectus roratus	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049217	JX049217	22855782	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC89B	Eclectus roratus	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049218	JX049218	22855782	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC90B	Eclectus roratus	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX049220	JX049220	22855782	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2NC92F	Cyanoramphus saisetti	2011	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221004	JX221004	23324468	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-Q_PL-1067_2010	Melopsittacus undulatus	2010	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221006	JX221006	23324468	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-J_PL-1229_2010	Platycercus elegans	2011	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221007	JX221007	23324468	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-J_PL-1232_2011	Psittacula krameri	2011	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221008	JX221008	23324468	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-J_PL-1233_2011	Psittacula krameri	2011	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221009	JX221009	23324468	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-Q_PL-1240_2011	Melopsittacus undulatus	2011	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221013	JX221013	23324468	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-I_PL-13_2003	Poicephalus robustus	2003	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221015	JX221015	23324468	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-S_PL-168_2006	Aprosmictus erythropterus	2006	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221016	JX221016	23324468	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-S_PL-169_2006	Aprosmictus erythropterus	2006	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221017	JX221017	23324468	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-T_PL-328_2007	Psittacula krameri	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221018	JX221018	23324468	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-T_PL-336_2007	Psittacus erithacus	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221020	JX221020	23324468	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-T_PL-376_2007	Psittacus erithacus	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221021	JX221021	23324468	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-T_PL-378_2007	Amazona amazonica	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221022	JX221022	23324468	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-T_PL-399_2007	Psittacus erithacus	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221024	JX221024	23324468	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-Q_PL-418_2007	Forpus coelestis	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221025	JX221025	23324468	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-B-D_PL-479_2007	Cacatua alba	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221026	JX221026	23324468	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-B-D_PL-482_2007	Melopsittacus undulatus	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221027	JX221027	23324468	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-B-D_PL-483_2007	Melopsittacus undulatus	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221028	JX221028	23324468	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-B-D_PL-496_2007	Melopsittacus undulatus	2007	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221032	JX221032	23324468	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-J_PL-573_2008	Psittacus erithacus	2008	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221033	JX221033	23324468	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-J_PL-677_2008	Alisterus scapularis	2008	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221034	JX221034	23324468	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-N_PL-680_2008	Melopsittacus undulatus	2008	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221035	JX221035	23324468	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-J_PL-683_2008	Platycercus eximius	2008	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221036	JX221036	23324468	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-J_PL-684_2008	Alexandrine parakeet	2008	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221037	JX221037	23324468	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-J_PL-688_2008	Psittacus erithacus	2008	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221038	JX221038	23324468	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-I_PL-711_2008	Psittacus erithacus	2008	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221039	JX221039	23324468	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-I_PL-717_2008	Psittacus erithacus	2008	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221040	JX221040	23324468	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-R_PL-742_2008	Amazona aestiva	2008	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221041	JX221041	23324468	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-J_PL-785_2009	Psittacus erithacus	2009	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221042	JX221042	23324468	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-I_PL-830_2009	Alexandrine parakeet	2009	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/JX221043	JX221043	23324468	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-Q_PL-902_2009	Platycercus elegans	2009	Poland
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KC121339	KC121339	23403150	597	Circovirus	BFDV	Beak and feather disease virus	Avian-1	COR08000	Cacatua pastinator	2008	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KC121340	KC121340	23403150	597	Circovirus	BFDV	Beak and feather disease virus	Avian-1	OBP08450	Neophema chrysogaster	2008	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KC693651	KC693651	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS12082720213	Neophema chrysogaster	2012	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KC980909	KC980909	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	Taiwan-1	Cacatua ophthalmica	2013	Taiwan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188681	KF188681	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-416-OBP-TAS-19144	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188682	KF188682	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-418-OBP-TAS-19118	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188683	KF188683	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-423-OBP-TAS-19076	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188684	KF188684	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-424-OBP-TAS-19136	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188685	KF188685	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-425-OBP-TAS-19140	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188686	KF188686	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-448-OBP-TAS-19124	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188687	KF188687	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-449-OBP-TAS-19167	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188688	KF188688	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-450-OBP-TAS-19183	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188689	KF188689	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-459-OBP-TAS-19157	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188690	KF188690	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS08-482-OBP-TAS-19139	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188691	KF188691	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS10-1017-OBP-VIC-HS030910-B	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188692	KF188692	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS10-1018-OBP-VIC-HS030910-c	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188693	KF188693	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS11-1361-OBP-VIC-B10750	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF188694	KF188694	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS12-0364-OBP-TAS-B10083	Orange-bellied parrot	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385399	KF385399	25010272	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_RTBC_13_1780_052	Calyptorhynchus banksii	2013	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385400	KF385400	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_RTBC_13_1780_055	Calyptorhynchus banksii	2013	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385401	KF385401	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GGC_96_1404	Callocephalon fimbriatum	1996	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385402	KF385402	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GGC_04_604	Callocephalon fimbriatum	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385403	KF385403	25010272	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GGC_10_863	Callocephalon fimbriatum	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385404	KF385404	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GGC_11_1212	Callocephalon fimbriatum	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385405	KF385405	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GGC_11_1213	Callocephalon fimbriatum	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385406	KF385406	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_MMC_04_593	Cacatua leadbeateri	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385407	KF385407	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_MMC_1997	Cacatua leadbeateri	1997	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385408	KF385408	25010272	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GBC_06_939	Calyptorhynchus lathami	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385409	KF385409	25010272	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GBC_11_383	Calyptorhynchus lathami	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385410	KF385410	25010272	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GBC_11_385	Calyptorhynchus lathami	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385411	KF385411	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GBC_11_391	Calyptorhynchus lathami	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385412	KF385412	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_GBC_11_392	Calyptorhynchus lathami	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385413	KF385413	25010272	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_SCC_05_746	Cacatua galerita	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385414	KF385414	25010272	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_SCC_06_854	Cacatua galerita	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385415	KF385415	25010272	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_SCC_12_3044_001	Cacatua galerita	2012	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385417	KF385417	25010272	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_SCC_13_0679_001	Cacatua galerita	2013	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385418	KF385418	25010272	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_SCC_W0610	Cacatua galerita	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385419	KF385419	25010272	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_SCC_W16710	Cacatua galerita	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385420	KF385420	25010272	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_LBC2	Cacatua tenuirostris	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385421	KF385421	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_LBC6	Cacatua tenuirostris	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385422	KF385422	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_LBC7	Cacatua tenuirostris	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385423	KF385423	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_LBC10	Cacatua tenuirostris	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385424	KF385424	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_LBC11	Cacatua tenuirostris	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385425	KF385425	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_LBC33	Cacatua tenuirostris	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385426	KF385426	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_LBC50	Cacatua tenuirostris	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385427	KF385427	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_LBC51	Cacatua tenuirostris	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385428	KF385428	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_W45610	Cacatua tenuirostris	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385429	KF385429	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_LBC_13_1622_006	Cacatua tenuirostris	2013	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385430	KF385430	25010272	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_Galah_12_1474	Eolophus roseicapillus	2012	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385431	KF385431	25010272	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_Galah_04_065	Eolophus roseicapillus	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385432	KF385432	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_Galah_04_093A	Eolophus roseicapillus	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385433	KF385433	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_Galah_04_093B	Eolophus roseicapillus	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385434	KF385434	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_Galah_04_245	Eolophus roseicapillus	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385435	KF385435	25010272	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_Galah_04_298	Eolophus roseicapillus	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF385436	KF385436	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_Galah_04_410	Eolophus roseicapillus	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF467251	KF467251	24916448	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-NZ_OR2_2012	Platycercus eximius	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF467252	KF467252	24916448	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-NZ_OR3_2012	Platycercus eximius	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF467253	KF467253	24916448	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-NZ_OR4_2012	Platycercus eximius	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF467254	KF467254	24916448	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-NZ_OR5_2012	Platycercus eximius	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF499139	KF499139	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	11-1212-QE2-GGC-NSW	Callocephalon fimbriatum	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF499140	KF499140	25010272	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	11-1212-QE3-GGC-NSW	Callocephalon fimbriatum	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF561250	KF561250	24416396	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS12-0827-20214-OBP-TAS	Neophema chrysogaster	2012	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF673335	KF673335	24285653	1984	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Lathamus discolor	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF673336	KF673336	24285653	1984	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Lathamus discolor	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF688548	KF688548	25477410	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_RNP_B13_1996	Barnardius zonarius semitorquatus	1996	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF688549	KF688549	25477410	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_RNP_B14_1996	Barnardius zonarius semitorquatus	1996	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF688550	KF688550	25477410	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_RNP_B15_1996	Barnardius zonarius semitorquatus	1996	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF688551	KF688551	26769073	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_BP_1996	Neopsephotus bourkii	1996	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF688553	KF688553	26769073	1999	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_HP_96_3015	Psephotus dissimilis	1996	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723384	KF723384	24968067	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	6IT09	Psittacus erithacus	2009	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723385	KF723385	24968067	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	3IT09	Psittacus erithacus	2009	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723386	KF723386	24968067	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2IT09	Psittacus erithacus	2009	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723387	KF723387	24968067	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	8IT10	Psittacus erithacus	2010	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723388	KF723388	24968067	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	7IT09	Psittacus erithacus	2009	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723389	KF723389	24968067	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	4IT09	Psittacus erithacus	2009	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723390	KF723390	24968067	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	9IT11	Psittacus erithacus	2011	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723391	KF723391	24968067	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	1IT08	Psittacus erithacus	2008	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723392	KF723392	24968067	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	10IT11	Psittacus erithacus	2011	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723393	KF723393	24968067	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	5IT09	Psittacus erithacus	2009	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723394	KF723394	24968067	726	Circovirus	BFDV	Beak and feather disease virus	Avian-1	16IT10	Psittacus erithacus	2010	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723396	KF723396	24968067	489	Circovirus	BFDV	Beak and feather disease virus	Avian-1	20IT11	Psittacus erithacus	2011	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723397	KF723397	24968067	699	Circovirus	BFDV	Beak and feather disease virus	Avian-1	19IT11	Psittacus erithacus	2011	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723398	KF723398	24968067	699	Circovirus	BFDV	Beak and feather disease virus	Avian-1	18IT11	Psittacus erithacus	2011	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723399	KF723399	24968067	741	Circovirus	BFDV	Beak and feather disease virus	Avian-1	15IT10	Psittacus erithacus	2010	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723400	KF723400	24968067	681	Circovirus	BFDV	Beak and feather disease virus	Avian-1	17IT10	Psittacus erithacus	2010	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723401	KF723401	24968067	723	Circovirus	BFDV	Beak and feather disease virus	Avian-1	12IT09	Psittacus erithacus	2009	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723402	KF723402	24968067	699	Circovirus	BFDV	Beak and feather disease virus	Avian-1	11IT09	Psittacus erithacus	2009	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF723403	KF723403	24968067	510	Circovirus	BFDV	Beak and feather disease virus	Avian-1	14IT09	Psittacus erithacus	2009	Italy
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF768545	KF768545	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NC13_35	Trichoglossus haematodus deplanchii	2013	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF768546	KF768546	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NC13_31	Trichoglossus haematodus deplanchii	2013	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF768547	KF768547	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NC13_30	Trichoglossus haematodus deplanchii	2013	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF768548	KF768548	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NC13_27	Trichoglossus haematodus deplanchii	2013	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF768549	KF768549	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NC13_20	Trichoglossus haematodus deplanchii	2013	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF768550	KF768550	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_DL02B	Trichoglossus haematodus deplanchii	2012	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF768551	KF768551	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_DL03B	Trichoglossus haematodus deplanchii	2012	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF768552	KF768552	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_DL10B	Trichoglossus haematodus deplanchii	2012	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF768553	KF768553	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_DL11B	Trichoglossus haematodus deplanchii	2012	New Caledonia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KF850537	KF850537	24482518	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_RP_13_1683	Polytelis anthopeplus monarchoides	2013	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ866054	KJ866054	25059866	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_MRP_14_1195_001	Barnardius zonarius barnardi	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953846	KJ953846	25225394	1651	Circovirus	BFDV	Beak and feather disease virus	Avian-1	0-QLD	Platycercus elegans	-	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953847	KJ953847	25225394	1003	Circovirus	BFDV	Beak and feather disease virus	Avian-1	1-VIC-2004	Platycercus elegans	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953848	KJ953848	25225394	1681	Circovirus	BFDV	Beak and feather disease virus	Avian-1	2-VIC-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953849	KJ953849	25225394	1685	Circovirus	BFDV	Beak and feather disease virus	Avian-1	3-VIC-2011	Platycercus elegans	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953850	KJ953850	25225394	1643	Circovirus	BFDV	Beak and feather disease virus	Avian-1	5-VIC-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953851	KJ953851	25225394	743	Circovirus	BFDV	Beak and feather disease virus	Avian-1	28-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953852	KJ953852	25225394	1684	Circovirus	BFDV	Beak and feather disease virus	Avian-1	26-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953853	KJ953853	25225394	1642	Circovirus	BFDV	Beak and feather disease virus	Avian-1	30-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953854	KJ953854	25225394	1681	Circovirus	BFDV	Beak and feather disease virus	Avian-1	32-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953855	KJ953855	25225394	1683	Circovirus	BFDV	Beak and feather disease virus	Avian-1	33-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953856	KJ953856	25225394	1684	Circovirus	BFDV	Beak and feather disease virus	Avian-1	31-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953857	KJ953857	25225394	1441	Circovirus	BFDV	Beak and feather disease virus	Avian-1	36-SA-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953858	KJ953858	25225394	1378	Circovirus	BFDV	Beak and feather disease virus	Avian-1	34-VIC-2011	Platycercus elegans	2011	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953859	KJ953859	25225394	1682	Circovirus	BFDV	Beak and feather disease virus	Avian-1	6-SA-2004	Platycercus elegans	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953860	KJ953860	25225394	1664	Circovirus	BFDV	Beak and feather disease virus	Avian-1	27-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953861	KJ953861	25225394	1682	Circovirus	BFDV	Beak and feather disease virus	Avian-1	7-SA-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953862	KJ953862	25225394	668	Circovirus	BFDV	Beak and feather disease virus	Avian-1	9-SA-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953863	KJ953863	25225394	1679	Circovirus	BFDV	Beak and feather disease virus	Avian-1	10-NSW-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953864	KJ953864	25225394	1635	Circovirus	BFDV	Beak and feather disease virus	Avian-1	8-SA-2004	Platycercus elegans	2004	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953865	KJ953865	25225394	1655	Circovirus	BFDV	Beak and feather disease virus	Avian-1	29-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953866	KJ953866	25225394	1640	Circovirus	BFDV	Beak and feather disease virus	Avian-1	14-NSW-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953867	KJ953867	25225394	1681	Circovirus	BFDV	Beak and feather disease virus	Avian-1	39-SA-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953868	KJ953868	25225394	1679	Circovirus	BFDV	Beak and feather disease virus	Avian-1	11-NSW-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953869	KJ953869	25225394	1626	Circovirus	BFDV	Beak and feather disease virus	Avian-1	35-SA-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953870	KJ953870	25225394	1643	Circovirus	BFDV	Beak and feather disease virus	Avian-1	4-VIC-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953871	KJ953871	25225394	1415	Circovirus	BFDV	Beak and feather disease virus	Avian-1	38-SA-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953872	KJ953872	25225394	1409	Circovirus	BFDV	Beak and feather disease virus	Avian-1	12-NSW-2005	Platycercus elegans	2005	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953873	KJ953873	25225394	1679	Circovirus	BFDV	Beak and feather disease virus	Avian-1	13-NSW-2005	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953874	KJ953874	25225394	1414	Circovirus	BFDV	Beak and feather disease virus	Avian-1	15-NSW-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953875	KJ953875	25225394	741	Circovirus	BFDV	Beak and feather disease virus	Avian-1	37-SA-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953876	KJ953876	25225394	1667	Circovirus	BFDV	Beak and feather disease virus	Avian-1	16-NSW-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953877	KJ953877	25225394	1634	Circovirus	BFDV	Beak and feather disease virus	Avian-1	17-NSW-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953878	KJ953878	25225394	1681	Circovirus	BFDV	Beak and feather disease virus	Avian-1	18-NSW-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953879	KJ953879	25225394	1417	Circovirus	BFDV	Beak and feather disease virus	Avian-1	19-NSW-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953880	KJ953880	25225394	751	Circovirus	BFDV	Beak and feather disease virus	Avian-1	20-NSW-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953881	KJ953881	25225394	1325	Circovirus	BFDV	Beak and feather disease virus	Avian-1	21-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953882	KJ953882	25225394	1685	Circovirus	BFDV	Beak and feather disease virus	Avian-1	22-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953883	KJ953883	25225394	1644	Circovirus	BFDV	Beak and feather disease virus	Avian-1	23-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953884	KJ953884	25225394	1017	Circovirus	BFDV	Beak and feather disease virus	Avian-1	24-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KJ953885	KJ953885	25225394	1684	Circovirus	BFDV	Beak and feather disease virus	Avian-1	25-VIC-2006	Platycercus elegans	2006	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188440	KM188440	25209153	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH01_2010	Poicephalus robustus (Cape parrot)	2010	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188441	KM188441	25209153	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH05_2010	Poicephalus robustus (Cape parrot)	2010	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188442	KM188442	25209153	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH07_2010	Poicephalus robustus (Cape parrot)	2010	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188443	KM188443	25209153	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH14_2010	Poicephalus robustus (Cape parrot)	2010	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188444	KM188444	25209153	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH15_2010	Poicephalus robustus (Cape parrot)	2010	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188445	KM188445	25209153	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH16_2010	Poicephalus robustus (Cape parrot)	2010	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188446	KM188446	25209153	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH21_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188447	KM188447	25209153	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH22_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188448	KM188448	25209153	1989	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH23_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188449	KM188449	25209153	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH24_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188450	KM188450	25209153	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH27_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188451	KM188451	25209153	1989	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH37_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188452	KM188452	25209153	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH38_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188453	KM188453	25209153	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_FH42_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: Alice, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188454	KM188454	25209153	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_GT02_2011	Poicephalus robustus (Cape parrot)	2010	South Africa: East London, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188455	KM188455	25209153	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_GT07_2011	Poicephalus robustus (Cape parrot)	2010	South Africa: East London, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188456	KM188456	25209153	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_GT10_2011	Poicephalus robustus (Cape parrot)	2010	South Africa: East London, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188457	KM188457	25209153	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_GT11_2011	Poicephalus robustus (Cape parrot)	2010	South Africa: East London, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188458	KM188458	25209153	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_KWT01_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: King William's Town, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188459	KM188459	25209153	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_KWT02_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: King William's Town, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188460	KM188460	25209153	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_KWT03_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: King William's Town, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188461	KM188461	25209153	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_KWT04_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: King William's Town, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188462	KM188462	25209153	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_KWT06_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: King William's Town, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188463	KM188463	25209153	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_KWT07_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: King William's Town, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188464	KM188464	25209153	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_KWT09_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: King William's Town, Eastern Cape Province
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM188465	KM188465	25209153	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_ZA_STUT01_2011	Poicephalus robustus (Cape parrot)	2011	South Africa: Stutterheim
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452734	KM452734	26138559	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_OBS01_2013	Cyanoramphus novaezelandiae	2013	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452735	KM452735	26138559	1987	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_201822_2013	Cyanoramphus novaezelandiae	2013	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452736	KM452736	26138559	1987	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_201845_2013	Cyanoramphus novaezelandiae	2013	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452737	KM452737	26138559	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_201706_2011	Cyanoramphus novaezelandiae	2011	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452738	KM452738	26138559	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_201704_2011	Cyanoramphus novaezelandiae	2011	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452739	KM452739	26138559	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_DP2409_2012	Cyanoramphus novaezelandiae	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452740	KM452740	26138559	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_DP2417_2012	Cyanoramphus novaezelandiae	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452741	KM452741	26138559	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_DP0369_2012	Cyanoramphus novaezelandiae	2012	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452742	KM452742	26138559	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_D174814-2010	Cyanoramphus novaezelandiae	2010	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452743	KM452743	26138559	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_D174812-2010	Cyanoramphus novaezelandiae	2010	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM452744	KM452744	26138559	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_NZ_D185808_2009	Cyanoramphus novaezelandiae	2009	New Zealand
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM823541	KM823541	26411487	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_RBE_14_1186-01	Merops ornatus	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM887947	KM887947	27118178	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_BDG_2010_320	Melopsittacus undulatus	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM887948	KM887948	27118178	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_BDG_2010_324	Melopsittacus undulatus	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM887949	KM887949	27118178	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_BDG_2010_326	Melopsittacus undulatus	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM887950	KM887950	27118178	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_BDG_2010_331	Melopsittacus undulatus	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KM887951	KM887951	27118178	1990	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_AUS_BDG_2010_332	Melopsittacus undulatus	2010	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KP677581	KP677581	-	1984	Circovirus	BFDV	Beak and feather disease virus	Avian-1	Taiwan-17	Melopsittacus undulatus	-	Taiwan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KP677582	KP677582	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	Taiwan-18	Agapornis roseicollis	-	Taiwan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KP677585	KP677585	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	Taiwan-6	Melopsittacus undulatus	-	Taiwan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KP677593	KP677593	-	1988	Circovirus	BFDV	Beak and feather disease virus	Avian-1	Taiwan-19	Melopsittacus undulatus	-	Taiwan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KR902641	KR902641	-	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT14-0766-AKP-VIC	Alisterus scapularis	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT008266	KT008266	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS13-2703-01-SCC-NSW	Cacatua galerita	2013	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168337	KT168337	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-003-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168338	KT168338	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-004-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168339	KT168339	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-008-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168340	KT168340	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-009-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168341	KT168341	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-011-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168342	KT168342	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-014-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168343	KT168343	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-016-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168344	KT168344	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-018-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168345	KT168345	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-019-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168346	KT168346	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-021-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168347	KT168347	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-023-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168348	KT168348	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-024-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168349	KT168349	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-0726-026-OBP-TAS	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168350	KT168350	-	1994	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS14-0453-001-OBP	Neophema chrysogaster	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168351	KT168351	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS14-0453-002-OBP	Neophema chrysogaster	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168352	KT168352	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	OBP3	Neophema chrysogaster	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT168353	KT168353	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	OBP-TT	Neophema chrysogaster	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602807	KT602807	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	F015_2014	Psittacula eques	2014	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602808	KT602808	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	F018_2014	Psittacula eques	2014	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602809	KT602809	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	F049_2014	Psittacula eques	2014	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602810	KT602810	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	F076_2014	Psittacula eques	2014	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602811	KT602811	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	F092_2014	Psittacula eques	2014	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602812	KT602812	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	F120_2014	Psittacula eques	2014	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602813	KT602813	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	F164_2014	Psittacula eques	2014	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602814	KT602814	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	P9_2014	Psittacula eques	2015	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602815	KT602815	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	P10_2014	Psittacula eques	2015	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602816	KT602816	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	P12_2014	Psittacula eques	2015	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602817	KT602817	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	P13_2014	Psittacula eques	2015	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602818	KT602818	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	P15_2014	Psittacula eques	2015	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602819	KT602819	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	P16_2014	Psittacula eques	2015	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602820	KT602820	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	P18_2014	Psittacula eques	2015	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602821	KT602821	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	P19_2014	Psittacula eques	2015	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602822	KT602822	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	A053_2009	Psittacula eques	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602823	KT602823	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	C052_2011	Psittacula eques	2011	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602824	KT602824	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	C066_2011	Psittacula eques	2011	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602825	KT602825	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	C100_2011	Psittacula eques	2011	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602826	KT602826	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	C102_2011	Psittacula eques	2011	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602827	KT602827	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	D061_2012	Psittacula eques	2012	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602828	KT602828	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	D085_2012	Psittacula eques	2012	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602829	KT602829	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E009_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602830	KT602830	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E012_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602831	KT602831	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E014_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602832	KT602832	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E025_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602833	KT602833	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	B036_2010	Psittacula eques	2010	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602834	KT602834	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E032_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602835	KT602835	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E057_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602836	KT602836	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E072_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602837	KT602837	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E079_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602838	KT602838	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E100_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602839	KT602839	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E108_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602840	KT602840	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E128_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602841	KT602841	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E140_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602842	KT602842	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	E155_2013	Psittacula eques	2013	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602843	KT602843	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	B062_2010	Psittacula eques	2010	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602844	KT602844	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	B074_2010	Psittacula eques	2010	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602845	KT602845	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	B112_2010	Psittacula eques	2010	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602846	KT602846	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	B117_2010	Psittacula eques	2010	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602847	KT602847	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	B125_2010	Psittacula eques	2010	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602848	KT602848	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	C002_2011	Psittacula eques	2011	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602849	KT602849	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	C038_2011	Psittacula eques	2011	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602850	KT602850	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	A003_2009	Psittacula eques	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602851	KT602851	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	A052_2009	Psittacula eques	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT602852	KT602852	-	574	Circovirus	BFDV	Beak and feather disease virus	Avian-1	A055_2009	Psittacula eques	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT725805	KT725805	-	663	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BA16	Psittacula krameri	2014	Bangladesh
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT725806	KT725806	-	663	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BA24	Psittacula krameri	2014	Bangladesh
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT725807	KT725807	-	660	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PA4	Psittacula krameri	2014	Pakistan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT725808	KT725808	-	660	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PA14	Psittacula krameri	2014	Pakistan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT725809	KT725809	-	663	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PA15	Psittacula krameri	2014	Pakistan
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT753527	KT753527	-	633	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AR03	Psittacula krameri	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT753528	KT753528	-	504	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AR20	Psittacula krameri	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KT753529	KT753529	-	633	Circovirus	BFDV	Beak and feather disease virus	Avian-1	AR21	Psittacula krameri	2009	Mauritius
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KX449321	KX449321	-	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-3981-RCP-WA-2015	Purpureicephalus spurius	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KX500101	KX500101	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-3551-QLD	Haliaeetus leucogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KX500102	KX500102	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-3289-NSW	Falco peregrinus	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KX500104	KX500104	-	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS15-3775-NSW	Corvus coronoides	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189054	KY189054	-	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-SCC-140529-VIC-2014	Cacatua galerita	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189055	KY189055	-	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-SCC-140219-VIC-2014	Cacatua galerita	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189058	KY189058	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-LC-140717-VIC-2014	Cacatua sanguinea	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189059	KY189059	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-LC-140694-VIC-2014	Cacatua sanguinea	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189060	KY189060	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-LC-140616-VIC-2014	Cacatua sanguinea	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189061	KY189061	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-LC-140609-VIC-2014	Cacatua sanguinea	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189062	KY189062	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-ERL-150116-VIC-2015	Platycercus eximius	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189063	KY189063	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-ERL-150115-VIC-2015	Platycercus eximius	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189064	KY189064	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-ERL-150007-VIC-2015	Platycercus eximius	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189065	KY189065	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-CRL-150087-VIC-2015	Platycercus elegans	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189066	KY189066	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-CRL-150071-VIC-2015	Platycercus elegans	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189067	KY189067	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-CRL-141173-VIC-2014	Platycercus elegans	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189068	KY189068	-	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-AKP-141293-VIC-2014	Alisterus scapularis	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189069	KY189069	-	1997	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-AKP-141214-VIC-2014	Alisterus scapularis	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189070	KY189070	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-AKP-140838-VIC-2014	Alisterus scapularis	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189071	KY189071	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-AKP-140670-VIC-2014	Alisterus scapularis	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189072	KY189072	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-AKP-140619-VIC-2014	Alisterus scapularis	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189073	KY189073	-	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-AKP-140611-VIC-2014	Alisterus scapularis	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY189074	KY189074	-	1996	Circovirus	BFDV	Beak and feather disease virus	Avian-1	KAT-140471-CRL-VIC-2014	Platycercus elegans	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410348	KY410348	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	114_AKP_150371_VIC	Alisterus scapularis	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410349	KY410349	-	402	Circovirus	BFDV	Beak and feather disease virus	Avian-1	189_AKP_B30773_VIC	Alisterus scapularis	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410350	KY410350	-	422	Circovirus	BFDV	Beak and feather disease virus	Avian-1	33_AM_150034_VIC	Gymnorhina tibicen	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410351	KY410351	-	410	Circovirus	BFDV	Beak and feather disease virus	Avian-1	130_AM_150411_VIC	Gymnorhina tibicen	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410352	KY410352	-	383	Circovirus	BFDV	Beak and feather disease virus	Avian-1	180_AM_150490_VIC	Gymnorhina tibicen	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410353	KY410353	-	415	Circovirus	BFDV	Beak and feather disease virus	Avian-1	211_AM_150679_VIC	Gymnorhina tibicen	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410354	KY410354	-	398	Circovirus	BFDV	Beak and feather disease virus	Avian-1	194_AR_150549_VIC	Corvus coronoides	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410355	KY410355	-	444	Circovirus	BFDV	Beak and feather disease virus	Avian-1	192_AWI_150542_VIC	Threskiornis molucca	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410356	KY410356	-	392	Circovirus	BFDV	Beak and feather disease virus	Avian-1	239_BG_150703_VIC	Accipiter fasciatus	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410357	KY410357	-	399	Circovirus	BFDV	Beak and feather disease virus	Avian-1	217_Cockatiel_B40091_VIC	Nymphicus hollandicus	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410358	KY410358	-	420	Circovirus	BFDV	Beak and feather disease virus	Avian-1	253_CR_150638_VIC	Platycercus elegans	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410359	KY410359	-	399	Circovirus	BFDV	Beak and feather disease virus	Avian-1	401_CR_150890_VIC	Platycercus elegans	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410360	KY410360	-	415	Circovirus	BFDV	Beak and feather disease virus	Avian-1	261_CR_B50208_VIC	Platycercus elegans	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410361	KY410361	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	72_ER_150115_VIC	Platycercus eximius	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410362	KY410362	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	187_Galah_150503_VIC	Eolophus roseicapilla	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410363	KY410363	-	407	Circovirus	BFDV	Beak and feather disease virus	Avian-1	152_GG_150446_VIC	Callocephalon fimbriatum	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410364	KY410364	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	151_LK_150445_VIC	Dacelo novaeguineae	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410365	KY410365	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	153_LK_150447_VIC	Dacelo novaeguineae	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410366	KY410366	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	174_LC_150485_VIC	Cacatua sanguinea	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410367	KY410367	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	46_ML_150065_VIC	Glossopsitta concinna	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410368	KY410368	-	444	Circovirus	BFDV	Beak and feather disease virus	Avian-1	262_OBP_B01871_VIC	Neophema chrysogaster	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410369	KY410369	-	444	Circovirus	BFDV	Beak and feather disease virus	Avian-1	135_PO_150420_VIC	Ninox strenua	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410370	KY410370	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	23_RL_141266_VIC	Trichoglossus moluccanus	2014	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410371	KY410371	-	416	Circovirus	BFDV	Beak and feather disease virus	Avian-1	281_SBL_B10154_VIC	Trichoglossus chlorolepidotus	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410372	KY410372	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	207_SBL_B50250_VIC	Trichoglossus chlorolepidotus	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410373	KY410373	-	412	Circovirus	BFDV	Beak and feather disease virus	Avian-1	288_SBL_B50355_VIC	Trichoglossus chlorolepidotus	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410374	KY410374	-	447	Circovirus	BFDV	Beak and feather disease virus	Avian-1	289_SBL_B50365_VIC	Trichoglossus chlorolepidotus	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410375	KY410375	-	408	Circovirus	BFDV	Beak and feather disease virus	Avian-1	193_SBO_150510_VIC	Ninox boobook	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410376	KY410376	-	420	Circovirus	BFDV	Beak and feather disease virus	Avian-1	278_SCC_150738_VIC	Cacatua galerita	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410377	KY410377	-	444	Circovirus	BFDV	Beak and feather disease virus	Avian-1	154_TF_150448_VIC	Podargus strigoides	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/KY410378	KY410378	-	409	Circovirus	BFDV	Beak and feather disease virus	Avian-1	268_TF_150712_VIC	Podargus strigoides	2015	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MG257487	MG257487	-	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PBFDV2017	Psittacus erithacus	2016	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MH180298	MH180298	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus erithacus	2017	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MH188863	MH188863	-	1995	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	parrot	2017	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MH190788	MH190788	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Psittacus erithacus (African Grey Parrots)	2017	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MH279594	MH279594	-	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	SDpbfdvE0	African Grey Parrots	2017	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MH310937	MH310937	-	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	PBFDV-SH1163	Psittacus erithacus	2015	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK061529	MK061529	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	budgerigar	2018	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK073896	MK073896	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Budgerigar	2018	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK073897	MK073897	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Budgerigar	2018	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK073898	MK073898	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	Budgerigar	2018	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK120438	MK120438	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	-	budgerigar	2018	China
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK163676	MK163676	-	1902	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-LC	Cacatua sanguinea	2017	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK387074	MK387074	-	1992	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_BDG_BD_2017_06	Melopsittacus undulatus	2017	Bangladesh
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK387075	MK387075	-	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV_BDG_BD_2017_30	Melopsittacus undulatus	2017	Bangladesh
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803394	MK803394	-	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BFDV-S3	Psittacus erithacus (African grey)	2018	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803395	MK803395	-	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S4	Psittacus erithacus	2017	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803396	MK803396	-	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S5	Psittacus erithacus	2017	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803397	MK803397	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S11	Psittacus erithacus	2017	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803398	MK803398	-	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S12	Psittacus erithacus	2017	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803400	MK803400	-	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S19	Melopsittacus undulatus	2017	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803401	MK803401	-	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S20	Cacatua alba (cockatoo)	2017	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803402	MK803402	-	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S21	Psittacus erithacus	2017	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803403	MK803403	-	1998	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S24	Psittacus erithacus	2017	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803404	MK803404	-	1968	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S25	Psittacus erithacus	2018	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803405	MK803405	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S26	Indian parakeet	2018	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803406	MK803406	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S27	Nymphicus hollandicus (cockatiel)	2018	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MK803407	MK803407	-	2000	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BVDV-S28	Agapornis fischeri	2018	Saudi Arabia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MN114122	MN114122	-	1993	Circovirus	BFDV	Beak and feather disease virus	Avian-1	CS17-0436	Eudyptula minor	2017	Australia
+alignment/AL_BFDV/member/ncbi-curated-circo-bfdv/MN175611	MN175611	-	1991	Circovirus	BFDV	Beak and feather disease virus	Avian-1	BR_DF9	Amazona aestiva	2016	Brazil
