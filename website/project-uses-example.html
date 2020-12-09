@@ -340,26 +340,28 @@
 
 
 		 <p>
-		   The CRESS-GLUE project includes a previously constructed
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/circoReferences.glue"><b>reference sequence</b></a>
-           for BFDV.
- 		   This reference has the locations of major genome features mapped - specifically the 
-		   <i>rep</i> and <i>cap</i> genes.	   
+		   The 'Circovirus' extension of CRESS-GLUE includes reference sequences for 
+		   most (if not all) species, including BFDV.
+		   The reference sequence declarations can be found
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/circoReferences.glue"><b>in this file</b></a>.
 		 </p>
 	   
 	   
 		 <p>
 		   However, in a project focussed specifically on BFDV, we may want to annotate this 
 		   specific reference more richly - incorporating everything that is known about
-		   the virus genome. 
+		   the virus genome.
 		 </p>
 
 	   
 		 <p>
-           Modify existing BFDV sequence. 
-		   <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001944"><b>BFDV GenBank entry</b></a>
-           Use tab complete function of the console to see the complete list 
-           of reference sequences.
+           Let's examine how we can modify the existing BFDV reference sequence.
+           First, let's have a look at the reference sequences in the cress project.
+           On way to do this is to use the
+		   <a href="https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/"><b>tab complete</b></a>           
+           function of the console to reveal the full list 
+           of reference sequences, by first typing 'reference (or just the first few 
+           letters of this word), and then pressing the 'tab' key, as show here:
 
  <pre>
  <code>Mode path: /project/cress
@@ -380,10 +382,28 @@
 		 <p>
            As expected, we see the master references of the core project,
            plus the references associated with the Circovirus extension.
+           Navigate to the BFDV reference sequence and list all the features that 
+           have been associated with this reference, as follows:
+
+ <pre>
+ <code>Mode path: /project/cress
+ GLUE> reference REF_
+ REF_Begomo_EACMKV              REF_CRESS1_MASTER_AHEaCV-13    REF_CRESS2_MASTER_Po-41        
+ REF_Circo_BFDV                 REF_Circo_BarbCV               REF_Circo_CaCV                 
+ REF_Circo_CfCV                 REF_Circo_CoCV                 REF_Circo_DuCV                 
+ REF_Circo_FiCV                 REF_Circo_GuCV                 REF_Circo_MASTER_PCV-1         
+ REF_Circo_MiCV                 REF_Circo_PCV-2                REF_Circo_PCV-3                
+ REF_Circo_RaCV                 REF_Circo_SgCV                 REF_Circo_StCV                 
+ REF_Circo_SvCV                 REF_Circo_SwCV                 REF_Circo_TbCV                 
+ REF_Circo_ZfCV                 REF_Cyclo_MASTER_HuACyV-1      REF_Porprismaco_MASTER_CBSV    
+ REF_Redondo_MASTER_HLVV</code></pre>	        
+
   		 </p>
   		 
   		 
 		 <p>
+ 		   The reference has the locations of major genome features mapped - specifically the 
+		   <i>rep</i> and <i>cap</i> genes.	   
 		   <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001944"><b>BFDV GenBank entry</b></a>
 		   shows an additional, hypothetical open reading frame (ORF), called "V2".
   		 </p>

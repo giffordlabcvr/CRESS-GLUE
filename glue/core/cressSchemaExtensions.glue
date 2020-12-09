@@ -25,7 +25,6 @@
   table isolate
     create field isolate VARCHAR 100
     create field host_sci_name VARCHAR 100
-    create field sample_date DATE
     create field place_sampled VARCHAR 100
     create field country_iso VARCHAR
     create field country VARCHAR 200

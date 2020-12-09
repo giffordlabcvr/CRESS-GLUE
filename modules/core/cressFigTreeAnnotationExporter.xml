@@ -6,6 +6,16 @@
 	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
+		<annotationName>pubmedID</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.pubmedID')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>length</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.length')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
 		<annotationName>genus</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.genus')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
