@@ -84,7 +84,6 @@
 
 
 	   <p>
-	   <img src="./images/parrot1.jpg" alt="parrot" />
          To download all BFDV entries in NCBI GenBank, we 
          can use a customised version of GLUE's 'NcbiImporter' module.
          The configuration of the module can be viewed
@@ -607,7 +606,9 @@
 
 	   
 		 <p>
-		   How did I figure out which ones? 
+		   How did I figure out which ones? There are lots of ways to do this 
+		   using GLUE. In this case I used a fairly simple approach, but one that seemed
+		   to work well. I simply aligned all BFDV sequences then expect the alignment.
 		 </p>
 
 	   
@@ -655,7 +656,25 @@
 	   <p>
          In the final step in this tutorial, we will create a set of midpoint-rooted
          tree for each of the two main genes in the BFDV genome. 
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateGenusLevelPhylogeniesBfdv.glue"><b>this file</b></a>.
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>.
+
+  <pre>
+  <code>GLUE> alignment AL_BFDV 
+  OK
+  Mode path: /project/cress/alignment/AL_BFDV
+  GLUE> list member sequence.sequenceID sequence.name sequence.isolate.isolate
+  +=====================+===============+====================================+
+  | sequence.sequenceID | sequence.name |      sequence.isolate.isolate      |
+  +=====================+===============+====================================+
+  | AB182568            | BFDV          | YCC-IN1P                           |
+  | AB182569            | BFDV          | YCC-IN2P                           |
+  | AB182570            | BFDV          | RRP-JP11P                          |
+  | AB182571            | BFDV          | RRP-JP12P                          |
+  | AB182572            | BFDV          | BTP-SA11P                          |</code></pre>
+  
+
+
+
        </p>
 
 
