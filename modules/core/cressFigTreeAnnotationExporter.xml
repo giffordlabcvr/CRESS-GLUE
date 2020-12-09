@@ -47,7 +47,7 @@
 
 	<figTreeAnnotation>
 		<annotationName>sample_date</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.sample_date')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.collection_year')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
