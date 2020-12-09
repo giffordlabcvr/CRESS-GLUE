@@ -29,6 +29,8 @@ exit
 
 # Build GenBank extensions
 project cress
-  #run file glue/genus/circo/buildCircoBfdvExtension.glue
+
+  run file glue/genus/circo/buildCircoBfdvExtension.glue
+  
 exit
 

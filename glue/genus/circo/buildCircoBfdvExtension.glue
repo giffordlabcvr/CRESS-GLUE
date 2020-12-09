@@ -21,6 +21,13 @@
   create alignment AL_BFDV -r REF_Circo_BFDV 
   alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"
   compute alignment AL_BFDV circovirusCompoundAligner
+
+  # Compute feature coverage for BFDV
+  run file glue/genus/circo/exampleRecordFeaturePresenceBfdv.glue
+  
+  # Reconstruct and export annotated, midpoint rooted phylogenies
+  run file glue/genus/circo/exampleCreateBfdvPhylogenies.glue
+
   
   # Validate
   validate

@@ -1,7 +1,6 @@
 sequenceID	name	Genus	referenceName	featureName	startNT	endNT
 NC_001944	BFDV	Circovirus	REF_Circo_BFDV	whole_genome	1	1993
 NC_001944	BFDV	Circovirus	REF_Circo_BFDV	Rep	108	1007
-NC_001944	BFDV	Circovirus	REF_Circo_BFDV	gp3	550	1026
 NC_001944	BFDV	Circovirus	REF_Circo_BFDV	Cap	1240	1974
 NC_003410	CaCV	Circovirus	REF_Circo_CaCV	whole_genome	1	1952
 NC_003410	CaCV	Circovirus	REF_Circo_CaCV	Rep	32	904

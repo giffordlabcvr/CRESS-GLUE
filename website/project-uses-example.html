@@ -180,10 +180,67 @@
  	     Next, export the sequences to a 'source' directory as follows.
 
    <pre>
-  <code>Mode path: /project/cress
-  GLUE> export source ncbi-curated-circo-bfdv -p sources/</code></pre>
+   <code>Mode path: /project/cress
+   GLUE> export source ncbi-curated-circo-bfdv -p sources/</code></pre>
 
- 	   </p>
+		  The sequences are now in your local copy of the CRESS-GLUE project, under
+		  './sources/ncbi-curated-circo'. However, they are in XML format - what if 
+		  you want to get your hands on the FASTA?
+		</p>
+
+ 	   <p>
+          GLUE is designed to provide as much flexibility as possible with respect 
+          to data-formatting. To exporting FASTA-formatted sequences from GLUE, use a 
+          FASTA exporter module. You can create one with a default configuration on
+          the GLUE command line, like this:
+          
+   <pre>
+   <code>Mode path: /project/cress
+  GLUE> create module -t fastaExporter 
+  OK
+  (1 Module created)</code></pre>
+		</p>
+
+ 	   <p>
+
+          Now lets use this module to export the sequence in the 'ncbi-curated-circo-bfdv'
+          source. Heres my first attempt:
+   
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> module fastaExporter export -w "source.name = 'ncbi-curated-circo-bfdv'"
+  Error: Usage error
+  Usage: export (-w &ltwhereClause> | -a) [-o &ltoffset> -b &ltbatchSize>] [-y &ltlineFeedStyle>]
+                [-r] [-t] (-p | -f &ltfileName>)
+
+  Options:
+	-y &ltlineFeedStyle>, --lineFeedStyle &ltlineFeedStyle>  LF or CRLF
+	-f &ltfileName>, --fileName &ltfileName>                 FASTA file
+	-w &ltwhereClause>, --whereClause &ltwhereClause>        Qualify exported sequences
+	-o &ltoffset>, --offset &ltoffset>                       Paged query offset
+	-b &ltbatchSize>, --batchSize &ltatchSize>               Paged query batch size
+	-a, --allSequences                                   Export all project sequences
+	-r, --suppressReverseComplement                      Suppress reverse complement
+	-t, --suppressRotation                               Suppress rotation
+	-p, --preview</code></pre>
+  
+  	   </p>
+
+ 	   <p>
+          Oops!! Something went wrong - GLUE needs another argument.
+  	   </p>
+
+ 	   <p>
+          Note that the error message prompts me with correct usage of the module,
+          and an explanation of the options. In this case, I forgot to tell GLUE what to
+          with the sequences. They can be previewed in the console, or exported to a file.
+          Run the module as follows to export the sequences to a file named 'bfdv.fna':
+          
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> module fastaExporter export -w "source.name = 'ncbi-curated-circo-bfdv'" -f bfdv.fna
+  OK</code></pre>
+          
    
  	   <h3>
 		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Importing BFDV sequences and metadata from GenBank files</strong>.
@@ -385,18 +442,20 @@
            Navigate to the BFDV reference sequence and list all the features that 
            have been associated with this reference, as follows:
 
- <pre>
- <code>Mode path: /project/cress
- GLUE> reference REF_
- REF_Begomo_EACMKV              REF_CRESS1_MASTER_AHEaCV-13    REF_CRESS2_MASTER_Po-41        
- REF_Circo_BFDV                 REF_Circo_BarbCV               REF_Circo_CaCV                 
- REF_Circo_CfCV                 REF_Circo_CoCV                 REF_Circo_DuCV                 
- REF_Circo_FiCV                 REF_Circo_GuCV                 REF_Circo_MASTER_PCV-1         
- REF_Circo_MiCV                 REF_Circo_PCV-2                REF_Circo_PCV-3                
- REF_Circo_RaCV                 REF_Circo_SgCV                 REF_Circo_StCV                 
- REF_Circo_SvCV                 REF_Circo_SwCV                 REF_Circo_TbCV                 
- REF_Circo_ZfCV                 REF_Cyclo_MASTER_HuACyV-1      REF_Porprismaco_MASTER_CBSV    
- REF_Redondo_MASTER_HLVV</code></pre>	        
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> reference REF_Circo_BFDV 
+  OK
+  Mode path: /project/cress/reference/REF_Circo_BFDV
+  GLUE> list feature-location 
+  +========================+==============+
+  | referenceSequence.name | feature.name |
+  +========================+==============+
+  | REF_Circo_BFDV         | whole_genome |
+  | REF_Circo_BFDV         | Rep          |
+  | REF_Circo_BFDV         | Cap          |
+  +========================+==============+
+  FeatureLocations found: 4</code></pre>	        
 
   		 </p>
   		 
@@ -410,8 +469,51 @@
   		 
   		 
 		 <p>
-           To modify existing BFDV sequence to include V2.
+           Adding V2 modify existing BFDV sequence to include V2. 
+           First, lets examine all of the features defined in the entire CRESS-GLUE 
+           project.
+
+  <pre>
+  <code>GLUE> project-mode 
+  OK
+  Mode path: /project/cress
+  GLUE> list feature
+  feature             feature-location    
+  GLUE> list feature
+  +==============+==============+===================================+
+  |     name     | parent.name  |            description            |
+  +==============+==============+===================================+
+  | whole_genome | -            | Whole genome                      |
+  | 5flank       | -            | 5 prime genomic flanking sequence |
+  | 3flank       | -            | 3 prime genomic flanking sequence |
+  | Rep          | whole_genome | Replicase protein                 |
+  | ORFV2        | whole_genome | Hypothetical protein ORFV2        |
+  | ORFC2        | whole_genome | Hypothetical protein ORFC2        |
+  | ORF4         | whole_genome | Hypothetical protein ORF4         |
+  | ORF3         | whole_genome | Hypothetical protein ORF3         |
+  | nonanuc      | whole_genome | nonanucleotide motif              |
+  | intergenic   | whole_genome | intergenic region                 |
+  | gp3          | whole_genome | gp3 protein                       |
+  | gp2          | whole_genome | gp2 protein                       |
+  | Cap          | whole_genome | Capsid protein                    |
+  | 5UTR         | whole_genome | 5' UTR                            |
+  | 3UTR         | whole_genome | 5' 3TR                            |
+  +==============+==============+===================================+
+  Features found: 15</code></pre>
+
+
   		 </p>
+
+  		 
+		 <p>
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> create feature v2 "v2 gene"
+  OK
+  (1 Feature created)</code></pre>
+
+
 
   <pre>
   <code>Mode path: /project/cress

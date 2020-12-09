@@ -5,9 +5,9 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/rep/cressPhyloUtility.xml
-  create module -f modules/rep/cressFigTreeAnnotationExporter.xml
-  create module -f modules/rep/cressFeaturePresenceRecorder.xml
+  create module -f modules/core/cressPhyloUtility.xml
+  create module -f modules/core/cressFigTreeAnnotationExporter.xml
+  create module -f modules/core/cressFeaturePresenceRecorder.xml
   create module -f modules/genus/circo/alignmentColumnsSelectorCircoRep.xml
   #create module -f modules/genus/circo/alignmentColumnsSelectorCircoCap.xml
 
@@ -15,12 +15,12 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_BFDV -s alignmentColumnsSelectorCircoRep \
-      -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    generate nucleotide phylogeny AL_BFDV 
+      -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 70" \
       -o trees/virus-level/Circo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_BFDV -s alignmentColumnsSelectorCircoCap \
-      -w "fLocNotes.featureLoc.feature.name = 'Cap' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    generate nucleotide phylogeny AL_BFDV 
+      -w "fLocNotes.featureLoc.feature.name = 'Cap' and fLocNotes.ref_nt_coverage_pct >= 70" \
       -o trees/virus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS
       
     exit
