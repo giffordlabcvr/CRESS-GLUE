@@ -11,8 +11,6 @@
   # Apply reverse complement & rotations to reference seqs
   run file glue/genus/circo/circoRefseqsApplyReverseComplement.glue
 
-  #run script glue/genus/circo/circoRefseqsApplyRotations.js
-
   # Create reference sequences
   run file glue/genus/circo/circoReferences.glue
 
@@ -20,7 +18,6 @@
   module featureLocationTextToGlue
     transform tabular/genus/circo_reference_feature_locations.tsv -r
     exit   
-  #run file glue/genus/circo/circoFeatureLocations.glue
 
   # Add variations
   run file glue/genus/circo/circoVariations.glue

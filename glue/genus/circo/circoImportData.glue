@@ -1,8 +1,8 @@
   delete module circoSideDataImporter
-  delete module circoGenbankXmlPopulator
+  delete module cressGenbankXmlPopulator
   
   create module -f modules/genus/circo/circoSideDataImporter.xml
-  create module -f modules/genus/circo/circoGenbankXmlPopulator.xml
+  create module -f modules/core/cressGenbankXmlPopulator.xml
 
 
   # Create links to isolate table
@@ -14,5 +14,5 @@
     exit
 
   # Populate fields from GenBank data
-  module circoGenbankXmlPopulator populate 
+  module cressGenbankXmlPopulator populate 
 

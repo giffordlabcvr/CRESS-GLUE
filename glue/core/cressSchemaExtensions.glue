@@ -1,4 +1,6 @@
   table sequence
+    create field pubmed_id VARCHAR 100  
+    create field length INTEGER
     create field name VARCHAR 100  
     create field full_name VARCHAR 100
     create field family VARCHAR 50

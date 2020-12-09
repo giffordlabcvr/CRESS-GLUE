@@ -1,4 +1,16 @@
 <genbankXmlPopulator>
+
+
+	<gbLength>
+		<propertyPopulator property="length"/>
+	</gbLength>
+
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
+	
 	
 	<gbFeature key="source">
 	

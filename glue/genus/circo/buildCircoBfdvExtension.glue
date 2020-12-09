@@ -12,7 +12,7 @@
   run script glue/genus/circo/exampleLoadSequenceDataBdfv.js
 
   # Extract and import data from GenBank XML
-  module circoGenbankXmlPopulator populate 
+  module cressGenbankXmlPopulator populate 
 
   # Reverse complement sequences
   run file glue/genus/circo/exampleApplyReverseComplement.glue

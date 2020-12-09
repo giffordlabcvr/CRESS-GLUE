@@ -1,3 +1,2 @@
   # Import genus-level reference sequences
   import source sources/ncbi-refseqs-circo/
-  import source sources/ncbi-curated-circo-bfdv/
