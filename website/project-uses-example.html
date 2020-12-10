@@ -561,16 +561,16 @@
 
 	   
 		 <p>
-		   When aligning sequences derived from a single virus species, an efficient and reliable 
-		   approach is to use a pairwise, reference guided approach initially. The GLUE
-		   framework allows this approach to be used without data loss 
+		   An efficient and reliable approach for 
+		   aligning sequences derived from a single virus species
+		   is to use a pairwise, reference guided approach initially. The GLUE
+		   framework allows this approach to be used, in a codon-aware way, and
+		    without data loss.
 		 </p>
 	   
 		 <p>
-		   For this purpose we will use our BFDV reference sequence, and GLUE's inbuilt,
-		   codon-aware alignment routines.
 		   First, exit the reference sequence to project level (assuming you are still 
-		   in this mode path
+		   in this mode path):
 		 </p>
 
    <pre>
@@ -581,10 +581,9 @@
    GLUE></code></pre>
 	   
 		 <p>
-		   We created a 'compoundAligner' module for the circovirus genus. 
-		   The simple configuration of this file can be viewed here
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
-
+		   The CRESS-GLUE project contains a 
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circovirusCompoundAligner.xml"><b>circovirus-specific configuration file</b></a>
+		   for GLUE's  'compoundAligner' module.
 
   <pre>
   <code>Mode path: /project/cress
