@@ -38,6 +38,33 @@
          which provides a broad introduction to the GLUE framework.
  	   </p>
 
+	   <p>
+         
+         This <b>tutorial</b> comprises the following steps:
+
+		 <ol>
+		   <li> <b>Downloading</b> all available sequences of a selected virus from GenBank.</li>
+		   <li> <b>Extracting</b> isolate data from GenBank files.</li>
+		   <li> <b>Filtering</b> sequences and sequence-associated data to obtain a valid analysis set.</li>
+		   <li> <b>Defining virus reference sequences</b> and associating them with annotations.</li>
+		   <li> <b>Creating an alignment</b> of all BFDV sequences.</li>
+		   <li> <b>Mapping feature coverage</b> in all BFDV isolates.</li>
+		   <li> Creating an automated procedure for reconstructing midpoint-rooted <b>phylogenetic trees</b>.</li>
+		 </ol>
+
+
+          A brief section at the end of this tutorial discusses how GLUE resources can 
+          be collaboratively developed via online repositories such as GitHub.
+ 	   </p>
+ 	   
+
+
+	   <h3>
+		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background - beak and feather disease virus</strong>
+	   </h3>
+
+        <p><img src="./images/parrots.png" alt="Parrots" /></p>
+
 
 	   <p>
          <b><a target="_blank" href="https://en.wikipedia.org/wiki/Parrot">Psittacine birds</b></a> (parrots and cockatoos) are among the most beautiful and remarkable
@@ -57,26 +84,6 @@
          a sequence-based resource for BFDV.
  	   </p>
 
-	   <p>
-         
-         This <b>tutorial</b> comprises the following steps:
-
-		 <ol>
-		   <li> <b>Downloading</b> all available BFDV sequences from GenBank.</li>
-		   <li> <b>Extracting</b> isolate data from GenBank files.</li>
-		   <li> <b>Filtering</b> data to obtain a valid analysis data set.</li>
-		   <li> Refining the BFDV <b>reference sequence</b>.</li>
-		   <li> Creating an <b>alignment</b> of all BFDV sequences.</li>
-		   <li> Mapping <b>feature coverage</b> in all BFDV isolates.</li>
-		   <li> Creating an automated procedure for reconstructing midpoint-rooted <b>phylogenetic trees</b>.</li>
-		 </ol>
-
-
-          A brief section at the end of this tutorial discusses how GLUE resources can 
-          be collaboratively developed via online repositories such as GitHub.
- 	   </p>
- 	   
-
 
 	   <h3>
 		 <a id="DownloadFromNcbi" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Downloading all available BFDV sequences from GenBank</strong>
@@ -85,29 +92,39 @@
 
 	   <p>
          To download all BFDV entries in NCBI GenBank, we 
-         can use a customised version of GLUE's 'NcbiImporter' module.
+         will use a customised version of GLUE's 'NcbiImporter' module.
          The configuration of the module can be viewed
 		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b>here</b></a>.
  	   </p>
 
 
 	   <p>
-         Viewing the file, you can probably see how it is configured to download sequences
+         Viewing the file, you can probably see that it is configured to download sequences
          based on a query phrase:
+
+	   <p>
         <i>"Beak and feather disease virus"[Organism] AND 200:2000[SLEN]</i>.
-        
-         Specifies all entries labelled "beak and feather disease" in the 'Organism' field.
-         In addition, we have added
-         a length specification
-         As explained in the comments within the module configuration. This 'eSearchTerm'
-         is a standard NCBI entrez text query. 
+ 	   </p>
+
+
+	   <p>        
+         This 'eSearchTerm' is a standard NCBI entrez text query that
+         specifies all GenBank entries labelled "beak and feather disease" in the
+         'Organism' field and that are between 200-2000 nucleotides in length.
+
  	   </p>
  	   
 
 	   <p>
          Notice also that the module configuration specifies the name of a '<b>source</b>': "ncbi-curated-circo-bfdv".
          A source is simply the name used in GLUE for a directory that contains sequence
-         data. Because GLUE projects frequently contain large numbers of sequence files
+         data.
+
+ 	   </p>
+ 	   
+
+	   <p>
+         Because GLUE projects frequently contain large numbers of sequence files
          it is expedient to organise these files into distinct sources. In CRESS-GLUE
          we organise sources based on (i) data format (FASTA or NCBI-XML)
          (ii) taxonomic group (e.g. genus Circovirus) and; 
@@ -131,8 +148,14 @@
 
 
           
-         Note that I am in the 'CRESS-GLUE' directory when I initiate GLUE here.
-         [Set directory path]. 
+         Notice that I am in the 'CRESS-GLUE' directory when I initiate GLUE here.
+         This means that any filename I specify will treat this directory as my
+         home directory.
+         If you want to change your home directory from within
+         the GLUE shell, you can use the 'set_directory_path' command as follows.
+ 	   </p>
+
+	   <p>
  
          Next, navigate to the 'cress' project as shown here:
 	   </p>
@@ -145,9 +168,9 @@
  	   </p>
  
 	   <p>
-         Now create the module using this
-		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b> configuration </b></a>file,
-         as shown here:
+         Now create the module using it's
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b> configuration file</b></a>,
+         which is contained in the CRESS-GLUE project, as shown here:
 
   <pre>
   <code>Mode path: /project/cress/
@@ -162,8 +185,16 @@
 
   <pre>
   <code>Mode path: /project/cress/
-  GLUE> module circoviridaeNcbiImporterBfdv import
-  ncbiImporterSummaryResult
+  GLUE> module circoviridaeNcbiImporterBfdv import</code></pre>
+
+ 	   </p>
+ 	   <p>
+
+         When I ran this command on the 1st December 2020, I obtained the following output:
+
+
+  <pre>
+  <code>ncbiImporterSummaryResult
   totalMatching: 1250
   present: 0
   surplus: 0
@@ -171,8 +202,7 @@
   deleted: 0
   downloaded: 1250</code></pre>
 
-         As shown above, when I ran this command (on the 1st December 2020) I obtained 1250
-         sequences. Since the GenBank database is continually expanding, you may find
+         Since the GenBank database is continually expanding, you may find
          that you obtain more sequences than this running the same 
          command at a later date.
 	   </p>
@@ -696,29 +726,30 @@
 		 </p>
 
 
-	   <h3>
-		 <a id="Related resources" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related resources</strong>
-	   </h3>
- 
-	   <p>
-         Parrot conservation societies:
-         FreeMarker
-         GLUE example project
-	   </p>
-
 
 	   <h3>
 		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
 	   </h3>
 
         Arvind Varsani, Regnard GL, Bragg R, Hitzeroth II, EP Rybicki
-
 		<b>(2011)</b>
 		<br>
 		Global genetic diversity and geographical and host-species distribution of beak and feather disease virus isolates.
 		<i>J Gen Virol.</i>  Apr;92(Pt 4):752-67. doi: 10.1099/vir.0.028126-0. Epub 2010 Dec 22. 
 		<a href="https://www.microbiologyresearch.org/content/journal/jgv/10.1099/vir.0.028126-0" target="_blank">[view]</a> 
 		<br>
+
+        <p><img src="./images/parrots.png" alt="Parrots" /></p>
+
+	   <h3>
+		 <a id="Related resources" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related resources</strong>
+	   </h3>
+ 
+		 <p>
+		   Parrot conservation societies:
+		   FreeMarker
+		   GLUE example project
+		 </p>
 
 
 	  <footer class="site-footer">
