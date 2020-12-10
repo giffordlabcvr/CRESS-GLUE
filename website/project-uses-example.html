@@ -33,12 +33,6 @@
 
 
 	   <p>
-         Before attempting this tutorial, you may first want to investigate the 
-         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/exampleProject"><b>GLUE example project</b></a>
-         which provides a broad introduction to the GLUE framework.
- 	   </p>
-
-	   <p>
          
          This <b>tutorial</b> comprises the following steps:
 
@@ -50,13 +44,26 @@
 		   <li> <b>Creating an alignment</b> of all BFDV sequences.</li>
 		   <li> <b>Mapping feature coverage</b> in all BFDV isolates.</li>
 		   <li> Creating an automated procedure for reconstructing midpoint-rooted <b>phylogenetic trees</b>.</li>
+		   <li> Using GLUE projects as a basis for <b>collaborative research and resource development</b>.</li>
 		 </ol>
 
 
-          A brief section at the end of this tutorial discusses how GLUE resources can 
-          be collaboratively developed via online repositories such as GitHub.
  	   </p>
  	   
+
+	   <p>
+         If you haven't decided yet whether or not you want to use GLUE, 
+         you might find it useful simply to look through this tutorial, as it gives a 
+         good idea of the kind of things that can be done with GLUE projects.
+ 	   </p>
+
+	   <p>
+         If, on the other hand, you've already committed to using GLUE, you 
+         may find it useful to investigate the 
+         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/exampleProject"><b>GLUE example project</b></a>
+         which provides a broad introduction to the GLUE framework, in addition to
+         this tutorial.
+ 	   </p>
 
 
 	   <h3>
@@ -79,8 +86,8 @@
 
 	   <p>
          Genomic approaches have great potential to help control the spread of BFDV.
-         In this tutorial we will use the <b>CRESS-GLUE</b> project to (i)
-         investigate BFDV distribution diversity and evolution, and (ii) establish
+         In this tutorial we will use the <b>CRESS-GLUE</b> project to <b>(i)</b>
+         investigate BFDV distribution diversity and evolution, and <b>(ii)</b> establish
          a sequence-based resource for BFDV.
  	   </p>
 
@@ -92,43 +99,23 @@
 
 	   <p>
          To download all BFDV entries in NCBI GenBank, we 
-         will use a customised version of GLUE's 'NcbiImporter' module.
-         The configuration of the module can be viewed
+         will use a customised version of GLUE's  module
+         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/ncbiImporter">'<b>NcbiImporter</b>'</a>       
+         module. Our project-specific configuration of the module can be viewed
 		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b>here</b></a>.
- 	   </p>
-
-
-	   <p>
          Viewing the file, you can probably see that it is configured to download sequences
          based on a query phrase:
 
 	   <p>
-        <i>"Beak and feather disease virus"[Organism] AND 200:2000[SLEN]</i>.
+        <i>"Beak and feather disease virus"[Organism] AND 200:2000[SLEN]</i>
  	   </p>
 
 
 	   <p>        
          This 'eSearchTerm' is a standard NCBI entrez text query that
          specifies all GenBank entries labelled "beak and feather disease" in the
-         'Organism' field and that are between 200-2000 nucleotides in length.
+         'Organism' field and between 200-2000 nucleotides in length.
 
- 	   </p>
- 	   
-
-	   <p>
-         Notice also that the module configuration specifies the name of a '<b>source</b>': "ncbi-curated-circo-bfdv".
-         A source is simply the name used in GLUE for a directory that contains sequence
-         data.
-
- 	   </p>
- 	   
-
-	   <p>
-         Because GLUE projects frequently contain large numbers of sequence files
-         it is expedient to organise these files into distinct sources. In CRESS-GLUE
-         we organise sources based on (i) data format (FASTA or NCBI-XML)
-         (ii) taxonomic group (e.g. genus Circovirus) and; 
-         (iii) data type (virus or endogenous viral element).
  	   </p>
 
 	   <p>
@@ -209,6 +196,7 @@
  
  	   <p>
  	     Next, export the sequences to a 'source' directory as follows.
+ 	   
 
    <pre>
    <code>Mode path: /project/cress
@@ -581,9 +569,7 @@
    GLUE></code></pre>
 	   
 		 <p>
-		   The CRESS-GLUE project contains a 
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circovirusCompoundAligner.xml"><b>circovirus-specific configuration file</b></a>
-		   for GLUE's  'compoundAligner' module.
+		   Define the alignment.
 
   <pre>
   <code>Mode path: /project/cress
@@ -594,6 +580,13 @@
 
 		 <p>
 		   Create the alignment.
+		 </p>
+
+
+		 <p>
+		   The CRESS-GLUE project contains a 
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circovirusCompoundAligner.xml"><b>circovirus-specific configuration file</b></a>
+		   for GLUE's  'compoundAligner' module.
   <pre>
   <code>compute alignment AL_BFDV circovirusCompoundAligner</code></pre>
 		 </p>
@@ -717,7 +710,14 @@
 
 
 
-       </p>
+        </p>
+       
+       
+		 <p>
+		   The finished trees with annotations can be found 
+		   <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/trees/virus-level"><b>here</b></a>.
+		 </p>
+
 
 
 	   <h3>
