@@ -588,20 +588,28 @@
   <pre>
   <code>Mode path: /project/cress
   GLUE> create alignment AL_BFDV -r REF_Circo_BFDV 
-  alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"
-  compute alignment AL_BFDV circovirusCompoundAligner</code></pre>
+  alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"</code></pre>
 		 </p>
 
 
 		 <p>
-		   Inspect the alignment.
+		   Create the alignment.
+  <pre>
+  <code>compute alignment AL_BFDV circovirusCompoundAligner</code></pre>
 		 </p>
+
+  
+
+		 <p>
+		   Inspect the alignment.
 
   <pre>
   <code>GLUE> alignment AL_BFDV show statistics</code></pre>
 
+		 </p>
+
 		 <p>
-		   Also.
+		   Or alternatively, list alignment members, along with their associated data, like this:
 		 </p>
 
 
@@ -621,6 +629,11 @@
   
      
 		 <p>
+		   (only the first few results are shown here)
+		 </p>
+
+		 <p>
+
 		   Some BFDV sequences were in the opposite orientation than the reference.
 		   First, run 
 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.js"><b>this GLUE file </b></a>
@@ -675,7 +688,7 @@
 
   <pre>
   <code>module circoFeaturePresenceRecorder 
-  GLUE> record feature-presence AL_BFDV --recursive --featureName whole_genome --descendentFeatures</code></pre>
+  GLUE> record feature-presence AL_BFDV -r -f whole_genome -d</code></pre>
 
 
 	   <h3>
