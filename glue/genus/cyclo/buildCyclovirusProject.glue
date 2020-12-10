@@ -6,7 +6,7 @@
   run file glue/genus/cyclo/cycloImportData.glue
 
   # Define genome features
-  run file glue/genus/cyclo/cycloFeatures.glue
+  #run file glue/genus/cyclo/cycloFeatures.glue
 
   # Apply reverse complement & rotations to reference seqs
   run file glue/genus/cyclo/cycloRefseqsApplyReverseComplement.glue
