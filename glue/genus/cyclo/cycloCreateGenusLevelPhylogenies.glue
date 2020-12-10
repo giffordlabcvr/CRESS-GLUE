@@ -1,0 +1,54 @@
+  delete module raxmlPhylogenyGenerator
+  delete module cressPhyloUtility
+  delete module alignmentColumnsSelectorCircoRep
+  delete module alignmentColumnsSelectorCircoCap
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/rep/cressPhyloUtility.xml
+  create module -f modules/rep/cressFigTreeAnnotationExporter.xml
+  create module -f modules/rep/cressFeaturePresenceRecorder.xml
+  create module -f modules/genus/circo/alignmentColumnsSelectorCircoRep.xml
+  #create module -f modules/genus/circo/alignmentColumnsSelectorCircoCap.xml
+
+  
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_Circovirus -s alignmentColumnsSelectorCircoRep \
+      -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/genus-level/Circo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    #generate nucleotide phylogeny AL_Circovirus -s alignmentColumnsSelectorCircoCap \
+    #  -w "fLocNotes.featureLoc.feature.name = 'Cap' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/genus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS
+      
+    exit
+
+
+  # Re-root phylogeny 
+  module cressPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/genus-level/Circo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/genus-level/Circo-Rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	#reroot-phylogeny \
+    #  --inputFile trees/genus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/genus-level/Circo-Cap.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Export annotations
+  module cressFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_Circovirus -w "fLocNotes.featureLoc.feature.name = 'Rep'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/genus-level/Circo-root-rep.figtree-annotations.tsv
+    #export figtree-annotation AL_Circovirus -w "fLocNotes.featureLoc.feature.name = 'Cap'  \
+    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/genus-level/Circo-root-cap.figtree-annotations.tsv
+
+  exit
+

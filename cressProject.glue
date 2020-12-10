@@ -21,7 +21,7 @@ exit
 project cress
 
   run file glue/genus/circo/buildCircovirusProject.glue
-  #run file glue/genus/cyclo/buildCyclovirusProject.glue
+  run file glue/genus/cyclo/buildCyclovirusProject.glue
   #run file glue/genus/cress/buildCressvirusProject.glue
   
 exit
@@ -30,7 +30,7 @@ exit
 # Build GenBank extensions
 project cress
 
-  run file glue/genus/circo/buildCircoBfdvExtension.glue
+  #run file glue/genus/circo/buildCircoBfdvExtension.glue
   
 exit
 

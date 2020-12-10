@@ -6,11 +6,11 @@
 
 
   # Create links to isolate table
-  run script glue/genus/circo/loadIsolateDataCirco.js
+  run script glue/genus/cyclo/loadIsolateDataCyclo.js
 
   # Import metadata for exogenous reference sequences from tabular
   module cressSideDataImporter 
-    populate -f tabular/genus/circo-refseqs-side-data.tsv
+    populate -f tabular/genus/cyclo-refseqs-side-data.tsv
     exit
 
   # Populate fields from GenBank data

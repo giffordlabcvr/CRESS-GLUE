@@ -1,0 +1,38 @@
+
+  # Import core project sources (reference sequence only)
+  run file glue/genus/cyclo/cycloImportSources.glue
+
+  # Import data
+  run file glue/genus/cyclo/cycloImportData.glue
+
+  # Define genome features
+  run file glue/genus/cyclo/cycloFeatures.glue
+
+  # Apply reverse complement & rotations to reference seqs
+  run file glue/genus/cyclo/cycloRefseqsApplyReverseComplement.glue
+
+  # Create reference sequences
+  run file glue/genus/cyclo/cycloReferences.glue
+
+  # Add feature locations from tabular to reference sequences
+  module featureLocationTextToGlue
+    transform tabular/genus/cyclo_reference_feature_locations.tsv -r
+    exit   
+
+  # Add variations
+  run file glue/genus/cyclo/cycloVariations.glue
+  
+  # Import alignments and alignment tree
+  run file glue/genus/cyclo/cycloAlignments.glue
+
+  # Define constrained alignment tree
+  run file glue/genus/cyclo/cycloAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/genus/cyclo/cycloRecordFeaturePresence.glue
+
+  # Create phylogenies
+  #run file glue/genus/cyclo/cycloCreateGenusLevelPhylogenies.glue
+
+  # Validate
+  validate
