@@ -192,8 +192,8 @@
   downloaded: 1250</code></pre>
 
          Since the GenBank database is continually expanding, you may find
-         that you obtain more sequences than this running the same 
-         command at a later date. Note that next time we run the module, only 
+         that you obtain more sequences than this when running the same 
+         command at a later date. Note that next time the module is run, only 
          the missing sequences will be downloaded. 
 	   </p>
  
@@ -450,7 +450,7 @@
 		   <a href="https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/"><b>tab complete</b></a>           
            function of the console to reveal the full list 
            of reference sequences, by first typing 'reference (or just the first few 
-           letters of this word), and then pressing the 'tab' key, as show here:
+           letters of this word), and then pressing the 'tab' key, as shown here:
 
  <pre>
  <code>Mode path: /project/cress
@@ -538,14 +538,19 @@
 
   		 
 		 <p>
-
+           First let's create the feature, as follows:
   <pre>
   <code>Mode path: /project/cress
   GLUE> create feature v2 "v2 gene"
   OK
   (1 Feature created)</code></pre>
 
+ 		 </p>
 
+  		 
+		 <p>
+
+           Now lets associate this feature with a location in the BFDV genome:
 
   <pre>
   <code>Mode path: /project/cress
@@ -554,7 +559,13 @@
   Mode path: /project/cress/reference/REF_Circo_BFDV</code></pre>	
   		 </p>
 
+		 <p>
 
+           Now we can really get to work! In the next few steps we will use everything
+           we've created so far to start doing some proper comparative analysis.
+           [Advantages of the work done - ability to preserve it so it doesn't need to
+           be repeated].
+  		 </p>
 
 	   <h3>
 		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>5. Creating an alignment of all BFDV sequences</strong>.
@@ -562,15 +573,31 @@
 
 	   
 		 <p>
-		   An efficient and reliable approach for 
-		   aligning sequences derived from a single virus species
-		   is to use a pairwise, reference guided approach initially. The GLUE
-		   framework allows this approach to be used, in a codon-aware way, and
-		    without data loss.
+		   A pairwise, reference guided approach is an efficient and reliable way to 
+		   align sequences derived from a single virus species
+		   The GLUE framework allows this approach to be used in a codon-aware way, and
+		   without data loss.
 		 </p>
+
+		 <p>
+
+		   At this point, I should mention that some BFDV sequences are in the opposite
+		   orientation to our chosen BFDV reference. To address this, run
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.glue"><b>this GLUE file </b></a>.
+		   This will allow us to proceed with directly to the alignment step with all 
+		   sequences in the same orientation. Later in this section,
+		   I'll explain how I created the file.
+
+
+  <pre>
+  <code>run file glue/genus/circo/exampleApplyReverseComplement.glue</code></pre>
+
+
+		 </p>
+
 	   
 		 <p>
-		   First, exit the reference sequence to project level (assuming you are still 
+		   To create an alignment, first, exit the reference sequence to project level (assuming you are still 
 		   in this mode path):
 		 </p>
 
@@ -582,7 +609,8 @@
    GLUE></code></pre>
 	   
 		 <p>
-		   Define the alignment.
+		   Before we perform the alignment construction, we need to first create 
+		   a <b>constrained alignment</b> object and specify which sequences belong in it:
 
   <pre>
   <code>Mode path: /project/cress
@@ -596,11 +624,7 @@
 
 
 		 <p>
-		   Create the alignment.
-		 </p>
-
-
-		 <p>
+		   Now we can construct the alignment.
 		   The CRESS-GLUE project contains a 
 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circovirusCompoundAligner.xml"><b>circovirus-specific configuration file</b></a>
 		   for GLUE's  'compoundAligner' module.
@@ -639,20 +663,6 @@
 
 		 <p>
 		   (only the first few results are shown here)
-		 </p>
-
-		 <p>
-
-		   Some BFDV sequences were in the opposite orientation than the reference.
-		   First, run 
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.glue"><b>this GLUE file </b></a>
-		   to fix this - then I'll explain how I created the file.
-
-
-  <pre>
-  <code>run file glue/genus/circo/exampleApplyReverseComplement.glue</code></pre>
-
-
 		 </p>
 
 	   
@@ -718,27 +728,34 @@
 	   </p>
 
 	   <p>
-         First, lets build trees for both Cap and Rep. 
-
-	   </p>
-
-	   <p>
-	   
-	   
+         First, lets build trees for both Cap and Rep by running
 		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>.
+		 Before you attempt this, bear in mind that we are now building a bootstrapped
+		 maximum likelihood tree for thousands of sequences. On my computer it took 
+		 over an hour to build trees for both genes.  
+		 
 	   </p>
 
   <pre>
-  <code>GLUE> alignment AL_BFDV 
-  OK
-  Mode path: /project/cress/alignment/AL_BFDV</code></pre>
+  <code>Mode path: /project/cress
+  GLUE> run file glue/genus/circo/exampleCreateBfdvPhylogenies.glue</code></pre>
 
         </p>
         
         
 	   
 		<p>
-		  Reroot <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleRerootPhylogeny.glue"><b>this file</b></a>.
+		  To midpoint-root the trees, we will use GLUE's
+		  module. Run the script as follows <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleRerootPhylogeny.glue"><b>this file</b></a>.
+
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> run file glue/genus/circo/exampleRerootPhylogeny.glue</code></pre>
+
+         Note that trees could also be midpoint rooted by importing them into anotehr application
+         that offers this functionality. However, it is often convenient to be able to 
+         do this within GLUE.
 		</p>
 	 
  	   
