@@ -256,11 +256,11 @@
   	   </p>
 
  	   <p>
-          Oops - something went wrong! - GLUE needs another argument.
+          Oops - something went wrong! - the module needs another argument.
   	   </p>
 
  	   <p>
-          Note that the error message prompts with correct usage of the module,
+          Note that the <b>error message</b> prompts with correct usage of the module,
           and an explanation of the options. In this case, I forgot to tell GLUE what to do
           with the sequences. They can be previewed in the console, or exported to a file.
           Run the module as follows to export the sequences to a file named 'bfdv.fna':
@@ -270,7 +270,17 @@
   GLUE> module fastaExporter export -w "source.name = 'ncbi-curated-circo-bfdv'" -f bfdv.fna
   OK</code></pre>
           
-   
+  	   <p>
+          You can check how to use any of the commands associated with a GLUEs module
+          using the 'help' option.
+
+ <pre>
+  <code>Mode path: /project/cress
+  GLUE> module fastaExporter help export</code></pre>
+  
+    	   </p>
+
+  
  	   <h3>
 		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>2. Importing BFDV sequences and metadata from GenBank files</strong>.
 	   </h3>
@@ -389,7 +399,24 @@
 
 
 		 <p>
-           Export data table to a text file (tab-separated values).
+           Investigating the data in the sequence table reveals that some of the 
+           BFDV sequences are not associated with isolate data. This means that our
+           genbankPopulator module didn't find the information in the XML file for that 
+           sequence. Such inconsistent annotation of virus entries in GenBank is 
+           fairly commonplace, due to a lack of standards.
+  		 </p>
+
+
+ 		 <p>
+           It's often possible to fill in missing values via reference to an 
+           associated manuscript. In this section I'll show how to use GLUE to 
+           coordinate this process.
+  		 </p>
+
+
+ 		 <p>
+           
+           First, let's export the existing isolate table data for sequence in our source.
            This is a three step process:
 
 
@@ -497,13 +524,13 @@
 		 <p>
  		   The reference has the locations of major genome features mapped - specifically the 
 		   <i>rep</i> and <i>cap</i> genes.	   
-		   <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001944"><b>BFDV GenBank entry</b></a>
-		   shows an additional, hypothetical open reading frame (ORF), called "V2".
+		   Inspecting the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001944"><b>BFDV GenBank entry</b></a>
+		   shows that includes annotation for an additional, hypothetical open reading frame (ORF) called "V2".
   		 </p>
   		 
   		 
 		 <p>
-           Adding V2 modify existing BFDV sequence to include V2. 
+           Let's modify the existing BFDV reference ssequence to include V2. 
            First, lets examine all of the features defined in the entire CRESS-GLUE 
            project.
 
@@ -511,8 +538,6 @@
   <code>GLUE> project-mode 
   OK
   Mode path: /project/cress
-  GLUE> list feature
-  feature             feature-location    
   GLUE> list feature
   +==============+==============+===================================+
   |     name     | parent.name  |            description            |
@@ -545,7 +570,14 @@
   <code>Mode path: /project/cress
   GLUE> create feature v2 "v2 gene"
   OK
-  (1 Feature created)</code></pre>
+  (1 Feature created)
+  
+  GLUE> feature v2 set metatag CODES_AMINO_ACIDS true
+  OK
+  
+  Mode path: /project/cress/
+  GLUE> feature v2 set metatag OWN_CODON_NUMBERING true
+  OK</code></pre>
 
  		 </p>
 
@@ -568,6 +600,11 @@
            [Advantages of the work done - ability to preserve it so it doesn't need to
            be repeated].
   		 </p>
+
+
+
+        <p><img src="./images/parrots-midlevel.png" alt="Parrots" /></p>
+
 
 	   <h3>
 		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>5. Creating an alignment of all BFDV sequences</strong>.
@@ -637,8 +674,7 @@
   
 
 		 <p>
-		   Inspect the alignment.
-
+		   Now let's inspect the resulting alignment:
   <pre>
   <code>GLUE> alignment AL_BFDV show statistics</code></pre>
 
@@ -705,23 +741,36 @@
 	   
 
 		 <h3>
-		   <a id="MapCoverage" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>6. Mapping feature coverage in BFDV sequences</strong>.
+		   <a id="MapCoverage" class="anchor" href="#MapCoverage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>6. Mapping feature coverage in BFDV sequences</strong>.
 		 </h3>
 
 	   
 		 <p>
 		   Now that we have created an alignment of BFDV sequences that is constrained to 
-		   the BFDV reference sequence, we can use this alignment, and features of the 
-		   GLUE framework, to examine feature coverage within individual BFDV sequences.
+		   the BFDV reference sequence, we can use this alignment in combination with GLUE's
+          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/featurePresenceRecorder">'<b>featurePresenceRecorder</b>'</a>       
+		   module to examine feature coverage within individual BFDV sequences.
 		 </p>
 
   <pre>
-  <code>module circoFeaturePresenceRecorder 
+  <code>Mode path: /project/cress
+  GLUE> create module -f modules/genus/circo/circoFeaturePresenceRecorder.xml 
+  OK
+  (1 Module created)
+  Mode path: /project/cress
+  GLUE> module circoFeaturePresenceRecorder
+  OK
+  Mode path: /project/cress/module/circoFeaturePresenceRecorder
   GLUE> record feature-presence AL_BFDV -r -f whole_genome -d</code></pre>
 
+	   
+		 <p>
+		   That's it! The process is captured in 
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleRecordFeaturePresenceBfdv.glue"><b>this file</b></a>,
+		 </p>
 
 	   <h3>
-		 <a id="buildPhylogenies" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>7. Reconstructing phylogenetic trees</strong>.
+		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>7. Reconstructing phylogenetic trees</strong>.
 	   </h3>
 	   
 	   <p>
@@ -735,7 +784,7 @@
          
          
          The entire sequence of commands for creating both trees can be found in
-		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>,
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>,
 		 which is in the CRESS-GLUE repo, as follows:
   <pre>
   <code>Mode path: /project/cress
@@ -808,16 +857,39 @@
 		  Clone. fork.  
 		</p>
 
+       <hr>
+
+	   <h3>
+		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
+	   </h3>
+
+		Singer JB, Thomson EC, McLauchlan J, Hughes J, and RJ Gifford
+		<b>(2018)</b>
+		<br>
+		GLUE: A flexible software system for virus sequence data.
+		<br>
+		<i>BMC Bioinformatics</i>
+		<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2459-9" target="_blank">[view]</a> 
+		<br>
+		<br>
+
+        Arvind Varsani, Regnard GL, Bragg R, Hitzeroth II, EP Rybicki
+		<b>(2011)</b>
+		<br>
+		Global genetic diversity and geographical and host-species distribution of beak and feather disease virus isolates.
+		<i>J Gen Virol.</i>  Apr;92(Pt 4):752-67. doi: 10.1099/vir.0.028126-0. Epub 2010 Dec 22. 
+		<a href="https://www.microbiologyresearch.org/content/journal/jgv/10.1099/vir.0.028126-0" target="_blank">[view]</a> 
+		<br>
+		<br>
+
+
+       <hr>
 
 
 	   <h3>
 		 <a id="Related resources" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related resources</strong>
 	   </h3>
  
-
-
-        <p><img src="./images/parrots-footer.png" alt="Parrots" /></p>
-
 
 
 		 <ul>
@@ -833,29 +905,8 @@
 		 </ul>
 
 
-
-	   <h3>
-		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
-	   </h3>
-
-        Arvind Varsani, Regnard GL, Bragg R, Hitzeroth II, EP Rybicki
-		<b>(2011)</b>
-		<br>
-		Global genetic diversity and geographical and host-species distribution of beak and feather disease virus isolates.
-		<i>J Gen Virol.</i>  Apr;92(Pt 4):752-67. doi: 10.1099/vir.0.028126-0. Epub 2010 Dec 22. 
-		<a href="https://www.microbiologyresearch.org/content/journal/jgv/10.1099/vir.0.028126-0" target="_blank">[view]</a> 
-		<br>
-		<br>
-
-		Singer JB, Thomson EC, McLauchlan J, Hughes J, and RJ Gifford
-		<b>(2018)</b>
-		<br>
-		GLUE: A flexible software system for virus sequence data.
-		<br>
-		<i>BMC Bioinformatics</i>
-		<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2459-9" target="_blank">[view]</a> 
-		<br>
-		<br>
+        
+        <p><img src="./images/parrots-footer.png" alt="Parrots" /></p>
 
 
 
