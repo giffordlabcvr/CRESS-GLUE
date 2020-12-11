@@ -1,0 +1,19 @@
+
+  delete module cressPhyloUtility
+  create module -f modules/core/cressPhyloUtility.xml
+
+  # Re-root phylogeny 
+  module cressPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/virus-level/Circo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/virus-level/Circo-Rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/virus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/virus-level/Circo-Cap.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+

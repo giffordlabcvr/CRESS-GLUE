@@ -1,15 +1,7 @@
   delete module raxmlPhylogenyGenerator
-  delete module cressFigTreeAnnotationExporter
-  delete module cressPhyloUtility
-  delete module alignmentColumnsSelectorCircoRep
-  delete module alignmentColumnsSelectorCircoCap
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/cressPhyloUtility.xml
-  create module -f modules/core/cressFigTreeAnnotationExporter.xml
-  create module -f modules/core/cressFeaturePresenceRecorder.xml
-
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
@@ -18,31 +10,3 @@
     generate nucleotide phylogeny AL_BFDV -r REF_Circo_BFDV -f Cap -w "fLocNotes.featureLoc.feature.name = 'Cap' and fLocNotes.ref_nt_coverage_pct >= 70" -o trees/virus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
-
-
-  # Re-root phylogeny 
-  module cressPhyloUtility 
-
-	reroot-phylogeny \
-      --inputFile trees/virus-level/Circo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/virus-level/Circo-Rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/virus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/virus-level/Circo-Cap.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-    exit
-
-
-  # Export annotations
-  module cressFigTreeAnnotationExporter 
-
-    export figtree-annotation AL_BFDV -w "fLocNotes.featureLoc.feature.name = 'Rep'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/virus-level/Circo-root-rep.figtree-annotations.tsv
-    export figtree-annotation AL_BFDV -w "fLocNotes.featureLoc.feature.name = 'Cap'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/virus-level/Circo-root-cap.figtree-annotations.tsv
-
-  exit
-

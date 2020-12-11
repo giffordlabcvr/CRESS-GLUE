@@ -1,16 +1,11 @@
+  
+  delete module raxmlPhylogenyGenerator
 
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/rep/cressPhyloUtility.xml
-  create module -f modules/rep/cressFigTreeAnnotationExporter.xml
-  create module -f modules/rep/cressFeaturePresenceRecorder.xml
-  create module -f modules/genus/circo/alignmentColumnsSelectorCircoRep.xml
-  #create module -f modules/genus/circo/alignmentColumnsSelectorCircoCap.xml
-
   
-  # Create the phylogenies
-  delete module raxmlPhylogenyGenerator
 
+  # Create the phylogenies
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_Circovirus -s alignmentColumnsSelectorCircoRep \
@@ -23,9 +18,11 @@
       
     exit
 
+  delete module cressPhyloUtility
+
+  create module -f modules/rep/cressPhyloUtility.xml
 
   # Re-root phylogeny 
-  delete module cressPhyloUtility
   module cressPhyloUtility 
 
 	reroot-phylogeny \
@@ -40,6 +37,10 @@
 
     exit
 
+
+  delete module cressFigTreeAnnotationExporter
+
+  create module -f modules/rep/cressFigTreeAnnotationExporter.xml
 
   # Export annotations
   module cressFigTreeAnnotationExporter 
