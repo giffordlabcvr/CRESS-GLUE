@@ -75,17 +75,19 @@
 	   <p>
          <b><a target="_blank" href="https://en.wikipedia.org/wiki/Parrot">Psittacine birds</b></a> (parrots and cockatoos) are among the most beautiful and remarkable
          creatures on the planet. Unfortunately, many of these wonderful species are 
-         presently endangered, and conservation efforts have been hampered by the emergence
-         in captive populations of
+         presently endangered, and conservation efforts have been hampered by the emergence of
          <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>.
   	   </p>
 
 	   <p>
          PBFD is caused by a circovirus called <b><u>beak and feather disease virus (BFDV)</u></b>.
          BFDV is a member of genus <i>Circovirus</i>, in the  family <i>Circoviridae</i>. 
-         The circoviruses form part of a broader assemblage of evolutionarily connected
-        <b>CRESS DNA virus</b>.
- 	   </p>
+         The circoviruses form part of a broader assemblage of evolutionarily-related
+         <b>CRESS DNA viruses</b>. Infection is fatal for many birds, and even those that
+         survive may 
+         <a target="_blank" href="https://www.youtube.com/watch?v=ZQEYullGf0o"><b>lose all of their feathers</b></a>.
+             
+  	   </p>
 
 	   <p>
          Genomic approaches have great potential to help control the spread of BFDV.
@@ -674,7 +676,7 @@
 
 	   
 		 <p>
-		   I simply aligned all BFDV sequences then inspected the alignment
+		   I naively aligned all BFDV sequences then inspected the alignment
 		   in the console. Since we had excluded sequences shorter than 200bp when we
 		   downloaded from BFDV sequences GenBank (see above), it was a reasonable guess that any
 		   sequences for which the only aligned segments were drastically shorter than
@@ -709,7 +711,7 @@
 	   
 		 <p>
 		   Now that we have created an alignment of BFDV sequences that is constrained to 
-		   the BFDV reference sequences, we can use this alignment, and features of the 
+		   the BFDV reference sequence, we can use this alignment, and features of the 
 		   GLUE framework, to examine feature coverage within individual BFDV sequences.
 		 </p>
 
@@ -729,31 +731,31 @@
 
 	   <p>
          First, lets build trees for both Cap and Rep by running
-		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>.
-		 Before you attempt this, bear in mind that we are now building a bootstrapped
+		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>,
+		 which is in the CRESS-GLUE repo, as follows:
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> run file glue/genus/circo/exampleCreateBfdvPhylogenies.glue</code></pre>
+
+		 Before you attempt this, bear in mind that we are about to build a bootstrapped,
 		 maximum likelihood tree for thousands of sequences. On my computer it took 
 		 over an hour to build trees for both genes.  
 		 
 	   </p>
 
-  <pre>
-  <code>Mode path: /project/cress
-  GLUE> run file glue/genus/circo/exampleCreateBfdvPhylogenies.glue</code></pre>
-
-        </p>
-        
-        
 	   
 		<p>
 		  To midpoint-root the trees, we will use GLUE's
-		  module. Run the script as follows <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleRerootPhylogeny.glue"><b>this file</b></a>.
+		  module. To apply the module to the two trees we've constructed, run
+		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleRerootPhylogeny.glue"><b>this file</b></a>
+		  as follows:
 
 
   <pre>
   <code>Mode path: /project/cress
   GLUE> run file glue/genus/circo/exampleRerootPhylogeny.glue</code></pre>
 
-         Note that trees could also be midpoint rooted by importing them into anotehr application
+         Note that trees could also be midpoint rooted by importing them into another application
          that offers this functionality. However, it is often convenient to be able to 
          do this within GLUE.
 		</p>
