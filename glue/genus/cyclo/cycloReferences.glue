@@ -1,7 +1,6 @@
   #### Circoviridae    
    
   ### Cyclovirus 
-  create reference REF_Cyclo_MASTER_HuACyV-1    ncbi-refseqs  KJ831064
   create reference REF_Cyclo_BatACyV-10         ncbi-refseqs  KM382270
   create reference REF_Cyclo_FlCyV              ncbi-refseqs  NC_024700
   create reference REF_Cyclo_DfCyV5             ncbi-refseqs  NC_023866
@@ -20,5 +19,5 @@
   create reference REF_Cyclo_DfCyV-4            ncbi-refseqs  NC_023867
   create reference REF_Cyclo_DfCyV-A1           ncbi-refseqs  NC_023886
   create reference REF_Cyclo_CyV-SL-108277      ncbi-refseqs  KJ831064
-  create reference REF_Cyclo_BtRp-CV-POA        ncbi-refseqs  KM382270
+  #create reference REF_Cyclo_BtRp-CV-POA        ncbi-refseqs  KM382270
 

@@ -1,8 +1,4 @@
-  delete module raxmlPhylogenyGenerator
-  delete module cressPhyloUtility
-  delete module alignmentColumnsSelectorCircoRep
-  delete module alignmentColumnsSelectorCircoCap
-  
+
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/rep/cressPhyloUtility.xml
@@ -13,6 +9,8 @@
 
   
   # Create the phylogenies
+  delete module raxmlPhylogenyGenerator
+
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_Circovirus -s alignmentColumnsSelectorCircoRep \
@@ -27,6 +25,7 @@
 
 
   # Re-root phylogeny 
+  delete module cressPhyloUtility
   module cressPhyloUtility 
 
 	reroot-phylogeny \
