@@ -105,7 +105,7 @@
 	   <p>
          To download all BFDV entries in NCBI GenBank, we 
          will use a customised version of GLUE's  module
-         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/ncbiImporter">'<b>NcbiImporter</b>'</a>       
+         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/ncbiImporter">'<b>ncbiImporter</b>'</a>       
          module. Our project-specific configuration of the module can be viewed
 		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b>here</b></a>.
          Viewing the file, you can probably see that it is configured to download sequences
@@ -232,7 +232,7 @@
 
  	   <p>
 
-          Now lets use this module to export the sequence in the 'ncbi-curated-circo-bfdv'
+          Now lets use this module to export the sequences in the 'ncbi-curated-circo-bfdv'
           source. Heres my first attempt:
    
   <pre>
@@ -585,7 +585,7 @@
 
 		   At this point, I should mention that some BFDV sequences are in the opposite
 		   orientation to our chosen BFDV reference. To address this, run
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.glue"><b>this GLUE file </b></a>.
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>.
 		   This will allow us to proceed with directly to the alignment step with all 
 		   sequences in the same orientation. Later in this section,
 		   I'll explain how I created the file.
@@ -730,7 +730,11 @@
 	   </p>
 
 	   <p>
-         First, lets build trees for both Cap and Rep by running
+         First, lets build trees for both Cap and Rep. We are going to use GLUE's
+          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/raxmlPhylogenyGenerator">'<b>raxmlPhylogenyGenerator</b>'</a>       
+         
+         
+         The entire sequence of commands for creating both trees can be found in
 		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>,
 		 which is in the CRESS-GLUE repo, as follows:
   <pre>
@@ -758,17 +762,31 @@
          Note that trees could also be midpoint rooted by importing them into another application
          that offers this functionality. However, it is often convenient to be able to 
          do this within GLUE.
+         
 		</p>
 	 
  	   
 		<p>
-		  Export annotations <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleExportAnnotations.glue"><b>this file</b></a>.
-		</p>
-	 
+		  Export annotations for the trees by running
+		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleExportAnnotations.glue"><b>this file</b></a>,
+		  as follows:
+
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> run file glue/genus/circo/exampleRerootPhylogeny.glue</code></pre>
+
+
+		</p>	 
+  
+  
   
 		<p>
 		  The finished trees with annotations can be found 
 		  <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/trees/virus-level"><b>here</b></a>.
+          One way to view these trees is by using Andrew Rambaut's
+		  <a target="_blank" href="https://github.com/rambaut/figtree/releases"><b>FigTree</b></a>
+		  program.
 		</p>
 
 
@@ -777,18 +795,18 @@
 		  <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Collaboratively developing CRESS-GLUE resources</strong>.
 		</h3>
 
-		  <p>
-			Comparative analysis hampered by laborious data preparation.
-			GLUE is open source software for dealing with the
-			nuts and bolts of comparative sequence analysis.
-			It has been designed to <b>facilitate</b>.
-		   
-		  </p>
-	   
-		  <p>
-			Host projects on GitHub.
-			Clone. fork.  
-		  </p>
+		<p>
+		  Comparative analysis hampered by laborious data preparation.
+		  GLUE is open source software for dealing with the
+		  nuts and bolts of comparative sequence analysis.
+		  It has been designed to <b>facilitate</b>.
+		 
+		</p>
+	 
+		<p>
+		  Host projects on GitHub.
+		  Clone. fork.  
+		</p>
 
 
 
