@@ -1,1 +1,6 @@
-cressFeatures.glue
+  create feature v2 "v2 gene"
+  feature v2
+	set field displayName v2
+	set metatag OWN_CODON_NUMBERING true
+	set metatag CODES_AMINO_ACIDS true
+	exit
