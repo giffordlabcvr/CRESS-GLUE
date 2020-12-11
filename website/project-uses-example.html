@@ -75,13 +75,16 @@
 	   <p>
          <b><a target="_blank" href="https://en.wikipedia.org/wiki/Parrot">Psittacine birds</b></a> (parrots and cockatoos) are among the most beautiful and remarkable
          creatures on the planet. Unfortunately, many of these wonderful species are 
-         presently endangered. 
-         Conservation efforts for have been hampered by
-         the emergence of
-         <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>
-         in captive populations. PBFD is caused by a circovirus called <b>beak and feather disease virus (BFDV)</b>.
+         presently endangered, and conservation efforts have been hampered by the emergence
+         in captive populations of
+         <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>.
+  	   </p>
+
+	   <p>
+         PBFD is caused by a circovirus called <b><u>beak and feather disease virus (BFDV)</u></b>.
          BFDV is a member of genus <i>Circovirus</i>, in the  family <i>Circoviridae</i>. 
-         These viruses are part of the <b>CRESS DNA virus</b> assemblage.
+         The circoviruses form part of a broader assemblage of evolutionarily connected
+        <b>CRESS DNA virus</b>.
  	   </p>
 
 	   <p>
@@ -195,7 +198,7 @@
 	   </p>
  
  	   <p>
- 	     Next, export the sequences to a 'source' directory as follows.
+ 	     Now export the sequences to a 'source' directory as follows.
  	   
 
    <pre>
@@ -203,21 +206,26 @@
    GLUE> export source ncbi-curated-circo-bfdv -p sources/</code></pre>
 
 		  The sequences are now in your local copy of the CRESS-GLUE project, under
-		  './sources/ncbi-curated-circo'. However, they are in XML format - what if 
-		  you want to get your hands on the FASTA?
+		  './sources/ncbi-curated-circo'. However, they are in XML format - not
+		  particularly convenient for human use - so how do we 
+		  get our hands on the FASTA versions of these sequences?
 		</p>
 
  	   <p>
           GLUE is designed to provide as much flexibility as possible with respect 
-          to data-formatting. To export FASTA-formatted sequences from GLUE, use a 
-          FASTA exporter module. You can create one with a default configuration on
-          the GLUE command line, like this:
+          to data-formatting. To export FASTA-formatted sequences from GLUE, use a
+          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/fastaExporter">'<b>fastaExporter</b>'</a>       
+          
+          
+          module. As with many of GLUE's core module types, a
+          version with a default configuration can be created on
+          the GLUE command line using '-t' (template) option:
           
    <pre>
    <code>Mode path: /project/cress
-  GLUE> create module -t fastaExporter 
-  OK
-  (1 Module created)</code></pre>
+   GLUE> create module -t fastaExporter 
+   OK
+   (1 Module created)</code></pre>
 		</p>
 
  	   <p>
@@ -246,11 +254,11 @@
   	   </p>
 
  	   <p>
-          Oops!! Something went wrong - GLUE needs another argument.
+          Oops - something went wrong! - GLUE needs another argument.
   	   </p>
 
  	   <p>
-          Note that the error message prompts me with correct usage of the module,
+          Note that the error message prompts with correct usage of the module,
           and an explanation of the options. In this case, I forgot to tell GLUE what to do
           with the sequences. They can be previewed in the console, or exported to a file.
           Run the module as follows to export the sequences to a file named 'bfdv.fna':
@@ -277,11 +285,16 @@
  	   </p>
  	   
 	   <p>
-          All sequences will have the same taxonomic information (since we're only
-          considering one virus species here).
-          Set the taxonomic data for each sequence in the main 'sequence' table by running
-		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>
-		  as follows:
+          All BFDV sequences obviously have the same taxonomic information.
+          To input the taxonomic data for each sequence in the main 'sequence' table,
+          we can use
+		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
+	      which utilise two GLUE commands: (1) listing all sequences in a particular source;
+	      (ii) 
+	   </p>
+ 	   
+	   <p>
+		  The script is run as follows:
 
   <pre>
   <code>Mode path: /project/cress
@@ -679,7 +692,7 @@
    GLUE> import alignment -f alignments/tip/</code></pre>
 	   
 		 <p>
-		   There is in reality only one correct alignment.
+		   Since there is in reality only one correct alignment.
 		   However, in some highly-variable regions of viral genomes, the concept 
 		   might not even be that meaningful.
 		 </p>
@@ -757,10 +770,10 @@
 		</h3>
 
 		  <p>
-			The 'philosophy' of GLUE - open source software for dealing with the
-			nuts and bolts of comparative sequence analysis.
-			The aim of this project really is to <b>facilitate</b>.
 			Comparative analysis hampered by laborious data preparation.
+			GLUE is open source software for dealing with the
+			nuts and bolts of comparative sequence analysis.
+			It has been designed to <b>facilitate</b>.
 		   
 		  </p>
 	   
