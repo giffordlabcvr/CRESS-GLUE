@@ -16,8 +16,8 @@
   create reference REF_Cyclo_HuCyV-VS5700009    ncbi-refseqs-cyclo  NC_021568
   create reference REF_Cyclo_DfCyV-2            ncbi-refseqs-cyclo  NC_023869
   create reference REF_Cyclo_CyV-bat            ncbi-refseqs-cyclo  NC_014929
-  create reference REF_Cyclo_DfCyV-4            ncbi-refseqs-cyclo  NC_023867
+  #create reference REF_Cyclo_DfCyV-4            ncbi-refseqs-cyclo  NC_023867
   create reference REF_Cyclo_DfCyV-A1           ncbi-refseqs-cyclo  NC_023886
-  create reference REF_Cyclo_CyV-SL-108277      ncbi-refseqs-cyclo  KJ831064
+  #create reference REF_Cyclo_CyV-SL-108277      ncbi-refseqs-cyclo  KJ831064
   create reference REF_Cyclo_BtRp-CV-POA        ncbi-refseqs-cyclo  KM382270
 

@@ -20,7 +20,7 @@
     exit   
 
   # Add variations
-  run file glue/genus/cyclo/cycloVariations.glue
+  #run file glue/genus/cyclo/cycloVariations.glue
   
   # Import alignments and alignment tree
   run file glue/genus/cyclo/cycloAlignments.glue

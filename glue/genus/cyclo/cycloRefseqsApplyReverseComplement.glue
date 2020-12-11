@@ -1,2 +1,4 @@
   
   # Cycloviruses
+  
+  sequence ncbi-refseqs KJ831064 set field reverse_complement true
