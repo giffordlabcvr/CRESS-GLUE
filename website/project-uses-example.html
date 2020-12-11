@@ -54,15 +54,14 @@
 	   <p>
          If you haven't decided yet whether or not you want to use GLUE, 
          you might find it useful simply to look through this tutorial, as it should
-         provide some insight into the kind of things that can be done with GLUE projects.
+         provide useful insight into the kind of things that can be done with GLUE projects.
  	   </p>
 
 	   <p>
          If you've already committed to using GLUE, you 
-         may find it useful to investigate the 
+         may find it useful to also investigate the 
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/exampleProject"><b>GLUE example project</b></a>
-         which provides a broad introduction to the GLUE framework, in addition to
-         this tutorial.
+         when attempting this tutorial.
  	   </p>
 
 
@@ -80,8 +79,9 @@
          Conservation efforts for have been hampered by
          the emergence of
          <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>
-         in captive populations. PBFD is caused by a <b>CRESS DNA virus</b> belonging to the 
-         family <i>Circoviridae</i>, genus <i>Circovirus</i> called <b>beak and feather disease virus (BFDV)</b>.
+         in captive populations. PBFD is caused by a circovirus called <b>beak and feather disease virus (BFDV)</b>.
+         BFDV is a member of genus <i>Circovirus</i>, in the  family <i>Circoviridae</i>. 
+         These viruses are part of the <b>CRESS DNA virus</b> assemblage.
  	   </p>
 
 	   <p>
@@ -114,7 +114,7 @@
 	   <p>        
          This 'eSearchTerm' is a standard NCBI entrez text query that
          specifies all GenBank entries labelled "beak and feather disease" in the
-         'Organism' field and between 200-2000 nucleotides in length.
+         'Organism' field and between 200-2000 nucleotides (nt) in length.
 
  	   </p>
 
@@ -190,7 +190,8 @@
 
          Since the GenBank database is continually expanding, you may find
          that you obtain more sequences than this running the same 
-         command at a later date.
+         command at a later date. Note that next time we run the module, only 
+         the missing sequences will be downloaded. 
 	   </p>
  
  	   <p>
@@ -208,7 +209,7 @@
 
  	   <p>
           GLUE is designed to provide as much flexibility as possible with respect 
-          to data-formatting. To exporting FASTA-formatted sequences from GLUE, use a 
+          to data-formatting. To export FASTA-formatted sequences from GLUE, use a 
           FASTA exporter module. You can create one with a default configuration on
           the GLUE command line, like this:
           
@@ -572,8 +573,12 @@
 
   <pre>
   <code>Mode path: /project/cress
-  GLUE> create alignment AL_BFDV -r REF_Circo_BFDV 
-  alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"</code></pre>
+  GLUE> create alignment AL_BFDV -r REF_Circo_BFDV
+  OK
+  Mode path: /project/cress
+  GLUE> alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"
+  OK</code></pre>
+  
 		 </p>
 
 
@@ -602,8 +607,6 @@
 
 		 <p>
 		   Or alternatively, list alignment members, along with their associated data, like this:
-		 </p>
-
 
   <pre>
   <code>GLUE> alignment AL_BFDV 
@@ -619,7 +622,8 @@
   | AB182571            | BFDV          | RRP-JP12P                          |
   | AB182572            | BFDV          | BTP-SA11P                          |</code></pre>
   
-     
+ 		 </p>
+
 		 <p>
 		   (only the first few results are shown here)
 		 </p>
@@ -628,21 +632,39 @@
 
 		   Some BFDV sequences were in the opposite orientation than the reference.
 		   First, run 
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.js"><b>this GLUE file </b></a>
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.glue"><b>this GLUE file </b></a>
 		   to fix this - then I'll explain how I created the file.
-		 </p>
-
 
 
   <pre>
   <code>run file glue/genus/circo/exampleApplyReverseComplement.glue</code></pre>
 
 
+		 </p>
+
 	   
 		 <p>
 		   How did I figure out which ones? There are lots of ways to do this 
-		   using GLUE. In this case I used a fairly simple approach, but one that seemed
-		   to work well. I simply aligned all BFDV sequences then expect the alignment.
+		   using GLUE. In this case I used a fairly unsophisticated approach 
+		   (but one that seemed to work quite well).
+		 </p>
+
+	   
+		 <p>
+		   I simply aligned all BFDV sequences then inspected the alignment
+		   in the console. Since we had excluded sequences shorter than 200bp when we
+		   downloaded from BFDV sequences GenBank (see above), it was a reasonable guess that any
+		   sequences for which the only aligned segments were drastically shorter than
+		   this length were in reverse orientation relative to the reference.
+		 </p>
+
+	   
+		 <p>
+		   
+		   Additionally, 
+		   since orientation of sequences is usually consistent within a study, it
+		   wasn't particularly difficult to create a list of sequences suspected to 
+		   require reverse complementation. 
 		 </p>
 
 	   
