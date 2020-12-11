@@ -15,7 +15,7 @@
 	<gbFeature key="source">
 	
 		<gbQualifier name="isolate">
-			<propertyPopulator property="isolate.isolate"/>
+			<propertyPopulator property="isolate.isolate_id"/>
 		</gbQualifier>
 		<gbQualifier name="country">
 			<propertyPopulator property="isolate.country"/>

@@ -37,7 +37,7 @@
 
 	<figTreeAnnotation>
 		<annotationName>isolate</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.isolate')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.isolate_id')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>

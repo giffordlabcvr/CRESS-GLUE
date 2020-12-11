@@ -23,7 +23,7 @@
   create custom-table isolate
 
   table isolate
-    create field isolate VARCHAR 100
+    create field isolate_id VARCHAR 100
     create field host_sci_name VARCHAR 100
     create field place_sampled VARCHAR 100
     create field country VARCHAR 200
