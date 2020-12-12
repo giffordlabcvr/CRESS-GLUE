@@ -23,8 +23,8 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "name", eveObj.sequenceID]);
 		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
 		glue.command(["set", "field", "family", "Circoviridae"]);
-		glue.command(["set", "field", "clade", "NK"]);
 		glue.command(["set", "field", "genus", "Circovirus"]);
+		glue.command(["set", "field", "clade", "NK"]);
 	});
 
 });
