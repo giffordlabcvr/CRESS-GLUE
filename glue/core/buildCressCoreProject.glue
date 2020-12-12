@@ -25,10 +25,10 @@
   run file glue/core/cressAlignmentTree.glue
 
   # Record feature coverage in alignments
-  #run file glue/core/cressRecordFeaturePresence.glue
+  run file glue/core/cressRecordFeaturePresence.glue
 
   # Create phylogenies
-  #run file glue/core/cressCreateRootPhylogenies.glue
+  run file glue/core/cressCreateRootPhylogenies.glue
 
   # Validate
   validate

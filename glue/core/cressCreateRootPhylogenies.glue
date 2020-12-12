@@ -1,51 +1,19 @@
 
   # Clean up from any previous run of this file
-  delete alignment AL_UNC_CRESS_C
- 
-  delete module fastaAlignmentExporter
-  delete module cressTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
-  delete module cressTreeAlignmentImporterNucs
   delete module cressPhyloUtility
   delete module cressFigTreeAnnotationExporter
-  delete module alignmentColumnsSelectorRepRoot
   
   # Create all the modules we need
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/cressTreeAlignmentImporterNucs.xml
   create module -f modules/core/cressPhyloUtility.xml
   create module -f modules/core/cressFigTreeAnnotationExporter.xml
-  create module -f modules/core/cressFeaturePresenceRecorder.xml
-  create module -f modules/core/alignmentColumnsSelectorRepRoot.xml
   create module -t raxmlPhylogenyGenerator
 
-
-  # Export the recursively populated root gene alignments 
-  module fastaAlignmentExporter
- 	export AL_CRESS_MASTER -r REF_Circo_MASTER_PCV-1 -f Rep --recursive -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/cress-rep.aln.fna
-	exit
-
-  # Re-import the recursively populated root alignment into the project
-  module cressTreeAlignmentImporterNucs import AL_UNC_CRESS_ROOT_Rep -f alignments/tree/cress-rep.aln.fna
-
-  # Derive constrained root alignment from unconstrained
-  create alignment AL_TREE_CRESS_ROOT_Rep -r REF_Circo_MASTER_PCV-1
-  alignment AL_TREE_CRESS_ROOT_Rep
-	derive segments AL_UNC_CRESS_ROOT_Rep -a --mergeStrategy OVERWRITE
-	exit
-	
-  # Record feature presence
-  module cressFeaturePresenceRecorder
-    record feature-presence AL_TREE_CRESS_ROOT_Rep --featureName whole_genome --descendentFeatures
-    exit
-    
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_TREE_CRESS_ROOT_Rep -s alignmentColumnsSelectorRepRoot \
-      -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/cress-root-rep.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_CRESS_MASTER -r REF_Circo_MASTER_PCV-1 -f Rep -w "sequence.source.name = 'ncbi-refseqs'" -o trees/main-root/cress-root-rep.tre  NEWICK_BOOTSTRAPS
 
     exit
 
@@ -62,7 +30,7 @@
 
   # Export annotations
   module cressFigTreeAnnotationExporter 
-    export figtree-annotation AL_TREE_CRESS_ROOT_Rep -f trees/main-root/cress-root-rep.figtree-annotations.tsv
+    export figtree-annotation AL_CRESS_MASTER -f trees/main-root/cress-root-rep.figtree-annotations.tsv
   exit
 
 
