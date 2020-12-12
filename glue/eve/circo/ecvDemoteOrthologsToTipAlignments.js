@@ -3,25 +3,21 @@
 // the reference sequences.
 // ECV sequences are linked to reference sequences via the locus ID
 
-//   multi-delete alignment -w "name like 'AL_ECV%'"
-
-
-
 // Preset variables
-var refconDataPath = "tabular/eve/ECV-refseqs-side-data.tsv";
-var rootAlignment = 'AL_Hepadnaviridae';
+var refconDataPath = "tabular/eve/ecv-refseqs-side-data.tsv";
+var rootAlignment = 'AL_Circovirus';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
-var ECVRefseqResultMap = {};
-get_refcon_data(ECVRefseqResultMap, refconDataPath);
-//glue.log("INFO", "RESULT WAS ", ECVRefseqResultMap);
+var ecvRefseqResultMap = {};
+get_refcon_data(ecvRefseqResultMap, refconDataPath);
+//glue.log("INFO", "RESULT WAS ", ecvRefseqResultMap);
 
 
 // Load DIGS hit data from tabular file 
 var loadResult;
-glue.inMode("module/hepadnaviridaeTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ECV-side-data.tsv"]));
-	 //glue.log("INFO", "load result was:", loadResult);
+glue.inMode("module/cressTabularUtility", function() {
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ecv-side-data.tsv"]));
+	glue.log("INFO", "load result was:", loadResult);
 });
 
 // Iterate on DIGS data, adding sequences to alignments as appropriate
@@ -31,7 +27,7 @@ _.each(loadResult, function(eveObj) {
 	var sequenceID = eveObj.sequenceID;
 	var locus_name = eveObj.locus_name;
 	var locus_numeric_id = eveObj.locus_numeric_id;
-	var locusObj = ECVRefseqResultMap[locus_name];
+	var locusObj = ecvRefseqResultMap[locus_name];
 	
 
 	if (locus_numeric_id != 'NK') { // Skip elements that haven't been assigned to a locus
@@ -94,7 +90,7 @@ function get_refcon_data(resultMap, refconDataPath) {
 
   // Load EVE reference data from tab file 
   var loadResult;
-  glue.inMode("module/hepadnaviridaeTabularUtility", function() {
+  glue.inMode("module/cressTabularUtility", function() {
 	  loadResult = glue.tableToObjects(glue.command(["load-tabular", refconDataPath]));
 	  glue.log("INFO", "load result was:", loadResult);
   });
