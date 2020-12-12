@@ -1,7 +1,9 @@
-
-  delete source fasta-refseqs-ecv
-  delete source fasta-curated-ecv
-
+  delete source fasta-digs-circo-ecv
+  multi-delete  alignment -w "name like '%AL_UNC_ECV_Circo%'"
+  multi-delete reference -w "name like '%REF_ECV_Circo%'"
+  delete source fasta-refseqs-circo-ecv
+  delete source fasta-digs-circo-ecv
+  
   # Import eve sequences
   import source sources/fasta-refseqs-circo-ecv/
   import source sources/fasta-digs-circo-ecv/
@@ -25,8 +27,9 @@
   run file glue/eve/circo/ecvAlignmentsCirco.glue
 
   # Import alignment tree
-  #run file glue/eve/circo/ecvConstrainedAlignmentTreeCirco.glue
-
+  run file glue/eve/circo/ecvConstrainedAlignmentTreeCirco.glue
+  run script glue/eve/circo/ecvDemoteOrthologsToTipAlignments.js
+  
   # Validate
   validate
 

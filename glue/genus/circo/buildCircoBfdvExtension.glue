@@ -25,10 +25,12 @@
   # Compute feature coverage for BFDV
   run file glue/genus/circo/exampleRecordFeaturePresenceBfdv.glue
   
-  # Reconstruct and export annotated, midpoint rooted phylogenies
-  run file glue/genus/circo/exampleCreateBfdvPhylogenies.glue
-
-  
+  # Reconstruct trees, midpoint root, and export annotated, midpoint rooted phylogenies
+  # By default this line is commented out because tree-building is a time-consuming step
+  #run file glue/genus/circo/exampleCreateBfdvPhylogenies.glue  
+  run file glue/genus/circo/exampleExportAnnotations.glue  
+  run file glue/genus/circo/exampleRerootPhylogeny.glue   
+ 
   # Validate
   validate
 

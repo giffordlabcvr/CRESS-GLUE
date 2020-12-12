@@ -4,7 +4,7 @@
 // ECV sequences are linked to reference sequences via the locus ID
 
 // Preset variables
-var refconDataPath = "tabular/eve/ecv-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/ecv-circo-refseqs-side-data.tsv";
 var rootAlignment = 'AL_Circovirus';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
