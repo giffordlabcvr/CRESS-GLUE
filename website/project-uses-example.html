@@ -615,8 +615,8 @@
 
 	   
 		 <p>
-		   A pairwise, reference guided approach is an efficient and reliable way to 
-		   align a large set of sequences derived from a single virus species
+		   A pairwise, reference-guided approach is an efficient and reliable way to 
+		   align a large set of sequences derived from a single virus species.
 		   The GLUE framework allows this approach to be used in a codon-aware way, and
 		   without data loss.
 		 </p>
@@ -640,7 +640,7 @@
 	   
 		 <p>
 		   To create an alignment, first, exit the reference sequence to project level (assuming you are still 
-		   in this mode path):
+		   in this mode path), as follows:
 		 </p>
 
    <pre>
@@ -652,12 +652,14 @@
 	   
 		 <p>
 		   Before we perform the alignment construction, we need to first create 
-		   a <b>constrained alignment</b> object and specify which sequences belong in it:
+		   a <b>constrained alignment</b> object and specify which sequences belong in it,
+		   as shown here:
 
   <pre>
   <code>Mode path: /project/cress
   GLUE> create alignment AL_BFDV -r REF_Circo_BFDV
   OK
+  
   Mode path: /project/cress
   GLUE> alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"
   OK</code></pre>

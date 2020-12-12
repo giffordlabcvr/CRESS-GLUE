@@ -8,13 +8,13 @@
 
 
       <!-- ## CIRCOVIRUS ## -->  	  
-      <!--  <primaryAccession>NC_001792</primaryAccession> Porcine circovirus 1 = EXCLUDED because its the MASTER reference include in core -->	  
+      <!--  <primaryAccession>NC_001792</primaryAccession> Porcine circovirus 1 = EXCLUDED because its the MASTER reference include in core -->      
       <primaryAccession>NC_005148</primaryAccession> <!-- Porcine circovirus 2 -->	  
       <primaryAccession>NC_031753</primaryAccession> <!-- Porcine circovirus 3 -->     	  
       <primaryAccession>NC_020904</primaryAccession> <!-- Canine circovirus 1  -->  
       <primaryAccession>NC_023885</primaryAccession> <!-- Mink circovirus -->	  
       <primaryAccession>NC_028045</primaryAccession> <!-- Mexican free-tailed bat circovirus -->
-      <primaryAccession>NC_001944</primaryAccession> <!-- Beak and feather disease virus --> <!-- Canary circovirus -->
+      <primaryAccession>NC_001944</primaryAccession> <!-- Beak and feather disease virus -->
       <primaryAccession>NC_003410</primaryAccession> <!-- Starling circovirus -->	  
       <primaryAccession>NC_008033</primaryAccession> <!-- Raven circovirus -->
       <primaryAccession>NC_008375</primaryAccession> <!-- Gull circovirus -->
