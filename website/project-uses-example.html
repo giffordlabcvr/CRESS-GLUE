@@ -260,7 +260,7 @@
   	   </p>
 
  	   <p>
-          Note that the <b>error message</b> prompts with correct usage of the module,
+          Note that the <b>error message</b> prompts with the correct usage of the module,
           and an explanation of the options. In this case, I forgot to tell GLUE what to do
           with the sequences. They can be previewed in the console, or exported to a file.
           Run the module as follows to export the sequences to a file named 'bfdv.fna':
@@ -679,9 +679,20 @@
   
 
 		 <p>
-		   Now let's inspect the resulting alignment:
+		   Now let's inspect the resulting alignment. One way is to use the 
+		   'show statistics' command. This will produce a table as shown below
+		   (note that only the first few table rows are shown here):
   <pre>
-  <code>GLUE> alignment AL_BFDV show statistics</code></pre>
+  <code>GLUE> alignment AL_BFDV show statistics
+  +=========================+=====================+============================+=========================+==========+==========+=============+=============+
+  |  sequence.source.name   | sequence.sequenceID | referenceNtCoveragePercent | memberNtCoveragePercent | minRefNt | maxRefNt | minMemberNt | maxMemberNt |
+  +=========================+=====================+============================+=========================+==========+==========+=============+=============+
+  | ncbi-curated-circo-bfdv | AB182568            | 22.277972905168088         | 99.32885906040268       | 1402     | 1845     | 3           | 446         |
+  | ncbi-curated-circo-bfdv | AB182569            | 22.277972905168088         | 99.32885906040268       | 1402     | 1845     | 3           | 446         |
+  | ncbi-curated-circo-bfdv | AB182570            | 22.37832413447065          | 99.77628635346755       | 1400     | 1845     | 1           | 446         |
+  | ncbi-curated-circo-bfdv | AB182571            | 22.37832413447065          | 99.77628635346755       | 1400     | 1845     | 1           | 446         |
+  | ncbi-curated-circo-bfdv | AB182572            | 22.37832413447065          | 99.77628635346755       | 1400     | 1845     | 1           | 446         |</code></pre>
+  
 
 		 </p>
 
