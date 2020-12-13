@@ -16,7 +16,7 @@ get_refcon_data(ecvRefseqResultMap, refconDataPath);
 // Load DIGS hit data from tabular file 
 var loadResult;
 glue.inMode("module/cressTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ecv-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ecv-circo-side-data.tsv"]));
 	glue.log("INFO", "load result was:", loadResult);
 });
 
