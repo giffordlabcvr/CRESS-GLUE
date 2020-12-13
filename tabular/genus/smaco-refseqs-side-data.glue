@@ -1,0 +1,51 @@
+sequenceID	name	full_name	family	genus	clade	host range	isolation_source
+MF669476	CBSV	Cattle blood-associated circovirus-like virus 	Smacoviridae	Porprismacovirus	Smacovirus	Unknown	Unknown
+NC_030123	Bovine-SCV-3	Bovine faeces associated smacovirus 3	Smacoviridae	Bovismacovirus	Bovismacovirus	Unknown	Unknown
+NC_039054	Bovine-SCV	Circoviridae bovine stool/BK/KOR/2011	Smacoviridae	Bovismacovirus	Bovismacovirus	Unknown	Unknown
+NC_039055	Odonata-CV-21	Odonata-associated circular virus 21	Smacoviridae	Bovismacovirus	Bovismacovirus	Unknown	Unknown
+NC_030128	Bovine-SCV-4	Bovine faeces associated smacovirus 4	Smacoviridae	Cosmacovirus	Cosmacovirus	Unknown	Unknown
+NC_039056	Odonata-CV-5	Odonata-associated circular virus 5	Smacoviridae	Dragsmacovirus	Dragsmacovirus	Unknown	Unknown
+NC_030125	Bovine-SCV-5	Bovine faeces associated smacovirus 5	Smacoviridae	Drosmacovirus	Drosmacovirus	Unknown	Unknown
+NC_039057	Camel-SCV-1	Camel associated drosmacovirus 1	Smacoviridae	Drosmacovirus	Drosmacovirus	Unknown	Unknown
+NC_039058	Camel-SCV-2	Camel associated drosmacovirus 2	Smacoviridae	Drosmacovirus	Drosmacovirus	Unknown	Unknown
+NC_030124	Bovine-SCV-1	Bovine faeces associated smacovirus 1	Smacoviridae	Huchismacovirus	Huchismacovirus	Unknown	Unknown
+NC_030129	Bovine-SCV-6	Bovine faeces associated smacovirus 6	Smacoviridae	Huchismacovirus	Huchismacovirus	Unknown	Unknown
+NC_039059	Chicken-HuchiSCV-1	Chicken associated huchismacovirus 1	Smacoviridae	Huchismacovirus	Huchismacovirus	Unknown	Unknown
+NC_039060	Chicken-HuchiSCV-2	Chicken associated huchismacovirus 2	Smacoviridae	Huchismacovirus	Huchismacovirus	Unknown	Unknown
+NC_033275	Chicken-SCV	Chicken associated smacovirus	Smacoviridae	Huchismacovirus	Huchismacovirus	Unknown	Unknown
+NC_039061	HuchiSCV-1	Human associated huchismacovirus 1	Smacoviridae	Huchismacovirus	Huchismacovirus	Unknown	Unknown
+NC_039062	HuchiSCV-2	Human associated huchismacovirus 2	Smacoviridae	Huchismacovirus	Huchismacovirus	Unknown	Unknown
+NC_039063	HuchiSCV-3	Human associated huchismacovirus 3	Smacoviridae	Huchismacovirus	Huchismacovirus	Unknown	Unknown
+NC_026252	Human-SCV-1	Human smacovirus 1	Smacoviridae	Huchismacovirus	Huchismacovirus	Unknown	Unknown
+NC_040359	Alces-SCV	Alces alces faeces associated smacovirus MP78	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_030119	Bovine-SCV-2	Bovine faeces associated smacovirus 2	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_039064	Camel-PoSCV-1	Camel associated porprismacovirus 1	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_039065	Camel-PoSCV-2	Camel associated porprismacovirus 2	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_039066	Camel-PoSCV-3	Camel associated porprismacovirus 3	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_039067	Camel-PoSCV-4	Camel associated porprismacovirus 4	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_039068	Chimp-PoSCV-1	Chimpanzee associated porprismacovirus 1	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_039069	Chimp-PoSCV-2	Chimpanzee associated porprismacovirus 2	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_040336	Fly-SCV--1	Fly associated circular virus 4	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_026319	Gorilla-SCV--1	Gorilla associated porprismacovirus 1	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_026317	Howler-SCV--1	Howler monkey associated porprismacovirus 1	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_026318	Human-PoSCV-2	Human associated porprismacovirus 2	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_039070	Human-SCV-2	Human feces smacovirus 2	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_035474	L-BrV-RC	Human feces smacovirus 3	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_026320	Lemur-PoSCV-1	Lemur associated porprismacovirus 1	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_024119	PoSCV	PoSCV Kor J481	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_030126	PoSCV-10	Porcine associated porprismacovirus 10	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_021204	PoSCV-3	Porcine associated porprismacovirus 3	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_039071	PoSCV-4	Porcine associated porprismacovirus 4	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_024772	PoSCV-5	Porcine associated porprismacovirus 5	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_024776	PoSCV-6	Porcine associated porprismacovirus 6	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_024773	PoSCV-7	Porcine associated porprismacovirus 7	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_024775	PoSCV-8	Porcine associated porprismacovirus 8	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_024774	PoSCV-9	Porcine associated porprismacovirus 9	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_030127	PoaPSV	Porcine stool-associated circular virus	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_021203	PoaPSV-2	Porcine stool-associated circular virus 2	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_027777	RaaPSV-1	Rat associated porprismacovirus 1	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_030121	OvaPSV-1	Sheep faeces associated smacovirus 1	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_030122	OvaPSV-2	Sheep faeces associated smacovirus 2	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_030120	OvaPSV-3	Sheep faeces associated smacovirus 3	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_023887	TaPSV	Turkey associated porprismacovirus 1	Smacoviridae	Porprismacovirus	Porprismacovirus	Unknown	Unknown
+NC_017916	GER2011	Pig stool associated circular ssDNA virus GER2011	Smacoviridae	Unclassified	Unclassified	Unknown	Unknown
