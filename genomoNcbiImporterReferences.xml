@@ -1,0 +1,50 @@
+<!-- Gemycircularvirus genus reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-gemycircular</sourceName>
+
+
+    <specificPrimaryAccessions>
+
+
+      <!-- ## Gemycircularvirus ### -->  
+
+	  <primaryAccession>GQ365709</primaryAccession>
+	  <primaryAccession>KF268025</primaryAccession>
+	  <primaryAccession>KF268026</primaryAccession>
+	  <primaryAccession>KF268027</primaryAccession>
+	  <primaryAccession>KF268028</primaryAccession>
+	  <primaryAccession>KM598382</primaryAccession>
+	  <primaryAccession>KM598383</primaryAccession>
+	  <primaryAccession>KM598384</primaryAccession>
+	  <primaryAccession>HQ335086</primaryAccession>
+	  <primaryAccession>JN704610</primaryAccession>
+	  <primaryAccession>JQ412057</primaryAccession>
+	  <primaryAccession>JX185428</primaryAccession>
+	  <primaryAccession>JX185429</primaryAccession>
+	  <primaryAccession>JX185430</primaryAccession>
+	  <primaryAccession>KF371630</primaryAccession>
+	  <primaryAccession>KF371631</primaryAccession>
+	  <primaryAccession>KF371632</primaryAccession>
+	  <primaryAccession>KF371633</primaryAccession>
+	  <primaryAccession>KF371634</primaryAccession>
+	  <primaryAccession>KF371635</primaryAccession>
+	  <primaryAccession>KF371636</primaryAccession>
+	  <primaryAccession>KF371637</primaryAccession>
+	  <primaryAccession>KF371638</primaryAccession>
+	  <primaryAccession>KF371639</primaryAccession>
+	  <primaryAccession>KF371640</primaryAccession>
+	  <primaryAccession>KF371641</primaryAccession>
+	  <primaryAccession>KF371642</primaryAccession>
+	  <primaryAccession>KF371643</primaryAccession>
+	  <primaryAccession>KF413620</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+
+
+
+
+
