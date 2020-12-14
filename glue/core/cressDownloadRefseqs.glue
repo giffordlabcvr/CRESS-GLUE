@@ -4,6 +4,4 @@ create module -f modules/core/cressNcbiImporterMasterReferences.xml ncbiImporter
 # Download NCBI sequences 
 module ncbiImporterCress import
 
-export source ncbi-refseqs-circo
-
- 
+export source ncbi-refseqs
