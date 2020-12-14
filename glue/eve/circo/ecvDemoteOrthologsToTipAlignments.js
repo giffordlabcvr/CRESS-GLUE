@@ -45,6 +45,7 @@ _.each(loadResult, function(eveObj) {
 		
 		var parentAlignmentName;
 				
+	    var virus_genus = 'Circo';
 		parentAlignmentName = "AL_" + virus_genus;
 
 		glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);

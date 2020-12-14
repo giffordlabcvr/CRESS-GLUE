@@ -83,7 +83,7 @@
   	   </p>
 
 	   <p>
-         PBFD is caused by a circovirus called <b><u>beak and feather disease virus (BFDV)</u></b>.
+         PBFD is caused by a <b>circovirus</b> called <b><u>beak and feather disease virus (BFDV)</u></b>.
          BFDV is a member of genus <i>Circovirus</i>, in the  family <i>Circoviridae</i>. 
          The circoviruses form part of a broader assemblage of evolutionarily-related
          <b>CRESS DNA viruses</b>. 
@@ -387,7 +387,7 @@
 
   <pre>
   <code>Mode path: /project/cress
-  GLUE> list custom-table-row isolate id isolate country -w "country = 'Japan'"
+  GLUE> list custom-table-row isolate id isolate_id country -w "country = 'Japan'"
   +==========+============+=========+
   |    id    |  isolate   | country |
   +==========+============+=========+
@@ -448,7 +448,7 @@
   GLUE> console set next-cmd-output-file bfdv-data.tsv
   OK
   Mode path: /project/cress
-  GLUE> list custom-table-row isolate id isolate country host_sci_name collection_year</code></pre>		
+  GLUE> list custom-table-row isolate id isolate_id country host_sci_name collection_year</code></pre>		
 
 		 </p>
 		 <p>
@@ -605,13 +605,47 @@
   		 
 		 <p>
 
-           Now lets associate this feature with a location in the BFDV genome:
+           Now lets associate this feature with a location in the BFDV genome.
+           The first step is to create the feature location in the BFDV reference sequence:
 
   <pre>
   <code>Mode path: /project/cress
-  GLUE> reference REF_Circo_BFDV 
+  GLUE> reference REF_Circo_BFDV add feature-location v2
   OK
-  Mode path: /project/cress/reference/REF_Circo_BFDV</code></pre>	
+  (1 FeatureLocation created)</code></pre>	
+  		 </p>
+
+  		 
+		 <p>
+
+           Now we need to associate the feature location with the appropriate
+           region of the BFDV genome, as follows:
+
+ 
+  <pre>
+  <code>GLUE> reference REF_Circo_BFDV feature-location v2 add segment 550 1026
+  OK
+  (1 FeatureSegment created)</code></pre>	
+  		 </p>
+
+		 <p>
+           The coordinates (550-1026) are derived from the GenBank
+           entry for our BFDV reference sequence.
+  		 </p>
+
+		 <p>
+
+           As always, the same result as that shown above
+           can be accomplished by running a 
+           
+		   <a  target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleSetFeatureLocationsBfdv.glue"><b>file that contains the commands</b></a>,        
+           
+           
+           as follows:
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> run file glue/genus/circo/exampleSetFeatureLocationsBfdv.glue</code></pre>	
   		 </p>
 
 
@@ -622,15 +656,26 @@
 		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>5. Creating an alignment of all BFDV sequences</strong>.
 	   </h3>
 
+
 		 <p>
-           Now we can really get to work! In the next few steps we will use everything
-           we've created so far to start doing some proper comparative analysis.
+           Now we have put together the fundamental data items we can begin working
+           properly on some comparative analysis.
+           In the next few steps we will use everything
+           we've created so far to start investigating the genetic diversity of BFDV
+           in relation to it's biology.
   		 </p>
 
 	   
 		 <p>
-		   A pairwise, reference-guided approach is an efficient and reliable way to 
-		   align a large set of sequences derived from a single virus species.
+		   Most comparative studies of virus genomes require the creation of a
+		   <a href="https://www.ebi.ac.uk/Tools/msa/"><b>multiple sequence alignment</b></a>
+		   containing the sequences under investigation.
+  		 </p>
+
+	   
+		 <p>
+		   Large set of sequences derived from a single virus species can be efficiently
+		   aligned to one another using a pairwise, reference-guided approach.
 		   The GLUE framework allows this approach to be used in a codon-aware way, and
 		   without data loss.
 		 </p>
@@ -639,7 +684,9 @@
 
 		   At this point, I should mention that some BFDV sequences are in the opposite
 		   orientation to our chosen BFDV reference. To address this, run
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>.
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>
+		   which will effectively tell the project which sequences need to be 
+		   reverse complemented before they are aligned.
 		   This will allow us to proceed directly to the alignment step with all 
 		   sequences in the same orientation. Later in this section,
 		   I'll explain how I created the file.
@@ -717,9 +764,9 @@
   <code>GLUE> alignment AL_BFDV 
   OK
   Mode path: /project/cress/alignment/AL_BFDV
-  GLUE> list member sequence.sequenceID sequence.name sequence.isolate.isolate
+  GLUE> list member sequence.sequenceID sequence.name sequence.isolate.isolate_id
   +=====================+===============+====================================+
-  | sequence.sequenceID | sequence.name |      sequence.isolate.isolate      |
+  | sequence.sequenceID | sequence.name |      sequence.isolate.isolate_id   |
   +=====================+===============+====================================+
   | AB182568            | BFDV          | YCC-IN1P                           |
   | AB182569            | BFDV          | YCC-IN2P                           |
