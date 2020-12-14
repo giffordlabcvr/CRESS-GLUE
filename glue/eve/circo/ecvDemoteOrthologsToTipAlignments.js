@@ -54,7 +54,7 @@ _.each(loadResult, function(eveObj) {
 		if (alignmentExists == undefined) { // If not create the alignment
 			
 			// Create the alignment
-			var refseqName = "REF_ECV-" + locus_name;
+			var refseqName = "REF_" + locus_name;
 			
 			glue.log("INFO", "CREATING ALIGNMENT WITH CONSTRAINING REFERENCE: ", refseqName);
 			glue.inMode("/alignment/"+parentAlignmentName, function() {

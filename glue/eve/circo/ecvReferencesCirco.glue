@@ -1,18 +1,19 @@
   ## Circovirus ECV  
-  create reference REF_ECV_Circo.1-Passeriformes     fasta-refseqs-circo-ecv ecv-circo.1-passeriformes-con
-  create reference REF_ECV_Circo.2-Psittaciformes    fasta-refseqs-circo-ecv ecv-circo.2-psittaciformes-con
-  create reference REF_ECV_Circo.4-Tinamou           fasta-refseqs-circo-ecv ecv-circo.4-tinamou-con
-  create reference REF_ECV_Circo.5-Gallirallus       fasta-refseqs-circo-ecv ecv-circo.5-gallirallus
+  create reference REF_ecv-circo.1-passeriformes     fasta-refseqs-circo-ecv ecv-circo.1-passeriformes-con
+  create reference REF_ecv-circo.2-psittaciformes    fasta-refseqs-circo-ecv ecv-circo.2-psittaciformes-con
+  create reference REF_ecv-circo.4-tinamou           fasta-refseqs-circo-ecv ecv-circo.4-tinamou-con
+  create reference REF_ecv-circo.5-gallirallus       fasta-refseqs-circo-ecv ecv-circo.5-gallirallus
 
-  create reference REF_ECV_Circo.51-Carnivora        fasta-refseqs-circo-ecv ecv-circo.51-carnivore-con
-  create reference REF_ECV_Circo.52-Chrysochloris    fasta-refseqs-circo-ecv ecv-circo.52-chrysochloris-con
-  create reference REF_ECV_Circo.53-Mus_caroli       fasta-refseqs-circo-ecv ecv-circo.53-mus_caroli
-  create reference REF_ECV_Circo.57-Galeopterus      fasta-refseqs-circo-ecv ecv-circo.57-galeopterus-con
-  create reference REF_ECV_Circo.92-Monodelphis      fasta-refseqs-circo-ecv ecv-circo.92-monodelphis
+  create reference REF_ecv-circo.51-carnivora        fasta-refseqs-circo-ecv ecv-circo.51-carnivore-con
+  create reference REF_ecv-circo.52-chrysochloris    fasta-refseqs-circo-ecv ecv-circo.52-chrysochloris-con
+  create reference REF_ecv-circo.53-mus_caroli       fasta-refseqs-circo-ecv ecv-circo.53-mus_caroli
+  create reference REF_ecv-circo.57-galeopterus      fasta-refseqs-circo-ecv ecv-circo.57-galeopterus-con
+  create reference REF_ecv-circo.92-monodelphis      fasta-refseqs-circo-ecv ecv-circo.92-monodelphis
  
-  create reference REF_ECV_Circo.105-Serpentes       fasta-refseqs-circo-ecv ecv-circo.105-serpentes-con
+  create reference REF_ecv-circo.105-serpentes       fasta-refseqs-circo-ecv ecv-circo.105-serpentes-con
   
-  #create reference REF_ECV_Circo.6-Cyprinus         fasta-refseqs-circo-ecv ecv-circo.6-cyprinus-con 
-  #create reference REF_ECV_Circo.7-Actinopterygii   fasta-refseqs-circo-ecv ecv-circo.7-actinopterygii-con
-  #create reference REF_ECV_Circo.8-Kryptolebias     fasta-refseqs-circo-ecv ecv-circo.8-kryptolebias-con
-  #create reference REF_ECV_Circo.10-Acanthochromis  fasta-refseqs-circo-ecv ecv-circo.10-acanthochromis-con
+  #create reference REF_ecv-circo.6-cyprinus         fasta-refseqs-circo-ecv ecv-circo.6-cyprinus-con 
+  #create reference REF_ecv-circo.7-actinopterygii   fasta-refseqs-circo-ecv ecv-circo.7-actinopterygii-con
+  #create reference REF_ecv-circo.8-kryptolebias     fasta-refseqs-circo-ecv ecv-circo.8-kryptolebias-con
+  #create reference REF_ecv-circo.10-acanthochromis  fasta-refseqs-circo-ecv ecv-circo.10-acanthochromis-con
+  #create reference REF_ecv-circo.240-anguilla       fasta-refseqs-circo-ecv ecv-circo.240-anguilla-con
