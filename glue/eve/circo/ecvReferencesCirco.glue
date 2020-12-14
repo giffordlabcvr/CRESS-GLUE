@@ -17,3 +17,4 @@
   #create reference REF_ecv-circo.8-kryptolebias     fasta-refseqs-circo-ecv ecv-circo.8-kryptolebias-con
   #create reference REF_ecv-circo.10-acanthochromis  fasta-refseqs-circo-ecv ecv-circo.10-acanthochromis-con
   create reference REF_ecv-circo.240-anguilla        fasta-refseqs-circo-ecv ecv-circo.240-anguilla
+  #create reference REF_ecv-circo.10-acanthochromis  fasta-refseqs-circo-ecv ecv-circo.10-acanthochromis-con
