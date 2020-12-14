@@ -41,11 +41,10 @@ _.each(loadResult, function(eveObj) {
 
 		glue.log("INFO", "Adding sequence:", eveObj.sequenceID);
 		glue.log("INFO", "to alignment", alignmentName);
-		glue.log("INFO", "genus:", locusObj.virus_genus);
 		
 		var parentAlignmentName;
 				
-	    var virus_genus = 'Circo';
+	    var virus_genus = 'Circovirus';
 		parentAlignmentName = "AL_" + virus_genus;
 
 		glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);
