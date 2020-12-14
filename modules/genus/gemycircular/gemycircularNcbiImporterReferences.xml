@@ -8,50 +8,33 @@
     <specificPrimaryAccessions>
 
       <!-- ## Gemycircularvirus ### -->  
+	  <primaryAccession>JQ412057</primaryAccession>
+	  <primaryAccession>JX185429</primaryAccession>
 	  <primaryAccession>GQ365709</primaryAccession>
 	  <primaryAccession>KF268025</primaryAccession>
 	  <primaryAccession>KF268026</primaryAccession>
 	  <primaryAccession>KF268027</primaryAccession>
-	  <primaryAccession>KF268028</primaryAccession>
-	  <primaryAccession>KM598382</primaryAccession>
+	  <primaryAccession>KF268028</primaryAccession>	  
+	  <primaryAccession>KM598382</primaryAccession>	  
 	  <primaryAccession>KM598383</primaryAccession>
-	  <primaryAccession>KM598384</primaryAccession>
-	  <primaryAccession>HQ335086</primaryAccession>
-	  <primaryAccession>JN704610</primaryAccession>
-	  <primaryAccession>JQ412057</primaryAccession>
-	  <primaryAccession>JX185428</primaryAccession>
-	  <primaryAccession>JX185429</primaryAccession>
-	  <primaryAccession>JX185430</primaryAccession>
-	  <primaryAccession>KF371630</primaryAccession>
-	  <primaryAccession>KF371631</primaryAccession>
-	  <primaryAccession>KF371632</primaryAccession>
-	  <primaryAccession>KF371633</primaryAccession>
-	  <primaryAccession>KF371634</primaryAccession>
-	  <primaryAccession>KF371635</primaryAccession>
+	  <primaryAccession>KM598384</primaryAccession>	  
+	  <primaryAccession>JN704610</primaryAccession>	  
+	  <primaryAccession>KF371635</primaryAccession>  
 	  <primaryAccession>KF371636</primaryAccession>
 	  <primaryAccession>KF371637</primaryAccession>
-	  <primaryAccession>KF371638</primaryAccession>
+	  <primaryAccession>KF371638</primaryAccession>	  
 	  <primaryAccession>KF371639</primaryAccession>
 	  <primaryAccession>KF371640</primaryAccession>
-	  
-	  <primaryAccession>KF371641</primaryAccession> <!-- Faecal-associated gemycircularvirus 1c -->
-	  
-	  <primaryAccession>KF371642</primaryAccession> <!-- Faecal-associated gemycircularvirus 1b -->
-	  
-	  <primaryAccession>KF371643</primaryAccession> <!-- Blackbird associated gemycircularvirus 1 -->
-	  
+	  <primaryAccession>KF371641</primaryAccession> <!-- Faecal-associated gemycircularvirus 1c -->	  
+	  <primaryAccession>KF371642</primaryAccession> <!-- Faecal-associated gemycircularvirus 1b -->	  
+	  <primaryAccession>KF371643</primaryAccession> <!-- Blackbird associated gemycircularvirus 1 -->	  
 	  <primaryAccession>KF413620</primaryAccession> <!-- Hypericum japonicum associated circular DNA virus -->
-
 	  <primaryAccession>KJ547636</primaryAccession> <!-- Sewage-associated gemycircularvirus-6  -->
-
 	  <primaryAccession>KJ641719</primaryAccession>
 
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>
-
-
-
 
 

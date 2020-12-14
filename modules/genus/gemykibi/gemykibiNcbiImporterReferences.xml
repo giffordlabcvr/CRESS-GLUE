@@ -4,18 +4,17 @@
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sourceName>ncbi-refseqs-gemykibivirus</sourceName>
 
-
     <specificPrimaryAccessions>
 	  <primaryAccession>KJ547645</primaryAccession>
 	  <primaryAccession>KT862255</primaryAccession>
-
-	  
 	  <primaryAccession>LK931483</primaryAccession>
 	  <primaryAccession>LK931484</primaryAccession>
 	  <primaryAccession>LK931485</primaryAccession>
-
-
-  </specificPrimaryAccessions>  
+	  <primaryAccession>JX185430</primaryAccession>
+	  <primaryAccession>KF371633</primaryAccession>
+	  <primaryAccession>KF371634</primaryAccession>
+  </specificPrimaryAccessions>
+   
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>
 
