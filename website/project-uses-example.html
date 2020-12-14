@@ -40,16 +40,15 @@
          and comprises the following steps:
 
 		 <ol>
-		   <li> <b>Downloading</b> selected sequences from GenBank.</li>
-		   <li> <b>Extracting</b> isolate data from GenBank files.</li>
+		   <li> <b>Downloading</b> selected virus sequences from GenBank.</li>
+		   <li> <b>Linking</b> sequences with other data and <b>extracting</b> isolate data from GenBank files.</li>
 		   <li> <b>Filtering</b> sequence data to obtain a valid analysis set.</li>
 		   <li> <b>Defining virus reference sequences</b> and associating them with annotations.</li>
-		   <li> <b>Constructing an alignment</b> using a codon-aware method.</li>
+		   <li> <b>Constructing multiple sequences alignments</b> using a codon-aware method.</li>
 		   <li> <b>Mapping feature coverage</b> of sequence members within an alignment.</li>
 		   <li> Reconstructing annotated, midpoint-rooted <b>phylogenetic trees</b>.</li>
 		   <li> Using GLUE projects as a basis for <b>collaborative research and resource development</b>.</li>
 		 </ol>
-
 
  	   </p>
  	   
@@ -160,8 +159,9 @@
  
 	   <p>
          Now create the module using it's
-		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoviridaeNcbiImporterBfdv.xml"><b> configuration file</b></a>,
-         which is contained in the CRESS-GLUE project, as shown here:
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoNcbiImporterBfdv.xml"><b>configuration file</b></a>
+		 (which is contained in the CRESS-GLUE project)
+		 as shown here:
 
   <pre>
   <code>Mode path: /project/cress/
@@ -195,8 +195,10 @@
 
          Since the GenBank database is continually expanding, you may find
          that you obtain more sequences than this when running the same 
-         command at a later date. Note that next time the module is run, only 
-         the missing sequences will be downloaded. 
+         command at a later date.
+         Note that - since the module has been designed to make things efficient -
+         only sequences that are missing from the existing 
+         source will be downloaded.  
 	   </p>
  
  	   <p>
@@ -207,19 +209,24 @@
    <code>Mode path: /project/cress
    GLUE> export source ncbi-curated-circo-bfdv -p sources/</code></pre>
 
-		  The sequences are now in your local copy of the CRESS-GLUE project, under
-		  './sources/ncbi-curated-circo'. However, they are in XML format - not
+		  The		  
+		  <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master/sources/ncbi-curated-circo-bfdv"><b>sequences</b></a>
+		  should now be in your local copy of the CRESS-GLUE project
+		  (under 'sources/ncbi-curated-circo').
+		  However, they are in GenBank's native XML format - not
 		  particularly convenient for human use - so how do we 
-		  get our hands on the FASTA versions of these sequences?
+		  get our hands on the <b>FASTA</b> versions of these sequences?
 		</p>
 
  	   <p>
-          GLUE is designed to provide as much flexibility as possible with respect 
+          GLUE has been designed to provide as much flexibility as possible with respect 
           to data-formatting. To export FASTA-formatted sequences from GLUE, use a
           <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/fastaExporter">'<b>fastaExporter</b>'</a>       
-          
-          
-          module. As with many of GLUE's core module types, a
+          module.		
+       </p>
+
+ 	   <p>
+          As with many of GLUE's core module types, a
           version with a default configuration can be created on
           the GLUE command line using the '-t' (template) option:
           
@@ -301,21 +308,47 @@
  	   </p>
  	   
 	   <p>
-          All BFDV sequences obviously have the same taxonomic information.
-          To input the taxonomic data for each sequence in the main 'sequence' table,
-          we can use
+          All BFDV sequences have identical taxonomic information down to species level.
+          An efficient way to input the taxonomic data for each sequence in the main 'sequence' table,
+          is to use 
 		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
-	      which utilise two GLUE commands: (1) listing all sequences in a particular source;
-	      (ii) setting values in sequence table fields.
+	      The script comprises a single loop, and 'wraps' two GLUE commands.
+	      The first command lists all the sequences in our BFDV-specific source directory.
+	      Next we step through this list of sequences, and use GLUE's 'set' command to
+	      setting the appropriate values in taxonomic data fields in the corresponding 
+	      table row.
 	   </p>
  	   
 	   <p>
-		  The script is run as follows:
+		  Run the script as follows:
 
   <pre>
   <code>Mode path: /project/cress
   GLUE> run script glue/genus/circo/exampleLoadSequenceDataBdfv.js</code></pre>
- 	   
+ 
+ 
+ 
+		 <p>
+
+           Inspect data in the sequence table via the command line:
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> list sequence sequenceID name full_name family genus clade
+  +============+===============+================+==================+==============+
+  | sequenceID |     name      |     family     |      genus       |    clade     |
+  +============+===============+================+==================+==============+
+  | AB182568   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
+  | AB182569   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
+  | AB182570   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
+  | AB182571   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
+  | AB182572   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |</code></pre>
+
+  		 </p>
+
+
+
+	   
 	   <p>
           Link each new BFDV sequence to the isolate table using
           <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
@@ -345,25 +378,6 @@
   GLUE> run script glue/genus/circo/exampleLoadIsolateDataBdfv.js</code></pre>
 
  	   </p>
-
-
-		 <p>
-
-           Inspect data in the sequence table via the command line:
-
-  <pre>
-  <code>Mode path: /project/cress
-  GLUE> list sequence sequenceID name full_name family genus clade
-  +============+===============+================+==================+==============+
-  | sequenceID |     name      |     family     |      genus       |    clade     |
-  +============+===============+================+==================+==============+
-  | AB182568   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
-  | AB182569   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
-  | AB182570   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
-  | AB182571   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |
-  | AB182572   | BFDV          | Circoviridae   | Circovirus       | Avian-1      |</code></pre>
-
-  		 </p>
 
 
 		 <p>
@@ -404,8 +418,9 @@
 
 		 <p>
            Investigating the data in the sequence table reveals that some of the 
-           BFDV sequences are not associated with isolate data. This means that our
-           genbankPopulator module didn't find the information in the XML file for that 
+           BFDV sequences are not associated with isolate data. This means that our            
+           <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/genbankXmlPopulator"><b>genbankXmlPopulator</b></a>         
+           module didn't find the information in the XML file for that 
            sequence. Such inconsistent annotation of virus entries in GenBank is 
            fairly commonplace, due to a lack of standards.
   		 </p>
@@ -442,7 +457,7 @@
 
 		 <p>
            Use       
-		   <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleImportCuratedSideData.js"><strong>this script</strong></a>
+		   <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleImportBfdvCorrectedSideData.js"><strong>this script</strong></a>
 		   to upload the refined data.
 		 </p>
 
@@ -470,9 +485,11 @@
 	   
 	   
 		 <p>
-		   However, in a project focussed specifically on BFDV, we may want to annotate this 
-		   specific reference more richly - incorporating everything that is known about
-		   the virus genome.
+		   However, in a project focussed specifically on BFDV, we may want to annotate
+		   the BFDV more richly than it is presently annotated within the 'circovirus'
+		   component of CRESS-GLUE.
+		   In fact, it makes sense to incorporate everything that is known about
+		   the BFDV genome.
 		 </p>
 
 	   
@@ -597,18 +614,6 @@
   Mode path: /project/cress/reference/REF_Circo_BFDV</code></pre>	
   		 </p>
 
-		 <p>
-
-           Now we can really get to work! In the next few steps we will use everything
-           we've created so far to start doing some proper comparative analysis.
-  		 </p>
-
-		 <p>
-          [Advantages of the work done - ability to preserve it so it doesn't need to
-           be repeated].
-  		 </p>
-
-
 
         <p><img src="./images/parrots-midlevel1.png" alt="Parrots" /></p>
 
@@ -616,6 +621,11 @@
 	   <h3>
 		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>5. Creating an alignment of all BFDV sequences</strong>.
 	   </h3>
+
+		 <p>
+           Now we can really get to work! In the next few steps we will use everything
+           we've created so far to start doing some proper comparative analysis.
+  		 </p>
 
 	   
 		 <p>
@@ -802,13 +812,20 @@
 	   </h3>
 	   
 	   <p>
-         In the final step in this tutorial, we will create a set of midpoint-rooted
-         tree for each of the two main genes in the BFDV genome.
+         In the final step in this tutorial, we will use the data we have collated in 
+         this tutorial to reconstruct bootstrapped,
+         midpoint-rooted, and annotated trees for each of the two main genes in the
+         BFDV genome (Cap and Rep).
 	   </p>
 
 	   <p>
-         First, lets build trees for both Cap and Rep. We are going to use GLUE's
-          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/raxmlPhylogenyGenerator">'<b>raxmlPhylogenyGenerator</b>'</a>       
+         We will use
+         
+		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3998144/">'<b>RAxML</b>'</a>
+         
+         to construct trees, via GLUE's
+		 <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/raxmlPhylogenyGenerator">'<b>raxmlPhylogenyGenerator</b>'</a>
+		 module.     
          
          
          The entire sequence of commands for creating both trees can be found in
@@ -851,7 +868,7 @@
 
   <pre>
   <code>Mode path: /project/cress
-  GLUE> run file glue/genus/circo/exampleRerootPhylogeny.glue</code></pre>
+  GLUE> run file glue/genus/circo/exampleExportAnnotations.glue</code></pre>
 
 
 		</p>	 

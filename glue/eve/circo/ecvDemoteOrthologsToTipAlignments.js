@@ -36,9 +36,6 @@ _.each(loadResult, function(eveObj) {
 		glue.log("INFO", "Locus ID", locus_name);
 		glue.log("INFO", "Locus numeric ID", locus_numeric_id);
 	
-		// Get the taxonomy 
-		var virus_genus = locusObj.virus_genus;
-
 		// Does an alignment exist for this locus ID
         var alignmentName = "AL_ECV-" + locus_name;
 
@@ -47,37 +44,31 @@ _.each(loadResult, function(eveObj) {
 		glue.log("INFO", "genus:", locusObj.virus_genus);
 		
 		var parentAlignmentName;
-		if (virus_genus == 'NK') {	// Skip references that havent been assigned to a genus			
-
-		}
-		else {
 				
-			parentAlignmentName = "AL_" + virus_genus;
+		parentAlignmentName = "AL_" + virus_genus;
 
-			glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);
+		glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);
 
-			var alignmentExists = does_alignment_exist(alignmentName);
-		
-			if (alignmentExists == undefined) { // If not create the alignment
-				
-				// Create the alignment
-				var refseqName = "REF_ECV-" + locus_name;
-				
-				glue.log("INFO", "CREATING ALIGNMENT WITH CONSTRAINING REFERENCE: ", refseqName);
-				glue.inMode("/alignment/"+parentAlignmentName, function() {
-					glue.command(["extract", "child", alignmentName, "-r", refseqName]);
-				});
-						
-			}	
-
-			// Add the sequence to the alignment
-			glue.inMode("/alignment/"+parentAlignmentName, function() {			
-				glue.log("INFO", "ADDING sequence: ", sequenceID);
-				glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+sequenceID+"'"]);
-			});
+		var alignmentExists = does_alignment_exist(alignmentName);
+	
+		if (alignmentExists == undefined) { // If not create the alignment
 			
-		}
-		
+			// Create the alignment
+			var refseqName = "REF_ECV-" + locus_name;
+			
+			glue.log("INFO", "CREATING ALIGNMENT WITH CONSTRAINING REFERENCE: ", refseqName);
+			glue.inMode("/alignment/"+parentAlignmentName, function() {
+				glue.command(["extract", "child", alignmentName, "-r", refseqName]);
+			});
+					
+		}	
+
+		// Add the sequence to the alignment
+		glue.inMode("/alignment/"+parentAlignmentName, function() {			
+			glue.log("INFO", "ADDING sequence: ", sequenceID);
+			glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+sequenceID+"'"]);
+		});
+	
 	}
 
 });
