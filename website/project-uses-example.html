@@ -311,7 +311,7 @@
           All BFDV sequences have identical taxonomic information down to species level.
           An efficient way to input the taxonomic data for each sequence in the main 'sequence' table,
           is to use 
-		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
+		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBfdv.js"><b>this script</b></a>.
 	      The script comprises a single loop, and 'wraps' two GLUE commands.
 	      The first command lists all the sequences in our BFDV-specific source directory.
 	      Next we step through this list of sequences, and use GLUE's 'set' command to
@@ -351,7 +351,7 @@
 	   
 	   <p>
           Link each new BFDV sequence to the isolate table using
-          <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
+          <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBfdv.js"><b>this script</b></a>.
   <pre>
   <code>Mode path: /project/cress
   GLUE> run script glue/genus/circo/exampleLoadIsolateDataBfdv.js</code></pre>
@@ -375,7 +375,7 @@
   
   <pre>
   <code>Mode path: /project/cress
-  GLUE> run script glue/genus/circo/exampleLoadIsolateDataBdfv.js</code></pre>
+  GLUE> run script glue/genus/circo/exampleLoadIsolateDataBfdv.js</code></pre>
 
  	   </p>
 
@@ -782,14 +782,15 @@
 
 	   
 		 <p>
-		   How did I figure out which ones? There are lots of ways to do this 
+		   So - how did I figure out which sequence needed to be reverse-complemented?
+		   There are lots of ways to do this 
 		   using GLUE. In this case I used a fairly unsophisticated approach 
-		   (but one that seemed to work quite well).
+		   - but one that seemed to work quite well.
 		 </p>
 
 	   
 		 <p>
-		   I naively aligned all BFDV sequences then inspected the alignment
+		   First, I naively aligned all BFDV sequences then inspected the alignment
 		   in the console. Since we had excluded sequences shorter than 200bp when we
 		   downloaded from BFDV sequences GenBank (see above), it was a reasonable guess that any
 		   sequences for which the only aligned segments were drastically shorter than
@@ -955,6 +956,16 @@
 		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
 	   </h3>
 
+        Varsani A, Regnard GL, Bragg R, Hitzeroth II, EP Rybicki
+		<b>(2011)</b>
+		<br>
+		Global genetic diversity and geographical and host-species distribution of beak and feather disease virus isolates.
+		<i>J Gen Virol.</i>  Apr;92(Pt 4):752-67. doi: 10.1099/vir.0.028126-0. Epub 2010 Dec 22. 
+		<a href="https://www.microbiologyresearch.org/content/journal/jgv/10.1099/vir.0.028126-0" target="_blank">[view]</a> 
+		<br>
+		<br>
+
+
 		Singer JB, Thomson EC, McLauchlan J, Hughes J, and RJ Gifford
 		<b>(2018)</b>
 		<br>
@@ -964,16 +975,6 @@
 		<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2459-9" target="_blank">[view]</a> 
 		<br>
 		<br>
-
-        Arvind Varsani, Regnard GL, Bragg R, Hitzeroth II, EP Rybicki
-		<b>(2011)</b>
-		<br>
-		Global genetic diversity and geographical and host-species distribution of beak and feather disease virus isolates.
-		<i>J Gen Virol.</i>  Apr;92(Pt 4):752-67. doi: 10.1099/vir.0.028126-0. Epub 2010 Dec 22. 
-		<a href="https://www.microbiologyresearch.org/content/journal/jgv/10.1099/vir.0.028126-0" target="_blank">[view]</a> 
-		<br>
-		<br>
-
 
        <hr>
 
