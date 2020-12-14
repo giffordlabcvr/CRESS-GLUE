@@ -57,14 +57,15 @@
 	   <p>
          If you haven't decided yet whether or not you want to use GLUE, 
          you might find it useful simply to look through this tutorial, as it should
-         provide useful insight into the kind of things that can be done with GLUE projects.
+         provide some useful insight into what GLUE offers and the kind of things that
+         can be done with GLUE projects.
  	   </p>
 
 	   <p>
          If you've already committed to using GLUE, you 
-         may find it useful to also investigate the 
+         may find it useful to also explore the 
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/exampleProject"><b>GLUE example project</b></a>
-         when attempting this tutorial.
+         when following this tutorial.
  	   </p>
 
 
@@ -86,11 +87,7 @@
          PBFD is caused by a circovirus called <b><u>beak and feather disease virus (BFDV)</u></b>.
          BFDV is a member of genus <i>Circovirus</i>, in the  family <i>Circoviridae</i>. 
          The circoviruses form part of a broader assemblage of evolutionarily-related
-         <b>CRESS DNA viruses</b>. BFDV infection is fatal for many birds, and even those that
-         survive may 
-         <a target="_blank" href="https://www.youtube.com/watch?v=ZQEYullGf0o"><b>lose all of their feathers</b></a>.
-             
-  	   </p>
+         <b>CRESS DNA viruses</b>. 
 
 	   <p>
          Genomic approaches have great potential to help control the spread of BFDV.
@@ -572,7 +569,7 @@
 
   		 
 		 <p>
-           First let's create the feature, as follows:
+           First let's create a protein-coding genome feature called V2, as follows:
   <pre>
   <code>Mode path: /project/cress
   GLUE> create feature v2 "v2 gene"
@@ -786,11 +783,19 @@
   Mode path: /project/cress/module/circoFeaturePresenceRecorder
   GLUE> record feature-presence AL_BFDV -r -f whole_genome -d</code></pre>
 
+
 	   
 		 <p>
-		  The process is captured in 
-		  <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleRecordFeaturePresenceBfdv.glue"><b>this file</b></a>,
+		   This can also be accomplished by running
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleRecordFeaturePresenceBfdv.glue"><b>this file</b></a>,
+		 which contains the commands shown above, as follows:
 		 </p>
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> run file glue/genus/circo/exampleRecordFeaturePresenceBfdv.glue 
+  OK
+</code></pre>
 
 	   <h3>
 		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>7. Reconstructing phylogenetic trees</strong>.
