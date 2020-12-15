@@ -17,6 +17,10 @@
   # Reverse complement sequences
   run file glue/genus/circo/exampleApplyReverseComplement.glue
 
+  # Add the "V2" feature to BFDV
+  run file glue/genus/circoexampleDefineBfdvFeatures.glue
+  run file glue/genus/circoexampleSetFeatureLocationsBfdv.glue
+  
   # Create alignments
   create alignment AL_BFDV -r REF_Circo_BFDV 
   alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-circo-bfdv'"
