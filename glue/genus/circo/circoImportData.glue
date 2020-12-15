@@ -4,7 +4,6 @@
   create module -f modules/core/cressSideDataImporter.xml
   create module -f modules/core/cressGenbankXmlPopulator.xml
 
-
   # Create links to isolate table
   run script glue/genus/circo/loadIsolateDataCirco.js
 

@@ -1,18 +1,18 @@
  
   alignment AL_CRESS_MASTER
   
-    add member -w "source.name = 'fasta-refseqs-ecv'"
-    add member -w "source.name = 'fasta-curated-ecv'" 	
+    add member -w "source.name = 'fasta-digs-circo-ecv'"
+    add member -w "source.name = 'fasta-refseqs-circo-ecv'" 	
  
-	demote member AL_Circoviridae -w "sequence.family = 'Circoviridae' and sequence.source.name = 'fasta-refseqs-ecv'"
-	demote member AL_Circoviridae -w "sequence.family = 'Circoviridae' and sequence.source.name = 'fasta-curated-ecv'" 	
+	demote member AL_Circoviridae -w "sequence.family = 'Circoviridae' and sequence.source.name = 'fasta-digs-circo-ecv'"
+	demote member AL_Circoviridae -w "sequence.family = 'Circoviridae' and sequence.source.name = 'fasta-refseqs-circo-ecv'" 	
     exit
 
 
   alignment AL_Circoviridae 
   
-	demote member AL_Circovirus -w "sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-refseqs-ecv'"
-	demote member AL_Circovirus -w "sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-curated-ecv'" 
+	demote member AL_Circovirus -w "sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-digs-circo-ecv'"
+	demote member AL_Circovirus -w "sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-refseqs-circo-ecv'" 
  
     exit
 

@@ -1,0 +1,11 @@
+  # Import locus information for individual eve loci
+  run script glue/eve/circo/loadLocusData1.js
+  run script glue/eve/circo/loadLocusData2.js
+
+  # Link EVE references to EVE reference/consensus table
+  run script glue/eve/circo/loadRefConData1.js
+
+  # Import eve reference sequence data
+  module cressSideDataImporter 
+    populate -f tabular/eve/ecv-circo-refseqs-side-data.tsv
+    exit
