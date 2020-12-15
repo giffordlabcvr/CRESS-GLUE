@@ -46,6 +46,7 @@
 		   <li> <b>Defining virus reference sequences</b> and associating them with annotations.</li>
 		   <li> <b>Constructing multiple sequences alignments</b> using a codon-aware method.</li>
 		   <li> <b>Mapping feature coverage</b> of sequence members within an alignment.</li>
+		   <li> <b>Examining genetic variation</b> in protein-coding genes.</li>
 		   <li> Reconstructing annotated, midpoint-rooted <b>phylogenetic trees</b>.</li>
 		   <li> Using GLUE projects as a basis for <b>collaborative research and resource development</b>.</li>
 		 </ol>
@@ -441,16 +442,19 @@
 
   <pre>
   <code>Mode path: /project/cress
-
   GLUE> console set cmd-output-file-format tab 
   OK
+  
   Mode path: /project/cress
   GLUE> console set next-cmd-output-file bfdv-data.tsv
   OK
+  
   Mode path: /project/cress
-  GLUE> list custom-table-row isolate id isolate_id country host_sci_name collection_year</code></pre>		
-
+  GLUE> list custom-table-row isolate id isolate_id country host_sci_name collection_year
+  OK</code></pre>
+  
 		 </p>
+		 
 		 <p>
            Show format for updating data - (template).
 		 </p>
@@ -809,16 +813,33 @@
 	   
 		 <p>
 		   The alignment can be exported using a
-		   <a target="blank" href="">fastaAlignmentExporter</a> module.
-		   Refining the alignment - may want to manually adjust and re-import.
-		   Note, the structure of the alignments directory - refer to alignment tree.
-		   BFDV is a 'tip' alignment'.
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/fastaAlignmentExporter"><b>fastaAlignmentExporter</b></a> module,
+		   as shown here:
 		 </p>
 
-   <pre>
-   <code>Mode path: /project/cress/
-   GLUE> import alignment -f alignments/tip/</code></pre>
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> create module -t fastaAlignmentExporter 
+  OK
+  (1 Module created)
+  Mode path: /project/cress
+  GLUE> module fastaAlignmentExporter 
+  OK
+  Mode path: /project/cress/module/fastaAlignmentExporter
+  GLUE> export AL_BFDV -r REF_Circo_BFDV -f v2 -a -e -o v2.aln.fna
+  OK</code></pre>
+	  
 	   
+		 <p>
+		   The entire alignment can be exported, or the reference sequence can be used 
+		   to export specific alignment sections.
+		   In the example shown above I've exported the alignment section 
+		   corresponding to the v2 gene to a file called 'v2.aln.fna'.
+		   The '-e' option tells GLUE to exclude any sequences that have no coverage 
+		   in the v2 gene. 
+		 </p>
+
 
 		 <h3>
 		   <a id="MapCoverage" class="anchor" href="#MapCoverage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>6. Mapping feature coverage in BFDV sequences</strong>.
@@ -853,11 +874,46 @@
   <pre>
   <code>Mode path: /project/cress
   GLUE> run file glue/genus/circo/exampleRecordFeaturePresenceBfdv.glue 
-  OK
-</code></pre>
+  OK</code></pre>
+
+
+
 
 	   <h3>
-		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>7. Reconstructing phylogenetic trees</strong>.
+		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>9. Examining genetic variation</strong>.
+	   </h3>
+	   
+
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> alignment AL_BFDV amino-acid frequency -r REF_Circo_BFDV -f Rep -l 100 105
+  +=========+=======+===========+============+=====================+
+  | feature | codon | aminoAcid | numMembers |     pctMembers      |
+  +=========+=======+===========+============+=====================+
+  | Rep     | 100   | C         | 940        | 99.89373007438894   |
+  | Rep     | 100   | W         | 1          | 0.10626992561105207 |
+  | Rep     | 101   | A         | 1          | 0.10649627263045794 |
+  | Rep     | 101   | I         | 1          | 0.10649627263045794 |
+  | Rep     | 101   | R         | 1          | 0.10649627263045794 |
+  | Rep     | 101   | S         | 935        | 99.57401490947817   |
+  | Rep     | 101   | T         | 1          | 0.10649627263045794 |
+  | Rep     | 102   | K         | 940        | 99.78768577494692   |
+  | Rep     | 102   | R         | 2          | 0.21231422505307856 |
+  | Rep     | 103   | D         | 15         | 1.5940488841657812  |
+  | Rep     | 103   | E         | 925        | 98.29968119022317   |
+  | Rep     | 103   | R         | 1          | 0.10626992561105207 |
+  | Rep     | 104   | G         | 944        | 100.0               |
+  | Rep     | 105   | D         | 941        | 99.6822033898305    |
+  | Rep     | 105   | E         | 1          | 0.1059322033898305  |
+  | Rep     | 105   | N         | 1          | 0.1059322033898305  |
+  | Rep     | 105   | R         | 1          | 0.1059322033898305  |
+  +=========+=======+===========+============+=====================+</code></pre>
+
+
+
+	   <h3>
+		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>8. Reconstructing phylogenetic trees</strong>.
 	   </h3>
 	   
 	   <p>
@@ -941,7 +997,7 @@
 		</p>
 
 		<h3>
-		  <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>8. Collaboratively developing CRESS-GLUE resources</strong>.
+		  <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>9. Collaboratively developing CRESS-GLUE resources</strong>.
 		</h3>
 
 		<p>
@@ -994,25 +1050,6 @@
 		<br>
 
        <hr>
-
-
-	   <h3>
-		 <a id="Related resources" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related resources</strong>
-	   </h3>
- 
-
-
-	   <ul>
-		 <li> <b>Parrots and parrot conservation</b>:
-		 <a target="_blank" href="https://www.nationalgeographic.com/animals/birds/group/parrots/">Parrots @ National Geographic</a>;
-		 <a target="_blank" href="https://www.parrots.org/">World Parrot Trust</a>;
-		 <a target="_blank" href="https://theparrotsocietyuk.org/site/index.php/conservation/parrot-related-articles-on-conservation/">The Parrot Society UK</a>;
-		 </li>
-		 <li> <b>Comparative phylogenetic analysis of viruses</b>:
-		 </li>
-		 <li> <b>Introduction to the console</b>:
-		 </li>
-	   </ul>
 
 
 		<br>
