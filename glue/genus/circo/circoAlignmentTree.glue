@@ -4,7 +4,6 @@
     add member -w "source.name = 'ncbi-refseqs-circo'"
  
 	demote member AL_Circoviridae -w "sequence.family = 'Circoviridae' and sequence.source.name = 'ncbi-refseqs-circo'"
-	demote member AL_Circoviridae -w "sequence.family = 'Circoviridae' and sequence.source.name = 'fasta-curated-ecv'" 	
     exit
 
 

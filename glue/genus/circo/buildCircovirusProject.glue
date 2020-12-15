@@ -32,7 +32,7 @@
   run file glue/genus/circo/circoRecordFeaturePresence.glue
 
   # Create phylogenies
-  #run file glue/genus/circo/circoCreateGenusLevelPhylogenies.glue
+  run file glue/genus/circo/circoCreateGenusLevelPhylogenies.glue
 
   # Validate
   validate
