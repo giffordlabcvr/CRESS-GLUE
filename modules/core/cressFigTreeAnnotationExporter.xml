@@ -19,7 +19,12 @@
 		<annotationName>genus</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.genus')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
-	
+
+	<figTreeAnnotation>
+		<annotationName>family</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.family')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
 	<figTreeAnnotation>
 		<annotationName>name</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.name')}</valueFreemarkerTemplate>
