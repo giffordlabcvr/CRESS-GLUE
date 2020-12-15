@@ -1,12 +1,16 @@
+  #~# Add cyclovirus sequences to root-level alignment
  
+  alignment AL_CRESS_MASTER
+  
+    add member -w "source.name = 'ncbi-refseqs-cyclo'"
+	demote member AL_Circoviridae -w "sequence.source.name = 'ncbi-refseqs-cyclo'"
+    exit
 
-  #~# Add circovirus species to genus-level alignment
 
+  #~# Add cyclovirus sequences to genus-level alignment
   alignment AL_Circoviridae 
-
-	demote member AL_Circovirus -w "sequence.genus = 'Circovirus' and sequence.source.name = 'ncbi-refseqs-circo'"
-
-  exit
+	demote member AL_Cyclovirus -w "sequence.genus = 'Cyclovirus' and sequence.source.name = 'ncbi-refseqs-cyclo'"
+    exit
 
 
 
