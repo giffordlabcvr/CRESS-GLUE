@@ -1,8 +1,14 @@
 taxon	sequenceID	pubmed_id	length	genus	name	full_name	clade	isolate	host_sci_name	sample_date	country
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/JN857329	JN857329	22345464	1578	CRESS-4	batCV-Sc703	Circoviridae batCV-SC703	Unclassified	-	-	-	-
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/JQ412057	JQ412057	22465471	2220	Gemycircular	C-aGmycV	Cassava associated gemycircularvirus 1	Unclassified	-	-	-	-
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/JX185428	JX185428	22915694	2208	Gemyduguivirus	D-aGmydgV	Dragonfly-associated circular virus 3	Unclassified	-	-	-	-
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/JX185429	JX185429	22915694	2236	Gemygorvirus	D-aGmygV	Dragonfly-associated circular virus 2	Unclassified	-	-	-	-
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/KF371630	KF371630	23994297	2122	Gemytondvirus	F-aGmytV	Faecal-associated gemycircularvirus 12	Unclassified	-	-	-	-
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/KF371631	KF371631	23994297	2159	Gemykroznavirus	F-aGmykzV	Faecal-associated gemycircularvirus 11	Unclassified	-	-	-	-
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/KJ888053	KJ888053	-	2798	Begomovirus	EaCMKv	East African cassava mosaic Kenya virus	Unclassified	-	-	-	-
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/MF669476	MF669476	29334978	2926	Porprismacovirus	CBSV	Cattle blood-associated circovirus-like virus 	Smacovirus	-	-	-	-
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/MK059757	MK059757	-	3026	-	-	-	-	-	-	-	-
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/MK059763	MK059763	-	3056	Vientovirus	HLVV	Human lung-associated vientovirus FB	Vientovirus	-	-	-	-
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_001792	NC_001792	9787657	1758	Circovirus	PCV-1	Porcine circovirus 1	Mammal-1	-	-	-	-
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_025683	NC_025683	21900163	2904	CRESS-2	CvPo-41	Po-Circo-like virus 41	Unclassified	-	-	-	-
-alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_026639	NC_026639	25697886	2212	CRESS-1	AHEaCV-13	Avon-Heatchote Estuary Associated Virus 13	CRESS	-	-	-	-
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_026639	NC_026639	25697886	2212	CRESS-1	AHEaCV-13	Avon-Heatchote Estuary Associated Virus 13	Unclassified	-	-	-	-

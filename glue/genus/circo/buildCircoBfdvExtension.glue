@@ -8,8 +8,8 @@
 
   # Import BFDV sequences and side data 
   import source sources/ncbi-curated-circo-bfdv/
-  run script glue/genus/circo/exampleLoadIsolateDataBdfv.js
-  run script glue/genus/circo/exampleLoadSequenceDataBdfv.js
+  run script glue/genus/circo/exampleLoadIsolateDataBfdv.js
+  run script glue/genus/circo/exampleLoadSequenceDataBfdv.js
 
   # Extract and import data from GenBank XML
   module cressGenbankXmlPopulator populate 

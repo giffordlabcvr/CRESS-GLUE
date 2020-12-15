@@ -1,6 +1,7 @@
 
   # Reverse complement specific references
 
+
   # Avon-Heathcote Estuary associated circular virus 13 
   sequence ncbi-refseqs NC_026639 set field reverse_complement true
 
@@ -15,7 +16,7 @@
 
   # Genomoviridae
   sequence ncbi-refseqs JX185428  set field reverse_complement true
+  sequence ncbi-refseqs KF371630  set field reverse_complement true
   sequence ncbi-refseqs KF371631  set field reverse_complement true
   sequence ncbi-refseqs JX185429  set field reverse_complement true
   sequence ncbi-refseqs JQ412057  set field reverse_complement true
-  sequence ncbi-refseqs NC_026254 set field reverse_complement true
