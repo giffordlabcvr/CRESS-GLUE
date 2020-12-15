@@ -18,8 +18,8 @@
   run file glue/genus/circo/exampleApplyReverseComplement.glue
 
   # Add the "V2" feature to BFDV
-  run file glue/genus/circoexampleDefineBfdvFeatures.glue
-  run file glue/genus/circoexampleSetFeatureLocationsBfdv.glue
+  run file glue/genus/circo/exampleDefineBfdvFeatures.glue
+  run file glue/genus/circo/exampleSetFeatureLocationsBfdv.glue
   
   # Create alignments
   create alignment AL_BFDV -r REF_Circo_BFDV 
