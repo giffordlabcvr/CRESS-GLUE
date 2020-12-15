@@ -5,12 +5,17 @@
   sequence ncbi-refseqs NC_026639 set field reverse_complement true
 
   # Human lung-associated vientovirus FB
-  sequence ncbi-refseqs MK059763 set field reverse_complement true
+  sequence ncbi-refseqs MK059763  set field reverse_complement true
 
   # Human lung-associated brisavirus RC
-  sequence ncbi-refseqs MK059757 set field reverse_complement true
+  sequence ncbi-refseqs MK059757  set field reverse_complement true
 
   # East African cassava mosaic Kenya virus isolate MG
-  sequence ncbi-refseqs KJ888053 set field reverse_complement true
+  sequence ncbi-refseqs KJ888053  set field reverse_complement true
 
-
+  # Genomoviridae
+  sequence ncbi-refseqs JX185428  set field reverse_complement true
+  sequence ncbi-refseqs KF371631  set field reverse_complement true
+  sequence ncbi-refseqs JX185429  set field reverse_complement true
+  sequence ncbi-refseqs JQ412057  set field reverse_complement true
+  sequence ncbi-refseqs NC_026254 set field reverse_complement true
