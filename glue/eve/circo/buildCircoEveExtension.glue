@@ -24,7 +24,7 @@
   run file glue/eve/circo/ecvReferencesCirco.glue
 
   # Import root alignment
-  run file glue/eve/ecvRecordFeaturePresence.glue
+  run file glue/eve/circo/ecvImportRootAlignment.glue
 
   # Set up constrained alignment tree for orthologs
   run file glue/eve/circo/ecvConstrainedAlignmentTreeCirco.glue

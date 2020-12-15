@@ -18,16 +18,16 @@
   run file glue/core/cressMasterReferences.glue    
   #run file glue/core/cressFeatureLocations.glue
   
-  # Import alignments
+  # Import root alignment
   run file glue/core/cressImportRootAlignment.glue
 
   # Define constrained alignment tree
   run file glue/core/cressAlignmentTree.glue
 
-  # Record feature coverage in alignments
+  # Record feature coverage in root alignment
   run file glue/core/cressRecordFeaturePresence.glue
 
-  # Create phylogenies
+  # Create root phylogeny
   run file glue/core/cressCreateRootPhylogenies.glue
 
   # Validate
