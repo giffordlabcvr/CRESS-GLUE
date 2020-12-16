@@ -1,5 +1,6 @@
   delete source fasta-digs-circo-ecv
   multi-delete alignment -w "name like '%AL_UNC_ECV_Circo%'"
+  multi-delete alignment -w "name like '%AL_ecv%'"
   multi-delete reference -w "name like '%REF_ECV_Circo%'"
   delete source fasta-refseqs-circo-ecv
   delete source fasta-digs-circo-ecv

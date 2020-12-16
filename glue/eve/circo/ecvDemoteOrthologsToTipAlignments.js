@@ -37,7 +37,7 @@ _.each(loadResult, function(eveObj) {
 		glue.log("INFO", "Locus numeric ID", locus_numeric_id);
 	
 		// Does an alignment exist for this locus ID
-        var alignmentName = "AL_ECV-" + locus_name;
+        var alignmentName = "AL_" + locus_name;
 
 		glue.log("INFO", "Adding sequence:", eveObj.sequenceID);
 		glue.log("INFO", "to alignment", alignmentName);
@@ -55,7 +55,8 @@ _.each(loadResult, function(eveObj) {
 			
 			// Create the alignment
 			var refseqName = "REF_" + locus_name;
-			
+			refseqName = refseqName.replace("-con", "");
+	
 			glue.log("INFO", "CREATING ALIGNMENT WITH CONSTRAINING REFERENCE: ", refseqName);
 			glue.inMode("/alignment/"+parentAlignmentName, function() {
 				glue.command(["extract", "child", alignmentName, "-r", refseqName]);
