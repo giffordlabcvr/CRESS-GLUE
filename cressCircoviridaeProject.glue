@@ -1,0 +1,10 @@
+# Build the genus-level project extensions
+project cress
+
+  run file glue/genus/circo/buildCircovirusProject.glue
+  run file glue/genus/cyclo/buildCyclovirusProject.glue
+  #run file glue/genus/cress/buildCressvirusProject.glue
+  
+exit
+
+
