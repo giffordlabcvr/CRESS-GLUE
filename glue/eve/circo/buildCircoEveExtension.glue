@@ -28,7 +28,7 @@
   #run file glue/eve/circo/ecvImportAlignmentsTips.glue
 
   # Create tip-level phylogenies
-  run script glue/eve/ecvCreateTipPhylogenies.js
+  run script glue/eve/circo/ecvCreateTipPhylogenies.js
   
   # Validate
   validate

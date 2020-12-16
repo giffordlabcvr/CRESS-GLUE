@@ -17,7 +17,7 @@ get_refcon_data(ecvRefseqResultMap, refconDataPath);
 var loadResult;
 glue.inMode("module/cressTabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ecv-circo-side-data.tsv"]));
-	glue.log("INFO", "load result was:", loadResult);
+	//glue.log("INFO", "load result was:", loadResult);
 });
 
 // Iterate on DIGS data, adding sequences to alignments as appropriate

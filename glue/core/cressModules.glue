@@ -3,3 +3,6 @@
   create module -f modules/core/cressTabularUtility.xml cressTabularUtility
   create module -f modules/core/featureLocationTextToGlue.xml 
   create module -f modules/core/unconstrainedAlignmentImporter.xml
+  create module -f modules/core/cressMafftAligner.xml
+  create module -f modules/core/cressStrictFastaAlignmentImporter.xml
+  create module -t raxmlPhylogenyGenerator
