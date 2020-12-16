@@ -11,6 +11,8 @@
   create reference REF_ecv-circo.51-carnivora         fasta-refseqs-circo-ecv ecv-circo.51-carnivore-con
   create reference REF_ecv-circo.52-chrysochloris     fasta-refseqs-circo-ecv ecv-circo.52-chrysochloris-con
   create reference REF_ecv-circo.53-mus_caroli        fasta-refseqs-circo-ecv ecv-circo.53-mus_caroli
+  create reference REF_ecv-circo.54-sanguinus         fasta-refseqs-circo-ecv ecv-circo.54-sanguinus-con
+  
   create reference REF_ecv-circo.56-manis             fasta-refseqs-circo-ecv ecv-circo.56-manis-con
   create reference REF_ecv-circo.57-galeopterus       fasta-refseqs-circo-ecv ecv-circo.57-galeopterus-con
   create reference REF_ecv-circo.58-crocidura         fasta-refseqs-circo-ecv ecv-circo.58-crocidura
