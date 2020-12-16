@@ -5,7 +5,9 @@
   create reference REF_ecv-circo.2-psittaciformes     fasta-refseqs-circo-ecv ecv-circo.2-psittaciformes-con
   create reference REF_ecv-circo.4-tinamou            fasta-refseqs-circo-ecv ecv-circo.4-tinamou-con
   create reference REF_ecv-circo.5-gallirallus        fasta-refseqs-circo-ecv ecv-circo.5-gallirallus
-  
+  create reference REF_ecv-circo.7-egretta            fasta-refseqs-circo-ecv ecv-circo.7-egretta
+
+
   # Mammalian hosts
   create reference REF_ecv-circo.51-carnivora         fasta-refseqs-circo-ecv ecv-circo.51-carnivore-con
   create reference REF_ecv-circo.52-chrysochloris     fasta-refseqs-circo-ecv ecv-circo.52-chrysochloris-con
@@ -17,9 +19,18 @@
   create reference REF_ecv-circo.105-serpentes        fasta-refseqs-circo-ecv ecv-circo.105-serpentes-con
    
   # Amphibian hosts 
+  create reference REF_ecv-circo.150-microcaecilia    fasta-refseqs-circo-ecv ecv-circo.150-microcaecilia-con
   create reference REF_ecv-circo.151-anura            fasta-refseqs-circo-ecv ecv-circo.151-anura-con
    
   # Fish hosts 
   create reference REF_ecv-circo.240-anguilla         fasta-refseqs-circo-ecv ecv-circo.240-anguilla
   create reference REF_ecv-circo.200-actinopterygii   fasta-refseqs-circo-ecv ecv-circo.200-actinopterygii-con
   create reference REF_ecv-circo.206-sinocyclocheilus fasta-refseqs-circo-ecv ecv-circo.200-actinopterygii-con
+
+
+
+
+  #create reference REF_ecv-circo.6-cyprinus          fasta-refseqs-circo-ecv ecv-circo.6-cyprinus-con 
+  #create reference REF_ecv-circo.7-actinopterygii    fasta-refseqs-circo-ecv ecv-circo.7-actinopterygii-con
+  #create reference REF_ecv-circo.8-kryptolebias      fasta-refseqs-circo-ecv ecv-circo.8-kryptolebias-con
+  #create reference REF_ecv-circo.10-acanthochromis   fasta-refseqs-circo-ecv ecv-circo.10-acanthochromis-con
