@@ -12,13 +12,16 @@
   create reference REF_ecv-circo.52-chrysochloris     fasta-refseqs-circo-ecv ecv-circo.52-chrysochloris-con
   create reference REF_ecv-circo.53-mus_caroli        fasta-refseqs-circo-ecv ecv-circo.53-mus_caroli
   create reference REF_ecv-circo.54-sanguinus         fasta-refseqs-circo-ecv ecv-circo.54-sanguinus-con
-  
+  create reference REF_ecv-circo.55-heterocephalus    fasta-refseqs-circo-ecv ecv-circo.55-heterocephalus
   create reference REF_ecv-circo.56-manis             fasta-refseqs-circo-ecv ecv-circo.56-manis-con
   create reference REF_ecv-circo.57-galeopterus       fasta-refseqs-circo-ecv ecv-circo.57-galeopterus-con
   create reference REF_ecv-circo.58-crocidura         fasta-refseqs-circo-ecv ecv-circo.58-crocidura
   create reference REF_ecv-circo.59-choloepus         fasta-refseqs-circo-ecv ecv-circo.59-choloepus-con
   create reference REF_ecv-circo.60-microgale         fasta-refseqs-circo-ecv ecv-circo.60-microgale
   create reference REF_ecv-circo.61-micropterus       fasta-refseqs-circo-ecv ecv-circo.61-micropterus
+  create reference REF_ecv-circo.63-pedetes           fasta-refseqs-circo-ecv ecv-circo.63-pedetes
+  create reference REF_ecv-circo.65-nannospalax       fasta-refseqs-circo-ecv ecv-circo.65-nannospalax
+
   create reference REF_ecv-circo.62-heterocephalus    fasta-refseqs-circo-ecv ecv-circo.62-heterocephalus
   create reference REF_ecv-circo.90-dasyuridae        fasta-refseqs-circo-ecv ecv-circo.90-dasyuridae
   create reference REF_ecv-circo.91-phascolarctos     fasta-refseqs-circo-ecv ecv-circo.91-phascolarctos
@@ -34,7 +37,7 @@
   # Fish hosts 
   create reference REF_ecv-circo.240-anguilla         fasta-refseqs-circo-ecv ecv-circo.240-anguilla
   create reference REF_ecv-circo.200-actinopterygii   fasta-refseqs-circo-ecv ecv-circo.200-actinopterygii-con
-  create reference REF_ecv-circo.206-sinocyclocheilus fasta-refseqs-circo-ecv ecv-circo.200-actinopterygii-con
+  create reference REF_ecv-circo.206-sinocyclocheilus fasta-refseqs-circo-ecv ecv-circo.206-sinocyclocheilus-con
 
   #create reference REF_ecv-circo.6-cyprinus          fasta-refseqs-circo-ecv ecv-circo.6-cyprinus-con 
   #create reference REF_ecv-circo.7-actinopterygii    fasta-refseqs-circo-ecv ecv-circo.7-actinopterygii-con
