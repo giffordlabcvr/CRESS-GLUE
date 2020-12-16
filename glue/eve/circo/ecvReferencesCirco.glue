@@ -13,6 +13,7 @@
   create reference REF_ecv-circo.52-chrysochloris     fasta-refseqs-circo-ecv ecv-circo.52-chrysochloris-con
   create reference REF_ecv-circo.53-mus_caroli        fasta-refseqs-circo-ecv ecv-circo.53-mus_caroli
   create reference REF_ecv-circo.57-galeopterus       fasta-refseqs-circo-ecv ecv-circo.57-galeopterus-con
+  create reference REF_ecv-circo.90-dasyuridae        fasta-refseqs-circo-ecv ecv-circo.90-dasyuridae
   create reference REF_ecv-circo.92-monodelphis       fasta-refseqs-circo-ecv ecv-circo.92-monodelphis
  
   # Reptile hosts
