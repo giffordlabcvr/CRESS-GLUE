@@ -48,7 +48,7 @@ _.each(alignmentResult, function(alnObj) {
 		});   
 		
 		// Reroot the phylogenies
-		glue.inMode("/module/hepadnaPhyloUtility", function() {
+		glue.inMode("/module/cressPhyloUtility", function() {
 
 			
 			glue.log("INFO", "Tree will be written to path: ", midpointPath);

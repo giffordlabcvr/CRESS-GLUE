@@ -6,3 +6,6 @@
   create module -f modules/core/cressMafftAligner.xml
   create module -f modules/core/cressStrictFastaAlignmentImporter.xml
   create module -t raxmlPhylogenyGenerator
+  create module -t phyloUtility cressPhyloUtility
+  create module -f modules/core/ecvFigTreeAnnotationExporterDigs.xml 
+
