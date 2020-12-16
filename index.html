@@ -18,11 +18,12 @@
     <section class="page-header">
       <h1 class="project-name">CRESS-GLUE</h1>
       
-      <h2 class="project-tagline">GLUE-based resources for comparative genomic analysis of CRESS DNA viruses.</h2>
+      <h2 class="project-tagline">Resources for comparative genomic analysis of CRESS DNA viruses.</h2>
 
       <a href="./website/project.html" class="btn">Viruses</a>
       <a href="./website/paleovirology.html" class="btn">Paleoviruses</a>
-      <a href="https://github.com/giffordlabcvr/CRESS-GLUE/zipball/master" class="btn">Download .zip</a>
+	  <a href="./website/project-uses-example.html"class="btn">Tutorial</a>
+      <a href="https://github.com/giffordlabcvr/CRESS-GLUE/zipball/master" class="btn">Download</a>
       <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
@@ -43,11 +44,31 @@
 		   <a target="_blank" href="https://jvi.asm.org/content/94/12/e00582-20"><b><i>Cressdnaviricota</i></b>)</a>. 
 		 </p>
 
+		 <br>
+        
+         <p><img src="./website/images/cress-glue-footer.jpg" alt="CRESS DNA virus phylogeny" /></p>
+         
+         
+		 <br>
+
+<blockquote>
+		 <p>
+		   The figure above, taken from a report by
+		   <a target="_blank" href="https://jvi.asm.org/content/94/12/e00582-20"><b>Krupovic <i>et al.</i> (2020)</b></a>,	    
+		   shows an unrooted maximum likelihood phylogenetic tree of the <b><i>Cressdnaviricota</i></b>,
+		   based on alignment of	   
+		   <a target="_blank" href="https://www.uniprot.org/uniprot/Q8BB16"><b>Rep</b></a>
+		   proteins.
+		 </p>
+         
+</blockquote>
+		 
+         
+		 <br>
 
 		 <p>
-		   The
 		   <b>CRESS-GLUE</b>
-		   project has been designed to facilitate any form of comparative genomic analysis
+		   has been designed to facilitate any form of comparative genomic analysis
 		   involving <b>CRESS DNA viruses</b>. It contains a richly annotated sequence
 		   dataset for these viruses, comprised of both 
 		   <a href="./website/project.html"><b>viral sequences</b></a>
@@ -56,58 +77,42 @@
 		   
 		 </p>
 
-		 <br>
-        
-         <p><img src="./website/images/cress-glue-footer.jpg" alt="CRESS DNA virus phylogeny" /></p>
-         
-         
-		 <br>
 
 		 <p>
+		 
+		 
+           There are a wide variety of ways in which this resource can be used:
+           
+		 <ul>
+		   <li> if you're interested in any particular virus in the <i>Cressdnaviricota</i> you
+		   can use CRESS-GLUE as an efficient means of investigating this virus in depth
+		   - as shown in 
+		   <a href="./website/project-uses-example.html"><b>this tutorial</b></a>.
 
-<blockquote>
-		 <p>
-		   The figure above shows an
-		   unrooted maximum likelihood phylogenetic tree of		   
-		   <a target="_blank" href="https://www.uniprot.org/uniprot/Q8BB16"><b>Rep</b></a>
-		   proteins from CRESS DNA viruses, taken from
-		   <a target="_blank" href="https://jvi.asm.org/content/94/12/e00582-20"><b>Krupovic <i>et al.</i></b></a>
+		   </li><br>
+		   
+		   <li> for those interested in <b>paleovirology</b> and <b>endogenous viral elements</b> -
+		   CRESS-GLUE provides a source of
+		   <a href="./website/paleovirology.html"><b>systematically organised EVE information</b></a>.
+		   </li><br>
+
+		   <li> if you're interested in exploring <b>CRESS DNA virus diversity</b> 
+		   in <b>metagenomic</b> datasets, CRESS GLUE provides some unique and
+		   potentially valuable features, as explained
+		   <a href="./website/paleovirology.html"><b>here</b></a>.
+		   </li><br>
+		   
+		 </ul>
+		  
 		 </p>
-         
-</blockquote>
-		 
-
-         
-		 <br>
-
-	   <h3>
-	   <a id="glueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Building this GLUE project</strong>
-	   </h3>
-         <hr>
-
-      	   
-	   <p>
-	
-         On computers with the GLUE software framework
-         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/installation"><b>installed</b></a>,
-         the <b>CRESS-GLUE</b> project can be instantiated by navigating to the project folder,
-         initiating GLUE, and issuing the following command in the GLUE shell:
-         
-  <pre>
-  <code>Mode path: /
-  GLUE> run file cressProject.glue</code></pre>
-		 
-	   </p>
 
 
  		
-         <br>
-
-
+       <br>
 	   <h3>
 	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
 	   </h3>
-         <hr>
+       <hr>
 
 
 	   <p>
@@ -137,14 +142,56 @@
 		  analysis tools. 
 	   </p>
 
-
 	   <p>
 		  Hosting of GLUE projects in an online version control system (e.g. GitHub) provides
 		  a mechanism for their stable, collaborative development.
 	   </p>
 	   
 	   
+
+		   
+		 <p>
+		   Some examples of '<b>sequence-based resources</b>' built for viruses using GLUE include:
+
+		 </p>
+		   
+		   
+
+		 <p>
+
+		 <ul>
+		   <li> 
+		   <a target="_blank" href="http://cov-glue.cvr.gla.ac.uk/"><b>COV-GLUE</b></a>: 
+		   A GLUE resource for tracking genetic variation in SARS-COV2.
+CoV-GLUE contains a database of amino acid replacements, insertions and deletions which have been observed in GISAID hCoV-19 sequences sampled from the pandemic
+		   </li>
+		   <br>
+		   
+		   <li>
+		   <a target="_blank" href="http://rabv-glue.cvr.gla.ac.uk/"><b>RABV-GLUE</b></a>:
+ 		   Tailored toward epidemiological tracking of rabies virus (RABV).
+ 		   Includes a database of RABV sequences and metadata from NCBI, updated daily and arranged into major and minor clades, and
+ 		   an analysis tool providing genotyping, analysis and visualisation of submitted FASTA sequences.
+ 		   </li>
+ 		   <br>
+		   
+		   <li>
+		   <a target="_blank" href="http://hcv-glue.cvr.gla.ac.uk/"><b>HCV-GLUE</b></a>:
+ 		   Tailored toward informing research on drug resistance and vaccine escape in hepatitis C virus (HCV).
+ 		   A database of HCV sequences and metadata from NCBI, updated daily and arranged
+ 		   into clades (genotypes, subtypes). As well as pre-built multiple-sequence
+ 		   alignments of NCBI sequences, it includes an analysis tool providing genotyping,
+ 		   drug resistance analysis and visualisation of submitted FASTA sequences.
+
+           </li>
 	   
+		 </ul>
+
+		   
+		 </p>
+
+	   
+          <br>
 	   
 	   <h3>
 	   <a id="WhyGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What does building the CRESS-GLUE project offer?</strong>
@@ -185,6 +232,63 @@
          <br>
 
 
+
+	   <h3>
+	   <a id="glueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Building this GLUE project</strong>
+	   </h3>
+         <hr>
+
+
+      	   
+	   <p>
+	
+         On computers with the GLUE software framework
+         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/installation"><b>installed</b></a>,
+         the <b>CRESS-GLUE</b> project can be instantiated by navigating to the project folder,
+         initiating GLUE, and issuing the following command in the GLUE shell:
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file cressCoreProject.glue</code></pre>
+
+         This will build the CRESS-GLUE core project by executing the commands in
+		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/cressCoreProject.glue"><b>this file</b></a>.
+		 
+	   </p>
+
+	   <p>
+		 The core project comprises a  
+		 dataset designed to represent the phylum in a minimal way (i.e. by including 
+		 only one or a handful of annotated reference sequences for each major lineage). 
+	   </p>
+
+
+	   <p>
+		 We have also created a genus-level, extension project for the family <i>Circoviridae</i>.
+		 This project includes a more extensive set of species for this virus family.
+		 Once the core project has been built, the circoviridae extension project can be
+		 constructed, by executing the commands in
+		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/cressCircoviridaeProject.glue"><b>this file</b></a>,
+		 as follows.
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file cressCircoviridaeProject.glue</code></pre>
+		 		  
+	   </p>
+
+
+	   <p>
+		 The <i>Circoviridae</i> extension project can be extended to incorporate
+		 EVE sequences derived from this virus family, by executing the commands in
+		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/cressPaleoExtensionCircoviridae.glue"><b>this file</b></a>,
+		 as follows.
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file cressPaleoExtensionCircoviridae.glue</code></pre>
+		 		  
+	   </p>
 
 	   <h3>
 		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
@@ -248,31 +352,31 @@
 
  		</p>
  		
-         <br>
+        <br>
 
 
 
 	   <h3>
 		 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
 	   </h3>
-         <hr>
+       <hr>
 
 	   <p>
 		 This project is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v. 3.0</a>.
 	   </p>
 
-		<br>
+	   <br>
 
 
 
-	 <footer class="site-footer">
-	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/CRESS-GLUE">CRESS-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
+	   <footer class="site-footer">
+		 <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/CRESS-GLUE">CRESS-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
 
-	   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-	 </footer>
+		 <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+	   </footer>
+
 
     </section>
-
 
   </body>
   

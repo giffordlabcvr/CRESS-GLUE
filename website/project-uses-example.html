@@ -20,17 +20,15 @@
       <a href="../index.html" class="btn">Home</a>
       <a href="./project.html" class="btn">Viruses</a>
       <a href="./paleovirology.html" class="btn">Paleoviruses</a>
-      <a href="https://github.com/giffordlabcvr/CRESS-GLUE/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/giffordlabcvr/CRESS-GLUE/zipball/master" class="btn">Download</a>
       <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
     <section class="main-content">
 
-
 	   <h3>
-		 <a id="tutorialOverview" class="anchor" href="#tutorialOverview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Using CRESS-GLUE - an example-driven tutorial</strong>
-	   </h3>
-
+		 <a id="tutorialOverview" class="anchor" href="#tutorialOverview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Using CRESS-GLUE - an example-driven tutorial</strong>	   </h3>
+       <hr>
 
 	   <p>
          
@@ -68,11 +66,11 @@
          when following this tutorial.
  	   </p>
 
-
+       <br>
 	   <h3>
-		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background - beak and feather disease virus</strong>
+		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background - beak and feather disease virus, a pathogenic circovirus</strong>
 	   </h3>
-
+       <hr>
         <p><img src="./images/parrots-header.png" alt="Parrots" /></p>
 
 
@@ -96,11 +94,10 @@
          a sequence-based resource for BFDV.
  	   </p>
 
-
+       <br>
 	   <h3>
-		 <a id="DownloadFromNcbi" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>1. Downloading all available BFDV sequences from GenBank</strong>
-	   </h3>
-
+		 <a id="DownloadFromNcbi" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>1. Downloading all available BFDV sequences from GenBank</strong>	   </h3>
+       <hr>
 
 	   <p>
          To download all BFDV entries in NCBI GenBank, we 
@@ -144,7 +141,7 @@
          Notice from the first line that I'm in the 'CRESS-GLUE' directory when
          I initiate GLUE.
          This means that, by default, it will be my 'working directory' - i.e. when I reference
-         a file from the GLUE console, I'll need to do so <u>relative to this directory</u>.
+         a file from the GLUE console, I'll need to do so <b>relative to this directory</b>.
  	   </p>
 
 	   <p>
@@ -198,9 +195,6 @@
          Since the GenBank database is continually expanding, you may find
          that you obtain more sequences than this when running the same 
          command at a later date.
-         Note that - since the module has been designed to make things efficient -
-         only sequences that are missing from the existing 
-         source will be downloaded.  
 	   </p>
  
  	   <p>
@@ -295,9 +289,8 @@
 
  
  	   <h3>
-		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>2. Importing BFDV sequences and metadata from GenBank files</strong>.
-	   </h3>
-
+		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>2. Importing BFDV sequences and metadata from GenBank files</strong>.	   </h3>
+       <hr>
 
 	   <p>
          Now that we've downloaded a set of BFDV sequences, we can incorporate them into 
@@ -387,28 +380,29 @@
 
 	   
 	   <p>
-          Link each new BFDV sequence to the isolate table using
+          Next, we will extract BFDV isolate information from GenBank files.
+          First, we need to link each new BFDV sequence to the 'isolate table'.
           <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBfdv.js"><b>this script</b></a>.
   <pre>
   <code>Mode path: /project/cress
   GLUE> run script glue/genus/circo/exampleLoadIsolateDataBfdv.js</code></pre>
 
+
  	   </p>
 
 
 	   <p>
-         Extracting information from GenBank fields using a
-         customised version
-         of GLUE's 'genbankPopulator' module.
+
+         GLUE's 
+         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/genbankPopulator">'<b>genbankPopulator</b>'</a>       
+         module can be used to extract sequence and isolate information from GenBank files.
+         Next, we will use a customised version of this module to 
          We can use this module to search for for <i>host species</i>,
          <i>time and place of isolation</i>,
          and <i>isolate</i> data in the "notes" section of the GenBank XML. 
  	   </p>
  	   
-	   <p>
-         Use of FreeMarker and REGEX in this and other GLUE modules.
-         If unfamiliar the examples included in this project can be modified. 
-  
+	   <p>  
   
   <pre>
   <code>Mode path: /project/cress
@@ -445,11 +439,10 @@
   		 </p>
 
 
-
+       <br>
 	   <h3>
-		 <a id="FilterDataSet" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>3. Filtering data to obtain a valid analysis data set</strong>.
-	   </h3>
-
+		 <a id="FilterDataSet" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>3. Filtering data to obtain a valid analysis data set</strong>.	   </h3>
+       <hr>
 
 
 
@@ -542,20 +535,13 @@
 		   to upload the refined data.
 		 </p>
 
-		 <p>
-		   If you improve metadata for any virus sequence set, you may want to share.
-		   See sharing section below.
-		 </p>
 
 
 
-
-
-
+       <br>
 	   <h3>
-		 <a id="RefineReference" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>4. Refining the BFDV reference sequence</strong>.
-	   </h3>
-
+		 <a id="RefineReference" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>4. Refining the BFDV reference sequence</strong>.	   </h3>
+       <hr>
 
 		 <p>
 		   The 'Circovirus' extension of CRESS-GLUE includes reference sequences for 
@@ -733,11 +719,10 @@
 
         <p><img src="./images/parrots-midlevel1.png" alt="Parrots" /></p>
 
-
+       <br>
 	   <h3>
-		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>5. Creating an alignment of all BFDV sequences</strong>.
-	   </h3>
-
+		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>5. Creating an alignment of all BFDV sequences</strong>.	   </h3>
+       <hr>
 
 		 <p>
            Now we have put together the fundamental data items we can begin
@@ -918,7 +903,7 @@
 	   
 		 <p>
 		   The entire alignment can be exported, or the reference sequence can be used 
-		   to export specific alignment sections.
+		   to export <u>specific alignment sections</u>.
 		   In the example shown above I've exported the alignment section 
 		   corresponding to the v2 gene to a file called 'v2.aln.fna'.
 		   The '-e' option tells GLUE to exclude any sequences that have no coverage 
@@ -926,9 +911,12 @@
 		 </p>
 
 
-		 <h3>
-		   <a id="MapCoverage" class="anchor" href="#MapCoverage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>6. Mapping feature coverage in BFDV sequences</strong>.
-		 </h3>
+
+       <br>
+	   <h3>
+		 <a id="MapCoverage" class="anchor" href="#MapCoverage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>6. Mapping feature coverage in BFDV sequences</strong>.
+	   </h3>
+       <hr>	   
 
 	   
 		 <p>
@@ -963,11 +951,11 @@
 
 
 
-
+       <br>
 	   <h3>
 		 <a id="examineVariation" class="anchor" href="#examineVariation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>7. Examining genetic variation</strong>.
 	   </h3>
-	   
+       <hr>	   
 
 	   <p>
 	     
@@ -1007,11 +995,10 @@
 	   </p>
 
 
-
+       <br>
 	   <h3>
-		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>8. Reconstructing phylogenetic trees</strong>.
-	   </h3>
-	   
+		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>8. Reconstructing phylogenetic trees</strong>.	   </h3>
+       <hr>	   
 	   <p>
          In the final step in this tutorial, we will use the data we have collated in 
          this tutorial to reconstruct bootstrapped,
@@ -1102,28 +1089,23 @@
 		</p>
 	 
 		<p>
-		  However, 
+		  However, at the same time we created a publicly accessible, sequence-based resource for BFDV 
+		  - one that can be used repeatedly, for a wide range of comparative studies. 
 		</p>
 	 
-		<p>
-		  Comparative analysis hampered by laborious data preparation.
-		  GLUE is open source software for dealing with the
-		  nuts and bolts of comparative sequence analysis.
-		  It has been designed to <b>facilitate</b>.
-		 
-		</p>
 	 
 		<p>
-		  Host projects on GitHub.
-		  Clone. fork.  
+		  As well as collating the data, we've added some value by cleaning up some 
+		  of the metadata, and creating an alignment. We've also created some phylogenies
+		  that may be of interest to those interested in or impacted by BFDV.
 		</p>
+
 
        <hr>
-
+       <br>
 	   <h3>
-		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
-	   </h3>
-
+		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>	   </h3>
+       <hr>
         Varsani A, Regnard GL, Bragg R, Hitzeroth II, EP Rybicki
 		<b>(2011)</b>
 		<br>
