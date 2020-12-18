@@ -1,4 +1,4 @@
-var infiles = [ "bfdvMissing.tsv" ];
+var infiles = [ "tabular/virus/bfdv-data-updated.tsv" ];
 
 
 // Get the sequence source mappings (i.e. which in ncbi-refseqs, ncbi-curated, etc)
@@ -12,35 +12,45 @@ for(var i = 0; i < infiles.length; i++) {
 
 	// Load EVE data from tab file 
 	var loadResult;
-	glue.inMode("module/tabularUtilityTab", function() {
-		loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/"+infile]));
+	glue.inMode("module/cressTabularUtility", function() {
+		loadResult = glue.tableToObjects(glue.command(["load-tabular", infile]));
 		//glue.log("INFO", "load result was:", loadResult);
 	});
 
 	_.each(loadResult, function(isolateObj) {
 
-        var sequenceID = isolateObj.sequence_sequenceID;
+        var sequenceID = isolateObj.sequenceID;
         var sourceName = epvRefseqResultMap[sequenceID];
 		glue.log("INFO", "Entering sequence table data for isolate:", sequenceID, " from source '", sourceName, "'");
-		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
+		glue.inMode("custom-table-row/isolate/"+sequenceID, function() {
 
-        	var isolateEdit   = isolateObj.isolate;
         	var isolateUpdate = isolateObj.isolate_update;
-		    //glue.log("INFO", "FIELD: isolateEdit:", isolateEdit);
-		    //glue.log("INFO", "FIELD: isolateUpdate:", isolateUpdate);	    
-		    if (isolateEdit != 'unchanged') {		    	
-				glue.log("INFO", "Updating country field to:", isolateUpdate);
-				glue.command(["set", "field", "gb_country", isolateUpdate]);				
+       	    var isolate = isolateObj.isolate;
+		    //glue.log("INFO", "FIELD: isolate_id:", isolateUpdate);	    
+		    if (isolateUpdate != 'unchanged') {		    	
+				glue.log("INFO", "Updating isolate_id field to:", isolate);
+				glue.command(["set", "field", "isolate_id", isolate]);				
 		    }
 
-        	var countryEdit   = isolateObj.country;
         	var countryUpdate = isolateObj.country_update;
-		    //glue.log("INFO", "FIELD: isolateEdit:", isolateEdit);
-		    //glue.log("INFO", "FIELD: isolateUpdate:", isolateUpdate);	    
-		    if (countryEdit != 'unchanged') {		    	
-				glue.log("INFO", "Updating country field to:", countryUpdate);
-				glue.command(["set", "field", "gb_country", countryUpdate]);				
+        	var country = isolateObj.country;
+		    //glue.log("INFO", "FIELD: country:", countryUpdate);	    
+		    if (countryUpdate != 'unchanged') {		    	
+				glue.log("INFO", "Updating country field to:", country);
+				glue.command(["set", "field", "country", country]);				
 		    }
+		    
+		    
+        	var hostUpdated  = isolateObj.host_sci_name_update;
+        	var host  = isolateObj.host_sci_name;
+		    if (hostUpdated != 'unchanged') {		    	
+				glue.log("INFO", "Updating host_sci_name field to:", host);
+				glue.command(["set", "field", "host_sci_name", host]);				
+		    }
+		    
+		    
+		    
+		    
 		    
 
 		});

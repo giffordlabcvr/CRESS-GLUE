@@ -1,1285 +1,1285 @@
-id	isolate_id	country	host_sci_name	collection_year
-AB182568	YCC-IN1P	-	-	-
-AB182569	YCC-IN2P	-	-	-
-AB182570	RRP-JP11P	-	-	-
-AB182571	RRP-JP12P	-	-	-
-AB182572	BTP-SA11P	-	-	-
-AB182573	RL-JP1P	-	-	-
-AB277726	AGP-SA1P-1	Japan	Psittacus erithacus erithacus	-
-AB277727	AGP-SA1P-2	Japan	Psittacus erithacus erithacus	-
-AB277728	AGP-SA1P-3	Japan	Psittacus erithacus erithacus	-
-AB277729	AGP-SA1P-4	Japan	Psittacus erithacus erithacus	-
-AB277730	AGP-SA1P-5	Japan	Psittacus erithacus erithacus	-
-AB277731	AGP-SA2P	Japan	Psittacus erithacus erithacus	-
-AB277732	TGP-SA1P	Japan	Psittacus erithacus timneh	-
-AB277733	EC-SG1P	Japan	Cacatua galerita eleonora	-
-AB277734	WC-SG1P	Japan	Cacatua alba	-
-AB277735	WC-IN1P	Japan	Cacatua alba	-
-AB277736	YCC-IN3P	Japan	Cacatua sulphurea	-
-AB277737	YCC-IN4P	Japan	Cacatua sulphurea	-
-AB277738	BWP-SA1P	Japan	Pionus chalcopterus	-
-AB277739	BP-SA1P	Japan	Poicephalus meyeri	-
-AB277740	BHP-SA1P	Japan	Poicephalus cryptoxanthus	-
-AB277741	RBP-SA1P	Japan	Poicephalus rufiventris	-
-AB277742	SP-SA1P	Japan	Poicephalus senegalus	-
-AB277743	AP-UN1P	Japan	Psittacula eupatria	-
-AB277744	EP-JP1P	Japan	Eclectus roratus	-
-AB277745	DP-SA1P	Japan	Psittacula derbiana	-
-AB277746	MU-JP1P	Japan	Melopsittacus undulatus	-
-AB277747	MU-JP2P	Japan	Melopsittacus undulatus	-
-AB514568	-	Japan:Fukuoka	-	-
-AF071878	-	-	-	-
-AF080560	-	-	Cacatua galerita	-
-AF311297	-	Australia: Southern Australia	Cacatua tenuirostris	-
-AF311298	-	Australia: Western Australia	Eolophus roseicapillus	-
-AF311300	-	Australia: Western Australia	Cacatua leabeateri	-
-AF311301	-	Australia: Northern Territory	Cacatua galerita	-
-AF311302	-	Australia: Western Australia	Cacatua galerita	-
-AJ605577	-	-	-	-
-AY148285	SCC1	-	Cacatua galerita	-
-AY148286	SCC2	-	Cacatua galerita	-
-AY148287	SCC3	-	Cacatua galerita	-
-AY148288	SCC4	-	Cacatua galerita	-
-AY148289	LC1	-	Cacatua tenirostitus	-
-AY148290	SCC5	-	Cacatua galerita	-
-AY148291	RCL	-	Trichogolossus haematodus rubritorquis	-
-AY148292	YBL1	-	Lorius chlorocercus	-
-AY148293	RL5	-	Trichogolossus haematodus	-
-AY148294	RL2	-	Trichogolossus haematodus	-
-AY148295	RL3	-	Trichogolossus haematodus	-
-AY148296	BSL1	-	Eos reticulata	-
-AY148297	BSL2	-	Eos reticulata	-
-AY148298	GL	-	Psitteuteles goldiei	-
-AY148299	YBL2	-	Lorius chlorocercus	-
-AY148300	RL6	-	Trichogolossus haematodus	-
-AY148301	BG3	-	Melopsittacus undulatus	-
-AY345131	-	-	-	-
-AY450434	WBC1-ZA	-	Pionites leucogaster	-
-AY450435	AFG4-ZA	-	Psittacus erithacus	-
-AY450436	UC1-ZA	-	Cacatua alba	-
-AY450442	BCL1-ZA	-	Agapornis nigrigenis	-
-AY450443	AFG3-ZA	-	Psittacus erithacus	-
-AY450444	LJP2-ZA	-	-	-
-AY450445	BWJ1-ZA	-	-	-
-AY450446	LJP1-ZA	-	-	-
-AY450447	GJP2-ZA	-	-	-
-AY450448	ARB2-ZA	-	-	-
-AY450449	ARB3-ZA	-	-	-
-AY450450	UC2-ZA	-	-	-
-AY450451	SM1-ZA	-	-	-
-AY450452	ARB1-ZA	-	-	-
-AY518516	CG1	USA	Cacatua galerita	-
-AY518899	-	Germany	Psittacus eritacus	-
-AY518900	-	USA	Psittacula kramerii	-
-AY518901	-	Portugal	Psittacus eritacus	-
-AY518902	-	Germany	Psittacus eritacus	-
-AY518903	-	Germany	Amazona aestiva	-
-AY518904	-	United Kingdom	Psittacus eritacus	-
-AY518905	-	Japan	Psittacus eritacus	-
-AY518906	-	India	Psittacus eritacus	-
-AY518907	-	USA	Agapornis roseicollis	-
-AY518908	-	USA	Agapronis roseicollis	-
-AY518909	-	United Kingdom	Agapornis roseicollis	-
-AY518910	-	Portugal	Psittacus eritacus	-
-AY518911	-	Germany	Amazona aestiva	-
-AY518912	-	Portugal	Psittacus eritacus	-
-AY518913	-	New Zealand	Trichoglossus haematodus	-
-AY518914	-	Germany	Psittacus eritacus	-
-AY518915	-	Germany	Psittacus eritacus	-
-AY518916	-	Spain	Aratinga solstitalis	-
-AY518917	-	USA	Eclectus roratus	-
-AY518918	-	United Kingdom	Agapornis roseicollis	-
-AY518919	-	United Kingdom	Agapornis roseicollis	-
-AY518920	-	Germany	Psittacus eritacus	-
-AY518921	-	Saudi Arabia	Cacatua haematuropygia	-
-AY518922	-	Saudi Arabia	Cacatua leadbeateri	-
-AY518923	-	USA	Cacatua moluccensis	-
-AY518924	-	United Kingdom	Amazona autumnalis	-
-AY518925	-	USA	Poicephalus senegalensis	-
-AY518926	-	Puerto Rico	Psittacus eritacus	-
-AY518927	-	USA	Psittacus eritacus	-
-AY518928	-	USA	Psittacus eritacus	-
-AY518929	-	USA	Psittacula kramerii	-
-AY518930	-	Israel	Eolophus roseicapillus	-
-AY518931	-	USA	Ara militaris	-
-AY518932	-	United Kingdom	Coracopsis vasa	-
-AY521234	-	USA: Texas	Psittacula kramerii	-
-AY521236	-	Portugal	Psittacus eritacus	-
-AY521237	-	Germany	Psittacus eritacus	-
-AY521238	-	United Kingdom	Psittacus eritacus	-
-CS449877	-	-	-	-
-CS449878	-	-	-	-
-CS449879	-	-	-	-
-CS449896	-	-	-	-
-CS449897	-	-	-	-
-CS449898	-	-	-	-
-DQ016388	1-RL-NSW	Australia	Trichoglossus haematodus	-
-DQ016389	2-RL-NSW	Australia	Trichoglossus haematodus	-
-DQ016390	3-SP-TAS	Australia	Lathamus discolour	-
-DQ016391	4-SP-TAS	Australia	Lathamus discolour	-
-DQ016392	5-RL-VIC	Australia	Trichoglossus haematodus	-
-DQ016393	6-ML-WA	Australia	Glossopsitta concinna	-
-DQ016394	7-RL-WA	Australia	Trichoglossus haematodus	-
-DQ016395	8-RCL-WA	Australia	Trichoglossus haematodus rubritorquis	-
-DQ016396	9-RL-NSW	Australia	Trichoglossus haematodus rubritorquis	-
-DQ304738	-	Taiwan	blue-streaked lory (Eos reticulate)	-
-DQ304739	-	Taiwan	blue-streaked lory (Eos reticulate)	-
-DQ304740	-	Taiwan	African grey parrot (Psittacus erithacus)	-
-DQ304741	-	Taiwan	African grey parrot (Psittacus erithacus)	-
-DQ304742	-	Taiwan	blue & yellow macaw (Ara ararauna)	-
-DQ304743	-	Taiwan	African grey parrot (Psittacus erithacus)	-
-DQ304744	-	Taiwan	yellow-naped Amazon (Amazona auropalliata)	-
-DQ304745	-	Taiwan	African grey parrot (Psittacus erithacus)	-
-DQ304746	-	Taiwan	red-rumped parakeet (Psephotus haematonotus)	-
-DQ304747	-	Taiwan	African grey parrot (Psittacus erithacus)	-
-DQ304748	-	Taiwan	Pacific parroleet (Forpus coelestis)	-
-DQ304749	-	Taiwan	Eclectus parrot (Eclectus roratus)	-
-DQ304750	-	Taiwan	Eclectus parrot (Eclectus roratus)	-
-DQ304751	-	Taiwan	sulphur-crested cockatoo (Cacatua galerita)	-
-DQ304752	-	Taiwan	sulphur-crested cockatoo (Cacatua galerita)	-
-DQ304753	-	Taiwan	Eclectus parrot (Eclectus roratus)	-
-DQ304754	-	Taiwan	yellow-naped Amazon (Amazona auropalliata)	-
-DQ304755	-	Taiwan	sulphur-crested cockatoo (Cacatua galerita)	-
-DQ304756	-	Taiwan	budgerigar (Melopsittacus undulatus)	-
-DQ304757	-	Taiwan	budgerigar (Melopsittacus undulatus)	-
-DQ304758	-	Taiwan	budgerigar (Melopsittacus undulatus)	-
-DQ384621	UFS2	South Africa	Psittacula krameri	-
-DQ384622	UFS1	South Africa	Psittacula krameri	-
-DQ384623	UFS3	South Africa	Melopsittacus undulatus	-
-DQ384624	UFS4	South Africa	Melopsittacus undulatus	-
-DQ384625	UFS5	South Africa	Melopsittacus undulatus	-
-DQ384626	UFS6	South Africa	Poicephalus gulielmi massaicus	-
-DQ397815	HHP1-ZA	-	-	-
-DQ397816	HHP1-ZA	-	-	-
-DQ397817	AFG5-ZA	-	-	-
-DQ397818	CPA10-ZA	-	-	-
-EF457974	05-106	Australia	Nymphicus hollandicus	-
-EF457975	05-726	Australia	Nymphicus hollandicus	-
-EU093967	CaCvBR18	Brazil	Serinus canaria	2004
-EU093968	CaCvBR19	Brazil	Serinus canaria	2004
-EU093969	PBFDVBR02	Brazil	Melopsittacus undulatus	2004
-EU093970	CaCvBR20	Brazil	Serinus canaria	2004
-EU093971	PBFDVBR42	Brazil	Amazona amazonica	2004
-EU093972	PBFDVBR03	Brazil	Psittacula krameri	2004
-EU093973	PBFDVBR07	Brazil	Amazona aestiva	2004
-EU093974	PBFDVBR08	Brazil	Psittacula krameri	2004
-EU093976	PBFDVBR15	Brazil	Guarouba guarouba	2004
-EU093977	PBFDVBR17	Brazil	Guarouba guarouba	2004
-EU093978	PBFDVBR25	Brazil	Amazona aestiva	2004
-EU093979	PBFDVBR41	Brazil	Melopsittacus undulatus	2005
-EU139440	-	Czech Republic	Amazona aestiva	-
-EU139441	-	Czech Republic	Agapornis roseicollis	-
-EU139442	-	Slovakia	Agapornis roseicollis	-
-EU139443	-	Czech Republic	Agapornis roseicollis	-
-EU139444	-	Czech Republic	Agapornis roseicollis	-
-EU139445	-	Czech Republic	Agapornis sp.	-
-EU139446	-	Slovakia	Cacatua alba	-
-EU139447	-	Czech Republic	Cacatua galerita	-
-EU139448	-	Czech Republic	Cacatua leadbeateri	-
-EU139449	-	Slovakia	Cacatua sulphurea	-
-EU139450	-	Czech Republic	Eunymphicus cornutus	-
-EU139451	-	Czech Republic	Eclectus roratus	-
-EU139452	-	Czech Republic	Lorius chlorocercus	-
-EU139453	-	Czech Republic	Melopsittacus undulatus	-
-EU139454	-	Slovakia	Melopsittacus undulatus	-
-EU139455	-	Czech Republic	Melopsittacus undulatus	-
-EU139456	-	Czech Republic	Melopsittacus undulatus	-
-EU139457	-	Czech Republic	Probosciger aterrimus	-
-EU139458	-	Czech Republic	Poicephalus cryptoxanthus	-
-EU139459	-	Czech Republic	Psittacus erithacus	-
-EU139460	-	Czech Republic	Psittacus erithacus	-
-EU139461	-	Czech Republic	Psittacus erithacus	-
-EU139462	-	Czech Republic	Psittacus erithacus	-
-EU139463	-	Czech Republic	Psittacus erithacus	-
-EU139464	-	Czech Republic	Psittacus erithacus	-
-EU139465	-	Czech Republic	Psittacus erithacus	-
-EU139466	-	Czech Republic	Platycercus eximius	-
-EU139467	-	Czech Republic	Psephotus haematonotus	-
-EU139468	-	Czech Republic	Psittacula krameri	-
-EU139469	-	Czech Republic	Poicephalus senegalus	-
-EU139470	-	Czech Republic	Platycercus venustus	-
-EU139471	-	Czech Republic	Trichoglossus haematodus	-
-EU624324	PAR	South Africa	Psittacula krameri	-
-EU624325	RBKH	South Africa	Poicephalus rufiventris	-
-EU624326	DGR	South Africa	Psittacus erithacus	-
-EU624327	JKH	South Africa	Poicephalus gulielmi massaicus	-
-EU624328	LBR	South Africa	Agapornis roseicollis	-
-EU624329	KWS	South Africa	Psittacula krameri	-
-EU810207	PT08	Portugal	Psittacus erithacus	2008
-EU810208	PT05	Portugal	Psittacus erithacus	2005
-FJ685978	BFDV6	Thailand	Cacatua sulphurea	2005
-FJ685979	BFDV7	Thailand	Cacatua sulphurea	2005
-FJ685980	BFDV8	Thailand	Ara ararauna	2006
-FJ685989	BFDV17	Thailand	Cacatua moluccensis	2006
-GQ120621	BFDV-PT08-2	Portugal	Psittacus erithacus	2008
-GQ165756	BKS1ZA_84	South Africa	Budgerigar	2003
-GQ165757	BKS2ZA_85	South Africa	Budgerigar	2003
-GQ165758	BKS3ZA_86	South Africa	Budgerigar	2003
-GQ329705	PT09	Portugal	Psittacus erithacus	2009
-GQ396652	BFDV_NZ_CN_B84b_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GQ396653	BFDV_NZ_CN_B77_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GQ396654	BFDV_NZ_CN_B80_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GQ396655	BFDV_NZ_CN_B78_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GQ396656	BFDV_NZ_CN_B81_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU015012	BFDV1	Thailand	Psittacus erithacus	2005
-GU015013	BFDV2	Thailand	Psittacus erithacus	2006
-GU015014	BFDV3	Thailand	Psittacula eupatria	2006
-GU015015	BFDV4	Thailand	Psittacula eupatria	2006
-GU015016	BFDV5	Thailand	Psittacula eupatria	2006
-GU015017	BFDV9	Thailand	Ara severa	2006
-GU015018	BFDV10	Thailand	Ara nobilis	2006
-GU015019	BFDV11	Thailand	Eclectus roratus	2006
-GU015020	BFDV12	Thailand	Eclectus roratus	2006
-GU015021	BFDV14	Thailand	Ara chloropterus	2009
-GU015022	BFDV15	Thailand	Probosciger aterrimus	2006
-GU015023	BFDV16	Thailand	Ara ambigua	2006
-GU047347	PT09-2	Portugal	Psittacus erithacus	2009
-GU936287	BFDV_NZ_PE_B51_2008	New Zealand	Platycercus eximius	2008
-GU936288	BFDV_NZ_CN_B195_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU936289	BFDV_NZ_CN_B157_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU936290	BFDV_NZ_CN_B326_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU936291	BFDV_NZ_CN_B79_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU936292	BFDV_NZ_CN_B162a_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU936293	BFDV_NZ_CN_B133_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU936294	BFDV_NZ_CN_B125_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU936295	BFDV_NZ_CN_B192_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU936296	BFDV_NZ_CN_B127_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-GU936297	BFDV_NZ_CN_B162b_2008	New Zealand	Cyanoramphus novaezelandiae	2008
-HM565916	-	Saudi Arabia	Psittacus erithacus (African grey parrot)	2008
-HM748918	BFDV_ZA_PR_60A_2008	South Africa	Poicephalus robustus	2008
-HM748919	BFDV_ZA_PGM_81A_2008	South Africa	Poicephalus gulielmi massaicus	2008
-HM748920	BFDV_ZA_PGM_80A_2008	South Africa	Poicephalus gulielmi massaicus	2008
-HM748921	BFDV_ZA_PGM_70A_2008	South Africa	Poicephalus gulielmi massaicus	2008
-HM748922	BFDV_ZA_PGM_69A_2008	South Africa	Poicephalus gulielmi massaicus	2008
-HM748923	BFDV_ZA_PGM_68A_2008	South Africa	Poicephalus gulielmi massaicus	2008
-HM748924	BFDV_ZA_Am_83e_2008	South Africa	Amazona sp.	2008
-HM748925	BFDV_ZA_Am_83a_2008	South Africa	Amazona sp.	2008
-HM748926	BFDV_ZA_ER_78a_2008	South Africa	Eclectus roratus	2008
-HM748927	BFDV_ZA_PK_76f_2008	South Africa	Psittacula krameri	2008
-HM748928	BFDV_ZA_PK_75A_2008	South Africa	Psittacula krameri	2008
-HM748929	BFDV_ZA_PK_74d_2008	South Africa	Psittacula krameri	2008
-HM748930	BFDV_ZA_PR_61A_2008	South Africa	Poicephalus robustus	2008
-HM748931	BFDV_ZA_PE_55A_2008	South Africa	Poicephalus robustus	2008
-HM748932	BFDV_ZA_PR_54b_2008	South Africa	Poicephalus robustus	2008
-HM748933	BFDV_ZA_PR_54A_2008	South Africa	Poicephalus robustus	2008
-HM748934	BFDV_ZA_PR_51A_2008	South Africa	Poicephalus robustus	2008
-HM748935	BFDV_ZA_PR_50A_2008	South Africa	Poicephalus robustus	2008
-HM748936	BFDV_ZA_PR_45A_2008	South Africa	Poicephalus robustus	2008
-HM748937	BFDV_ZA_PR_42A_2008	South Africa	Poicephalus robustus	2008
-HM748938	BFDV_ZA_PR_41a_2008	South Africa	Poicephalus robustus	2008
-HM748939	BFDV_ZA_38A_PR_2008	South Africa	Poicephalus robustus	2008
-HQ641457	002R06/07	Mauritius	Psittacula krameri	2006
-HQ641458	003R06/07	Mauritius	Psittacula krameri	2006
-HQ641459	007R06/07	Mauritius	Psittacula krameri	2006
-HQ641460	010R06/07	Mauritius	Psittacula krameri	2006
-HQ641461	011R06/07	Mauritius	Psittacula krameri	2006
-HQ641462	013R06/07	Mauritius	Psittacula krameri	2007
-HQ641463	014R06/07	Mauritius	Psittacula krameri	2007
-HQ641464	016R06/07	Mauritius	Psittacula krameri	2007
-HQ641465	017R06/07	Mauritius	Psittacula krameri	2007
-HQ641466	018R06/07	Mauritius	Psittacula krameri	2007
-HQ641467	019R06/07	Mauritius	Psittacula krameri	2007
-HQ641468	022R06/07	Mauritius	Psittacula krameri	2007
-HQ641469	024R06/07	Mauritius	Psittacula krameri	2007
-HQ641470	025R06/07	Mauritius	Psittacula krameri	2007
-HQ641471	026R06/07	Mauritius	Psittacula krameri	2007
-HQ641472	027R06/07	Mauritius	Psittacula krameri	2007
-HQ641473	028R06/07	Mauritius	Psittacula krameri	2007
-HQ641474	029R06/07	Mauritius	Psittacula krameri	2007
-HQ641475	031R06/07	Mauritius	Psittacula krameri	2007
-HQ641476	032R06/07	Mauritius	Psittacula krameri	2007
-HQ641477	034R05/06	Mauritius	Psittacula krameri	2005
-HQ641478	035R06/07	Mauritius	Psittacula krameri	2006
-HQ641479	036R06/07	Mauritius	Psittacula krameri	2006
-HQ641480	037R95/96	Mauritius	Psittacula krameri	1995
-HQ641481	040R05/06	Mauritius	Psittacula krameri	2005
-HQ641482	076R07/08	Mauritius	Psittacula krameri	2007
-HQ641483	081R06/07	Mauritius	Psittacula krameri	2007
-HQ641484	085R07/08	Mauritius	Psittacula krameri	2008
-HQ641485	087R07/08	Mauritius	Psittacula krameri	2008
-HQ641486	088R07/08	Mauritius	Psittacula krameri	2008
-HQ641487	091R07/08	Mauritius	Psittacula krameri	2008
-HQ641488	094R07/08	Mauritius	Psittacula krameri	2008
-HQ641489	099R07/08	Mauritius	Psittacula krameri	2008
-HQ641490	115R06/07	Mauritius	Psittacula krameri	2007
-HQ641491	048E95/96	Mauritius	Psittacula echo	1995
-HQ641492	056E93/94	Mauritius	Psittacula echo	1993
-HQ641493	060E96/97	Mauritius	Psittacula echo	1996
-HQ641494	064E05/06	Mauritius	Psittacula echo	2006
-HQ641495	065E05/06	Mauritius	Psittacula echo	2006
-HQ641496	068E05/06	Mauritius	Psittacula echo	2006
-HQ641497	071E05/06	Mauritius	Psittacula echo	2006
-HQ641498	078E05/06	Mauritius	Psittacula echo	2006
-HQ641499	127E04/05	Mauritius	Psittacula echo	2004
-HQ641500	128E04/05	Mauritius	Psittacula echo	2004
-HQ641501	130E04/05	Mauritius	Psittacula echo	2004
-HQ641502	131E04/05	Mauritius	Psittacula echo	2004
-HQ641503	172E05/06	Mauritius	Psittacula echo	2005
-HQ641504	173E05/06	Mauritius	Psittacula echo	2006
-HQ641505	181E05/06	Mauritius	Psittacula echo	2006
-HQ641506	187E05/06	Mauritius	Psittacula echo	2006
-HQ641507	207E05/06	Mauritius	Psittacula echo	2005
-HQ641508	209E05/06	Mauritius	Psittacula echo	2006
-HQ641509	210E05/06	Mauritius	Psittacula echo	2005
-HQ641510	214E05/06	Mauritius	Psittacula echo	2005
-HQ641511	216E05/06	Mauritius	Psittacula echo	2005
-HQ641512	217E05/06	Mauritius	Psittacula echo	2006
-HQ641513	219E05/06	Mauritius	Psittacula echo	2005
-HQ641514	220E05/06	Mauritius	Psittacula echo	2005
-HQ641515	221E05/06	Mauritius	Psittacula echo	2005
-HQ641516	223E04/05	Mauritius	Psittacula echo	2005
-HQ641517	224E05/06	Mauritius	Psittacula echo	2006
-HQ641518	226E05/06	Mauritius	Psittacula echo	2006
-HQ641519	229E05/06	Mauritius	Psittacula echo	2006
-HQ641520	232E05/06	Mauritius	Psittacula echo	2005
-HQ641521	233E05/06	Mauritius	Psittacula echo	2005
-HQ641522	234E05/06	Mauritius	Psittacula echo	2006
-HQ641523	235E05/06	Mauritius	Psittacula echo	2005
-HQ641524	238E05/06	Mauritius	Psittacula echo	2005
-HQ641525	240E05/06	Mauritius	Psittacula echo	2005
-HQ641526	241E05/06	Mauritius	Psittacula echo	2005
-HQ641527	242E05/06	Mauritius	Psittacula echo	2006
-HQ641528	244E05/06	Mauritius	Psittacula echo	2005
-HQ641529	245E05/06	Mauritius	Psittacula echo	2006
-HQ641530	247E05/06	Mauritius	Psittacula echo	2006
-HQ641531	248E05/06	Mauritius	Psittacula echo	2006
-HQ641532	251E05/06	Mauritius	Psittacula echo	2006
-HQ641533	257E06/07	Mauritius	Psittacula echo	2006
-HQ641534	272E05/06	Mauritius	Psittacula echo	2006
-HQ641535	273E05/06	Mauritius	Psittacula echo	2006
-HQ641536	278E06/07	Mauritius	Psittacula echo	2006
-HQ641537	281E06/07	Mauritius	Psittacula echo	2006
-HQ641538	292E05/06	Mauritius	Psittacula echo	2006
-HQ641539	317E06/07	Mauritius	Psittacula echo	2006
-HQ641540	322E06/07	Mauritius	Psittacula echo	2006
-HQ641541	351E06/07	Mauritius	Psittacula echo	2006
-HQ641542	355E06/07	Mauritius	Psittacula echo	2006
-HQ641543	356E06/07	Mauritius	Psittacula echo	2006
-HQ641544	383E07/08	Mauritius	Psittacula echo	2007
-HQ641545	388E07/08	Mauritius	Psittacula echo	2007
-HQ641546	390E07/08	Mauritius	Psittacula echo	2007
-HQ641547	400E07/08	Mauritius	Psittacula echo	2007
-HQ641548	414E07/08	Mauritius	Psittacula echo	2007
-HQ641549	438E07/08	Mauritius	Psittacula echo	2007
-HQ641550	441E07/08	Mauritius	Psittacula echo	2007
-HQ641551	447E07/08	Mauritius	Psittacula echo	2007
-HQ641552	449E07/08	Mauritius	Psittacula echo	2007
-HQ641553	551E08/09	Mauritius	Psittacula echo	2009
-HQ641554	508E08/09	Mauritius	Psittacula echo	2009
-HQ641555	528E08/09	Mauritius	Psittacula echo	2009
-HQ641556	593E08/09	Mauritius	Psittacula echo	2009
-HQ641557	597E08/09	Mauritius	Psittacula echo	2009
-HQ641558	474E08/09	Mauritius	Psittacula echo	2009
-HQ641559	598E08/09	Mauritius	Psittacula echo	2009
-HQ641560	550E08/09	Mauritius	Psittacula echo	2008
-HQ641561	611E08/09	Mauritius	Psittacula echo	2008
-HQ641562	520E08/09	Mauritius	Psittacula echo	2008
-HQ641563	544E08/09	Mauritius	Psittacula echo	2008
-HQ662336	048E95/96	Mauritius	Psittacula echo	1995
-HQ662337	056E93/94	Mauritius	Psittacula echo	1993
-HQ662338	064E05/06	Mauritius	Psittacula echo	2006
-HQ662339	065E05/06	Mauritius	Psittacula echo	2006
-HQ662340	068E05/06	Mauritius	Psittacula echo	2006
-HQ662341	071E05/06	Mauritius	Psittacula echo	2006
-HQ662342	078E05/06	Mauritius	Psittacula echo	2006
-HQ662343	173E05/06	Mauritius	Psittacula echo	2006
-HQ662344	181E05/06	Mauritius	Psittacula echo	2006
-HQ662345	187E05/06	Mauritius	Psittacula echo	2006
-HQ662346	207E05/06	Mauritius	Psittacula echo	2005
-HQ662347	209E05/06	Mauritius	Psittacula echo	2006
-HQ662348	217E05/06	Mauritius	Psittacula echo	2006
-HQ662349	219E05/06	Mauritius	Psittacula echo	2005
-HQ662350	229E05/06	Mauritius	Psittacula echo	2006
-HQ662351	235E05/06	Mauritius	Psittacula echo	2005
-HQ662352	240E05/06	Mauritius	Psittacula echo	2005
-HQ662353	244E05/06	Mauritius	Psittacula echo	2005
-HQ662354	245E05/06	Mauritius	Psittacula echo	2006
-HQ662355	247E05/06	Mauritius	Psittacula echo	2006
-HQ662356	272E05/06	Mauritius	Psittacula echo	2006
-HQ662357	273E05/06	Mauritius	Psittacula echo	2006
-HQ662358	278E06/07	Mauritius	Psittacula echo	2006
-HQ662359	292E06/07	Mauritius	Psittacula echo	2006
-HQ662360	317E06/07	Mauritius	Psittacula echo	2006
-HQ662361	322E06/07	Mauritius	Psittacula echo	2006
-HQ662362	351E06/07	Mauritius	Psittacula echo	2006
-HQ662363	355E06/07	Mauritius	Psittacula echo	2006
-HQ662364	356E06/07	Mauritius	Psittacula echo	2006
-HQ662365	383E07/08	Mauritius	Psittacula echo	2007
-HQ662366	388E07/08	Mauritius	Psittacula echo	2007
-HQ662367	390E07/08	Mauritius	Psittacula echo	2007
-HQ662368	400E07/08	Mauritius	Psittacula echo	2007
-HQ662369	414E07/08	Mauritius	Psittacula echo	2007
-HQ662370	441E07/08	Mauritius	Psittacula echo	2007
-HQ662371	447E07/08	Mauritius	Psittacula echo	2007
-HQ662372	449E07/08	Mauritius	Psittacula echo	2007
-HQ662373	551E08/09	Mauritius	Psittacula echo	2009
-HQ662374	508E08/09	Mauritius	Psittacula echo	2009
-HQ662375	528E08/09	Mauritius	Psittacula echo	2009
-HQ662376	521E08/09	Mauritius	Psittacula echo	2009
-HQ662377	570E08/09	Mauritius	Psittacula echo	2009
-HQ662378	593E08/09	Mauritius	Psittacula echo	2009
-HQ662379	597E08/09	Mauritius	Psittacula echo	2009
-HQ662380	474E08/09	Mauritius	Psittacula echo	2009
-HQ662381	598E08/09	Mauritius	Psittacula echo	2009
-HQ662382	611E08/09	Mauritius	Psittacula echo	2008
-HQ662383	520E08/09	Mauritius	Psittacula echo	2008
-HQ662384	544E08/09	Mauritius	Psittacula echo	2008
-HQ662385	586E08/09	Mauritius	Psittacula echo	2008
-HQ662386	002R06/07	Mauritius	Psittacula krameri	2006
-HQ662387	010R06/07	Mauritius	Psittacula krameri	2006
-HQ662388	013R06/07	Mauritius	Psittacula krameri	2007
-HQ662389	014R06/07	Mauritius	Psittacula krameri	2007
-HQ662390	016R06/07	Mauritius	Psittacula krameri	2007
-HQ662391	017R06/07	Mauritius	Psittacula krameri	2007
-HQ662392	018R06/07	Mauritius	Psittacula krameri	2007
-HQ662393	022R06/07	Mauritius	Psittacula krameri	2007
-HQ662394	024R06/06	Mauritius	Psittacula krameri	2007
-HQ662395	026R06/07	Mauritius	Psittacula krameri	2007
-HQ662396	027R06/07	Mauritius	Psittacula krameri	2007
-HQ662397	028R06/07	Mauritius	Psittacula krameri	2007
-HQ662398	029R06/07	Mauritius	Psittacula krameri	2007
-HQ662399	031R06/07	Mauritius	Psittacula krameri	2007
-HQ662400	076R07/08	Mauritius	Psittacula krameri	2007
-HQ662401	081R06/07	Mauritius	Psittacula krameri	2007
-HQ662402	085R07/08	Mauritius	Psittacula krameri	2008
-HQ662403	087R07/08	Mauritius	Psittacula krameri	2008
-HQ662404	088R07/08	Mauritius	Psittacula krameri	2008
-HQ662405	091R07/08	Mauritius	Psittacula krameri	2008
-HQ662406	094R07/08	Mauritius	Psittacula krameri	2008
-HQ662407	099R07/08	Mauritius	Psittacula krameri	2008
-HQ662408	115R06/07	Mauritius	Psittacula krameri	2007
-HQ662409	E0109542	Mauritius	Psittacula echo	2009
-JF501523	IT02	Italy	Aratinga solstitialis	2008
-JF501524	IT04	Italy	Melopsittacus undulatus	2008
-JF501525	IT05	Italy	Agapornis roseicollis	2008
-JF501526	IT06	Italy	Agapornis roseicollis	2008
-JF501527	IT24	Italy	Cacatua alba	2010
-JF501528	IT26	Italy	Psittacus erithacus	2010
-JF501529	IT27	Italy	Psittacus erithacus	2010
-JF501530	IT33	Italy	Psittacus erithacus	2010
-JF501531	IT40	Italy	Psittacus erithacus	2010
-JF501532	IT47	Italy	Psittacus erithacus	2010
-JF519618	BFDV-NZ_L53_2010	New Zealand	Cyanoramphus novaezelandiae	2010
-JF519619	BFDV-NZ_R18_2010	New Zealand	Platycercus eximius	2010
-JF827600	IT54	Italy	Psittacus erithacus	2008
-JF827601	IT60	Italy	Psittacus erithacus	2008
-JQ649409	BH 732	Brazil	Amazona aestiva	2011
-JQ649410	BH 215	Brazil	Amazona aestiva	2011
-JQ649411	BH 27	Brazil	Psittacula krameri	2011
-JQ782196	D134138	New Zealand	Platycercus eximius	2009
-JQ782197	D134142	New Zealand	Platycercus eximius	2009
-JQ782198	D134144	New Zealand	Platycercus eximius	2009
-JQ782199	D134146	New Zealand	Platycercus eximius	2009
-JQ782200	SCPA2	New Zealand	Platycercus eximius	2009
-JQ782201	YCP01-11	New Zealand	Cyanoramphus auriceps	2011
-JQ782202	YCP28F	New Zealand	Cyanoramphus auriceps	2012
-JQ782203	YCP24	New Zealand	Cyanoramphus auriceps	2012
-JQ782204	YCP23	New Zealand	Cyanoramphus auriceps	2012
-JQ782205	YCP21	New Zealand	Cyanoramphus auriceps	2012
-JQ782206	YCP19	New Zealand	Cyanoramphus auriceps	2012
-JQ782207	YCP25	New Zealand	Cyanoramphus auriceps	2012
-JQ782208	YCP20	New Zealand	Cyanoramphus auriceps	2012
-JX049196	NC107	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049197	NC108	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049198	NC109	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049199	NCF19	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049200	NCL1	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049201	NCL3	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049202	NCL7	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049203	NCL9	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049204	2NC37F	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049205	2NC38F	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049206	2NC39B	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049207	2NC40F	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049208	2NC41B	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049209	2NC42B	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049210	2NC43B	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049211	2NC44B	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049212	2NC94F	New Caledonia	Trichoglossus haematodus deplanchii	2011
-JX049213	2NC85B	New Caledonia	Eclectus roratus	2011
-JX049217	2NC89B	New Caledonia	Eclectus roratus	2011
-JX049218	2NC90B	New Caledonia	Eclectus roratus	2011
-JX049220	2NC92F	New Caledonia	Cyanoramphus saisetti	2011
-JX221004	BFDV-Q_PL-1067_2010	Poland	Melopsittacus undulatus	2010
-JX221006	BFDV-J_PL-1229_2010	Poland	Platycercus elegans	2011
-JX221007	BFDV-J_PL-1232_2011	Poland	Psittacula krameri	2011
-JX221008	BFDV-J_PL-1233_2011	Poland	Psittacula krameri	2011
-JX221009	BFDV-Q_PL-1240_2011	Poland	Melopsittacus undulatus	2011
-JX221013	BFDV-I_PL-13_2003	Poland	Poicephalus robustus	2003
-JX221015	BFDV-S_PL-168_2006	Poland	Aprosmictus erythropterus	2006
-JX221016	BFDV-S_PL-169_2006	Poland	Aprosmictus erythropterus	2006
-JX221017	BFDV-T_PL-328_2007	Poland	Psittacula krameri	2007
-JX221018	BFDV-T_PL-336_2007	Poland	Psittacus erithacus	2007
-JX221020	BFDV-T_PL-376_2007	Poland	Psittacus erithacus	2007
-JX221021	BFDV-T_PL-378_2007	Poland	Amazona amazonica	2007
-JX221022	BFDV-T_PL-399_2007	Poland	Psittacus erithacus	2007
-JX221024	BFDV-Q_PL-418_2007	Poland	Forpus coelestis	2007
-JX221025	BFDV-B-D_PL-479_2007	Poland	Cacatua alba	2007
-JX221026	BFDV-B-D_PL-482_2007	Poland	Melopsittacus undulatus	2007
-JX221027	BFDV-B-D_PL-483_2007	Poland	Melopsittacus undulatus	2007
-JX221028	BFDV-B-D_PL-496_2007	Poland	Melopsittacus undulatus	2007
-JX221032	BFDV-J_PL-573_2008	Poland	Psittacus erithacus	2008
-JX221033	BFDV-J_PL-677_2008	Poland	Alisterus scapularis	2008
-JX221034	BFDV-N_PL-680_2008	Poland	Melopsittacus undulatus	2008
-JX221035	BFDV-J_PL-683_2008	Poland	Platycercus eximius	2008
-JX221036	BFDV-J_PL-684_2008	Poland	Alexandrine parakeet	2008
-JX221037	BFDV-J_PL-688_2008	Poland	Psittacus erithacus	2008
-JX221038	BFDV-I_PL-711_2008	Poland	Psittacus erithacus	2008
-JX221039	BFDV-I_PL-717_2008	Poland	Psittacus erithacus	2008
-JX221040	BFDV-R_PL-742_2008	Poland	Amazona aestiva	2008
-JX221041	BFDV-J_PL-785_2009	Poland	Psittacus erithacus	2009
-JX221042	BFDV-I_PL-830_2009	Poland	Alexandrine parakeet	2009
-JX221043	BFDV-Q_PL-902_2009	Poland	Platycercus elegans	2009
-KC121339	COR08000	Australia	Cacatua pastinator	2008
-KC121340	OBP08450	Australia	Neophema chrysogaster	2008
-KC693651	CS12082720213	Australia	Neophema chrysogaster	2012
-KC693652	CS12082720203	Australia	Neophema chrysogaster	2012
-KC693653	CS12082720214	Australia	Neophema chrysogaster	2012
-KC980909	Taiwan-1	Taiwan	Cacatua ophthalmica	2013
-KF188681	CS08-416-OBP-TAS-19144	Australia	Orange-bellied parrot	-
-KF188682	CS08-418-OBP-TAS-19118	Australia	Orange-bellied parrot	-
-KF188683	CS08-423-OBP-TAS-19076	Australia	Orange-bellied parrot	-
-KF188684	CS08-424-OBP-TAS-19136	Australia	Orange-bellied parrot	-
-KF188685	CS08-425-OBP-TAS-19140	Australia	Orange-bellied parrot	-
-KF188686	CS08-448-OBP-TAS-19124	Australia	Orange-bellied parrot	-
-KF188687	CS08-449-OBP-TAS-19167	Australia	Orange-bellied parrot	-
-KF188688	CS08-450-OBP-TAS-19183	Australia	Orange-bellied parrot	-
-KF188689	CS08-459-OBP-TAS-19157	Australia	Orange-bellied parrot	-
-KF188690	CS08-482-OBP-TAS-19139	Australia	Orange-bellied parrot	-
-KF188691	CS10-1017-OBP-VIC-HS030910-B	Australia	Orange-bellied parrot	-
-KF188692	CS10-1018-OBP-VIC-HS030910-c	Australia	Orange-bellied parrot	-
-KF188693	CS11-1361-OBP-VIC-B10750	Australia	Orange-bellied parrot	-
-KF188694	CS12-0364-OBP-TAS-B10083	Australia	Orange-bellied parrot	-
-KF188695	CS12-0364-QA2-OBP-TAS-B10083	Australia	Orange-bellied parrot	2012
-KF188696	CS10-1018-QB2-OBP-VIC-HS030910-C	Australia	Orange-bellied parrot	2010
-KF188697	CS10-1018-QB3-OBP-VIC-HS030910-C	Australia	Orange-bellied parrot	2010
-KF188698	CS10-1018-QB4-OBP-VIC-HS030910-C	Australia	Orange-bellied parrot	2010
-KF188699	CS10-1018-QB5-OBP-VIC-HS030910-C	Australia	Orange-bellied parrot	2010
-KF188700	CS10-1018-QB6-OBP-VIC-HS030910-C	Australia	Orange-bellied parrot	2010
-KF188701	CS10-1018-QB7-OBP-VIC-HS030910-C	Australia	Orange-bellied parrot	2010
-KF188702	CS08-423-QC2-OBP-TAS-19076	Australia	Orange-bellied parrot	2008
-KF188703	CS08-448-QD2-OBP-TAS-19124	Australia	Orange-bellied parrot	2008
-KF197006	BFD09-172-OBP-VIC	Australia	Orange-bellied parrot	2009
-KF197007	CS11-1116-OBP-VIC-H51805511-A	Australia	Orange-bellied parrot	2011
-KF197008	CS11-1118-OBP-VIC	Australia	Orange-bellied parrot	2011
-KF197009	CS11-1122-OBP-VIC	Australia	Orange-bellied parrot	2011
-KF197010	CS11-1123-OBP-VIC-H5180511-H	Australia	Orange-bellied parrot	2011
-KF197011	CS11-1124-OBP-VIC-H5180511-I	Australia	Orange-bellied parrot	2011
-KF197012	CS11-1358-OBP-VIC-B10754	Australia	Orange-bellied parrot	2011
-KF197013	CS11-2779-OBP-VIC-230-16982	Australia	Orange-bellied parrot	2011
-KF197014	CS12-0863-OBP-TAS	Australia	Orange-bellied parrot	2012
-KF197015	CS12-1776-OBP-VIC-HS290612-A	Australia	Orange-bellied parrot	2012
-KF197016	CS12-1779-OBP-VIC	Australia	Orange-bellied parrot	2012
-KF197017	CS12-2144-1-OBP-TAS-HS080	Australia	Orange-bellied parrot	2012
-KF197018	CS12-2144-3-OBP-TAS	Australia	Orange-bellied parrot	2012
-KF197019	CS12-2144-5-OBP-TAS-HS192	Australia	Orange-bellied parrot	2012
-KF197020	CS12-2144-7-OBP-TAS-20263	Australia	Orange-bellied parrot	2012
-KF197021	CS12-2144-9-OBP-TAS-20264	Australia	Orange-bellied parrot	2012
-KF197022	CS12-2144-11-OBP-TAS-20226	Australia	Orange-bellied parrot	2012
-KF197023	CS12-2144-13-OBP-TAS	Australia	Orange-bellied parrot	2012
-KF385399	BFDV_AUS_RTBC_13_1780_052	Australia	Calyptorhynchus banksii	2013
-KF385400	BFDV_AUS_RTBC_13_1780_055	Australia	Calyptorhynchus banksii	2013
-KF385401	BFDV_AUS_GGC_96_1404	Australia	Callocephalon fimbriatum	1996
-KF385402	BFDV_AUS_GGC_04_604	Australia	Callocephalon fimbriatum	2004
-KF385403	BFDV_AUS_GGC_10_863	Australia	Callocephalon fimbriatum	2010
-KF385404	BFDV_AUS_GGC_11_1212	Australia	Callocephalon fimbriatum	2011
-KF385405	BFDV_AUS_GGC_11_1213	Australia	Callocephalon fimbriatum	2011
-KF385406	BFDV_AUS_MMC_04_593	Australia	Cacatua leadbeateri	2004
-KF385407	BFDV_AUS_MMC_1997	Australia	Cacatua leadbeateri	1997
-KF385408	BFDV_AUS_GBC_06_939	Australia	Calyptorhynchus lathami	2006
-KF385409	BFDV_AUS_GBC_11_383	Australia	Calyptorhynchus lathami	2011
-KF385410	BFDV_AUS_GBC_11_385	Australia	Calyptorhynchus lathami	2011
-KF385411	BFDV_AUS_GBC_11_391	Australia	Calyptorhynchus lathami	2011
-KF385412	BFDV_AUS_GBC_11_392	Australia	Calyptorhynchus lathami	2011
-KF385413	BFDV_AUS_SCC_05_746	Australia	Cacatua galerita	2005
-KF385414	BFDV_AUS_SCC_06_854	Australia	Cacatua galerita	2006
-KF385415	BFDV_AUS_SCC_12_3044_001	Australia	Cacatua galerita	2012
-KF385417	BFDV_AUS_SCC_13_0679_001	Australia	Cacatua galerita	2013
-KF385418	BFDV_AUS_SCC_W0610	Australia	Cacatua galerita	2010
-KF385419	BFDV_AUS_SCC_W16710	Australia	Cacatua galerita	2010
-KF385420	BFDV_AUS_LBC_LBC2	Australia	Cacatua tenuirostris	2010
-KF385421	BFDV_AUS_LBC_LBC6	Australia	Cacatua tenuirostris	2010
-KF385422	BFDV_AUS_LBC_LBC7	Australia	Cacatua tenuirostris	2010
-KF385423	BFDV_AUS_LBC_LBC10	Australia	Cacatua tenuirostris	2010
-KF385424	BFDV_AUS_LBC_LBC11	Australia	Cacatua tenuirostris	2010
-KF385425	BFDV_AUS_LBC_LBC33	Australia	Cacatua tenuirostris	2010
-KF385426	BFDV_AUS_LBC_LBC50	Australia	Cacatua tenuirostris	2010
-KF385427	BFDV_AUS_LBC_LBC51	Australia	Cacatua tenuirostris	2010
-KF385428	BFDV_AUS_LBC_W45610	Australia	Cacatua tenuirostris	2010
-KF385429	BFDV_AUS_LBC_13_1622_006	Australia	Cacatua tenuirostris	2013
-KF385430	BFDV_AUS_Galah_12_1474	Australia	Eolophus roseicapillus	2012
-KF385431	BFDV_AUS_Galah_04_065	Australia	Eolophus roseicapillus	2004
-KF385432	BFDV_AUS_Galah_04_093A	Australia	Eolophus roseicapillus	2004
-KF385433	BFDV_AUS_Galah_04_093B	Australia	Eolophus roseicapillus	2004
-KF385434	BFDV_AUS_Galah_04_245	Australia	Eolophus roseicapillus	2004
-KF385435	BFDV_AUS_Galah_04_298	Australia	Eolophus roseicapillus	2004
-KF385436	BFDV_AUS_Galah_04_410	Australia	Eolophus roseicapillus	2004
-KF467251	BFDV-NZ_OR2_2012	New Zealand	Platycercus eximius	2012
-KF467252	BFDV-NZ_OR3_2012	New Zealand	Platycercus eximius	2012
-KF467253	BFDV-NZ_OR4_2012	New Zealand	Platycercus eximius	2012
-KF467254	BFDV-NZ_OR5_2012	New Zealand	Platycercus eximius	2012
-KF495566	BFDV_AUS_04_491	Australia	Callocephalon fimbriatum	2004
-KF495567	BFDV_AUS_11_381	Australia	Calyptorhynchus lathami	2011
-KF495568	BFDV_AUS_04_723	Australia	Lophochroa leadbeateri	2004
-KF495569	BFDV_AUS_04_066	Australia	Cacatua galerita	2004
-KF495570	BFDV_AUS_04_074	Australia	Cacatua galerita	2004
-KF495571	BFDV_AUS_04_092	Australia	Cacatua galerita	2004
-KF495572	BFDV_AUS_04_115	Australia	Cacatua galerita	2004
-KF495573	BFDV_AUS_04_186	Australia	Cacatua galerita	2004
-KF495574	BFDV_AUS_04_195	Australia	Cacatua galerita	2004
-KF495575	BFDV_AUS_04_227	Australia	Cacatua galerita	2004
-KF495576	BFDV_AUS_04_241	Australia	Cacatua galerita	2004
-KF495577	BFDV_AUS_04_339	Australia	Cacatua galerita	2004
-KF495578	BFDV_AUS_04_344	Australia	Cacatua galerita	2004
-KF495579	BFDV_AUS_04_509	Australia	Cacatua galerita	2004
-KF495580	BFDV_AUS_04_611	Australia	Cacatua galerita	2004
-KF495581	BFDV_AUS_04_859	Australia	Cacatua galerita	2004
-KF495582	BFDV_AUS_04_977	Australia	Cacatua galerita	2004
-KF495583	BFDV_AUS_05_1042	Australia	Cacatua galerita	2005
-KF495584	BFDV_AUS_05_1235	Australia	Cacatua galerita	2005
-KF495585	BFDV_AUS_06_1163	Australia	Cacatua galerita	2006
-KF495586	BFDV_AUS_06_1276	Australia	Cacatua galerita	2006
-KF495587	BFDV_AUS_12_1386	Australia	Cacatua galerita	2012
-KF495588	BFDV_AUS_12_1188	Australia	Cacatua galerita	2012
-KF495589	BFDV_AUS_04_040	Australia	Cacatua tenuirostris	2010
-KF495590	BFDV_AUS_LBC30	Australia	Cacatua tenuirostris	2010
-KF495591	BFDV_AUS_LBC34	Australia	Cacatua tenuirostris	2010
-KF495592	BFDV_AUS_LBC47	Australia	Cacatua tenuirostris	2010
-KF495593	BFDV_AUS_LBC52	Australia	Cacatua tenuirostris	2010
-KF495594	BFDV_AUS_LBC55	Australia	Cacatua tenuirostris	2010
-KF495595	BFDV_AUS_LBC57	Australia	Cacatua tenuirostris	2010
-KF495596	BFDV_AUS_LBC58	Australia	Cacatua tenuirostris	2010
-KF495597	BFDV_AUS_04_619	Australia	Eolophus roseicapillus	2004
-KF495598	BFDV_AUS_06_748	Australia	Eolophus roseicapillus	2006
-KF495599	BFDV_AUS_04_303	Australia	Eolophus roseicapillus x Cacatua sanguinea	2004
-KF495600	BFDV_AUS_04_447	Australia	Eolophus roseicapillus x Cacatua sanguinea	2004
-KF499120	13-1780-052-QA2-RTBC-WA	Australia	Calyptorhynchus banksii	2013
-KF499121	13-1780-052-QA3-RTBC-WA	Australia	Calyptorhynchus banksii	2013
-KF499122	13-1780-055-QB2-RTBC-WA	Australia	Calyptorhynchus banksii	2013
-KF499123	13-1780-055-QB3-RTBC-WA	Australia	Calyptorhynchus banksii	2013
-KF499124	13-1780-055-QB4-RTBC-WA	Australia	Calyptorhynchus banksii	2013
-KF499125	13-1780-055-QB5-RTBC-WA	Australia	Calyptorhynchus banksii	2013
-KF499126	96-1404-QC2-GGC-WA	Australia	Callocephalon fimbriatum	1996
-KF499127	96-1404-QC3-GGC-WA	Australia	Callocephalon fimbriatum	1996
-KF499128	96-1404-QC4-GGC-WA	Australia	Callocephalon fimbriatum	1996
-KF499129	96-1404-QC5-GGC-WA	Australia	Callocephalon fimbriatum	1996
-KF499130	96-1404-QC6-GGC-WA	Australia	Callocephalon fimbriatum	1996
-KF499131	96-1404-QC7-GGC-WA	Australia	Callocephalon fimbriatum	1996
-KF499132	04-604-QD2-GGC-WA	Australia	Callocephalon fimbriatum	2004
-KF499133	04-604-QD3-GGC-WA	Australia	Callocephalon fimbriatum	2004
-KF499134	04-604-QD4-GGC-WA	Australia	Callocephalon fimbriatum	2004
-KF499135	05-746-QF2-SCC-VIC	Australia	Cacatua galerita	2005
-KF499136	LBC-10-QG2-LBC-VIC	Australia	Cacatua tenuirostris	2010
-KF499137	LBC-11-QH2-LBC-VIC	Australia	Cacatua tenuirostris	2010
-KF499138	LBC-51-QI2-LBC-VIC	Australia	Cacatua tenuirostris	2010
-KF499139	11-1212-QE2-GGC-NSW	Australia	Callocephalon fimbriatum	2011
-KF499140	11-1212-QE3-GGC-NSW	Australia	Callocephalon fimbriatum	2011
-KF561250	CS12-0827-20214-OBP-TAS	Australia	Neophema chrysogaster	2012
-KF673335	-	Australia	Lathamus discolor	2004
-KF673336	-	Australia	Lathamus discolor	2004
-KF688548	BFDV_AUS_RNP_B13_1996	Australia	Barnardius zonarius semitorquatus	1996
-KF688549	BFDV_AUS_RNP_B14_1996	Australia	Barnardius zonarius semitorquatus	1996
-KF688550	BFDV_AUS_RNP_B15_1996	Australia	Barnardius zonarius semitorquatus	1996
-KF688551	BFDV_AUS_BP_1996	Australia	Neopsephotus bourkii	1996
-KF688553	BFDV_AUS_HP_96_3015	Australia	Psephotus dissimilis	1996
-KF688554	BFDV_AUS_04_146	Australia	Trichoglossus haematodus	2004
-KF688555	BFDV_AUS_04_507	Australia	Trichoglossus haematodus	2004
-KF688556	BFDV_AUS_04_594	Australia	Trichoglossus haematodus	2004
-KF688557	BFDV_AUS_04_626	Australia	Trichoglossus haematodus	2004
-KF688558	BFDV_AUS_04_666	Australia	Trichoglossus haematodus	2004
-KF688559	BFDV_AUS_05_1228	Australia	Trichoglossus haematodus	2005
-KF688560	BFDV_AUS_05_1231	Australia	Trichoglossus haematodus	2005
-KF688561	BFDV_AUS_05_1373	Australia	Trichoglossus haematodus	2005
-KF688562	BFDV_AUS_12_2146	Australia	Trichoglossus haematodus	2012
-KF688563	BFDV_AUS_12_2147	Australia	Trichoglossus haematodus	2012
-KF688564	BFDV_AUS_04_216	Australia	Psittacula krameri manillensis	2004
-KF688565	BFDV_AUS_04_231	Australia	Poicephalus gulielmi	2004
-KF688566	BFDV_AUS_04_291	Australia	Platycercus elegans	2004
-KF688567	BFDV_AUS_W421_10	Australia	Platycercus elegans	2010
-KF688568	BFDV_AUS_04_343	Australia	Amazona oratrix	2004
-KF688569	BFDV_AUS_04_370	Australia	Melopsittacus undulatus	2004
-KF688570	BFDV_AUS_04_862	Australia	Melopsittacus undulatus	2004
-KF688571	BFDV_AUS_04_955	Australia	Melopsittacus undulatus	2004
-KF688572	BFDV_AUS_04_902	Australia	Eclectus roratus	2004
-KF688573	BFDV_AUS_04_696	Australia	Eclectus roratus	2005
-KF723384	6IT09	Italy	Psittacus erithacus	2009
-KF723385	3IT09	Italy	Psittacus erithacus	2009
-KF723386	2IT09	Italy	Psittacus erithacus	2009
-KF723387	8IT10	Italy	Psittacus erithacus	2010
-KF723388	7IT09	Italy	Psittacus erithacus	2009
-KF723389	4IT09	Italy	Psittacus erithacus	2009
-KF723390	9IT11	Italy	Psittacus erithacus	2011
-KF723391	1IT08	Italy	Psittacus erithacus	2008
-KF723392	10IT11	Italy	Psittacus erithacus	2011
-KF723393	5IT09	Italy	Psittacus erithacus	2009
-KF723394	16IT10	Italy	Psittacus erithacus	2010
-KF723395	13IT09	Italy	Psittacus erithacus	2009
-KF723396	20IT11	Italy	Psittacus erithacus	2011
-KF723397	19IT11	Italy	Psittacus erithacus	2011
-KF723398	18IT11	Italy	Psittacus erithacus	2011
-KF723399	15IT10	Italy	Psittacus erithacus	2010
-KF723400	17IT10	Italy	Psittacus erithacus	2010
-KF723401	12IT09	Italy	Psittacus erithacus	2009
-KF723402	11IT09	Italy	Psittacus erithacus	2009
-KF723403	14IT09	Italy	Psittacus erithacus	2009
-KF768545	BFDV_NC13_35	New Caledonia	Trichoglossus haematodus deplanchii	2013
-KF768546	BFDV_NC13_31	New Caledonia	Trichoglossus haematodus deplanchii	2013
-KF768547	BFDV_NC13_30	New Caledonia	Trichoglossus haematodus deplanchii	2013
-KF768548	BFDV_NC13_27	New Caledonia	Trichoglossus haematodus deplanchii	2013
-KF768549	BFDV_NC13_20	New Caledonia	Trichoglossus haematodus deplanchii	2013
-KF768550	BFDV_DL02B	New Caledonia	Trichoglossus haematodus deplanchii	2012
-KF768551	BFDV_DL03B	New Caledonia	Trichoglossus haematodus deplanchii	2012
-KF768552	BFDV_DL10B	New Caledonia	Trichoglossus haematodus deplanchii	2012
-KF768553	BFDV_DL11B	New Caledonia	Trichoglossus haematodus deplanchii	2012
-KF850537	BFDV_AUS_RP_13_1683	Australia	Polytelis anthopeplus monarchoides	2013
-KJ413143	BFDV_RS	Serbia	-	2013
-KJ634410	BFDV_AUS_11_1118_V1	Australia	Neophema chrysogaster	2011
-KJ634411	BFDV_AUS_12_21441_V1	Australia	Neophema chrysogaster	2012
-KJ634412	BFDV_AUS_12_21443_V1	Australia	Neophema chrysogaster	2012
-KJ634413	BFDV_AUS_12_21447_V1	Australia	Neophema chrysogaster	2012
-KJ634414	BFDV_AUS_12_214411_V1	Australia	Neophema chrysogaster	2012
-KJ634415	BFDV_AUS_12_1499	Australia	Trichoglossus haematodus	2012
-KJ634416	BFDV_AUS_12_2146_V1	Australia	Trichoglossus haematodus	2012
-KJ634417	BFDV_AUS_12_2147_V1	Australia	Trichoglossus haematodus	2012
-KJ634418	BFDV_AUS_12_18042	Australia	Trichoglossus rubritorquis	2012
-KJ634419	BFDV_AUS_12_18043	Australia	Trichoglossus rubritorquis	2012
-KJ634420	BFDV_AUS_12_18045	Australia	Trichoglossus rubritorquis	2012
-KJ634421	BFDV_AUS_12_18046	Australia	Trichoglossus rubritorquis	2012
-KJ634422	BFDV_AUS_12_18048	Australia	Trichoglossus rubritorquis	2012
-KJ634423	BFDV_AUS_10_W06_V1	Australia	Cacatua galerita	2010
-KJ634424	BFDV_AUS_10_W167_V1	Australia	Cacatua galerita	2010
-KJ634425	BFDV_AUS_12_1437	Australia	Eolophus roseicapillus	2012
-KJ634426	BFDV_AUS_92_SR14_Vac	Australia	Cacatua galerita	1992
-KJ641714	BtRp-CV-14/GD2012	China	Rhinolophus pusillus	2012
-KJ866054	BFDV_AUS_MRP_14_1195_001	Australia	Barnardius zonarius barnardi	2014
-KJ953846	0-QLD	Australia	Platycercus elegans	-
-KJ953847	1-VIC-2004	Australia	Platycercus elegans	2004
-KJ953848	2-VIC-2005	Australia	Platycercus elegans	2005
-KJ953849	3-VIC-2011	Australia	Platycercus elegans	2011
-KJ953850	5-VIC-2005	Australia	Platycercus elegans	2005
-KJ953851	28-VIC-2006	Australia	Platycercus elegans	2006
-KJ953852	26-VIC-2006	Australia	Platycercus elegans	2006
-KJ953853	30-VIC-2006	Australia	Platycercus elegans	2006
-KJ953854	32-VIC-2006	Australia	Platycercus elegans	2006
-KJ953855	33-VIC-2006	Australia	Platycercus elegans	2006
-KJ953856	31-VIC-2006	Australia	Platycercus elegans	2006
-KJ953857	36-SA-2005	Australia	Platycercus elegans	2005
-KJ953858	34-VIC-2011	Australia	Platycercus elegans	2011
-KJ953859	6-SA-2004	Australia	Platycercus elegans	2004
-KJ953860	27-VIC-2006	Australia	Platycercus elegans	2006
-KJ953861	7-SA-2005	Australia	Platycercus elegans	2005
-KJ953862	9-SA-2005	Australia	Platycercus elegans	2005
-KJ953863	10-NSW-2005	Australia	Platycercus elegans	2005
-KJ953864	8-SA-2004	Australia	Platycercus elegans	2004
-KJ953865	29-VIC-2006	Australia	Platycercus elegans	2006
-KJ953866	14-NSW-2006	Australia	Platycercus elegans	2006
-KJ953867	39-SA-2006	Australia	Platycercus elegans	2006
-KJ953868	11-NSW-2005	Australia	Platycercus elegans	2005
-KJ953869	35-SA-2005	Australia	Platycercus elegans	2005
-KJ953870	4-VIC-2005	Australia	Platycercus elegans	2005
-KJ953871	38-SA-2006	Australia	Platycercus elegans	2006
-KJ953872	12-NSW-2005	Australia	Platycercus elegans	2005
-KJ953873	13-NSW-2005	Australia	Platycercus elegans	2006
-KJ953874	15-NSW-2006	Australia	Platycercus elegans	2006
-KJ953875	37-SA-2006	Australia	Platycercus elegans	2006
-KJ953876	16-NSW-2006	Australia	Platycercus elegans	2006
-KJ953877	17-NSW-2006	Australia	Platycercus elegans	2006
-KJ953878	18-NSW-2006	Australia	Platycercus elegans	2006
-KJ953879	19-NSW-2006	Australia	Platycercus elegans	2006
-KJ953880	20-NSW-2006	Australia	Platycercus elegans	2006
-KJ953881	21-VIC-2006	Australia	Platycercus elegans	2006
-KJ953882	22-VIC-2006	Australia	Platycercus elegans	2006
-KJ953883	23-VIC-2006	Australia	Platycercus elegans	2006
-KJ953884	24-VIC-2006	Australia	Platycercus elegans	2006
-KJ953885	25-VIC-2006	Australia	Platycercus elegans	2006
-KM188440	BFDV_ZA_FH01_2010	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188441	BFDV_ZA_FH05_2010	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188442	BFDV_ZA_FH07_2010	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188443	BFDV_ZA_FH14_2010	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188444	BFDV_ZA_FH15_2010	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188445	BFDV_ZA_FH16_2010	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188446	BFDV_ZA_FH21_2011	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188447	BFDV_ZA_FH22_2011	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188448	BFDV_ZA_FH23_2011	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188449	BFDV_ZA_FH24_2011	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188450	BFDV_ZA_FH27_2011	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188451	BFDV_ZA_FH37_2011	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188452	BFDV_ZA_FH38_2011	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188453	BFDV_ZA_FH42_2011	South Africa: Alice, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188454	BFDV_ZA_GT02_2011	South Africa: East London, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188455	BFDV_ZA_GT07_2011	South Africa: East London, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188456	BFDV_ZA_GT10_2011	South Africa: East London, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188457	BFDV_ZA_GT11_2011	South Africa: East London, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2010
-KM188458	BFDV_ZA_KWT01_2011	South Africa: King William's Town, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188459	BFDV_ZA_KWT02_2011	South Africa: King William's Town, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188460	BFDV_ZA_KWT03_2011	South Africa: King William's Town, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188461	BFDV_ZA_KWT04_2011	South Africa: King William's Town, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188462	BFDV_ZA_KWT06_2011	South Africa: King William's Town, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188463	BFDV_ZA_KWT07_2011	South Africa: King William's Town, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188464	BFDV_ZA_KWT09_2011	South Africa: King William's Town, Eastern Cape Province	Poicephalus robustus (Cape parrot)	2011
-KM188465	BFDV_ZA_STUT01_2011	South Africa: Stutterheim	Poicephalus robustus (Cape parrot)	2011
-KM382270	cluster VI	Brazil	bat colony of Molossus molossus and Tadarida brasiliensis	2012
-KM409545	KP-A14-036	South Korea	Ara ararauna (blue and yellow macaw)	2014
-KM452734	BFDV_NZ_OBS01_2013	New Zealand	Cyanoramphus novaezelandiae	2013
-KM452735	BFDV_NZ_201822_2013	New Zealand	Cyanoramphus novaezelandiae	2013
-KM452736	BFDV_NZ_201845_2013	New Zealand	Cyanoramphus novaezelandiae	2013
-KM452737	BFDV_NZ_201706_2011	New Zealand	Cyanoramphus novaezelandiae	2011
-KM452738	BFDV_NZ_201704_2011	New Zealand	Cyanoramphus novaezelandiae	2011
-KM452739	BFDV_NZ_DP2409_2012	New Zealand	Cyanoramphus novaezelandiae	2012
-KM452740	BFDV_NZ_DP2417_2012	New Zealand	Cyanoramphus novaezelandiae	2012
-KM452741	BFDV_NZ_DP0369_2012	New Zealand	Cyanoramphus novaezelandiae	2012
-KM452742	BFDV_NZ_D174814-2010	New Zealand	Cyanoramphus novaezelandiae	2010
-KM452743	BFDV_NZ_D174812-2010	New Zealand	Cyanoramphus novaezelandiae	2010
-KM452744	BFDV_NZ_D185808_2009	New Zealand	Cyanoramphus novaezelandiae	2009
-KM823541	BFDV_AUS_RBE_14_1186-01	Australia	Merops ornatus	2014
-KM823542	BFDV_AUS_RBE_14_1186-02	Australia	Merops ornatus	2014
-KM823543	BFDV_AUS_RBE_14_1186-04	Australia	Merops ornatus	2014
-KM823544	BFDV_AUS_RBE_14_1186-07	Australia	Merops ornatus	2014
-KM823545	BFDV_AUS_RBE_14_1186-09	Australia	Merops ornatus	2014
-KM823546	BFDV_AUS_RBE_14_1186-02F	Australia	Merops ornatus	2014
-KM823547	BFDV_AUS_RBE_14_1186-03	Australia	Merops ornatus	2014
-KM823548	BFDV_AUS_RBE_14_1186-04F	Australia	Merops ornatus	2014
-KM887947	BFDV_AUS_BDG_2010_320	Australia	Melopsittacus undulatus	2010
-KM887948	BFDV_AUS_BDG_2010_324	Australia	Melopsittacus undulatus	2010
-KM887949	BFDV_AUS_BDG_2010_326	Australia	Melopsittacus undulatus	2010
-KM887950	BFDV_AUS_BDG_2010_331	Australia	Melopsittacus undulatus	2010
-KM887951	BFDV_AUS_BDG_2010_332	Australia	Melopsittacus undulatus	2010
-KP677581	Taiwan-17	Taiwan	Melopsittacus undulatus	-
-KP677582	Taiwan-18	Taiwan	Agapornis roseicollis	-
-KP677585	Taiwan-6	Taiwan	Melopsittacus undulatus	-
-KP677593	Taiwan-19	Taiwan	Melopsittacus undulatus	-
-KR902641	KAT14-0766-AKP-VIC	Australia	Alisterus scapularis	2014
-KT008266	CS13-2703-01-SCC-NSW	Australia	Cacatua galerita	2013
-KT168337	CS15-0726-003-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168338	CS15-0726-004-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168339	CS15-0726-008-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168340	CS15-0726-009-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168341	CS15-0726-011-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168342	CS15-0726-014-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168343	CS15-0726-016-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168344	CS15-0726-018-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168345	CS15-0726-019-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168346	CS15-0726-021-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168347	CS15-0726-023-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168348	CS15-0726-024-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168349	CS15-0726-026-OBP-TAS	Australia	Neophema chrysogaster	2015
-KT168350	CS14-0453-001-OBP	Australia	Neophema chrysogaster	2014
-KT168351	CS14-0453-002-OBP	Australia	Neophema chrysogaster	2014
-KT168352	OBP3	Australia	Neophema chrysogaster	2014
-KT168353	OBP-TT	Australia	Neophema chrysogaster	2014
-KT583302	TR-2	Turkey	Melopsittacus undulatus	2014
-KT583303	TR-3	Turkey	Melopsittacus undulatus	2014
-KT583304	TR-4	Turkey	Melopsittacus undulatus	2014
-KT583305	TR-11	Turkey	Melopsittacus undulatus	2014
-KT583306	TR-12	Turkey	Melopsittacus undulatus	2014
-KT583307	TR-30	Turkey	Melopsittacus undulatus	2014
-KT583308	TR-46	Turkey	Melopsittacus undulatus	2014
-KT583309	TR-49	Turkey	Melopsittacus undulatus	2014
-KT583310	TR-55	Turkey	Melopsittacus undulatus	2014
-KT602807	F015_2014	Mauritius	Psittacula eques	2014
-KT602808	F018_2014	Mauritius	Psittacula eques	2014
-KT602809	F049_2014	Mauritius	Psittacula eques	2014
-KT602810	F076_2014	Mauritius	Psittacula eques	2014
-KT602811	F092_2014	Mauritius	Psittacula eques	2014
-KT602812	F120_2014	Mauritius	Psittacula eques	2014
-KT602813	F164_2014	Mauritius	Psittacula eques	2014
-KT602814	P9_2014	Mauritius	Psittacula eques	2015
-KT602815	P10_2014	Mauritius	Psittacula eques	2015
-KT602816	P12_2014	Mauritius	Psittacula eques	2015
-KT602817	P13_2014	Mauritius	Psittacula eques	2015
-KT602818	P15_2014	Mauritius	Psittacula eques	2015
-KT602819	P16_2014	Mauritius	Psittacula eques	2015
-KT602820	P18_2014	Mauritius	Psittacula eques	2015
-KT602821	P19_2014	Mauritius	Psittacula eques	2015
-KT602822	A053_2009	Mauritius	Psittacula eques	2009
-KT602823	C052_2011	Mauritius	Psittacula eques	2011
-KT602824	C066_2011	Mauritius	Psittacula eques	2011
-KT602825	C100_2011	Mauritius	Psittacula eques	2011
-KT602826	C102_2011	Mauritius	Psittacula eques	2011
-KT602827	D061_2012	Mauritius	Psittacula eques	2012
-KT602828	D085_2012	Mauritius	Psittacula eques	2012
-KT602829	E009_2013	Mauritius	Psittacula eques	2013
-KT602830	E012_2013	Mauritius	Psittacula eques	2013
-KT602831	E014_2013	Mauritius	Psittacula eques	2013
-KT602832	E025_2013	Mauritius	Psittacula eques	2013
-KT602833	B036_2010	Mauritius	Psittacula eques	2010
-KT602834	E032_2013	Mauritius	Psittacula eques	2013
-KT602835	E057_2013	Mauritius	Psittacula eques	2013
-KT602836	E072_2013	Mauritius	Psittacula eques	2013
-KT602837	E079_2013	Mauritius	Psittacula eques	2013
-KT602838	E100_2013	Mauritius	Psittacula eques	2013
-KT602839	E108_2013	Mauritius	Psittacula eques	2013
-KT602840	E128_2013	Mauritius	Psittacula eques	2013
-KT602841	E140_2013	Mauritius	Psittacula eques	2013
-KT602842	E155_2013	Mauritius	Psittacula eques	2013
-KT602843	B062_2010	Mauritius	Psittacula eques	2010
-KT602844	B074_2010	Mauritius	Psittacula eques	2010
-KT602845	B112_2010	Mauritius	Psittacula eques	2010
-KT602846	B117_2010	Mauritius	Psittacula eques	2010
-KT602847	B125_2010	Mauritius	Psittacula eques	2010
-KT602848	C002_2011	Mauritius	Psittacula eques	2011
-KT602849	C038_2011	Mauritius	Psittacula eques	2011
-KT602850	A003_2009	Mauritius	Psittacula eques	2009
-KT602851	A052_2009	Mauritius	Psittacula eques	2009
-KT602852	A055_2009	Mauritius	Psittacula eques	2009
-KT725790	GA4	Gambia	Psittacula krameri	2014
-KT725791	XT998_12	United Kingdom	Psittacula krameri	2012
-KT725792	B1	Bangladesh	Psittacula krameri	2014
-KT725793	B2	Bangladesh	Psittacula krameri	2014
-KT725794	B16	Bangladesh	Psittacula krameri	2014
-KT725795	B24	Bangladesh	Psittacula krameri	2014
-KT725796	SE17	Senegal	Psittacula krameri	2015
-KT725797	SE20	Senegal	Psittacula krameri	2015
-KT725798	SE30	Senegal	Psittacula krameri	2015
-KT725799	SE35	Senegal	Psittacula krameri	2015
-KT725800	PA4	Pakistan	Psittacula krameri	2014
-KT725801	PA6	Pakistan	Psittacula krameri	2014
-KT725802	PA14	Pakistan	Psittacula krameri	2014
-KT725803	PA15	Pakistan	Psittacula krameri	2014
-KT725804	BA1	Bangladesh	Psittacula krameri	2014
-KT725805	BA16	Bangladesh	Psittacula krameri	2014
-KT725806	BA24	Bangladesh	Psittacula krameri	2014
-KT725807	PA4	Pakistan	Psittacula krameri	2014
-KT725808	PA14	Pakistan	Psittacula krameri	2014
-KT725809	PA15	Pakistan	Psittacula krameri	2014
-KT753401	B104	Mauritius	Psittacula eques	2010
-KT753402	C022	Mauritius	Psittacula eques	2011
-KT753403	E033	Mauritius	Psittacula eques	2013
-KT753404	E071	Mauritius	Psittacula eques	2013
-KT753405	E086	Mauritius	Psittacula eques	2013
-KT753406	B038	Mauritius	Psittacula eques	2010
-KT753407	B028	Mauritius	Psittacula eques	2010
-KT753408	B086	Mauritius	Psittacula eques	2010
-KT753409	B037	Mauritius	Psittacula eques	2010
-KT753410	B034	Mauritius	Psittacula eques	2010
-KT753411	B097	Mauritius	Psittacula eques	2010
-KT753412	B115	Mauritius	Psittacula eques	2010
-KT753413	B025	Mauritius	Psittacula eques	2010
-KT753414	B085_1	Mauritius	Psittacula eques	2010
-KT753415	B087	Mauritius	Psittacula eques	2010
-KT753416	B085_2	Mauritius	Psittacula eques	2010
-KT753417	A003	Mauritius	Psittacula eques	2009
-KT753418	A052	Mauritius	Psittacula eques	2009
-KT753419	B121	Mauritius	Psittacula eques	2010
-KT753420	B119	Mauritius	Psittacula eques	2010
-KT753421	B117	Mauritius	Psittacula eques	2010
-KT753422	B099	Mauritius	Psittacula eques	2010
-KT753423	B101	Mauritius	Psittacula eques	2010
-KT753424	B103	Mauritius	Psittacula eques	2010
-KT753425	B107	Mauritius	Psittacula eques	2010
-KT753426	B114	Mauritius	Psittacula eques	2010
-KT753427	B112	Mauritius	Psittacula eques	2010
-KT753428	B089	Mauritius	Psittacula eques	2010
-KT753429	E144	Mauritius	Psittacula eques	2013
-KT753430	E026	Mauritius	Psittacula eques	2013
-KT753431	E112	Mauritius	Psittacula eques	2013
-KT753432	B108_1	Mauritius	Psittacula eques	2010
-KT753433	C041	Mauritius	Psittacula eques	2011
-KT753434	B040	Mauritius	Psittacula eques	2010
-KT753435	D103	Mauritius	Psittacula eques	2012
-KT753436	B057	Mauritius	Psittacula eques	2010
-KT753437	E113	Mauritius	Psittacula eques	2013
-KT753438	D121	Mauritius	Psittacula eques	2012
-KT753439	B039	Mauritius	Psittacula eques	2010
-KT753440	B125	Mauritius	Psittacula eques	2010
-KT753441	B062	Mauritius	Psittacula eques	2010
-KT753442	D061	Mauritius	Psittacula eques	2012
-KT753443	B084	Mauritius	Psittacula eques	2010
-KT753444	B102	Mauritius	Psittacula eques	2010
-KT753445	E012	Mauritius	Psittacula eques	2013
-KT753446	E102_2	Mauritius	Psittacula eques	2013
-KT753447	C078	Mauritius	Psittacula eques	2011
-KT753448	E080	Mauritius	Psittacula eques	2013
-KT753449	E057	Mauritius	Psittacula eques	2013
-KT753450	C004	Mauritius	Psittacula eques	2011
-KT753451	E016	Mauritius	Psittacula eques	2013
-KT753452	E083	Mauritius	Psittacula eques	2013
-KT753453	E105	Mauritius	Psittacula eques	2013
-KT753454	E126	Mauritius	Psittacula eques	2013
-KT753455	D031_1	Mauritius	Psittacula eques	2012
-KT753456	E009	Mauritius	Psittacula eques	2013
-KT753457	E079	Mauritius	Psittacula eques	2013
-KT753458	C040	Mauritius	Psittacula eques	2011
-KT753459	E108	Mauritius	Psittacula eques	2013
-KT753460	E128	Mauritius	Psittacula eques	2013
-KT753461	E155	Mauritius	Psittacula eques	2013
-KT753462	E017	Mauritius	Psittacula eques	2013
-KT753463	E131	Mauritius	Psittacula eques	2013
-KT753464	D085	Mauritius	Psittacula eques	2012
-KT753465	C038	Mauritius	Psittacula eques	2011
-KT753466	E082	Mauritius	Psittacula eques	2013
-KT753467	E032	Mauritius	Psittacula eques	2013
-KT753468	E145	Mauritius	Psittacula eques	2013
-KT753469	A036	Mauritius	Psittacula eques	2009
-KT753470	A055	Mauritius	Psittacula eques	2009
-KT753471	A035	Mauritius	Psittacula eques	2009
-KT753472	B076	Mauritius	Psittacula eques	2010
-KT753473	B074	Mauritius	Psittacula eques	2010
-KT753474	E140	Mauritius	Psittacula eques	2013
-KT753475	E025	Mauritius	Psittacula eques	2013
-KT753476	C102	Mauritius	Psittacula eques	2011
-KT753477	D031_2	Mauritius	Psittacula eques	2012
-KT753478	E014	Mauritius	Psittacula eques	2013
-KT753479	E072	Mauritius	Psittacula eques	2013
-KT753480	E015	Mauritius	Psittacula eques	2013
-KT753481	C052	Mauritius	Psittacula eques	2011
-KT753482	E100	Mauritius	Psittacula eques	2013
-KT753483	A053	Mauritius	Psittacula eques	2009
-KT753484	B036	Mauritius	Psittacula eques	2010
-KT753485	B043	Mauritius	Psittacula eques	2010
-KT753486	B108_2	Mauritius	Psittacula eques	2010
-KT753487	B045	Mauritius	Psittacula eques	2010
-KT753488	B041	Mauritius	Psittacula eques	2010
-KT753489	AR03	Mauritius	Psittacula krameri	2009
-KT753490	AR20	Mauritius	Psittacula krameri	2009
-KT753491	AR21	Mauritius	Psittacula krameri	2009
-KT753492	AR27	Mauritius	Psittacula krameri	2009
-KT753493	AR37	Mauritius	Psittacula krameri	2009
-KT753494	F011	Mauritius	Psittacula eques	2014
-KT753495	F015	Mauritius	Psittacula eques	2014
-KT753496	F018	Mauritius	Psittacula eques	2014
-KT753497	F019	Mauritius	Psittacula eques	2014
-KT753498	F049	Mauritius	Psittacula eques	2014
-KT753499	F076	Mauritius	Psittacula eques	2014
-KT753500	F092	Mauritius	Psittacula eques	2014
-KT753501	F094	Mauritius	Psittacula eques	2014
-KT753502	F120	Mauritius	Psittacula eques	2014
-KT753503	F147	Mauritius	Psittacula eques	2014
-KT753504	F164	Mauritius	Psittacula eques	2014
-KT753505	F164_2	Mauritius	Psittacula eques	2014
-KT753506	F171	Mauritius	Psittacula eques	2014
-KT753507	F172	Mauritius	Psittacula eques	2014
-KT753508	F175	Mauritius	Psittacula eques	2014
-KT753509	F178	Mauritius	Psittacula eques	2014
-KT753510	F179	Mauritius	Psittacula eques	2014
-KT753511	F181	Mauritius	Psittacula eques	2014
-KT753512	F183	Mauritius	Psittacula eques	2014
-KT753513	F187	Mauritius	Psittacula eques	2014
-KT753514	F188	Mauritius	Psittacula eques	2014
-KT753515	F189	Mauritius	Psittacula eques	2014
-KT753516	P8	Mauritius	Psittacula eques	2015
-KT753517	P9	Mauritius	Psittacula eques	2015
-KT753518	P10	Mauritius	Psittacula eques	2015
-KT753519	P12	Mauritius	Psittacula eques	2015
-KT753520	P13	Mauritius	Psittacula eques	2015
-KT753521	P14	Mauritius	Psittacula eques	2015
-KT753522	P15	Mauritius	Psittacula eques	2015
-KT753523	P16	Mauritius	Psittacula eques	2015
-KT753524	P17	Mauritius	Psittacula eques	2015
-KT753525	P18	Mauritius	Psittacula eques	2015
-KT753526	P19	Mauritius	Psittacula eques	2015
-KT753527	AR03	Mauritius	Psittacula krameri	2009
-KT753528	AR20	Mauritius	Psittacula krameri	2009
-KT753529	AR21	Mauritius	Psittacula krameri	2009
-KT764926	-	Iran	Melopsittacus undulatus	2014
-KT764927	-	Iran	Melopsittacus undulatus	2014
-KT764928	-	Iran	Melopsittacus undulatus	2014
-KT764929	-	Iran	Psittacula krameri	2014
-KT764930	-	Iran	Psittacus erithacus	2014
-KT764931	-	Iran	Psittacula krameri	2014
-KT764932	-	Iran	Psittacula krameri	2014
-KT764933	-	Iran	Platycercus eximius	2014
-KT764934	-	Iran	Melopsittacus undulatus	2014
-KT764935	-	Iran	Psittacus erithacus	2014
-KU500899	-	Chile	Psittacula cyanocephala	2013
-KU888682	SY408	Seychelles	Psittacula krameri	2014
-KU888683	SY270	Seychelles	Psittacula krameri	2014
-KU888684	MA3	Mali	Psittacula krameri	2015
-KU888685	Coast_CI2	Cote d'Ivoire	Psittacus timneh	2015
-KU888686	Coast_CI5	Cote d'Ivoire	Psittacus timneh	2015
-KU888687	Coast_CI6	Cote d'Ivoire	Psittacus timneh	2015
-KU888688	Coast_CI7	Cote d'Ivoire	Psittacus timneh	2015
-KU888689	Coast_CI8	Cote d'Ivoire	Psittacus timneh	2015
-KU888690	VTN1	Viet Nam	Psittacula finschii	2015
-KU888691	VTN2	Viet Nam	Psittacula finschii	2015
-KU888692	VTN6	Viet Nam	Psittacula finschii	2015
-KU888693	XT33-13	United Kingdom	Psittacula krameri	2013
-KX449321	CS15-3981-RCP-WA-2015	Australia	Purpureicephalus spurius	2015
-KX500101	CS15-3551-QLD	Australia	Haliaeetus leucogaster	2015
-KX500102	CS15-3289-NSW	Australia	Falco peregrinus	2015
-KX500104	CS15-3775-NSW	Australia	Corvus coronoides	2015
-KX641202	B082	Mauritius	Psittacula echo	2010
-KX641203	BA10	Bangladesh	Psittacula krameri	2014
-KX641204	BA11	Bangladesh	Psittacula krameri	2014
-KX641205	BA12	Bangladesh	Psittacula krameri	2014
-KX641206	BA13	Bangladesh	Psittacula krameri	2014
-KX641207	BA14	Bangladesh	Psittacula krameri	2014
-KX641208	BA15	Bangladesh	Psittacula krameri	2014
-KX641209	BA17	Bangladesh	Psittacula krameri	2014
-KX641210	BA19	Bangladesh	Psittacula krameri	2014
-KX641211	BA20	Bangladesh	Psittacula krameri	2014
-KX641212	BA21	Bangladesh	Psittacula krameri	2014
-KX641213	BA22	Bangladesh	Psittacula krameri	2014
-KX641214	BA23	Bangladesh	Psittacula krameri	2014
-KX641215	BA25	Bangladesh	Psittacula krameri	2014
-KX641216	BA26	Bangladesh	Psittacula krameri	2014
-KX641217	BA27	Bangladesh	Psittacula krameri	2014
-KX641218	BA28	Bangladesh	Psittacula krameri	2014
-KX641219	BA29	Bangladesh	Psittacula krameri	2014
-KX641220	BA3	Bangladesh	Psittacula krameri	2014
-KX641221	BA30	Bangladesh	Psittacula krameri	2014
-KX641222	BA4	Bangladesh	Psittacula krameri	2014
-KX641223	BA5	Bangladesh	Psittacula krameri	2014
-KX641224	BA6	Bangladesh	Psittacula krameri	2014
-KX641225	BA7	Bangladesh	Psittacula krameri	2014
-KX641226	BA8	Bangladesh	Psittacula krameri	2014
-KX641227	BA9	Bangladesh	Psittacula krameri	2014
-KX641228	C002	Mauritius	Psittacula echo	2011
-KX641229	C066	Mauritius	Psittacula echo	2011
-KX641230	C068	Mauritius	Psittacula echo	2011
-KX641231	C100	Mauritius	Psittacula echo	2011
-KX641232	C104	Mauritius	Psittacula echo	2011
-KX641233	PA11	Pakistan	Psittacula krameri	2014
-KX641234	PA12	Pakistan	Psittacula krameri	2014
-KX641235	PA16	Pakistan	Psittacula krameri	2014
-KX641236	PA3	Pakistan	Psittacula krameri	2014
-KX641237	PA5	Pakistan	Psittacula krameri	2014
-KX641238	PA6	Pakistan	Psittacula krameri	2014
-KX641239	PA7	Pakistan	Psittacula krameri	2014
-KX674688	SC06-10	Costa Rica	Amazona autumnalis (red-lored parrot)	2013
-KY189054	KAT-SCC-140529-VIC-2014	Australia	Cacatua galerita	2014
-KY189055	KAT-SCC-140219-VIC-2014	Australia	Cacatua galerita	2014
-KY189058	KAT-LC-140717-VIC-2014	Australia	Cacatua sanguinea	2014
-KY189059	KAT-LC-140694-VIC-2014	Australia	Cacatua sanguinea	2014
-KY189060	KAT-LC-140616-VIC-2014	Australia	Cacatua sanguinea	2014
-KY189061	KAT-LC-140609-VIC-2014	Australia	Cacatua sanguinea	2014
-KY189062	KAT-ERL-150116-VIC-2015	Australia	Platycercus eximius	2015
-KY189063	KAT-ERL-150115-VIC-2015	Australia	Platycercus eximius	2015
-KY189064	KAT-ERL-150007-VIC-2015	Australia	Platycercus eximius	2015
-KY189065	KAT-CRL-150087-VIC-2015	Australia	Platycercus elegans	2015
-KY189066	KAT-CRL-150071-VIC-2015	Australia	Platycercus elegans	2015
-KY189067	KAT-CRL-141173-VIC-2014	Australia	Platycercus elegans	2014
-KY189068	KAT-AKP-141293-VIC-2014	Australia	Alisterus scapularis	2014
-KY189069	KAT-AKP-141214-VIC-2014	Australia	Alisterus scapularis	2014
-KY189070	KAT-AKP-140838-VIC-2014	Australia	Alisterus scapularis	2014
-KY189071	KAT-AKP-140670-VIC-2014	Australia	Alisterus scapularis	2014
-KY189072	KAT-AKP-140619-VIC-2014	Australia	Alisterus scapularis	2014
-KY189073	KAT-AKP-140611-VIC-2014	Australia	Alisterus scapularis	2014
-KY189074	KAT-140471-CRL-VIC-2014	Australia	Platycercus elegans	2014
-KY189075	OBP-Taroona-TAS-15-3299-1704	Australia: Taroona-TAS	Neophema chrysogaster	2015
-KY189076	OBP-Healesville-VIC-15-3172-B20506	Australia: Healesville sanctuary-VIC	Neophema chrysogaster	2015
-KY189077	OBP-Taroona-TAS-15-3299-1638	Australia: Taroona-TAS	Neophema chrysogaster	2015
-KY189078	OBP-Priam-NSW-15-3205-1657	Australia: Priam Psittaculture Centre, NSW	Neophema chrysogaster	2015
-KY189079	OBP-Healesville-15-3173-B50003	Australia: Healesville sanctuary-VIC	Neophema chrysogaster	2015
-KY189080	OBP-Healesville-15-3172-B30895	Australia: Healesville sanctuary-VIC	Neophema chrysogaster	2015
-KY189081	OBP-Healesville-15-3172-B30075	Australia: Healesville sanctuary-VIC	Neophema chrysogaster	2015
-KY189082	OBP-Healesville-15-3172-B20001	Australia: Healesville sanctuary-VIC	Neophema chrysogaster	2015
-KY189083	OBP-Healesville-15-3172-B10747	Australia: Healesville sanctuary-VIC	Neophema chrysogaster	2015
-KY189084	OBP-DPIWNCB-TAS-15-2729-2046	Australia: Tasmania	Neophema chrysogaster	2015
-KY189085	OBP-DPIWNCB-TAS-15-2729-1845	Australia: Tasmania	Neophema chrysogaster	2015
-KY370034	RtMc-CV-1/Tibet2014	China	Neodon clarkei	2014
-KY410348	114_AKP_150371_VIC	Australia	Alisterus scapularis	2015
-KY410349	189_AKP_B30773_VIC	Australia	Alisterus scapularis	2015
-KY410350	33_AM_150034_VIC	Australia	Gymnorhina tibicen	2015
-KY410351	130_AM_150411_VIC	Australia	Gymnorhina tibicen	2015
-KY410352	180_AM_150490_VIC	Australia	Gymnorhina tibicen	2015
-KY410353	211_AM_150679_VIC	Australia	Gymnorhina tibicen	2015
-KY410354	194_AR_150549_VIC	Australia	Corvus coronoides	2015
-KY410355	192_AWI_150542_VIC	Australia	Threskiornis molucca	2015
-KY410356	239_BG_150703_VIC	Australia	Accipiter fasciatus	2015
-KY410357	217_Cockatiel_B40091_VIC	Australia	Nymphicus hollandicus	2015
-KY410358	253_CR_150638_VIC	Australia	Platycercus elegans	2015
-KY410359	401_CR_150890_VIC	Australia	Platycercus elegans	2015
-KY410360	261_CR_B50208_VIC	Australia	Platycercus elegans	2015
-KY410361	72_ER_150115_VIC	Australia	Platycercus eximius	2015
-KY410362	187_Galah_150503_VIC	Australia	Eolophus roseicapilla	2015
-KY410363	152_GG_150446_VIC	Australia	Callocephalon fimbriatum	2015
-KY410364	151_LK_150445_VIC	Australia	Dacelo novaeguineae	2015
-KY410365	153_LK_150447_VIC	Australia	Dacelo novaeguineae	2015
-KY410366	174_LC_150485_VIC	Australia	Cacatua sanguinea	2015
-KY410367	46_ML_150065_VIC	Australia	Glossopsitta concinna	2015
-KY410368	262_OBP_B01871_VIC	Australia	Neophema chrysogaster	2015
-KY410369	135_PO_150420_VIC	Australia	Ninox strenua	2015
-KY410370	23_RL_141266_VIC	Australia	Trichoglossus moluccanus	2014
-KY410371	281_SBL_B10154_VIC	Australia	Trichoglossus chlorolepidotus	2015
-KY410372	207_SBL_B50250_VIC	Australia	Trichoglossus chlorolepidotus	2015
-KY410373	288_SBL_B50355_VIC	Australia	Trichoglossus chlorolepidotus	2015
-KY410374	289_SBL_B50365_VIC	Australia	Trichoglossus chlorolepidotus	2015
-KY410375	193_SBO_150510_VIC	Australia	Ninox boobook	2015
-KY410376	278_SCC_150738_VIC	Australia	Cacatua galerita	2015
-KY410377	154_TF_150448_VIC	Australia	Podargus strigoides	2015
-KY410378	268_TF_150712_VIC	Australia	Podargus strigoides	2015
-KY696655	-	Chile	Cyanoliseus patagonus bloxami	2016
-KY696656	-	Chile	Ara ararauna	2016
-MF669120	SY399	Seychelles	Psittacula krameri	2014
-MF669121	SY329	Seychelles	Psittacula krameri	2014
-MF669122	SY277	Seychelles	Psittacula krameri	2014
-MF669123	SY271	Seychelles	Psittacula krameri	2014
-MF681683	SY236	Seychelles	Psittacula krameri	2014
-MG257487	PBFDV2017	China	Psittacus erithacus	2016
-MG812479	ARHB 2017-1	Iran	Psittacus erithacus	2017
-MG812480	ARHB 2017-2	Iran	Psittacus erithacus	2017
-MG812481	ARHB 2017-3	Iran	Psittacus erithacus	2017
-MG812482	ARHB 2017-4	Iran	Psittacus erithacus	2017
-MG812483	ARHB 2017-5	Iran	Psittacus erithacus	2017
-MG812484	ARHB 2017-6	Iran	Psittacus erithacus	2017
-MH180298	-	China	Psittacus erithacus	2017
-MH188863	-	China	parrot	2017
-MH190788	-	China	Psittacus erithacus (African Grey Parrots)	2017
-MH279594	SDpbfdvE0	China	African Grey Parrots	2017
-MH310937	PBFDV-SH1163	China	Psittacus erithacus	2015
-MH612846	-	Turkey	Melopsittacus undulatus	2016
-MH612847	-	Turkey	Melopsittacus undulatus	2016
-MH612848	-	Turkey	Nymphicus hollandicus	2016
-MH612849	-	Turkey	Melopsittacus undulatus	2016
-MK061529	-	China	budgerigar	2018
-MK073896	-	China	Budgerigar	2018
-MK073897	-	China	Budgerigar	2018
-MK073898	-	China	Budgerigar	2018
-MK120438	-	China	budgerigar	2018
-MK163676	BFDV-LC	Australia	Cacatua sanguinea	2017
-MK291405	Hbs-441	Germany	Psittacula krameri (rose-ringed parakeet)	2017
-MK291406	Hbs-442	Germany	Psittacula krameri (rose-ringed parakeet)	2017
-MK387074	BFDV_BDG_BD_2017_06	Bangladesh	Melopsittacus undulatus	2017
-MK387075	BFDV_BDG_BD_2017_30	Bangladesh	Melopsittacus undulatus	2017
-MK803394	BFDV-S3	Saudi Arabia	Psittacus erithacus (African grey)	2018
-MK803395	BVDV-S4	Saudi Arabia	Psittacus erithacus	2017
-MK803396	BVDV-S5	Saudi Arabia	Psittacus erithacus	2017
-MK803397	BVDV-S11	Saudi Arabia	Psittacus erithacus	2017
-MK803398	BVDV-S12	Saudi Arabia	Psittacus erithacus	2017
-MK803400	BVDV-S19	Saudi Arabia	Melopsittacus undulatus	2017
-MK803401	BVDV-S20	Saudi Arabia	Cacatua alba (cockatoo)	2017
-MK803402	BVDV-S21	Saudi Arabia	Psittacus erithacus	2017
-MK803403	BVDV-S24	Saudi Arabia	Psittacus erithacus	2017
-MK803404	BVDV-S25	Saudi Arabia	Psittacus erithacus	2018
-MK803405	BVDV-S26	Saudi Arabia	Indian parakeet	2018
-MK803406	BVDV-S27	Saudi Arabia	Nymphicus hollandicus (cockatiel)	2018
-MK803407	BVDV-S28	Saudi Arabia	Agapornis fischeri	2018
-MN025417	-	South Korea	Bolborhynchus lineola	2019
-MN114122	CS17-0436	Australia	Eudyptula minor	2017
-MN175611	BR_DF9	Brazil	Amazona aestiva	2016
-MN902174	1 ARHB 2017-7	Iran	Psittacine	2017
-MN902175	2 ARHB 2017-8	Iran	Psittacine	2017
-MN936102	BFDV_L01_NG	Iran	Melopsittacus undulatus	2018
-NC_001944	-	-	-	-
-NC_002361	-	-	Sus scrofa	-
-NC_003410	-	-	serinus canaria	-
-NC_005148	AUT1	-	-	-
-NC_007220	33753-52	USA	Pekin duck	-
-NC_008033	-	-	European Starling (Sturnus vulgaris)	-
-NC_008375	4-1131	Australia	Corvus coronoides	-
-NC_008521	-	-	gull	-
-NC_008522	-	-	finch	-
-NC_014929	CyCV-TB	USA	bat	2009
-NC_014930	NGchicken15	Nigeria	Gallus gallus	2009
-NC_015399	-	Hungary	Barbus barbus (barbel)	2008
-NC_020206	GS140	USA: Tarpon Springs, Florida	palmetto bug	2011
-NC_020904	UCD1-1698	USA	Canis lupus familiaris	2011
-NC_021568	VS5700009	Malawi	Homo sapiens	-
-NC_023866	PR-6E-2010	Puerto Rico: Guanica	Erythrodiplax umbrata	2010
-NC_023869	FL1-NZ38-2010	USA: St. Petersburg, Florida	Pantala flavescens	2010
-NC_023874	-	Chile	Homo sapiens	2004
-NC_023885	-	China	mink	2013
-NC_023886	DfCyV-A1_To-6NZ21-Tt-2010	Tonga	Tholymis tillarga	2010
-NC_024700	-	USA	Felis catus	2013
-NC_025246	H5	Hungary	-	2011
-NC_025247	H51	Germany	mute swan (Cygnus olor)	2006
-NC_025476	-	Zambia	Crocidura hirta	2012
-NC_025791	cluster II	Brazil	bat colony of Molossus molossus and Tadarida brasiliensis	2012
-NC_025792	cluster VI	Brazil	bat colony of Molossus molossus and Tadarida brasiliensis	2012
-NC_026945	8454V25-1	Germany	Taeniopygia guttata	2010
-NC_028045	-	Brazil	Tadarida brasiliensis (bat)	2013
-NC_031753	-	USA: North Carolina	Sus scrofa	2015
-NC_032682	IECSF08	India	Homo sapiens	2007
-NC_034547	GF-4c	USA	bat	2009
-NC_034977	-	Hungary	Anas platyrhynchos	2013
+sequenceID	isolate	isolate_update	country	country_update	host_sci_name	host_sci_name_update	collection_year	collection_year_update
+AB182568	YCC-IN1P	unchanged	Indonesia	updated	Cacatua sulphurea	updated	-	unchanged
+AB182569	YCC-IN2P	unchanged	Indonesia	updated	Cacatua sulphurea	updated	-	unchanged
+AB182570	RRP-JP11P	unchanged	Japan	updated	Psittacula krameri	updated	-	unchanged
+AB182571	RRP-JP12P	unchanged	Japan	updated	Psittacula krameri	updated	-	unchanged
+AB182572	BTP-SA11P	unchanged	South Africa	updated	Aratinga pertinax	updated	-	unchanged
+AB182573	RL-JP1P	unchanged	Japan	updated	Eos bornea	updated	-	unchanged
+AB277726	AGP-SA1P-1	unchanged	Japan	unchanged	Psittacus erithacus erithacus	unchanged	-	unchanged
+AB277727	AGP-SA1P-2	unchanged	Japan	unchanged	Psittacus erithacus erithacus	unchanged	-	unchanged
+AB277728	AGP-SA1P-3	unchanged	Japan	unchanged	Psittacus erithacus erithacus	unchanged	-	unchanged
+AB277729	AGP-SA1P-4	unchanged	Japan	unchanged	Psittacus erithacus erithacus	unchanged	-	unchanged
+AB277730	AGP-SA1P-5	unchanged	Japan	unchanged	Psittacus erithacus erithacus	unchanged	-	unchanged
+AB277731	AGP-SA2P	unchanged	Japan	unchanged	Psittacus erithacus erithacus	unchanged	-	unchanged
+AB277732	TGP-SA1P	unchanged	Japan	unchanged	Psittacus erithacus timneh	unchanged	-	unchanged
+AB277733	EC-SG1P	unchanged	Japan	unchanged	Cacatua galerita eleonora	unchanged	-	unchanged
+AB277734	WC-SG1P	unchanged	Japan	unchanged	Cacatua alba	unchanged	-	unchanged
+AB277735	WC-IN1P	unchanged	Japan	unchanged	Cacatua alba	unchanged	-	unchanged
+AB277736	YCC-IN3P	unchanged	Japan	unchanged	Cacatua sulphurea	unchanged	-	unchanged
+AB277737	YCC-IN4P	unchanged	Japan	unchanged	Cacatua sulphurea	unchanged	-	unchanged
+AB277738	BWP-SA1P	unchanged	Japan	unchanged	Pionus chalcopterus	unchanged	-	unchanged
+AB277739	BP-SA1P	unchanged	Japan	unchanged	Poicephalus meyeri	unchanged	-	unchanged
+AB277740	BHP-SA1P	unchanged	Japan	unchanged	Poicephalus cryptoxanthus	unchanged	-	unchanged
+AB277741	RBP-SA1P	unchanged	Japan	unchanged	Poicephalus rufiventris	unchanged	-	unchanged
+AB277742	SP-SA1P	unchanged	Japan	unchanged	Poicephalus senegalus	unchanged	-	unchanged
+AB277743	AP-UN1P	unchanged	Japan	unchanged	Psittacula eupatria	unchanged	-	unchanged
+AB277744	EP-JP1P	unchanged	Japan	unchanged	Eclectus roratus	unchanged	-	unchanged
+AB277745	DP-SA1P	unchanged	Japan	unchanged	Psittacula derbiana	unchanged	-	unchanged
+AB277746	MU-JP1P	unchanged	Japan	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+AB277747	MU-JP2P	unchanged	Japan	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+AB514568	-	unchanged	Japan:Fukuoka	unchanged	-	unchanged	-	unchanged
+AF071878	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+AF080560	-	unchanged	-	unchanged	Cacatua galerita	unchanged	-	unchanged
+AF311297	-	unchanged	Australia: Southern Australia	unchanged	Cacatua tenuirostris	unchanged	-	unchanged
+AF311298	-	unchanged	Australia: Western Australia	unchanged	Eolophus roseicapillus	unchanged	-	unchanged
+AF311300	-	unchanged	Australia: Western Australia	unchanged	Cacatua leabeateri	unchanged	-	unchanged
+AF311301	-	unchanged	Australia: Northern Territory	unchanged	Cacatua galerita	unchanged	-	unchanged
+AF311302	-	unchanged	Australia: Western Australia	unchanged	Cacatua galerita	unchanged	-	unchanged
+AJ605577	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY148285	SCC1	unchanged	-	unchanged	Cacatua galerita	unchanged	-	unchanged
+AY148286	SCC2	unchanged	-	unchanged	Cacatua galerita	unchanged	-	unchanged
+AY148287	SCC3	unchanged	-	unchanged	Cacatua galerita	unchanged	-	unchanged
+AY148288	SCC4	unchanged	-	unchanged	Cacatua galerita	unchanged	-	unchanged
+AY148289	LC1	unchanged	-	unchanged	Cacatua tenirostitus	unchanged	-	unchanged
+AY148290	SCC5	unchanged	-	unchanged	Cacatua galerita	unchanged	-	unchanged
+AY148291	RCL	unchanged	-	unchanged	Trichogolossus haematodus rubritorquis	unchanged	-	unchanged
+AY148292	YBL1	unchanged	-	unchanged	Lorius chlorocercus	unchanged	-	unchanged
+AY148293	RL5	unchanged	-	unchanged	Trichogolossus haematodus	unchanged	-	unchanged
+AY148294	RL2	unchanged	-	unchanged	Trichogolossus haematodus	unchanged	-	unchanged
+AY148295	RL3	unchanged	-	unchanged	Trichogolossus haematodus	unchanged	-	unchanged
+AY148296	BSL1	unchanged	-	unchanged	Eos reticulata	unchanged	-	unchanged
+AY148297	BSL2	unchanged	-	unchanged	Eos reticulata	unchanged	-	unchanged
+AY148298	GL	unchanged	-	unchanged	Psitteuteles goldiei	unchanged	-	unchanged
+AY148299	YBL2	unchanged	-	unchanged	Lorius chlorocercus	unchanged	-	unchanged
+AY148300	RL6	unchanged	-	unchanged	Trichogolossus haematodus	unchanged	-	unchanged
+AY148301	BG3	unchanged	-	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+AY345131	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY450434	WBC1-ZA	unchanged	-	unchanged	Pionites leucogaster	unchanged	-	unchanged
+AY450435	AFG4-ZA	unchanged	-	unchanged	Psittacus erithacus	unchanged	-	unchanged
+AY450436	UC1-ZA	unchanged	-	unchanged	Cacatua alba	unchanged	-	unchanged
+AY450442	BCL1-ZA	unchanged	-	unchanged	Agapornis nigrigenis	unchanged	-	unchanged
+AY450443	AFG3-ZA	unchanged	-	unchanged	Psittacus erithacus	unchanged	-	unchanged
+AY450444	LJP2-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY450445	BWJ1-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY450446	LJP1-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY450447	GJP2-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY450448	ARB2-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY450449	ARB3-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY450450	UC2-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY450451	SM1-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY450452	ARB1-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+AY518516	CG1	unchanged	USA	unchanged	Cacatua galerita	unchanged	-	unchanged
+AY518899	-	unchanged	Germany	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518900	-	unchanged	USA	unchanged	Psittacula kramerii	unchanged	-	unchanged
+AY518901	-	unchanged	Portugal	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518902	-	unchanged	Germany	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518903	-	unchanged	Germany	unchanged	Amazona aestiva	unchanged	-	unchanged
+AY518904	-	unchanged	United Kingdom	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518905	-	unchanged	Japan	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518906	-	unchanged	India	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518907	-	unchanged	USA	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+AY518908	-	unchanged	USA	unchanged	Agapronis roseicollis	unchanged	-	unchanged
+AY518909	-	unchanged	United Kingdom	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+AY518910	-	unchanged	Portugal	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518911	-	unchanged	Germany	unchanged	Amazona aestiva	unchanged	-	unchanged
+AY518912	-	unchanged	Portugal	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518913	-	unchanged	New Zealand	unchanged	Trichoglossus haematodus	unchanged	-	unchanged
+AY518914	-	unchanged	Germany	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518915	-	unchanged	Germany	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518916	-	unchanged	Spain	unchanged	Aratinga solstitalis	unchanged	-	unchanged
+AY518917	-	unchanged	USA	unchanged	Eclectus roratus	unchanged	-	unchanged
+AY518918	-	unchanged	United Kingdom	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+AY518919	-	unchanged	United Kingdom	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+AY518920	-	unchanged	Germany	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518921	-	unchanged	Saudi Arabia	unchanged	Cacatua haematuropygia	unchanged	-	unchanged
+AY518922	-	unchanged	Saudi Arabia	unchanged	Cacatua leadbeateri	unchanged	-	unchanged
+AY518923	-	unchanged	USA	unchanged	Cacatua moluccensis	unchanged	-	unchanged
+AY518924	-	unchanged	United Kingdom	unchanged	Amazona autumnalis	unchanged	-	unchanged
+AY518925	-	unchanged	USA	unchanged	Poicephalus senegalensis	unchanged	-	unchanged
+AY518926	-	unchanged	Puerto Rico	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518927	-	unchanged	USA	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518928	-	unchanged	USA	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY518929	-	unchanged	USA	unchanged	Psittacula kramerii	unchanged	-	unchanged
+AY518930	-	unchanged	Israel	unchanged	Eolophus roseicapillus	unchanged	-	unchanged
+AY518931	-	unchanged	USA	unchanged	Ara militaris	unchanged	-	unchanged
+AY518932	-	unchanged	United Kingdom	unchanged	Coracopsis vasa	unchanged	-	unchanged
+AY521234	-	unchanged	USA: Texas	unchanged	Psittacula kramerii	unchanged	-	unchanged
+AY521236	-	unchanged	Portugal	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY521237	-	unchanged	Germany	unchanged	Psittacus eritacus	unchanged	-	unchanged
+AY521238	-	unchanged	United Kingdom	unchanged	Psittacus eritacus	unchanged	-	unchanged
+CS449877	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+CS449878	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+CS449879	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+CS449896	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+CS449897	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+CS449898	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+DQ016388	1-RL-NSW	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	-	unchanged
+DQ016389	2-RL-NSW	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	-	unchanged
+DQ016390	3-SP-TAS	unchanged	Australia	unchanged	Lathamus discolour	unchanged	-	unchanged
+DQ016391	4-SP-TAS	unchanged	Australia	unchanged	Lathamus discolour	unchanged	-	unchanged
+DQ016392	5-RL-VIC	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	-	unchanged
+DQ016393	6-ML-WA	unchanged	Australia	unchanged	Glossopsitta concinna	unchanged	-	unchanged
+DQ016394	7-RL-WA	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	-	unchanged
+DQ016395	8-RCL-WA	unchanged	Australia	unchanged	Trichoglossus haematodus rubritorquis	unchanged	-	unchanged
+DQ016396	9-RL-NSW	unchanged	Australia	unchanged	Trichoglossus haematodus rubritorquis	unchanged	-	unchanged
+DQ304738	-	unchanged	Taiwan	unchanged	blue-streaked lory (Eos reticulate)	unchanged	-	unchanged
+DQ304739	-	unchanged	Taiwan	unchanged	blue-streaked lory (Eos reticulate)	unchanged	-	unchanged
+DQ304740	-	unchanged	Taiwan	unchanged	African grey parrot (Psittacus erithacus)	unchanged	-	unchanged
+DQ304741	-	unchanged	Taiwan	unchanged	African grey parrot (Psittacus erithacus)	unchanged	-	unchanged
+DQ304742	-	unchanged	Taiwan	unchanged	blue & yellow macaw (Ara ararauna)	unchanged	-	unchanged
+DQ304743	-	unchanged	Taiwan	unchanged	African grey parrot (Psittacus erithacus)	unchanged	-	unchanged
+DQ304744	-	unchanged	Taiwan	unchanged	yellow-naped Amazon (Amazona auropalliata)	unchanged	-	unchanged
+DQ304745	-	unchanged	Taiwan	unchanged	African grey parrot (Psittacus erithacus)	unchanged	-	unchanged
+DQ304746	-	unchanged	Taiwan	unchanged	red-rumped parakeet (Psephotus haematonotus)	unchanged	-	unchanged
+DQ304747	-	unchanged	Taiwan	unchanged	African grey parrot (Psittacus erithacus)	unchanged	-	unchanged
+DQ304748	-	unchanged	Taiwan	unchanged	Pacific parroleet (Forpus coelestis)	unchanged	-	unchanged
+DQ304749	-	unchanged	Taiwan	unchanged	Eclectus parrot (Eclectus roratus)	unchanged	-	unchanged
+DQ304750	-	unchanged	Taiwan	unchanged	Eclectus parrot (Eclectus roratus)	unchanged	-	unchanged
+DQ304751	-	unchanged	Taiwan	unchanged	sulphur-crested cockatoo (Cacatua galerita)	unchanged	-	unchanged
+DQ304752	-	unchanged	Taiwan	unchanged	sulphur-crested cockatoo (Cacatua galerita)	unchanged	-	unchanged
+DQ304753	-	unchanged	Taiwan	unchanged	Eclectus parrot (Eclectus roratus)	unchanged	-	unchanged
+DQ304754	-	unchanged	Taiwan	unchanged	yellow-naped Amazon (Amazona auropalliata)	unchanged	-	unchanged
+DQ304755	-	unchanged	Taiwan	unchanged	sulphur-crested cockatoo (Cacatua galerita)	unchanged	-	unchanged
+DQ304756	-	unchanged	Taiwan	unchanged	budgerigar (Melopsittacus undulatus)	unchanged	-	unchanged
+DQ304757	-	unchanged	Taiwan	unchanged	budgerigar (Melopsittacus undulatus)	unchanged	-	unchanged
+DQ304758	-	unchanged	Taiwan	unchanged	budgerigar (Melopsittacus undulatus)	unchanged	-	unchanged
+DQ384621	UFS2	unchanged	South Africa	unchanged	Psittacula krameri	unchanged	-	unchanged
+DQ384622	UFS1	unchanged	South Africa	unchanged	Psittacula krameri	unchanged	-	unchanged
+DQ384623	UFS3	unchanged	South Africa	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+DQ384624	UFS4	unchanged	South Africa	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+DQ384625	UFS5	unchanged	South Africa	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+DQ384626	UFS6	unchanged	South Africa	unchanged	Poicephalus gulielmi massaicus	unchanged	-	unchanged
+DQ397815	HHP1-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+DQ397816	HHP1-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+DQ397817	AFG5-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+DQ397818	CPA10-ZA	unchanged	-	unchanged	-	unchanged	-	unchanged
+EF457974	05-106	unchanged	Australia	unchanged	Nymphicus hollandicus	unchanged	-	unchanged
+EF457975	05-726	unchanged	Australia	unchanged	Nymphicus hollandicus	unchanged	-	unchanged
+EU093967	CaCvBR18	unchanged	Brazil	unchanged	Serinus canaria	unchanged	2004	unchanged
+EU093968	CaCvBR19	unchanged	Brazil	unchanged	Serinus canaria	unchanged	2004	unchanged
+EU093969	PBFDVBR02	unchanged	Brazil	unchanged	Melopsittacus undulatus	unchanged	2004	unchanged
+EU093970	CaCvBR20	unchanged	Brazil	unchanged	Serinus canaria	unchanged	2004	unchanged
+EU093971	PBFDVBR42	unchanged	Brazil	unchanged	Amazona amazonica	unchanged	2004	unchanged
+EU093972	PBFDVBR03	unchanged	Brazil	unchanged	Psittacula krameri	unchanged	2004	unchanged
+EU093973	PBFDVBR07	unchanged	Brazil	unchanged	Amazona aestiva	unchanged	2004	unchanged
+EU093974	PBFDVBR08	unchanged	Brazil	unchanged	Psittacula krameri	unchanged	2004	unchanged
+EU093976	PBFDVBR15	unchanged	Brazil	unchanged	Guarouba guarouba	unchanged	2004	unchanged
+EU093977	PBFDVBR17	unchanged	Brazil	unchanged	Guarouba guarouba	unchanged	2004	unchanged
+EU093978	PBFDVBR25	unchanged	Brazil	unchanged	Amazona aestiva	unchanged	2004	unchanged
+EU093979	PBFDVBR41	unchanged	Brazil	unchanged	Melopsittacus undulatus	unchanged	2005	unchanged
+EU139440	-	unchanged	Czech Republic	unchanged	Amazona aestiva	unchanged	-	unchanged
+EU139441	-	unchanged	Czech Republic	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+EU139442	-	unchanged	Slovakia	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+EU139443	-	unchanged	Czech Republic	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+EU139444	-	unchanged	Czech Republic	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+EU139445	-	unchanged	Czech Republic	unchanged	Agapornis sp.	unchanged	-	unchanged
+EU139446	-	unchanged	Slovakia	unchanged	Cacatua alba	unchanged	-	unchanged
+EU139447	-	unchanged	Czech Republic	unchanged	Cacatua galerita	unchanged	-	unchanged
+EU139448	-	unchanged	Czech Republic	unchanged	Cacatua leadbeateri	unchanged	-	unchanged
+EU139449	-	unchanged	Slovakia	unchanged	Cacatua sulphurea	unchanged	-	unchanged
+EU139450	-	unchanged	Czech Republic	unchanged	Eunymphicus cornutus	unchanged	-	unchanged
+EU139451	-	unchanged	Czech Republic	unchanged	Eclectus roratus	unchanged	-	unchanged
+EU139452	-	unchanged	Czech Republic	unchanged	Lorius chlorocercus	unchanged	-	unchanged
+EU139453	-	unchanged	Czech Republic	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+EU139454	-	unchanged	Slovakia	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+EU139455	-	unchanged	Czech Republic	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+EU139456	-	unchanged	Czech Republic	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+EU139457	-	unchanged	Czech Republic	unchanged	Probosciger aterrimus	unchanged	-	unchanged
+EU139458	-	unchanged	Czech Republic	unchanged	Poicephalus cryptoxanthus	unchanged	-	unchanged
+EU139459	-	unchanged	Czech Republic	unchanged	Psittacus erithacus	unchanged	-	unchanged
+EU139460	-	unchanged	Czech Republic	unchanged	Psittacus erithacus	unchanged	-	unchanged
+EU139461	-	unchanged	Czech Republic	unchanged	Psittacus erithacus	unchanged	-	unchanged
+EU139462	-	unchanged	Czech Republic	unchanged	Psittacus erithacus	unchanged	-	unchanged
+EU139463	-	unchanged	Czech Republic	unchanged	Psittacus erithacus	unchanged	-	unchanged
+EU139464	-	unchanged	Czech Republic	unchanged	Psittacus erithacus	unchanged	-	unchanged
+EU139465	-	unchanged	Czech Republic	unchanged	Psittacus erithacus	unchanged	-	unchanged
+EU139466	-	unchanged	Czech Republic	unchanged	Platycercus eximius	unchanged	-	unchanged
+EU139467	-	unchanged	Czech Republic	unchanged	Psephotus haematonotus	unchanged	-	unchanged
+EU139468	-	unchanged	Czech Republic	unchanged	Psittacula krameri	unchanged	-	unchanged
+EU139469	-	unchanged	Czech Republic	unchanged	Poicephalus senegalus	unchanged	-	unchanged
+EU139470	-	unchanged	Czech Republic	unchanged	Platycercus venustus	unchanged	-	unchanged
+EU139471	-	unchanged	Czech Republic	unchanged	Trichoglossus haematodus	unchanged	-	unchanged
+EU624324	PAR	unchanged	South Africa	unchanged	Psittacula krameri	unchanged	-	unchanged
+EU624325	RBKH	unchanged	South Africa	unchanged	Poicephalus rufiventris	unchanged	-	unchanged
+EU624326	DGR	unchanged	South Africa	unchanged	Psittacus erithacus	unchanged	-	unchanged
+EU624327	JKH	unchanged	South Africa	unchanged	Poicephalus gulielmi massaicus	unchanged	-	unchanged
+EU624328	LBR	unchanged	South Africa	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+EU624329	KWS	unchanged	South Africa	unchanged	Psittacula krameri	unchanged	-	unchanged
+EU810207	PT08	unchanged	Portugal	unchanged	Psittacus erithacus	unchanged	2008	unchanged
+EU810208	PT05	unchanged	Portugal	unchanged	Psittacus erithacus	unchanged	2005	unchanged
+FJ685978	BFDV6	unchanged	Thailand	unchanged	Cacatua sulphurea	unchanged	2005	unchanged
+FJ685979	BFDV7	unchanged	Thailand	unchanged	Cacatua sulphurea	unchanged	2005	unchanged
+FJ685980	BFDV8	unchanged	Thailand	unchanged	Ara ararauna	unchanged	2006	unchanged
+FJ685989	BFDV17	unchanged	Thailand	unchanged	Cacatua moluccensis	unchanged	2006	unchanged
+GQ120621	BFDV-PT08-2	unchanged	Portugal	unchanged	Psittacus erithacus	unchanged	2008	unchanged
+GQ165756	BKS1ZA_84	unchanged	South Africa	unchanged	Budgerigar	unchanged	2003	unchanged
+GQ165757	BKS2ZA_85	unchanged	South Africa	unchanged	Budgerigar	unchanged	2003	unchanged
+GQ165758	BKS3ZA_86	unchanged	South Africa	unchanged	Budgerigar	unchanged	2003	unchanged
+GQ329705	PT09	unchanged	Portugal	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+GQ396652	BFDV_NZ_CN_B84b_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GQ396653	BFDV_NZ_CN_B77_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GQ396654	BFDV_NZ_CN_B80_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GQ396655	BFDV_NZ_CN_B78_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GQ396656	BFDV_NZ_CN_B81_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU015012	BFDV1	unchanged	Thailand	unchanged	Psittacus erithacus	unchanged	2005	unchanged
+GU015013	BFDV2	unchanged	Thailand	unchanged	Psittacus erithacus	unchanged	2006	unchanged
+GU015014	BFDV3	unchanged	Thailand	unchanged	Psittacula eupatria	unchanged	2006	unchanged
+GU015015	BFDV4	unchanged	Thailand	unchanged	Psittacula eupatria	unchanged	2006	unchanged
+GU015016	BFDV5	unchanged	Thailand	unchanged	Psittacula eupatria	unchanged	2006	unchanged
+GU015017	BFDV9	unchanged	Thailand	unchanged	Ara severa	unchanged	2006	unchanged
+GU015018	BFDV10	unchanged	Thailand	unchanged	Ara nobilis	unchanged	2006	unchanged
+GU015019	BFDV11	unchanged	Thailand	unchanged	Eclectus roratus	unchanged	2006	unchanged
+GU015020	BFDV12	unchanged	Thailand	unchanged	Eclectus roratus	unchanged	2006	unchanged
+GU015021	BFDV14	unchanged	Thailand	unchanged	Ara chloropterus	unchanged	2009	unchanged
+GU015022	BFDV15	unchanged	Thailand	unchanged	Probosciger aterrimus	unchanged	2006	unchanged
+GU015023	BFDV16	unchanged	Thailand	unchanged	Ara ambigua	unchanged	2006	unchanged
+GU047347	PT09-2	unchanged	Portugal	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+GU936287	BFDV_NZ_PE_B51_2008	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2008	unchanged
+GU936288	BFDV_NZ_CN_B195_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU936289	BFDV_NZ_CN_B157_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU936290	BFDV_NZ_CN_B326_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU936291	BFDV_NZ_CN_B79_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU936292	BFDV_NZ_CN_B162a_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU936293	BFDV_NZ_CN_B133_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU936294	BFDV_NZ_CN_B125_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU936295	BFDV_NZ_CN_B192_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU936296	BFDV_NZ_CN_B127_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+GU936297	BFDV_NZ_CN_B162b_2008	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2008	unchanged
+HM565916	-	unchanged	Saudi Arabia	unchanged	Psittacus erithacus (African grey parrot)	unchanged	2008	unchanged
+HM748918	BFDV_ZA_PR_60A_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748919	BFDV_ZA_PGM_81A_2008	unchanged	South Africa	unchanged	Poicephalus gulielmi massaicus	unchanged	2008	unchanged
+HM748920	BFDV_ZA_PGM_80A_2008	unchanged	South Africa	unchanged	Poicephalus gulielmi massaicus	unchanged	2008	unchanged
+HM748921	BFDV_ZA_PGM_70A_2008	unchanged	South Africa	unchanged	Poicephalus gulielmi massaicus	unchanged	2008	unchanged
+HM748922	BFDV_ZA_PGM_69A_2008	unchanged	South Africa	unchanged	Poicephalus gulielmi massaicus	unchanged	2008	unchanged
+HM748923	BFDV_ZA_PGM_68A_2008	unchanged	South Africa	unchanged	Poicephalus gulielmi massaicus	unchanged	2008	unchanged
+HM748924	BFDV_ZA_Am_83e_2008	unchanged	South Africa	unchanged	Amazona sp.	unchanged	2008	unchanged
+HM748925	BFDV_ZA_Am_83a_2008	unchanged	South Africa	unchanged	Amazona sp.	unchanged	2008	unchanged
+HM748926	BFDV_ZA_ER_78a_2008	unchanged	South Africa	unchanged	Eclectus roratus	unchanged	2008	unchanged
+HM748927	BFDV_ZA_PK_76f_2008	unchanged	South Africa	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HM748928	BFDV_ZA_PK_75A_2008	unchanged	South Africa	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HM748929	BFDV_ZA_PK_74d_2008	unchanged	South Africa	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HM748930	BFDV_ZA_PR_61A_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748931	BFDV_ZA_PE_55A_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748932	BFDV_ZA_PR_54b_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748933	BFDV_ZA_PR_54A_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748934	BFDV_ZA_PR_51A_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748935	BFDV_ZA_PR_50A_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748936	BFDV_ZA_PR_45A_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748937	BFDV_ZA_PR_42A_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748938	BFDV_ZA_PR_41a_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HM748939	BFDV_ZA_38A_PR_2008	unchanged	South Africa	unchanged	Poicephalus robustus	unchanged	2008	unchanged
+HQ641457	002R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2006	unchanged
+HQ641458	003R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2006	unchanged
+HQ641459	007R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2006	unchanged
+HQ641460	010R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2006	unchanged
+HQ641461	011R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2006	unchanged
+HQ641462	013R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641463	014R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641464	016R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641465	017R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641466	018R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641467	019R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641468	022R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641469	024R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641470	025R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641471	026R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641472	027R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641473	028R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641474	029R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641475	031R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641476	032R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641477	034R05/06	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2005	unchanged
+HQ641478	035R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2006	unchanged
+HQ641479	036R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2006	unchanged
+HQ641480	037R95/96	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	1995	unchanged
+HQ641481	040R05/06	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2005	unchanged
+HQ641482	076R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641483	081R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641484	085R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ641485	087R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ641486	088R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ641487	091R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ641488	094R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ641489	099R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ641490	115R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ641491	048E95/96	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	1995	unchanged
+HQ641492	056E93/94	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	1993	unchanged
+HQ641493	060E96/97	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	1996	unchanged
+HQ641494	064E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641495	065E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641496	068E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641497	071E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641498	078E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641499	127E04/05	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2004	unchanged
+HQ641500	128E04/05	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2004	unchanged
+HQ641501	130E04/05	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2004	unchanged
+HQ641502	131E04/05	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2004	unchanged
+HQ641503	172E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641504	173E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641505	181E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641506	187E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641507	207E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641508	209E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641509	210E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641510	214E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641511	216E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641512	217E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641513	219E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641514	220E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641515	221E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641516	223E04/05	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641517	224E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641518	226E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641519	229E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641520	232E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641521	233E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641522	234E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641523	235E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641524	238E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641525	240E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641526	241E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641527	242E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641528	244E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ641529	245E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641530	247E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641531	248E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641532	251E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641533	257E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641534	272E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641535	273E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641536	278E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641537	281E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641538	292E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641539	317E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641540	322E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641541	351E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641542	355E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641543	356E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ641544	383E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ641545	388E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ641546	390E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ641547	400E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ641548	414E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ641549	438E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ641550	441E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ641551	447E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ641552	449E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ641553	551E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ641554	508E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ641555	528E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ641556	593E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ641557	597E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ641558	474E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ641559	598E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ641560	550E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2008	unchanged
+HQ641561	611E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2008	unchanged
+HQ641562	520E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2008	unchanged
+HQ641563	544E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2008	unchanged
+HQ662336	048E95/96	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	1995	unchanged
+HQ662337	056E93/94	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	1993	unchanged
+HQ662338	064E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662339	065E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662340	068E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662341	071E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662342	078E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662343	173E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662344	181E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662345	187E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662346	207E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ662347	209E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662348	217E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662349	219E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ662350	229E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662351	235E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ662352	240E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ662353	244E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2005	unchanged
+HQ662354	245E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662355	247E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662356	272E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662357	273E05/06	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662358	278E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662359	292E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662360	317E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662361	322E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662362	351E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662363	355E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662364	356E06/07	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2006	unchanged
+HQ662365	383E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ662366	388E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ662367	390E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ662368	400E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ662369	414E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ662370	441E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ662371	447E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ662372	449E07/08	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2007	unchanged
+HQ662373	551E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ662374	508E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ662375	528E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ662376	521E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ662377	570E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ662378	593E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ662379	597E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ662380	474E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ662381	598E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+HQ662382	611E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2008	unchanged
+HQ662383	520E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2008	unchanged
+HQ662384	544E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2008	unchanged
+HQ662385	586E08/09	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2008	unchanged
+HQ662386	002R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2006	unchanged
+HQ662387	010R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2006	unchanged
+HQ662388	013R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662389	014R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662390	016R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662391	017R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662392	018R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662393	022R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662394	024R06/06	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662395	026R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662396	027R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662397	028R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662398	029R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662399	031R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662400	076R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662401	081R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662402	085R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ662403	087R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ662404	088R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ662405	091R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ662406	094R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ662407	099R07/08	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2008	unchanged
+HQ662408	115R06/07	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2007	unchanged
+HQ662409	E0109542	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2009	unchanged
+JF501523	IT02	unchanged	Italy	unchanged	Aratinga solstitialis	unchanged	2008	unchanged
+JF501524	IT04	unchanged	Italy	unchanged	Melopsittacus undulatus	unchanged	2008	unchanged
+JF501525	IT05	unchanged	Italy	unchanged	Agapornis roseicollis	unchanged	2008	unchanged
+JF501526	IT06	unchanged	Italy	unchanged	Agapornis roseicollis	unchanged	2008	unchanged
+JF501527	IT24	unchanged	Italy	unchanged	Cacatua alba	unchanged	2010	unchanged
+JF501528	IT26	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2010	unchanged
+JF501529	IT27	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2010	unchanged
+JF501530	IT33	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2010	unchanged
+JF501531	IT40	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2010	unchanged
+JF501532	IT47	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2010	unchanged
+JF519618	BFDV-NZ_L53_2010	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2010	unchanged
+JF519619	BFDV-NZ_R18_2010	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2010	unchanged
+JF827600	IT54	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2008	unchanged
+JF827601	IT60	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2008	unchanged
+JQ649409	BH 732	unchanged	Brazil	unchanged	Amazona aestiva	unchanged	2011	unchanged
+JQ649410	BH 215	unchanged	Brazil	unchanged	Amazona aestiva	unchanged	2011	unchanged
+JQ649411	BH 27	unchanged	Brazil	unchanged	Psittacula krameri	unchanged	2011	unchanged
+JQ782196	D134138	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2009	unchanged
+JQ782197	D134142	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2009	unchanged
+JQ782198	D134144	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2009	unchanged
+JQ782199	D134146	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2009	unchanged
+JQ782200	SCPA2	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2009	unchanged
+JQ782201	YCP01-11	unchanged	New Zealand	unchanged	Cyanoramphus auriceps	unchanged	2011	unchanged
+JQ782202	YCP28F	unchanged	New Zealand	unchanged	Cyanoramphus auriceps	unchanged	2012	unchanged
+JQ782203	YCP24	unchanged	New Zealand	unchanged	Cyanoramphus auriceps	unchanged	2012	unchanged
+JQ782204	YCP23	unchanged	New Zealand	unchanged	Cyanoramphus auriceps	unchanged	2012	unchanged
+JQ782205	YCP21	unchanged	New Zealand	unchanged	Cyanoramphus auriceps	unchanged	2012	unchanged
+JQ782206	YCP19	unchanged	New Zealand	unchanged	Cyanoramphus auriceps	unchanged	2012	unchanged
+JQ782207	YCP25	unchanged	New Zealand	unchanged	Cyanoramphus auriceps	unchanged	2012	unchanged
+JQ782208	YCP20	unchanged	New Zealand	unchanged	Cyanoramphus auriceps	unchanged	2012	unchanged
+JX049196	NC107	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049197	NC108	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049198	NC109	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049199	NCF19	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049200	NCL1	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049201	NCL3	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049202	NCL7	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049203	NCL9	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049204	2NC37F	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049205	2NC38F	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049206	2NC39B	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049207	2NC40F	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049208	2NC41B	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049209	2NC42B	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049210	2NC43B	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049211	2NC44B	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049212	2NC94F	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2011	unchanged
+JX049213	2NC85B	unchanged	New Caledonia	unchanged	Eclectus roratus	unchanged	2011	unchanged
+JX049217	2NC89B	unchanged	New Caledonia	unchanged	Eclectus roratus	unchanged	2011	unchanged
+JX049218	2NC90B	unchanged	New Caledonia	unchanged	Eclectus roratus	unchanged	2011	unchanged
+JX049220	2NC92F	unchanged	New Caledonia	unchanged	Cyanoramphus saisetti	unchanged	2011	unchanged
+JX221004	BFDV-Q_PL-1067_2010	unchanged	Poland	unchanged	Melopsittacus undulatus	unchanged	2010	unchanged
+JX221006	BFDV-J_PL-1229_2010	unchanged	Poland	unchanged	Platycercus elegans	unchanged	2011	unchanged
+JX221007	BFDV-J_PL-1232_2011	unchanged	Poland	unchanged	Psittacula krameri	unchanged	2011	unchanged
+JX221008	BFDV-J_PL-1233_2011	unchanged	Poland	unchanged	Psittacula krameri	unchanged	2011	unchanged
+JX221009	BFDV-Q_PL-1240_2011	unchanged	Poland	unchanged	Melopsittacus undulatus	unchanged	2011	unchanged
+JX221013	BFDV-I_PL-13_2003	unchanged	Poland	unchanged	Poicephalus robustus	unchanged	2003	unchanged
+JX221015	BFDV-S_PL-168_2006	unchanged	Poland	unchanged	Aprosmictus erythropterus	unchanged	2006	unchanged
+JX221016	BFDV-S_PL-169_2006	unchanged	Poland	unchanged	Aprosmictus erythropterus	unchanged	2006	unchanged
+JX221017	BFDV-T_PL-328_2007	unchanged	Poland	unchanged	Psittacula krameri	unchanged	2007	unchanged
+JX221018	BFDV-T_PL-336_2007	unchanged	Poland	unchanged	Psittacus erithacus	unchanged	2007	unchanged
+JX221020	BFDV-T_PL-376_2007	unchanged	Poland	unchanged	Psittacus erithacus	unchanged	2007	unchanged
+JX221021	BFDV-T_PL-378_2007	unchanged	Poland	unchanged	Amazona amazonica	unchanged	2007	unchanged
+JX221022	BFDV-T_PL-399_2007	unchanged	Poland	unchanged	Psittacus erithacus	unchanged	2007	unchanged
+JX221024	BFDV-Q_PL-418_2007	unchanged	Poland	unchanged	Forpus coelestis	unchanged	2007	unchanged
+JX221025	BFDV-B-D_PL-479_2007	unchanged	Poland	unchanged	Cacatua alba	unchanged	2007	unchanged
+JX221026	BFDV-B-D_PL-482_2007	unchanged	Poland	unchanged	Melopsittacus undulatus	unchanged	2007	unchanged
+JX221027	BFDV-B-D_PL-483_2007	unchanged	Poland	unchanged	Melopsittacus undulatus	unchanged	2007	unchanged
+JX221028	BFDV-B-D_PL-496_2007	unchanged	Poland	unchanged	Melopsittacus undulatus	unchanged	2007	unchanged
+JX221032	BFDV-J_PL-573_2008	unchanged	Poland	unchanged	Psittacus erithacus	unchanged	2008	unchanged
+JX221033	BFDV-J_PL-677_2008	unchanged	Poland	unchanged	Alisterus scapularis	unchanged	2008	unchanged
+JX221034	BFDV-N_PL-680_2008	unchanged	Poland	unchanged	Melopsittacus undulatus	unchanged	2008	unchanged
+JX221035	BFDV-J_PL-683_2008	unchanged	Poland	unchanged	Platycercus eximius	unchanged	2008	unchanged
+JX221036	BFDV-J_PL-684_2008	unchanged	Poland	unchanged	Alexandrine parakeet	unchanged	2008	unchanged
+JX221037	BFDV-J_PL-688_2008	unchanged	Poland	unchanged	Psittacus erithacus	unchanged	2008	unchanged
+JX221038	BFDV-I_PL-711_2008	unchanged	Poland	unchanged	Psittacus erithacus	unchanged	2008	unchanged
+JX221039	BFDV-I_PL-717_2008	unchanged	Poland	unchanged	Psittacus erithacus	unchanged	2008	unchanged
+JX221040	BFDV-R_PL-742_2008	unchanged	Poland	unchanged	Amazona aestiva	unchanged	2008	unchanged
+JX221041	BFDV-J_PL-785_2009	unchanged	Poland	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+JX221042	BFDV-I_PL-830_2009	unchanged	Poland	unchanged	Alexandrine parakeet	unchanged	2009	unchanged
+JX221043	BFDV-Q_PL-902_2009	unchanged	Poland	unchanged	Platycercus elegans	unchanged	2009	unchanged
+KC121339	COR08000	unchanged	Australia	unchanged	Cacatua pastinator	unchanged	2008	unchanged
+KC121340	OBP08450	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2008	unchanged
+KC693651	CS12082720213	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2012	unchanged
+KC693652	CS12082720203	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2012	unchanged
+KC693653	CS12082720214	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2012	unchanged
+KC980909	Taiwan-1	unchanged	Taiwan	unchanged	Cacatua ophthalmica	unchanged	2013	unchanged
+KF188681	CS08-416-OBP-TAS-19144	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188682	CS08-418-OBP-TAS-19118	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188683	CS08-423-OBP-TAS-19076	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188684	CS08-424-OBP-TAS-19136	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188685	CS08-425-OBP-TAS-19140	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188686	CS08-448-OBP-TAS-19124	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188687	CS08-449-OBP-TAS-19167	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188688	CS08-450-OBP-TAS-19183	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188689	CS08-459-OBP-TAS-19157	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188690	CS08-482-OBP-TAS-19139	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188691	CS10-1017-OBP-VIC-HS030910-B	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188692	CS10-1018-OBP-VIC-HS030910-c	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188693	CS11-1361-OBP-VIC-B10750	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188694	CS12-0364-OBP-TAS-B10083	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	-	unchanged
+KF188695	CS12-0364-QA2-OBP-TAS-B10083	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF188696	CS10-1018-QB2-OBP-VIC-HS030910-C	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2010	unchanged
+KF188697	CS10-1018-QB3-OBP-VIC-HS030910-C	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2010	unchanged
+KF188698	CS10-1018-QB4-OBP-VIC-HS030910-C	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2010	unchanged
+KF188699	CS10-1018-QB5-OBP-VIC-HS030910-C	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2010	unchanged
+KF188700	CS10-1018-QB6-OBP-VIC-HS030910-C	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2010	unchanged
+KF188701	CS10-1018-QB7-OBP-VIC-HS030910-C	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2010	unchanged
+KF188702	CS08-423-QC2-OBP-TAS-19076	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2008	unchanged
+KF188703	CS08-448-QD2-OBP-TAS-19124	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2008	unchanged
+KF197006	BFD09-172-OBP-VIC	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2009	unchanged
+KF197007	CS11-1116-OBP-VIC-H51805511-A	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2011	unchanged
+KF197008	CS11-1118-OBP-VIC	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2011	unchanged
+KF197009	CS11-1122-OBP-VIC	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2011	unchanged
+KF197010	CS11-1123-OBP-VIC-H5180511-H	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2011	unchanged
+KF197011	CS11-1124-OBP-VIC-H5180511-I	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2011	unchanged
+KF197012	CS11-1358-OBP-VIC-B10754	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2011	unchanged
+KF197013	CS11-2779-OBP-VIC-230-16982	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2011	unchanged
+KF197014	CS12-0863-OBP-TAS	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF197015	CS12-1776-OBP-VIC-HS290612-A	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF197016	CS12-1779-OBP-VIC	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF197017	CS12-2144-1-OBP-TAS-HS080	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF197018	CS12-2144-3-OBP-TAS	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF197019	CS12-2144-5-OBP-TAS-HS192	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF197020	CS12-2144-7-OBP-TAS-20263	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF197021	CS12-2144-9-OBP-TAS-20264	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF197022	CS12-2144-11-OBP-TAS-20226	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF197023	CS12-2144-13-OBP-TAS	unchanged	Australia	unchanged	Orange-bellied parrot	unchanged	2012	unchanged
+KF385399	BFDV_AUS_RTBC_13_1780_052	unchanged	Australia	unchanged	Calyptorhynchus banksii	unchanged	2013	unchanged
+KF385400	BFDV_AUS_RTBC_13_1780_055	unchanged	Australia	unchanged	Calyptorhynchus banksii	unchanged	2013	unchanged
+KF385401	BFDV_AUS_GGC_96_1404	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	1996	unchanged
+KF385402	BFDV_AUS_GGC_04_604	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2004	unchanged
+KF385403	BFDV_AUS_GGC_10_863	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2010	unchanged
+KF385404	BFDV_AUS_GGC_11_1212	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2011	unchanged
+KF385405	BFDV_AUS_GGC_11_1213	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2011	unchanged
+KF385406	BFDV_AUS_MMC_04_593	unchanged	Australia	unchanged	Cacatua leadbeateri	unchanged	2004	unchanged
+KF385407	BFDV_AUS_MMC_1997	unchanged	Australia	unchanged	Cacatua leadbeateri	unchanged	1997	unchanged
+KF385408	BFDV_AUS_GBC_06_939	unchanged	Australia	unchanged	Calyptorhynchus lathami	unchanged	2006	unchanged
+KF385409	BFDV_AUS_GBC_11_383	unchanged	Australia	unchanged	Calyptorhynchus lathami	unchanged	2011	unchanged
+KF385410	BFDV_AUS_GBC_11_385	unchanged	Australia	unchanged	Calyptorhynchus lathami	unchanged	2011	unchanged
+KF385411	BFDV_AUS_GBC_11_391	unchanged	Australia	unchanged	Calyptorhynchus lathami	unchanged	2011	unchanged
+KF385412	BFDV_AUS_GBC_11_392	unchanged	Australia	unchanged	Calyptorhynchus lathami	unchanged	2011	unchanged
+KF385413	BFDV_AUS_SCC_05_746	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2005	unchanged
+KF385414	BFDV_AUS_SCC_06_854	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2006	unchanged
+KF385415	BFDV_AUS_SCC_12_3044_001	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2012	unchanged
+KF385417	BFDV_AUS_SCC_13_0679_001	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2013	unchanged
+KF385418	BFDV_AUS_SCC_W0610	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2010	unchanged
+KF385419	BFDV_AUS_SCC_W16710	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2010	unchanged
+KF385420	BFDV_AUS_LBC_LBC2	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF385421	BFDV_AUS_LBC_LBC6	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF385422	BFDV_AUS_LBC_LBC7	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF385423	BFDV_AUS_LBC_LBC10	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF385424	BFDV_AUS_LBC_LBC11	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF385425	BFDV_AUS_LBC_LBC33	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF385426	BFDV_AUS_LBC_LBC50	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF385427	BFDV_AUS_LBC_LBC51	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF385428	BFDV_AUS_LBC_W45610	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF385429	BFDV_AUS_LBC_13_1622_006	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2013	unchanged
+KF385430	BFDV_AUS_Galah_12_1474	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2012	unchanged
+KF385431	BFDV_AUS_Galah_04_065	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2004	unchanged
+KF385432	BFDV_AUS_Galah_04_093A	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2004	unchanged
+KF385433	BFDV_AUS_Galah_04_093B	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2004	unchanged
+KF385434	BFDV_AUS_Galah_04_245	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2004	unchanged
+KF385435	BFDV_AUS_Galah_04_298	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2004	unchanged
+KF385436	BFDV_AUS_Galah_04_410	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2004	unchanged
+KF467251	BFDV-NZ_OR2_2012	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2012	unchanged
+KF467252	BFDV-NZ_OR3_2012	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2012	unchanged
+KF467253	BFDV-NZ_OR4_2012	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2012	unchanged
+KF467254	BFDV-NZ_OR5_2012	unchanged	New Zealand	unchanged	Platycercus eximius	unchanged	2012	unchanged
+KF495566	BFDV_AUS_04_491	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2004	unchanged
+KF495567	BFDV_AUS_11_381	unchanged	Australia	unchanged	Calyptorhynchus lathami	unchanged	2011	unchanged
+KF495568	BFDV_AUS_04_723	unchanged	Australia	unchanged	Lophochroa leadbeateri	unchanged	2004	unchanged
+KF495569	BFDV_AUS_04_066	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495570	BFDV_AUS_04_074	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495571	BFDV_AUS_04_092	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495572	BFDV_AUS_04_115	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495573	BFDV_AUS_04_186	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495574	BFDV_AUS_04_195	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495575	BFDV_AUS_04_227	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495576	BFDV_AUS_04_241	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495577	BFDV_AUS_04_339	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495578	BFDV_AUS_04_344	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495579	BFDV_AUS_04_509	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495580	BFDV_AUS_04_611	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495581	BFDV_AUS_04_859	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495582	BFDV_AUS_04_977	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2004	unchanged
+KF495583	BFDV_AUS_05_1042	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2005	unchanged
+KF495584	BFDV_AUS_05_1235	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2005	unchanged
+KF495585	BFDV_AUS_06_1163	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2006	unchanged
+KF495586	BFDV_AUS_06_1276	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2006	unchanged
+KF495587	BFDV_AUS_12_1386	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2012	unchanged
+KF495588	BFDV_AUS_12_1188	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2012	unchanged
+KF495589	BFDV_AUS_04_040	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF495590	BFDV_AUS_LBC30	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF495591	BFDV_AUS_LBC34	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF495592	BFDV_AUS_LBC47	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF495593	BFDV_AUS_LBC52	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF495594	BFDV_AUS_LBC55	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF495595	BFDV_AUS_LBC57	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF495596	BFDV_AUS_LBC58	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF495597	BFDV_AUS_04_619	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2004	unchanged
+KF495598	BFDV_AUS_06_748	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2006	unchanged
+KF495599	BFDV_AUS_04_303	unchanged	Australia	unchanged	Eolophus roseicapillus x Cacatua sanguinea	unchanged	2004	unchanged
+KF495600	BFDV_AUS_04_447	unchanged	Australia	unchanged	Eolophus roseicapillus x Cacatua sanguinea	unchanged	2004	unchanged
+KF499120	13-1780-052-QA2-RTBC-WA	unchanged	Australia	unchanged	Calyptorhynchus banksii	unchanged	2013	unchanged
+KF499121	13-1780-052-QA3-RTBC-WA	unchanged	Australia	unchanged	Calyptorhynchus banksii	unchanged	2013	unchanged
+KF499122	13-1780-055-QB2-RTBC-WA	unchanged	Australia	unchanged	Calyptorhynchus banksii	unchanged	2013	unchanged
+KF499123	13-1780-055-QB3-RTBC-WA	unchanged	Australia	unchanged	Calyptorhynchus banksii	unchanged	2013	unchanged
+KF499124	13-1780-055-QB4-RTBC-WA	unchanged	Australia	unchanged	Calyptorhynchus banksii	unchanged	2013	unchanged
+KF499125	13-1780-055-QB5-RTBC-WA	unchanged	Australia	unchanged	Calyptorhynchus banksii	unchanged	2013	unchanged
+KF499126	96-1404-QC2-GGC-WA	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	1996	unchanged
+KF499127	96-1404-QC3-GGC-WA	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	1996	unchanged
+KF499128	96-1404-QC4-GGC-WA	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	1996	unchanged
+KF499129	96-1404-QC5-GGC-WA	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	1996	unchanged
+KF499130	96-1404-QC6-GGC-WA	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	1996	unchanged
+KF499131	96-1404-QC7-GGC-WA	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	1996	unchanged
+KF499132	04-604-QD2-GGC-WA	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2004	unchanged
+KF499133	04-604-QD3-GGC-WA	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2004	unchanged
+KF499134	04-604-QD4-GGC-WA	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2004	unchanged
+KF499135	05-746-QF2-SCC-VIC	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2005	unchanged
+KF499136	LBC-10-QG2-LBC-VIC	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF499137	LBC-11-QH2-LBC-VIC	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF499138	LBC-51-QI2-LBC-VIC	unchanged	Australia	unchanged	Cacatua tenuirostris	unchanged	2010	unchanged
+KF499139	11-1212-QE2-GGC-NSW	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2011	unchanged
+KF499140	11-1212-QE3-GGC-NSW	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2011	unchanged
+KF561250	CS12-0827-20214-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2012	unchanged
+KF673335	-	unchanged	Australia	unchanged	Lathamus discolor	unchanged	2004	unchanged
+KF673336	-	unchanged	Australia	unchanged	Lathamus discolor	unchanged	2004	unchanged
+KF688548	BFDV_AUS_RNP_B13_1996	unchanged	Australia	unchanged	Barnardius zonarius semitorquatus	unchanged	1996	unchanged
+KF688549	BFDV_AUS_RNP_B14_1996	unchanged	Australia	unchanged	Barnardius zonarius semitorquatus	unchanged	1996	unchanged
+KF688550	BFDV_AUS_RNP_B15_1996	unchanged	Australia	unchanged	Barnardius zonarius semitorquatus	unchanged	1996	unchanged
+KF688551	BFDV_AUS_BP_1996	unchanged	Australia	unchanged	Neopsephotus bourkii	unchanged	1996	unchanged
+KF688553	BFDV_AUS_HP_96_3015	unchanged	Australia	unchanged	Psephotus dissimilis	unchanged	1996	unchanged
+KF688554	BFDV_AUS_04_146	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2004	unchanged
+KF688555	BFDV_AUS_04_507	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2004	unchanged
+KF688556	BFDV_AUS_04_594	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2004	unchanged
+KF688557	BFDV_AUS_04_626	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2004	unchanged
+KF688558	BFDV_AUS_04_666	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2004	unchanged
+KF688559	BFDV_AUS_05_1228	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2005	unchanged
+KF688560	BFDV_AUS_05_1231	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2005	unchanged
+KF688561	BFDV_AUS_05_1373	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2005	unchanged
+KF688562	BFDV_AUS_12_2146	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2012	unchanged
+KF688563	BFDV_AUS_12_2147	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2012	unchanged
+KF688564	BFDV_AUS_04_216	unchanged	Australia	unchanged	Psittacula krameri manillensis	unchanged	2004	unchanged
+KF688565	BFDV_AUS_04_231	unchanged	Australia	unchanged	Poicephalus gulielmi	unchanged	2004	unchanged
+KF688566	BFDV_AUS_04_291	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2004	unchanged
+KF688567	BFDV_AUS_W421_10	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2010	unchanged
+KF688568	BFDV_AUS_04_343	unchanged	Australia	unchanged	Amazona oratrix	unchanged	2004	unchanged
+KF688569	BFDV_AUS_04_370	unchanged	Australia	unchanged	Melopsittacus undulatus	unchanged	2004	unchanged
+KF688570	BFDV_AUS_04_862	unchanged	Australia	unchanged	Melopsittacus undulatus	unchanged	2004	unchanged
+KF688571	BFDV_AUS_04_955	unchanged	Australia	unchanged	Melopsittacus undulatus	unchanged	2004	unchanged
+KF688572	BFDV_AUS_04_902	unchanged	Australia	unchanged	Eclectus roratus	unchanged	2004	unchanged
+KF688573	BFDV_AUS_04_696	unchanged	Australia	unchanged	Eclectus roratus	unchanged	2005	unchanged
+KF723384	6IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF723385	3IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF723386	2IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF723387	8IT10	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2010	unchanged
+KF723388	7IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF723389	4IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF723390	9IT11	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2011	unchanged
+KF723391	1IT08	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2008	unchanged
+KF723392	10IT11	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2011	unchanged
+KF723393	5IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF723394	16IT10	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2010	unchanged
+KF723395	13IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF723396	20IT11	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2011	unchanged
+KF723397	19IT11	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2011	unchanged
+KF723398	18IT11	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2011	unchanged
+KF723399	15IT10	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2010	unchanged
+KF723400	17IT10	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2010	unchanged
+KF723401	12IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF723402	11IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF723403	14IT09	unchanged	Italy	unchanged	Psittacus erithacus	unchanged	2009	unchanged
+KF768545	BFDV_NC13_35	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2013	unchanged
+KF768546	BFDV_NC13_31	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2013	unchanged
+KF768547	BFDV_NC13_30	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2013	unchanged
+KF768548	BFDV_NC13_27	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2013	unchanged
+KF768549	BFDV_NC13_20	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2013	unchanged
+KF768550	BFDV_DL02B	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2012	unchanged
+KF768551	BFDV_DL03B	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2012	unchanged
+KF768552	BFDV_DL10B	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2012	unchanged
+KF768553	BFDV_DL11B	unchanged	New Caledonia	unchanged	Trichoglossus haematodus deplanchii	unchanged	2012	unchanged
+KF850537	BFDV_AUS_RP_13_1683	unchanged	Australia	unchanged	Polytelis anthopeplus monarchoides	unchanged	2013	unchanged
+KJ413143	BFDV_RS	unchanged	Serbia	unchanged	-	unchanged	2013	unchanged
+KJ634410	BFDV_AUS_11_1118_V1	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2011	unchanged
+KJ634411	BFDV_AUS_12_21441_V1	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2012	unchanged
+KJ634412	BFDV_AUS_12_21443_V1	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2012	unchanged
+KJ634413	BFDV_AUS_12_21447_V1	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2012	unchanged
+KJ634414	BFDV_AUS_12_214411_V1	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2012	unchanged
+KJ634415	BFDV_AUS_12_1499	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2012	unchanged
+KJ634416	BFDV_AUS_12_2146_V1	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2012	unchanged
+KJ634417	BFDV_AUS_12_2147_V1	unchanged	Australia	unchanged	Trichoglossus haematodus	unchanged	2012	unchanged
+KJ634418	BFDV_AUS_12_18042	unchanged	Australia	unchanged	Trichoglossus rubritorquis	unchanged	2012	unchanged
+KJ634419	BFDV_AUS_12_18043	unchanged	Australia	unchanged	Trichoglossus rubritorquis	unchanged	2012	unchanged
+KJ634420	BFDV_AUS_12_18045	unchanged	Australia	unchanged	Trichoglossus rubritorquis	unchanged	2012	unchanged
+KJ634421	BFDV_AUS_12_18046	unchanged	Australia	unchanged	Trichoglossus rubritorquis	unchanged	2012	unchanged
+KJ634422	BFDV_AUS_12_18048	unchanged	Australia	unchanged	Trichoglossus rubritorquis	unchanged	2012	unchanged
+KJ634423	BFDV_AUS_10_W06_V1	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2010	unchanged
+KJ634424	BFDV_AUS_10_W167_V1	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2010	unchanged
+KJ634425	BFDV_AUS_12_1437	unchanged	Australia	unchanged	Eolophus roseicapillus	unchanged	2012	unchanged
+KJ634426	BFDV_AUS_92_SR14_Vac	unchanged	Australia	unchanged	Cacatua galerita	unchanged	1992	unchanged
+KJ641714	BtRp-CV-14/GD2012	unchanged	China	unchanged	Rhinolophus pusillus	unchanged	2012	unchanged
+KJ866054	BFDV_AUS_MRP_14_1195_001	unchanged	Australia	unchanged	Barnardius zonarius barnardi	unchanged	2014	unchanged
+KJ953846	0-QLD	unchanged	Australia	unchanged	Platycercus elegans	unchanged	-	unchanged
+KJ953847	1-VIC-2004	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2004	unchanged
+KJ953848	2-VIC-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953849	3-VIC-2011	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2011	unchanged
+KJ953850	5-VIC-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953851	28-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953852	26-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953853	30-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953854	32-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953855	33-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953856	31-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953857	36-SA-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953858	34-VIC-2011	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2011	unchanged
+KJ953859	6-SA-2004	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2004	unchanged
+KJ953860	27-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953861	7-SA-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953862	9-SA-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953863	10-NSW-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953864	8-SA-2004	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2004	unchanged
+KJ953865	29-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953866	14-NSW-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953867	39-SA-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953868	11-NSW-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953869	35-SA-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953870	4-VIC-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953871	38-SA-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953872	12-NSW-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2005	unchanged
+KJ953873	13-NSW-2005	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953874	15-NSW-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953875	37-SA-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953876	16-NSW-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953877	17-NSW-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953878	18-NSW-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953879	19-NSW-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953880	20-NSW-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953881	21-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953882	22-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953883	23-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953884	24-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KJ953885	25-VIC-2006	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2006	unchanged
+KM188440	BFDV_ZA_FH01_2010	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188441	BFDV_ZA_FH05_2010	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188442	BFDV_ZA_FH07_2010	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188443	BFDV_ZA_FH14_2010	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188444	BFDV_ZA_FH15_2010	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188445	BFDV_ZA_FH16_2010	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188446	BFDV_ZA_FH21_2011	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188447	BFDV_ZA_FH22_2011	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188448	BFDV_ZA_FH23_2011	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188449	BFDV_ZA_FH24_2011	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188450	BFDV_ZA_FH27_2011	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188451	BFDV_ZA_FH37_2011	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188452	BFDV_ZA_FH38_2011	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188453	BFDV_ZA_FH42_2011	unchanged	South Africa: Alice, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188454	BFDV_ZA_GT02_2011	unchanged	South Africa: East London, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188455	BFDV_ZA_GT07_2011	unchanged	South Africa: East London, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188456	BFDV_ZA_GT10_2011	unchanged	South Africa: East London, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188457	BFDV_ZA_GT11_2011	unchanged	South Africa: East London, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2010	unchanged
+KM188458	BFDV_ZA_KWT01_2011	unchanged	South Africa: King William's Town, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188459	BFDV_ZA_KWT02_2011	unchanged	South Africa: King William's Town, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188460	BFDV_ZA_KWT03_2011	unchanged	South Africa: King William's Town, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188461	BFDV_ZA_KWT04_2011	unchanged	South Africa: King William's Town, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188462	BFDV_ZA_KWT06_2011	unchanged	South Africa: King William's Town, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188463	BFDV_ZA_KWT07_2011	unchanged	South Africa: King William's Town, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188464	BFDV_ZA_KWT09_2011	unchanged	South Africa: King William's Town, Eastern Cape Province	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM188465	BFDV_ZA_STUT01_2011	unchanged	South Africa: Stutterheim	unchanged	Poicephalus robustus (Cape parrot)	unchanged	2011	unchanged
+KM382270	cluster VI	unchanged	Brazil	unchanged	bat colony of Molossus molossus and Tadarida brasiliensis	unchanged	2012	unchanged
+KM409545	KP-A14-036	unchanged	South Korea	unchanged	Ara ararauna (blue and yellow macaw)	unchanged	2014	unchanged
+KM452734	BFDV_NZ_OBS01_2013	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2013	unchanged
+KM452735	BFDV_NZ_201822_2013	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2013	unchanged
+KM452736	BFDV_NZ_201845_2013	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2013	unchanged
+KM452737	BFDV_NZ_201706_2011	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2011	unchanged
+KM452738	BFDV_NZ_201704_2011	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2011	unchanged
+KM452739	BFDV_NZ_DP2409_2012	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2012	unchanged
+KM452740	BFDV_NZ_DP2417_2012	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2012	unchanged
+KM452741	BFDV_NZ_DP0369_2012	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2012	unchanged
+KM452742	BFDV_NZ_D174814-2010	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2010	unchanged
+KM452743	BFDV_NZ_D174812-2010	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2010	unchanged
+KM452744	BFDV_NZ_D185808_2009	unchanged	New Zealand	unchanged	Cyanoramphus novaezelandiae	unchanged	2009	unchanged
+KM823541	BFDV_AUS_RBE_14_1186-01	unchanged	Australia	unchanged	Merops ornatus	unchanged	2014	unchanged
+KM823542	BFDV_AUS_RBE_14_1186-02	unchanged	Australia	unchanged	Merops ornatus	unchanged	2014	unchanged
+KM823543	BFDV_AUS_RBE_14_1186-04	unchanged	Australia	unchanged	Merops ornatus	unchanged	2014	unchanged
+KM823544	BFDV_AUS_RBE_14_1186-07	unchanged	Australia	unchanged	Merops ornatus	unchanged	2014	unchanged
+KM823545	BFDV_AUS_RBE_14_1186-09	unchanged	Australia	unchanged	Merops ornatus	unchanged	2014	unchanged
+KM823546	BFDV_AUS_RBE_14_1186-02F	unchanged	Australia	unchanged	Merops ornatus	unchanged	2014	unchanged
+KM823547	BFDV_AUS_RBE_14_1186-03	unchanged	Australia	unchanged	Merops ornatus	unchanged	2014	unchanged
+KM823548	BFDV_AUS_RBE_14_1186-04F	unchanged	Australia	unchanged	Merops ornatus	unchanged	2014	unchanged
+KM887947	BFDV_AUS_BDG_2010_320	unchanged	Australia	unchanged	Melopsittacus undulatus	unchanged	2010	unchanged
+KM887948	BFDV_AUS_BDG_2010_324	unchanged	Australia	unchanged	Melopsittacus undulatus	unchanged	2010	unchanged
+KM887949	BFDV_AUS_BDG_2010_326	unchanged	Australia	unchanged	Melopsittacus undulatus	unchanged	2010	unchanged
+KM887950	BFDV_AUS_BDG_2010_331	unchanged	Australia	unchanged	Melopsittacus undulatus	unchanged	2010	unchanged
+KM887951	BFDV_AUS_BDG_2010_332	unchanged	Australia	unchanged	Melopsittacus undulatus	unchanged	2010	unchanged
+KP677581	Taiwan-17	unchanged	Taiwan	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+KP677582	Taiwan-18	unchanged	Taiwan	unchanged	Agapornis roseicollis	unchanged	-	unchanged
+KP677585	Taiwan-6	unchanged	Taiwan	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+KP677593	Taiwan-19	unchanged	Taiwan	unchanged	Melopsittacus undulatus	unchanged	-	unchanged
+KR902641	KAT14-0766-AKP-VIC	unchanged	Australia	unchanged	Alisterus scapularis	unchanged	2014	unchanged
+KT008266	CS13-2703-01-SCC-NSW	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2013	unchanged
+KT168337	CS15-0726-003-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168338	CS15-0726-004-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168339	CS15-0726-008-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168340	CS15-0726-009-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168341	CS15-0726-011-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168342	CS15-0726-014-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168343	CS15-0726-016-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168344	CS15-0726-018-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168345	CS15-0726-019-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168346	CS15-0726-021-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168347	CS15-0726-023-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168348	CS15-0726-024-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168349	CS15-0726-026-OBP-TAS	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KT168350	CS14-0453-001-OBP	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2014	unchanged
+KT168351	CS14-0453-002-OBP	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2014	unchanged
+KT168352	OBP3	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2014	unchanged
+KT168353	OBP-TT	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2014	unchanged
+KT583302	TR-2	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT583303	TR-3	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT583304	TR-4	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT583305	TR-11	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT583306	TR-12	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT583307	TR-30	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT583308	TR-46	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT583309	TR-49	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT583310	TR-55	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT602807	F015_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT602808	F018_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT602809	F049_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT602810	F076_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT602811	F092_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT602812	F120_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT602813	F164_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT602814	P9_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT602815	P10_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT602816	P12_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT602817	P13_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT602818	P15_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT602819	P16_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT602820	P18_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT602821	P19_2014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT602822	A053_2009	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT602823	C052_2011	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT602824	C066_2011	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT602825	C100_2011	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT602826	C102_2011	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT602827	D061_2012	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2012	unchanged
+KT602828	D085_2012	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2012	unchanged
+KT602829	E009_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602830	E012_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602831	E014_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602832	E025_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602833	B036_2010	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT602834	E032_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602835	E057_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602836	E072_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602837	E079_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602838	E100_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602839	E108_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602840	E128_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602841	E140_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602842	E155_2013	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT602843	B062_2010	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT602844	B074_2010	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT602845	B112_2010	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT602846	B117_2010	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT602847	B125_2010	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT602848	C002_2011	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT602849	C038_2011	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT602850	A003_2009	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT602851	A052_2009	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT602852	A055_2009	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT725790	GA4	unchanged	Gambia	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725791	XT998_12	unchanged	United Kingdom	unchanged	Psittacula krameri	unchanged	2012	unchanged
+KT725792	B1	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725793	B2	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725794	B16	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725795	B24	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725796	SE17	unchanged	Senegal	unchanged	Psittacula krameri	unchanged	2015	unchanged
+KT725797	SE20	unchanged	Senegal	unchanged	Psittacula krameri	unchanged	2015	unchanged
+KT725798	SE30	unchanged	Senegal	unchanged	Psittacula krameri	unchanged	2015	unchanged
+KT725799	SE35	unchanged	Senegal	unchanged	Psittacula krameri	unchanged	2015	unchanged
+KT725800	PA4	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725801	PA6	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725802	PA14	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725803	PA15	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725804	BA1	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725805	BA16	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725806	BA24	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725807	PA4	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725808	PA14	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT725809	PA15	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT753401	B104	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753402	C022	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT753403	E033	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753404	E071	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753405	E086	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753406	B038	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753407	B028	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753408	B086	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753409	B037	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753410	B034	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753411	B097	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753412	B115	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753413	B025	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753414	B085_1	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753415	B087	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753416	B085_2	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753417	A003	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT753418	A052	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT753419	B121	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753420	B119	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753421	B117	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753422	B099	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753423	B101	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753424	B103	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753425	B107	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753426	B114	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753427	B112	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753428	B089	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753429	E144	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753430	E026	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753431	E112	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753432	B108_1	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753433	C041	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT753434	B040	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753435	D103	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2012	unchanged
+KT753436	B057	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753437	E113	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753438	D121	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2012	unchanged
+KT753439	B039	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753440	B125	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753441	B062	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753442	D061	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2012	unchanged
+KT753443	B084	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753444	B102	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753445	E012	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753446	E102_2	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753447	C078	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT753448	E080	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753449	E057	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753450	C004	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT753451	E016	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753452	E083	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753453	E105	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753454	E126	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753455	D031_1	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2012	unchanged
+KT753456	E009	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753457	E079	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753458	C040	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT753459	E108	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753460	E128	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753461	E155	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753462	E017	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753463	E131	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753464	D085	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2012	unchanged
+KT753465	C038	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT753466	E082	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753467	E032	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753468	E145	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753469	A036	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT753470	A055	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT753471	A035	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT753472	B076	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753473	B074	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753474	E140	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753475	E025	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753476	C102	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT753477	D031_2	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2012	unchanged
+KT753478	E014	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753479	E072	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753480	E015	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753481	C052	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2011	unchanged
+KT753482	E100	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2013	unchanged
+KT753483	A053	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2009	unchanged
+KT753484	B036	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753485	B043	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753486	B108_2	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753487	B045	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753488	B041	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2010	unchanged
+KT753489	AR03	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2009	unchanged
+KT753490	AR20	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2009	unchanged
+KT753491	AR21	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2009	unchanged
+KT753492	AR27	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2009	unchanged
+KT753493	AR37	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2009	unchanged
+KT753494	F011	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753495	F015	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753496	F018	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753497	F019	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753498	F049	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753499	F076	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753500	F092	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753501	F094	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753502	F120	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753503	F147	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753504	F164	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753505	F164_2	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753506	F171	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753507	F172	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753508	F175	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753509	F178	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753510	F179	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753511	F181	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753512	F183	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753513	F187	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753514	F188	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753515	F189	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2014	unchanged
+KT753516	P8	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753517	P9	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753518	P10	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753519	P12	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753520	P13	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753521	P14	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753522	P15	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753523	P16	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753524	P17	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753525	P18	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753526	P19	unchanged	Mauritius	unchanged	Psittacula eques	unchanged	2015	unchanged
+KT753527	AR03	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2009	unchanged
+KT753528	AR20	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2009	unchanged
+KT753529	AR21	unchanged	Mauritius	unchanged	Psittacula krameri	unchanged	2009	unchanged
+KT764926	-	unchanged	Iran	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT764927	-	unchanged	Iran	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT764928	-	unchanged	Iran	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT764929	-	unchanged	Iran	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT764930	-	unchanged	Iran	unchanged	Psittacus erithacus	unchanged	2014	unchanged
+KT764931	-	unchanged	Iran	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT764932	-	unchanged	Iran	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KT764933	-	unchanged	Iran	unchanged	Platycercus eximius	unchanged	2014	unchanged
+KT764934	-	unchanged	Iran	unchanged	Melopsittacus undulatus	unchanged	2014	unchanged
+KT764935	-	unchanged	Iran	unchanged	Psittacus erithacus	unchanged	2014	unchanged
+KU500899	-	unchanged	Chile	unchanged	Psittacula cyanocephala	unchanged	2013	unchanged
+KU888682	SY408	unchanged	Seychelles	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KU888683	SY270	unchanged	Seychelles	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KU888684	MA3	unchanged	Mali	unchanged	Psittacula krameri	unchanged	2015	unchanged
+KU888685	Coast_CI2	unchanged	Cote d'Ivoire	unchanged	Psittacus timneh	unchanged	2015	unchanged
+KU888686	Coast_CI5	unchanged	Cote d'Ivoire	unchanged	Psittacus timneh	unchanged	2015	unchanged
+KU888687	Coast_CI6	unchanged	Cote d'Ivoire	unchanged	Psittacus timneh	unchanged	2015	unchanged
+KU888688	Coast_CI7	unchanged	Cote d'Ivoire	unchanged	Psittacus timneh	unchanged	2015	unchanged
+KU888689	Coast_CI8	unchanged	Cote d'Ivoire	unchanged	Psittacus timneh	unchanged	2015	unchanged
+KU888690	VTN1	unchanged	Viet Nam	unchanged	Psittacula finschii	unchanged	2015	unchanged
+KU888691	VTN2	unchanged	Viet Nam	unchanged	Psittacula finschii	unchanged	2015	unchanged
+KU888692	VTN6	unchanged	Viet Nam	unchanged	Psittacula finschii	unchanged	2015	unchanged
+KU888693	XT33-13	unchanged	United Kingdom	unchanged	Psittacula krameri	unchanged	2013	unchanged
+KX449321	CS15-3981-RCP-WA-2015	unchanged	Australia	unchanged	Purpureicephalus spurius	unchanged	2015	unchanged
+KX500101	CS15-3551-QLD	unchanged	Australia	unchanged	Haliaeetus leucogaster	unchanged	2015	unchanged
+KX500102	CS15-3289-NSW	unchanged	Australia	unchanged	Falco peregrinus	unchanged	2015	unchanged
+KX500104	CS15-3775-NSW	unchanged	Australia	unchanged	Corvus coronoides	unchanged	2015	unchanged
+KX641202	B082	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2010	unchanged
+KX641203	BA10	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641204	BA11	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641205	BA12	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641206	BA13	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641207	BA14	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641208	BA15	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641209	BA17	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641210	BA19	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641211	BA20	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641212	BA21	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641213	BA22	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641214	BA23	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641215	BA25	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641216	BA26	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641217	BA27	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641218	BA28	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641219	BA29	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641220	BA3	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641221	BA30	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641222	BA4	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641223	BA5	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641224	BA6	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641225	BA7	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641226	BA8	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641227	BA9	unchanged	Bangladesh	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641228	C002	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2011	unchanged
+KX641229	C066	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2011	unchanged
+KX641230	C068	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2011	unchanged
+KX641231	C100	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2011	unchanged
+KX641232	C104	unchanged	Mauritius	unchanged	Psittacula echo	unchanged	2011	unchanged
+KX641233	PA11	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641234	PA12	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641235	PA16	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641236	PA3	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641237	PA5	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641238	PA6	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX641239	PA7	unchanged	Pakistan	unchanged	Psittacula krameri	unchanged	2014	unchanged
+KX674688	SC06-10	unchanged	Costa Rica	unchanged	Amazona autumnalis (red-lored parrot)	unchanged	2013	unchanged
+KY189054	KAT-SCC-140529-VIC-2014	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2014	unchanged
+KY189055	KAT-SCC-140219-VIC-2014	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2014	unchanged
+KY189058	KAT-LC-140717-VIC-2014	unchanged	Australia	unchanged	Cacatua sanguinea	unchanged	2014	unchanged
+KY189059	KAT-LC-140694-VIC-2014	unchanged	Australia	unchanged	Cacatua sanguinea	unchanged	2014	unchanged
+KY189060	KAT-LC-140616-VIC-2014	unchanged	Australia	unchanged	Cacatua sanguinea	unchanged	2014	unchanged
+KY189061	KAT-LC-140609-VIC-2014	unchanged	Australia	unchanged	Cacatua sanguinea	unchanged	2014	unchanged
+KY189062	KAT-ERL-150116-VIC-2015	unchanged	Australia	unchanged	Platycercus eximius	unchanged	2015	unchanged
+KY189063	KAT-ERL-150115-VIC-2015	unchanged	Australia	unchanged	Platycercus eximius	unchanged	2015	unchanged
+KY189064	KAT-ERL-150007-VIC-2015	unchanged	Australia	unchanged	Platycercus eximius	unchanged	2015	unchanged
+KY189065	KAT-CRL-150087-VIC-2015	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2015	unchanged
+KY189066	KAT-CRL-150071-VIC-2015	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2015	unchanged
+KY189067	KAT-CRL-141173-VIC-2014	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2014	unchanged
+KY189068	KAT-AKP-141293-VIC-2014	unchanged	Australia	unchanged	Alisterus scapularis	unchanged	2014	unchanged
+KY189069	KAT-AKP-141214-VIC-2014	unchanged	Australia	unchanged	Alisterus scapularis	unchanged	2014	unchanged
+KY189070	KAT-AKP-140838-VIC-2014	unchanged	Australia	unchanged	Alisterus scapularis	unchanged	2014	unchanged
+KY189071	KAT-AKP-140670-VIC-2014	unchanged	Australia	unchanged	Alisterus scapularis	unchanged	2014	unchanged
+KY189072	KAT-AKP-140619-VIC-2014	unchanged	Australia	unchanged	Alisterus scapularis	unchanged	2014	unchanged
+KY189073	KAT-AKP-140611-VIC-2014	unchanged	Australia	unchanged	Alisterus scapularis	unchanged	2014	unchanged
+KY189074	KAT-140471-CRL-VIC-2014	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2014	unchanged
+KY189075	OBP-Taroona-TAS-15-3299-1704	unchanged	Australia: Taroona-TAS	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189076	OBP-Healesville-VIC-15-3172-B20506	unchanged	Australia: Healesville sanctuary-VIC	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189077	OBP-Taroona-TAS-15-3299-1638	unchanged	Australia: Taroona-TAS	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189078	OBP-Priam-NSW-15-3205-1657	unchanged	Australia: Priam Psittaculture Centre, NSW	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189079	OBP-Healesville-15-3173-B50003	unchanged	Australia: Healesville sanctuary-VIC	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189080	OBP-Healesville-15-3172-B30895	unchanged	Australia: Healesville sanctuary-VIC	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189081	OBP-Healesville-15-3172-B30075	unchanged	Australia: Healesville sanctuary-VIC	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189082	OBP-Healesville-15-3172-B20001	unchanged	Australia: Healesville sanctuary-VIC	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189083	OBP-Healesville-15-3172-B10747	unchanged	Australia: Healesville sanctuary-VIC	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189084	OBP-DPIWNCB-TAS-15-2729-2046	unchanged	Australia: Tasmania	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY189085	OBP-DPIWNCB-TAS-15-2729-1845	unchanged	Australia: Tasmania	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY370034	RtMc-CV-1/Tibet2014	unchanged	China	unchanged	Neodon clarkei	unchanged	2014	unchanged
+KY410348	114_AKP_150371_VIC	unchanged	Australia	unchanged	Alisterus scapularis	unchanged	2015	unchanged
+KY410349	189_AKP_B30773_VIC	unchanged	Australia	unchanged	Alisterus scapularis	unchanged	2015	unchanged
+KY410350	33_AM_150034_VIC	unchanged	Australia	unchanged	Gymnorhina tibicen	unchanged	2015	unchanged
+KY410351	130_AM_150411_VIC	unchanged	Australia	unchanged	Gymnorhina tibicen	unchanged	2015	unchanged
+KY410352	180_AM_150490_VIC	unchanged	Australia	unchanged	Gymnorhina tibicen	unchanged	2015	unchanged
+KY410353	211_AM_150679_VIC	unchanged	Australia	unchanged	Gymnorhina tibicen	unchanged	2015	unchanged
+KY410354	194_AR_150549_VIC	unchanged	Australia	unchanged	Corvus coronoides	unchanged	2015	unchanged
+KY410355	192_AWI_150542_VIC	unchanged	Australia	unchanged	Threskiornis molucca	unchanged	2015	unchanged
+KY410356	239_BG_150703_VIC	unchanged	Australia	unchanged	Accipiter fasciatus	unchanged	2015	unchanged
+KY410357	217_Cockatiel_B40091_VIC	unchanged	Australia	unchanged	Nymphicus hollandicus	unchanged	2015	unchanged
+KY410358	253_CR_150638_VIC	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2015	unchanged
+KY410359	401_CR_150890_VIC	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2015	unchanged
+KY410360	261_CR_B50208_VIC	unchanged	Australia	unchanged	Platycercus elegans	unchanged	2015	unchanged
+KY410361	72_ER_150115_VIC	unchanged	Australia	unchanged	Platycercus eximius	unchanged	2015	unchanged
+KY410362	187_Galah_150503_VIC	unchanged	Australia	unchanged	Eolophus roseicapilla	unchanged	2015	unchanged
+KY410363	152_GG_150446_VIC	unchanged	Australia	unchanged	Callocephalon fimbriatum	unchanged	2015	unchanged
+KY410364	151_LK_150445_VIC	unchanged	Australia	unchanged	Dacelo novaeguineae	unchanged	2015	unchanged
+KY410365	153_LK_150447_VIC	unchanged	Australia	unchanged	Dacelo novaeguineae	unchanged	2015	unchanged
+KY410366	174_LC_150485_VIC	unchanged	Australia	unchanged	Cacatua sanguinea	unchanged	2015	unchanged
+KY410367	46_ML_150065_VIC	unchanged	Australia	unchanged	Glossopsitta concinna	unchanged	2015	unchanged
+KY410368	262_OBP_B01871_VIC	unchanged	Australia	unchanged	Neophema chrysogaster	unchanged	2015	unchanged
+KY410369	135_PO_150420_VIC	unchanged	Australia	unchanged	Ninox strenua	unchanged	2015	unchanged
+KY410370	23_RL_141266_VIC	unchanged	Australia	unchanged	Trichoglossus moluccanus	unchanged	2014	unchanged
+KY410371	281_SBL_B10154_VIC	unchanged	Australia	unchanged	Trichoglossus chlorolepidotus	unchanged	2015	unchanged
+KY410372	207_SBL_B50250_VIC	unchanged	Australia	unchanged	Trichoglossus chlorolepidotus	unchanged	2015	unchanged
+KY410373	288_SBL_B50355_VIC	unchanged	Australia	unchanged	Trichoglossus chlorolepidotus	unchanged	2015	unchanged
+KY410374	289_SBL_B50365_VIC	unchanged	Australia	unchanged	Trichoglossus chlorolepidotus	unchanged	2015	unchanged
+KY410375	193_SBO_150510_VIC	unchanged	Australia	unchanged	Ninox boobook	unchanged	2015	unchanged
+KY410376	278_SCC_150738_VIC	unchanged	Australia	unchanged	Cacatua galerita	unchanged	2015	unchanged
+KY410377	154_TF_150448_VIC	unchanged	Australia	unchanged	Podargus strigoides	unchanged	2015	unchanged
+KY410378	268_TF_150712_VIC	unchanged	Australia	unchanged	Podargus strigoides	unchanged	2015	unchanged
+KY696655	-	unchanged	Chile	unchanged	Cyanoliseus patagonus bloxami	unchanged	2016	unchanged
+KY696656	-	unchanged	Chile	unchanged	Ara ararauna	unchanged	2016	unchanged
+MF669120	SY399	unchanged	Seychelles	unchanged	Psittacula krameri	unchanged	2014	unchanged
+MF669121	SY329	unchanged	Seychelles	unchanged	Psittacula krameri	unchanged	2014	unchanged
+MF669122	SY277	unchanged	Seychelles	unchanged	Psittacula krameri	unchanged	2014	unchanged
+MF669123	SY271	unchanged	Seychelles	unchanged	Psittacula krameri	unchanged	2014	unchanged
+MF681683	SY236	unchanged	Seychelles	unchanged	Psittacula krameri	unchanged	2014	unchanged
+MG257487	PBFDV2017	unchanged	China	unchanged	Psittacus erithacus	unchanged	2016	unchanged
+MG812479	ARHB 2017-1	unchanged	Iran	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MG812480	ARHB 2017-2	unchanged	Iran	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MG812481	ARHB 2017-3	unchanged	Iran	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MG812482	ARHB 2017-4	unchanged	Iran	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MG812483	ARHB 2017-5	unchanged	Iran	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MG812484	ARHB 2017-6	unchanged	Iran	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MH180298	-	unchanged	China	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MH188863	-	unchanged	China	unchanged	parrot	unchanged	2017	unchanged
+MH190788	-	unchanged	China	unchanged	Psittacus erithacus (African Grey Parrots)	unchanged	2017	unchanged
+MH279594	SDpbfdvE0	unchanged	China	unchanged	African Grey Parrots	unchanged	2017	unchanged
+MH310937	PBFDV-SH1163	unchanged	China	unchanged	Psittacus erithacus	unchanged	2015	unchanged
+MH612846	-	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2016	unchanged
+MH612847	-	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2016	unchanged
+MH612848	-	unchanged	Turkey	unchanged	Nymphicus hollandicus	unchanged	2016	unchanged
+MH612849	-	unchanged	Turkey	unchanged	Melopsittacus undulatus	unchanged	2016	unchanged
+MK061529	-	unchanged	China	unchanged	budgerigar	unchanged	2018	unchanged
+MK073896	-	unchanged	China	unchanged	Budgerigar	unchanged	2018	unchanged
+MK073897	-	unchanged	China	unchanged	Budgerigar	unchanged	2018	unchanged
+MK073898	-	unchanged	China	unchanged	Budgerigar	unchanged	2018	unchanged
+MK120438	-	unchanged	China	unchanged	budgerigar	unchanged	2018	unchanged
+MK163676	BFDV-LC	unchanged	Australia	unchanged	Cacatua sanguinea	unchanged	2017	unchanged
+MK291405	Hbs-441	unchanged	Germany	unchanged	Psittacula krameri (rose-ringed parakeet)	unchanged	2017	unchanged
+MK291406	Hbs-442	unchanged	Germany	unchanged	Psittacula krameri (rose-ringed parakeet)	unchanged	2017	unchanged
+MK387074	BFDV_BDG_BD_2017_06	unchanged	Bangladesh	unchanged	Melopsittacus undulatus	unchanged	2017	unchanged
+MK387075	BFDV_BDG_BD_2017_30	unchanged	Bangladesh	unchanged	Melopsittacus undulatus	unchanged	2017	unchanged
+MK803394	BFDV-S3	unchanged	Saudi Arabia	unchanged	Psittacus erithacus (African grey)	unchanged	2018	unchanged
+MK803395	BVDV-S4	unchanged	Saudi Arabia	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MK803396	BVDV-S5	unchanged	Saudi Arabia	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MK803397	BVDV-S11	unchanged	Saudi Arabia	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MK803398	BVDV-S12	unchanged	Saudi Arabia	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MK803400	BVDV-S19	unchanged	Saudi Arabia	unchanged	Melopsittacus undulatus	unchanged	2017	unchanged
+MK803401	BVDV-S20	unchanged	Saudi Arabia	unchanged	Cacatua alba (cockatoo)	unchanged	2017	unchanged
+MK803402	BVDV-S21	unchanged	Saudi Arabia	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MK803403	BVDV-S24	unchanged	Saudi Arabia	unchanged	Psittacus erithacus	unchanged	2017	unchanged
+MK803404	BVDV-S25	unchanged	Saudi Arabia	unchanged	Psittacus erithacus	unchanged	2018	unchanged
+MK803405	BVDV-S26	unchanged	Saudi Arabia	unchanged	Indian parakeet	unchanged	2018	unchanged
+MK803406	BVDV-S27	unchanged	Saudi Arabia	unchanged	Nymphicus hollandicus (cockatiel)	unchanged	2018	unchanged
+MK803407	BVDV-S28	unchanged	Saudi Arabia	unchanged	Agapornis fischeri	unchanged	2018	unchanged
+MN025417	-	unchanged	South Korea	unchanged	Bolborhynchus lineola	unchanged	2019	unchanged
+MN114122	CS17-0436	unchanged	Australia	unchanged	Eudyptula minor	unchanged	2017	unchanged
+MN175611	BR_DF9	unchanged	Brazil	unchanged	Amazona aestiva	unchanged	2016	unchanged
+MN902174	1 ARHB 2017-7	unchanged	Iran	unchanged	Psittacine	unchanged	2017	unchanged
+MN902175	2 ARHB 2017-8	unchanged	Iran	unchanged	Psittacine	unchanged	2017	unchanged
+MN936102	BFDV_L01_NG	unchanged	Iran	unchanged	Melopsittacus undulatus	unchanged	2018	unchanged
+NC_001944	-	unchanged	-	unchanged	-	unchanged	-	unchanged
+NC_002361	-	unchanged	-	unchanged	Sus scrofa	unchanged	-	unchanged
+NC_003410	-	unchanged	-	unchanged	serinus canaria	unchanged	-	unchanged
+NC_005148	AUT1	unchanged	-	unchanged	-	unchanged	-	unchanged
+NC_007220	33753-52	unchanged	USA	unchanged	Pekin duck	unchanged	-	unchanged
+NC_008033	-	unchanged	-	unchanged	European Starling (Sturnus vulgaris)	unchanged	-	unchanged
+NC_008375	4-1131	unchanged	Australia	unchanged	Corvus coronoides	unchanged	-	unchanged
+NC_008521	-	unchanged	-	unchanged	gull	unchanged	-	unchanged
+NC_008522	-	unchanged	-	unchanged	finch	unchanged	-	unchanged
+NC_014929	CyCV-TB	unchanged	USA	unchanged	bat	unchanged	2009	unchanged
+NC_014930	NGchicken15	unchanged	Nigeria	unchanged	Gallus gallus	unchanged	2009	unchanged
+NC_015399	-	unchanged	Hungary	unchanged	Barbus barbus (barbel)	unchanged	2008	unchanged
+NC_020206	GS140	unchanged	USA: Tarpon Springs, Florida	unchanged	palmetto bug	unchanged	2011	unchanged
+NC_020904	UCD1-1698	unchanged	USA	unchanged	Canis lupus familiaris	unchanged	2011	unchanged
+NC_021568	VS5700009	unchanged	Malawi	unchanged	Homo sapiens	unchanged	-	unchanged
+NC_023866	PR-6E-2010	unchanged	Puerto Rico: Guanica	unchanged	Erythrodiplax umbrata	unchanged	2010	unchanged
+NC_023869	FL1-NZ38-2010	unchanged	USA: St. Petersburg, Florida	unchanged	Pantala flavescens	unchanged	2010	unchanged
+NC_023874	-	unchanged	Chile	unchanged	Homo sapiens	unchanged	2004	unchanged
+NC_023885	-	unchanged	China	unchanged	mink	unchanged	2013	unchanged
+NC_023886	DfCyV-A1_To-6NZ21-Tt-2010	unchanged	Tonga	unchanged	Tholymis tillarga	unchanged	2010	unchanged
+NC_024700	-	unchanged	USA	unchanged	Felis catus	unchanged	2013	unchanged
+NC_025246	H5	unchanged	Hungary	unchanged	-	unchanged	2011	unchanged
+NC_025247	H51	unchanged	Germany	unchanged	mute swan (Cygnus olor)	unchanged	2006	unchanged
+NC_025476	-	unchanged	Zambia	unchanged	Crocidura hirta	unchanged	2012	unchanged
+NC_025791	cluster II	unchanged	Brazil	unchanged	bat colony of Molossus molossus and Tadarida brasiliensis	unchanged	2012	unchanged
+NC_025792	cluster VI	unchanged	Brazil	unchanged	bat colony of Molossus molossus and Tadarida brasiliensis	unchanged	2012	unchanged
+NC_026945	8454V25-1	unchanged	Germany	unchanged	Taeniopygia guttata	unchanged	2010	unchanged
+NC_028045	-	unchanged	Brazil	unchanged	Tadarida brasiliensis (bat)	unchanged	2013	unchanged
+NC_031753	-	unchanged	USA: North Carolina	unchanged	Sus scrofa	unchanged	2015	unchanged
+NC_032682	IECSF08	unchanged	India	unchanged	Homo sapiens	unchanged	2007	unchanged
+NC_034547	GF-4c	unchanged	USA	unchanged	bat	unchanged	2009	unchanged
+NC_034977	-	unchanged	Hungary	unchanged	Anas platyrhynchos	unchanged	2013	unchanged

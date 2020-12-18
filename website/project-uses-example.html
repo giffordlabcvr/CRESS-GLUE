@@ -536,20 +536,47 @@
 		 
 		 <p>
            The next few steps will demonstrate how we can improve on the annotations 
-           in GenBank by supplementing missing information.
+           in GenBank by supplementing missing information. First let's take a look at
+           the data file we exported 
+ 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/virus/bfdv-data.tsv"><strong>(click here)</strong></a>
 		 </p>
 
 		 <p>
- 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/virus/bfdv-data-updated.tsv"><strong>This file</strong></a>
-           shows the kind of template we will use for doing this.
+		   We will use a slight altered version of this file to upload the refined data -  
+ 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/virus/bfdv-data-updated.tsv"><strong>(click here)</strong></a>.
+ 		   It is basically the same file but for each of the data columns (other than the sequence ID column)
+ 		   we have created a duplicate column to record an update - e.g. for 'country' we have 'country_updated'.
 		 </p>
 
 		 <p>
-           Use       
+		   The updated columns are for recording any changes in the data, if no change is made, the 
+		   value will always be 'unchanged'.
+ 		   Note that in the
+ 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/tabular/virus/bfdv-data-updated.tsv"><strong>updated file</strong></a>
+ 		   the first 'country' and 'host_sci_name' fields have been updated in the rows
+ 		   in corresponding to accession numbers AB182568-AB182572.
+		 </p>
+
+		 <p>
+           Once the edits have been made, use this       
 		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleImportBfdvCorrectedSideData.js"><strong>this script</strong></a>
-		   to upload the refined data.
+		   to apply the changes in CRESS-GLUE. The updated information can now be viewed, as follows:
 		 </p>
 
+
+  <pre>
+  <code>Mode path: /project/cress
+  GLUE> list sequence sequenceID isolate.isolate_id isolate.country isolate.host_sci_name -w "source.name = 'ncbi-curated-circo-bfdv'"
+  +============+=============================+=============================+=============================+
+  | sequenceID |     isolate.isolate_id      |       isolate.country       |    isolate.host_sci_name    |
+  +============+=============================+=============================+=============================+
+  | AB182568   |YCC-IN1P                     |Indonesia                    |Cacatua sulphurea            |
+  | AB182569   |YCC-IN2P                     |Indonesia                    |Cacatua sulphurea            |
+  | AB182570   |RRP-JP11P                    |Japan                        |Psittacula krameri           |
+  | AB182571   |RRP-JP12P                    |Japan                        |Psittacula krameri           |
+  | AB182572   |BTP-SA11P                    |South Africa                 |Aratinga pertinax            |
+  | AB182573   |RL-JP1P                      |Japan                        |Eos bornea                   |
+  | AB277726   |AGP-SA1P-1                   |Japan                        |Psittacus erithacus erithacus|</code></pre>
 
 
 
