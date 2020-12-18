@@ -452,8 +452,17 @@
            BFDV sequences are not associated with isolate data. This means that our            
            <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/genbankXmlPopulator"><b>genbankXmlPopulator</b></a>         
            module didn't find the information in the XML file for that 
-           sequence. Such inconsistent annotation of virus entries in GenBank is 
-           fairly commonplace, due to a lack of standards.
+           sequence.
+  		 </p>
+
+
+ 		 <p>
+           
+           Inconsistent annotation of virus entries in GenBank is 
+           fairly commonplace.
+           The GenBank database contains sequence data from diverse sources (i.e. not just from viruses)
+           Consequently, the way in which isolate-related information is recorded in GenBank files is not
+           highly standardised, and ofte data are missing.
   		 </p>
 
 
@@ -506,10 +515,15 @@
   | AB277726   |AGP-SA1P-1              |Japan                   |Psittacus erithacus      |</code></pre>
   
 
-           The first five sequences, which are all from the same study, have isolate IDs,
-           but are missing information about the country of isolation and the host species.
-           Checking the GenBank files - e.g. this one for sequence 
-		   <a  target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/AB182568"><b>AB182568</b></a>,         
+           The first five sequences, which are all from the same study (based on the
+           sequential sequence accession numbers), do have isolate IDs,
+           but are missing country of isolation and host species information.
+  		 </p>
+
+
+ 		 <p>
+           Looking at the corresponding GenBank entry on the NCBI website - e.g. this one for sequence 
+		   <a  target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/AB182568"><b>AB182568</b></a> -         
            confirms that the information is not contained within the GenBank entry.
 		 </p>
 
@@ -715,6 +729,21 @@
   <pre>
   <code>Mode path: /project/cress
   GLUE> run file glue/genus/circo/exampleSetFeatureLocationsBfdv.glue</code></pre>	
+  		 </p>
+
+		 <p>
+           By adding this feature to the BFDV we have essentially given CRESS-GLUE
+           'knowledge' of this genome feature - meaning that we will now be able to 
+           reference it when we are working with the BFDV sequences in GLUE.
+  		 </p>
+
+		 <p>
+
+           For example, 
+           we can export a v2 alignment partition, or use the alignment within GLUE
+           to examing protein-level variation in the v2 gene. First, however, we will
+           need to create an alignment, which is our next step.
+           
   		 </p>
 
 
