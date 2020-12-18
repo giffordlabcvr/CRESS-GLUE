@@ -1,0 +1,5 @@
+taxon	sequenceID	name	genus	scaffold	host_species	host_genus	host_family	host_order
+alignment/AL_ecv-circo.206-sinocyclocheilus-con/member/fasta-digs-circo-ecv/Sinocyclocheilus_anshuiensis_50514	Sinocyclocheilus_anshuiensis_50514	Sinocyclocheilus_anshuiensis_50514	Circovirus	NW_015538004.1	Sinocyclocheilus_anshuiensis	-	Cyprinidae	Cypriniformes
+alignment/AL_ecv-circo.206-sinocyclocheilus-con/member/fasta-digs-circo-ecv/Sinocyclocheilus_grahami_37549	Sinocyclocheilus_grahami_37549	Sinocyclocheilus_grahami_37549	Circovirus	gi|1019138682|ref|NW_015507170.1|	Sinocyclocheilus_grahami	-	Cyprinidae	Cypriniformes
+alignment/AL_ecv-circo.206-sinocyclocheilus-con/member/fasta-digs-circo-ecv/Sinocyclocheilus_grahami_421416	Sinocyclocheilus_grahami_421416	Sinocyclocheilus_grahami_421416	Circovirus	gi|1019150738|ref|NW_015505956.1|	Sinocyclocheilus_grahami	-	Cyprinidae	Cypriniformes
+alignment/AL_ecv-circo.206-sinocyclocheilus-con/member/fasta-digs-circo-ecv/Sinocyclocheilus_rhinocerous_208908	Sinocyclocheilus_rhinocerous_208908	Sinocyclocheilus_rhinocerous_208908	Circovirus	NW_015666538.1	Sinocyclocheilus_rhinocerous	-	Cyprinidae	Cypriniformes

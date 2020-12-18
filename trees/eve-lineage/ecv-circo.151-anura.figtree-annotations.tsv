@@ -1,0 +1,8 @@
+taxon	sequenceID	name	genus	scaffold	host_species	host_genus	host_family	host_order
+alignment/AL_ecv-circo.151-anura/member/fasta-digs-circo-ecv/Rana_catesbeiana_29850	Rana_catesbeiana_29850	Rana_catesbeiana_29850	Circovirus	KV950097.1	Rana_catesbeiana	-	Ranidae	Anura
+alignment/AL_ecv-circo.151-anura/member/fasta-digs-circo-ecv/Rhinella_marina_10309	Rhinella_marina_10309	Rhinella_marina_10309	Circovirus	ONZH01013614.1	Rhinella_marina	-	Bufonidae	Anura
+alignment/AL_ecv-circo.151-anura/member/fasta-digs-circo-ecv/Rhinella_marina_14221	Rhinella_marina_14221	Rhinella_marina_14221	Circovirus	ONZH01019639.1	Rhinella_marina	-	Bufonidae	Anura
+alignment/AL_ecv-circo.151-anura/member/fasta-digs-circo-ecv/Rhinella_marina_21921	Rhinella_marina_21921	Rhinella_marina_21921	Circovirus	ONZH01013614.1	Rhinella_marina	-	Bufonidae	Anura
+alignment/AL_ecv-circo.151-anura/member/fasta-digs-circo-ecv/Rhinella_marina_26339	Rhinella_marina_26339	Rhinella_marina_26339	Circovirus	ONZH01003036.1	Rhinella_marina	-	Bufonidae	Anura
+alignment/AL_ecv-circo.151-anura/member/fasta-digs-circo-ecv/Rhinella_marina_5127	Rhinella_marina_5127	Rhinella_marina_5127	Circovirus	ONZH01000128.1	Rhinella_marina	-	Bufonidae	Anura
+alignment/AL_ecv-circo.151-anura/member/fasta-digs-circo-ecv/Xenopus_tropicalis_126615975	Xenopus_tropicalis_126615975	Xenopus_tropicalis_126615975	Circovirus	gi|510884120|ref|NW_004668236.1|	Xenopus_tropicalis	-	Pipidae	Anura

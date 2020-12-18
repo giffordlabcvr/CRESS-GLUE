@@ -21,16 +21,6 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>identity</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.identity')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>bitscore</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.bitscore')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
 		<annotationName>host_species</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_species')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
