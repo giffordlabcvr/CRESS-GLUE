@@ -13,22 +13,22 @@
   run file glue/eve/circo/ecvCircoImportData.glue
 
   # Declare references 
-  run file glue/eve/circo/ecvReferencesCirco.glue
+  run file glue/eve/circo/ecvCircoReferences.glue
 
   # Import root alignment
-  run file glue/eve/circo/ecvImportRootAlignment.glue
+  run file glue/eve/circo/ecvCircoImportRootAlignment.glue
 
   # Set up constrained alignment tree for orthologs
-  run file glue/eve/circo/ecvConstrainedAlignmentTreeCirco.glue
+  run file glue/eve/circo/ecvCircoConstrainedAlignmentTree.glue
   
   # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/circo/ecvDemoteOrthologsToTipAlignments.js
+  run script glue/eve/circo/ecvCircoDemoteOrthologsToTipAlignments.js
 
   # Import tip-level EVE alignments
-  #run file glue/eve/circo/ecvImportAlignmentsTips.glue
+  #run file glue/eve/circo/ecvCircoImportAlignmentsTips.glue
 
   # Create tip-level phylogenies
-  run script glue/eve/circo/ecvCreateTipPhylogenies.js
+  run script glue/eve/circo/ecvCircoCreateTipPhylogenies.js
   
   # Validate
   validate
