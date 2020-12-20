@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_Circo_MASTER_PCV-1 </relRefName>
+    <relRefName>REF_MASTER_Circo_PCV-1 </relRefName>
     
     <aminoAcidRegionSelector>
         <featureName>Rep</featureName>
