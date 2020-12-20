@@ -1,6 +1,6 @@
   
   # Constrained alignment tree
-  create alignment AL_CRESS_MASTER -r REF_Circo_MASTER_PCV-1 
+  create alignment AL_CRESS_MASTER -r REF_MASTER_Circo_PCV-1 
   
   
   alignment AL_CRESS_MASTER 
@@ -8,19 +8,19 @@
     add member --allSequences
 
     # Circoviridae
-    extract child AL_Circoviridae --refName REF_Circo_MASTER_PCV-1
+    extract child AL_Circoviridae --refName REF_MASTER_Circo_PCV-1
 	demote member AL_Circoviridae --whereClause "sequence.family = 'Circoviridae'"
 
     # Smacoviridae
-    extract child AL_Smacoviridae --refName REF_Porprismaco_MASTER_CBSV
+    extract child AL_Smacoviridae --refName REF_MASTER_Porprismaco_CBSV
 	demote member AL_Smacoviridae --whereClause "sequence.family = 'Smacoviridae'"
 
     # Redondoviridae
-    extract child AL_Redondoviridae --refName REF_Redondo_MASTER_HLVV
+    extract child AL_Redondoviridae --refName REF_MASTER_Redondo_HLVV
 	demote member AL_Redondoviridae --whereClause "sequence.family = 'Redondoviridae'"
 
     # CRESS
-    extract child AL_CRESS_1 --refName REF_CRESS1_MASTER_AHEaCV-13
+    extract child AL_CRESS_1 --refName REF_MASTER_CRESS1_AHEaCV-13
 	demote member AL_CRESS_1 --whereClause "sequence.genus = 'CRESS-1'"	
 
     # Naryaviridae  
@@ -30,10 +30,10 @@
 
   alignment AL_Circoviridae 
   
-	extract child AL_Circovirus   --refName REF_Circo_MASTER_PCV-1
+	extract child AL_Circovirus   --refName REF_MASTER_Circo_PCV-1
 	demote member AL_Circovirus   --whereClause "sequence.genus = 'Circovirus' and sequence.source.name = 'ncbi-refseqs' or sequence.genus = 'Circovirus' and sequence.source.name = 'fasta-refseqs'" 	
  
-	extract child AL_Cyclovirus   --refName REF_Cyclo_MASTER_HuACyV-1
+	extract child AL_Cyclovirus   --refName REF_MASTER_Cyclo_HuACyV-1
 	demote member AL_Cyclovirus   --whereClause "sequence.genus = 'Cyclovirus' and sequence.source.name = 'ncbi-refseqs' or sequence.genus = 'Cyclovirus' and sequence.source.name = 'fasta-refseqs'" 	
  
     exit
