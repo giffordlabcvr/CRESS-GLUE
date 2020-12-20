@@ -1,6 +1,5 @@
   
   delete module raxmlPhylogenyGenerator
-
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   
@@ -12,43 +11,10 @@
       -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/genus-level/Circo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_Circovirus -s alignmentColumnsSelectorCircoCap \
-    #  -w "fLocNotes.featureLoc.feature.name = 'Cap' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/genus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_Circovirus -s alignmentColumnsSelectorCircoCap \
+      -w "fLocNotes.featureLoc.feature.name = 'Cap' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/genus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS
       
     exit
 
-  delete module cressPhyloUtility
-
-  create module -f modules/rep/cressPhyloUtility.xml
-
-  # Re-root phylogeny 
-  module cressPhyloUtility 
-
-	reroot-phylogeny \
-      --inputFile trees/genus-level/Circo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus-level/Circo-Rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/genus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/genus-level/Circo-Cap.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-    exit
-
-
-  delete module cressFigTreeAnnotationExporter
-
-  create module -f modules/rep/cressFigTreeAnnotationExporter.xml
-
-  # Export annotations
-  module cressFigTreeAnnotationExporter 
-
-    export figtree-annotation AL_Circovirus -w "fLocNotes.featureLoc.feature.name = 'Rep'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/genus-level/Circo-root-rep.figtree-annotations.tsv
-    #export figtree-annotation AL_Circovirus -w "fLocNotes.featureLoc.feature.name = 'Cap'  \
-    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/genus-level/Circo-root-cap.figtree-annotations.tsv
-
-  exit
 
