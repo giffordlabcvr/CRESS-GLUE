@@ -5,14 +5,14 @@
     
     <aminoAcidRegionSelector>
         <featureName>Rep</featureName>
-        <startCodon>78</startCodon>
-        <endCodon>834</endCodon>
+        <startCodon>14</startCodon>
+        <endCodon>258</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>Rep</featureName>
-        <startNt>755</startNt>
-        <endNt>3023</endNt>
+        <startNt>40</startNt>
+        <endNt>774</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

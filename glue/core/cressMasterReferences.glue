@@ -1,21 +1,21 @@
   #### Circoviridae MASTER references
   
   # Circlivirales
-  create reference REF_Circo_MASTER_PCV-1        ncbi-refseqs  NC_001792
-  create reference REF_Cyclo_MASTER_HuACyV-1     ncbi-refseqs  KJ831064
-  create reference REF_CRESS1_MASTER_AHEaCV-13   ncbi-refseqs  NC_026639
-  create reference REF_CRESS2_MASTER_Po-41       ncbi-refseqs  NC_025683  # Po-Circo-like virus 41
-  create reference REF_CRESS4_MASTER_batCV-SC703 ncbi-refseqs  JN857329   # batCV-SC703
+  create reference REF_MASTER_Circo_PCV-1        ncbi-refseqs  NC_001792
+  create reference REF_MASTER_Cyclo_HuACyV-1     ncbi-refseqs  KJ831064
+  create reference REF_MASTER_CRESS1_AHEaCV-13   ncbi-refseqs  NC_026639
+  create reference REF_MASTER_CRESS2_Po-41       ncbi-refseqs  NC_025683  # Po-Circo-like virus 41
+  create reference REF_MASTER_CRESS4_batCV-SC703 ncbi-refseqs  JN857329   # batCV-SC703
   
   
   # Recrevirales
-  create reference REF_Redondo_MASTER_HLVV       ncbi-refseqs  MK059763   # Vientovirus
+  create reference REF_MASTER_Redondo_HLVV       ncbi-refseqs  MK059763   # Vientovirus
   
   # Cremevirales  
-  create reference REF_Porprismaco_MASTER_CBSV   ncbi-refseqs  MF669476   # Porprismacovirus
+  create reference REF_MASTER_Porprismaco_CBSV   ncbi-refseqs  MF669476   # Porprismacovirus
 
   # Geplafuvirales  
-  create reference REF_Begomo_EACMKV             ncbi-refseqs  KJ888053   # East African cassava mosaic Kenya virus isolate MG
+  create reference REF_MASTER_Begomo_EACMKV             ncbi-refseqs  KJ888053   # East African cassava mosaic Kenya virus isolate MG
   
   # Becurtovirus
   # Capulavirus
@@ -28,8 +28,7 @@
 
 
 
-
-  reference REF_Circo_MASTER_PCV-1 
+  reference REF_MASTER_Circo_PCV-1 
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -60,7 +59,7 @@
 
 
 
-  reference REF_Cyclo_MASTER_HuACyV-1
+  reference REF_MASTER_Cyclo_HuACyV-1
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -81,7 +80,7 @@
 
 
 
-  reference REF_CRESS1_MASTER_AHEaCV-13
+  reference REF_MASTER_CRESS1_AHEaCV-13
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -102,7 +101,7 @@
   
  
 
-  reference REF_CRESS4_MASTER_batCV-SC703
+  reference REF_MASTER_CRESS4_batCV-SC703
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -124,7 +123,7 @@
 
  
   
-  reference REF_Porprismaco_MASTER_CBSV
+  reference REF_MASTER_Porprismaco_CBSV
 
     add feature-location whole_genome
     feature-location whole_genome

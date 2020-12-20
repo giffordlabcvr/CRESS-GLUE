@@ -1,0 +1,9 @@
+
+  # Delete extension specific components
+
+  run script glue/genus/circo/deleteCircoIsolateTableRows.js
+
+  delete alignment AL_UNC_Circovirus_genome
+  delete alignment AL_Circoviridae
+  multi-delete reference -w "name like '%REF_Circo%'"
+  delete source ncbi-refseqs-circo
