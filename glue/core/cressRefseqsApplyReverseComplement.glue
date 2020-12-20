@@ -1,6 +1,9 @@
 
   # Reverse complement specific references
 
+  # 'Human' cyclovirus
+  sequence ncbi-refseqs KJ831064 set field reverse_complement true
+
 
   # Avon-Heathcote Estuary associated circular virus 13 
   sequence ncbi-refseqs NC_026639 set field reverse_complement true

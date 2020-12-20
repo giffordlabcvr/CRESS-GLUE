@@ -5,14 +5,14 @@
     
     <aminoAcidRegionSelector>
         <featureName>Cap</featureName>
-        <startCodon>29</startCodon>
-        <endCodon>269</endCodon>
+        <startCodon>20</startCodon>
+        <endCodon>200</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>Cap</featureName>
-        <startNt>85</startNt>
-        <endNt>850</endNt>
+        <startNt>1671</startNt>
+        <endNt>1131</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

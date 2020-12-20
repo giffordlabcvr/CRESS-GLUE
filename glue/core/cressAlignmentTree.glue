@@ -47,6 +47,6 @@
 
 
   alignment AL_Circoviridae
-     derive segments AL_UNC_Circovirus_genome -a --mergeStrategy OVERWRITE
+     derive segments AL_UNC_Circoviridae_Rep -a --mergeStrategy OVERWRITE
     exit
 
