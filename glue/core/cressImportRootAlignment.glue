@@ -4,3 +4,10 @@
   module unconstrainedAlignmentImporter    
     import AL_UNC_CRESS_rep_root -f alignments/root/cress-root.fna
     exit
+    
+  
+  module unconstrainedAlignmentImporter    
+    import AL_UNC_Circoviridae_Rep -f alignments/internal/circoviridae-rep.aln.fna
+    exit
+    
+    

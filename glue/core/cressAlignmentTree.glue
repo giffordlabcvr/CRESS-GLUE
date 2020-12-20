@@ -44,4 +44,9 @@
   alignment AL_CRESS_MASTER
     derive segments AL_UNC_CRESS_rep_root -a --mergeStrategy OVERWRITE
     exit
- 
+
+
+  alignment AL_Circoviridae
+     derive segments AL_UNC_Circovirus_genome -a --mergeStrategy OVERWRITE
+    exit
+
