@@ -1,0 +1,18 @@
+taxon	sequenceID	pubmed_id	length	genus	family	name	full_name	clade	isolate	host_sci_name	sample_date	country
+alignment/AL_Cyclovirus/member/ncbi-refseqs/KJ831064	KJ831064	-	1710	Cyclovirus	Circoviridae	CyV-SL-108277	Cyclovirus SL-108277	Unclassified	-	Homo sapiens	2009	Sri Lanka
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/KM382270	KM382270	25688970	1790	Cyclovirus	Circoviridae	BtRp-CV-POA	Bat circovirus POA/2012/VI	Unclassified	cluster VI	bat colony of Molossus molossus and Tadarida brasiliensis	2012	Brazil
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_014929	NC_014929	21177928	1703	Cyclovirus	Circoviridae	CyV-bat	Cyclovirus bat/USA/2009 	Cyclovirus-1	CyCV-TB	bat	2009	USA
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_014930	NC_014930	21177928	1760	Cyclovirus	Circoviridae	NGchicken15	Cyclovirus NGchicken15/NGA/2009	Cyclovirus-1	NGchicken15	Gallus gallus	2009	Nigeria
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_020206	NC_020206	23358613	1719	Cyclovirus	Circoviridae	FwCa-CyV-GS140	Florida woods cockroach-associated cyclovirus isolate GS140	Cyclovirus-1	GS140	palmetto bug	2011	USA: Tarpon Springs, Florida
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_021568	NC_021568	23968557	1832	Cyclovirus	Circoviridae	HuCyV-VS5700009	Human cyclovirus VS5700009 	Cyclovirus-1	VS5700009	Homo sapiens	-	Malawi
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_023866	NC_023866	22915694	1784	Cyclovirus	Circoviridae	DfCyV5	Dragonfly cyclovirus 5 isolate PR-6E-2010 	Cyclovirus-1	PR-6E-2010	Erythrodiplax umbrata	2010	Puerto Rico: Guanica
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_023869	NC_023869	22915694	1896	Cyclovirus	Circoviridae	DfCyV-2	Dragonfly cyclovirus 2 isolate FL1-NZ38-2010 	Cyclovirus-1	FL1-NZ38-2010	Pantala flavescens	2010	USA: St. Petersburg, Florida
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_023874	NC_023874	24421114	1790	Cyclovirus	Circoviridae	HuCyV-GS140	Human associated cyclovirus 10 strain 7078A 	Cyclovirus-1	-	Homo sapiens	2004	Chile
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_023886	NC_023886	21367985	1741	Cyclovirus	Circoviridae	DfCyV-A1	Dragonfly cyclovirus isolate DfCyV-A1_To-6NZ21-Tt-2010  	Cyclovirus-1	DfCyV-A1_To-6NZ21-Tt-2010	Tholymis tillarga	2010	Tonga
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_024700	NC_024700	25078300	1773	Cyclovirus	Circoviridae	FlCyV	Feline cyclovirus 	Cyclovirus-1	-	Felis catus	2013	USA
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_025476	NC_025476	25381053	1865	Cyclovirus	Circoviridae	CyV-ZM36a	Cyclovirus ZM36a DNA 	Cyclovirus-1	-	Crocidura hirta	2012	Zambia
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_025791	NC_025791	25688970	1755	Cyclovirus	Circoviridae	BtCyV-POAII	Bat circovirus POA/2012/II 	Cyclovirus-1	cluster II	bat colony of Molossus molossus and Tadarida brasiliensis	2012	Brazil
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_025792	NC_025792	25688970	1790	Cyclovirus	Circoviridae	BtCyV-POAVI	Bat circovirus POA/2012/VI 	Cyclovirus-1	cluster VI	bat colony of Molossus molossus and Tadarida brasiliensis	2012	Brazil
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_032682	NC_032682	-	1723	Cyclovirus	Circoviridae	IE-CyV-IECSF08	Indian encephalitis associated cyclovirus isolate IECSF08 	Cyclovirus-1	IECSF08	Homo sapiens	2007	India
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_034547	NC_034547	20463061	1844	Cyclovirus	Circoviridae	BtCyV-GF-4c	Bat cyclovirus GF-4c putative Rep and putative Cap genes 	Cyclovirus-1	GF-4c	bat	2009	USA
+alignment/AL_Cyclovirus/member/ncbi-refseqs-cyclo/NC_034977	NC_034977	-	1902	Cyclovirus	Circoviridae	DuACyV-1	Duck associated cyclovirus 1 strain DuACyV-1/1 	Cyclovirus-1	-	Anas platyrhynchos	2013	Hungary

@@ -1,0 +1,18 @@
+taxon	sequenceID	pubmed_id	length	genus	family	name	full_name	clade	isolate	host_sci_name	sample_date	country
+alignment/AL_Circovirus/member/ncbi-refseqs/NC_001792	NC_001792	9787657	1758	Circovirus	Circoviridae	PCV-1	Porcine circovirus 1	Mammal-1	-	-	-	-
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_001944	NC_001944	9787657	1993	Circovirus	Circoviridae	BFDV	Beak and feather disease virus	Avian-1	-	-	-	-
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_003410	NC_003410	19184917	1952	Circovirus	Circoviridae	CaCV	Canary circovirus	Avian-1	-	serinus canaria	-	-
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_005148	NC_005148	-	1768	Circovirus	Circoviridae	PCV-2	Porcine circovirus 2	Mammal-1	AUT1	-	-	-
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_007220	NC_007220	17461272	1991	Circovirus	Circoviridae	DuCV	Duck circovirus	Avian-2	33753-52	Pekin duck	-	USA
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_008033	NC_008033	16603520	2063	Circovirus	Circoviridae	StCV	Starling circovirus	Avian-1	-	European Starling (Sturnus vulgaris)	-	-
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_008375	NC_008375	16595298	1898	Circovirus	Circoviridae	RaCV	Raven circovirus	Avian-1	4-1131	Corvus coronoides	-	Australia
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_008521	NC_008521	17364513	2035	Circovirus	Circoviridae	GuCV	Gull circovirus	Avian-1	-	gull	-	-
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_008522	NC_008522	17364513	1962	Circovirus	Circoviridae	FiCV	Finch circovirus	Avian-1	-	finch	-	-
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_015399	NC_015399	21525210	1957	Circovirus	Circoviridae	BarbCV	Barbel circovirus	Fish-1	-	Barbus barbus (barbel)	2008	Hungary
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_020904	NC_020904	23628223	2063	Circovirus	Circoviridae	CfCV	Canine circovirus 1	Mammal-1	UCD1-1698	Canis lupus familiaris	2011	USA
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_023885	NC_023885	25148585	1753	Circovirus	Circoviridae	MiCV	Mink circovirus	Mammal-1	-	mink	2013	China
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_025246	NC_025246	22426897	1966	Circovirus	Circoviridae	SgCV	Wels catfish circovirus	Fish-2	H5	-	2011	Hungary
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_025247	NC_025247	18082907	1783	Circovirus	Circoviridae	SwCV	Swan circovirus	Avian-2	H51	mute swan (Cygnus olor)	2006	Germany
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_026945	NC_026945	26021933	1982	Circovirus	Circoviridae	ZfCV	Zebra finch circovirus	Avian-1	8454V25-1	Taeniopygia guttata	2010	Germany
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_028045	NC_028045	26607898	1767	Circovirus	Circoviridae	TbCV	Mexican free-tailed bat circovirus	Mammal-2	-	Tadarida brasiliensis (bat)	2013	Brazil
+alignment/AL_Circovirus/member/ncbi-refseqs-circo/NC_031753	NC_031753	27795441	2000	Circovirus	Circoviridae	PCV-3	Porcine circovirus 3	Mammal-2	-	Sus scrofa	2015	USA: North Carolina

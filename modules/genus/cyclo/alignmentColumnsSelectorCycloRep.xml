@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_Cyclo_HuACyV-1</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>Rep</featureName>
+        <startCodon>14</startCodon>
+        <endCodon>240</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>Rep</featureName>
+        <startNt>65</startNt>
+        <endNt>743</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>
+

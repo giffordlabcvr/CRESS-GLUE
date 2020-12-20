@@ -32,7 +32,9 @@
   run file glue/genus/cyclo/cycloRecordFeaturePresence.glue
 
   # Create phylogenies
-  #run file glue/genus/cyclo/cycloCreateGenusLevelPhylogenies.glue
+  run file glue/genus/cyclo/cycloCreateGenusLevelPhylogenies.glue
+  run file glue/genus/cyclo/cycloRerootGenusLevelPhylogenies.glue
+  run file glue/genus/cyclo/cycloExportGenusLevelAnnotations.glue
 
   # Validate
   validate

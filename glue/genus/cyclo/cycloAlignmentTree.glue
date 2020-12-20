@@ -13,4 +13,9 @@
     exit
 
 
+  alignment AL_Cyclovirus
+     derive segments AL_UNC_Cyclovirus_genome -a --mergeStrategy OVERWRITE
+    exit
+
+
 

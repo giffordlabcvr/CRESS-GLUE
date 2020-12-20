@@ -3,5 +3,6 @@
   
   module unconstrainedAlignmentImporter 
     import AL_UNC_Cyclovirus_rep -f alignments/internal/cyclovirus-rep.fna
+    import AL_UNC_Cyclovirus_genome -f alignments/internal/cyclovirus-genome.fna
     exit
 
