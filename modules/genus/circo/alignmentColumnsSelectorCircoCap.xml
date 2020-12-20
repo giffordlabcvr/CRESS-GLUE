@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_MASTER_Circo_PCV-1 </relRefName>
+    <relRefName>REF_MASTER_Circo_PCV-1</relRefName>
     
     <aminoAcidRegionSelector>
         <featureName>Cap</featureName>
@@ -11,8 +11,8 @@
     
     <nucleotideRegionSelector>
         <featureName>Cap</featureName>
-        <startNt>1671</startNt>
-        <endNt>1131</endNt>
+        <startNt>1131</startNt>
+        <endNt>1671</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

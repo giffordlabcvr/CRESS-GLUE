@@ -1,6 +1,6 @@
 
   delete module cressPhyloUtility
-  create module -f modules/rep/cressPhyloUtility.xml
+  create module -f modules/core/cressPhyloUtility.xml
 
   # Re-root phylogeny 
   module cressPhyloUtility 
@@ -10,10 +10,10 @@
       --midpoint \
       --outputFile trees/genus-level/Circo-Rep.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	#reroot-phylogeny \
-    #  --inputFile trees/genus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/genus-level/Circo-Cap.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	reroot-phylogeny \
+      --inputFile trees/genus-level/Circo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/genus-level/Circo-Cap.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 

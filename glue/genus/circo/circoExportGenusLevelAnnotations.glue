@@ -1,17 +1,15 @@
 
-
-
   delete module cressFigTreeAnnotationExporter
 
-  create module -f modules/rep/cressFigTreeAnnotationExporter.xml
+  create module -f modules/core/cressFigTreeAnnotationExporter.xml
 
   # Export annotations
   module cressFigTreeAnnotationExporter 
 
     export figtree-annotation AL_Circovirus -w "fLocNotes.featureLoc.feature.name = 'Rep'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/genus-level/Circo-root-rep.figtree-annotations.tsv
-    #export figtree-annotation AL_Circovirus -w "fLocNotes.featureLoc.feature.name = 'Cap'  \
-    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/genus-level/Circo-root-cap.figtree-annotations.tsv
+    export figtree-annotation AL_Circovirus -w "fLocNotes.featureLoc.feature.name = 'Cap'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/genus-level/Circo-root-cap.figtree-annotations.tsv
 
   exit
 
