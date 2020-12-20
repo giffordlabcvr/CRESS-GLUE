@@ -1,8 +1,14 @@
   
   delete module raxmlPhylogenyGenerator
+  delete module alignmentColumnsSelectorCircoRep
+  delete module alignmentColumnsSelectorCircoCap
+
+
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  
+  create module -f modules/genus/circo/alignmentColumnsSelectorCircoRep.xml
+  create module -f modules/genus/circo/alignmentColumnsSelectorCircoCap.xml
+ 
 
   # Create the phylogenies
   module raxmlPhylogenyGenerator
