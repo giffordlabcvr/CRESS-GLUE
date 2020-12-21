@@ -13,7 +13,7 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_CRESS_MASTER -r REF_Circo_MASTER_PCV-1 -f Rep -w "sequence.source.name = 'ncbi-refseqs'" -o trees/main-root/cress-root-rep.tre  NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_CRESS_MASTER -r REF_MASTER_Circo_PCV-1 -f Rep -w "sequence.source.name = 'ncbi-refseqs'" -o trees/main-root/cress-root-rep.tre  NEWICK_BOOTSTRAPS
 
     exit
 
