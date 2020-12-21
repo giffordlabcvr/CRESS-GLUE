@@ -16,7 +16,6 @@
 
   # Create reference sequences
   run file glue/core/cressMasterReferences.glue    
-  #run file glue/core/cressFeatureLocations.glue
   
   # Import root alignment
   run file glue/core/cressImportRootAlignment.glue
