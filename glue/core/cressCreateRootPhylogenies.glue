@@ -5,32 +5,44 @@
   delete module cressFigTreeAnnotationExporter
   
   # Create all the modules we need
-  create module -f modules/core/cressPhyloUtility.xml
-  create module -f modules/core/cressFigTreeAnnotationExporter.xml
+  create module -f modules/core/alignmentColumnsSelectorCressRoot.xml
   create module -t raxmlPhylogenyGenerator
 
   
+
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_CRESS_MASTER -r REF_MASTER_Circo_PCV-1 -f Rep -w "sequence.source.name = 'ncbi-refseqs'" -o trees/main-root/cress-root-rep.tre  NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_CRESS_MASTER -s alignmentColumnsSelectorCressRoot \
+      -w "fLocNotes.featureLoc.feature.name = 'Rep' and fLocNotes.ref_nt_coverage_pct >= 3" \
+      -o trees/phylum-root/cress-root-rep_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
+
+
+
 
 
   # Re-root phylogeny 
+  create module -f modules/core/cressPhyloUtility.xml
   module cressPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/cress-root-rep.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/phylum-root/cress-root-rep.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-root/cress-root-rep-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/phylum-root/cress-root-rep-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
+
+
+
   # Export annotations
-  module cressFigTreeAnnotationExporter 
-    export figtree-annotation AL_CRESS_MASTER -f trees/main-root/cress-root-rep.figtree-annotations.tsv
-  exit
+  create module -f modules/core/cressFigTreeAnnotationExporter.xml
+  module cressFigTreeAnnotationExporter
+  
+    export figtree-annotation AL_CRESS_MASTER -f trees/phylum-root/cress-root-rep.figtree-annotations.tsv
+    
+    exit
 
 
