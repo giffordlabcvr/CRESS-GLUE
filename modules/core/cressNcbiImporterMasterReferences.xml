@@ -55,6 +55,33 @@
       <!-- Gemyduguivirus -->
 	  <primaryAccession>JX185428</primaryAccession>
 	  
+      <!-- Begomovirus -->
+	  <primaryAccession>KJ888053</primaryAccession>
+
+      <!-- Becurtovirus -->
+	  <primaryAccession>NC_010417</primaryAccession>
+
+      <!-- Capulavirus -->
+	  <primaryAccession>NC_027714</primaryAccession>
+
+      <!-- Curtovirus -->
+	  <primaryAccession>NC_001412</primaryAccession>
+
+      <!-- Eragrovirus -->
+	  <primaryAccession>NC_012664</primaryAccession>
+
+      <!-- Mastrevirus -->
+	  <primaryAccession>NC_040792</primaryAccession>
+
+      <!-- Grablovirus -->
+	  <primaryAccession>NC_043533</primaryAccession>
+
+      <!-- Topocuvirus -->
+	  <primaryAccession>NC_003825</primaryAccession>
+
+      <!-- Turncurtovirus -->
+	  <primaryAccession>NC_029117</primaryAccession>
+
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

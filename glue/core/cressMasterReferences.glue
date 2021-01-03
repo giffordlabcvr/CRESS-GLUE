@@ -1,32 +1,32 @@
-  #### Circoviridae MASTER references
+  ## Declare master references for Cressdnaviricota
   
   # Circlivirales
   create reference REF_MASTER_Circo_PCV-1        ncbi-refseqs  NC_001792
   create reference REF_MASTER_Cyclo_HuACyV-1     ncbi-refseqs  KJ831064
   create reference REF_MASTER_CRESS1_AHEaCV-13   ncbi-refseqs  NC_026639
-  create reference REF_MASTER_CRESS2_Po-41       ncbi-refseqs  NC_025683  # Po-Circo-like virus 41
-  create reference REF_MASTER_CRESS4_batCV-SC703 ncbi-refseqs  JN857329   # batCV-SC703
-  
+  create reference REF_MASTER_CRESS2_Po-41       ncbi-refseqs  NC_025683   # Po-Circo-like virus 41
+  create reference REF_MASTER_CRESS4_batCV-SC703 ncbi-refseqs  JN857329    # batCV-SC703
   
   # Recrevirales
-  create reference REF_MASTER_Redondo_HLVV       ncbi-refseqs  MK059763   # Vientovirus
+  create reference REF_MASTER_Redondo_HLVV       ncbi-refseqs  MK059763    # Vientovirus
   
   # Cremevirales  
-  create reference REF_MASTER_Porprismaco_CBSV   ncbi-refseqs  MF669476   # Porprismacovirus
+  create reference REF_MASTER_Porprismaco_CBSV   ncbi-refseqs  MF669476    # Porprismacovirus
 
   # Geplafuvirales  
-  create reference REF_MASTER_Begomo_EACMKV             ncbi-refseqs  KJ888053   # East African cassava mosaic Kenya virus isolate MG
+  create reference REF_MASTER_Begomo_EACMKV      ncbi-refseqs   KJ888053   # East African cassava mosaic Kenya virus isolate MG
+  create reference REF_MASTER_Becurto_BCTIV      ncbi-refseqs   NC_010417  # Beet curly top Iran virus
+  create reference REF_MASTER_Capula_ALCV        ncbi-refseqs   NC_027714  # Alfalfa leaf curl virus
+  create reference REF_MASTER_Curto_BCTV         ncbi-refseqs   NC_001412  # Beet curly top virus
+  create reference REF_MASTER_Eragro_ECSV        ncbi-refseqs   NC_012664  # Eragrostis curvula streak virus
+  create reference REF_MASTER_Mastre_RiceLV      ncbi-refseqs   NC_040792  # Rice latent virus 1
+  create reference REF_MASTER_Grablo_PrunusLV    ncbi-refseqs   NC_043533  # Prunus latent virus
+  create reference REF_MASTER_Turncurto_TpSTV    ncbi-refseqs   NC_003825  # Tomato pseudo-curly top virus
+  create reference REF_MASTER_Turncurto_TLFV     ncbi-refseqs   NC_029117  # Turnip leaf roll virus
+
+
+  ## Associate genome features with locations in master reference sequences
   
-  # Becurtovirus
-  # Capulavirus
-  # Curtovirus
-  # Eragrovirus
-  # Grablovirus
-  # Mastrevirus
-  # Topocuvirus
-  # Turncurtovirus
-
-
 
   reference REF_MASTER_Circo_PCV-1 
 
@@ -122,7 +122,6 @@
   
 
  
-  
   reference REF_MASTER_Porprismaco_CBSV
 
     add feature-location whole_genome
