@@ -9,6 +9,14 @@ alignment/AL_CRESS_MASTER/member/ncbi-refseqs/KJ888053	KJ888053	-	2798	Begomovir
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/MF669476	MF669476	29334978	2926	Porprismacovirus	Smacoviridae	CBSV	Cattle blood-associated circovirus-like virus 	Smacovirus	-	-	2016	China
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/MK059757	MK059757	-	3026	Brisavirus	Redondoviridae	Hla-Brisavirus	Human lung-associated brisavirus RC	Brisavirus	-	Homo sapiens	-	-
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/MK059763	MK059763	-	3056	Vientovirus	Redondoviridae	HLVV	Human lung-associated vientovirus FB	Vientovirus	-	Homo sapiens	-	-
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_001412	NC_001412	16453696	2994	Curtovirus	Geminiviridae	BCTV	Beet curly top virus	Unclassified	California [Logan]	-	-	-
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_001792	NC_001792	9787657	1758	Circovirus	Circoviridae	PCV-1	Porcine circovirus 1	Mammal-1	-	-	-	-
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_003825	NC_003825	8638404	2861	Topocuvirus	Geminiviridae	TpSTV	Tomato pseudo-curly top virus	Unclassified	-	-	-	-
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_010417	NC_010417	18401697	2845	Becurtovirus	Geminiviridae	BCTIV	Beet curly top Iran virus	Unclassified	Kerman	sugar beet	-	Iran: Kerman
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_012664	NC_012664	19321000	2754	Eragrovirus	Geminiviridae	ECSV	Eragrostis curvula streak virus	Unclassified	ECSV-ZA-Esc1-g382-2008	Eragrostis curvula	2008	South Africa
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_025683	NC_025683	21900163	2904	CRESS-2	CRESS-2	CvPo-41	Po-Circo-like virus 41	Unclassified	-	Sus scrofa	2010	USA
 alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_026639	NC_026639	25697886	2212	CRESS-1	CRESS-1	AHEaCV-13	Avon-Heatchote Estuary Associated Virus 13	Unclassified	AHEaCV-13-NZ-1986SG-2012	-	2012	New Zealand
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_027714	NC_027714	26109720	2745	Capulavirus	Geminiviridae	ALCV	Alfalfa leaf curl virus	Unclassified	44-1E	Medicago sativa	2010	France:Camargue, Le Sambuc
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_029117	NC_029117	26611911	2965	Turncurtovirus	Geminiviridae	TLFV	Turnip leaf roll virus	Unclassified	IR:Hom:Th2:Tur:12	Brassica rapa var. rapa	2012	Iran
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_040792	NC_040792	28684155	2757	Mastrevirus	Geminiviridae	RiceLV	Rice latent virus 1	Unclassified	AU-NA63-2015	Oryza sp.	2015	Australia
+alignment/AL_CRESS_MASTER/member/ncbi-refseqs/NC_043533	NC_043533	-	3174	Grablovirus	Geminiviridae	PrunusLV	Prunus latent virus	Unclassified	PL4	Prunus salicina cv. Formosa	2017	USA

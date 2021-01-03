@@ -21,7 +21,7 @@
   create reference REF_MASTER_Eragro_ECSV        ncbi-refseqs   NC_012664  # Eragrostis curvula streak virus
   create reference REF_MASTER_Mastre_RiceLV      ncbi-refseqs   NC_040792  # Rice latent virus 1
   create reference REF_MASTER_Grablo_PrunusLV    ncbi-refseqs   NC_043533  # Prunus latent virus
-  create reference REF_MASTER_Turncurto_TpSTV    ncbi-refseqs   NC_003825  # Tomato pseudo-curly top virus
+  create reference REF_MASTER_Topocu_TpSTV       ncbi-refseqs   NC_003825  # Tomato pseudo-curly top virus
   create reference REF_MASTER_Turncurto_TLFV     ncbi-refseqs   NC_029117  # Turnip leaf roll virus
 
 
@@ -146,4 +146,109 @@
       
   exit   
   
+ 
+ 
+  reference REF_MASTER_Begomo_EACMKV        
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2798
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Becurto_BCTIV        
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2845
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Capula_ALCV          
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2745
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Curto_BCTV           
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2926
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Eragro_ECSV          
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2754
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Mastre_RiceLV        
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2757
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Grablo_PrunusLV      
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 3174
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Topocu_TpSTV         
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2861
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Turncurto_TLFV 
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2965
+      exit
+
+  exit   
+  
+ 
+ 
+
+
+
+ 
  
