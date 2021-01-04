@@ -12,8 +12,9 @@ project cress
   exit
 
 # Build the core project for CRESS viruses
-
 project cress
+
   run file glue/core/buildCressCoreProject.glue
+  
 exit
 

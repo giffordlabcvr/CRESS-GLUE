@@ -1,0 +1,11 @@
+  delete module cressFeaturePresenceRecorder
+  create module -f modules/core/cressFeaturePresenceRecorder.xml
+
+  module cressFeaturePresenceRecorder 
+
+    
+    #~# Family alignments
+    record feature-presence AL_Cycloviridae --recursive --featureName whole_genome --descendentFeatures
+     
+    exit
+

@@ -8,8 +8,8 @@ project cress
 
   # Family Circoviridae
   run file glue/eve/circo/buildCircoEveExtension.glue
-  #run file glue/eve/cyclo/buildCycloEveExtension.glue
-  #run file glue/eve/cress/buildCressEveExtension.glue
+  run file glue/eve/cyclo/buildCycloEveExtension.glue
+  #run file glue/eve/cress/buildUncCircoEveExtension.glue
   
 
   # Family Geminiviridae

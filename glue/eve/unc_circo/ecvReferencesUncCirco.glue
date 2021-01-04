@@ -1,6 +1,4 @@
-  ## Cyclovirus ECV  
-  create reference REF_ECV_Cyclo.1-Varroa           fasta-refseqs-cyclo-ecv ecv-cyclo.1-varroa-con
-  
+
   ## CRESS ECV  
   create reference REF_ECV_CRESS.1-Eptatretus       fasta-refseqs-cyclo-ecv ecv-cress.1-eptatretus-con
   create reference REF_ECV_CRESS.2-Loxosceles       fasta-refseqs-cyclo-ecv ecv-cress.2-loxosceles-con
