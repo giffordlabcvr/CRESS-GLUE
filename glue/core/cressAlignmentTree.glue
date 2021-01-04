@@ -23,7 +23,8 @@
     extract child AL_CRESS_1 --refName REF_MASTER_CRESS1_AHEaCV-13
 	demote member AL_CRESS_1 --whereClause "sequence.genus = 'CRESS-1'"	
 
-    # Naryaviridae  
+    # Naryaviridae
+    
     # Nenyaviridae
  
     exit
