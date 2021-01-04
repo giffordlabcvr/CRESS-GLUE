@@ -1,0 +1,9 @@
+
+  module UnconstrainedAlignmentImporter
+
+    #~#  INTERNAL alignments (Circovirus genus)
+      
+    import AL_UNC_ECV_Circo -f alignments/internal/circovirus-genome+eves.fna
+
+   exit
+
