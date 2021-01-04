@@ -251,7 +251,7 @@
          
   <pre>
   <code>Mode path: /
-  GLUE> run file cressCoreProject.glue</code></pre>
+  GLUE> run file buildCoreProject.glue</code></pre>
 
          This will build the CRESS-GLUE core project by executing the commands in
 		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/cressCoreProject.glue"><b>this file</b></a>.
@@ -266,16 +266,23 @@
 
 
 	   <p>
-		 We have also created a genus-level, extension project for the family <i>Circoviridae</i>.
-		 This project includes a more extensive set of species for this virus family.
-		 Once the core project has been built, the circoviridae extension project can be
-		 constructed, by executing the commands in
+		 We have also created extension projects for certain families in the 
+		 <b><i>Cressdnaviricota</i></b> (e.g. <i>Circoviridae</i>).
+		 These extensions extend the minimal set of
+		 reference sequences included in the core project to include representatives of
+		 taxonomic groups below family-level.
+	   </p>
+
+
+	   <p>
+		 Once the core project has been built, the family-level extension project can be
+		 added by executing the commands in
 		 <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/cressCircoviridaeProject.glue"><b>this file</b></a>,
-		 as follows.
+		 as follows:
          
   <pre>
   <code>Mode path: /
-  GLUE> run file cressCircoviridaeProject.glue</code></pre>
+  GLUE> run file buildFamilyLevelProjects.glue</code></pre>
 		 		  
 	   </p>
 
@@ -288,9 +295,16 @@
          
   <pre>
   <code>Mode path: /
-  GLUE> run file cressPaleoExtensionCircoviridae.glue</code></pre>
+  GLUE> run file buildFamilyLevelPaleoProjects.glue</code></pre>
 		 		  
 	   </p>
+
+
+	   <p>
+		 We have also created family-level, extension project for certain families in the 
+		 <b><i>Cressdnaviricota</i></b>.
+	   </p>
+
 
 	   <p>
 		 The <i>Circoviridae</i> paleovirus extension incorporates a set of endogenous

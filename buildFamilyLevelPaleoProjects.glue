@@ -3,12 +3,17 @@ schema-project cress
   run file glue/core/cressSchemaExtensionsPaleovirus.glue
   exit
 
-# Build genus-level EVE extensions
+# Build family-level EVE extensions
 project cress
 
+  # Family Circoviridae
   run file glue/eve/circo/buildCircoEveExtension.glue
   #run file glue/eve/cyclo/buildCycloEveExtension.glue
   #run file glue/eve/cress/buildCressEveExtension.glue
+  
+
+  # Family Geminiviridae
+  
   
 exit
 
