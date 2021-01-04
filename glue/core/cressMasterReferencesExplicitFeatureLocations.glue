@@ -99,7 +99,7 @@
   ## Recrevirales
   # Redondoviridae
 
-  reference REF_MASTER_Redondo_HLVV-SC703
+  reference REF_MASTER_Redondo_HLVV
 
     add feature-location whole_genome
     feature-location whole_genome
