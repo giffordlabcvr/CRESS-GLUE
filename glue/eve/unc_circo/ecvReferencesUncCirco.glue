@@ -1,13 +1,13 @@
 
   ## CRESS ECV  
-  create reference REF_ECV_CRESS.1-Eptatretus       fasta-refseqs-cyclo-ecv ecv-cress.1-eptatretus-con
-  create reference REF_ECV_CRESS.2-Loxosceles       fasta-refseqs-cyclo-ecv ecv-cress.2-loxosceles-con
-  create reference REF_ECV_CRESS.3-Modiolus         fasta-refseqs-cyclo-ecv ecv-cress.3-modiolus-con
-  create reference REF_ECV_CRESS.4-Mytilus          fasta-refseqs-cyclo-ecv ecv-cress.4-mytilus-con
-  create reference REF_ECV_CRESS.5-Neolamprologus   fasta-refseqs-cyclo-ecv ecv-cress.5-neolamprologus-con
-  create reference REF_ECV_CRESS.6-Parhyale         fasta-refseqs-cyclo-ecv ecv-cress.6-parhyale-con
-  create reference REF_ECV_CRESS.7-Salmo            fasta-refseqs-cyclo-ecv ecv-cress.7-salmo-con
-  create reference REF_ECV_CRESS.8-Tropileilaps     fasta-refseqs-cyclo-ecv ecv-cress.8-tropileilaps-con
-  create reference REF_ECV_CRESS.9-Conus            fasta-refseqs-cyclo-ecv ecv-cress.9-conus-con
-  create reference REF_ECV_CRESS.10-Taenia          fasta-refseqs-cyclo-ecv ecv-cress.10-taenia-con
+  create reference REF_ECV_CRESS4.1-Eptatretus       fasta-refseqs-cyclo-ecv ecv-cress4.1-eptatretus-con
+  create reference REF_ECV_CRESS5.2-Loxosceles       fasta-refseqs-cyclo-ecv ecv-cress5.2-loxosceles-con
+  create reference REF_ECV_CRESS5.3-Modiolus         fasta-refseqs-cyclo-ecv ecv-cress5.3-modiolus-con
+  create reference REF_ECV_CRESS5.4-Mytilus          fasta-refseqs-cyclo-ecv ecv-cress5.4-mytilus-con
+  create reference REF_ECV_CRESS5.5-Neolamprologus   fasta-refseqs-cyclo-ecv ecv-cress5.5-neolamprologus-con
+  create reference REF_ECV_CRESS5.6-Parhyale         fasta-refseqs-cyclo-ecv ecv-cress5.6-parhyale-con
+  create reference REF_ECV_CRESS5.7-Salmo            fasta-refseqs-cyclo-ecv ecv-cress5.7-salmo-con
+  create reference REF_ECV_CRESS5.8-Tropileilaps     fasta-refseqs-cyclo-ecv ecv-cress5.8-tropileilaps-con
+  create reference REF_ECV_CRESS5.9-Conus            fasta-refseqs-cyclo-ecv ecv-cress5.9-conus-con
+  create reference REF_ECV_CRESS5.10-Taenia          fasta-refseqs-cyclo-ecv ecv-cress5.10-taenia-con
 

@@ -1,0 +1,17 @@
+<!-- Cyclovirus genus reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-unc-circo-ecv</sourceName>
+
+    <specificPrimaryAccessions>
+
+
+      <!-- ## Unclassified Circoviridae ### -->  
+
+ 
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+

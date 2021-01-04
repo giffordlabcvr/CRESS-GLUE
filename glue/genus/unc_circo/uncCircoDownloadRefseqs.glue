@@ -1,0 +1,9 @@
+delete module ncbiImporterUncCirco
+create module -f modules/genus/cyclo/cycloNcbiImporterCycloReferences.xml ncbiImporterUncCirco
+
+# Download NCBI sequences 
+module ncbiImporterUncCirco import
+
+export source ncbi-refseqs-unc-circo-ecv
+
+ 
