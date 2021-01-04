@@ -1,43 +1,37 @@
-  #### Declare master references for Cressdnaviricota
+  #### Declare MASTER references for Cressdnaviricota
 
 
   ### Arfiviricetes  
-  ## Mulparvirales
-  
+  ## Mulparvirales 
   # Nanoviridae
-  create reference REF_MASTER_Nano_SCSV         ncbi-refseqs  NC_003813 # Subterranean clover stunt virus
-  create reference REF_MASTER_Babu_BBTV         ncbi-refseqs  NC_003479 # Banana bunchy top virus
+  create reference REF_MASTER_Nano_SCSVs1        ncbi-refseqs  NC_003813 # Subterranean clover stunt virus
+  create reference REF_MASTER_Babu_BBTVs1        ncbi-refseqs  NC_003479 # Banana bunchy top virus
 
-  
   ## Baphyvirales
-  
   # Bacilladnaviridae
   create reference REF_MASTER_Diatodna_CsDNAv         ncbi-refseqs  NC_043432 # Chaetoceros setoense DNA virus
   create reference REF_MASTER_Protobacilladna_GaBacV1 ncbi-refseqs  NC_033746 # Amphibola crenata associated bacilladnavirus 1
 
 
   ## Circlivirales
-  
   # Circoviridae
   create reference REF_MASTER_Circo_PCV-1        ncbi-refseqs  NC_001792
   create reference REF_MASTER_Cyclo_HuACyV-1     ncbi-refseqs  KJ831064
   
   # CRESS 1-3
-  create reference REF_MASTER_CRESS1_AHEaCV-13   ncbi-refseqs  NC_026639
+  create reference REF_MASTER_CRESS1_AHEaCV-13   ncbi-refseqs  NC_026639   # Avon-Heathcote Estuary associated circular virus 13
   create reference REF_MASTER_CRESS2_Po-41       ncbi-refseqs  NC_025683   # Po-Circo-like virus 41
-  create reference REF_MASTER_CRESS3_batCV-SC703 ncbi-refseqs  JN857329    # batCV-SC703
+  create reference REF_MASTER_CRESS3_batCV-SC703 ncbi-refseqs  JN857329    # Circoviridae batCV-SC703
   
 
 
   ## Recrevirales
-  
   # Redondoviridae
   create reference REF_MASTER_Redondo_HLVV       ncbi-refseqs  MK059763    # Vientovirus
 
 
 
-  # Cremevirales 
-   
+  # Cremevirales
   # Smacoviridae
   create reference REF_MASTER_Porprismaco_CBSV   ncbi-refseqs  MF669476    # Porprismacovirus
 
@@ -45,12 +39,11 @@
 
   ### Repensiviricetes
   ## Geplafuvirales  
-
   # Genomoviridae
   create reference REF_MASTER_Gemycircular_CaGmycV  ncbi-refseqs JQ412057 # Cassava associated gemycircularvirus 1
-  create reference REF_MASTER_Gemygor_DaGmygV       ncbi-refseqs JQ412057 # Dragonfly-associated circular virus 2
+  create reference REF_MASTER_Gemygor_DaGmygV       ncbi-refseqs JX185429 # Dragonfly-associated circular virus 2
   create reference REF_MASTER_Gemykrozna_FaGmykzV   ncbi-refseqs KF371631 # Faecal-associated gemycircularvirus 11
-  create reference REF_MASTER_Gemytond_F-aGmytV     ncbi-refseqs JX185429 # Faecal-associated gemycircularvirus 12
+  create reference REF_MASTER_Gemytond_FaGmytV      ncbi-refseqs JX185429 # Faecal-associated gemycircularvirus 12
   create reference REF_MASTER_Gemydugui_CaGmycV     ncbi-refseqs KF371630 # Dragonfly-associated circular virus 3
 
   # Geminiviridae
@@ -64,9 +57,3 @@
   create reference REF_MASTER_Topocu_TpSTV       ncbi-refseqs   NC_003825  # Tomato pseudo-curly top virus
   create reference REF_MASTER_Turncurto_TLFV     ncbi-refseqs   NC_029117  # Turnip leaf roll virus
 
-
-
-
-
- 
- 
