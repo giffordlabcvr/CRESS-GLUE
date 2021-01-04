@@ -1,0 +1,223 @@
+  ## Associate genome features with locations in master reference sequences
+  
+  reference REF_MASTER_Circo_PCV-1 
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 1758
+      exit
+      
+    add feature-location 5UTR
+    feature-location 5UTR
+      add segment 1  54
+      exit
+
+    add feature-location Rep
+    feature-location Rep
+      add segment 55  993
+      exit
+
+    add feature-location Cap
+    feature-location Cap
+      add segment 1038 1730
+      exit
+      
+    add feature-location 3UTR
+    feature-location 3UTR
+      add segment 1731  1758
+      exit
+
+  exit 
+
+
+
+  reference REF_MASTER_Cyclo_HuACyV-1
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 1710
+      exit
+
+    add feature-location Rep
+    feature-location Rep
+      add segment 26 856
+      exit
+
+    add feature-location Cap
+    feature-location Cap
+      add segment 836	1528
+      exit
+      
+  exit 
+
+
+
+  reference REF_MASTER_CRESS1_AHEaCV-13
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2212
+      exit
+
+    add feature-location Rep
+    feature-location Rep
+      add segment 153 1049
+      exit
+
+    add feature-location Cap
+    feature-location Cap
+      add segment 1042 2145
+      exit
+      
+  exit 
+  
+ 
+
+  reference REF_MASTER_CRESS3_batCV-SC703
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 1578
+      exit
+
+    add feature-location Rep
+    feature-location Rep
+      add segment 76 1005
+      exit
+
+    add feature-location Cap
+    feature-location Cap
+      add segment 911 1531
+      exit
+      
+  exit 
+  
+
+ 
+  reference REF_MASTER_Porprismaco_CBSV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2926
+      exit
+
+    add feature-location Rep
+    feature-location Rep
+      add segment 55 1026
+      exit
+
+    add feature-location ORF3
+    feature-location ORF3
+      add segment 350 1006
+      exit
+      
+    add feature-location Cap
+    feature-location Cap
+      add segment 1366 2874
+      exit
+      
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Begomo_EACMKV        
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2798
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Becurto_BCTIV        
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2845
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Capula_ALCV          
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2745
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Curto_BCTV           
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2926
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Eragro_ECSV          
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2754
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Mastre_RiceLV        
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2757
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Grablo_PrunusLV      
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 3174
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Topocu_TpSTV         
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2861
+      exit
+
+  exit   
+  
+ 
+ 
+  reference REF_MASTER_Turncurto_TLFV 
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2965
+      exit
+
+  exit   
+  
+ 
+ 
+
+

@@ -6,24 +6,14 @@
 
     <specificPrimaryAccessions>
 
-
+      <!-- ## Circlivirales ## --> 
+      <!-- ## Circoviridae ## -->
+      
       <!-- ## Circovirus ## -->  	  
       <primaryAccession>NC_001792</primaryAccession> <!-- Porcine circovirus 1 -->	  
       
       <!-- ## Cyclovirus ### -->  
       <primaryAccession>KJ831064</primaryAccession> <!-- Cyclovirus SL-108277 -->	 
- 
-      <!-- ## Vientovirus ## -->  
-      <primaryAccession>MK059763</primaryAccession>
-      
-      <!-- ## Porprismacovirus ### -->  
-	  <primaryAccession>MF669476</primaryAccession>
-      
-      <!-- ## Gemininvirus ## -->  
-      <primaryAccession>KJ888053</primaryAccession>
-      
-      <!-- ## Brisavirus ## -->  
-      <primaryAccession>MK059757</primaryAccession>
 
       <!-- ## CRESS unc 1 ### -->  
       <primaryAccession>NC_026639</primaryAccession> <!--AHEaCV-13-->
@@ -39,8 +29,59 @@
 	  
       <!-- ## Po-Circo-like virus 41 ## -->  
       <primaryAccession>NC_025683</primaryAccession>
+
+
+ 
+      <!-- ## Recrevirales ## --> 
+      <!-- ## Redondoviridae ## --> 
       
-      <!-- Gemycircular -->
+      <!-- ## Vientovirus ## -->  
+      <primaryAccession>MK059763</primaryAccession>
+
+
+      
+      <!-- ## Cremevirales ## --> 
+      <!-- ## Smacoviridae ## -->    
+        
+      <!-- ## Porprismacovirus ### -->  
+	  <primaryAccession>MF669476</primaryAccession>
+      
+    
+      <!-- ## Brisavirus ## -->  
+      <primaryAccession>MK059757</primaryAccession>
+
+
+
+      <!-- ## Mulparvirales ## --> 
+      <!-- ## Nanoviridae ## -->
+ 
+      <!-- Nanocircular -->
+      <primaryAccession>NC_003813</primaryAccession>  <!-- Subterranean clover stunt virus -->
+ 
+      <!-- Babucircular -->
+      <primaryAccession>NC_003479</primaryAccession>  <!-- Banana bunchy top virus -->
+      
+
+
+
+      <!-- ## Baphyvirales ## --> 
+      <!-- ## Bacilladnaviridae ## -->
+      
+      <!-- Diatodnavirus -->
+	  <primaryAccession>NC_043432</primaryAccession>  <!-- Chaetoceros setoense DNA virus -->
+      
+      <!-- Protobacilladnavirus -->
+	  <primaryAccession>NC_033746</primaryAccession>  <!-- Amphibola crenata associated bacilladnavirus 1 --> 
+
+
+
+      <!-- ## Geplafuvirales ## -->      
+      <!-- ## Geminiviridae ## -->
+
+      <!-- ## Begomovirus ## -->  
+      <primaryAccession>KJ888053</primaryAccession>
+
+      <!-- Gemycircularvirus -->
 	  <primaryAccession>JQ412057</primaryAccession> 
 
       <!-- Gemygorvirus -->

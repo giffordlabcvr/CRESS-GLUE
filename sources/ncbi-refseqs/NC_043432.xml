@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>NC_043432</GBSeq_locus>
+    <GBSeq_length>5836</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>circular</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-JUN-2019</GBSeq_update-date>
+    <GBSeq_create-date>28-JUN-2019</GBSeq_create-date>
+    <GBSeq_definition>Chaetoceros setoense DNA virus DNA, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>NC_043432</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_043432.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NC_043432.1|</GBSeqid>
+      <GBSeqid>gnl|NCBI_GENOMES|85008</GBSeqid>
+      <GBSeqid>gi|1694998428</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Chaetoceros setoense DNA virus</GBSeq_source>
+    <GBSeq_organism>Chaetoceros setoense DNA virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota; Arfiviricetes; Baphyvirales; Bacilladnaviridae; Diatodnavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..5836</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tomaru,Y.</GBAuthor>
+          <GBAuthor>Toyoda,K.</GBAuthor>
+          <GBAuthor>Suzuki,H.</GBAuthor>
+          <GBAuthor>Nagumo,T.</GBAuthor>
+          <GBAuthor>Kimura,K.</GBAuthor>
+          <GBAuthor>Takao,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>New single-stranded DNA virus with a unique genomic structure that infects marine diatom Chaetoceros setoensis</GBReference_title>
+        <GBReference_journal>Sci Rep 3, 3337 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/srep03337</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24275766</GBReference_pubmed>
+        <GBReference_remark>DOI:10.1038/srep03337; Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..5836</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-JUN-2019) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..5836</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tomaru,Y.</GBAuthor>
+          <GBAuthor>Takao,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-FEB-2013) Contact:Yuji Tomaru National Research Institute for Fisheries and Environment of Inland Sea, Research Center for Environmental Conservation; 2-17-5 Maruishi, Hatsukaichi, Hiroshima 739-0452, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to AB781089.; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..5836</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>5836</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Chaetoceros setoense DNA virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>surface sea water of Hiroshima bay</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Chaetoceros setoensis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1290581</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan: Hiroshima bay</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>15-Oct-2007</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>synonym: Chaetoceros setoensis DNA virus</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>primer_bind</GBFeature_key>
+        <GBFeature_location>30..96</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>30</GBInterval_from>
+            <GBInterval_to>96</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>complementary fragment binding region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>primer_bind</GBFeature_key>
+        <GBFeature_location>1186..1292</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1186</GBInterval_from>
+            <GBInterval_to>1292</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>complementary fragment binding region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(1241..2395)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2395</GBInterval_from>
+            <GBInterval_to>1241</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>weakly similar region of translation initiation factor</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>primer_bind</GBFeature_key>
+        <GBFeature_location>1535..1610</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1535</GBInterval_from>
+            <GBInterval_to>1610</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>complementary fragment binding region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>primer_bind</GBFeature_key>
+        <GBFeature_location>1803..1974</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1803</GBInterval_from>
+            <GBInterval_to>1974</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>complementary fragment binding region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>primer_bind</GBFeature_key>
+        <GBFeature_location>1866..1974</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1866</GBInterval_from>
+            <GBInterval_to>1974</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>complementary fragment binding region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(2455..3642)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>3642</GBInterval_from>
+            <GBInterval_to>2455</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>putative capsid protein region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>primer_bind</GBFeature_key>
+        <GBFeature_location>4021..4110</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4021</GBInterval_from>
+            <GBInterval_to>4110</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>complementary fragment binding region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>4158..5624</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4158</GBInterval_from>
+            <GBInterval_to>5624</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>putative replication related protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLA02_gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:40526302</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>unsure</GBFeature_key>
+        <GBFeature_location>4158..5624</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4158</GBInterval_from>
+            <GBInterval_to>5624</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>putative replication related protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>FLA02_gp1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>primer_bind</GBFeature_key>
+        <GBFeature_location>4523..4592</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4523</GBInterval_from>
+            <GBInterval_to>4592</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>complementary fragment binding region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>primer_bind</GBFeature_key>
+        <GBFeature_location>4694..4765</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4694</GBInterval_from>
+            <GBInterval_to>4765</GBInterval_to>
+            <GBInterval_accession>NC_043432.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>complementary fragment binding region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gagaaacggagaaaaaattttgccatgatgtgtagttccatgagggcaaaattttttcccgtttctccgagcgcctgacggggacggggaagagtagttcgctccgagtaaactgagtagctcgcttgtctaggaggagttgtccctgggccctgcagtgtcgttagtgtcggcggtgctatactttcgagtggcttggagggcacttgtaagctgccttgtaagttgaggccttttacattgtactttttgagccttgggacctctgcggagaggcctgtaagttggggggtacttgagtcgtgggtcattatattgggtcattaaatgactgggtcttttaatgactaggtcttttaatgactggtgtcaagtatatagtctacgtggtagtactaattgtacgttacaggatttgtacgcatttagcgtaggctacgtgtttagcgtagaagtagggttctttttccagtcgtggagaaaatcactttttcatttatttttctcataatttcaccaagtgaaaagtaataagcaatattatgtcaccaatgagcgatttccaaaactacctcgacaacgtcgttctaccttccagtattgtttcgtgggacctccacaataatgaaggcactttgaagttcaactacgattgcgaccatcggatgttccagatggatactggtgcatggtgttctgttgcagaagtggtgatgcgtgttaatgagaagaaactccgtggggagtggtgtgcaaagcattgcagtgaattagatgacatccttctagtgttgatgcacaacggacgcgtgggttccgggtgtctaatttgggatggccatgagcataactacatgacgttgcatgacttcatctatttccactccaacaagtatgtcttggagaatggaaatatgcatcgcgttgacagggttaacacttcgcagaacgatcccggtgttgaagtttatgatggcgtactcaaatcaaacaagattgttgatatgttcgcagatggaactgctttcgttgaggtggatgttggacttggtttgggtaatggtaccatggaacctgaagttgaacaggaattccttcagaccaacatgggtgtggaacttagtgaagatgattggactctggctgaggttccagaaccagagaacgaatgggaaaacatggtgggttgttcaattgtttaatcttaacaagttctaaatatttataagtctaaaatttattatggctccaacatatagtcttcgctatcgtggttccataactcgtgtgtatgcattccttctacctcaaggtggatattgttctctccggttgaaccgagagccatatccacttgggatttaaaccaagcgatggggtgaccagggtcgaaccccctaccgccttgatagaagttaatcatacctttgttatcggctagaatcattgcggaatccaaaccgatctttgtcacagcagctgggagttgcatgtcagcgacaattgcacctccacgagagtgtccgtatactacgtccacttcttcatctactacaacttgagagtaaaactcttgcgcttttgcgcgccaaggtgttgcgatacgtccattgggcgtttctattgtgtctgctactttttcagcaagacccaaatactcgggaggaacggggttacccgttgcgtacatgtacccaacctccccagcccgcacaccagagtgcacggggttgttgagaatgtgtgaagccccggtaacttctagggcattggaggcccaatcccagccgttacgggtaccagcaacaaacatttctttgttgccagtatgtggatttgttcggatagcgtatcctcgctcactagcgtaagcttcgtcagcaaaggcaccaaacgatttgtctccaaactcttgtgccatcaactgggaatcgatttcgtagtacgcggttccctgttgaatcttaatgatatgcgcatcagccaggtctgcttggtatggcgtgtgcgcatagccggagccggtaattaggccattagaggcctcatttgcggcatgtaaatcaattaatgataatggactatgacccttctcgttaacaactggaatcagtgctaacggagaaaagttgtccggttgggcatggtcatacatatcatcaccaacacgcattataccttcgagcatcgcatcaagtttggtgcgtttaggagctcgaatgatttgagcggttggattgtccgagagattagccatctgcagttgagggacatcctttacggagtgatccctttttcttttcaacttgtcgatcattttgtgtactacctgtacaggtctgtacacatcgctgaaatgcgttaccgcggtttcagcaatcagttcaggtaccatgtcttcctgaaaatttgtgggaggttgaattgattgttcaactgagaatgaagtttagtttaacgagggcgtctttgagaacggacaccagaacggacattacctatcatgtccgctcctacctggctcttacgagccatctcgttagctttcataaactcagccttagccatagctgcttgagtcataaacttatgctcattctggtcttcatcgtagactagttcctggttagaaaccaagtgggccaataatttggatccggtagttgcaccggctccactattcgtacgacagtggatacgaatatacacagcgtcaaacgaatcatccacaagtgaattgtgaattgaatgcgcttgcgctgtatcggcctgaagcgtaacataatcgttgacacctgaaactgtaacagtgtcaacgccatgctcagtgtaccacctatcggggatacgcttgaagtcatgttgttcggattgtgcttggagcttgaactcgtatttatcgatatcctccagagcacctgaaacgtacgttggactattcactaagttcttagtgagcaacgtactcccgaatgtaatatcggggccaaacacagttgccgtagtttgttccagattatcaccagaataaaatgcaaattcgttggctctgagcgcgtccttgtaacgaacacactcgaaccatccatcgttctcttcgtcggtgttaagtaaacttaacttaagaccctgagaaacaagacgccattcgttaatattgtcattactttcaatattaccgtcggcgccagtaccagcgttatagacagatgatgcgtcataagtcatatggtcattataaccatacgcggtaaaaccgcgtgtaccttgttctttggaatcaccaaagacgaccataccttgagtaaggccgggatacaagaatacatgaagtatatcatctccggacgccttattaagaagttgtgcggagacttgaaccttagatcctatcgacataattgctttgccgtctgggattttcggttgtccaggagaatgggaaaacggattcctataaattgccaacgactgtgcagccgtggaattcattggccgtctaacgggattaactcgctggatacgtggtctagaaggagctttgcgtcttggagcccgggagcggggacgggatcgagacttgggagacctccgtgcggtacggggtctggattttgaacgttttgcgtattttcgggccattttgatttacagtgggaattgtaatttatgaggggagtgggggagagtagtgccaactcctcctaggcttcatagaacgaagccaggaaaacgaagccagtagacactggtatgttttctacggagttggctttggaatggaataatactaacaataatattgttcccttccggacagacggcggcgtctgtctgcggaaggcaatattattcattccaaagtagttacacctggactctgaccctccgggcaatcctatatttcccccctgggctaatgatcttggccgctcccggtgcctaagtagcggaggaattgccgctgcctaagtagcggagggcctaaggcgcgctcgtgtgattgacagaccgcgccgggtttcaaatgacccatcgagtcattatgacccgttgagtcgtgcgccagtttttctacgagcggtccgtacgtagaaatagtttcggaactgttcctcatgctcataattttcacaaacgaaaagtaataagcaaacatgaccgacaacgactacccatttgacatgctgtcccaactctcccgtctctcacaaatgtctggcatcgaagacatcatcatcgagacacagccacaagaatctatttcggatcttaatatgatcgacagtgaagctgcctccgttgcgtctgtcaccaatgaccgtacgctgatgcgccggtgcatcgtcaccttgttcttcaatgacactgcggagaatctcgcggattgggcgctcgatcccgcatcctatttcaacgaacctgaaaaggacatcaaagaatgggttggtcaattcgaactatgtccgactaccaaccatctgcacgcgcatattcacgtgcatttcgctagacaaatgaggtttcaattcatccgcgaccaattttcggctgtgtctcaaatcaagttaggggatattaagaaaggtcgtgggacctccaaacatgctgttcaatgcgcagttaactactgcattgaccctcgcaaacgtcatccagaggagccgttcaacgaggcgtacttgtggccaggcaacaagacgaagtgggagtttgatcaagcttgcgctgacaaacaaacgaagaagaaaccaacaaaagaacaattagtcaaggacaagattgccttggttgactctttcccatatcattggacatgggatcaaatcgttcattcatctgatgaagcgaaagagttgttctttgggtgttctgcttctgaaaggtaccataagactagagcagtcgtgcaagcaagacgtgtcatcgagtccgttgaaattcactatggcgctggtggcactggtaaatcaacgttcgccagacagttggggaccaaacttggcgaaacttcagggcgtgacgaaaagtacacccgtaactacgatgatggaaacttctggggtggtgggattactaagtacgcaggagaggcggtggtccatcttgaagaatttgaaggtcaggagactcttagcaaattcaaagacatctgcgagctcggcgcttcgggcccgaatgtcaatgtcaagaatggtgggactactttgaatcactcacacgtggtgatcacttcaaacacccatcctgcgggtttttacaagggggtttggaaaggcgatcctaagcaatttgcccctttctggaggcgaattactaagttagtgttctaccctgctcatcttcctgacggttcactgaatgcccctaagtgtgacgaagacgtctattccatcgatcaaactgaggaatggaaagctttgcaggggaactatgaaggatgtctaaaaatggctgaacgagactgggctctacgcgatgacgatttagacagtaacaaacggccatttgatgatgccttcagcgaagggtttgtccttcccagaccacggcagatgcaacggagtgctactgagcataacttgtttcagtatgctaggagtggtcgggatcctactagttagaactaagattaattacaatttcttttctttttttctttttccgtcggaagtttgaggcctaaaggcgactcaaatccaactctcgagaaggttctaagcctaaaggcgttagaattctctcacttcagcgcaccatgcatctgccgatacgctaggtgctttccatatactgttgtatgggcatggtgcgctagggtgtgtagttgcgctcg</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA485481</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>
