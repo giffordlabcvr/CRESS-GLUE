@@ -5,7 +5,7 @@ project cress
   # Family Circoviridae
   run file glue/genus/circo/buildCircovirusProject.glue
   run file glue/genus/cyclo/buildCyclovirusProject.glue
-  run file glue/genus/unc_circo/buildUncCircoProject.glue  
+  #run file glue/genus/unc_circo/buildUncCircoProject.glue  
 
   # Family Geminiviridae
   
