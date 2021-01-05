@@ -7,11 +7,11 @@
   import source sources/fasta-digs-cyclo-ecv/
  
   # Import locus information for individual eve loci
-  run script glue/eve/cyclo/loadLocusData1.js
-  run script glue/eve/cyclo/loadLocusData2.js
+  run script glue/eve/cyclo/ecvCycloLoadLocusData1.js
+  run script glue/eve/cyclo/ecvCycloLoadLocusData2.js
 
   # Link EVE references to EVE reference/consensus table
-  run script glue/eve/cyclo/loadRefConData1.js
+  run script glue/eve/cyclo/ecvCycloLoadRefConData1.js
 
   # Import eve reference sequence data
   module cressSideDataImporter 
