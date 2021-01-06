@@ -2,7 +2,7 @@
   #~# Genus-level alignments
   
   module unconstrainedAlignmentImporter 
-    import AL_UNC_Cyclovirus_rep -f alignments/internal/cyclovirus-rep.fna
-    import AL_UNC_Cyclovirus_genome -f alignments/internal/cyclovirus-genome.fna
+    import AL_UNC_Cyclovirus_rep -f alignments/internal/circoviridae/cyclovirus-rep.fna
+    import AL_UNC_Cyclovirus_genome -f alignments/internal/circoviridae/cyclovirus-genome.fna
     exit
 

@@ -1,0 +1,31 @@
+table sequence
+  create field gb_gi_number VARCHAR 50
+  create field gb_primary_accession VARCHAR 50
+  create field gb_accession_version VARCHAR 50
+  create field gb_locus VARCHAR 50
+  create field gb_taxonomy VARCHAR 500
+  create field gb_organism VARCHAR 500
+  create field gb_is_assembly BOOLEAN
+  create field gb_length INTEGER
+  create field gb_create_date DATE
+  create field gb_update_date DATE
+  create field isolate VARCHAR 100
+  create field gb_place_sampled VARCHAR 100
+  create field gb_country_iso VARCHAR
+  create field gb_country VARCHAR 200
+  create field host_sci_name VARCHAR 100
+  create field collection_year INTEGER 
+  create field collection_month VARCHAR
+  create field collection_month_day INTEGER
+  create field scaffold VARCHAR 50
+  create field extract_start VARCHAR 50 
+  create field extract_end VARCHAR 50 
+  create field virus_genus VARCHAR 50
+
+exit
+
+table alignment
+  create field clade_category VARCHAR 20
+  create field phylogeny CLOB
+  exit 
+  

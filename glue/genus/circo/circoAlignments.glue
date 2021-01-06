@@ -3,7 +3,7 @@
   
   module unconstrainedAlignmentImporter
   
-    import AL_UNC_Circovirus_genome -f alignments/internal/circovirus-genome.fna
+    import AL_UNC_Circovirus_genome -f alignments/internal/circoviridae/circovirus-genome.fna
     
     exit
 

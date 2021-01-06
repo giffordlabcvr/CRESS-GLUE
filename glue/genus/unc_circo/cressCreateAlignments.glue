@@ -1,9 +1,0 @@
-delete module fastaExporter
-delete module cressCompoundAligner
-
-
-create module -f modules/cressCompoundAligner.xml
-compute alignment AL_Cyclovirus cressCompoundAligner
-
-create module -t fastaAlignmentExporter
-module fastaAlignmentExporter export AL_Cyclovirus -a -o alignments/cyclovirus-genome.fna
