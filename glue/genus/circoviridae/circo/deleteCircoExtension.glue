@@ -1,0 +1,7 @@
+
+  # Delete extension specific components
+
+  run script glue/genus/circoviridae/circo/deleteCircoIsolateTableRows.js
+
+  multi-delete reference -w "name like '%REF_Circo%'"
+  delete source ncbi-refseqs-circo
