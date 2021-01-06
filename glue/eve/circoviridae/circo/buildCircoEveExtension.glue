@@ -6,7 +6,7 @@
   delete source fasta-digs-circo-ecv
   
   # Import eve sequences
-  import source sources/eve/circoviridae/eve/circoviridae/fasta-refseqs-circo-ecv/
+  import source sources/eve/circoviridae/fasta-refseqs-circo-ecv/
   import source sources/eve/circoviridae/fasta-digs-circo-ecv/
  
   # Import eve sequence 'side-data' 
