@@ -21,7 +21,7 @@
   run file glue/core/cressMasterReferencesExplicitFeatureLocations.glue    
   
   # Import root alignment
-  run file glue/core/cressImportRootAlignment.glue
+  run file glue/core/cressImportAlignments.glue
 
   # Define constrained alignment tree
   run file glue/core/cressAlignmentTree.glue
