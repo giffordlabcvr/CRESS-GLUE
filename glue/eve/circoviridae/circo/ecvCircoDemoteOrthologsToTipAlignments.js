@@ -4,7 +4,7 @@
 // ECV sequences are linked to reference sequences via the locus ID
 
 // Preset variables
-var refconDataPath = "tabular/eve/ecv-circo-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/circoviridae/ecv-circo-refseqs-side-data.tsv";
 var rootAlignment = 'AL_Circovirus';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
@@ -16,7 +16,7 @@ get_refcon_data(ecvRefseqResultMap, refconDataPath);
 // Load DIGS hit data from tabular file 
 var loadResult;
 glue.inMode("module/cressTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ecv-circo-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/circoviridae/ecv-circo-side-data.tsv"]));
 	//glue.log("INFO", "load result was:", loadResult);
 });
 

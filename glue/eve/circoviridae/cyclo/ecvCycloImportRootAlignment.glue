@@ -3,7 +3,7 @@
 
     #~#  INTERNAL alignments (Cyclovirus genus)
       
-    import AL_UNC_ECV_Cyclo -f alignments/internal/cyclovirus-genome+eves.fna
+    import AL_UNC_ECV_Cyclo -f alignments/internal/circoviridae/cyclovirus-genome+eves.fna
 
    exit
 
