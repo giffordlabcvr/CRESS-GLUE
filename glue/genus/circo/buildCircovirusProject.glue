@@ -19,7 +19,7 @@
 
   # Add feature locations from tabular to reference sequences
   module featureLocationTextToGlue
-    transform tabular/genus/circo_reference_feature_locations.tsv -r
+    transform tabular/genus/circoviridae/circo_reference_feature_locations.tsv -r
     exit   
 
   # Add variations

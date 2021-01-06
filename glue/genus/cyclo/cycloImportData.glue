@@ -10,7 +10,7 @@
 
   # Import metadata for exogenous reference sequences from tabular
   module cressSideDataImporter 
-    populate -f tabular/genus/cyclo-refseqs-side-data.tsv
+    populate -f tabular/genus/circoviridae/cyclo-refseqs-side-data.tsv
     exit
 
   # Populate fields from GenBank data
