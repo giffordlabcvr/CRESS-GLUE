@@ -30,7 +30,7 @@
   run file glue/core/cressRecordFeaturePresence.glue
 
   # Create root phylogeny
-  run file glue/core/cressCreateRootPhylogenies.glue
+  #run file glue/core/cressCreateRootPhylogenies.glue
 
   # Validate
   validate

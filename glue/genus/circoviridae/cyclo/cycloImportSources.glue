@@ -1,2 +1,2 @@
   # Import genus-level reference sequences
-  import source sources/ncbi-refseqs-cyclo/
+  import source sources/genus/circoviridae/ncbi-refseqs-cyclo/
