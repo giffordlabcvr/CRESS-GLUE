@@ -7,6 +7,6 @@
 
   # Import eve reference sequence data
   module cressSideDataImporter 
-    populate -f tabular/eve/ecv-circo-refseqs-side-data.tsv
+    populate -f tabular/eve/circoviridae/ecv-circo-refseqs-side-data.tsv
     exit
 
