@@ -3,8 +3,8 @@
   delete source fasta-curated-ecv
 
   # Import eve sequences
-  import source sources/fasta-refseqs-cyclo-ecv/
-  import source sources/fasta-digs-cyclo-ecv/
+  import source sources/eve/circoviridae/fasta-refseqs-cyclo-ecv/
+  import source sources/eve/circoviridae/fasta-digs-cyclo-ecv/
  
   # Import locus information for individual eve loci
   run script glue/eve/circoviridae/cyclo/ecvCycloLoadLocusData1.js
@@ -15,7 +15,7 @@
 
   # Import eve reference sequence data
   module cressSideDataImporter 
-    populate -f tabular/eve/ecv-cyclo-refseqs-side-data.tsv
+    populate -f tabular/eve/circoviridae/ecv-cyclo-refseqs-side-data.tsv
     exit
  
   # Declare references 
