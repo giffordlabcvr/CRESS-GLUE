@@ -1,32 +1,36 @@
-
-  delete source fasta-refseqs-ecv
-  delete source fasta-curated-ecv
-
+  delete source fasta-digs-cyclo-ecv
+  multi-delete alignment -w "name like '%AL_UNC_ECV_Cyclo%'"
+  multi-delete alignment -w "name like '%AL_ecv%'"
+  multi-delete reference -w "name like '%REF_ECV_Cyclo%'"
+  delete source fasta-refseqs-cyclo-ecv
+  delete source fasta-digs-cyclo-ecv
+  
   # Import eve sequences
   import source sources/eve/circoviridae/fasta-refseqs-cyclo-ecv/
   import source sources/eve/circoviridae/fasta-digs-cyclo-ecv/
  
-  # Import locus information for individual eve loci
-  run script glue/eve/circoviridae/cyclo/ecvCycloLoadLocusData1.js
-  run script glue/eve/circoviridae/cyclo/ecvCycloLoadLocusData2.js
+  # Import eve sequence 'side-data' 
+  run file glue/eve/circoviridae/circo/ecvCycloImportData.glue
 
-  # Link EVE references to EVE reference/consensus table
-  run script glue/eve/circoviridae/cyclo/ecvCycloLoadRefConData1.js
-
-  # Import eve reference sequence data
-  module cressSideDataImporter 
-    populate -f tabular/eve/circoviridae/ecv-cyclo-refseqs-side-data.tsv
-    exit
- 
   # Declare references 
-  run file glue/eve/circoviridae/cyclo/ecvCycloReferences.glue
+  run file glue/eve/circoviridae/circo/ecvCycloReferences.glue
 
-  # Import alignments
-  run file glue/eve/circoviridae/cyclo/ecvCycloAlignments.glue
+  # Import root alignment
+  run file glue/eve/circoviridae/circo/ecvCycloImportRootAlignment.glue
 
-  # Import alignment tree
-  #run file glue/eve/circoviridae/cyclo/ecvCycloConstrainedAlignmentTree.glue
+  # Set up constrained alignment tree for orthologs
+  run file glue/eve/circoviridae/circo/ecvCycloConstrainedAlignmentTree.glue
+  
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/eve/circoviridae/circo/ecvCycloDemoteOrthologsToTipAlignments.js
 
+  # Import tip-level EVE alignments
+  #run file glue/eve/circoviridae/circo/ecvCycloImportAlignmentsTips.glue
+
+  # Create tip-level phylogenies
+  #run script glue/eve/circoviridae/circo/ecvCycloCreateTipPhylogenies.js
+  
   # Validate
   validate
+
 
