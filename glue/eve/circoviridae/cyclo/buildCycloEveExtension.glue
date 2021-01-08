@@ -19,13 +19,13 @@
     exit
  
   # Declare references 
-  run file glue/eve/circoviridae/cyclo/ecvReferencescyclo.glue
+  run file glue/eve/circoviridae/cyclo/ecvCycloReferences.glue
 
   # Import alignments
-  run file glue/eve/circoviridae/cyclo/ecvAlignmentscyclo.glue
+  run file glue/eve/circoviridae/cyclo/ecvCycloAlignments.glue
 
   # Import alignment tree
-  #run file glue/eve/circoviridae/cyclo/ecvConstrainedAlignmentTreecyclo.glue
+  #run file glue/eve/circoviridae/cyclo/ecvCycloConstrainedAlignmentTree.glue
 
   # Validate
   validate
