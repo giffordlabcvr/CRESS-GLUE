@@ -29,30 +29,42 @@
 	  
       <!-- ## Po-Circo-like virus 41 ## -->  
       <primaryAccession>NC_025683</primaryAccession>
+	  
+      <!-- ## Acartia tonsa copepod circovirus ## -->  
+      <primaryAccession>NC_020099</primaryAccession>
+	  
+      <!-- ## Circo-like virus-Brazil hs1 ## -->  
+      <primaryAccession>NC_023888</primaryAccession>
+	  
+      <!-- ## Circoviridae-5-LDMD-2013 ## -->  
+      <primaryAccession>NC_025710</primaryAccession>
 
 
- 
+
+      <!-- ## Dragonfly orbiculatusvirus 41 ## -->  
+      <primaryAccession>JX185416</primaryAccession>
+
       <!-- ## Recrevirales ## --> 
-      <!-- ## Redondoviridae ## --> 
+      <!-- ## Redondoviridae ## -->
       
-      <!-- ## Vientovirus ## -->  
+      <!-- ## Vientovirus ## -->
       <primaryAccession>MK059763</primaryAccession>
 
 
       
-      <!-- ## Cremevirales ## --> 
-      <!-- ## Smacoviridae ## -->    
+      <!-- ## Cremevirales ## -->
+      <!-- ## Smacoviridae ## -->
         
-      <!-- ## Porprismacovirus ### -->  
+      <!-- ## Porprismacovirus ### -->
 	  <primaryAccession>MF669476</primaryAccession>
       
     
-      <!-- ## Brisavirus ## -->  
+      <!-- ## Brisavirus ## -->
       <primaryAccession>MK059757</primaryAccession>
 
 
 
-      <!-- ## Mulparvirales ## --> 
+      <!-- ## Mulparvirales ## -->
       <!-- ## Nanoviridae ## -->
  
       <!-- Nanocircular -->
@@ -64,7 +76,7 @@
 
 
 
-      <!-- ## Baphyvirales ## --> 
+      <!-- ## Baphyvirales ## -->
       <!-- ## Bacilladnaviridae ## -->
       
       <!-- Diatodnavirus -->
@@ -75,7 +87,7 @@
 
 
 
-      <!-- ## Geplafuvirales ## -->      
+      <!-- ## Geplafuvirales ## -->
       <!-- ## Geminiviridae ## -->
 
       <!-- ## Begomovirus ## -->  
@@ -103,10 +115,12 @@
 	  <primaryAccession>NC_010417</primaryAccession>
 
       <!-- Capulavirus -->
-	  <primaryAccession>NC_027714</primaryAccession>
+	  <primaryAccession>NC_027714</primaryAccession> <!-- ## Alfalfa leaf curl virus ## --> 
+      <primaryAccession>KC699544</primaryAccession>  <!-- ## French bean severe leaf curl virus ## --> 
 
       <!-- Curtovirus -->
 	  <primaryAccession>NC_001412</primaryAccession>
+	  <primaryAccession>KX867027</primaryAccession>
 
       <!-- Eragrovirus -->
 	  <primaryAccession>NC_012664</primaryAccession>
