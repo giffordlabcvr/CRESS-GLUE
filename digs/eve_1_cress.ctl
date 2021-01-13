@@ -5,7 +5,6 @@ ENDBLOCK;
 
 BEGIN SCREENSETS;
 	query_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/circo_probes.faa;
-	#reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/circo_refs.faa;
 	reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/NCBI_viruses_none-missing.faa;
 	output_path=./tmp/;
 	bitscore_min_tblastn=60;
