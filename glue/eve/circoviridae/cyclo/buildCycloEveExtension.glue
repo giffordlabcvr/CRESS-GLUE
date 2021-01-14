@@ -10,25 +10,25 @@
   import source sources/eve/circoviridae/fasta-digs-cyclo-ecv/
  
   # Import eve sequence 'side-data' 
-  run file glue/eve/circoviridae/circo/ecvCycloImportData.glue
+  run file glue/eve/circoviridae/cyclo/ecvCycloImportData.glue
 
   # Declare references 
-  run file glue/eve/circoviridae/circo/ecvCycloReferences.glue
+  run file glue/eve/circoviridae/cyclo/ecvCycloReferences.glue
 
   # Import root alignment
-  run file glue/eve/circoviridae/circo/ecvCycloImportRootAlignment.glue
+  run file glue/eve/circoviridae/cyclo/ecvCycloImportRootAlignment.glue
 
   # Set up constrained alignment tree for orthologs
-  run file glue/eve/circoviridae/circo/ecvCycloConstrainedAlignmentTree.glue
+  run file glue/eve/circoviridae/cyclo/ecvCycloConstrainedAlignmentTree.glue
   
   # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/circoviridae/circo/ecvCycloDemoteOrthologsToTipAlignments.js
+  run script glue/eve/circoviridae/cyclo/ecvCycloDemoteOrthologsToTipAlignments.js
 
   # Import tip-level EVE alignments
-  #run file glue/eve/circoviridae/circo/ecvCycloImportAlignmentsTips.glue
+  #run file glue/eve/circoviridae/cyclo/ecvCycloImportAlignmentsTips.glue
 
   # Create tip-level phylogenies
-  #run script glue/eve/circoviridae/circo/ecvCycloCreateTipPhylogenies.js
+  #run script glue/eve/circoviridae/cyclo/ecvCycloCreateTipPhylogenies.js
   
   # Validate
   validate
