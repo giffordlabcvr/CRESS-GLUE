@@ -6,8 +6,8 @@
 
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/genus/cyclo/alignmentColumnsSelectorCycloRep.xml
-  create module -f modules/genus/cyclo/alignmentColumnsSelectorCycloCap.xml
+  create module -f modules/genus/circoviridae/cyclo/alignmentColumnsSelectorCycloRep.xml
+  create module -f modules/genus/circoviridae/cyclo/alignmentColumnsSelectorCycloCap.xml
  
 
   # Create the phylogenies
