@@ -1,0 +1,8 @@
+  # Declare reference sequences
+
+  # Mastrevirus
+  create reference BeYDV      	ncbi-refseqs NC_003493
+  create reference WDV       	ncbi-refseqs NC_003326
+  create reference ESV		    ncbi-refseqs NC_010352
+
+

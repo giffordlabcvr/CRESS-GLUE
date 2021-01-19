@@ -1,0 +1,8 @@
+  # Declare reference sequences
+
+  # Curtovirus
+  create reference BCTV      	ncbi-refseqs NC_001412
+  create reference HrCTV   		ncbi-refseqs NC_002543 
+  create reference SSCTV       	ncbi-refseqs NC_014631
+  
+ 

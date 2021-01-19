@@ -1,0 +1,7 @@
+  # Declare reference sequences
+
+  # Turncurtovirus
+  create reference TCTV       	ncbi-refseqs NC_014324 
+  create reference TLRV      	ncbi-refseqs NC_029117
+  
+
