@@ -1,5 +1,5 @@
   delete module circoFeaturePresenceRecorder
-  create module -f modules/genus/circo/circoFeaturePresenceRecorder.xml
+  create module -f modules/genus/circoviridae/circo/circoFeaturePresenceRecorder.xml
 
   module circoFeaturePresenceRecorder 
 
