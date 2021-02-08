@@ -4,22 +4,22 @@
   delete source ncbi-curated-circo-bfdv
   delete alignment AL_BFDV
 
-  create module -f modules/genus/circo/circovirusCompoundAligner.xml
+  create module -f modules/genus/circoviridae/circo/circovirusCompoundAligner.xml
 
   # Import BFDV sequences and side data 
-  import source sources/ncbi-curated-circo-bfdv/
-  run script glue/genus/circo/exampleLoadIsolateDataBfdv.js
-  run script glue/genus/circo/exampleLoadSequenceDataBfdv.js
+  import source sources/genus/circoviridae/ncbi-curated-circo-bfdv/
+  run script glue/genus/circoviridae/circo/exampleLoadIsolateDataBfdv.js
+  run script glue/genus/circoviridae/circo/exampleLoadSequenceDataBfdv.js
 
   # Extract and import data from GenBank XML
   module cressGenbankXmlPopulator populate 
 
   # Reverse complement sequences
-  run file glue/genus/circo/exampleApplyReverseComplement.glue
+  run file glue/genus/circoviridae/circo/exampleApplyReverseComplement.glue
 
   # Add the "V2" feature to BFDV
-  run file glue/genus/circo/exampleDefineBfdvFeatures.glue
-  run file glue/genus/circo/exampleSetFeatureLocationsBfdv.glue
+  run file glue/genus/circoviridae/circo/exampleDefineBfdvFeatures.glue
+  run file glue/genus/circoviridae/circo/exampleSetFeatureLocationsBfdv.glue
   
   # Create alignments
   create alignment AL_BFDV -r REF_Circo_BFDV 
@@ -27,13 +27,13 @@
   compute alignment AL_BFDV circovirusCompoundAligner
 
   # Compute feature coverage for BFDV
-  run file glue/genus/circo/exampleRecordFeaturePresenceBfdv.glue
+  run file glue/genus/circoviridae/circo/exampleRecordFeaturePresenceBfdv.glue
   
   # Reconstruct trees, midpoint root, and export annotated, midpoint rooted phylogenies
   # By default this line is commented out because tree-building is a time-consuming step
-  #run file glue/genus/circo/exampleCreateBfdvPhylogenies.glue  
-  run file glue/genus/circo/exampleExportAnnotations.glue  
-  run file glue/genus/circo/exampleRerootPhylogeny.glue   
+  #run file glue/genus/circoviridae/circo/exampleCreateBfdvPhylogenies.glue  
+  run file glue/genus/circoviridae/circo/exampleExportAnnotations.glue  
+  run file glue/genus/circoviridae/circo/exampleRerootPhylogeny.glue   
  
   # Validate
   validate
