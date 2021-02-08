@@ -129,7 +129,7 @@
          will use a customised version of GLUE's  module
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/ncbiImporter">'<b>ncbiImporter</b>'</a>       
          module. Our project-specific configuration of the module can be viewed
-		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoNcbiImporterBfdv.xml"><b>here</b></a>.
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circoviridae/circo/circoNcbiImporterBfdv.xml"><b>here</b></a>.
          Viewing the file, you can probably see that it is configured to download sequences
          based on a query phrase:
 
@@ -183,13 +183,13 @@
  
 	   <p>
          Now create the module using it's
-		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circoNcbiImporterBfdv.xml"><b>configuration file</b></a>
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circoviridae/circo/circoNcbiImporterBfdv.xml"><b>configuration file</b></a>
 		 (which is contained in the CRESS-GLUE project)
 		 as shown here:
 
   <pre>
   <code>Mode path: /project/cress/
-  GLUE> create module -f modules/genus/circo/circoviridaeNcbiImporterBfdv.xml
+  GLUE> create module -f modules/genus/circoviridae/circo/circoviridaeNcbiImporterBfdv.xml
   OK
   (1 Module created) </code></pre>
 
@@ -894,7 +894,7 @@
 		 <p>
 		   Now we can construct the alignment.
 		   The CRESS-GLUE project contains a 
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circo/circovirusCompoundAligner.xml"><b>circovirus-specific configuration file</b></a>
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/modules/genus/circoviridae/circo/circovirusCompoundAligner.xml"><b>circovirus-specific configuration file</b></a>
 		   for GLUE's
           <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/compoundAligner">'<b>compoundAligner</b>'</a>       
 		   module.
@@ -1024,7 +1024,7 @@
 
   <pre>
   <code>Mode path: /project/cress
-  GLUE> create module -f modules/genus/circo/circoFeaturePresenceRecorder.xml 
+  GLUE> create module -f modules/genus/circoviridae/circo/circoFeaturePresenceRecorder.xml 
   OK
   (1 Module created)
   Mode path: /project/cress
