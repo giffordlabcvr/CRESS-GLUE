@@ -1,0 +1,18 @@
+<!-- Cyclovirus genus reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-unc-circo-ecv</sourceName>
+
+    <specificPrimaryAccessions>
+
+
+      <!-- ## Unclassified Circoviridae ### -->  
+      <primaryAccession>NC_020099</primaryAccession> <!-- Acartia tonsa copepod circovirus isolate -->	  
+
+ 
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+
