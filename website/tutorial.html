@@ -366,7 +366,7 @@
           All BFDV sequences have identical taxonomic information down to species level.
           An efficient way to input the taxonomic data for each sequence
           is to use 
-		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBfdv.js"><b>this script</b></a>.
+		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ exampleLoadSequenceDataBfdv.js"><b>this script</b></a>.
 	      The script comprises a single loop, and 'wraps' two GLUE commands.
 	      The first command lists all the sequences in our BFDV-specific source directory.
 	      Next we step through this list of sequences, and use GLUE's 'set' command to
@@ -408,7 +408,7 @@
           Next, we will extract BFDV isolate information from GenBank files.
           First, we need to link each new BFDV sequence to the 'isolate table'.
           To do this, we'll use
-          <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleLoadSequenceDataBfdv.js"><b>this script</b></a>.
+          <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ exampleLoadSequenceDataBfdv.js"><b>this script</b></a>.
   <pre>
   <code>Mode path: /project/cress
   GLUE> run script glue/genus/circo/exampleLoadIsolateDataBfdv.js</code></pre>
@@ -585,7 +585,7 @@
 
 		 <p>
            Once the edits have been made, use this       
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleImportBfdvCorrectedSideData.js"><strong>this script</strong></a>
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ exampleImportBfdvCorrectedSideData.js"><strong>this script</strong></a>
 		   to apply the changes in CRESS-GLUE. The updated information can now be viewed, as follows:
 		 </p>
 
@@ -615,7 +615,7 @@
 		   The 'Circovirus' extension of CRESS-GLUE includes reference sequences for 
 		   most (if not all) species, including BFDV.
 		   The reference sequence declarations can be found
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/circoReferences.glue"><b>in this file</b></a>.
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ circoReferences.glue"><b>in this file</b></a>.
 		 </p>
 	   
 	   
@@ -774,7 +774,7 @@
            As always, the same result
            can be accomplished by running a 
            
-		   <a  target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleSetFeatureLocationsBfdv.glue"><b>file that contains the GLUE commands</b></a>,        
+		   <a  target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ exampleSetFeatureLocationsBfdv.glue"><b>file that contains the GLUE commands</b></a>,        
            
            
            as follows:
@@ -847,7 +847,7 @@
 
 		   At this point, I should mention that some BFDV sequences are in the opposite
 		   orientation to our chosen BFDV reference. To address this, run
-		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>
+		   <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>
 		   which will effectively tell the project which sequences need to be 
 		   reverse complemented before they are aligned.
 		   This will allow us to proceed directly to the alignment step with all 
@@ -1037,7 +1037,7 @@
 	   
 		 <p>
 		   This can also be accomplished by running
-		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleRecordFeaturePresenceBfdv.glue"><b>a file containing these commands</b></a>, as follows:
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ exampleRecordFeaturePresenceBfdv.glue"><b>a file containing these commands</b></a>, as follows:
 		 </p>
 
   <pre>
@@ -1113,7 +1113,7 @@
          
          
          The entire sequence of commands for creating both trees can be found in
-		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>,
+		 <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>,
 		 which is in the CRESS-GLUE repo.
 		 Run this file as follows:
   <pre>
@@ -1130,7 +1130,7 @@
 		<p>
 		  To midpoint-root the trees, we will use GLUE's
 		  module. To apply the module to the two trees we've constructed, run
-		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleRerootPhylogeny.glue"><b>this file</b></a>
+		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ exampleRerootPhylogeny.glue"><b>this file</b></a>
 		  as follows:
 
 
@@ -1147,7 +1147,7 @@
  	   
 		<p>
 		  Export annotations for the trees by running
-		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circo/exampleExportAnnotations.glue"><b>this file</b></a>,
+		  <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/genus/circoviridae/circo/ exampleExportAnnotations.glue"><b>this file</b></a>,
 		  as follows:
 
 
