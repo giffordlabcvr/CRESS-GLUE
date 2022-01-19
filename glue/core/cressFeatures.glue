@@ -29,10 +29,6 @@
 	set metatag REVERSE_COMPLEMENT_TRANSLATION true
 	exit
 
-
-
-
-
   create feature ORF3 -p whole_genome "Hypothetical protein ORF3"
   feature ORF3
 	set field displayName ORF3
@@ -76,24 +72,6 @@
 	set metatag CODES_AMINO_ACIDS true
 	set metatag REVERSE_COMPLEMENT_TRANSLATION true
 	exit
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   create feature intergenic -p whole_genome "intergenic region"
   feature intergenic

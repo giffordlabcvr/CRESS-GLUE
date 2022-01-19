@@ -1,20 +1,14 @@
 
   # Reverse complement specific references
 
-  
-
   # Circoviridae 
   sequence ncbi-refseqs KJ831064  set field reverse_complement true   # 'Human' cyclovirus
   sequence ncbi-refseqs NC_025710 set field reverse_complement true   # Circoviridae 5 LDMD-2013
   sequence ncbi-refseqs NC_026639 set field reverse_complement true   # Avon-Heathcote Estuary associated circular virus 13 
   
-
   # Redondoviridae 
   sequence ncbi-refseqs MK059763  set field reverse_complement true   # Human lung-associated vientovirus FB
-
-  # Redondoviridae 
   sequence ncbi-refseqs MK059757  set field reverse_complement true   # Human lung-associated brisavirus RC
-
 
   # Genomoviridae
   sequence ncbi-refseqs JX185428  set field reverse_complement true   # Dragonfly-associated circular virus 3
