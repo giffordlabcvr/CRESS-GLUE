@@ -1,15 +1,15 @@
 # Create the EVE/paleovirus schema extensions
 schema-project cress
-  run file glue/core/cressSchemaExtensionsPaleovirus.glue
+  run file glue/build/core/cressSchemaExtensionsPaleovirus.glue
   exit
 
 # Build family-level EVE extensions
 project cress
 
   # Family Circoviridae
-  run file glue/eve/circoviridae/circo/buildCircoEveExtension.glue
-  #run file glue/eve/circoviridae/cyclo/buildCycloEveExtension.glue
-  #run file glue/eve/circoviridae/cress/buildUncCircoEveExtension.glue
+  run file glue/build/eve//circoviridae/circo/buildCircoEveExtension.glue
+  #run file glue/build/eve//circoviridae/cyclo/buildCycloEveExtension.glue
+  #run file glue/build/eve//circoviridae/cress/buildUncCircoEveExtension.glue
   
 
   # Family Geminiviridae

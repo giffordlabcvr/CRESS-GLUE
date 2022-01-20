@@ -1,8 +1,8 @@
   delete module cressSideDataImporter
   delete module cressGenbankXmlPopulator
   
-  create module -f modules/core/cressSideDataImporter.xml
-  create module -f modules/core/cressGenbankXmlPopulator.xml
+  create module -f modules/build/core/cressSideDataImporter.xml
+  create module -f modules/build/core/cressGenbankXmlPopulator.xml
 
   # Create links to isolate table
   run script glue/genus/circoviridae/circo/loadIsolateDataCirco.js

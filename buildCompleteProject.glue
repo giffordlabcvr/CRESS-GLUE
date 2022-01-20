@@ -1,0 +1,4 @@
+
+  run file buildCoreProject.glue
+  run file buildFamilyLevelPaleoProjects.glue
+  run file buildFamilyLevelProjects.glue

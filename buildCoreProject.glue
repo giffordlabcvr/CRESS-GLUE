@@ -3,18 +3,18 @@ create project cress "A GLUE project for the circular Rep-encoding single-strand
 
 # define DB schema extensions
 schema-project cress
-  run file glue/core/cressSchemaExtensions.glue
+  run file glue/build/core/cressSchemaExtensions.glue
   exit
 
 # load project settings
 project cress
-  run file glue/core/cressProjectSettings.glue
+  run file glue/build/core/cressProjectSettings.glue
   exit
 
 # Build the core project for CRESS viruses
 project cress
 
-  run file glue/core/buildCressCoreProject.glue
+  run file glue/build/core/buildCressCoreProject.glue
   
 exit
 
