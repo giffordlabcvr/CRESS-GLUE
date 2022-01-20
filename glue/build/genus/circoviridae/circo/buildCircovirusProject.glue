@@ -34,11 +34,5 @@
   # Record feature coverage in alignments
   run file glue/build/genus/circoviridae/circo/circoRecordFeaturePresence.glue
 
-  # Create phylogenies
-  run file glue/build/genus/circoviridae/circo/circoCreateGenusLevelPhylogenies.glue
-  run file glue/build/genus/circoviridae/circo/circoRerootGenusLevelPhylogenies.glue
-  run file glue/build/genus/circoviridae/circo/circoExportGenusLevelAnnotations.glue
-
-
   # Validate
   validate

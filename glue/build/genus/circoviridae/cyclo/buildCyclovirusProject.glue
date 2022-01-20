@@ -1,18 +1,18 @@
 
   # Import core project sources (reference sequence only)
-  run file glue/genus/circoviridae/cyclo/cycloImportSources.glue
+  run file glue/build/genus/circoviridae/cyclo/cycloImportSources.glue
 
   # Import data
-  run file glue/genus/circoviridae/cyclo/cycloImportData.glue
+  run file glue/build/genus/circoviridae/cyclo/cycloImportData.glue
 
   # Define genome features
-  #run file glue/genus/circoviridae/cyclo/cycloFeatures.glue
+  #run file glue/build/genus/circoviridae/cyclo/cycloFeatures.glue
 
   # Apply reverse complement & rotations to reference seqs
-  run file glue/genus/circoviridae/cyclo/cycloRefseqsApplyReverseComplement.glue
+  run file glue/build/genus/circoviridae/cyclo/cycloRefseqsApplyReverseComplement.glue
 
   # Create reference sequences
-  run file glue/genus/circoviridae/cyclo/cycloReferences.glue
+  run file glue/build/genus/circoviridae/cyclo/cycloReferences.glue
 
   # Add feature locations from tabular to reference sequences
   module featureLocationTextToGlue
@@ -20,21 +20,16 @@
     exit   
 
   # Add variations
-  #run file glue/genus/circoviridae/cyclo/cycloVariations.glue
+  #run file glue/build/genus/circoviridae/cyclo/cycloVariations.glue
   
   # Import alignments and alignment tree
-  run file glue/genus/circoviridae/cyclo/cycloAlignments.glue
+  run file glue/build/genus/circoviridae/cyclo/cycloAlignments.glue
 
   # Define constrained alignment tree
-  run file glue/genus/circoviridae/cyclo/cycloAlignmentTree.glue
+  run file glue/build/genus/circoviridae/cyclo/cycloAlignmentTree.glue
 
   # Record feature coverage in alignments
-  run file glue/genus/circoviridae/cyclo/cycloRecordFeaturePresence.glue
-
-  # Create phylogenies
-  run file glue/genus/circoviridae/cyclo/cycloCreateGenusLevelPhylogenies.glue
-  run file glue/genus/circoviridae/cyclo/cycloRerootGenusLevelPhylogenies.glue
-  run file glue/genus/circoviridae/cyclo/cycloExportGenusLevelAnnotations.glue
+  run file glue/build/genus/circoviridae/cyclo/cycloRecordFeaturePresence.glue
 
   # Validate
   validate
