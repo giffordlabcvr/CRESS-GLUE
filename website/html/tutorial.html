@@ -408,32 +408,32 @@
           First, we need to link each new BFDV sequence to the 'isolate table'.
           To do this, we'll use
           <a target="_blank" href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/example/exampleLoadSequenceDataBfdv.js"><b>this script</b></a>.
-  <pre>
-  <code>Mode path: /project/cress
-  GLUE> run script glue/build/genus/circo/exampleLoadIsolateDataBfdv.js</code></pre>
+ <pre>
+ <code>Mode path: /project/cress
+ GLUE> run script glue/build/genus/circo/exampleLoadIsolateDataBfdv.js</code></pre>
 
 
  	   </p>
 
 
-	   <p>
+		 <p>
 
-         GLUE's 
-         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/genbankPopulator">'<b>genbankPopulator</b>'</a>       
-         module can be used to extract sequence and isolate information from GenBank files.
-         Next, we will use a customised version of this module to 
-         We can use this module to search for for <i>host species</i>,
-         <i>time and place of isolation</i>,
-         and <i>isolate</i> data in the "notes" section of the GenBank XML. 
- 	   </p>
- 	   
-	   <p>  
+		   GLUE's <b>genbankPopulator</b>     
+		   module can be used to extract sequence and isolate information from GenBank files.
+
+		   We can use this module to search for for <i>host species</i>,
+		   <i>time and place of isolation</i>,
+		   and <i>isolate</i> data in the "notes" section of the GenBank XML.
+		 
+		 </p>
+	   
+		 <p>  
   
-  <pre>
-  <code>Mode path: /project/cress
-  GLUE> run script glue/build/genus/circo/exampleLoadIsolateDataBfdv.js</code></pre>
+ <pre>
+ <code>Mode path: /project/cress
+ GLUE> module genbankPopulator populate</code></pre>
 
- 	   </p>
+		 </p>
 
 
 		 <p>
@@ -441,17 +441,17 @@
           <a target="_blank" href="https://www.w3schools.com/sql/sql_where.asp"><b>'where clause'</b></a>         
            to limit the query to Japanese isolates only:
 
-  <pre>
-  <code>Mode path: /project/cress
-  GLUE> list custom-table-row isolate id isolate_id country -w "country = 'Japan'"
-  +==========+============+=========+
-  |    id    |  isolate   | country |
-  +==========+============+=========+
-  | AB277726 | AGP-SA1P-1 | Japan   |
-  | AB277727 | AGP-SA1P-2 | Japan   |
-  | AB277728 | AGP-SA1P-3 | Japan   |
-  | AB277729 | AGP-SA1P-4 | Japan   |
-  | AB277730 | AGP-SA1P-5 | Japan   |</code></pre>		   
+ <pre>
+ <code>Mode path: /project/cress
+ GLUE> list custom-table-row isolate id isolate_id country -w "country = 'Japan'"
+ +==========+============+=========+
+ |    id    |  isolate   | country |
+ +==========+============+=========+
+ | AB277726 | AGP-SA1P-1 | Japan   |
+ | AB277727 | AGP-SA1P-2 | Japan   |
+ | AB277728 | AGP-SA1P-3 | Japan   |
+ | AB277729 | AGP-SA1P-4 | Japan   |
+ | AB277730 | AGP-SA1P-5 | Japan   |</code></pre>		   
 
 
   		 </p>
