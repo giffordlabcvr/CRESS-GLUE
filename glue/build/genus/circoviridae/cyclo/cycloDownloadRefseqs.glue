@@ -1,9 +1,0 @@
-delete module ncbiImporterCyclo
-create module -f modules/genus/cyclo/cycloNcbiImporterReferences.xml ncbiImporterCyclo
-
-# Download NCBI sequences 
-module ncbiImporterCyclo import
-
-export source ncbi-refseqs-cyclo
-
- 

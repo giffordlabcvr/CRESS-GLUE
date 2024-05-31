@@ -1,9 +1,0 @@
-
-  module UnconstrainedAlignmentImporter
-
-    #~#  INTERNAL alignments (Cyclovirus genus)
-      
-    import AL_UNC_ECV_Cyclo -f alignments/internal/circoviridae/cyclovirus-rep+eves.fna
-
-   exit
-

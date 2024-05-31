@@ -1,8 +1,0 @@
-  delete module cressFeaturePresenceRecorder
-  create module -f modules/build/core/cressFeaturePresenceRecorder.xml
-
-  module cressFeaturePresenceRecorder 
-
-    #~# Root alignment
-     record feature-presence AL_CRESS_MASTER --recursive --featureName whole_genome --descendentFeatures
-    

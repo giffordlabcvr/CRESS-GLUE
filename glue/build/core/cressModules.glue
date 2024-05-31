@@ -1,8 +1,0 @@
-  # From config file
-  create module -f modules/build/core/cressGenbankXmlPopulator.xml cressGenbankXmlPopulator
-  create module -f modules/build/core/cressSideDataImporter.xml
-  create module -f modules/build/core/cressTabularUtility.xml cressTabularUtility
-  create module -f modules/build/core/featureLocationTextToGlue.xml 
-  create module -f modules/build/core/unconstrainedAlignmentImporter.xml
-  create module -f modules/build/core/cressMafftAligner.xml
-  create module -f modules/build/core/cressStrictFastaAlignmentImporter.xml

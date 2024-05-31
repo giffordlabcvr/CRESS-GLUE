@@ -1,2 +1,0 @@
-  # Import exogenous sources and side data 
-  import source sources/core/ncbi-refseqs/

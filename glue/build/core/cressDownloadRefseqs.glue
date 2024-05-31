@@ -1,7 +1,0 @@
-delete module ncbiImporterCress
-create module -f modules/core/cressNcbiImporterMasterReferences.xml ncbiImporterCress
-
-# Download NCBI sequences 
-module ncbiImporterCress import
-
-export source ncbi-refseqs
