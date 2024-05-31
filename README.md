@@ -1,10 +1,8 @@
 # CRESS-GLUE: Phylogenomic Analysis of CRESS DNA viruses
 
-Welcome to CRESS-GLUE, a sequence-oriented resource for comparative genomic analysis of CRESS DNA viruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
-
 ## Overview
 
-**CRESS DNA viruses** (family *Hepadnaviridae*) are reverse-transcribing DNA viruses that infect vertebrates. The type species - hepatitis B virus (HBV) - is estimated to infect ~300 million people worldwide, causing substantial morbidity and mortality. Recent studies have revealed that CRESS DNA viruses infect a diverse range of vertebrate species, ranging from fish to mammals. They are associated with disease in many of these species. 
+Welcome to CRESS-GLUE, a sequence-oriented resource for comparative genomic analysis of circular Rep-encoding single-stranded DNA (CRESS DNA) viruses (phylum Cressdnaviricota), developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
 **[GLUE](https://github.com/giffordlabcvr/gluetools)** is an open, integrated software toolkit designed for storing and interpreting sequence data. It supports the creation of bespoke projects, incorporating essential data items for comparative genomic analysis, such as sequences, multiple sequence alignments, genome feature annotations, and other associated data.
 
