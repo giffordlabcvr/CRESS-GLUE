@@ -12,7 +12,7 @@ Projects are loaded into the GLUE "engine," forming a relational database that r
 
 This **CRESS-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
 
-  - **[CRESS-GLUE-EVE](https://github.com/giffordlabcvr/CRESS-GLUE-EVE)**: extends CRESS-GLUE through the incorporation of CRESS DNA virus-derived endogenous viral elements.
+  - **[CRESS-GLUE-EVE](https://github.com/giffordlabcvr/CRESS-GLUE-EVE)**: extends CRESS-GLUE through the incorporation of CRESS DNA virus-derived **endogenous viral elements (EVEs)**.
 
 
 ## Table of Contents
