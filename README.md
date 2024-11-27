@@ -41,11 +41,23 @@ For more details, please see the **[User Guide](https://github.com/giffordlabcvr
 
 * * * * *
 
-## Installation
+Installation
+------------
 
-If you have not done so already, install the GLUE software framework by following the [installation instructions](http://glue-tools.cvr.gla.ac.uk/#/installation) on the GLUE web site: 
+To install CRESS-GLUE, follow the instructions provided in the **[User Guide](https://github.com/giffordlabcvr/CRESS-GLUE/wiki)**.
 
-Download the CRESS-GLUE repository, navigate into the top-level directory, and start the GLUE command line interpreter.
+You can choose between:
+
+-   **[Docker-based installation](https://github.com/giffordlabcvr/CRESS-GLUE/wiki/Docker-Installation)** for ease of deployment.
+-   **[Native installation](https://github.com/giffordlabcvr/CRESS-GLUE/wiki/Native-Installation)** for traditional setup.
+
+CRESS-GLUE can be installed as a prebuilt database for quick setup or constructed from scratch for more customization.
+
+* * * * *
+
+## Usage
+
+For detailed instructions on how to use Parvovirus-GLUE for comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/CRESS-GLUE/wiki)**.
 
 * * * * *
 
