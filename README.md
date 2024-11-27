@@ -1,4 +1,4 @@
-# CRESS-GLUE: Phylogenomic Analysis of CRESS DNA viruses
+# CRESS-GLUE
 
 ## Overview
 
