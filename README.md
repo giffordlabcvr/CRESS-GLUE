@@ -14,17 +14,9 @@ This **CRESS-GLUE**  project can be extended with additional layers, openly avai
 
   - **[CRESS-GLUE-EVE](https://github.com/giffordlabcvr/CRESS-GLUE-EVE)**: extends CRESS-GLUE through the incorporation of CRESS DNA virus-derived **endogenous viral elements (EVEs)**.
 
+For more details, please see the **[User Guide](https://github.com/giffordlabcvr/CRESS-GLUE/wiki)**.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Sources](#data-sources)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+* * * * *
 
 ## Key Features
 
@@ -46,7 +38,8 @@ This **CRESS-GLUE**  project can be extended with additional layers, openly avai
 - **Predefined Reference Sequences**: Includes fully-annotated reference sequences for CRESS species.
   
 - **Alignment Trees**: Links alignments constructed at distinct taxonomic levels, maintaining a standardised coordinate system.
-  
+
+* * * * *
 
 ## Installation
 
@@ -54,29 +47,7 @@ If you have not done so already, install the GLUE software framework by followin
 
 Download the CRESS-GLUE repository, navigate into the top-level directory, and start the GLUE command line interpreter.
 
-### Steps
-
-1. **Build the Core Project**:
-   
-```
-   Mode path: /
-   GLUE> run file buildCoreProject.glue
-```
-
-This will build the base project, which contains a minimal set of feature definitions, clade categories, reference sequences, and alignments.
-
-## Usage
-
-GLUE contains an interactive command line environment focused on the development and use of GLUE projects by bioinformaticians. This provides a range of productivity-oriented features such as automatic command completion, command history and interactive paging through tabular data. 
-
-For detailed instructions on how to use CRESS-GLUE for your comparative genomic analysis, refer to the GLUE's [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
-
-## Data Sources
-
-CRESS-GLUE relies on the following data sources:
-
-- [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore)
-
+* * * * *
 
 ## Contributing
 
@@ -84,12 +55,16 @@ We welcome contributions from the community! If you're interested in contributin
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./md/code_of_conduct.md)
 
+* * * * *
 
 ## License
 
 The project is licensed under the [GNU Affero General Public License v. 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
+* * * * *
+
 ## Contact
 
 For questions, issues, or feedback, please open an issue on the [GitHub repository](https://github.com/giffordlabcvr/CRESS-GLUE/issues).
 
+* * * * *
